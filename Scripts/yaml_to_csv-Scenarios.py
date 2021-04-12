@@ -88,6 +88,8 @@ try:
                                                 if data['states'][key_state]['reactions']['effectsPerIncrement'] != None:
                                                     for key_increment in data['states'][key_state]['reactions']['effectsPerIncrement']:
                                                         for key_effect in data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]:
+                                                            if key_effect == 'commsOnStart':
+                                                                if data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]['commsOnStart'] != None:
                                                             for key_commsOnStart in data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]['commsOnStart']:
                                                                 data_commsOnStart = yaml.safe_load(yaml.safe_dump(key_commsOnStart))
                                                                 for key_comm in data_commsOnStart:
@@ -98,14 +100,14 @@ try:
                                                                                     if data_commsOnStart['custom'][key_custom] != None:
                                                                                         textVal = str(data_commsOnStart['custom'][key_custom]).replace('"', '""')
                                                                                         i += 1
-                                                                                        text_str = src_stem + ',' + str(i) + ',' + str('steps') + ',' + str(key_step) + ',' + str('textHeader') + ',\"' + textVal + '\"\n'
+                                                                                                text_str = src_stem + ',' + str(i) + ',' + str('states') + ',' + str(key_step) + ',' + str('textHeader') + ',\"' + textVal + '\"\n'
                                                                                         print(text_str)
                                                                                         dst.write(text_str)
                                                                                 elif key_custom == 'textContent':
                                                                                     for textContent in data_commsOnStart['custom']['textContent']:
                                                                                         textVal = str(textContent).replace('"', '""')
                                                                                         i += 1
-                                                                                        text_str = src_stem + ',' + str(i) + ',' + str('steps') + ',' + str(key_step) + ',' + str('textContent') + ',\"' + textVal + '\"\n'
+                                                                                                text_str = src_stem + ',' + str(i) + ',' + str('states') + ',' + str(key_step) + ',' + str('textContent') + ',\"' + textVal + '\"\n'
                                                                                         print(text_str)
                                                                                         dst.write(text_str)
 
