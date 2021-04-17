@@ -1,4 +1,6 @@
-# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/Equipment/Tags'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Combat/Comms'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Combat/Stats'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Combat/UnitGroups'
 
 import sys
 import argparse
@@ -10,21 +12,21 @@ import yaml
 ls = list(pathlib.Path('PATH').glob('*.yaml'))
 
 # TODO: Set output name
-dst_path = pathlib.PurePath('Tags-EN.csv')
+dst_path = pathlib.PurePath('UnitGroups-EN.csv')
 
 
 try:
     # TODO: Set encoding of csv for your language
+    # TODO: Windows can't en/decode some characters like '\u2014'. Replace them before
     with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
 
-
+        i = 0
         for p in ls:
             src_path = pathlib.PurePath(p)
             print(src_path)
 
             src_name = src_path.name
             src_stem = src_path.stem
-
 
     
             with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
@@ -68,16 +70,24 @@ try:
                 yaml.add_constructor(u'!UnitPresetEmbedded', constructor_UnitPresetEmbedded)
         
                 data = yaml.load(src,yaml.FullLoader)
-                i = 0
 
-                for key_block in data['blocks']:
-                    textShort = data['blocks'][key_block]['textShort']
-                    textLong = data['blocks'][key_block]['textLong']
-                    if textShort != None and textLong != None:
-                        i += 1
-                        text_str = src_stem + ',' + str(i) + ',' + str(key_block) + ',' + str(textShort) + ',\"' + str(textLong) + '\"\n'
-                        print(text_str)
-                        dst.write(text_str)
+                for key_item in data:
+                    if key_item == 'textHeader' or key_item == 'textName' or key_item == 'textSubtitle' or key_item == 'textTooltip' or key_item == 'description':
+                        if data[key_item] != None:
+                            textVal = str(data[key_item]).replace('"', '""')
+                            i += 1
+                            text_str = src_stem + ',' + str(i) + ',' + str(key_item) + ',\"' + textVal + '\"\n'
+                            print(text_str)
+                            dst.write(text_str)
+
+                    elif key_item == 'textContent':
+                        if data[key_item] != None:
+                            for text in data[key_item]:
+                                textVal = str(text).replace('"', '""')
+                                i += 1
+                                text_str = src_stem + ',' + str(i) + ',' + str(key_item) + ',\"' + textVal + '\"\n'
+                                print(text_str)
+                                dst.write(text_str)
 
 
 except Exception as e:
