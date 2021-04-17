@@ -17,7 +17,7 @@ dst_path = pathlib.PurePath('Provinces-EN.csv')
 try:
     # TODO: Set encoding of csv for your language
     # TODO: Windows can't en/decode some characters like '\u2014'. Replace them before
-    with open(dst_path, 'w', encoding='shift_jis', errors='strict') as dst:
+    with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
 
         i = 0
         for p in ls:

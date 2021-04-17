@@ -20,7 +20,7 @@ try:
     with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
 
         # TODO: Set encoding of csv for your language
-        with open(dst_path, 'w', encoding='shift_jis', errors='strict') as dst:
+        with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
 
             def constructor_ActionCallArgInt(loader, node):
                 return '!ActionCallArgInt'
