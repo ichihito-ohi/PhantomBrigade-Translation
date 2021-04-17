@@ -37,6 +37,12 @@ try:
                     return '!AreaLocation'
                 def constructor_AreaLocationFilter(loader, node):
                     return '!AreaLocationFilter'
+                def constructor_EventCallArgInt(loader, node):
+                    return '!EventCallArgInt'
+                def constructor_EventCallArgString(loader, node):
+                    return '!EventCallArgString'
+                def constructor_EventCallArgStringList(loader, node):
+                    return '!EventCallArgStringList'
                 def constructor_UnitFilter(loader, node):
                     return '!UnitFilter'
                 def constructor_UnitGroupEmbedded(loader, node):
@@ -47,25 +53,19 @@ try:
                     return '!UnitPresetLink'
                 def constructor_UnitPresetEmbedded(loader, node):
                     return '!UnitPresetEmbedded'
-                def constructor_EventCallArgInt(loader, node):
-                    return '!EventCallArgInt'
-                def constructor_EventCallArgString(loader, node):
-                    return '!EventCallArgString'
-                def constructor_EventCallArgStringList(loader, node):
-                    return '!EventCallArgStringList'
 
                 yaml.add_constructor(u'!ActionCallArgInt', constructor_ActionCallArgInt)
                 yaml.add_constructor(u'!ActionCallArgString', constructor_ActionCallArgString)
                 yaml.add_constructor(u'!AreaLocation', constructor_AreaLocation)
                 yaml.add_constructor(u'!AreaLocationFilter', constructor_AreaLocationFilter)
+                yaml.add_constructor(u'!EventCallArgInt', constructor_EventCallArgInt)
+                yaml.add_constructor(u'!EventCallArgString', constructor_EventCallArgString)
+                yaml.add_constructor(u'!EventCallArgStringList', constructor_EventCallArgStringList)
                 yaml.add_constructor(u'!UnitFilter', constructor_UnitFilter)
                 yaml.add_constructor(u'!UnitGroupEmbedded', constructor_UnitGroupEmbedded)
                 yaml.add_constructor(u'!UnitGroupFilter', constructor_UnitGroupFilter)
                 yaml.add_constructor(u'!UnitPresetLink', constructor_UnitPresetLink)
                 yaml.add_constructor(u'!UnitPresetEmbedded', constructor_UnitPresetEmbedded)
-                yaml.add_constructor(u'!EventCallArgInt', constructor_EventCallArgInt)
-                yaml.add_constructor(u'!EventCallArgString', constructor_EventCallArgString)
-                yaml.add_constructor(u'!EventCallArgStringList', constructor_EventCallArgStringList)
         
                 data = yaml.load(src,yaml.FullLoader)
 
