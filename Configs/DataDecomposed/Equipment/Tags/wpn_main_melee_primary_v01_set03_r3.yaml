@@ -1,6 +1,0 @@
-blocks:
-  part_model:
-    textShort: PM-03 H Blade Razor
-    textLong: "モデル：BLADE\nBLADEは非常に軽量で衝撃ダメージが無い代わりに特定部位を破壊するのによく使用される。\n\nバリエーション：RAZOR\n全体的に高いダメージ性能を持ち優れたダメージを持つBLADEのバリエーション。\n\n製造：INVICTIS\n近接戦闘を重視した人間工学に基づいた装備を製造する。 "
-    spriteName:
-      name: s_icon_l32_part_arch_melee_sword

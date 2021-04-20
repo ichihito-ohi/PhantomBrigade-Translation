@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Auxiliary Reactor
-    textLong: 主要内部サブシステム：ウォーカーの動力となるリング型常温核融合チャンバー。最新型は封じ込めが最低限で済み一般的に入手可能な反応炉燃料セルで数か月運転できる。このシステム無しに機体は展開できない。
-    spriteName:
-      name: 

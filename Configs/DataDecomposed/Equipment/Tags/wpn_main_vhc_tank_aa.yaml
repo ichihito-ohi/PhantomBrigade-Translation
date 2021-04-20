@@ -1,6 +1,0 @@
-blocks:
-  part_category:
-    textShort: Autocannon
-    textLong: 小口径砲は軽装甲や空中の標的との交戦に使用される。
-    spriteName:
-      name: s_icon_l32_part_arch_tank_autocannon

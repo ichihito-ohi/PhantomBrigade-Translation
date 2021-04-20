@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Auxiliary Capacitor
-    textLong: キャパシターはメックの熱限界を改善する内部補助システムである。
-    spriteName:
-      name: 

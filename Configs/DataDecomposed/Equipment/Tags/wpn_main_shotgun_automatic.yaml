@@ -1,6 +1,0 @@
-blocks:
-  part_category:
-    textShort: Auto SG
-    textLong: オートマチックショットガンは近距離で壊滅的なダメージを与えるのに適しているが、結果として、使用者は重大なリスクに曝される。
-    spriteName:
-      name: s_icon_l32_part_arch_shotgun

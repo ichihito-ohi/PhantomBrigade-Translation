@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Auxiliary Plating
-    textLong: 内部補助装甲は使用部分に追加の耐久度を付与する。
-    spriteName:
-      name: 

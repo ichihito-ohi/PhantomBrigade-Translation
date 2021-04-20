@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Auxiliary Passive Cooling module
-    textLong: 冷却モジュールは機体の放熱を増加させる内部補助システムである。
-    spriteName:
-      name: 

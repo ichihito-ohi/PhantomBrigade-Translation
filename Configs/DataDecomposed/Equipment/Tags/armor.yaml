@@ -1,6 +1,0 @@
-blocks:
-  part_category:
-    textShort: Body part
-    textLong: メックの主要構造。内部上部構造とサブシステム懸架点が含まれる。武器と同様に、大量生産の機体部品のほとんどには合体サブシステムが予め組み込まれている。一部のバリエーションにはカスタマイズ可能な懸架点があり、カスタマイズの幅が広い。
-    spriteName:
-      name: s_icon_l32_part_structure
