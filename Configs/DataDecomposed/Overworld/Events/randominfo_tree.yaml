@@ -1,0 +1,111 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: step_01_tree
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.25
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  step_01_tree:
+    image: event_smoke_distant
+    textName: 遠くに何かある
+    textDesc: "パイロットのひとりが叫んだ。遠くに何かを発見したのだ。見てみると、木の下に何者かがいるようだ。"
+    options:
+    - shared: false
+      key: approach
+    - shared: false
+      key: ignore
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: []
+options:
+  approach:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: *o0
+    optionMood: ResearchInvestigating
+    textHeader: 近づく
+    textContent: 調べてみる価値はある。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartOverworldEvent
+      arg1: !EventCallArgStringList
+        value:
+        - randominfo_deserter
+      arg2: 
+    steps: 
+  ignore:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 無視する
+    textContent: 待ち伏せの可能性がある。
+    priority: 1
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

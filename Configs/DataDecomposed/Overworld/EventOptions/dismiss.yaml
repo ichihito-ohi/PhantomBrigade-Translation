@@ -1,0 +1,22 @@
+colorFromStep: false
+colorCustom: false
+colorKey: neutral_primary
+color:
+  r: 1
+  g: 1
+  b: 1
+  a: 1
+optionMood: Neutral
+textHeader: 却下する
+textContent: ''
+priority: 100
+completing: false
+stepByPriority: false
+stepFallbackMode: None
+stepFallbackKey: 
+check: 
+hopeChange: 
+memoryChangesInt: 
+memoryChangesFloat: 
+calls: 
+steps: 

@@ -1,0 +1,50 @@
+hidden: true
+parent: squad_invader
+tags:
+- role_attack
+textName: ''
+textDesc: 'この侵略軍のパトロール部隊は幻影旅団を捜索しながら複数地点を移動する。数機だけで構成されておりそれほど脅威ではない。部隊の全機を排除すればエリア内のより増強された施設を攻撃できる機会が開かれる。'
+textIdentifierGroup: ''
+image: ''
+core:
+  inventory: true
+  selectable: true
+  capturable: false
+  interactable: true
+  interactionRange: 11
+  hopeOnDefeat: false
+  destroyOnDefeat: true
+  destroyOnLoot: false
+  intelLocked: true
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
+factionBranch: 
+visual:
+  visualFromSquad: true
+  visualPrefabs:
+  - path: Content/Overworld/Squad_Army
+movement:
+  speed: 6
+  rotateToFacing: false
+ranges:
+  sensor: 95
+  recognition: 65
+  vision: 25
+intel:
+  detected: true
+  recognized: true
+  inSensorRange: true
+  inRecognitionRange: true
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

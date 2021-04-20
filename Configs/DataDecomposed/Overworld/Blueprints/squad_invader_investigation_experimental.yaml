@@ -1,0 +1,26 @@
+hidden: false
+parent: squad_invader_investigation
+tags:
+- branch_experimental
+textName: 調査部隊
+textDesc: ''
+textIdentifierGroup: squad_invader_experimental
+image: world_site_06
+core: 
+factionBranch:
+  factionBranch: branch_experimental
+visual:
+  visualFromSquad: true
+  visualPrefabs:
+  - path: Content/Overworld/Squad_Experimental
+movement: 
+ranges: 
+intel: 
+units: {}
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

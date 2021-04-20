@@ -1,0 +1,131 @@
+textName: Thank for Help
+hidden: true
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_intel
+    textName: ' 解放された人々'
+    textDesc: >-
+      現地の人々が立ち往生した女性とクルーの周りに集まってきた。あなたがこの地域で積んできた善行を彼らが耳にしていたおかげだ。
+
+
+      険しい田舎道に精通しているおかげで、彼らはすぐにトラクターを押し出して泥から解放した。
+
+
+      これで彼女もパイロットも出発の準備ができた。彼女は何度も感謝の言葉を述べた。
+    options:
+    - shared: false
+      key: thanks
+    - shared: false
+      key: reward
+    colorCustom: false
+    colorKey: restorative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Restorative
+    priority: 0
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  reward:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 物資を与える
+    textContent: >-
+      助けてくれた人々にお礼を贈る。
+
+      | +10 希望 | - 100 物資 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 100
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: 10
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -100
+      arg2: 
+    steps: 
+  thanks:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 離れる
+    textContent: >-
+      そろそろ行かなくては。
+
+      | +5 希望 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange:
+      context: Unscaled
+      offset: 5
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

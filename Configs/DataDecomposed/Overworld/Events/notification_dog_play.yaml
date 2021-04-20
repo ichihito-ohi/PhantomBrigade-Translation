@@ -1,0 +1,145 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.25
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  main:
+    image: event_dog
+    textName: ワンワン
+    textDesc: >-
+      パイロットが助けたサモエド犬があなたの所へやってくると足元でキャンキャン鳴いた。その大きな目と屈託のない笑顔であなたを見上げている。
+
+
+      足元に、よく噛まれたボールを落とした。
+    options:
+    - shared: false
+      key: ignore
+    - shared: false
+      key: yes
+    colorCustom: false
+    colorKey: restorative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Restorative
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/Pet_Dog
+            check: Bool
+            value: 1
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  ignore:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 無視する
+    textContent: >-
+      今は道草をしている場合ではない。
+
+      | -1 犬との絆 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/Pet_Dog_Loyalty
+        value: -1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  yes:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 犬と遊ぶ
+    textContent: >-
+      これまでずっと、良い子にしていた。
+
+      -10 疲労度 | +1 犬との絆  | 1.5 時間
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/Pet_Dog_Loyalty
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifyPlayerPilotsFatigue
+      arg1: !EventCallArgInt
+        value: -10
+      arg2: !EventCallArgInt
+        value: 0
+    steps: []
+actions: 
+actorUnits: []
+actorPilots:
+- source: Self
+  sort: Name
+  pick: Random
+  stepManual: 
+  check: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

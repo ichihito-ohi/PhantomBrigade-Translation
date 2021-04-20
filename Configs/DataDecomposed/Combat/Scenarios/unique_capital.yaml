@@ -1,0 +1,761 @@
+skipStatCalculations: false
+hidden: false
+textName: Capital Assault
+textDesc: ''
+textContextCustom: 
+timeLocked: true
+time: 6.9
+areaTagsUsed: false
+areaTags: 
+area: main_settlement_city_large_00
+squadUsed: true
+squadSize: 4
+loadImmediately: false
+externalLevelUsed: true
+exit: 
+customExitBehaviour:
+  victory:
+    lootUsed: true
+    debriefingUsed: true
+    ejectionsUsed: true
+    calls:
+    - OnEndCapital
+  defeat: 
+musicDynamic: true
+actionBlocklist: []
+customPlayerSlot: 
+stepOnStart: 01_standingarmy
+tags:
+- listed
+- unique_capital
+- difficulty_veryhard
+- unique
+- type_elimination
+states:
+  01_standingarmy_turn:
+    textName: 支援部隊が接近中
+    textDesc: 3 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 2
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+  02_support_turn:
+    textName: 特殊作戦部隊が接近中
+    textDesc: 6 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 5
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+  03_specops_turn:
+    textName: 実験部隊が接近中
+    textDesc: 9 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 8
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+  04_experimental_turn:
+    textName: 予備軍部隊が接近中
+    textDesc: 12 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 11
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+  05_recruits_turn:
+    textName: HVT が接近中
+    textDesc: 15 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 14
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+steps:
+  01_standingarmy:
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    textCurrentPrimary: 首都解放
+    textCurrentSecondary: 最高司令部のすぐそばに乗り込むと敵の注意を引くことに繋がる。我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_army
+        countMin: 2
+        countMax: 2
+        countRandom: true
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: true
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      - key: tank_cannon
+        countMin: 2
+        countMax: 3
+        countRandom: true
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: true
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      - key: tank_aa
+        countMin: 2
+        countMax: 3
+        countRandom: true
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: true
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_inner: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: uncertainty
+      executionAllowed: true
+    musicIntensity:
+      f: 10
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 
+      custom:
+        texture: pilot_enemy
+        duration: 10
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / パトロール
+        textContent:
+        - 最高司令部から0.5キロの位置に驚異の高い兆候を検知しています。すでに増援が進行中のはずですから、境界線警報に引っかかったに違いありません。他の皆が到着する前に、急いでこれに対処しましょう。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        01_standingarmy_turn: true
+      stepKey: 02_support
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - 02_support
+  02_support:
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 0
+    textCurrentPrimary: 首都解放
+    textCurrentSecondary: 支援部隊が到着した。我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_support
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 2
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      - key: tank_cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      - key: tank_aa
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_nw: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: uncertainty
+      executionAllowed: true
+    musicIntensity:
+      f: 20
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 
+      custom:
+        texture: pilot_enemy
+        duration: 10
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / 即応部隊
+        textContent:
+        - 応援が到着。早くこれを済ませて、お偉方に出て来る必要はないと教えてやろう。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        02_support_turn: true
+      stepKey: 03_specops
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - 03_specops
+  03_specops:
+    color: *o0
+    textCurrentPrimary: 首都解放
+    textCurrentSecondary: 特殊作戦部隊司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_specops_commander
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 2
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      - key: mech_specops
+        countMin: 2
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 1
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_sw: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: fear
+      executionAllowed: true
+    musicIntensity:
+      f: 10
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 
+      custom:
+        texture: pilot_enemy
+        duration: 10
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / リーダー（支援部隊）
+        textContent:
+        - 出撃、全機始末しろ。誰も生きて帰すな、ここに来たことが間違いだと教えねばならん。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        03_specops_turn: true
+      stepKey: 04_experimental
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - 04_experimental
+  04_experimental:
+    color: *o0
+    textCurrentPrimary: 首都解放
+    textCurrentSecondary: 実験師団のリーダーが現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_experimental_commander
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 1
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      - key: mech_experimental
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 1
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_ne: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: fear
+      executionAllowed: true
+    musicIntensity:
+      f: 20
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 
+      custom:
+        texture: pilot_enemy
+        duration: 10
+        audioUsed: false
+        audioKey: 
+        textHeader: 直通回線 / リーダー（実験部隊）
+        textContent:
+        - 嗚呼、かの有名な旅団じゃないか。あなたたちのウォーカーを解剖できる日を楽しみにしていたよ。そのパイロットを一掃しなくてはならばいが、なに心配はいらない、時間はかからないさ。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        04_experimental_turn: true
+      stepKey: 05_recruits
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - 05_recruits
+  05_recruits:
+    color: *o0
+    textCurrentPrimary: 首都解放
+    textCurrentSecondary: 予備軍司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_reservs_commander
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 3
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      - key: mech_reservs
+        countMin: 3
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: -3
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_se: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: uncertainty
+      executionAllowed: true
+    musicIntensity:
+      f: 20
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 
+      custom:
+        texture: pilot_enemy
+        duration: 10
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / リーダー（予備軍）
+        textContent:
+        - 増援はどこなんだ？現地の守備隊はほとんど出払っているが、いつになったら我々の部隊を助けに来るんだ？
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        05_recruits_turn: true
+      stepKey: 06_boss
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - 06_boss
+  06_boss:
+    color: *o0
+    textCurrentPrimary: 首都解放
+    textCurrentSecondary: "将軍を戦いに引っ張り出した。ケリをつける時だ：最高司令部を無力化して敵軍の命令系統を混乱させるためにヤツを倒せ。"
+    allowOutcomeVictory: true
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_boss
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 4
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      - key: mech_bossguard
+        countMin: 3
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 1
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom: 
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_w: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: optimism
+      executionAllowed: true
+    musicIntensity:
+      f: 20
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 
+      custom:
+        texture: pilot_enemy
+        duration: 10
+        audioUsed: false
+        audioKey: 
+        textHeader: 直通回線 / 大将
+        textContent:
+        - もう沢山だ。お前がこの街にしたことをその目に焼き付けて、祈るんだな。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionStart
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: []
+unitPresets:
+  mech_army: !UnitFilter
+    tagsFromOverworld: false
+    tags:
+      branch_army: true
+  mech_boss: !UnitPresetLink
+    preset: elite_commander_mech
+  mech_bossguard: !UnitPresetLink
+    preset: elite_guard_mech
+  mech_experimental: !UnitFilter
+    tagsFromOverworld: false
+    tags:
+      branch_experimental: true
+  mech_experimental_commander: !UnitPresetLink
+    preset: experimental_leader﻿_mech_2
+  mech_reservs: !UnitFilter
+    tagsFromOverworld: false
+    tags:
+      branch_reserves: true
+  mech_reservs_commander: !UnitPresetLink
+    preset: reserves_leader﻿_mech_2
+  mech_specops: !UnitFilter
+    tagsFromOverworld: false
+    tags:
+      branch_specops: true
+  mech_specops_commander: !UnitPresetLink
+    preset: specops_commander_mech
+  mech_support: !UnitFilter
+    tagsFromOverworld: false
+    tags:
+      branch_army: true
+  mech_support_commander: !UnitPresetLink
+    preset: army_commander_mech
+  tank_aa: !UnitPresetLink
+    preset: vhc_tank_generic_short_1
+  tank_cannon: !UnitPresetLink
+    preset: vhc_tank_generic_long_1
+tabIndex: 0
+tabsLocal: false

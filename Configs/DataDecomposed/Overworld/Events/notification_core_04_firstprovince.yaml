@@ -1,0 +1,86 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: step_00_entry
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 0
+  completionOnTarget: 0
+trackCompletionOnSelf: true
+trackCompletionOnTarget: true
+evaluationOverTime: true
+evaluationInterval: Short
+steps:
+  step_00_entry:
+    image: event_smoke_distant
+    textName: 敵地
+    textDesc: "あなたの祖国が陥落して以来、侵略者たちは軍事基地を建設してすべての集落と施設で再軍備を進めました。あなたはこの州を解放するのに十分な敵を倒してきましたが、首都と侵略者の国境に近づくにつれて、敵はより手ごわく戦いはより苛烈になるでしょう。\n\n侵略者が反撃してくるかもしれません。注意して進めることをお勧めします：堅く防衛された場所に取り組む前に装備を多く見つけることが最善です。\n\n待ち伏せするために敵パトロールを見つけ、倒し、より高度な部品を回収してみましょう。"
+    options:
+    - shared: false
+      key: continue
+    colorCustom: false
+    colorKey: negative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Warning
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Tutorial/NewProvince
+            check: Bool
+            value: 1
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  continue:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Warning
+    textHeader: OK
+    textContent: 
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

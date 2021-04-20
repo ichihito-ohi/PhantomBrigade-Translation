@@ -1,0 +1,34 @@
+ui:
+  color:
+    r: 0.6603774
+    g: 0.1650943
+    b: 0.1698942
+    a: 1
+  minified: false
+  locationFromTarget: true
+  textName: 警報！
+  textContext: ''
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が無事完了しました
+  textDesc: 敵軍が気づいて調査のために機体を送ってくる可能性があります。
+audio: 
+duration: 3
+cost: 0
+limitPerOwner: 0
+progressGroup: 0
+requireCombatParticipation: false
+completeOnCombatVictory: false
+terminateOnCombatDefeat: false
+requiresDeployment: false
+terminationAllowed: false
+callsOnTerminationBeforeCompletion: true
+callsOnStart: 
+callsOnTermination: 
+callsOnCompletion: 
+tags: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

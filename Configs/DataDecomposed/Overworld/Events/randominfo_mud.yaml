@@ -1,0 +1,224 @@
+textName: ''
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.25
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  main:
+    image: event_civilian_meeting
+    textName: 泥で立ち往生
+    textDesc: >-
+      雨が何時間も続いている。幸運にも、移動基地の車輪は田舎道の深い泥にも対応できている。
+
+
+      だが皆が皆こんなに装備が整っているわけはなく、あなたは立ち往生したトラクターと出会った。運転している女性は泥まみれになり疲れ果てているようだった。
+
+
+      『お願い』基地が止まると、女性が言った。『手を貸してくれませんか？』
+    options:
+    - shared: false
+      key: unstuck_02
+    - shared: false
+      key: unstuck_help
+    - shared: false
+      key: unstuck_01
+    - shared: false
+      key: leave
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 断る
+    textContent: >-
+      我々にこんなことをしている時間はないし、彼女もいずれ抜け出せるだろう。
+
+      | -10 希望 |
+    priority: 10
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange:
+      context: Unscaled
+      offset: -10
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  unstuck_01:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Positive
+    textHeader: 押すのを手伝う
+    textContent: >-
+      着替えて彼女に手を貸す。
+
+      | 6 時間 |
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: recovery_manual_01
+        mode: DatabaseAction
+      arg2: 
+    steps: 
+  unstuck_02:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Positive
+    textHeader: 機材を使う
+    textContent: >-
+      ここには何か役立つ装備があるはずだ。
+
+      | 3 時間 | -200 物資 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 200
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionIsolated
+      arg1: !EventCallArgString
+        value: recovery_manual_02
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -200
+      arg2: 
+    steps: 
+  unstuck_help:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Positive
+    textHeader: 市民の助けを得る
+    textContent: >-
+      ここは希望が高く、地元の助けを仲介できます。
+
+      | 1 時間 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory: 
+        faction: 
+        access: 
+        hope:
+          context: Percent
+          checks:
+          - check: GreaterEqual
+            value: 30
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionIsolated
+      arg1: !EventCallArgString
+        value: recovery_help
+        mode: DatabaseAction
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

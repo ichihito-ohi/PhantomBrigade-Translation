@@ -1,0 +1,17 @@
+textName: 予備軍
+textDesc: 変わり者のエリートスペシャリストが率いる予備軍の混成部隊。スキル不足と経験不足を、膨大な数で埋め合わせる。
+unitGroupTags:
+  branch_reserves: true
+unitPresetTags:
+  branch_reserves: true
+unitPartFilters:
+  mech:
+    filters:
+      body:
+      - tags:
+          mnf_armor_04: true
+      - tags:
+          mnf_armor_01: true
+      equipment:
+      - tags:
+          mnf_wpn_01: true

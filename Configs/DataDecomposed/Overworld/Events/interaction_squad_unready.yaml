@@ -1,0 +1,87 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: false
+stepOnStart: main
+priority: 80
+group: 1
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_empty_base
+    textName: 多勢に無勢
+    textDesc: 敵機部隊が基地の攻撃可能距離に到達した。しかしあなたには出撃させられる機体がひとつも無いため、逃げる以外に選択肢がない。
+    options:
+    - shared: true
+      key: fallback
+    - shared: true
+      key: use_smoke_01
+    - shared: true
+      key: use_smoke_02
+    - shared: true
+      key: use_smoke_03
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 0.3921569
+      b: 0.3254902
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady:
+          ready: false
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: squad
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: true
+        unpacked: 
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

@@ -1,0 +1,454 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_underground_market
+    textName: 市場
+    textDesc: >-
+      基地が道路脇の小さな露店の傍で減速する。道路は静かだ。パイロットのひとりが働いている者に尋ねた。『この辺は商売繁盛してますか？』
+
+
+      『あまり』屋台の持ち主が答える。『でも商品を抱えて旅をするのはもう危なすぎる。人助けだと思って取引しないか？そしたらみんなに良い奴だって伝えるさ。』
+    options:
+    - shared: false
+      key: trade_huge
+    - shared: false
+      key: trade_large
+    - shared: false
+      key: trade_medium
+    - shared: false
+      key: trade_small
+    - shared: false
+      key: trade_tiny
+    - shared: false
+      key: leave
+    colorCustom: false
+    colorKey: restorative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Restorative
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: type_civilmarket
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 離れる
+    textContent: >-
+      ここには大したものも無い。
+
+      | 取引の選択肢が選べない場合は、取引に十分な物資がありません |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  trade_huge:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 取引する
+    textContent: >-
+      役立ちそうな商品だ。
+
+      | +25 希望 | -1250 物資で購入 | +1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 1250
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_huge
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: 25
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: -1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -1250
+      arg2: 
+    steps: []
+  trade_large:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 取引する
+    textContent: >-
+      役立ちそうな商品だ。
+
+      | +20 希望 | -1000 物資で購入 | +1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 1000
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_large
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: 20
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: -1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -1000
+      arg2: 
+    steps: []
+  trade_medium:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 取引する
+    textContent: >-
+      役立ちそうな商品だ。
+
+      | +15 希望 | -750 物資で購入 | +1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 750
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_medium
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: 15
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: -1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -750
+      arg2: 
+    steps: []
+  trade_small:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 取引する
+    textContent: >-
+      役立ちそうな商品だ。
+
+      | +10 希望 | -500 物資で購入 | +1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 500
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_small
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: 10
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: -1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -500
+      arg2: 
+    steps: []
+  trade_tiny:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 取引する
+    textContent: >-
+      役立ちそうな商品だ。
+
+      | +5 希望 | -250 物資で購入 | +1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 250
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_tiny
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: 5
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: -1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -250
+      arg2: 
+    steps: []
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

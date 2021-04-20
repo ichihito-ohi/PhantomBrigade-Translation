@@ -1,0 +1,126 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: step_00_spawn
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  step_00_spawn:
+    image: event_hologram_default
+    textName: ブラックマーケット
+    textDesc: >-
+      移動基地が着いたとき、あなたはその中で運営方針について考えを巡らせていた。報告を求めると、やがてパイロットのひとりがあなたの元に戻ってきた。
+
+
+      『現地まで彼を追うことは可能だと言う者もいますし、面白い部品を持っているかもしれないという者もいますが、この周辺はパトロールが多すぎます。』彼女が報告する。『わかりませんが、彼を信じるなら、あるいは...ボス。』
+    options:
+    - shared: true
+      key: dismiss
+    colorCustom: false
+    colorKey: negative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Negative
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/BlackMarketInfluence
+            check: LessEqual
+            value: 1
+          - key: World/Counter/BlackMarketInfluence
+            check: GreaterEqual
+            value: -3
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 500
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateOverworldEntity
+      arg1: !EventCallArgString
+        value: blackmarket_tiny
+        mode: CustomSpawnData
+      arg2: 
+options:
+  continue:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: *o0
+    optionMood: ResearchInvestigating
+    textHeader: 続ける
+    textContent: ''
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData:
+  blackmarket_tiny:
+    locationProvider: SourceProvince
+    provinceKey: 
+    spawnGroupKey: general_dynamic
+    generationProfileCustom: false
+    generationProfileKey: blackmarket_general_tiny
+    generationProfile: 
+    faction: Phantoms
+    memoryChangesInt: []
+    memoryChangesFloat: []
+tabsLocal: false

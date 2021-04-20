@@ -1,0 +1,71 @@
+hidden: false
+parent: 
+tags:
+- status_undefended
+- unique_warmemorial
+textName: 戦争記念館
+textDesc: ''
+textIdentifierGroup: site_cache
+image: world_site_08
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: true
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Phantoms
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Battlefield
+movement: 
+ranges: 
+intel:
+  detected: true
+  recognized: true
+  inSensorRange: false
+  inRecognitionRange: false
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards:
+  blocks:
+    obj_capture_loot:
+    - supplies: 
+      parts:
+      - preset: 
+        tagsUsed: true
+        tags:
+          body_part: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 2
+        levelRandom: true
+      - preset: 
+        tagsUsed: true
+        tags:
+          item_part: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 2
+        levelRandom: true
+      subsystems: 

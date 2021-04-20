@@ -1,0 +1,127 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 0
+trackCompletionOnSelf: false
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Short
+steps:
+  main:
+    image: event_civilian_meeting
+    textName: 亡命者は救助された
+    textDesc: >-
+      戦闘により疲弊はしたが、あなたの部隊は勝利を収めた。亡命者は無事で、ラジオ局から救出することができた。
+
+
+
+      『あなたが間に合ってくれるか心配だった。』彼女が言う。彼女の顔に安堵の表情が浮かぶ。『手引きと引き換えに情報を約束したんだったわね？』
+
+
+
+      彼女があなたに一束の資料を手渡す。開いてみると貴重な設計図面が見つかった。彼女は他にもラジオ局から物資をいくつか持ってきていた。
+    options:
+    - shared: false
+      key: rescuedefector
+    colorCustom: true
+    colorKey: positive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Positive
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: unique_station_defector
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  rescuedefector:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Positive
+    textHeader: 亡命者を救出する
+    textContent: >-
+      続ける
+
+      | +300 物資 |
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Bool
+        key: World/Tag/DefectorRescued
+        value: 1
+      context: Target
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: 300
+      arg2: 
+    steps: 
+actions:
+  resetCompletionOnOwner: []
+  resetCompletionOnTarget: []
+actorUnits: []
+actorPilots: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

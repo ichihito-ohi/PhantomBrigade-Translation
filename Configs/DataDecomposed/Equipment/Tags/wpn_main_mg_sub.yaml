@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: SMG
+    textLong: サブマシンガンは精度より発射速度とダメージを優先しており、アサルトライフルに似ているがさらに軽量である。
+    spriteName:
+      name: s_icon_l32_part_arch_smg

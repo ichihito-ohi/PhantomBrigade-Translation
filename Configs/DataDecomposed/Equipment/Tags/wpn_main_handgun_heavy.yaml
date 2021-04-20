@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Heavy HG
+    textLong: ヘビーサイドアームは発射速度と引き換えにダメージが増している。
+    spriteName:
+      name: s_icon_l32_part_arch_sidearm

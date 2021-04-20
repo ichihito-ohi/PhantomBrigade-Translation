@@ -1,0 +1,463 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_underground_market
+    textName: ブラックマーケット
+    textDesc: >-
+      疑わしさもあったが、あなたは男の後に続きブラックマーケットの場所へ向かった。基地が停車すると、あなたは様子を見に外へ出た。
+
+
+
+      男は使い古した帽子と皮手袋を着けている。あまりに満面の笑みで気に食わない。彼が手を取ってきた。
+
+
+
+      『あぁ、あんたがここの責任者に違いない。』彼が話し出す。『いいね、いいね。あんたならこれがどれだけ良い取引かわかってくれるだろう。』
+
+
+
+      彼はトラックの後ろに積んだ装備を見せる。言う通りだ、見たところ悪くない。
+    options:
+    - shared: false
+      key: trade_huge
+    - shared: false
+      key: trade_large
+    - shared: false
+      key: trade_medium
+    - shared: false
+      key: trade_small
+    - shared: false
+      key: trade_tiny
+    - shared: true
+      key: leave
+    colorCustom: false
+    colorKey: negative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Negative
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: type_blackmarket
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 離れる
+    textContent: >-
+      どうせ詐欺師だろう。
+
+      | 取引の選択肢がない場合、取引に十分な物資がありません |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  trade_huge:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 取引する
+    textContent: >-
+      こんな良い取引を見逃せなかった。
+
+      | -25 希望 | -2500 物資 | -1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 2500
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_huge
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: -25
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -2500
+      arg2: 
+    steps: []
+  trade_large:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 取引する
+    textContent: >-
+      こんな良い取引を見逃せなかった。
+
+      | -20 希望 | -2000 物資 | -1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 2000
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_large
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: -20
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -2000
+      arg2: 
+    steps: []
+  trade_medium:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 取引する
+    textContent: >-
+      こんな良い取引を見逃せなかった。
+
+      | -15 希望 | -1500 物資 | -1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 1500
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_medium
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: -15
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -1500
+      arg2: 
+    steps: []
+  trade_small:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 取引する
+    textContent: >-
+      こんな良い取引を見逃せなかった。
+
+      | -10 希望 | -1000 物資 | -1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 1000
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_small
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: -10
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -1000
+      arg2: 
+    steps: []
+  trade_tiny:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 取引する
+    textContent: >-
+      こんな良い取引を見逃せなかった。
+
+      | -5 希望 | -500 物資 | -1 市場の安定度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 500
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: size_tiny
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange:
+      context: Unscaled
+      offset: -5
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/BlackMarketInfluence
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: trade
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -500
+      arg2: 
+    steps: []
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

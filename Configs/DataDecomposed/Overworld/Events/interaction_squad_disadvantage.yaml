@@ -1,0 +1,125 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: false
+stepOnStart: step_00_attack
+priority: 100
+group: 1
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  step_00_attack:
+    image: event_smoke_distant
+    textName: 攻撃しろ！
+    textDesc: 敵部隊が基地に狙いを定め戦闘が迫っている。あなたの運転士によると、もし敵に立ち向かう準備ができていないならば、緊急退避を実行することも可能なそうだ。あるいは、パイロットに戦わせなくては。
+    options:
+    - shared: true
+      key: leave_debug
+    - shared: false
+      key: combat
+    - shared: true
+      key: use_smoke_03
+    - shared: true
+      key: use_smoke_02
+    - shared: true
+      key: use_smoke_01
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 0.3921569
+      b: 0.3254902
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady:
+          ready: true
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: squad
+          not: false
+        - tag: role_convoy
+          not: true
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: true
+        unpacked:
+          present: false
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: []
+options:
+  combat:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 0.8235295
+      g: 0.3176471
+      b: 0.2588235
+      a: 1
+    optionMood: Negative
+    textHeader: 出動準備
+    textContent: 戦闘前に準備が可能です。
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartCombatFromTagsCombined
+      arg1: !EventCallArgString
+        value: ScenarioFilter
+        mode: CustomTagFilter
+      arg2: 
+    - key: StopBase
+      arg1: 
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters:
+  ScenarioFilter:
+    tags: {}
+customSpawnData: 
+tabsLocal: false

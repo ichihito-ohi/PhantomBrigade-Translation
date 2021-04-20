@@ -1,0 +1,22 @@
+hidden: true
+parent: unique_blackmarket
+tags:
+- produce_general
+textName: ブラックマーケット
+textDesc: ''
+textIdentifierGroup: 
+image: 
+core: 
+factionBranch: 
+visual: 
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

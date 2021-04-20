@@ -1,0 +1,26 @@
+hidden: false
+parent: unique_oldbase_experimental
+tags:
+- hidden
+textName: 放棄された研究基地
+textDesc: ''
+textIdentifierGroup: site_cache
+image: world_site_08
+core: 
+factionBranch: 
+visual: 
+movement: 
+ranges: 
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

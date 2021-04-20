@@ -1,0 +1,255 @@
+description: 
+entries:
+  apply_settings:
+    text: >-
+      Apply
+
+      changes
+  audio_volume_main_desc:
+    text: '...'
+  audio_volume_main_level_0:
+    text: 0%
+  audio_volume_main_level_1:
+    text: 10%
+  audio_volume_main_level_10:
+    text: 100%
+  audio_volume_main_level_2:
+    text: 20%
+  audio_volume_main_level_3:
+    text: 30%
+  audio_volume_main_level_4:
+    text: 40%
+  audio_volume_main_level_5:
+    text: 50%
+  audio_volume_main_level_6:
+    text: 60%
+  audio_volume_main_level_7:
+    text: 70%
+  audio_volume_main_level_8:
+    text: 80%
+  audio_volume_main_level_9:
+    text: 90%
+  audio_volume_main_name:
+    text: Master Volume
+  audio_volume_music_desc:
+    text: '...'
+  audio_volume_music_level_0:
+    text: 0%
+  audio_volume_music_level_1:
+    text: 10%
+  audio_volume_music_level_10:
+    text: 100%
+  audio_volume_music_level_2:
+    text: 20%
+  audio_volume_music_level_3:
+    text: 30%
+  audio_volume_music_level_4:
+    text: 40%
+  audio_volume_music_level_5:
+    text: 50%
+  audio_volume_music_level_6:
+    text: 60%
+  audio_volume_music_level_7:
+    text: 70%
+  audio_volume_music_level_8:
+    text: 80%
+  audio_volume_music_level_9:
+    text: 90%
+  audio_volume_music_name:
+    text: Music Volume
+  audio_volume_sound_desc:
+    text: '...'
+  audio_volume_sound_level_0:
+    text: 0%
+  audio_volume_sound_level_1:
+    text: 10%
+  audio_volume_sound_level_10:
+    text: 100%
+  audio_volume_sound_level_2:
+    text: 20%
+  audio_volume_sound_level_3:
+    text: 30%
+  audio_volume_sound_level_4:
+    text: 40%
+  audio_volume_sound_level_5:
+    text: 50%
+  audio_volume_sound_level_6:
+    text: 60%
+  audio_volume_sound_level_7:
+    text: 70%
+  audio_volume_sound_level_8:
+    text: 80%
+  audio_volume_sound_level_9:
+    text: 90%
+  audio_volume_sound_name:
+    text: Sound Volume
+  audio_volume_voice_desc:
+    text: '...'
+  audio_volume_voice_level_0:
+    text: 0%
+  audio_volume_voice_level_1:
+    text: 10%
+  audio_volume_voice_level_10:
+    text: 100%
+  audio_volume_voice_level_2:
+    text: 20%
+  audio_volume_voice_level_3:
+    text: 30%
+  audio_volume_voice_level_4:
+    text: 40%
+  audio_volume_voice_level_5:
+    text: 50%
+  audio_volume_voice_level_6:
+    text: 60%
+  audio_volume_voice_level_7:
+    text: 70%
+  audio_volume_voice_level_8:
+    text: 80%
+  audio_volume_voice_level_9:
+    text: 90%
+  audio_volume_voice_name:
+    text: Voice Volume
+  display_mode_desc:
+    text: Controls whether the game is fullscreen or windowed
+  display_mode_level_fullscreen:
+    text: Fullscreen
+  display_mode_level_windowed:
+    text: Windowed
+  display_mode_name:
+    text: Display mode
+  display_resolution_desc:
+    text: Resolution the game renders at
+  display_resolution_name:
+    text: Display resolution
+  display_sync_desc:
+    text: Control over vertical sync
+  display_sync_level_full:
+    text: Full (60Hz)
+  display_sync_level_half:
+    text: Half (30Hz)
+  display_sync_level_off:
+    text: Off
+  display_sync_name:
+    text: Display sync
+  game_language_desc:
+    text: The language used for all the text displayed by the game
+  game_language_level_chinese:
+    text: Chinese / 汉语
+  game_language_level_japanese:
+    text: 日本語
+  game_language_level_english:
+    text: English
+  game_language_name:
+    text: Language
+  game_ui_scaling_desc:
+    text: Virtual resolution of the UI that affects its scale
+  game_ui_scaling_name:
+    text: UI scaling
+  graphics_texture_filtering_level_0:
+    text: Off
+  graphics_texture_filtering_level_1:
+    text: Enabled
+  graphics_texture_filtering_level_2:
+    text: Forced On
+  graphics_texture_filtering_name:
+    text: Anisotropic Filtering
+  graphics_texture_quality_level_0:
+    text: Full
+  graphics_texture_quality_level_1:
+    text: Half
+  graphics_texture_quality_level_2:
+    text: Quarter
+  graphics_texture_quality_level_3:
+    text: Eighth
+  graphics_texture_quality_name:
+    text: Texture Resolution
+  group_audio_name:
+    text: Audio
+  group_display_name:
+    text: Video
+  group_game_name:
+    text: Game
+  group_graphics_name:
+    text: Graphics
+  group_input_name:
+    text: Input
+  header_main:
+    text: Options
+  input_gamepad_look_invert_vertical_desc:
+    text: '...'
+  input_gamepad_look_invert_vertical_name:
+    text: Gamepad / Look inverted
+  input_gamepad_look_sensitivity_horizontal_desc:
+    text: '...'
+  input_gamepad_look_sensitivity_horizontal_name:
+    text: Gamepad / Look horizontal sensitivity
+  input_gamepad_look_sensitivity_vertical_desc:
+    text: '...'
+  input_gamepad_look_sensitivity_vertical_name:
+    text: Gamepad / Look vertical sensitivity
+  input_gamepad_move_sensitivity_desc:
+    text: '...'
+  input_gamepad_move_sensitivity_name:
+    text: Gamepad / Move sensitivity
+  input_gamepad_scrub_sensitivity_desc:
+    text: '...'
+  input_gamepad_scrub_sensitivity_name:
+    text: Gamepad / Timeline sensitivity
+  input_gamepad_zoom_sensitivity_desc:
+    text: '...'
+  input_gamepad_zoom_sensitivity_name:
+    text: Gamepad / Move sensitivity
+  input_keyboard_look_invert_vertical_desc:
+    text: '...'
+  input_keyboard_look_invert_vertical_name:
+    text: Keyboard / Look inverted
+  input_keyboard_look_sensitivity_horizontal_desc:
+    text: '...'
+  input_keyboard_look_sensitivity_horizontal_name:
+    text: Keyboard / Look horizontal sensitivity
+  input_keyboard_look_sensitivity_vertical_desc:
+    text: '...'
+  input_keyboard_look_sensitivity_vertical_name:
+    text: Keyboard / Look vertical sensitivity
+  input_keyboard_move_sensitivity_desc:
+    text: '...'
+  input_keyboard_move_sensitivity_name:
+    text: Keyboard / Move sensitivity
+  input_keyboard_zoom_sensitivity_desc:
+    text: '...'
+  input_keyboard_zoom_sensitivity_name:
+    text: Keyboard / Zoom sensitivity
+  input_mouse_edge_scrolling_desc:
+    text: When edge scrolling is enabled, the camera moves when the cursor is near the edge of the screen.
+  input_mouse_edge_scrolling_name:
+    text: Mouse / Edge scrolling
+  input_mouse_lock_to_window_desc:
+    text: '...'
+  input_mouse_lock_to_window_name:
+    text: Mouse / Lock to window
+  input_mouse_look_invert_vertical_desc:
+    text: '...'
+  input_mouse_look_invert_vertical_name:
+    text: Mouse / Look inverted
+  input_mouse_look_sensitivity_horizontal_desc:
+    text: '...'
+  input_mouse_look_sensitivity_horizontal_name:
+    text: Mouse / Look horizontal sensitivity
+  input_mouse_look_sensitivity_vertical_desc:
+    text: '...'
+  input_mouse_look_sensitivity_vertical_name:
+    text: Mouse / Look vertical sensitivity
+  input_mouse_move_sensitivity_desc:
+    text: '...'
+  input_mouse_move_sensitivity_name:
+    text: Mouse / Move sensitivity
+  input_mouse_zoom_sensitivity_desc:
+    text: '...'
+  input_mouse_zoom_sensitivity_name:
+    text: Mouse / Zoom sensitivity
+  level_default:
+    text: Undefined level
+  level_default_bool_false:
+    text: Off
+  level_default_bool_true:
+    text: On

@@ -1,0 +1,196 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: mountainbase
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 0
+  completionOnTarget: 0
+trackCompletionOnSelf: true
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Short
+steps:
+  mountainbase:
+    image: event_mountain_base
+    textName: フェルヘイム
+    textDesc: >-
+      この山岳基地は、パイロットを採用したり煙幕を製造したりできる便利な基地としてだけではなく、必要ならば退却できる前哨基地としても利用できます。
+
+
+      もしあなたがどこかですべての機体とパイロットを失ったら、この基地に撤退して部隊を再編することができます。撤退すると最低限の装備で新たな部隊が与えられます。（あなたが制圧した地域のうち最も高いレベルと同じレベルの装備です）
+
+
+      さて、ここフェルヘイムが解放されたので、あなたはこれからできる限り多くの地域を解放しながら首都に向けて道を切り開いていきましょう。
+    options:
+    - shared: false
+      key: mountainbase
+    colorCustom: false
+    colorKey: positive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/MountainBaseCaptured
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: objective_mountainbase
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+  salvaging:
+    image: event_salvage
+    textName: 戦闘後ルーチン
+    textDesc: "戦闘機体から部品を回収することが可能です。基地を停車させておく必要があり、攻撃に対して脆弱なままになるので、注意が必要です。\n\n戦闘可能状態を維持したい場合は、機体を修理して休息のためにパイロットを交代させることを忘れないでください。\n\nC戦闘は疲れるので、パイロットは戦闘後に必ず疲労ペナルティを受けます。疲労度は時間とともに減少します。疲労度に注意を払うことが重要です。―パイロットの疲労度が高いほど、耐えられる衝撃ダメージは少なくなります。\n\n全ての武器には衝撃ダメージと通常ダメージがあります。後方から攻撃されるとパイロットへの衝撃ダメージが倍増するので、常に背中を隠して敵の背後を取るようにしましょう。"
+    options:
+    - shared: false
+      key: salvage
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    eventMood: None
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: objective_mountainbase
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  mountainbase:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: None
+    textHeader: 続ける
+    textContent: ''
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Bool
+        key: World/Tag/MountainBaseCaptured
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls: 
+    steps:
+    - salvaging
+  salvage:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: construction_primary
+    color:
+      r: 0.811
+      g: 0.5852322
+      b: 0.195099
+      a: 1
+    optionMood: None
+    textHeader: 回収する
+    textContent: >-
+      回収部隊を出動させ物資や無傷の装備を収集します。
+
+      | 6 時間 |
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: salvage
+        mode: DatabaseAction
+      arg2: 
+    - key: StopBase
+      arg1: 
+      arg2: 
+    steps: []
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: {}
+tabsLocal: false

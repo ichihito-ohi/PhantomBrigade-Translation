@@ -1,0 +1,212 @@
+textName: pilot birthday
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.25
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  main:
+    image: event_hologram_default
+    textName: 誕生日のお願い
+    textDesc: >-
+      非番のあるとき、パイロットのひとりがあなたの所にやってきた。怯える羊のようだ。
+
+
+      『なぁボス、』彼が口を開く。『ほら、邪魔するわけじゃないが...その、今日俺は誕生日なんだが何人かでちょっとしたお祝いができないかな？と考えてるんだ。遅くまで働いてきたし、いいリラックスになると思う。』
+
+
+      彼の後ろで、パイロットふたりがあなたを見つめ、返事を見守っている。
+    options:
+    - shared: false
+      key: celebrate
+    - shared: false
+      key: acknowledge
+    - shared: false
+      key: dismiss
+    colorCustom: false
+    colorKey: restorative_primary
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Restorative
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Bool
+        key: Pilot/Tag/BirthdayPassed
+        value: 1
+      context: ActorPilot
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  acknowledge:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color:
+      r: 1
+      g: 0.8427867
+      b: 0
+      a: 1
+    optionMood: Restorative
+    textHeader: ハッピーバースデーを歌う
+    textContent: >-
+      盛り上がる曲で誕生日ムード間違いなしです。
+
+      | -5 疲労度 |
+    priority: 1
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifyPlayerPilotsFatigue
+      arg1: !EventCallArgInt
+        value: -5
+      arg2: !EventCallArgInt
+        value: 0
+    steps: 
+  celebrate:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color:
+      r: 0
+      g: 0.7328506
+      b: 1
+      a: 1
+    optionMood: Restorative
+    textHeader: 小さなパーティを開く
+    textContent: >-
+      ケーキを食べましょう！
+
+      | -2 時間 | -100 物資 | -15 疲労度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 100
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionIsolated
+      arg1: !EventCallArgString
+        value: party
+        mode: DatabaseAction
+      arg2: 
+    - key: ModifyPlayerPilotsFatigue
+      arg1: !EventCallArgInt
+        value: -15
+      arg2: !EventCallArgInt
+        value: 0
+    steps: 
+  dismiss:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
+    optionMood: Negative
+    textHeader: 何もしない
+    textContent: >-
+      占領軍がこの地にいる限り誕生日など問題にならない。
+
+      | +10 疲労度 |
+    priority: 2
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifyPlayerPilotsFatigue
+      arg1: !EventCallArgInt
+        value: 10
+      arg2: !EventCallArgInt
+        value: 0
+    steps: 
+actions: 
+actorUnits: 
+actorPilots:
+- source: Self
+  sort: Name
+  pick: Random
+  stepManual: 
+  check:
+    piloting: 
+    eventMemory:
+      eventMemoryMethodInt: RequireAll
+      eventMemoryInt:
+      - key: Pilot/Tag/BirthdayPassed
+        check: Bool
+        value: 0
+      eventMemoryMethodFloat: RequireAll
+      eventMemoryFloat: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

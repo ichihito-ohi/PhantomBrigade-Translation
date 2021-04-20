@@ -1,0 +1,57 @@
+hidden: false
+parent: 
+tags:
+- battlefield
+textName: '[4C8435]◆◆[-][717171]◇◇◇[-] ラジオ局'
+textDesc: 荒野にある孤立した小さいラジオ中継局。仮にいるとしても、何機で警備しているか情報は不明である。
+textIdentifierGroup: site_base_mid
+image: world_site_09
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 10
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Base_Small
+movement: 
+ranges:
+  sensor: 150
+  recognition: 75
+  vision: 35
+intel:
+  detected: true
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: {}
+scenarios:
+  tags: {}
+areas:
+  tags: {}
+production: 
+ai: 
+spawning: 
+loot:
+  provinceLevelAdded: false
+  supplies:
+    amountMin: 50
+    amountMax: 1
+    amountRandom: false
+  parts: 
+  subsystems: 
+rewards: 

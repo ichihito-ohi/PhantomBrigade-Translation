@@ -1,0 +1,220 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 120
+group: 1
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_mountain_base
+    textName: 採用活動
+    textDesc: >-
+      フェルヘイム基地で働く者たちはあなたの部隊に参加したがっている。一部は先の戦争で戦った者たちで、それ以外は新入りだ。基地でやるべきことは沢山あるが、最前線にいることを好む者もいる。
+
+
+      資源が許すならば、あなたの軍隊を強化する良い機会です。
+
+
+      ヒント：パイロットは友好的な領土に位置する集落ならどこでも採用できます。
+    options:
+    - shared: true
+      key: recruit
+    - shared: false
+      key: leave
+    - shared: false
+      key: nosupply
+    - shared: false
+      key: leave_noroom
+    colorCustom: false
+    colorKey: restorative_primary
+    color:
+      r: 0.5843138
+      g: 0.8392158
+      b: 0.4470589
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable:
+          check: Less
+          value: 6
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: objective_mountainbase
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots:
+          present: true
+          factionChecked: true
+          faction: Phantoms
+          factionInverted: false
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: true
+          hostile: false
+          factions: []
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    optionMood: Restorative
+    textHeader: 離れる
+    textContent: まだ拡大する時ではない。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 200
+        pilotsAvailable:
+          check: Less
+          value: 8
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  leave_noroom:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 離れる
+    textContent: パイロット数の上限に達しました。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 200
+        pilotsAvailable:
+          check: GreaterEqual
+          value: 8
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  nosupply:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 離れる
+    textContent: あなたには新たなパイロットを採用するのに十分な物資がない。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: Less
+          value: 200
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

@@ -1,0 +1,26 @@
+hidden: false
+parent: stronghold
+tags:
+- branch_army
+textName: 巨大基地
+textDesc: ''
+textIdentifierGroup: site_base_large
+image: world_site_08
+core: 
+factionBranch:
+  factionBranch: branch_army
+visual: 
+movement: 
+ranges: 
+intel: 
+units: {}
+scenarios:
+  tags:
+    difficulty_veryhard: true
+    unique_stronghold_army: true
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

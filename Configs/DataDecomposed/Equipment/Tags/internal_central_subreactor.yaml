@@ -1,0 +1,6 @@
+blocks:
+  subsystem_category:
+    textShort: Central Sub Reactor
+    textLong: 第二反応炉システムは主反応炉の補助に使用される。使用される小型反応炉は主核融合炉の副産物で運転するためこれだけでウォーカーの動力を賄うことはできない。
+    spriteName:
+      name: 

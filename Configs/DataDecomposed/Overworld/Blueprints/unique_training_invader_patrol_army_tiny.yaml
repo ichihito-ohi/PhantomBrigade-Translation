@@ -1,0 +1,111 @@
+hidden: false
+parent: 
+tags:
+- size_tiny
+- training
+- squad
+- squad_invader
+textName: 壊れた陸軍コンボイ
+textDesc: >
+  貴重な部品やサブシステムを最前線の機体や複数地点に輸送する機動部隊。情報によると防衛は軽く殲滅すれば回収が可能になるようだ。
+textIdentifierGroup: squad_invader_army
+image: world_site_06
+core:
+  inventory: true
+  selectable: true
+  capturable: false
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: true
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
+factionBranch: 
+visual:
+  visualFromSquad: true
+  visualPrefabs:
+  - path: Content/Overworld/Squad_Convoy
+movement:
+  speed: 0
+  rotateToFacing: false
+ranges:
+  sensor: 95
+  recognition: 65
+  vision: 25
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: {}
+scenarios:
+  tags:
+    difficulty_veryeasy: true
+    event_tutorial_convoy_looting: true
+areas:
+  tags:
+    contest_infrastructure: true
+    type_main: true
+production: 
+ai:
+  isAggressive: true
+  activeWhenUntracked: true
+spawning: 
+loot: 
+rewards:
+  blocks:
+    obj_capture_loot:
+    - supplies: 
+      parts:
+      - preset: body_arm_set_knox_heavy_r0
+        tagsUsed: false
+        tags:
+          rating_1: true
+          wpn_primary: true
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      - preset: body_arm_set_knox_heavy_r0
+        tagsUsed: false
+        tags:
+          rating_1: true
+          wpn_primary: true
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      - preset: body_top_set_knox_heavy_r0
+        tagsUsed: false
+        tags:
+          rating_1: true
+          wpn_primary: true
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      - preset: body_bottom_set_knox_heavy_r0
+        tagsUsed: false
+        tags:
+          rating_1: true
+          wpn_primary: true
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      subsystems: 

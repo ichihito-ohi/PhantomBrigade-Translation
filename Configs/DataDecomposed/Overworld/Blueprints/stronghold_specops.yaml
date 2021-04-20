@@ -1,0 +1,26 @@
+hidden: false
+parent: stronghold
+tags:
+- branch_specops
+textName: 侵略軍 HQ
+textDesc: ''
+textIdentifierGroup: site_base_large
+image: world_site_08
+core: 
+factionBranch:
+  factionBranch: branch_specops
+visual: 
+movement: 
+ranges: 
+intel: 
+units: {}
+scenarios:
+  tags:
+    difficulty_veryhard: true
+    unique_stronghold_specops: true
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

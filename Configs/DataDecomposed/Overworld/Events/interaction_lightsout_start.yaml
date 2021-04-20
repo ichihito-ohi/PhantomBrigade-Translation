@@ -1,0 +1,180 @@
+textName: Lights Out
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 10
+group: 0
+groupConflicts: 
+chance: 0.15
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 0
+trackCompletionOnSelf: false
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_civilian_meeting
+    textName: 停電
+    textDesc: >-
+      あなたとパイロットが勝利を祝っていると、ボイラースーツの男が基地に現れた。おどおどした様子だ。
+
+
+
+      『感謝してもしきれない。』男が口を開く。ばつが悪そうに唾を呑む。『ただ、だからどうという訳じゃないんだが、戦ってくれていた時、送電線のひとつが切断されたことまでは気づかなかったんじゃないか？』
+
+
+
+      今度はあなたの部隊が恥ずかしい思いをする番だった。パイロットの一人が振り向く。顔が赤い。
+
+
+
+      『実際、それは私かもしれません。』あなたを向いて話す。『一発誤射しました。ですが、数時間いただければ、必ず修理できます！』
+    options:
+    - shared: false
+      key: tools
+    - shared: false
+      key: ignore
+    - shared: false
+      key: fix
+    colorCustom: false
+    colorKey: restorative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Restorative
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireOne
+        tags:
+        - tag: settlement
+          not: false
+        - tag: facility
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  fix:
+    colorFromStep: true
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 誤射の修繕をする
+    textContent: >-
+      パイロットに自分の後始末をさせる。それで充分だ。
+
+      | -4 時間 | +20 疲労度 | +10 希望 |
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange:
+      context: Unscaled
+      offset: 10
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionIsolated
+      arg1: !EventCallArgString
+        value: lightsout_fixing
+        mode: DatabaseAction
+      arg2: 
+    steps: 
+  ignore:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 無視する
+    textContent: >-
+      自分たちで修繕できるだろう。
+       コラテラルダメージは致し方ない。
+       | -15 希望 |
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange:
+      context: Percent
+      offset: -15
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  tools:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 道具を提供する
+    textContent: "修理用の道具を提供しよう。\r 誰か電気技師がいるはずだ。 \n| -5 希望 | - 100 物資 |"
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange:
+      context: Unscaled
+      offset: -5
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -100
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

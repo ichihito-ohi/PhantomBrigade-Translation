@@ -1,0 +1,43 @@
+ui:
+  color:
+    r: 0.5843138
+    g: 0.4196079
+    b: 0.1960784
+    a: 1
+  minified: false
+  locationFromTarget: false
+  textName: 機体の修理
+  textContext: 
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が無事完了しました
+  textDesc: 移動基地で機体のひとつを修理しています。
+audio: 
+duration: 6
+cost: 0
+limitPerOwner: 0
+progressGroup: 0
+requireCombatParticipation: false
+completeOnCombatVictory: false
+terminateOnCombatDefeat: false
+requiresDeployment: false
+terminationAllowed: true
+callsOnTerminationBeforeCompletion: false
+callsOnStart:
+- key: OnStartUnitRepair
+  arg1: 
+  arg2: 
+callsOnTermination:
+- key: OnTerminateUnitRepair
+  arg1: 
+  arg2: 
+callsOnCompletion:
+- key: OnFinishUnitRepair
+  arg1: 
+  arg2: 
+tags: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

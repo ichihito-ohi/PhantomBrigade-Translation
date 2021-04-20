@@ -1,0 +1,113 @@
+textName: Capital
+hidden: false
+optional: false
+restartTimeOnExit: false
+stepOnStart: step_00_combat
+priority: 90
+group: 1
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  step_00_combat:
+    image: event_capital_assault
+    textName: 首都を取り戻せ
+    textDesc: 首都に対して突撃を開始し占領軍から実権を取り戻します。ここには敵軍が多数いますが、素早い攻撃と迅速な判断があればあなたに有利な流れに変えることができます。
+    options:
+    - shared: false
+      key: combat
+    - shared: true
+      key: disengage
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 0.3921569
+      b: 0.3254902
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady:
+          ready: true
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: objective_capital
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: true
+        unpacked:
+          present: false
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  combat:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 0.8235295
+      g: 0.3176471
+      b: 0.2588235
+      a: 1
+    optionMood: Negative
+    textHeader: 出動準備
+    textContent: 部隊と戦闘準備に取り掛かる
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartCombatFromTagsOnEntity
+      arg1: 
+      arg2: 
+    - key: StopBase
+      arg1: 
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

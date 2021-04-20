@@ -1,0 +1,66 @@
+textName: 
+hidden: true
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Short
+steps:
+  main:
+    image: event_hologram_default
+    textName: 信号を解読する
+    textDesc: >-
+      パイロットのひとりからヨシッと声が上がった。あなたと部隊が彼女の周りに集まり、彼女が座るスクリーンの光に注目した。
+
+
+
+      『できたと思います。』彼女が説明する。『見てください、ボス。我々は亡命者を見つけたようです。』
+
+
+
+      『本当か？』あなたのそばでパイロットが尋ねる。
+
+
+
+      『うん、それと彼らは我々にとって有益な情報を手に入れたと言っています。偽物かもしれませんが、この情報が本当に有益だとしたら...』
+    options:
+    - shared: true
+      key: continue
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options: 
+actions:
+  resetCompletionOnOwner: []
+  resetCompletionOnTarget: []
+actorUnits: []
+actorPilots: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

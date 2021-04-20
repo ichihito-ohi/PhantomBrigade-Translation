@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Marksman Rifle
+    textLong: アサルトライフルよりも射程が長く、スナイパーライフルより一斉射あたりの発射数が多い高精度ライフル。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_marksman

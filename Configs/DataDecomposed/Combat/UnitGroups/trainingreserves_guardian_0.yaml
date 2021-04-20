@@ -1,0 +1,40 @@
+difficultyEditable: Easy
+difficulty: 0
+description: ダメージを吸収することで僚機を守る。
+tags:
+- branch_trainingreserves
+- has_mech
+- range_medium
+- range_short
+- role_generic
+- role_guardian
+- weight_heavy
+units:
+- key: mech
+  countMin: 2
+  countMax: 1
+  countRandom: false
+  levelOffsetMin: -1
+  levelOffsetMax: -1
+  levelOffsetRandom: false
+  qualityEditable: Training
+  quality: 0
+  aiBehavior: ''
+  aiTargeting: ''
+  custom:
+    name: 
+    spawn: 
+    landing: 
+    flags: 
+    faction: 
+    speed: 
+    pilot:
+      presetUsed: true
+      presetKey: enemy_mech_pilot_r0_trooper
+      custom: 
+unitPresets:
+  mech: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      role_guardian: true
+      type_mech: true

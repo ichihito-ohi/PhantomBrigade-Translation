@@ -1,0 +1,202 @@
+used: true
+textName: Nordtre
+textDesc: Nordtre は、州内に他の産業がほとんどないため、財源の多くが木材の輸出に依存している。 毎年秋には人気の木彫りまつりも開催！
+alwaysVulnerable: true
+level: 19
+levelRecommended: 18
+hopeThreshold: 100
+factionBranch: branch_reserves
+position:
+  x: 554.4585
+  y: 16.3102
+  z: 1023.619
+neighbours:
+- province_12
+- province_23
+- province_27
+border:
+- x: 866.1232
+  y: 11.63235
+  z: 935.8851
+- x: 844.465
+  y: 11.90858
+  z: 918.6218
+- x: 812.0919
+  y: 11.4001
+  z: 885.0397
+- x: 661.7191
+  y: 4.443024
+  z: 869.4443
+- x: 530.2656
+  y: 6.246796
+  z: 871.7869
+- x: 367.7582
+  y: 32.21084
+  z: 870.0062
+- x: 367.9556
+  y: 0.6685486
+  z: 1023.091
+- x: 248.4063
+  y: 0
+  z: 1099.312
+- x: 251.475
+  y: 0
+  z: 1143.845
+- x: 422.132
+  y: 0
+  z: 1182.936
+- x: 655.479
+  y: 0.6699371
+  z: 1161.849
+- x: 702.9811
+  y: 8.182533
+  z: 1159.423
+- x: 740.2547
+  y: 9.257622
+  z: 1148.751
+- x: 751.9753
+  y: 8.824371
+  z: 1130.082
+- x: 781.9785
+  y: 7.666115
+  z: 1119.774
+- x: 777.1431
+  y: 7.246826
+  z: 1111.484
+- x: 783.1484
+  y: 5.694168
+  z: 1095.363
+- x: 784.7338
+  y: 5.286057
+  z: 1082.16
+- x: 786.0894
+  y: 5.00769
+  z: 1059.641
+- x: 806.877
+  y: 5.74366
+  z: 1047.244
+- x: 825.9204
+  y: 6.586044
+  z: 1043.072
+- x: 839.0201
+  y: 7.189636
+  z: 1034.518
+- x: 853.6003
+  y: 7.742661
+  z: 1012.602
+- x: 870.1573
+  y: 8.462257
+  z: 997.7763
+- x: 887.5579
+  y: 9.673622
+  z: 977.7617
+- x: 884.9412
+  y: 10.45876
+  z: 954.6951
+spawns:
+  core_military:
+  - position:
+      x: 680.6308
+      y: 3.878708
+      z: 1041.657
+  core_agriculture:
+  - position:
+      x: 782.6344
+      y: 6.883415
+      z: 980.9796
+  core_industry:
+  - position:
+      x: 519.9103
+      y: 3.755707
+      z: 963.7368
+  core_civilian:
+  - position:
+      x: 451.1778
+      y: 4.854279
+      z: 1061.58
+  fortification:
+  - position:
+      x: 424.8369
+      y: 4.912575
+      z: 965.7204
+  - position:
+      x: 726.0151
+      y: 6.857513
+      z: 1104.397
+  - position:
+      x: 846.1376
+      y: 9.693863
+      z: 968.6038
+  general_dynamic:
+  - position:
+      x: 749.5031
+      y: 4.549896
+      z: 1027.725
+  - position:
+      x: 597.2507
+      y: 4.754242
+      z: 1071.848
+  - position:
+      x: 713.0819
+      y: 6.424965
+      z: 927.214
+  - position:
+      x: 580.3077
+      y: 3.500214
+      z: 916.9047
+  - position:
+      x: 481.9554
+      y: 3.275375
+      z: 1018.013
+  - position:
+      x: 654.2939
+      y: 10.66106
+      z: 1084.683
+  - position:
+      x: 488.5289
+      y: 7.678726
+      z: 907.7178
+  - position:
+      x: 631.0927
+      y: 3.38446
+      z: 973.1422
+  - position:
+      x: 699.2139
+      y: 4.39753
+      z: 983.4751
+entities:
+- spawnGroup: core_military
+  profile: base
+  countMin: 1
+  countMax: 2
+  countRandom: false
+- spawnGroup: core_civilian
+  profile: settlement_city
+  countMin: 1
+  countMax: 1
+  countRandom: false
+- spawnGroup: core_agriculture
+  profile: facility_farm
+  countMin: 1
+  countMax: 1
+  countRandom: false
+- spawnGroup: general_dynamic
+  profile: cache_generic
+  countMin: 0
+  countMax: 1
+  countRandom: true
+- spawnGroup: fortification
+  profile: fort
+  countMin: 1
+  countMax: 2
+  countRandom: true
+- spawnGroup: general_dynamic
+  profile: outpost
+  countMin: 0
+  countMax: 1
+  countRandom: true
+- spawnGroup: general_dynamic
+  profile: facility
+  countMin: 0
+  countMax: 1
+  countRandom: true

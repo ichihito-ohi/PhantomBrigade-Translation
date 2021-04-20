@@ -1,0 +1,230 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Short
+steps:
+  main:
+    image: event_locked_door
+    textName: 厳重なロック
+    textDesc: >-
+      あなたはマークされた地点に到着した。その場所を偵察するためパイロットを送り出す。
+
+
+      『誰の兆候もありません。』戻ってきてパイロットが話す。『すぐ前に建物がありますが、閉鎖されています。何らかの警報が張り巡らされているようです。どう対処したいですか？』
+    options:
+    - shared: false
+      key: alarm
+    - shared: false
+      key: force
+    - shared: false
+      key: tools
+    - shared: false
+      key: leave
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/Locked
+            check: Bool
+            value: 1
+          - key: World/Tag/Easy
+            check: Bool
+            value: 0
+          - key: World/Tag/Medium
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: false
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Bool
+        key: World/Tag/Hard
+        value: 1
+      context: Target
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  alarm:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 警報を突破する
+    textContent: >-
+      ドアを蹴破る。時間は無駄にできない。
+
+      | 9 時間 | ただちに突破するが 9 時間 敵機を引き寄せます |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Remove
+        key: World/Tag/Locked
+        value: 1
+      context: Target
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: alarm_hard
+        mode: DatabaseAction
+      arg2: 
+    steps: 
+  force:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Positive
+    textHeader: 武力を行使する
+    textContent: >-
+      時間はかかるが警報を止められるだろう。
+
+      | 6 時間 |
+    priority: 1
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: breakin_hard
+        mode: DatabaseAction
+      arg2: 
+    steps: 
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 離れる
+    textContent: ここまで騒ぐ価値があるか？
+    priority: 3
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  tools:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Positive
+    textHeader: 機材を使う
+    textContent: >-
+      迅速でリスクもないですが物資を消費します。
+
+      | -500 物資 |
+    priority: 2
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 500
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Remove
+        key: World/Tag/Locked
+        value: 1
+      context: Target
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -500
+      arg2: 
+    steps: 
+actions:
+  resetCompletionOnOwner: []
+  resetCompletionOnTarget: []
+actorUnits: []
+actorPilots: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

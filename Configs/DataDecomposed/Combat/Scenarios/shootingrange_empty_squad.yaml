@@ -1,0 +1,66 @@
+skipStatCalculations: true
+hidden: false
+textName: Shooting Range - Empty (Squad)
+textDesc: ''
+textContextCustom: 
+timeLocked: false
+time: 0
+areaTagsUsed: false
+areaTags: {}
+area: dev_range
+squadUsed: true
+squadSize: 6
+loadImmediately: false
+externalLevelUsed: false
+exit: 
+customExitBehaviour: 
+musicDynamic: false
+actionBlocklist: []
+customPlayerSlot: 
+stepOnStart: main
+tags:
+- listed
+states: {}
+steps:
+  main:
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    textCurrentPrimary: 接触
+    textCurrentSecondary: すべての敵を殲滅しろ
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups: []
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionStart
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+unitPresets: 
+tabIndex: 0
+tabsLocal: false

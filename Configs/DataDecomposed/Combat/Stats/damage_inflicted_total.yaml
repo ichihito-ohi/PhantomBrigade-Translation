@@ -1,0 +1,7 @@
+textName: 与えたダメージ
+textSubtitle: 敵側
+textTooltip: 敵機に命中したダメージ総計．
+textSuffix: 
+icon: 
+valueMultiplier: 1
+positive: true

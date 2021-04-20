@@ -1,0 +1,174 @@
+textName: Assault
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 100
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_liberation
+    textName: 救難信号に答える
+    textDesc: >-
+      村に近づくと騒ぎが聞こえた。あなたの基地が乗り込んできたのを村人の何人かが目にして、その顔に安堵の表情が溢れた。
+
+
+      『助けに来てくれたのか？』そのひとりが泣きついた。
+    options:
+    - shared: false
+      key: start_combat
+    - shared: true
+      key: disengage
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 0.3921569
+      b: 0.3254902
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady:
+          ready: true
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: structure
+          not: false
+        - tag: objective_capital
+          not: true
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/Raided
+            check: Equal
+            value: 1
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: true
+        unpacked: 
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action:
+        actionMethod: RequireAll
+        actions:
+        - actionDesired: true
+          owner: EventSelf
+          actionTargetComparison: EventTarget
+          actionTargetChecked: false
+          tagsUsed: false
+          key: raid
+          tags: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  start_combat:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 0.8235295
+      g: 0.3176471
+      b: 0.2588235
+      a: 1
+    optionMood: Negative
+    textHeader: 出動準備
+    textContent: 敵兵を村から追い出す。
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction: 
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Set
+        key: World/Tag/Raided
+        value: 0
+      context: Target
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartCombatFromTagsOnEntity
+      arg1: !EventCallArgString
+        value: ScenarioFilter
+        mode: CustomTagFilter
+      arg2: 
+    - key: StopBase
+      arg1: 
+      arg2: 
+    - key: TerminateAction
+      arg1: !EventCallArgString
+        value: raid
+        mode: DatabaseAction
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

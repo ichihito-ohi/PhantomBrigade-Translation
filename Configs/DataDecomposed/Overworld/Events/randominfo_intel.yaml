@@ -1,0 +1,97 @@
+textName: Intel
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: step_00_intel
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.5
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Medium
+steps:
+  step_00_intel:
+    image: event_intel
+    textName: 貴重な情報
+    textDesc: あなたはこの軍が防衛している地点について情報を発見した。そこには何かあなたの役に立つものがあるかもしれない。
+    options:
+    - shared: false
+      key: continue
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action:
+        actionMethod: RequireAll
+        actions:
+        - actionDesired: true
+          owner: EventSelf
+          actionTargetComparison: EventTarget
+          actionTargetChecked: false
+          tagsUsed: false
+          key: investigate
+          tags: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  continue:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: ここには何が？
+    textContent: 場所発見
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartOverworldEvent
+      arg1: !EventCallArgStringList
+        value:
+        - spawn_structure
+        - spawn_structure_locked
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

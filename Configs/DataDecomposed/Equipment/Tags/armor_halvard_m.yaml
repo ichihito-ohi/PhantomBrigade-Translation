@@ -1,0 +1,11 @@
+blocks:
+  part_model:
+    textShort: Halvard H
+    textLong: JNIが生産する先進的な重量級装甲。角の内部に追加のLIDAR装置を搭載したことで珍しい形状となった最新のオールラウンド設計が採用されている。整備の複雑さと限られた専門用途のため戦地で用いられることはほとんどない。
+    spriteName:
+      name: 
+  subsystem_category:
+    textShort: Halvard H
+    textLong: JNIが生産する先進的な重量級装甲。角の内部に追加のLIDAR装置を搭載したことで珍しい形状となった最新のオールラウンド設計が採用されている。整備の複雑さと限られた専門用途のため戦地で用いられることはほとんどない。
+    spriteName:
+      name: s_icon_l32_set_h_barrier

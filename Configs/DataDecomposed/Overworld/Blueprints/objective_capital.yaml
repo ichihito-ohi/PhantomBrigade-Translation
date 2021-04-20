@@ -1,0 +1,54 @@
+hidden: false
+parent: 
+tags:
+- structure
+- site
+- battlefield
+textName: 首都
+textDesc: 占領政府の権力の座。敵軍が集中しているため従来の攻撃方法は通用しない―都市中心部の最高司令部に対する攻撃が成功しなければ効果はない。そのような任務のために都市に潜入することも、周囲の州をすべて解放するまでは不可能だ。
+textIdentifierGroup: site_settlement_capital
+image: world_site_10
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 60
+  hopeOnDefeat: true
+  destroyOnDefeat: false
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: false
+  factionChangesWithProvince: false
+  faction: Independents
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Settlement_Capital
+movement: 
+ranges:
+  sensor: 150
+  recognition: 75
+  vision: 35
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: {}
+scenarios:
+  tags:
+    difficulty_veryhard: true
+    type_elimination: true
+    unique_capital: true
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

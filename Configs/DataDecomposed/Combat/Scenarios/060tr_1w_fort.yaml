@@ -1,0 +1,115 @@
+skipStatCalculations: false
+hidden: true
+textName: Camp Assault - 60 Threat - 1 Wave
+textDesc: ''
+textContextCustom: 
+timeLocked: false
+time: 7
+areaTagsUsed: true
+areaTags:
+  type_main: true
+area: greybox_10_ruralbase
+squadUsed: true
+squadSize: 4
+loadImmediately: false
+externalLevelUsed: true
+exit: 
+customExitBehaviour: 
+musicDynamic: false
+actionBlocklist: []
+customPlayerSlot: 
+stepOnStart: wave0
+tags:
+- context_fort
+- difficulty_easy
+- type_elimination
+states: {}
+steps:
+  wave0:
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    textCurrentPrimary: 現在の目標
+    textCurrentSecondary: この軍事施設を制圧するためにすべての敵を殲滅しろ。守備隊は孤立しており、増援の接近は検知されていない。
+    allowOutcomeVictory: true
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 0
+      tags:
+        has_mech: true
+        weight_heavy: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_inner: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 0
+      tags:
+        has_mech: true
+        weight_heavy: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_inner: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat:
+      key: default
+      outcome: Defeat
+      turn:
+        relative: false
+        check: GreaterEqual
+        value: 4
+      locationProvider: !AreaLocationFilter
+        tagRequirements:
+          obj_retreat: true
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: true
+      key: mid_reinforcement_last
+      custom: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionStart
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+unitPresets: 
+tabIndex: 0
+tabsLocal: false

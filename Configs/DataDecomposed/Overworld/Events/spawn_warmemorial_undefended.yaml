@@ -1,0 +1,123 @@
+textName: Salvage
+hidden: true
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  main:
+    image: event_hologram_default
+    textName: 戦争記念館
+    textDesc: ここからそう遠くはないようだ。調べるべきか？
+    options:
+    - shared: false
+      key: investigate_undefended
+    colorCustom: false
+    colorKey: neutral_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  investigate_undefended:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 興味深い
+    textContent: >-
+      面白いものがあるかもしれない。
+
+      | 場所を発見 |
+    priority: 0
+    completing: false
+    stepByPriority: true
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateOverworldEntity
+      arg1: !EventCallArgString
+        value: warmemorial
+        mode: CustomSpawnData
+      arg2: 
+    steps: 
+  no:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: 
+    color: *o0
+    optionMood: None
+    textHeader: いいえ
+    textContent: 時間の無駄だ。
+    priority: 1
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData:
+  warmemorial:
+    locationProvider: SourceProvince
+    provinceKey: 
+    spawnGroupKey: general_dynamic
+    generationProfileCustom: false
+    generationProfileKey: unique_warmemorial_undefended
+    generationProfile: 
+    faction: Phantoms
+    memoryChangesInt: 
+    memoryChangesFloat: 
+tabsLocal: false

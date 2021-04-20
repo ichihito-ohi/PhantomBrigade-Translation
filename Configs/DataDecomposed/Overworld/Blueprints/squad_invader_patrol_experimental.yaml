@@ -1,0 +1,26 @@
+hidden: false
+parent: squad_invader_patrol
+tags:
+- branch_experimental
+textName: パトロール部隊
+textDesc: ''
+textIdentifierGroup: squad_invader_army
+image: world_site_06
+core: 
+factionBranch:
+  factionBranch: branch_experimental
+visual:
+  visualFromSquad: true
+  visualPrefabs:
+  - path: Content/Overworld/Squad_Experimental
+movement: 
+ranges: 
+intel: 
+units: {}
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

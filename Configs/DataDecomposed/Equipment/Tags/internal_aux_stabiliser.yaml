@@ -1,0 +1,6 @@
+blocks:
+  subsystem_category:
+    textShort: Auxiliary Stabilizer
+    textLong: スタビライザーはメックの重量配分を改善する内部補助システムであり、機体の速度向上に寄与する。
+    spriteName:
+      name: 

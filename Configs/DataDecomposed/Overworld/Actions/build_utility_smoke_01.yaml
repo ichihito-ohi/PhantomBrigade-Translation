@@ -1,0 +1,38 @@
+ui:
+  color:
+    r: 0.5843138
+    g: 0.4872549
+    b: 0.1960784
+    a: 1
+  minified: false
+  locationFromTarget: false
+  textName: 煙幕容器 [1]
+  textContext: 生産
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が完了しました
+  textDesc: ''
+audio: 
+duration: 2
+cost: 0
+limitPerOwner: 1
+progressGroup: 1
+requireCombatParticipation: false
+completeOnCombatVictory: false
+terminateOnCombatDefeat: false
+requiresDeployment: false
+terminationAllowed: false
+callsOnTerminationBeforeCompletion: false
+callsOnStart: 
+callsOnTermination:
+- key: 'OnModifyOwnerSupply '
+  arg1: !ActionCallArgInt
+    value: 100
+  arg2: 
+callsOnCompletion: []
+tags: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

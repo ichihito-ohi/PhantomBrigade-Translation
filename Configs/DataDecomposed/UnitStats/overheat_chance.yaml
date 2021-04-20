@@ -1,0 +1,31 @@
+textName: オーバーヒート発生率
+textDesc: 機体が最大熱レベルに達した時にオーバーヒートする確率。
+uiPriority: 71
+uiColor:
+  r: 1
+  g: 0.3058824
+  b: 0.3058824
+  a: 1
+uiIcon: s_icon_l32_stat_heat
+uiLimit: 50
+uiMinimized: false
+uiComparisonInverted: true
+rounded: false
+derived: false
+exposedPerUnit: false
+exposedPerPart: false
+exposedPerSubsystem: false
+displayAsRangeUsing: ''
+averageSubsystemMultipliers: false
+minPerPartLimit: false
+minPerPart: 0
+maxPerPartLimit: false
+maxPerPart: 100
+minPerUnitLimit: false
+minPerUnit: 0
+maxPerUnitLimit: false
+maxPerUnit: 100
+levelUsed: false
+levelIncrease: 1.3
+multiplierUsed: false
+multiplier: 1

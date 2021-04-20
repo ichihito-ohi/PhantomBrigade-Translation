@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Melee Primary
+    textLong: 共振ブレードを使用し、複合装甲を容易に切断できるが必要出力が高い。
+    spriteName:
+      name: s_icon_l32_part_arch_melee_sword

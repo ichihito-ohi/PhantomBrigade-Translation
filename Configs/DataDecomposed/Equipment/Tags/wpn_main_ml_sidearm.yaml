@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Sidearm ML
+    textLong: コンパクトなミサイルランチャー。集団標的や遮蔽裏の機体を排除するのに効果的である。
+    spriteName:
+      name: s_icon_l32_part_arch_ml_secondary

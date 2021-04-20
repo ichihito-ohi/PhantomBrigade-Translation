@@ -1,0 +1,21 @@
+hidden: false
+parent: outpost
+tags: []
+textName: 前哨基地
+textDesc: ''
+textIdentifierGroup: site_base_mid
+image: world_site_08
+core: 
+factionBranch: 
+visual: 
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

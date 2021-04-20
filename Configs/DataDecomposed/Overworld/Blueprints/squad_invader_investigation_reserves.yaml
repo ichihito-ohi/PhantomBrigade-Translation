@@ -1,0 +1,25 @@
+hidden: false
+parent: squad_invader_investigation
+tags:
+- branch_reserves
+textName: 調査部隊
+textDesc: ''
+textIdentifierGroup: squad_invader_reserves
+image: world_site_06
+core: 
+factionBranch: 
+visual:
+  visualFromSquad: true
+  visualPrefabs:
+  - path: Content/Overworld/Squad_Reserve
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

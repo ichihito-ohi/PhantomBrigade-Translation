@@ -1,0 +1,38 @@
+ui:
+  color:
+    r: 0.3701299
+    g: 0.5
+    b: 0.3181818
+    a: 1
+  minified: false
+  locationFromTarget: false
+  textName: 取引
+  textContext: ' '
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が無事完了しました
+  textDesc: ''
+audio: 
+duration: 4
+cost: 0
+limitPerOwner: 0
+progressGroup: 0
+requireCombatParticipation: false
+completeOnCombatVictory: false
+terminateOnCombatDefeat: true
+requiresDeployment: true
+terminationAllowed: false
+callsOnTerminationBeforeCompletion: false
+callsOnStart: 
+callsOnTermination: 
+callsOnCompletion:
+- key: OnFinishSalvage
+  arg1: 
+  arg2: 
+tags:
+- collection
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

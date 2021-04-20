@@ -1,0 +1,2721 @@
+skipStatCalculations: false
+hidden: false
+textName: Tutorial / Intro
+textDesc: 
+textContextCustom: 
+timeLocked: true
+time: 7
+areaTagsUsed: false
+areaTags: 
+area: dev_demo
+squadUsed: false
+squadSize: 0
+loadImmediately: true
+externalLevelUsed: false
+exit: 
+customExitBehaviour:
+  victory:
+    lootUsed: false
+    debriefingUsed: false
+    ejectionsUsed: false
+    calls:
+    - OnEndTutorialIntro
+  defeat:
+    lootUsed: false
+    debriefingUsed: false
+    ejectionsUsed: false
+    calls:
+    - OnEndTutorialIntro
+musicDynamic: true
+actionBlocklist:
+- melee_secondary
+- melee_primary
+- dash
+- melee_fallback_shieldonly
+- melee_fallback_shield
+- melee_fallback_secondary
+- melee_fallback_primary
+- melee_fallback_none
+- melee_fallback
+customPlayerSlot: 
+stepOnStart: 00_intro
+tags:
+- listed
+- unique_intro
+states:
+  act_plan_attack1:
+    textName: 射撃開始
+    textDesc: 報復のため敵機体に攻撃を開始しましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned:
+      key: attack_primary
+      faction: 
+      owner:
+        nameInternal: unit_friendly_mech_pc
+      targetUnit:
+        nameInternal: unit_enemy_tank_first
+      targetPosition: 
+    locationOccupied: 
+    reactions: 
+  act_plan_move1:
+    textName: 移動指示を作成
+    textDesc: ウォーカーを操縦して北へ進路を取り、司令官の後に続きましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned:
+      key: move_run
+      faction: 
+      owner:
+        nameInternal: unit_friendly_mech_pc
+      targetUnit: 
+      targetPosition:
+        position: &o2
+          x: 160.5
+          y: -19.5
+          z: 238.5
+        radius: 9
+    locationOccupied: 
+    reactions: 
+  act_plan_move2:
+    textName: 移動指示を作成
+    textDesc: さらに北へ経路を取ってアンテナに向かい、ブラックアウトの原因を特定しましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned:
+      key: move_run
+      faction: 
+      owner:
+        nameInternal: unit_friendly_mech_pc
+      targetUnit: 
+      targetPosition:
+        position:
+          x: 186.5
+          y: -19.5
+          z: 213.5
+        radius: 9
+    locationOccupied: 
+    reactions: 
+  act_plan_move3:
+    textName: 同期して移動
+    textDesc: 指示の通り、司令官に合わせて移動して側面を抑えましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned:
+      key: move_run
+      faction: 
+      owner:
+        nameInternal: unit_friendly_mech_pc
+      targetUnit: 
+      targetPosition:
+        position:
+          x: 259.5
+          y: -19.5
+          z: 220.5
+        radius: 9
+    locationOccupied: 
+    reactions: 
+  act_plan_move4:
+    textName: 移動計画
+    textDesc: 撃ちながら移動しましょう。最適な経路を作成して被弾率を抑えましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned:
+      key: move_run
+      faction: 
+      owner:
+        nameInternal: unit_friendly_mech_pc
+      targetUnit: 
+      targetPosition:
+        position: &o11
+          x: 217.5
+          y: -19.5
+          z: 205.5
+        radius: 9
+    locationOccupied: 
+    reactions: 
+  act_plan_move5:
+    textName: 移動計画
+    textDesc: 機動力は最大の防御です。敵の砲火を避けるため後退しましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned:
+      key: move_run
+      faction: 
+      owner:
+        nameInternal: unit_friendly_mech_pc
+      targetUnit: 
+      targetPosition:
+        position:
+          x: 190.5
+          y: -19.5
+          z: 226.5
+        radius: 9
+    locationOccupied: 
+    reactions: 
+  prediction_active:
+    textName: 起動
+    textDesc: あなたのメックにインストールされたプロトタイプハードウェアを起動しましょう。
+    evaluated: false
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+  prediction_bootable:
+    textName: 
+    textDesc: 
+    evaluated: false
+    visible: false
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+  retreat:
+    textName: （任意）撤退
+    textDesc: 状況が厳しい場合は、街の端にある避難場所へ撤退しましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied:
+      locationProvider: !AreaLocation
+        point:
+          x: 30
+          y: -19.5
+          z: 90
+        sizeX: 9
+        sizeY: 9
+        rect: false
+      visual: 
+      faction:
+        key: Phantoms
+      unit: 
+      unitCount:
+        check: GreaterEqual
+        value: 2
+    reactions: 
+  units_defeated_enemy:
+    textName: 敵の殲滅
+    textDesc: 街を攻撃している敵機体をすべて破壊しましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy:
+      check: Equal
+      value: 0
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+  units_defeated_friendly:
+    textName: 生き延びる
+    textDesc: 必要ならば撤退してください―これは負け戦かもしれません。
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn: 
+    countEnemy: 
+    countFriendly:
+      check: Less
+      value: 2
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+steps:
+  00_intro:
+    color:
+      r: 0.4716981
+      g: 0.4716981
+      b: 0.4716981
+      a: 1
+    textCurrentPrimary: ''
+    textCurrentSecondary: ''
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_friendly_cadet
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 2
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_friendly_mech_cadet
+          spawn:
+            index: 2
+          landing: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot:
+            presetUsed: false
+            presetKey: enemy_pilot_generic
+            custom:
+              id:
+                callsign: Cadet
+                givenName: Adelaide
+                familyName: Kinead
+              idLocalized:
+                Chinese:
+                  callsign: 少尉
+                  givenName: 阿德里亚娜
+                  familyName: 凯尔塞
+              portaitOverrideUsed: true
+              portraitTextureName: pilot_int_tutorial_cadet
+      - key: mech_friendly_commander
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 2
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_friendly_mech_commander
+          spawn:
+            index: 0
+          landing: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed:
+            libraryUsed: true
+            speed: 0
+          pilot:
+            presetUsed: false
+            presetKey: enemy_pilot_generic
+            custom:
+              id:
+                callsign: Commander
+                givenName: Viktor
+                familyName: Blum
+              idLocalized:
+                Chinese:
+                  callsign: 少校
+                  givenName: 沃尔特
+                  familyName: 埃文斯
+              portaitOverrideUsed: true
+              portraitTextureName: pilot_int_tutorial_commander
+      - key: mech_friendly_pc
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 2
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_friendly_mech_pc
+          spawn:
+            index: 1
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot:
+            presetUsed: false
+            presetKey: enemy_pilot_generic
+            custom:
+              id:
+                callsign: Lieutenant
+                givenName: Ingrid
+                familyName: Lund
+              idLocalized:
+                Chinese:
+                  callsign: 中尉
+                  givenName: 英格丽
+                  familyName: 琳
+              portaitOverrideUsed: true
+              portraitTextureName: pilot_int_tutorial_lt
+      spawnGroupOccupied: false
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: custom
+    stateScopeChanges: 
+    stateValueChanges:
+      prediction_active: false
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart:
+      key: tutorial_start
+    atmosphereOnStart:
+      fogTarget: 0.7
+      fogSpeed: 1
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: optimism
+      executionAllowed: false
+    musicIntensity:
+      f: 0
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased:
+      time: 1
+      stepKey: 01_greeting
+    outcome: 
+    stepsNext: 
+  01_greeting:
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 0
+    textCurrentPrimary: '...'
+    textCurrentSecondary: '...'
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection:
+      nameInternal: unit_friendly_mech_pc
+    camera: 
+    musicMood:
+      key: optimism
+      executionAllowed: false
+    musicIntensity:
+      f: 0
+    musicReactive: 
+    commsOnStart:
+    - time: 6
+      realtime: true
+      shared: false
+      key: 01_greeting_02
+      custom:
+        texture: pilot_portrait_commander
+        duration: 5.5
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_welcome_02
+        textHeader: 司令官
+        textContent:
+        - 昨夜、町の通信が失われたためここから0.5キロ北にある電波塔の様子を見に行ってもらいたい。
+    - time: 1
+      realtime: true
+      shared: false
+      key: 01_greeting_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 4.4
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_welcome_01
+        textHeader: 司令官
+        textContent:
+        - 今日は早くから引き留めてすまない中尉、だが小切手を切る必要がありそうだ。
+    audioEventsOnStart: []
+    audioStatesOnStart: []
+    audioSyncsOnStart: []
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased:
+      time: 8
+      stepKey: 02_move1
+    outcome: 
+    stepsNext: 
+  02_move1:
+    color: &o15
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    textCurrentPrimary: 出動
+    textCurrentSecondary: 国境の前線基地が外部との通信を失った。問題を調査しろ。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges:
+    - nameInternal: unit_friendly_mech_commander
+      flags: 
+      destruction: 
+      transform: 
+      actions:
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 103.5
+          y: -19.5
+          z: 253.5
+        targetEntityName: 
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 109.5
+          y: -19.5
+          z: 259.5
+        targetEntityName: ''
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 160.5
+          y: -19.5
+          z: 259.5
+        targetEntityName: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys:
+      - move_run
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions:
+      delay: 2
+      pages:
+      - header: チュートリアルガイド (1/2)
+        content: これから簡単なチュートリアルでこのゲームの基本的な仕組みと操作方法を説明します。
+        hintsUI: 
+        hintsWorld: 
+      - header: チュートリアルガイド (2/2)
+        content: まず、画面のヒントに従ってください。ここで覚えるべき操作は [b]左クリック[/b] で確認、 [b]右クリック[/b] で取り消し、WASDでカメラ移動です。
+        hintsUI: 
+        hintsWorld: 
+    hintsConditional:
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Unit_Selection
+      positionInUI: false
+      positionFromUnit: true
+      positionFromUnitName: unit_friendly_mech_pc
+      position: &o0
+        x: 0
+        y: 0
+        z: 0
+      contextMenuChecked: true
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 機体を左クリックしてアクションリストを開きます
+      icon: icon_input_mouse_left
+      color: &o4
+        r: 0.3536969
+        g: 0.55
+        b: 0.2475
+        a: 1
+      lockWidth: true
+      frameSize: &o1
+        x: 260
+        y: 260
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Unit_Selection
+      positionInUI: false
+      positionFromUnit: true
+      positionFromUnitName: unit_friendly_mech_pc
+      position: *o0
+      contextMenuChecked: true
+      contextMenuDesired: true
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: true
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 移動アクションボタンをクリックします
+      icon: icon_input_mouse_left
+      color: &o3
+        r: 0.1590869
+        g: 0.4597021
+        b: 0.6132076
+        a: 1
+      lockWidth: true
+      frameSize: *o1
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Path_Drawing
+      positionInUI: false
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o2
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: true
+      unitSelectionDesired: true
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: move_run
+      text: 移動先をクリックしてアクションプランを作成します
+      icon: icon_input_mouse_left
+      color: *o3
+      lockWidth: true
+      frameSize: *o1
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Unit_Selection
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: &o5
+        x: 222
+        y: 188
+        z: 0
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: true
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: このボタンをクリックしてプランを実行します
+      icon: icon_input_mouse_left
+      color: *o4
+      lockWidth: false
+      frameSize: &o6
+        x: 152
+        y: 152
+    unitSelection:
+      nameInternal: unit_friendly_mech_pc
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        act_plan_move1: true
+      stepKey: 03_move2
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+  03_move2:
+    color:
+      r: 0.6352941
+      g: 1
+      b: 0.937255
+      a: 1
+    textCurrentPrimary: 出動
+    textCurrentSecondary: 国境の前線基地が外部との通信を失った。問題を調査しろ。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges:
+    - nameInternal: unit_friendly_mech_commander
+      flags: 
+      destruction: 
+      transform: 
+      actions:
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 169.5
+          y: -19.5
+          z: 256.5
+        targetEntityName: 
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 187.5
+          y: -19.5
+          z: 238.5
+        targetEntityName: ''
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 223.5
+          y: -19.5
+          z: 250.5
+        targetEntityName: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys:
+      - move_run
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions:
+      delay: 2
+      pages:
+      - header: カメラ操作
+        content: さて、QまたはFキーでカメラを水平旋回できます。そしてRまたはFキーで垂直回転できます。また中央クリックを押しながらでも操作可能です。
+        hintsUI: 
+        hintsWorld: 
+    hintsConditional: 
+    unitSelection:
+      nameInternal: unit_friendly_mech_pc
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 6.1
+      realtime: true
+      shared: false
+      key: 03_move2_02
+      custom:
+        texture: pilot_portrait_commander
+        duration: 6.1
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_welcome_04
+        textHeader: 司令官
+        textContent:
+        - そうだ、これは新装備試験ほど楽しいものではないが、我々は期待を背負っている。さぁ移動するぞ！
+    - time: 0
+      realtime: true
+      shared: false
+      key: 03_move2_01
+      custom:
+        texture: pilot_portrait_cadet
+        duration: 5.8
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_welcome_03
+        textHeader: 見習い士官
+        textContent:
+        - なぁ中尉、私の装備はまだプロトタイプのインストール中だから、追いつくまで先走らないでほしい。
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        act_plan_move2: true
+      stepKey: 04_discovery
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+  04_discovery:
+    color:
+      r: 0.4
+      g: 1
+      b: 0.7607844
+      a: 1
+    textCurrentPrimary: 調査
+    textCurrentSecondary: "アンテナが妨害されているようだ：何が起きているか確かめろ"
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups: 
+    stateScopeChanges:
+      prediction_active: true
+      prediction_bootable: true
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart: 
+    atmosphereOnStart:
+      fogTarget: 1
+      fogSpeed: 0.2
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera:
+      positionOverride: true
+      position:
+        x: 235.2
+        y: -19.5
+        z: 257.7
+      positionFromEntityName: 
+      rotationXOverride: false
+      rotationX: 45
+      rotationYOverride: false
+      rotationY: 180
+      zoomOverride: false
+      zoom: 0.5
+    musicMood:
+      key: optimism
+      executionAllowed: true
+    musicIntensity:
+      f: 10
+    musicReactive: 
+    commsOnStart:
+    - time: 18
+      realtime: true
+      shared: false
+      key: 04_discovery_03
+      custom:
+        texture: pilot_portrait_commander
+        duration: 9.5
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_timeline_03
+        textHeader: 司令官
+        textContent:
+        - ヤツらは何に手こずっているんだ？よし、もう少し偵察できないか試してみよう。お前の装備にインストールされたその新ピカ装置を起動して、あれが何でできているか見てみよう。
+    - time: 12
+      realtime: true
+      shared: false
+      key: 04_discovery_02
+      custom:
+        texture: portrait_hq
+        duration: 5.5
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_timeline_02
+        textHeader: HQ
+        textContent:
+        - こちらHQ。できません、司令官。追って連絡があるまで修理部隊は手が離せません。待機してください...
+    - time: 0
+      realtime: true
+      shared: false
+      key: 04_discovery_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 11.5
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_timeline_01
+        textHeader: 司令官
+        textContent:
+        - >-
+          うわぁ！ここで何があったんだ？[00]....................[ff]
+
+          くそ、おそらく暴徒の仕業だ[00]..........[ff]
+
+          [i]HQ、こちら特殊作戦ブラボー部隊、応急修理部隊を求む、オーバー...[/i]
+    audioEventsOnStart: []
+    audioStatesOnStart: []
+    audioSyncsOnStart: 
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased:
+      time: 23
+      stepKey: 05_prediction_boot
+    outcome: 
+    stepsNext: 
+  05_prediction_boot:
+    color:
+      r: 0.6078432
+      g: 1
+      b: 0.4745098
+      a: 1
+    textCurrentPrimary: 調査
+    textCurrentSecondary: プロトタイプハードウェアを起動して活動環境をスキャンしろ。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: true
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges:
+      prediction_bootable: true
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional:
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Unit_Selection
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o5
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: false
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: false
+      unitActionsDesired: false
+      unitActionsList: []
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: プロトタイプシステムを起動します
+      icon: icon_input_mouse_left
+      color:
+        r: 0.88
+        g: 0.5186133
+        b: 0.1056
+        a: 1
+      lockWidth: false
+      frameSize: *o6
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnStateChange
+    transitionBasedScope: false
+    transitionLocksExecution: true
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        prediction_active: true
+      stepKey: 06_prediction_explainer
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+  06_prediction_explainer:
+    color:
+      r: 0.9411765
+      g: 1
+      b: 0.345098
+      a: 1
+    textCurrentPrimary: 説明
+    textCurrentSecondary: 新システムについて学べ。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions:
+      delay: 2
+      pages:
+      - header: タイムライン
+        content: 画面角に表示されたこの新しいウィンドウはタイムラインと呼びます。動画の再生バーのようなもので―この上でマウスを動かすことである時刻に何が起きるか見ることができます。ここでは、司令官が移動を計画しており本機能を練習します。
+        hintsUI: 
+        hintsWorld: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 06_prediction_explainer_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 13
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_timeline_04
+        textHeader: 司令官
+        textContent:
+        - 理論上、このプロトタイプは少し先の未来を予測することができるが、これは戦場で計り知れないアドバンテージとなる。これは戦争を永遠に変え得るが、我々が握っている限り市民は安全だ。
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased:
+      time: 14
+      stepKey: 07_prediction_flank
+    outcome: 
+    stepsNext: 
+  07_prediction_flank:
+    color:
+      r: 1
+      g: 0.8078432
+      b: 0.2784314
+      a: 1
+    textCurrentPrimary: 予測
+    textCurrentSecondary: 環境をスキャンするために予測システムをテストしろ。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges:
+    - nameInternal: unit_friendly_mech_commander
+      flags: 
+      destruction: 
+      transform: 
+      actions:
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 223.5
+          y: -19.5
+          z: 271.5
+        targetEntityName: 
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition: &o7
+          x: 259.5
+          y: -19.5
+          z: 271.5
+        targetEntityName: 
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 259.5
+          y: -19.5
+          z: 247.5
+        targetEntityName: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys:
+      - move_run
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional:
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Unit_Selection
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: &o8
+        x: 938
+        y: 124
+        z: 0
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: ここにカーソルを重ねて時系列を確認します
+      icon: icon_input_mouse_mid
+      color: *o4
+      lockWidth: false
+      frameSize: &o9
+        x: 684
+        y: 122
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Unit_Selection
+      positionInUI: false
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o7
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: フィールド上の経路にカーソルを重ねても確認できます
+      icon: icon_input_mouse_mid
+      color: *o3
+      lockWidth: true
+      frameSize: *o1
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Path_Drawing
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o8
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 移動が長いほど時間もかかります！
+      icon: icon_input_mouse_mid
+      color: *o3
+      lockWidth: false
+      frameSize: *o9
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Unit_Selection
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o8
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: true
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 計画したアクションはダブル右クリックで取り消せます
+      icon: icon_input_mouse_right
+      color: &o10
+        r: 0.8313726
+        g: 0.2745098
+        b: 0.2745098
+        a: 1
+      lockWidth: false
+      frameSize: *o9
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 07_prediction_flank_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 7
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_timeline_05
+        textHeader: 司令官
+        textContent:
+        - 私が電波塔の側面を偵察しに行く。そいつの暖機が済んだら、私の移動先が確認できるはずだから反対側に周ってくれ。
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        act_plan_move3: true
+      stepKey: 08_tank_appears
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+  08_tank_appears:
+    color:
+      r: 1
+      g: 0.3921569
+      b: 0.2862745
+      a: 1
+    textCurrentPrimary: 接触
+    textCurrentSecondary: 未確認車両に対処しろ
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: tank_aa
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank_first
+          spawn:
+            index: 9
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot: 
+      spawnGroupOccupied: false
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: custom
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart: 
+    atmosphereOnStart:
+      fogTarget: 0.8
+      fogSpeed: 0.1
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera:
+      positionOverride: true
+      position: *o0
+      positionFromEntityName: unit_enemy_tank_first
+      rotationXOverride: false
+      rotationX: 45
+      rotationYOverride: false
+      rotationY: 180
+      zoomOverride: true
+      zoom: 0.5
+    musicMood:
+      key: uncertainty
+      executionAllowed: true
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 7
+      realtime: true
+      shared: false
+      key: 08_tank_appears_02
+      custom:
+        texture: pilot_portrait_commander
+        duration: 11
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_02
+        textHeader: 司令官
+        textContent:
+        - >-
+          [i]HQ、地点2-SBR-1-5で未確認の非協力的な戦車と遭遇。[/i] [00].........................................[ff]
+
+          [i]確認を求む、オーバー。[/i]
+
+          [aa]*無線ノイズ*[ff][00]......................[ff]
+
+          [i]HQ、確認を、オーバー。[/i]
+    - time: 0
+      realtime: true
+      shared: false
+      key: 08_tank_appears_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 7.2
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_01
+        textHeader: 司令官
+        textContent:
+        - 未確認の戦車だと... それに中継器が無い？これは一体？抜き打ち演習か？
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased:
+      time: 18
+      stepKey: 09_tank_plans
+    outcome: 
+    stepsNext: 
+  09_tank_plans:
+    color:
+      r: 0.754717
+      g: 0.2812389
+      b: 0.2812389
+      a: 1
+    textCurrentPrimary: 接触
+    textCurrentSecondary: 未確認車両に対処しろ
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges:
+    - nameInternal: unit_enemy_tank_first
+      flags: 
+      destruction:
+        delay: 3
+      transform: 
+      actions:
+      - key: move_vehicle
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 241.5
+          y: -19.5
+          z: 241.5
+        targetEntityName: 
+      - key: attack_vehicle
+        startTime: 0.5
+        startTimeIsLocal: true
+        targetPosition: *o0
+        targetEntityName: unit_friendly_mech_commander
+    - nameInternal: unit_friendly_mech_commander
+      flags: 
+      destruction: 
+      transform: 
+      actions:
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 211.5
+          y: -19.5
+          z: 238.5
+        targetEntityName: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys:
+      - move_run
+      - attack_primary
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional:
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Time_Placement
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: &o12
+        x: 938
+        y: 188
+        z: 0
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 攻撃を計画するときは、タイムラインを使って [b]いつ[/b] 開始するか選択します。理想的には、標的が最適な距離にいるときです。
+      icon: icon_input_mouse_left
+      color: &o13
+        r: 0.5290561
+        g: 0.6037736
+        b: 0.259167
+        a: 1
+      lockWidth: false
+      frameSize: &o14
+        x: 684
+        y: 186
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Targeting_Units
+      positionInUI: false
+      positionFromUnit: true
+      positionFromUnitName: unit_enemy_tank_first
+      position: *o0
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: ''
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 攻撃したい標的をクリックします
+      icon: icon_input_mouse_left
+      color: *o10
+      lockWidth: true
+      frameSize: *o1
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Path_Drawing
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o8
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: true
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 移動と攻撃は重複させることができます
+      icon: icon_input_mouse_mid
+      color: *o10
+      lockWidth: false
+      frameSize: *o9
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Path_Drawing
+      positionInUI: false
+      positionFromUnit: false
+      positionFromUnitName: unit_enemy_tank_first
+      position: *o11
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: false
+      unitActionsDesired: false
+      unitActionsList: []
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 常に動き続けることをお勧めします
+      icon: icon_input_mouse_left
+      color: *o3
+      lockWidth: true
+      frameSize: *o1
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Unit_Selection
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o8
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: true
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 攻撃はタイムライン上で再配置できるので、タイミングを微調整しましょう
+      icon: icon_input_mouse_left
+      color: *o10
+      lockWidth: false
+      frameSize: *o9
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Targeting_Units
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o8
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: false
+      unitActionsDesired: true
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 第二ステップはフィールド上の標的を選択します。正面の車両をクリックしてください。
+      icon: icon_input_mouse_left
+      color: *o10
+      lockWidth: false
+      frameSize: *o9
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 09_tank_plans_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 7
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_04
+        textHeader: 司令官
+        textContent:
+        - 中尉！戦車の動力炉から熱源反応を検知した！プロトタイプを確認しろ...戦車が少しでも動いたら、無力化しろ。
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        act_plan_attack1: true
+        act_plan_move4: true
+      stepKey: 10_skirmish_reaction
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+  10_skirmish_reaction:
+    color:
+      r: 1
+      g: 0.4196079
+      b: 0.682353
+      a: 1
+    textCurrentPrimary: 接触
+    textCurrentSecondary: 警戒を怠るな
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 10_skirmish_reaction_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 4
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_05
+        textHeader: 司令官
+        textContent:
+        - いい読みだ。くらったが、ただのすり傷だ。
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased:
+      time: 5
+      stepKey: 11_skirmish_cover
+    outcome: 
+    stepsNext: 
+  11_skirmish_cover:
+    color:
+      r: 0.7686275
+      g: 0.2980392
+      b: 1
+      a: 1
+    textCurrentPrimary: 接触
+    textCurrentSecondary: 降りかかる攻撃から身を守れ
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: tank_cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank_mid1
+          spawn:
+            index: 10
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot: 
+      - key: tank_cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank_mid2
+          spawn:
+            index: 11
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot: 
+      spawnGroupOccupied: false
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: custom
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges:
+    - nameInternal: unit_friendly_mech_commander
+      flags: 
+      destruction: 
+      transform: 
+      actions:
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 187.5
+          y: -19.5
+          z: 244.5
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank_mid1
+      flags: 
+      destruction: 
+      transform: 
+      actions:
+      - key: attack_vehicle
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition: *o0
+        targetEntityName: unit_friendly_mech_commander
+      - key: attack_vehicle
+        startTime: 2.5
+        startTimeIsLocal: true
+        targetPosition:
+          x: 255
+          y: -13.5
+          z: 288
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank_mid2
+      flags: 
+      destruction: 
+      transform: 
+      actions:
+      - key: attack_vehicle
+        startTime: 1
+        startTimeIsLocal: true
+        targetPosition: *o0
+        targetEntityName: unit_friendly_mech_commander
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys:
+      - move_run
+    cutsceneOnStart: 
+    atmosphereOnStart:
+      fogTarget: 0.66
+      fogSpeed: 0.2
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity:
+      f: 20
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 11_skirmish_cover_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 7.5
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_06
+        textHeader: 司令官
+        textContent:
+        - 何？北から複数の目標を確認。なんてこった、そんなはずが。隠れろ。隠れるんだ！
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: []
+    transitionMode: OnExecutionStart
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        act_plan_move5: true
+      stepKey: 12_skirmish_final
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+  12_skirmish_final:
+    color:
+      r: 0.5137255
+      g: 0.5333334
+      b: 1
+      a: 1
+    textCurrentPrimary: 接触
+    textCurrentSecondary: 遮蔽に留まり反撃に備えろ
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity:
+      f: 20
+    musicReactive: 
+    commsOnStart:
+    - time: 13
+      realtime: true
+      shared: false
+      key: 12_skirmish_final_05
+      custom:
+        texture: pilot_portrait_commander
+        duration: 3.6
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_11
+        textHeader: 司令官
+        textContent:
+        - "[ffaa33]HQ、応答してくれ！ \nHQ、聞こえるか？"
+    - time: 12
+      realtime: true
+      shared: false
+      key: 12_skirmish_final_04
+      custom:
+        texture: pilot_portrait_cadet
+        duration: 1
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_10
+        textHeader: 見習い士官
+        textContent:
+        - ラジャー！出撃する！
+    - time: 6
+      realtime: true
+      shared: false
+      key: 12_skirmish_final_03
+      custom:
+        texture: pilot_portrait_commander
+        duration: 6.5
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_09
+        textHeader: 司令官
+        textContent:
+        - 敵対勢力と認定、これは演習ではない！迎撃しろ、町を守れ、いま向かっている！
+    - time: 1.5
+      realtime: true
+      shared: false
+      key: 12_skirmish_final_02
+      custom:
+        texture: pilot_portrait_cadet
+        duration: 4.4
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_08
+        textHeader: 見習い士官
+        textContent:
+        - 司令官！前方斜面に複数目標が出現、武装準備完了！
+    - time: 0
+      realtime: true
+      shared: false
+      key: 12_skirmish_final_01
+      custom:
+        texture: pilot_portrait_commander
+        duration: 1.3
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_enemyappear_07
+        textHeader: 司令官
+        textContent:
+        - これは戦争ゲームではない...
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased:
+      time: 16
+      stepKey: 13_siege_cutscene
+    outcome: 
+    stepsNext: 
+  13_siege_cutscene:
+    color:
+      r: 0.5137255
+      g: 0.8216994
+      b: 1
+      a: 1
+    textCurrentPrimary: ''
+    textCurrentSecondary: ''
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: false
+    visible: false
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_leader
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_mech1
+          spawn:
+            index: 3
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot:
+            presetUsed: false
+            presetKey: enemy_pilot_generic
+            custom:
+              id:
+                callsign: Leader
+                givenName: ''
+                familyName: ''
+              idLocalized:
+                Chinese:
+                  callsign: 敌方司令
+                  givenName: ''
+                  familyName: ''
+              portaitOverrideUsed: false
+              portraitTextureName: ''
+      - key: tank_cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank1
+          spawn:
+            index: 4
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed:
+            libraryUsed: true
+            speed: 0
+          pilot: 
+      - key: tank_cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank2
+          spawn:
+            index: 5
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot: 
+      - key: tank_cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank3
+          spawn:
+            index: 6
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot: 
+      - key: tank_aa
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank4_aa
+          spawn:
+            index: 7
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot: 
+      - key: tank_aa
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name:
+            name: unit_enemy_tank5_aa
+          spawn:
+            index: 8
+          landing:
+            landingUsed: false
+            landingData: 
+          flags:
+            controlByPlayer: false
+            controlledByAI: false
+          faction: 
+          speed: 
+          pilot: 
+      spawnGroupOccupied: false
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: custom
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges:
+    - nameInternal: unit_friendly_mech_commander
+      flags:
+        visible: false
+        playerControllable: false
+        aiControllable: false
+      destruction:
+        delay: 0
+      transform: 
+      actions: 
+    - nameInternal: unit_friendly_mech_pc
+      flags: 
+      destruction: 
+      transform:
+        position:
+          x: 160.5
+          y: -19.5
+          z: 142.5
+        rotation: 90
+      actions: 
+    - nameInternal: unit_friendly_mech_cadet
+      flags:
+        visible: true
+        playerControllable: true
+        aiControllable: false
+      destruction: 
+      transform:
+        position:
+          x: 169.5
+          y: -19.5
+          z: 124.5
+        rotation: 90
+      actions: 
+    - nameInternal: unit_enemy_mech1
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform:
+        position:
+          x: 289.5
+          y: -19.5
+          z: 139.5
+        rotation: 270
+      actions:
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 277.5
+          y: -19.5
+          z: 139.5
+        targetEntityName: 
+      - key: move_run
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 245.5
+          y: -19.5
+          z: 108.5
+        targetEntityName: 
+      - key: attack_primary
+        startTime: 3.25
+        startTimeIsLocal: true
+        targetPosition:
+          x: 184.5
+          y: -13.5
+          z: 124.5
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank1
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform:
+        position:
+          x: 289.5
+          y: -19.5
+          z: 151.5
+        rotation: 270
+      actions:
+      - key: move_vehicle
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 259.5
+          y: -19.5
+          z: 130.5
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank2
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform:
+        position:
+          x: 286.5
+          y: -19.5
+          z: 34.5
+        rotation: 315
+      actions:
+      - key: move_vehicle
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 256.5
+          y: -19.5
+          z: 64.5
+        targetEntityName: 
+      - key: attack_vehicle
+        startTime: 3.5
+        startTimeIsLocal: true
+        targetPosition:
+          x: 184.5
+          y: -14.5
+          z: 97.5
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank3
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform:
+        position:
+          x: 268.5
+          y: -19.5
+          z: 16.5
+        rotation: 315
+      actions:
+      - key: move_vehicle
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 235.5
+          y: -19.5
+          z: 28.5
+        targetEntityName: 
+      - key: attack_vehicle
+        startTime: 3
+        startTimeIsLocal: true
+        targetPosition:
+          x: 155.5
+          y: -13.5
+          z: 105.5
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank4_aa
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform:
+        position:
+          x: 289.5
+          y: -19.5
+          z: 127.5
+        rotation: 270
+      actions:
+      - key: move_vehicle
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 258.5
+          y: -19.5
+          z: 106.5
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank5_aa
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform:
+        position:
+          x: 289.5
+          y: -19.5
+          z: 25.5
+        rotation: 270
+      actions:
+      - key: move_vehicle
+        startTime: 0
+        startTimeIsLocal: true
+        targetPosition:
+          x: 238.5
+          y: -19.5
+          z: 55.5
+        targetEntityName: 
+    - nameInternal: unit_enemy_tank_mid1
+      flags:
+        visible: false
+        playerControllable: false
+        aiControllable: false
+      destruction:
+        delay: 0
+      transform: 
+      actions: 
+    - nameInternal: unit_enemy_tank_mid2
+      flags:
+        visible: false
+        playerControllable: false
+        aiControllable: false
+      destruction:
+        delay: 0
+      transform: 
+      actions: 
+    retreat: 
+    actionRestrictions:
+      inverted: false
+      keys: []
+    cutsceneOnStart:
+      key: tutorial_mid
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: fear
+      executionAllowed: true
+    musicIntensity:
+      f: 10
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnRealTime
+    transitionBasedScope: true
+    transitionLocksExecution: true
+    transitionsStateBased: []
+    transitionTimeBased:
+      time: 1
+      stepKey: 14_siege_hints
+    outcome: 
+    stepsNext: 
+  14_siege_hints:
+    color:
+      r: 0.4386792
+      g: 1
+      b: 0.866686
+      a: 1
+    textCurrentPrimary: 
+    textCurrentSecondary: 
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: false
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions:
+      delay: 0
+      pages: 
+    hintsConditional:
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Unit_Selection
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position:
+        x: 530
+        y: 264
+        z: 0
+      contextMenuChecked: true
+      contextMenuDesired: false
+      unitLinked: false
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: true
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: その他のアクションが解除されました。覚えておいてください―ひとつのアクションを何度も繰り返すことができます。
+      icon: icon_input_mouse_mid
+      color:
+        r: 0.3301887
+        g: 0.3301887
+        b: 0.3301887
+        a: 1
+      lockWidth: false
+      frameSize:
+        x: 300
+        y: 64
+    - uiLocation: BottomLeft
+      uiMode: TopLeft
+      inputMode: Unit_Selection
+      positionInUI: false
+      positionFromUnit: true
+      positionFromUnitName: unit_friendly_mech_cadet
+      position: *o0
+      contextMenuChecked: true
+      contextMenuDesired: false
+      unitLinked: true
+      unitNameInternal: unit_friendly_mech_cadet
+      unitSelectionChecked: false
+      unitSelectionDesired: true
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - move_run
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: ショットガンとシールドの機体です。遮蔽で待つかシールドに隠れて距離を詰め、近距離で射撃しましょう。
+      icon: icon_input_mouse_left
+      color: *o4
+      lockWidth: true
+      frameSize: *o1
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Time_Placement
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: ''
+      position: *o12
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: false
+      unitNameInternal: unit_friendly_mech_pc
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: true
+      selectedActionName: attack_primary
+      text: チャンス―視線が通り標的と最適な距離になる瞬間を探しましょう。何もないならば、経路の変更を検討しましょう。
+      icon: icon_input_mouse_left
+      color: *o13
+      lockWidth: false
+      frameSize: *o14
+    - uiLocation: BottomLeft
+      uiMode: TopRight
+      inputMode: Path_Drawing
+      positionInUI: true
+      positionFromUnit: false
+      positionFromUnitName: unit_enemy_tank_first
+      position: *o12
+      contextMenuChecked: false
+      contextMenuDesired: false
+      unitLinked: false
+      unitNameInternal: ''
+      unitSelectionChecked: false
+      unitSelectionDesired: false
+      unitActionsChecked: true
+      unitActionsDesired: false
+      unitActionsList:
+      - attack_primary
+      selectedActionChecked: false
+      selectedActionName: ''
+      text: 標的に近づき、かつダメージを避けることができるちょうど良い経路を探してみましょう。敵の射線と垂直に移動しましょう：撃たれにくくなります
+      icon: icon_input_mouse_left
+      color: *o3
+      lockWidth: true
+      frameSize: *o14
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: fear
+      executionAllowed: true
+    musicIntensity:
+      f: 20
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: false
+      key: 14_siege_hints_01
+      custom:
+        texture: pilot_portrait_cadet
+        duration: 10.8
+        audioUsed: true
+        audioKey: vo_pax2019_tutorial_combat_01
+        textHeader: 見習い士官
+        textContent:
+        - "ウォーカー1機と車両複数が接近中！\n覚えておけ、最悪の場合は試作機を回収されないように自爆装置をセットして完全に破壊するんだ！\n何があっても、脱出地点R09で合流しよう！"
+    audioEventsOnStart: []
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: false
+    transitionLocksExecution: true
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: false
+      stateRequirements: 
+      stepKey: 15_siege_freeform
+    transitionTimeBased:
+      time: 10
+      stepKey: 15_siege_freeform
+    outcome: 
+    stepsNext: 
+  15_siege_freeform:
+    color: *o15
+    textCurrentPrimary: 包囲作戦
+    textCurrentSecondary: 街を守る必要がある
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges:
+    - nameInternal: unit_enemy_mech1
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform: 
+      actions: 
+    - nameInternal: unit_enemy_tank1
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform: 
+      actions: 
+    - nameInternal: unit_enemy_tank2
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform: 
+      actions: 
+    - nameInternal: unit_enemy_tank3
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform: 
+      actions: 
+    - nameInternal: unit_enemy_tank4_aa
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform: 
+      actions: 
+    - nameInternal: unit_enemy_tank5_aa
+      flags:
+        visible: true
+        playerControllable: false
+        aiControllable: true
+      destruction: 
+      transform: 
+      actions: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood:
+      key: fear
+      executionAllowed: true
+    musicIntensity:
+      f: 10
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 2
+      stateCleanupOnUse: true
+      stateRequirements:
+        units_defeated_enemy: true
+      stepKey: 29_victory
+    - priority: 1
+      stateCleanupOnUse: true
+      stateRequirements:
+        retreat: true
+      stepKey: 29_victory
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        units_defeated_friendly: true
+      stepKey: 30_end
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+  29_victory:
+    color: *o15
+    textCurrentPrimary: 
+    textCurrentSecondary: 
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: false
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart:
+      key: tutorial_end
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: false
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome:
+      type: Victory
+    stepsNext: 
+  30_end:
+    color: *o15
+    textCurrentPrimary: ''
+    textCurrentSecondary: ''
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: false
+    unitGroups: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: false
+    transitionLocksExecution: true
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome:
+      type: Defeat
+    stepsNext: 
+unitPresets:
+  mech_friendly_cadet: !UnitPresetLink
+    preset: custom_tutorial_mech_cadet
+  mech_friendly_commander: !UnitPresetLink
+    preset: custom_tutorial_mech_commander
+  mech_friendly_pc: !UnitPresetLink
+    preset: custom_tutorial_mech_pc
+  mech_leader: !UnitPresetLink
+    preset: custom_tutorial_mech_enemy
+  tank_aa: !UnitPresetLink
+    preset: vhc_tank_training_aa_0
+  tank_cannon: !UnitPresetLink
+    preset: vhc_tank_training_cannon_0
+tabIndex: 0
+tabsLocal: false
