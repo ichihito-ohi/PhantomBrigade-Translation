@@ -1,0 +1,53 @@
+colorFromStep: false
+colorCustom: false
+colorKey: restorative_primary
+color:
+  r: 0.3333333
+  g: 0.5
+  b: 0.2418301
+  a: 1
+optionMood: Restorative
+textHeader: パイロットを採用する
+textContent: >-
+  民間人のひとりを採用してメックパイロットにする。
+
+  | +1 パイロット | -200 物資|
+priority: 0
+completing: true
+stepByPriority: false
+stepFallbackMode: None
+stepFallbackKey: 
+check:
+  self:
+    tagsMethod: RequireAll
+    tags: 
+    eventMemory: 
+    combatReady: 
+    movement: 
+    deployment: 
+    supplies:
+      check: GreaterEqual
+      value: 200
+    pilotsAvailable:
+      check: Less
+      value: 8
+    unitsAvailable: 
+    pilots: 
+    units: 
+    levelDeltaTarget: 
+    levelDeltaProvince: 
+  target: 
+  province: 
+  action: 
+hopeChange: 
+memoryChangesInt: 
+memoryChangesFloat: 
+calls:
+- key: TransferTargetPilots
+  arg1: 
+  arg2: 
+- key: ModifySelfSupply
+  arg1: !EventCallArgInt
+    value: -200
+  arg2: 
+steps: 

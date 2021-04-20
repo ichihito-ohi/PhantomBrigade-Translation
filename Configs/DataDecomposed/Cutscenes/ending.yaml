@@ -1,0 +1,129 @@
+textName: Outro / Main cinematic
+path: Content/PrefabsCutscenes/cutscene_ending
+postprocessing:
+  startWithoutFade: false
+  endWithoutFade: true
+  fogSpeedCustom: false
+  fogSpeed: 1
+  pathNormal: ''
+  pathFogLight: ''
+  pathFogMedium: ''
+  pathFogHeavy: ''
+world: 
+environment: 
+area: 
+units:
+  unitsQueried: 
+  unitsBuilt:
+  - presetResolver: !UnitPresetEmbedded
+      preset:
+        textName: 
+        unitBlueprint: unit_mech
+        customizationKey: unit_generated_04
+        livery: pb_arctic_sky
+        tags: []
+        subsystemTagPreferences: {}
+        partTagPreferences:
+          body:
+          - tags:
+              armor_elbrus: true
+        parts:
+          equipment_left:
+            liveryOverride: false
+            livery: 
+            partPresetOverride: true
+            partPresetTagsUsed: false
+            partPresetTagPreferences: 
+            partPresetKeys: []
+            subsystemsOverride: false
+            subsystems: {}
+          equipment_right:
+            liveryOverride: false
+            livery: 
+            partPresetOverride: true
+            partPresetTagsUsed: false
+            partPresetTagPreferences: 
+            partPresetKeys: []
+            subsystemsOverride: false
+            subsystems: {}
+    key: 01_wall
+  - presetResolver: !UnitPresetEmbedded
+      preset:
+        textName: 
+        unitBlueprint: unit_mech
+        customizationKey: unit_generated_04
+        livery: pb_arctic_sky
+        tags: []
+        subsystemTagPreferences: {}
+        partTagPreferences:
+          body:
+          - tags:
+              armor_tsubasa: true
+        parts: &o0
+          equipment_left:
+            liveryOverride: false
+            livery: 
+            partPresetOverride: true
+            partPresetTagsUsed: false
+            partPresetTagPreferences: 
+            partPresetKeys: []
+            subsystemsOverride: false
+            subsystems: {}
+          equipment_right:
+            liveryOverride: false
+            livery: 
+            partPresetOverride: true
+            partPresetTagsUsed: false
+            partPresetTagPreferences: 
+            partPresetKeys: []
+            subsystemsOverride: false
+            subsystems: {}
+    key: 02_carrying
+  - presetResolver: !UnitPresetEmbedded
+      preset:
+        textName: 
+        unitBlueprint: unit_mech
+        customizationKey: unit_generated_04
+        livery: pb_arctic_sky
+        tags: []
+        subsystemTagPreferences: {}
+        partTagPreferences:
+          body:
+          - tags:
+              armor_tsubasa: true
+        parts: *o0
+    key: 03_end
+camera: 
+subtitles:
+- time: 2
+  duration: 4
+  textFromLibrary: false
+  textContent: 私たちが戦いを辞めても彼らは戦った
+- time: 12.5
+  duration: 3.5
+  textFromLibrary: false
+  textContent: 私たちがすべてを失っても彼らは希望を捨てなかった
+- time: 21
+  duration: 3.5
+  textFromLibrary: false
+  textContent: 元通りにはならないかもしれない
+- time: 32
+  duration: 4
+  textFromLibrary: false
+  textContent: それでも灰の中からきっと素晴らしいものが築けるはず
+callbacksOnSkip: 
+audioEventsOnStart:
+- key: tableau_start
+audioStatesOnStart: 
+audioSyncsOnStart: 
+audioEventsOnPlay:
+- key: tableau_outro_audio
+- key: tableau_outro_vo
+audioStatesOnPlay: []
+audioSyncsOnPlay: 
+audioEventsOnEnd:
+- key: tableau_stop
+- key: music_worldmap
+- key: ambience_worldmap
+audioStatesOnEnd: 
+audioSyncsOnEnd: 

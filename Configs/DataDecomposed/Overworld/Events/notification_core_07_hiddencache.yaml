@@ -1,0 +1,129 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 1
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 0
+  completionOnTarget: 0
+trackCompletionOnSelf: true
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Short
+steps:
+  main:
+    image: event_intel
+    textName: 隠された古い工房
+    textDesc: 農場技術者のひとりが言うには、戦争前はよくメックの部品をいじっていたらしい。谷の反対側に隠された、彼の工房にはまだ改造した部品が残っているかもしれないとのことだ。見つけるには周囲を偵察すべきだろう。
+    options:
+    - shared: false
+      key: victory
+    colorCustom: false
+    colorKey: positive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Positive
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/Tutorial/GotPerk
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: facility_farm
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Tutorial/NewProvince
+            check: Bool
+            value: 1
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  victory:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 続ける
+    textContent: ''
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Bool
+        key: World/Tag/MountainBaseCaptured
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

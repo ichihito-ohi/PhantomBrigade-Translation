@@ -1,0 +1,34 @@
+ui:
+  color:
+    r: 0.3176471
+    g: 0.4294242
+    b: 0.5019608
+    a: 1
+  minified: false
+  locationFromTarget: true
+  textName: 調査
+  textContext: 
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が無事完了しました
+  textDesc: 現場チームが戦場で貴重な情報を捜索しています。
+audio: 
+duration: 2
+cost: 0
+limitPerOwner: 0
+progressGroup: 0
+requireCombatParticipation: false
+completeOnCombatVictory: false
+terminateOnCombatDefeat: true
+requiresDeployment: true
+terminationAllowed: false
+callsOnTerminationBeforeCompletion: false
+callsOnStart: 
+callsOnTermination: 
+callsOnCompletion: []
+tags: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

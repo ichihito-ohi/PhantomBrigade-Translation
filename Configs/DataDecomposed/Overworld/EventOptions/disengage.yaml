@@ -1,0 +1,26 @@
+colorFromStep: false
+colorCustom: false
+colorKey: neutral_primary
+color:
+  r: 0.8235295
+  g: 0.3176471
+  b: 0.2588235
+  a: 1
+optionMood: Neutral
+textHeader: 回避する
+textContent: あなたはいつでもここに戻ってくることができます。
+priority: 100
+completing: false
+stepByPriority: false
+stepFallbackMode: None
+stepFallbackKey: 
+check:
+  self: 
+  target: 
+  province: 
+  action: 
+hopeChange: 
+memoryChangesInt: 
+memoryChangesFloat: 
+calls: 
+steps: 

@@ -1,0 +1,22 @@
+hidden: false
+parent: facility
+tags: []
+textName: 核融合プラント
+textDesc: ''
+textIdentifierGroup: site_settlement_city
+image: world_site_09
+core: 
+factionBranch: 
+visual: 
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios:
+  tags: {}
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

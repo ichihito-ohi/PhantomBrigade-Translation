@@ -1,0 +1,94 @@
+versionUsed: false
+buildUsed: false
+dateTimeUsed: false
+dateTimeDefinitive: false
+priority: -3
+versionMajor: 0
+versionMinor: 2
+versionPatch: 0
+buildNumber: 116
+dateTime: 132434172000000000
+textLeftSubheader: 参照ページ
+textRightHeader: ''
+textRightSubheader: ''
+textTable: 
+textName: 操作方法
+textDesc: これは現在使用可能なキーボード操作（ホットキー）のリストです。ゲームは現在、再バインドやキーボードのみでの操作には対応していません（これらの操作の上にマウス操作が存在します）。
+sections:
+- textHeader: 常時
+  textChanges:
+  - '[pr=][aa]機能'
+  - Esc               ポーズメニューの開閉
+  - F11             ログの開閉
+  - F12             スクリーンショットの撮影
+  - Num -         UI on/off の切替
+  - Num +        UI on/off の切替（重要な UI を除く）
+  - Shift+Tab   フィードバックフォームを開く
+  - Spacebar    カットシーンをスキップ
+- textHeader: 全体マップ
+  textChanges:
+  - '[pr=][aa]ナビゲーション'
+  - F1     基地画面に移動
+  - 
+  - '[pr=][aa]時間操作'
+  - 1       時間経過 1x
+  - 2       時間経過 2x
+  - 3       時間経過 3x
+  - +       時間経過の速度上昇
+  - '-        時間経過の速度低下'
+  - 
+  - '[pr=][aa]カメラ操作'
+  - Q       旋回 時計回り
+  - E       旋回 反時計回り
+  - W      平行移動 上
+  - A       平行移動 左
+  - S       平行移動 下
+  - D       平行移動 右
+  - R       回転 上
+  - F       回転 下
+  - 
+  - '[pr=][aa]その他'
+  - Enter     続ける（デブリーフィング画面）
+  - Tab       移動基地を画面中央に捕捉、移動基地を選択
+- textHeader: 移動基地
+  textChanges:
+  - '[pr=][aa]ナビゲーション'
+  - F1        全体マップ画面に移動
+  - F2        基地
+  - F3        機体
+  - F4        所持品
+  - F5        工房
+- textHeader: 戦闘
+  textChanges:
+  - '[pr=][aa]基本'
+  - LMB             確認
+  - RMB             取消 / 戻る（各種UI）
+  - Esc               取消 / 戻る（各種UI）
+  - Enter            次の画面に進む（結果画面）
+  - Enter            計画したアクションを実行（計画フェーズ）
+  - Ctrl               詳細照準UIを表示、地面の任意地点を照準可能にする、近接方向を反転
+  - Ctrl               攻撃設定中 - 地面を照準可能にする
+  - Ctrl               近接設定中 - 近接方向を反転
+  - Spacebar    実行中のスローモーション切替
+  - Tab              選択した機体を画面中央に捕捉
+  - 
+  - '[pr=][aa]選択'
+  - F1-F9   機体選択（ナビゲーションバーの表示順）
+  - 1-9        行動選択（アクションバーの表示順）
+  - 1-4        実行中の時間経過の速度操作
+  - 
+  - '[pr=][aa]カメラ操作'
+  - Q       旋回 時計回り
+  - E       旋回 反時計回り
+  - W      平行移動 上
+  - A       平行移動 左
+  - S       平行移動 下
+  - D       平行移動 右
+  - R       回転 上
+  - F       回転 下
+  - 
+  - '[pr=][aa]Other'
+  - Num 0   音声 on/off の切替
+  - Num 1   効果音 on/off の切替
+  - Num 2   セリフ on/off の切替
+  - Num 3   音楽 on/off の切替

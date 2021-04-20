@@ -1,0 +1,20 @@
+textName: パイロットがいません
+textDesc: どんなウォーカーも動作させるにはパイロットが必要です。出撃可能なパイロットを配置するか他の機体から再配置してください。
+hidden: true
+icon: s_icon_l32_system_internal_pod
+severity: Critical
+check:
+  encompassingMethod: RequireAll
+  tagsMethod: RequireAll
+  blueprintsMethod: RequireAll
+  partsMethod: RequireAll
+  subsystemsMethod: RequireAll
+  statsMethod: RequireAll
+  tags: []
+  blueprints: []
+  parts: []
+  subsystems: []
+  stats: []
+  pilot:
+  - not: true
+    requirement: Present

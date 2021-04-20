@@ -1,0 +1,122 @@
+textName: Assault
+hidden: false
+optional: false
+restartTimeOnExit: false
+stepOnStart: main
+priority: 90
+group: 1
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_mountain_base
+    textName: 基地を取り戻す
+    textDesc: >-
+      かつては採掘施設だった、フェルハイム基地は後に緊急のメック保管庫として改修され、必要に応じて祖国の軍隊を支援するために建設が進められた。侵略が始まったとき、あまりに早く国が侵攻されたため誰もここを活用できなかった。警備する敵軍を追い出すことができればこの放棄された場所も我々の役に立つだろう！
+
+
+      旅団が侵略者を打ち破ればこの州の人々がより希望を抱くようになります。すなわち、フェルヘイムを取ることは現地の希望が上昇することを意味します。十分な希望があれば、地域が解放されます。州の希望レベルについて詳細な情報はその名前の下で確認できます。
+    options:
+    - shared: false
+      key: start_combat
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 0.3921569
+      b: 0.3254902
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady:
+          ready: true
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: objective_mountainbase
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: true
+        unpacked:
+          present: false
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory: 
+        faction: 
+        access:
+          accessible: true
+          partially: true
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  start_combat:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 0.8235295
+      g: 0.3176471
+      b: 0.2588235
+      a: 1
+    optionMood: Negative
+    textHeader: 出動準備
+    textContent: 部隊と戦闘準備に取り掛かる
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartCombatFromTagsOnEntity
+      arg1: 
+      arg2: 
+    - key: StopBase
+      arg1: 
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

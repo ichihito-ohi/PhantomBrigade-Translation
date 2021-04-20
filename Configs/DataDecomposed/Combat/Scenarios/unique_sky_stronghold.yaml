@@ -1,0 +1,244 @@
+skipStatCalculations: false
+hidden: true
+textName: Skybase Assault
+textDesc: ''
+textContextCustom: Secure site
+timeLocked: true
+time: 7
+areaTagsUsed: false
+areaTags: 
+area: dev_sky_stronghold
+squadUsed: true
+squadSize: 2
+loadImmediately: false
+externalLevelUsed: true
+exit: 
+customExitBehaviour: 
+musicDynamic: false
+actionBlocklist: []
+customPlayerSlot: 
+stepOnStart: 00_start
+tags:
+- listed
+- unique
+states:
+  01_turn_check:
+    textName: 次波
+    textDesc: 2 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 2
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+steps:
+  00_start:
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    textCurrentPrimary: 砦
+    textCurrentSecondary: 妨害を始めるためにすべての敵を殲滅しろ。増援を防ぐために通り道をふさげ。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: true
+    unitsRevealed: true
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_enemy_ts
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      - key: mech_enemy_vd
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      spawnGroupOccupied: false
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: gates
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 2
+      realtime: true
+      shared: false
+      key: guard_alert
+      custom:
+        texture: pilot_enemy
+        duration: 7
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / 01
+        textContent:
+        - ブラボー1、デッキに着陸する未確認のメックを視認。何が起きている？滑走路を塞がれて友軍機が着陸できん、ただちに対処するんだ。
+    - time: 12
+      realtime: true
+      shared: false
+      key: guard_alert
+      custom:
+        texture: pilot_enemy
+        duration: 5
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / 02
+        textContent:
+        - "ラジャー、交戦する。ゴミは元来た場所に戻してやろう。"
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        01_turn_check: true
+      stepKey: 01_wave
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - wave_01_alarm
+  01_wave:
+    color: *o0
+    textCurrentPrimary: 砦
+    textCurrentSecondary: 妨害を始めるためにすべての敵を殲滅しろ。増援を防ぐために通り道をふさげ。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_generic
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing:
+            landingUsed: false
+            landingData: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      spawnGroupOccupied: false
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: gates
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 2
+      realtime: true
+      shared: false
+      key: guard_alert
+      custom:
+        texture: pilot_enemy
+        duration: 7
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / 02
+        textContent:
+        - 交戦中。相手をしつつ司令部に報告しよう―ここではしばらくの間何の活動も無かったはずだ、このウォーカーが何者かまったくわからん。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionStart
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+unitPresets:
+  mech_enemy_ts: !UnitPresetLink
+    preset: test_mech_armor_tsubasa_l
+  mech_enemy_vd: !UnitPresetLink
+    preset: test_mech_armor_vidar_h
+  mech_generic: !UnitPresetLink
+    preset: mountainbase_bravo
+tabIndex: 0
+tabsLocal: false

@@ -1,0 +1,30 @@
+colorFromStep: false
+colorCustom: false
+colorKey: construction_primary
+color:
+  r: 1
+  g: 1
+  b: 1
+  a: 1
+optionMood: ConstructionSalvage
+textHeader: 機材を使う
+textContent: >-
+  機材を使って押し入る。
+
+  | -300 物資 | 1 時間 | 戦利品にたどり着く |
+priority: 0
+completing: false
+stepByPriority: false
+stepFallbackMode: None
+stepFallbackKey: 
+check: 
+hopeChange: 
+memoryChangesInt: 
+memoryChangesFloat: 
+calls:
+- key: CreateActionTargeted
+  arg1: !EventCallArgString
+    value: breakin_1h
+    mode: DatabaseAction
+  arg2: 
+steps: 

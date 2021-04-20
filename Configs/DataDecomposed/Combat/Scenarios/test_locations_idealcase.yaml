@@ -1,0 +1,362 @@
+skipStatCalculations: false
+hidden: false
+textName: Test Locations - Ideal Case
+textDesc: ''
+textContextCustom: 
+timeLocked: true
+time: 7
+areaTagsUsed: false
+areaTags:
+  type_main: true
+area: main_facility_industry_medium_00
+squadUsed: true
+squadSize: 4
+loadImmediately: true
+externalLevelUsed: true
+exit: 
+customExitBehaviour: 
+musicDynamic: false
+actionBlocklist: []
+customPlayerSlot:
+  spawnTagsUsed: true
+  spawnTags:
+    direction_e: true
+    perimeter_inner: true
+  spawnGroupKey: 
+stepOnStart: wave0
+tags:
+- type_looting
+- listed
+states:
+  obj_looting_01:
+    textName: 物資を盗む
+    textDesc: 確保するためにマークされた物資の所へメックを移動させましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter:
+    - OnExecutionEnd
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied:
+      locationProvider: !AreaLocationFilter
+        tagRequirements:
+          direction_w: true
+          obj_loot: true
+          perimeter_inner: true
+      visual: 
+      faction:
+        key: Phantoms
+      unit: 
+      unitCount: 
+    reactions:
+      expectedValue: true
+      scopeRemovalOnLimit: true
+      executeOnVictory: true
+      triggerLimit: 2
+      effectsPerIncrement:
+        1:
+          commsOnStart:
+          - time: 0
+            realtime: true
+            shared: false
+            key: 
+            custom:
+              texture: portrait_hq
+              duration: 5
+              audioUsed: false
+              audioKey: 
+              textHeader: HQ
+              textContent:
+              - ここにある物資の一部は再回収のためにマークされています。残りをマークするにはもう一度パルスを発信する必要があります―そのことを覚えておいてください。
+          memoryChangesInt: 
+          memoryChangesFloat: 
+          callsImmediate:
+          - OnLootIncremental
+          callsDelayed: 
+          callsDelayedOutcomeCheck: false
+          callsDelayedOutcomeRequired: Victory
+        2:
+          commsOnStart:
+          - time: 0
+            realtime: true
+            shared: false
+            key: 
+            custom:
+              texture: portrait_hq
+              duration: 5
+              audioUsed: false
+              audioKey: 
+              textHeader: HQ
+              textContent:
+              - これで、クレートの中身がすべて回収用にマークされました。ドローン一組の連携が確立したので完了し次第物資をピックアップする予定です。
+          memoryChangesInt: 
+          memoryChangesFloat: 
+          callsImmediate:
+          - OnLootIncremental
+          callsDelayed:
+          - OnLootLarge
+          callsDelayedOutcomeCheck: true
+          callsDelayedOutcomeRequired: Victory
+  obj_looting_02:
+    textName: 物資を盗む
+    textDesc: 確保するためにマークされた物資の所へメックを移動させましょう。
+    evaluated: true
+    visible: true
+    evaluationFilter:
+    - OnExecutionEnd
+    turn: 
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied:
+      locationProvider: !AreaLocationFilter
+        tagRequirements:
+          obj_loot: true
+          perimeter_center: true
+      visual: 
+      faction:
+        key: Phantoms
+      unit: 
+      unitCount: 
+    reactions:
+      expectedValue: true
+      scopeRemovalOnLimit: true
+      executeOnVictory: true
+      triggerLimit: 2
+      effectsPerIncrement:
+        1:
+          commsOnStart:
+          - time: 0
+            realtime: true
+            shared: false
+            key: 
+            custom:
+              texture: portrait_hq
+              duration: 5
+              audioUsed: false
+              audioKey: 
+              textHeader: HQ
+              textContent:
+              - ここにある物資の一部は再回収のためにマークされています。残りをマークするにはもう一度パルスを発信する必要があります―そのことを覚えておいてください。
+          memoryChangesInt: 
+          memoryChangesFloat: 
+          callsImmediate:
+          - OnLootIncremental
+          callsDelayed: 
+          callsDelayedOutcomeCheck: false
+          callsDelayedOutcomeRequired: Victory
+        2:
+          commsOnStart:
+          - time: 0
+            realtime: true
+            shared: false
+            key: 
+            custom:
+              texture: portrait_hq
+              duration: 5
+              audioUsed: false
+              audioKey: 
+              textHeader: HQ
+              textContent:
+              - これで、クレートの中身がすべて回収用にマークされました。ドローン一組の連携が確立したので完了し次第物資をピックアップする予定です。
+          memoryChangesInt: 
+          memoryChangesFloat: 
+          callsImmediate:
+          - OnLootIncremental
+          callsDelayed:
+          - OnLootLarge
+          callsDelayedOutcomeCheck: true
+          callsDelayedOutcomeRequired: Victory
+  wait:
+    textName: 次波
+    textDesc: 4 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 3
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+steps:
+  wave0:
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    textCurrentPrimary: 戦利品
+    textCurrentSecondary: 物資をすべて手に入れろ。部隊は孤立しており、増援の接近は検知されていない。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 0
+      tags:
+        has_mech: true
+        range_medium: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_w: true
+        perimeter_inner: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 0
+      tags:
+        has_mech: true
+        range_medium: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_w: true
+        perimeter_inner: true
+      spawnGroupKey: 
+    stateScopeChanges:
+      obj_looting_01: true
+      obj_looting_02: true
+    stateValueChanges: 
+    unitChanges: 
+    retreat:
+      key: default
+      outcome: Defeat
+      turn:
+        relative: false
+        check: Less
+        value: 3
+      locationProvider: !AreaLocationFilter
+        tagRequirements:
+          obj_retreat: true
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: true
+      key: start_reinforcement_request
+      custom: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnStateChange
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        wait: true
+      stepKey: wave1
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - wave1
+  wave1:
+    color: *o0
+    textCurrentPrimary: 戦利品
+    textCurrentSecondary: 物資をすべて手に入れろ。部隊は孤立しており、増援の接近は検知されていない。
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 1
+      tags:
+        has_mech: true
+        range_medium: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_w: true
+        perimeter_inner: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 0
+      tags:
+        has_mech: true
+        range_medium: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        direction_w: true
+        perimeter_inner: true
+      spawnGroupKey: 
+    stateScopeChanges:
+      obj_looting_01: true
+      obj_looting_02: true
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 0
+      realtime: true
+      shared: true
+      key: start_reinforcement_request
+      custom: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - wave1
+unitPresets: 
+tabIndex: 0
+tabsLocal: false

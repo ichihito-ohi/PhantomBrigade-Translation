@@ -1,0 +1,218 @@
+textName: Encounter
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.25
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  investigate:
+    image: event_civilian_meeting
+    textName: 助けを呼ぶ声
+    textDesc: >-
+      あなたは基地を止めるよう指示し、女性と話すため降車した。
+
+
+      『あぁ、本当にありがたいわ！誰か助けてくれる人を見つけようと一日中頑張ったのだけど誰も足を止めてはくれなかったの。』
+
+
+      『どうしたんですか？』パイロットのひとりが尋ねる。
+
+
+      『昨晩、駐留兵が私たちの村にやってきたの。彼らは建物を漁っていて、村人は怖がってる。私たちじゃ取り戻す方法がないの。助けてくれませんか？』
+    options:
+    - shared: false
+      key: accept
+    - shared: false
+      key: leave
+    colorCustom: false
+    colorKey: negative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: None
+    priority: 0
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateOverworldEntity
+      arg1: !EventCallArgString
+        value: village_visible
+        mode: CustomSpawnData
+      arg2: 
+    - key: CreateActionTargeted
+      arg1: !EventCallArgString
+        value: raid
+        mode: DatabaseAction
+      arg2: 
+  main:
+    image: world_site_08
+    textName: 助けを呼ぶ声
+    textDesc: >-
+      基地が険しく曲がりくねった田舎道をクネクネと進んでいる。どうやって昼食を押さえるかあなたが考えあぐねていると、パイロットのひとりがあなたを呼び出した。
+
+
+      『あれ見えますか？』パイロットが言う。彼女が指さす先には若い農家が、手招きしている。『止まりますか？』
+    options:
+    - shared: false
+      key: approach
+    - shared: false
+      key: ignore
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    eventMood: Negative
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction:
+          hostileCheck: false
+          hostile: true
+          factions:
+          - Invaders
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  accept:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: はい
+    textContent: >-
+      明らかに彼らは助けを必要としている。
+
+      | 襲撃された村に向かい敵兵に思い知らせます |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  approach:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 近づく
+    textContent: 女性の望みを聞こう。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps:
+    - investigate
+  ignore:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 無視する
+    textContent: >-
+      こんなことをしている時間はない。
+
+      | +10 疲労度 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifyPlayerPilotsFatigue
+      arg1: !EventCallArgInt
+        value: 10
+      arg2: !EventCallArgInt
+        value: 0
+    steps: 
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: いいえ
+    textContent: >-
+      より大きな戦いのために戦力は温存せねば。
+
+      | -10 希望 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange:
+      context: Unscaled
+      offset: -10
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData:
+  village_visible:
+    locationProvider: SourceProvince
+    provinceKey: 
+    spawnGroupKey: general_dynamic
+    generationProfileCustom: false
+    generationProfileKey: settlement_village_raided
+    generationProfile: 
+    faction: Invaders
+    memoryChangesInt:
+    - change: Set
+      key: World/Tag/Raided
+      value: 1
+    memoryChangesFloat: 
+tabsLocal: false

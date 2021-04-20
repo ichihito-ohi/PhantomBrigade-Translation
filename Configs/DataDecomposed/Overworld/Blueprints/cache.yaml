@@ -1,0 +1,99 @@
+hidden: true
+parent: 
+tags:
+- structure
+- site
+- battlefield
+- hidden
+textName: ''
+textDesc: >
+  ほとんどの場合で部品、サブシステム、または物資がある。警備兵すべてを排除せずとも装備を確保して脱出することが可能。
+textIdentifierGroup: ''
+image: ''
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: true
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Cache
+movement: 
+ranges: 
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: 
+scenarios: 
+areas:
+  tags:
+    context_cache: true
+    type_main: true
+production: 
+ai: 
+spawning: 
+loot: 
+rewards:
+  blocks:
+    obj_capture_loot:
+    - supplies:
+        amountMin: 150
+        amountMax: 1
+        amountRandom: false
+      parts:
+      - preset: 
+        tagsUsed: true
+        tags:
+          body_part: true
+          rating_3: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      subsystems: 
+    - supplies:
+        amountMin: 150
+        amountMax: 1
+        amountRandom: false
+      parts:
+      - preset: 
+        tagsUsed: true
+        tags:
+          body_part: true
+          rating_2: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      - preset: 
+        tagsUsed: true
+        tags:
+          item_part: true
+          rating_2: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      subsystems: 

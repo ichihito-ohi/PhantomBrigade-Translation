@@ -1,0 +1,185 @@
+textName: Salvage
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 5
+group: 0
+groupConflicts: 
+chance: 0.15
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 0
+trackCompletionOnSelf: false
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_smoke_distant
+    textName: 攫われた！
+    textDesc: >-
+      あなたが小さな村を通ると、住民のひとりがあなたの基地に止まるよう呼び掛けた。何が起きているのか見にあなたが出ていくと、そこには男がいた、参っているようで何か焦っていた。
+
+
+      『奴らみんなを攫っていった！』彼が言う。『お願いだ、助けてくれるだろ！』
+
+
+      パイロットのひとりが彼らを落ち着かせた後、あなたはそこで平和的な抗議活動が行われ軍に鎮圧されたことを知った。抗議者たちはトラック一台に詰め込まれ誰もその行き先がわからないのだ。
+
+
+      『昨日のことだった』男が言う。『ひどく心配だ。』
+
+
+      パイロットが振り返る。
+
+
+      『どう思いますか、ボス？彼らの後を追いましょうか？』
+    options:
+    - shared: false
+      key: accept
+    - shared: false
+      key: leave
+    colorCustom: false
+    colorKey: negative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Negative
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/MissingPersonSearching
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: settlement
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction:
+          hostileCheck: false
+          hostile: true
+          factions:
+          - Invaders
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  accept:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Positive
+    textHeader: はい
+    textContent: >-
+      一日でそう遠くまでは行っていないはずだ。
+
+      | 市民が連れていかれた敵基地を見つける |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Bool
+        key: World/Tag/MissingPersonSearching
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    - changes:
+      - change: Bool
+        key: World/Tag/MissingPersonSource
+        value: 1
+      context: Target
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: いいえ
+    textContent: >-
+      このために時間と資源を費やすのは惜しい。
+
+      | -10 希望 |
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange:
+      context: Unscaled
+      offset: -10
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

@@ -1,0 +1,677 @@
+skipStatCalculations: true
+hidden: false
+textName: Shooting Range - Equipment Types
+textDesc: ''
+textContextCustom: 
+timeLocked: true
+time: 17
+areaTagsUsed: false
+areaTags: {}
+area: dev_range
+squadUsed: false
+squadSize: 4
+loadImmediately: true
+externalLevelUsed: true
+exit: 
+customExitBehaviour: 
+musicDynamic: false
+actionBlocklist: []
+customPlayerSlot: 
+stepOnStart: main
+tags:
+- listed
+states: {}
+steps:
+  main:
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    textCurrentPrimary: 接触
+    textCurrentSecondary: すべての敵を殲滅しろ
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: false
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: test_mech_handgun_semiauto_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_handgun_auto_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_handgun_heavy_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_handgun_heavy_02
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_handgun_heavy_03
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_mg_heavy_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_mg_light_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_mg_medium_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_mg_sub_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_mg_sub_02
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_rifle_assault_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_rifle_assault_02
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_rifle_marksman_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_rifle_marksman_02
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_rifle_sniper_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_rifle_sniper_02
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_rifle_sniper_03
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_shotgun_auto_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_shotgun_heavy_02
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: test_mech_shotgun_semi_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: wpn_melee_secondary_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: wpn_melee_primary_01
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: wpn_melee_primary_02
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: aa
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      - key: cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: 0
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags:
+            controlByPlayer: true
+            controlledByAI: false
+          faction:
+            faction: Phantoms
+          speed: 
+          pilot: 
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_center: true
+      spawnGroupKey: 
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart: 
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionStart
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+unitPresets:
+  aa: !UnitPresetLink
+    preset: vhc_tank_aa
+  cannon: !UnitPresetLink
+    preset: vhc_tank_cannon
+  test_mech_handgun_auto_01: !UnitPresetLink
+    preset: test_mech_handgun_auto_01
+  test_mech_handgun_heavy_01: !UnitPresetLink
+    preset: test_mech_handgun_heavy_01
+  test_mech_handgun_heavy_02: !UnitPresetLink
+    preset: test_mech_handgun_heavy_02
+  test_mech_handgun_heavy_03: !UnitPresetLink
+    preset: test_mech_handgun_heavy_03
+  test_mech_handgun_semiauto_01: !UnitPresetLink
+    preset: test_mech_handgun_semiauto_01
+  test_mech_mg_heavy_01: !UnitPresetLink
+    preset: test_mech_mg_heavy_01
+  test_mech_mg_light_01: !UnitPresetLink
+    preset: test_mech_mg_light_01
+  test_mech_mg_medium_01: !UnitPresetLink
+    preset: test_mech_mg_medium_01
+  test_mech_mg_sub_01: !UnitPresetLink
+    preset: test_mech_mg_sub_01
+  test_mech_mg_sub_02: !UnitPresetLink
+    preset: test_mech_mg_sub_02
+  test_mech_rifle_assault_01: !UnitPresetLink
+    preset: test_mech_rifle_assault_01r1
+  test_mech_rifle_assault_02: !UnitPresetLink
+    preset: test_mech_rifle_assault_02
+  test_mech_rifle_marksman_01: !UnitPresetLink
+    preset: test_mech_rifle_marksman_01
+  test_mech_rifle_marksman_02: !UnitPresetLink
+    preset: test_mech_rifle_marksman_02
+  test_mech_rifle_sniper_01: !UnitPresetLink
+    preset: test_mech_rifle_sniper_01
+  test_mech_rifle_sniper_02: !UnitPresetLink
+    preset: test_mech_rifle_sniper_02
+  test_mech_rifle_sniper_03: !UnitPresetLink
+    preset: test_mech_rifle_sniper_03
+  test_mech_shotgun_auto_01: !UnitPresetLink
+    preset: test_mech_shotgun_auto_01
+  test_mech_shotgun_heavy_02: !UnitPresetLink
+    preset: test_mech_shotgun_heavy_02
+  test_mech_shotgun_semi_01: !UnitPresetLink
+    preset: test_mech_shotgun_semi_01
+  wpn_melee_primary_01: !UnitPresetLink
+    preset: test_mech_melee_primary_01
+  wpn_melee_primary_02: !UnitPresetLink
+    preset: test_mech_melee_primary_02
+  wpn_melee_secondary_01: !UnitPresetLink
+    preset: test_mech_melee_secondary_01
+tabIndex: 0
+tabsLocal: false

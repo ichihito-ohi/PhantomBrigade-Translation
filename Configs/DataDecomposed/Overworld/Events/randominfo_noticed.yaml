@@ -1,0 +1,109 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: step_01_noticed
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.2
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  step_01_noticed:
+    image: event_hologram_default
+    textName: この先に！
+    textDesc: >-
+      パイロットのひとりが移動基地の先頭からあなたを呼び出した。彼らの所に向かうと、遠くの施設を指さした。
+
+
+      『あれが見えますか？』彼らが説明する。『我々の地図にはありません。あれはいったい何でしょうか！』
+    options:
+    - shared: false
+      key: continue
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment:
+          present: false
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction:
+          hostileCheck: false
+          hostile: true
+          factions: []
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  continue:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 続ける
+    textContent: 
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartOverworldEvent
+      arg1: !EventCallArgStringList
+        value:
+        - spawn_structure
+        - spawn_structure_locked
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

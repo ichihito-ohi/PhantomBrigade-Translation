@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Assault Rifle
+    textLong: アサルトライフルは高レートと中距離射程で優れたオールラウンドな主兵装である。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_assault

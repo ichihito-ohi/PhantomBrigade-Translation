@@ -1,0 +1,190 @@
+used: true
+textName: Stillested
+textDesc: Stillested は、我が国の中で群を抜いて人口の少ない地域で、森林に支配されており、祖国の他の地域で見られたような森林破壊の多くを禁じる古くからの掟がある。
+alwaysVulnerable: true
+level: 18
+levelRecommended: 17
+hopeThreshold: 100
+factionBranch: branch_specops
+position:
+  x: 513.1639
+  y: 28.84441
+  z: -674.7497
+neighbours:
+- province_08
+- province_09
+- province_18
+border:
+- x: 297.491
+  y: 30.03046
+  z: -478.2759
+- x: 383.139
+  y: 27.56365
+  z: -462.4825
+- x: 470.0826
+  y: 39.39933
+  z: -439.9979
+- x: 514.5956
+  y: 51.57736
+  z: -443.4163
+- x: 536.3127
+  y: 55.81653
+  z: -479.5079
+- x: 579.0838
+  y: 53.5891
+  z: -487.7504
+- x: 616.3652
+  y: 56.32994
+  z: -481.8775
+- x: 676.2361
+  y: 32.00142
+  z: -512.5396
+- x: 685.8149
+  y: 23.00966
+  z: -634.796
+- x: 700.9749
+  y: 24.6189
+  z: -822.9197
+- x: 598.8604
+  y: 35.25022
+  z: -897.8748
+- x: 586.3207
+  y: 67.16237
+  z: -936.8311
+- x: 551.4284
+  y: 71.88177
+  z: -939.7698
+- x: 524.9372
+  y: 91.87218
+  z: -970.976
+- x: 445.7914
+  y: 99.83156
+  z: -970.2513
+- x: 347.1006
+  y: 88.76284
+  z: -969.9312
+- x: 330.7671
+  y: 91.3218
+  z: -953.5959
+- x: 316.7522
+  y: 76.45517
+  z: -935.8043
+- x: 294.0515
+  y: 57.86312
+  z: -909.272
+- x: 307.0696
+  y: 40.29339
+  z: -837.2113
+- x: 317.8549
+  y: 28.56897
+  z: -742.4172
+- x: 323.9382
+  y: 27.6419
+  z: -614.1176
+spawns:
+  core_military:
+  - position:
+      x: 475.057
+      y: 24.74834
+      z: -713.9352
+  core_mine:
+  - position:
+      x: 475.989
+      y: 41.75575
+      z: -852.2982
+  core_forest:
+  - position:
+      x: 430.3345
+      y: 26.15903
+      z: -595.5051
+  core_civilian:
+  - position:
+      x: 584.6
+      y: 27.29247
+      z: -608.4073
+  fortification:
+  - position:
+      x: 381.5172
+      y: 26.83154
+      z: -697.6254
+  - position:
+      x: 376.2797
+      y: 27.62998
+      z: -512.4216
+  - position:
+      x: 631.6628
+      y: 23.97348
+      z: -683.9526
+  general_dynamic:
+  - position:
+      x: 490.9492
+      y: 27.07887
+      z: -621.5366
+  - position:
+      x: 385.8332
+      y: 29.0275
+      z: -779.5835
+  - position:
+      x: 480.813
+      y: 30.49445
+      z: -790.6669
+  - position:
+      x: 565.123
+      y: 25.77926
+      z: -786.6789
+  - position:
+      x: 434.1914
+      y: 25.27031
+      z: -654.2072
+  - position:
+      x: 540.67
+      y: 23.79019
+      z: -700.1967
+  - position:
+      x: 629.821
+      y: 24.81687
+      z: -799.6866
+  - position:
+      x: 564.9924
+      y: 36.1153
+      z: -868.667
+  - position:
+      x: 385.3711
+      y: 40.21239
+      z: -848.7844
+entities:
+- spawnGroup: core_military
+  profile: base
+  countMin: 1
+  countMax: 2
+  countRandom: false
+- spawnGroup: core_civilian
+  profile: settlement_village
+  countMin: 1
+  countMax: 2
+  countRandom: false
+- spawnGroup: core_forest
+  profile: facility_forest
+  countMin: 1
+  countMax: 3
+  countRandom: false
+- spawnGroup: general_dynamic
+  profile: cache_generic
+  countMin: 0
+  countMax: 1
+  countRandom: true
+- spawnGroup: fortification
+  profile: fort
+  countMin: 1
+  countMax: 2
+  countRandom: true
+- spawnGroup: general_dynamic
+  profile: outpost
+  countMin: 0
+  countMax: 1
+  countRandom: true
+- spawnGroup: general_dynamic
+  profile: facility
+  countMin: 0
+  countMax: 1
+  countRandom: true

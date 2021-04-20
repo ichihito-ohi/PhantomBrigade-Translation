@@ -1,0 +1,216 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 120
+group: 1
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_recruit
+    textName: 採用活動
+    textDesc: >-
+      あなたの名声が上がり、人々がパイロットの活躍ぶりを耳にするにつれて、あなたの兵士に志願する人が増えてきた。その一部はかつての戦争で戦った者たちだった。それ以外も、実戦経験はないものの敵が家を滅ぼす様を目の当たりにして情熱に満ちていた。
+
+
+      この集落は特に志願するパイロットが多いようだ。資源が許すならば、あなたの軍隊を強化する良い機会になるかもしれない。
+
+
+      ヒント：パイロットは山岳基地や友軍領地内の集落で採用できます。
+    options:
+    - shared: true
+      key: recruit
+    - shared: false
+      key: leave
+    - shared: false
+      key: nosupply
+    - shared: false
+      key: leave_noroom
+    colorCustom: false
+    colorKey: restorative_primary
+    color:
+      r: 0.5843138
+      g: 0.8392158
+      b: 0.4470589
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: settlement
+          not: false
+        - tag: objective_mountainbase
+          not: true
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots:
+          present: true
+          factionChecked: true
+          faction: Phantoms
+          factionInverted: false
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: true
+          hostile: false
+          factions: []
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  leave:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    optionMood: Restorative
+    textHeader: 離れる
+    textContent: まだ拡大する時ではない。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 200
+        pilotsAvailable:
+          check: Less
+          value: 8
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  leave_noroom:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 離れる
+    textContent: パイロット数の上限に達しました。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 200
+        pilotsAvailable:
+          check: GreaterEqual
+          value: 8
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  nosupply:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: restorative_primary
+    color: *o0
+    optionMood: Restorative
+    textHeader: 離れる
+    textContent: あなたには新たなパイロットを採用するのに十分な物資がない。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: Less
+          value: 200
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

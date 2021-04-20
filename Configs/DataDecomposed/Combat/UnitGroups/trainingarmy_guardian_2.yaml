@@ -1,0 +1,40 @@
+difficultyEditable: Hard
+difficulty: 2
+description: ダメージを吸収することで僚機を守る。
+tags:
+- branch_trainingarmy
+- has_mech
+- range_medium
+- range_short
+- role_generic
+- role_guardian
+- weight_heavy
+units:
+- key: mech
+  countMin: 2
+  countMax: 1
+  countRandom: false
+  levelOffsetMin: 0
+  levelOffsetMax: 1
+  levelOffsetRandom: false
+  qualityEditable: Improved
+  quality: 2
+  aiBehavior: ''
+  aiTargeting: ''
+  custom:
+    name: 
+    spawn: 
+    landing: 
+    flags: 
+    faction: 
+    speed: 
+    pilot:
+      presetUsed: true
+      presetKey: enemy_mech_pilot_r1_sergeant
+      custom: 
+unitPresets:
+  mech: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      role_guardian: true
+      type_mech: true

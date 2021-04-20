@@ -1,0 +1,14 @@
+blocks:
+  part_model:
+    textShort: ML-S 01 Rapid
+    textLong: >
+      モデル：サイドアーム
+
+      小型版ミサイルランチャーで主兵装の死角を補い埋めるように設計されている。
+
+
+      バリエーション：RAPID
+
+      障害物を超えて長距離誘導ミサイルを何発か発射する。
+    spriteName:
+      name: s_icon_l32_part_arch_launcher

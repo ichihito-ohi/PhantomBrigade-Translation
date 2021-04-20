@@ -1,0 +1,68 @@
+difficultyEditable: Medium
+difficulty: 1
+description: 回避を織り交ぜ波状攻撃で接近し敵機を削り取るなど、鬱陶しい嫌がらせのような行動をとる。
+tags:
+- branch_trainingreserves
+- has_mech
+- range_medium
+- range_short
+- role_generic
+- role_striker
+- weight_light
+units:
+- key: mech
+  countMin: 1
+  countMax: 1
+  countRandom: false
+  levelOffsetMin: 0
+  levelOffsetMax: 0
+  levelOffsetRandom: false
+  qualityEditable: Training
+  quality: 0
+  aiBehavior: ''
+  aiTargeting: ''
+  custom:
+    name: 
+    spawn: 
+    landing: 
+    flags: 
+    faction: 
+    speed: 
+    pilot:
+      presetUsed: true
+      presetKey: enemy_mech_pilot_r1_sergeant
+      custom: 
+- key: vehicle
+  countMin: 1
+  countMax: 2
+  countRandom: false
+  levelOffsetMin: 0
+  levelOffsetMax: 0
+  levelOffsetRandom: false
+  qualityEditable: Training
+  quality: 0
+  aiBehavior: ''
+  aiTargeting: ''
+  custom:
+    name: 
+    spawn: 
+    landing: 
+    flags: 
+    faction: 
+    speed: 
+    pilot:
+      presetUsed: true
+      presetKey: enemy_tank_pilot_r0_private
+      custom: 
+unitPresets:
+  mech: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      role_striker: true
+      type_mech: true
+  vehicle: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      filter_hybrid: false
+      role_striker: true
+      type_vehicle: true

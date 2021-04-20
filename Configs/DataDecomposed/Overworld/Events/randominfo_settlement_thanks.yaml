@@ -1,0 +1,113 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 10
+group: 0
+groupConflicts: 
+chance: 0.15
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 0
+  completionOnBase: 1
+  completionOnTarget: 0
+trackCompletionOnSelf: false
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_hologram_default
+    textName: ありがとう
+    textDesc: >-
+      解決を手伝うと、男があなたの元にやってきた。
+
+
+      『我々全員、あなたの手助けに感謝してもしきれない。』男が話す。『ここからそう遠くないある場所について情報がある、もしかしたら役に立つかもしれない。』
+
+
+      男が地図に印をつける。
+    options:
+    - shared: false
+      key: continue
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: settlement
+          not: false
+        eventMemory: 
+        supplies:
+          check: Bool
+          value: 1
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory: 
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  continue:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 続ける
+    textContent: 
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartOverworldEvent
+      arg1: !EventCallArgStringList
+        value:
+        - spawn_structure
+        - spawn_structure_locked
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

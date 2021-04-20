@@ -1,0 +1,304 @@
+description: Names and description of unit parts and other related text
+entries:
+  mech_body_arm_assault_desc:
+    text: "..."
+  mech_body_arm_assault_name:
+    text: "Assault"
+  mech_body_arm_bulwark_desc:
+    text: "..."
+  mech_body_arm_bulwark_name:
+    text: "Bulwark"
+  mech_body_arm_desc:
+    text: "腕部"
+  mech_body_arm_guardian_desc:
+    text: "..."
+  mech_body_arm_guardian_name:
+    text: "Guardian"
+  mech_body_arm_jugernaught_desc:
+    text: "..."
+  mech_body_arm_jugernaught_name:
+    text: "Juggernaut"
+  mech_body_arm_name:
+    text: "腕"
+  mech_body_arm_s1_desc:
+    text: "大量生産のアームで、現役ウォーカーの多くが使用している。補助懸架点がない。"
+  mech_body_arm_s1_name:
+    text: "A1標準アーム"
+  mech_body_arm_s2_desc:
+    text: "汎用懸架点を組み込んだ設計の先進的アーム。侵略軍が展開するハイエンド汎用ウォーカーで一般的である。"
+  mech_body_arm_s2_name:
+    text: "A4汎用アーム"
+  mech_body_arm_scout_desc:
+    text: "..."
+  mech_body_arm_scout_name:
+    text: "Scout"
+  mech_body_arm_striker_desc:
+    text: "..."
+  mech_body_arm_striker_name:
+    text: "Striker"
+  mech_body_arm_supression_desc:
+    text: "汎用懸架点を組み込んだ設計の先進的アーム。侵略軍が展開するハイエンド汎用ウォーカーで一般的である。"
+  mech_body_arm_supression_name:
+    text: "Supression"
+  mech_body_arm_tactical_desc:
+    text: "..."
+  mech_body_arm_tactical_name:
+    text: "Tactical"
+  mech_body_arm_utility_desc:
+    text: "大量生産のアームで、現役ウォーカーの多くが使用している。補助懸架点がない。"
+  mech_body_arm_utility_name:
+    text: "パイロット支援"
+  mech_body_bottom_assault_desc:
+    text: "..."
+  mech_body_bottom_assault_name:
+    text: "Assault"
+  mech_body_bottom_bulwark_desc:
+    text: "..."
+  mech_body_bottom_bulwark_name:
+    text: "Bulwark"
+  mech_body_bottom_guardian_desc:
+    text: "..."
+  mech_body_bottom_guardian_name:
+    text: "Guardian"
+  mech_body_bottom_jugernaught_desc:
+    text: "..."
+  mech_body_bottom_jugernaught_name:
+    text: "Juggernaut"
+  mech_body_bottom_scout_desc:
+    text: "..."
+  mech_body_bottom_scout_name:
+    text: "Scout"
+  mech_body_bottom_striker_desc:
+    text: "..."
+  mech_body_bottom_striker_name:
+    text: "Striker"
+  mech_body_bottom_supression_desc:
+    text: "..."
+  mech_body_bottom_supression_name:
+    text: "Supression"
+  mech_body_bottom_tactical_desc:
+    text: "..."
+  mech_body_bottom_tactical_name:
+    text: "Tactical"
+  mech_body_bottom_utility_desc:
+    text: "..."
+  mech_body_bottom_utility_name:
+    text: "パイロット支援"
+  mech_body_lower_assault_name:
+    text: "Assault"
+  mech_body_lower_bulwark_name:
+    text: "Bulwark"
+  mech_body_lower_guardian_name:
+    text: "Guardian"
+  mech_body_lower_jugernaught_name:
+    text: "Juggernaut"
+  mech_body_lower_s1_desc:
+    text: "大量生産だが高度にカスタマイズ可能な下半身上部構造で、現役ウォーカーの多くが使用している。いくつかのよりハイエンドなモデルの連動構造には対応していない。"
+  mech_body_lower_s1_name:
+    text: "A1標準脚"
+  mech_body_lower_scout_name:
+    text: "Scout"
+  mech_body_lower_striker_name:
+    text: "Striker"
+  mech_body_lower_supression_name:
+    text: "Supression"
+  mech_body_lower_tactical_name:
+    text: "Tactical"
+  mech_body_lower_utility_name:
+    text: "パイロット支援"
+  mech_body_top_assault_desc:
+    text: "..."
+  mech_body_top_assault_name:
+    text: "Assault"
+  mech_body_top_bulwark_desc:
+    text: "..."
+  mech_body_top_bulwark_name:
+    text: "Bulwark"
+  mech_body_top_guardian_desc:
+    text: "..."
+  mech_body_top_guardian_name:
+    text: "Guardian"
+  mech_body_top_jugernaught_desc:
+    text: "..."
+  mech_body_top_jugernaught_name:
+    text: "Juggernaut"
+  mech_body_top_scout_desc:
+    text: "..."
+  mech_body_top_scout_name:
+    text: "Scout"
+  mech_body_top_striker_desc:
+    text: "..."
+  mech_body_top_striker_name:
+    text: "Striker"
+  mech_body_top_supression_desc:
+    text: "..."
+  mech_body_top_supression_name:
+    text: "Supression"
+  mech_body_top_tactical_desc:
+    text: "..."
+  mech_body_top_tactical_name:
+    text: "Tactical"
+  mech_body_top_utility_desc:
+    text: "..."
+  mech_body_top_utility_name:
+    text: "パイロット支援"
+  mech_body_upper_assault_name:
+    text: "Assault"
+  mech_body_upper_bulwark_name:
+    text: "Bulwark"
+  mech_body_upper_guardian_name:
+    text: "Guardian"
+  mech_body_upper_jugernaught_name:
+    text: "Juggernaut"
+  mech_body_upper_s1_desc:
+    text: "大量生産だが高度にカスタマイズ可能な下半身上部構造で、現役ウォーカーの多くが使用している。いくつかのよりハイエンドなモデルの連動構造には対応していない。"
+  mech_body_upper_s1_name:
+    text: "A1標準コア"
+  mech_body_upper_scout_name:
+    text: "Scout"
+  mech_body_upper_striker_name:
+    text: "Striker"
+  mech_body_upper_supression_name:
+    text: "Supression"
+  mech_body_upper_tactical_name:
+    text: "Tactical"
+  mech_body_upper_utility_name:
+    text: "パイロット支援"
+  tank_body_chassis_name:
+    text: "シャーシ"
+  tank_body_chassis_s1_desc:
+    text: "標準仕様コア上部構造"
+  tank_body_chassis_s1_name:
+    text: "コアシャーシ"
+  tank_body_track_s1_desc:
+    text: "標準仕様側面上部構造"
+  tank_body_track_s1_name:
+    text: "側面"
+  tank_body_turret_s1_desc:
+    text: "標準仕様砲塔上部構造"
+  tank_body_turret_s1_name:
+    text: "砲塔"
+  wpn_launcher_s1_desc:
+    text: "軍用ウォーカーが使用する誘導ミサイルランチャー"
+  wpn_launcher_s1_name:
+    text: "RLS-1G Lightning"
+  wpn_melee_heavy_s1_desc:
+    text: "重量級近接武器。戦闘で見かけることはまれだが、近接格闘においては壊滅的なダメージを与えることができる。"
+  wpn_melee_heavy_s1_name:
+    text: "HS シリーズ"
+  wpn_melee_light_s1_desc:
+    text: "軽量級近接武器。低級ウォーカーの装備を補う利便性の高いCQC武器。"
+  wpn_melee_light_s1_name:
+    text: "LM Duster"
+  wpn_melee_primary_s1_desc:
+    text: "重量級近接武器。戦闘で見かけることはまれだが、近接格闘においては壊滅的なダメージを与えることができる。"
+  wpn_melee_primary_s1_name:
+    text: "HS シリーズ"
+  wpn_melee_secondary_s1_desc:
+    text: "軽量級近接武器。低級ウォーカーの装備を補う利便性の高いCQC武器。"
+  wpn_melee_secondary_s1_name:
+    text: "LM Duster"
+  wpn_mg_heavy_s1_desc:
+    text: "制圧射撃や遮蔽破壊に有用な大口径機関銃。"
+  wpn_mg_heavy_s1_name:
+    text: "MG-72 Tempest"
+  wpn_mg_sub_s1_desc:
+    text: "高レートが特徴的な軽量サブマシンガン。大口径の精密武器を装備したウォーカーのための副兵装。"
+  wpn_mg_sub_s1_name:
+    text: "MQ7 Vesta"
+  wpn_ranged_launcher_s1_desc:
+    text: "軍用ウォーカーが使用する誘導ミサイルランチャー"
+  wpn_ranged_launcher_s1_name:
+    text: "RLS-1G Lightning"
+  wpn_ranged_mg_s1_desc:
+    text: "制圧射撃や遮蔽破壊に有用な大口径機関銃。"
+  wpn_ranged_mg_s1_name:
+    text: "MG-72 Tempest"
+  wpn_ranged_rifle_assault_mk1_desc:
+    text: "主にPMCで使用される先進自動小銃。発射回数と引き換えに発熱が少なく精度が高い。"
+  wpn_ranged_rifle_assault_mk1_name:
+    text: "RA-1 Kari"
+  wpn_ranged_rifle_assault_mk2_desc:
+    text: "JNIの第二世代自動小銃。高レート、精度、射程を兼ね備えた人気の高いオールラウンドモデル。"
+  wpn_ranged_rifle_assault_mk2_name:
+    text: "RA-4 Njord"
+  wpn_ranged_rifle_assault_mk3_desc:
+    text: "JNIによる最新の実験用自動小銃で、最も装備の整った侵略連隊でも見つかることはない。新設計により優れた排熱と発射レート、精度を実現した。貴重な複合材料を使用しているため修理が複雑化した。"
+  wpn_ranged_rifle_assault_mk3_name:
+    text: "RA-X2 Odin"
+  wpn_ranged_rifle_assault_s1_desc:
+    text: "侵略軍に広く使用される標準仕様アサルトライフル。適度にバランスの取れた射程、ダメージ、発射レートをもつ。"
+  wpn_ranged_rifle_assault_s1_name:
+    text: "HR-24 Vesta"
+  wpn_ranged_rifle_marksman_s1_desc:
+    text: "高速の大口径砲弾を発射する長距離狙撃武器。投射体の加速に時間がかかるため短距離では効果的でない。"
+  wpn_ranged_rifle_marksman_s1_name:
+    text: "MRHC Midway"
+  wpn_ranged_rifle_sniper_s1_desc:
+    text: "高速の大口径砲弾を発射する長距離狙撃武器。投射体の加速に時間がかかるため短距離では効果的でない。"
+  wpn_ranged_rifle_sniper_s1_name:
+    text: "LRHC Horizon"
+  wpn_ranged_shotgun_s1_desc:
+    text: "標的に超高温ペレットを放射する大口径散弾カノン砲。精度は低いが、近距離では致命傷を与える。"
+  wpn_ranged_shotgun_s1_name:
+    text: "S10 Flak"
+  wpn_ranged_shotgun_s2_desc:
+    text: "標的に超高温ペレットを放射する大口径散弾カノン砲。精度は低いが、近距離では致命傷を与える。"
+  wpn_ranged_shotgun_s2_name:
+    text: "S10 Buck"
+  wpn_ranged_shotgun_s3_desc:
+    text: "標的に超高温ペレットを放射する大口径散弾カノン砲。精度は低いが、近距離では致命傷を与える。"
+  wpn_ranged_shotgun_s3_name:
+    text: "S10 Slug"
+  wpn_ranged_sidearm_s1_desc:
+    text: "メックの武装基準では小型の副兵装であるが、中距離でかなりのダメージを与えることができる武器である。"
+  wpn_ranged_sidearm_s1_name:
+    text: "L1 Needle"
+  wpn_ranged_smg_s1_desc:
+    text: "高レートが特徴的な軽量サブマシンガン。大口径の精密武器を装備したウォーカーのための副兵装。"
+  wpn_ranged_smg_s1_name:
+    text: "MQ7 Vesta"
+  wpn_rifle_assault_s1_desc:
+    text: "侵略軍に広く使用される標準仕様アサルトライフル。適度にバランスの取れた射程、ダメージ、発射レートをもつ。"
+  wpn_rifle_assault_s1_name:
+    text: "HR-24 Vesta"
+  wpn_rifle_marksman_s1_desc:
+    text: "高速の大口径砲弾を発射する長距離狙撃武器。投射体の加速に時間がかかるため短距離では効果的でない。"
+  wpn_rifle_marksman_s1_name:
+    text: "MRHC Midway"
+  wpn_rifle_sniper_s1_desc:
+    text: "高速の大口径砲弾を発射する長距離狙撃武器。投射体の加速に時間がかかるため短距離では効果的でない。"
+  wpn_rifle_sniper_s1_name:
+    text: "LRHC Horizon"
+  wpn_shotgun_s1_desc:
+    text: "標的に超高温ペレットを放射する大口径散弾カノン砲。精度は低いが、近距離では致命傷を与える。"
+  wpn_shotgun_s1_name:
+    text: "S10 Flak"
+  wpn_sidearm_s1_desc:
+    text: "メックの武装基準では小型の副兵装であるが、中距離でかなりのダメージを与えることができる武器である。"
+  wpn_sidearm_s1_name:
+    text: "L1 Needle"
+  wpn_special_shield_s1_desc:
+    text: "高耐久複合素材とアクティブ装甲セルをメックでも運搬可能なほど軽量にまとめたシールド。使用中は四方の被弾方向のうち二方面を遮蔽できる。"
+  wpn_special_shield_s1_name:
+    text: "高耐久シールド"
+  wpn_special_shield_s2_desc:
+    text: "高耐久複合素材とアクティブ装甲セルをメックでも運搬可能なほど軽量にまとめたシールド。使用中は四方の被弾方向のうち二方面を遮蔽できる。"
+  wpn_special_shield_s2_name:
+    text: "バリアシールド"
+  wpn_special_shield_s3_desc:
+    text: "高耐久複合素材とアクティブ装甲セルをメックでも運搬可能なほど軽量にまとめたシールド。使用中は四方の被弾方向のうち二方面を遮蔽できる。"
+  wpn_special_shield_s3_name:
+    text: "軽量級シールド"
+  wpn_vehicle_aa_s1_desc:
+    text: "小口径の機関砲は軽装甲の空中標的との交戦に用いられることが多い。"
+  wpn_vehicle_aa_s1_name:
+    text: "機関砲 MK0"
+  wpn_vehicle_cannon_s1_desc:
+    text: "戦車の主兵装で、長距離で深刻なダメージを与えることができる。"
+  wpn_vehicle_cannon_s1_name:
+    text: "カノン砲 MK0"
+  wpn_vehicle_launcher_s1_desc:
+    text: "戦車の主兵装で、長距離で深刻なダメージを与えることができる。"
+  wpn_vehicle_launcher_s1_name:
+    text: "アーティレリィ MK0"

@@ -1,0 +1,14 @@
+icon: s_icon_m_link_squad
+group: game
+hidden: false
+type: String
+levels:
+  0: !OptionLevelString
+    value: English
+    textCustom: english
+    textLibraryUsed: true
+  1: !OptionLevelString
+    value: Japanese
+    textCustom: japanese
+    textLibraryUsed: true
+    

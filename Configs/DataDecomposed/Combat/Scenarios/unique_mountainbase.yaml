@@ -1,0 +1,247 @@
+skipStatCalculations: false
+hidden: false
+textName: Mountain base assault
+textDesc: ''
+textContextCustom: Secure site
+timeLocked: true
+time: 7
+areaTagsUsed: false
+areaTags: 
+area: dev_mountainbase
+squadUsed: true
+squadSize: 2
+loadImmediately: false
+externalLevelUsed: true
+exit: 
+customExitBehaviour: 
+musicDynamic: false
+actionBlocklist: []
+customPlayerSlot: 
+stepOnStart: wave_00_guard
+tags:
+- difficulty_veryeasy
+- listed
+- unique
+- unique_mountainbase
+- type_elimination
+states:
+  wave_00_guard_turn:
+    textName: 次波
+    textDesc: 2 ターン目
+    evaluated: true
+    visible: true
+    evaluationFilter: 
+    turn:
+      relative: false
+      check: GreaterEqual
+      value: 2
+    countEnemy: 
+    countFriendly: 
+    actionPlanned: 
+    locationOccupied: 
+    reactions: 
+steps:
+  wave_00_guard:
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    textCurrentPrimary: 山岳基地
+    textCurrentSecondary: '基地を守るためできるだけ早くすべての敵を殲滅しろ。'
+    allowOutcomeVictory: false
+    allowOutcomeDefeat: true
+    unitsRevealed: true
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: tank_aa
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: -1
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      - key: tank_cannon
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: -1
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      spawnGroupOccupied: true
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: wave_00_guard
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 2
+      realtime: true
+      shared: false
+      key: guard_alert
+      custom:
+        texture: pilot_enemy
+        duration: 7
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / 01
+        textContent:
+        - ブラボー1、西から接近するメック2機を視認。ただちに支援を要請。こちらの敵味方識別装置の反応はネガティブ、これらのウォーカーを敵として扱う。
+    - time: 12
+      realtime: true
+      shared: false
+      key: guard_alert
+      custom:
+        texture: pilot_enemy
+        duration: 5
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / 02
+        textContent:
+        - ラジャー、出撃する。少しかかりそうだ、この場所は崩落していてエレベーターもチンタラしている。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionEnd
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased:
+    - priority: 0
+      stateCleanupOnUse: true
+      stateRequirements:
+        wave_00_guard_turn: true
+      stepKey: wave_01_alarm
+    transitionTimeBased: 
+    outcome: 
+    stepsNext:
+    - wave_01_alarm
+  wave_01_alarm:
+    color: *o0
+    textCurrentPrimary: 山岳基地
+    textCurrentSecondary: あなたの存在が報告される前にすべての敵を殲滅しろ。
+    allowOutcomeVictory: true
+    allowOutcomeDefeat: true
+    unitsRevealed: false
+    executionAllowed: true
+    visible: true
+    unitGroups:
+    - !UnitGroupEmbedded
+      units:
+      - key: mech_generic
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelOffsetMin: -1
+        levelOffsetMax: 0
+        levelOffsetRandom: false
+        qualityEditable: Common
+        quality: 1
+        aiBehavior: Flanker
+        aiTargeting: Default
+        custom:
+          name: 
+          spawn: 
+          landing:
+            landingUsed: false
+            landingData: 
+          flags: 
+          faction: 
+          speed: 
+          pilot: 
+      spawnGroupOccupied: true
+      spawnCountStrict: false
+      spawnOrderRandom: false
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: false
+      spawnTags: 
+      spawnGroupKey: wave_01_alarm
+    stateScopeChanges: 
+    stateValueChanges: 
+    unitChanges: 
+    retreat: 
+    actionRestrictions: 
+    cutsceneOnStart: 
+    atmosphereOnStart: 
+    intermissions: 
+    hintsConditional: 
+    unitSelection: 
+    camera: 
+    musicMood: 
+    musicIntensity: 
+    musicReactive: 
+    commsOnStart:
+    - time: 2
+      realtime: true
+      shared: false
+      key: guard_alert
+      custom:
+        texture: pilot_enemy
+        duration: 7
+        audioUsed: false
+        audioKey: 
+        textHeader: 割込通信 / 02
+        textContent:
+        - 交戦中。相手をしつつ司令部に報告しよう―ここではしばらくの間何の活動も無かったはずだ、このウォーカーが何者かまったくわからん。
+    audioEventsOnStart: 
+    audioStatesOnStart: 
+    audioSyncsOnStart: 
+    transitionMode: OnExecutionStart
+    transitionBasedScope: true
+    transitionLocksExecution: false
+    transitionsStateBased: 
+    transitionTimeBased: 
+    outcome: 
+    stepsNext: 
+unitPresets:
+  mech_generic: !UnitPresetLink
+    preset: mountainbase_bravo
+  tank_aa: !UnitPresetLink
+    preset: vhc_tank_training_aa_0
+  tank_cannon: !UnitPresetLink
+    preset: vhc_tank_training_cannon_0
+tabIndex: 0
+tabsLocal: false

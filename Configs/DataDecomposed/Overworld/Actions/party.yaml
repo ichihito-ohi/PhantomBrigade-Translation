@@ -1,0 +1,34 @@
+ui:
+  color:
+    r: 0.4634368
+    g: 0.6698113
+    b: 0.2685564
+    a: 1
+  minified: false
+  locationFromTarget: false
+  textName: パーティー
+  textContext: ' '
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が無事完了しました
+  textDesc: ''
+audio: 
+duration: 2
+cost: 0
+limitPerOwner: 0
+progressGroup: 0
+requireCombatParticipation: false
+completeOnCombatVictory: true
+terminateOnCombatDefeat: true
+requiresDeployment: true
+terminationAllowed: false
+callsOnTerminationBeforeCompletion: false
+callsOnStart: 
+callsOnTermination: []
+callsOnCompletion: []
+tags: []
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

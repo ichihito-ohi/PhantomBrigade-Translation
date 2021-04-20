@@ -1,0 +1,26 @@
+skipStatCalculations: true
+hidden: false
+textName: Skirmish Polished / Plant
+textDesc: 
+textContextCustom: 
+timeLocked: false
+time: 10
+areaTagsUsed: true
+areaTags: 
+area: previs_plant_scene1
+squadUsed: true
+squadSize: 4
+loadImmediately: false
+externalLevelUsed: true
+exit: 
+customExitBehaviour: 
+musicDynamic: false
+actionBlocklist: []
+customPlayerSlot: 
+stepOnStart: main
+tags: 
+states: 
+steps: 
+unitPresets: 
+tabIndex: 0
+tabsLocal: false

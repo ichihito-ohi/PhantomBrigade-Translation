@@ -1,0 +1,66 @@
+hidden: false
+parent: cache_defended
+tags:
+- training
+textName: 隠された工房倉庫
+textDesc: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+textIdentifierGroup: site_cache
+image: world_site_08
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: true
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Phantoms
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Cache
+movement: 
+ranges: 
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: 
+scenarios:
+  tags:
+    context_cache: true
+    difficulty_easy: true
+    type_looting: true
+areas:
+  tags: 
+production: 
+ai: 
+spawning: 
+loot:
+  provinceLevelAdded: true
+  supplies: 
+  parts:
+  - preset: 
+    tagsUsed: true
+    tags:
+      difficulty_easy: true
+      rating_2: true
+      wpn_primary: true
+    countMin: 2
+    countMax: 2
+    countRandom: true
+    levelMin: 1
+    levelMax: 1
+    levelRandom: true
+  subsystems: 
+rewards: 

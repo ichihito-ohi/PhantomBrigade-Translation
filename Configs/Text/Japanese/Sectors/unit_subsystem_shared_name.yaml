@@ -1,0 +1,34 @@
+description: Description of unit subsystems that are used across multiple items to reduce text duplication.
+entries:
+  armor_arrow_h:
+    text: "Arrow H"
+  armor_arrow_l:
+    text: "Arrow L"
+  armor_arrow_m:
+    text: "Arrow M"
+  armor_asgard:
+    text: "Asgard H"
+  armor_bein:
+    text: "Bein M"
+  armor_blackbird:
+    text: "Blackbird M"
+  armor_elbrus:
+    text: "Elbrus M"
+  armor_halvard_h:
+    text: "Halvard H"
+  armor_helge:
+    text: "Helge H"
+  armor_knox_h:
+    text: "Knox H"
+  armor_knox_l:
+    text: "Knox L"
+  armor_knox_m:
+    text: "Knox M"
+  armor_tsubasa:
+    text: "Tsubasa L"
+  armor_vidar:
+    text: "Vidar H"
+  wpn_internal_main:
+    text: "コア構造"
+  wpn_internal_projectile:
+    text: "標準弾薬"

@@ -1,0 +1,42 @@
+hidden: false
+parent: cache_defended
+tags:
+- event_intel
+- cache
+textName: 放棄された研究基地
+textDesc: ''
+textIdentifierGroup: site_cache
+image: world_site_08
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: true
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Cache
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

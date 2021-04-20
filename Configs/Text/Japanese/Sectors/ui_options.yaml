@@ -1,0 +1,255 @@
+description: 
+entries:
+  apply_settings:
+    text: >-
+      適用
+
+      変更
+  audio_volume_main_desc:
+    text: '...'
+  audio_volume_main_level_0:
+    text: 0%
+  audio_volume_main_level_1:
+    text: 10%
+  audio_volume_main_level_10:
+    text: 100%
+  audio_volume_main_level_2:
+    text: 20%
+  audio_volume_main_level_3:
+    text: 30%
+  audio_volume_main_level_4:
+    text: 40%
+  audio_volume_main_level_5:
+    text: 50%
+  audio_volume_main_level_6:
+    text: 60%
+  audio_volume_main_level_7:
+    text: 70%
+  audio_volume_main_level_8:
+    text: 80%
+  audio_volume_main_level_9:
+    text: 90%
+  audio_volume_main_name:
+    text: マスターボリューム
+  audio_volume_music_desc:
+    text: '...'
+  audio_volume_music_level_0:
+    text: 0%
+  audio_volume_music_level_1:
+    text: 10%
+  audio_volume_music_level_10:
+    text: 100%
+  audio_volume_music_level_2:
+    text: 20%
+  audio_volume_music_level_3:
+    text: 30%
+  audio_volume_music_level_4:
+    text: 40%
+  audio_volume_music_level_5:
+    text: 50%
+  audio_volume_music_level_6:
+    text: 60%
+  audio_volume_music_level_7:
+    text: 70%
+  audio_volume_music_level_8:
+    text: 80%
+  audio_volume_music_level_9:
+    text: 90%
+  audio_volume_music_name:
+    text: 音楽ボリューム
+  audio_volume_sound_desc:
+    text: '...'
+  audio_volume_sound_level_0:
+    text: 0%
+  audio_volume_sound_level_1:
+    text: 10%
+  audio_volume_sound_level_10:
+    text: 100%
+  audio_volume_sound_level_2:
+    text: 20%
+  audio_volume_sound_level_3:
+    text: 30%
+  audio_volume_sound_level_4:
+    text: 40%
+  audio_volume_sound_level_5:
+    text: 50%
+  audio_volume_sound_level_6:
+    text: 60%
+  audio_volume_sound_level_7:
+    text: 70%
+  audio_volume_sound_level_8:
+    text: 80%
+  audio_volume_sound_level_9:
+    text: 90%
+  audio_volume_sound_name:
+    text: 効果音ボリューム
+  audio_volume_voice_desc:
+    text: '...'
+  audio_volume_voice_level_0:
+    text: 0%
+  audio_volume_voice_level_1:
+    text: 10%
+  audio_volume_voice_level_10:
+    text: 100%
+  audio_volume_voice_level_2:
+    text: 20%
+  audio_volume_voice_level_3:
+    text: 30%
+  audio_volume_voice_level_4:
+    text: 40%
+  audio_volume_voice_level_5:
+    text: 50%
+  audio_volume_voice_level_6:
+    text: 60%
+  audio_volume_voice_level_7:
+    text: 70%
+  audio_volume_voice_level_8:
+    text: 80%
+  audio_volume_voice_level_9:
+    text: 90%
+  audio_volume_voice_name:
+    text: 音声ボリューム
+  display_mode_desc:
+    text: フルスクリーンとウィンドウ表示を切り替える
+  display_mode_level_fullscreen:
+    text: フルスクリーン
+  display_mode_level_windowed:
+    text: ウィンドウ表示
+  display_mode_name:
+    text: 表示の切り替え
+  display_resolution_desc:
+    text: 解像度の設定
+  display_resolution_name:
+    text: 解像度
+  display_sync_desc:
+    text: ディスプレイ同期の設定
+  display_sync_level_full:
+    text: Full (60Hz)
+  display_sync_level_half:
+    text: Half (30Hz)
+  display_sync_level_off:
+    text: Off
+  display_sync_name:
+    text: ディスプレイ同期
+  game_language_desc:
+    text: 言語の設定
+  game_language_level_chinese:
+    text: Chinese / 汉语
+  game_language_level_japanese:
+    text: 日本語
+  game_language_level_english:
+    text: English
+  game_language_name:
+    text: 言語
+  game_ui_scaling_desc:
+    text: UIサイズの設定
+  game_ui_scaling_name:
+    text: UIサイズ
+  graphics_texture_filtering_level_0:
+    text: Off
+  graphics_texture_filtering_level_1:
+    text: 有効
+  graphics_texture_filtering_level_2:
+    text: 強制
+  graphics_texture_filtering_name:
+    text: 異方性フィルタ
+  graphics_texture_quality_level_0:
+    text: Full
+  graphics_texture_quality_level_1:
+    text: Half
+  graphics_texture_quality_level_2:
+    text: Quarter
+  graphics_texture_quality_level_3:
+    text: Eighth
+  graphics_texture_quality_name:
+    text: テクスチャ解像度
+  group_audio_name:
+    text: オーディオ
+  group_display_name:
+    text: ビデオ
+  group_game_name:
+    text: ゲーム
+  group_graphics_name:
+    text: グラフィックス
+  group_input_name:
+    text: 入力
+  header_main:
+    text: 設定
+  input_gamepad_look_invert_vertical_desc:
+    text: '...'
+  input_gamepad_look_invert_vertical_name:
+    text: ゲームパッド / カメラ操作反転
+  input_gamepad_look_sensitivity_horizontal_desc:
+    text: '...'
+  input_gamepad_look_sensitivity_horizontal_name:
+    text: ゲームパッド / カメラ水平感度
+  input_gamepad_look_sensitivity_vertical_desc:
+    text: '...'
+  input_gamepad_look_sensitivity_vertical_name:
+    text: ゲームパッド / カメラ垂直感度
+  input_gamepad_move_sensitivity_desc:
+    text: '...'
+  input_gamepad_move_sensitivity_name:
+    text: ゲームパッド / カメラ移動感度
+  input_gamepad_scrub_sensitivity_desc:
+    text: '...'
+  input_gamepad_scrub_sensitivity_name:
+    text: ゲームパッド / 時間軸感度
+  input_gamepad_zoom_sensitivity_desc:
+    text: '...'
+  input_gamepad_zoom_sensitivity_name:
+    text: ゲームパッド / カメラ感度
+  input_keyboard_look_invert_vertical_desc:
+    text: '...'
+  input_keyboard_look_invert_vertical_name:
+    text: キーボード / カメラ操作反転
+  input_keyboard_look_sensitivity_horizontal_desc:
+    text: '...'
+  input_keyboard_look_sensitivity_horizontal_name:
+    text: キーボード / カメラ水平感度
+  input_keyboard_look_sensitivity_vertical_desc:
+    text: '...'
+  input_keyboard_look_sensitivity_vertical_name:
+    text: キーボード / カメラ垂直感度
+  input_keyboard_move_sensitivity_desc:
+    text: '...'
+  input_keyboard_move_sensitivity_name:
+    text: キーボード / カメラ移動感度
+  input_keyboard_zoom_sensitivity_desc:
+    text: '...'
+  input_keyboard_zoom_sensitivity_name:
+    text: キーボード / ズーム感度
+  input_mouse_edge_scrolling_desc:
+    text: When edge scrolling is enabled, the camera moves when the cursor is near the edge of the screen.
+  input_mouse_edge_scrolling_name:
+    text: マウス / 画面端スクロール
+  input_mouse_lock_to_window_desc:
+    text: '...'
+  input_mouse_lock_to_window_name:
+    text: マウス / ウィンドウ固定
+  input_mouse_look_invert_vertical_desc:
+    text: '...'
+  input_mouse_look_invert_vertical_name:
+    text: マウス / カメラ操作反転
+  input_mouse_look_sensitivity_horizontal_desc:
+    text: '...'
+  input_mouse_look_sensitivity_horizontal_name:
+    text: マウス / カメラ水平感度
+  input_mouse_look_sensitivity_vertical_desc:
+    text: '...'
+  input_mouse_look_sensitivity_vertical_name:
+    text: マウス / カメラ垂直感度
+  input_mouse_move_sensitivity_desc:
+    text: '...'
+  input_mouse_move_sensitivity_name:
+    text: マウス / カメラ移動感度
+  input_mouse_zoom_sensitivity_desc:
+    text: '...'
+  input_mouse_zoom_sensitivity_name:
+    text: マウス / ズーム感度
+  level_default:
+    text: Undefined level
+  level_default_bool_false:
+    text: Off
+  level_default_bool_true:
+    text: On

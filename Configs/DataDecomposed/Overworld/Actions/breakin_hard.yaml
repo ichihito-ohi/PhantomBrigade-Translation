@@ -1,0 +1,40 @@
+ui:
+  color:
+    r: 0.3701299
+    g: 0.5
+    b: 0.3181818
+    a: 1
+  minified: false
+  locationFromTarget: true
+  textName: 押し入り
+  textContext: 貯蔵庫
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が無事完了しました
+  textDesc: 現場チームが戦場で回収可能な装備を捜索しています。
+audio: 
+duration: 6
+cost: 0
+limitPerOwner: 0
+progressGroup: 0
+requireCombatParticipation: false
+completeOnCombatVictory: false
+terminateOnCombatDefeat: true
+requiresDeployment: true
+terminationAllowed: false
+callsOnTerminationBeforeCompletion: false
+callsOnStart: 
+callsOnTermination: 
+callsOnCompletion:
+- key: RemoveTargetMemoryInt
+  arg1: !ActionCallArgString
+    value: World/Tag/Locked
+    mode: MemoryKeysInt
+  arg2: 
+tags:
+- collection
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

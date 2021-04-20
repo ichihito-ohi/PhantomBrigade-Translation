@@ -1,0 +1,110 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 0
+  completionOnTarget: 0
+trackCompletionOnSelf: true
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Short
+steps:
+  main:
+    image: event_military_base
+    textName: キャンプ
+    textDesc: "どうやらここがこの地域で最後の敵施設だったようだ。\n\nこのキャンプは侵略軍の拠点として機能していた。守備隊はノックス装甲を装備していた―これは珍しいものではなかったが侵略軍向けに生産された機能的な装備シリーズだ。探索の結果、倉庫のひとつから無傷でひとセットが見つかった。この装備を装備すれば有利に立てるだろう。特に胴体はスラスタ―サブシステムを有しており短距離の飛翔が可能になる。"
+    options:
+    - shared: false
+      key: victory
+    colorCustom: false
+    colorKey: negative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Negative
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/Tutorial/UnitDefeated
+            check: Bool
+            value: 1
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: unique_training_fort_tiny
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  victory:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 続ける
+    textContent: ''
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

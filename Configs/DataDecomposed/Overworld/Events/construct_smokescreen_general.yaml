@@ -1,0 +1,413 @@
+textName: Manufacture
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 20
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Medium
+steps:
+  main:
+    image: event_empty_base
+    textName: 煙幕製造
+    textDesc: >
+      煙幕は敵部隊から襲われたときに戦闘を避けるのに使用でき、逃げるのに十分な遮蔽を得ることができる。移動基地には煙幕容器を3つまで安全に保管できるスペースがある。
+
+
+
+      煙幕は解放済みの領域で敵守備隊が居ない建物に接触したときにだけ製造できる。
+    options:
+    - shared: false
+      key: manufacture1
+    - shared: false
+      key: manufacture2
+    - shared: false
+      key: manufacture3
+    - shared: false
+      key: leave_good
+    - shared: false
+      key: leave_full
+    - shared: false
+      key: leave_bad
+    colorCustom: false
+    colorKey: construction_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/Utility_Smoke
+            check: LessEqual
+            value: 3
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: facility
+          not: false
+        - tag: objective_mountainbase
+          not: true
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        provinceDefender: 
+      province:
+        positionProvider: Self
+        eventMemory: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Phantoms
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  leave_bad:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 離れる
+    textContent: 十分な物資がありません。
+    priority: 100
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: Less
+          value: 100
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  leave_full:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 離れる
+    textContent: 既に煙幕を3つ持っています。
+    priority: 100
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/Utility_Smoke
+            check: GreaterEqual
+            value: 3
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 100
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  leave_good:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 離れる
+    textContent: あなたはいつでもここに戻ってくることができます。
+    priority: 100
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/Utility_Smoke
+            check: Less
+            value: 3
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 100
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  manufacture1:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: construction_primary
+    color: *o0
+    optionMood: ConstructionSalvage
+    textHeader: 煙幕を1つ製造
+    textContent: '| -100 物資 | +1 煙幕 |'
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/Utility_Smoke
+            check: Less
+            value: 3
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 100
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/Utility_Smoke
+        value: 1
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -100
+      arg2: 
+    steps: 
+  manufacture2:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: construction_primary
+    color: *o0
+    optionMood: ConstructionSalvage
+    textHeader: 煙幕を2つ製造
+    textContent: '| -200 物資 | +2 煙幕 |'
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/Utility_Smoke
+            check: Less
+            value: 2
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 200
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/Utility_Smoke
+        value: 2
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -200
+      arg2: 
+    steps: 
+  manufacture3:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: construction_primary
+    color: *o0
+    optionMood: ConstructionSalvage
+    textHeader: 煙幕を3つ製造
+    textContent: '| -300 物資 | +3 煙幕 |'
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/Utility_Smoke
+            check: Less
+            value: 1
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 300
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt:
+    - changes:
+      - change: Offset
+        key: World/Counter/Utility_Smoke
+        value: 3
+      context: Source
+      actorIndex: 0
+      provinceKey: 
+    memoryChangesFloat: 
+    calls:
+    - key: ModifySelfSupply
+      arg1: !EventCallArgInt
+        value: -300
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

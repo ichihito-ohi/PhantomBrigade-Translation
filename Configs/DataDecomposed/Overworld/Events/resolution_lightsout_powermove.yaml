@@ -1,0 +1,72 @@
+textName: Power Move
+hidden: true
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_civilian_meeting
+    textName: 送電
+    textDesc: >-
+      パイロットが手伝ってくれる残りの部隊員を集めて、慎重に送電線を再接続した。過酷な数時間の末に、電力が生き返る音が届いた。
+
+
+
+      問題を報告してきた男が本当に嬉しそうな様子で家から出てきた。
+
+
+
+      『ありがとう』彼が口を開く。『そのメックスーツが無かったら、私たちだけだったら、修理はもっと大変だったろうな！』
+
+
+
+      『元はと言えば私たちのせいで、ただそれを直しただけですよ。』パイロットが答える。
+
+
+
+      『旅団への称賛を歌にしよう、そうしよう！』彼はそう話すと、あなたに冷えた飲み物のボトルを手渡した。『小さいがこれは俺たちの感謝の気持ちだ。』
+
+
+
+      クルーたちは、電気工事でクタクタだったが達成感に包まれており、喜んで飲み物を手に取った。
+    options:
+    - shared: true
+      key: continue
+    colorCustom: false
+    colorKey: restorative_primary
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Restorative
+    priority: 0
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options: {}
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

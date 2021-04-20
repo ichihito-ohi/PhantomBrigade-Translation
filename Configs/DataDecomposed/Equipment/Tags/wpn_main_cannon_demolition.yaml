@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Flak Cannon
+    textLong: 近接炸裂弾を使用する主兵装。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_sniper

@@ -1,0 +1,81 @@
+hidden: true
+parent: 
+tags:
+- structure
+- battlefield
+- site
+- size_tiny
+- fortification
+textName: ''
+textDesc: パトロールを送り出す小規模な敵の野営地。キャンプを攻撃すると付近の部隊に警報を発する可能性があるが、増援が来る前にエリア内の機体グループをすべて排除すれば安全に撤退して回収作業が可能になる。
+textIdentifierGroup: ''
+image: 
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 10
+  hopeOnDefeat: true
+  destroyOnDefeat: false
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Base
+movement: 
+ranges:
+  sensor: 150
+  recognition: 75
+  vision: 35
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: {}
+scenarios:
+  tags:
+    context_fort: true
+    difficulty_easy: true
+    type_hitandrun: true
+areas:
+  tags:
+    'context_military ': true
+    size_small: true
+    type_main: true
+production: 
+ai: 
+spawning:
+  patrolLimit: 1
+  reenforcementDelay: 24
+loot: 
+rewards:
+  blocks:
+    obj_capture_loot:
+    - supplies:
+        amountMin: 150
+        amountMax: 1
+        amountRandom: false
+      parts:
+      - preset: 
+        tagsUsed: true
+        tags:
+          item_part: true
+          rating_2: true
+        countMin: 0
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      subsystems: 

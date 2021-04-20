@@ -1,0 +1,6 @@
+blocks:
+  subsystem_category:
+    textShort: Pilot Pod
+    textLong: パイロットを保護し操縦インタフェースとなる内部システム。致命的な故障時にパイロットを保護するため電磁射出システム、RCSスラスタ―、パラシュートを備える。このシステム無しに機体を展開することはできない。
+    spriteName:
+      name: 

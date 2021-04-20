@@ -1,0 +1,33 @@
+colorFromStep: false
+colorCustom: false
+colorKey: construction_primary
+color:
+  r: 0.811
+  g: 0.5852322
+  b: 0.195099
+  a: 1
+optionMood: ConstructionSalvage
+textHeader: 回収する
+textContent: >-
+  回収部隊を出動させ物資や無傷の装備を収集します。
+
+  | 6 時間 |
+priority: 0
+completing: true
+stepByPriority: false
+stepFallbackMode: None
+stepFallbackKey: 
+check: 
+hopeChange: 
+memoryChangesInt: 
+memoryChangesFloat: 
+calls:
+- key: CreateActionTargeted
+  arg1: !EventCallArgString
+    value: salvage
+    mode: DatabaseAction
+  arg2: 
+- key: StopBase
+  arg1: 
+  arg2: 
+steps: 

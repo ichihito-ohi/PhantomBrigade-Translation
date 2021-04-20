@@ -1,0 +1,8 @@
+texture: pilot_enemy
+duration: 7
+audioUsed: false
+audioKey: 
+textHeader: 割込通信
+textContent:
+- '反乱軍が守備隊を壊滅させた、もっと良い進入角度に戦略的再配置が必要だ。'
+- 反乱軍が守備隊を壊滅させた、戦術プランを更新する必要がある。

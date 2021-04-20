@@ -1,0 +1,38 @@
+ui:
+  color:
+    r: 0.5843138
+    g: 0.4872549
+    b: 0.1960784
+    a: 1
+  minified: false
+  locationFromTarget: false
+  textName: 機体建造
+  textContext: 素体フレーム
+  textStart: が開始しました
+  textCancel: がキャンセルされました
+  textEnd: が完了しました
+  textDesc: 機体が基地で製造中です。プロセスが完了し次第使用可能になります。
+audio: 
+duration: 4.5
+cost: 450
+limitPerOwner: 2
+progressGroup: 1
+requireCombatParticipation: false
+completeOnCombatVictory: false
+terminateOnCombatDefeat: false
+requiresDeployment: false
+terminationAllowed: true
+callsOnTerminationBeforeCompletion: false
+callsOnStart: 
+callsOnTermination: 
+callsOnCompletion:
+- key: OnFinishBuildUnitFrame
+  arg1: 
+  arg2: 
+tags:
+- build
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customSpawnData: 

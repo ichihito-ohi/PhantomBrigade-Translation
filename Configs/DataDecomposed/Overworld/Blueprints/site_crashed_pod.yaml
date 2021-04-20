@@ -1,0 +1,46 @@
+hidden: false
+parent: 
+tags:
+- site_crashed_pod
+- site
+textName: 墜落したパイロットポッド
+textDesc: この地点でパイロットが救助を待っている。残された時間は短い―しばらくするとパイロットが侵略軍に拾われてしまうだろう。
+textIdentifierGroup: 
+image: world_site_01
+core:
+  inventory: true
+  selectable: true
+  capturable: false
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Independents
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_CrashedPod
+movement: 
+ranges: 
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

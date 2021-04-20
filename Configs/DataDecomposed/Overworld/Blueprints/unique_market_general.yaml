@@ -1,0 +1,22 @@
+hidden: true
+parent: unique_market
+tags:
+- produce_general
+textName: 一般市場
+textDesc: ''
+textIdentifierGroup: 
+image: 
+core: 
+factionBranch: 
+visual: 
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

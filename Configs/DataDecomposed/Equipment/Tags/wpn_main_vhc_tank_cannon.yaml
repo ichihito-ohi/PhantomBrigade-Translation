@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Cannon
+    textLong: 主力戦車の主兵装で大ダメージを与える。
+    spriteName:
+      name: s_icon_l32_part_arch_tank_cannon

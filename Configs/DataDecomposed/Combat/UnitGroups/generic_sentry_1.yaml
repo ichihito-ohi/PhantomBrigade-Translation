@@ -1,0 +1,28 @@
+difficultyEditable: Medium
+difficulty: 1
+description: ダメージを吸収することで僚機を守る。
+tags:
+- branch_army
+- role_sentry
+- branch_trainingarmy
+- branch_specops
+- branch_reserves
+- branch_experimental
+units:
+- key: turret
+  countMin: 2
+  countMax: 1
+  countRandom: false
+  levelOffsetMin: 0
+  levelOffsetMax: -1
+  levelOffsetRandom: false
+  qualityEditable: Common
+  quality: 1
+  aiBehavior: Turret
+  aiTargeting: default
+  custom: 
+unitPresets:
+  turret: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      type_turret: true

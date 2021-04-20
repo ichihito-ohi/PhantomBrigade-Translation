@@ -1,0 +1,124 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: false
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: true
+trackCompletionOnTarget: true
+evaluationOverTime: false
+evaluationInterval: Short
+steps:
+  main:
+    image: event_ambush
+    textName: 部隊を確認
+    textDesc: >-
+      敵部隊が前方にいます。あなたのパイロットは訓練された戦士ですが、警戒を怠らないでください！戦闘前に時間をかけて装備が万全か確認しましょう。
+
+
+      一度戦闘が始まると、機体の熱レベルを管理することが重要になります。メックは武器やダッシュを使うたびに熱を発生させます。この熱は時間とともに排出されます。上昇を続けると、メックが冷えるまでダメージを受けます。メックは熱ダメージでも破壊されることがあり、パイロットが自動射出されます。
+    options:
+    - shared: true
+      key: continue
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Negative
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady:
+          ready: true
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: unique_training_invader_patrol_reserves_tiny
+          not: false
+        eventMemory: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: true
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Invaders
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  combat:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 0.8235295
+      g: 0.3176471
+      b: 0.2588235
+      a: 1
+    optionMood: Negative
+    textHeader: 出動準備
+    textContent: 戦闘前に準備が可能です。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartCombatFromTagsCombined
+      arg1: !EventCallArgString
+        value: ScenarioFilter
+        mode: CustomTagFilter
+      arg2: 
+    - key: StopBase
+      arg1: 
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters:
+  ScenarioFilter:
+    tags:
+      type_elimination: true
+customSpawnData: {}
+tabsLocal: false

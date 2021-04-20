@@ -1,0 +1,6 @@
+blocks:
+  part_model:
+    textShort: SM-01 L Cutter Slice
+    textLong: "モデル：CUTTER\n人間工学に基づく洗練されたデザインのカッターモデルは、製造が安価で主に支援武器として使用される。\n\nバリエーション：SLICE\n軽量近接武器。低級ウォーカーのロードアウトを補う利便性の高いCQC武器。\n\n製造：INVICTIS\n近接戦闘を重視した人間工学に基づいた装備を製造する。 "
+    spriteName:
+      name: s_icon_l32_part_arch_melee_dagger

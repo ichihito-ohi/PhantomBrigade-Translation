@@ -1,0 +1,11 @@
+blocks:
+  part_model:
+    textShort: Blackbird M
+    textLong: タイセツ工業が開発した実験的装甲シリーズのひとつ。全身のセットが存在するかは不明――ごく一部の設計だけが確認されている。傾斜面形状により正面に対して平均以上の防御性能を実現した。最新の照準ソフトウェアに対しては脆弱なため近距離戦闘にはほとんど使用されない。
+    spriteName:
+      name: 
+  subsystem_category:
+    textShort: Blackbird M
+    textLong: タイセツ工業が開発した実験的装甲シリーズのひとつ。全身のセットが存在するかは不明――ごく一部の設計だけが確認されている。傾斜面形状により正面に対して平均以上の防御性能を実現した。最新の照準ソフトウェアに対しては脆弱なため近距離戦闘にはほとんど使用されない。
+    spriteName:
+      name: s_icon_l32_set_m_barrier

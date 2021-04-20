@@ -1,0 +1,70 @@
+textName: Core 00
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 0
+  completionOnTarget: 0
+trackCompletionOnSelf: true
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Short
+steps:
+  main:
+    image: event_start
+    textName: 新たな始まり
+    textDesc: 祖国を取り戻す時が来ました。幻影旅団が属していた最後の前哨拠点、山岳基地から始めると良いでしょう。再起に向けて役立つ予備の物資や部品がまだあるはずです。
+    options:
+    - shared: false
+      key: continue
+    colorCustom: false
+    colorKey: positive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Standard
+    priority: 0
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  continue:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: positive_primary
+    color: *o0
+    optionMood: Standard
+    textHeader: 続ける
+    textContent: 
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: []
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: {}
+tabsLocal: false

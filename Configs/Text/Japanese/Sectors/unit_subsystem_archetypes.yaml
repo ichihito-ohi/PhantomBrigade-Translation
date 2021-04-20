@@ -1,0 +1,186 @@
+description: Names and description of unit parts and other related text
+entries:
+  armor__base_name:
+    text: "装甲基部"
+  armor_arrow_h_desc:
+    text: "JNI協議会が生産するArrow Hシリーズは整備の簡略化と低コストの大量生産に最適化された重量級のウォーカー装甲シリーズである。"
+  armor_arrow_h_name:
+    text: "Arrow H"
+  armor_arrow_l_desc:
+    text: "JNI協議会が生産するArrowシリーズは整備の簡略化と低コストの大量生産に最適化された軽量級のウォーカー装甲シリーズである。"
+  armor_arrow_l_name:
+    text: "Arrow L"
+  armor_arrow_m_desc:
+    text: "JNI協議会が生産するArrowシリーズは整備の簡略化と低コストの大量生産に最適化された中量級のウォーカー装甲シリーズである。"
+  armor_arrow_m_name:
+    text: "Arrow M"
+  armor_arrow_ratio_name:
+    text: "Arrow Ratio"
+  armor_asgard_desc:
+    text: "占領軍が使用する標準的な中級装甲である。先進材料の不足により現代水準から見るとやや扱いづらく、防御性能は平均より劣る。一方、戦地での整備は容易である。"
+  armor_asgard_h_desc:
+    text: "JNI協議会が生産するArrowシリーズは整備の簡略化と低コストの大量生産に最適化された軽量級のウォーカー装甲シリーズである。"
+  armor_asgard_h_name:
+    text: "Asgard H"
+  armor_asgard_name:
+    text: "Asgard H"
+  armor_asgard_ratio_name:
+    text: "Argard Ratio"
+  armor_bein_desc:
+    text: "侵攻軍が試験的に使用する装甲シリーズ。重金属が使用されているが軽量なケブラー繊維とセラミックインサートにより相殺している。全体的な性能は市販の中級装甲に匹敵する。互換性の低い繊維材料や一部の融合層構造に腐食性接着剤が使用されているため修理が複雑化する場合がある。"
+  armor_bein_m_desc:
+    text: "JNI協議会が生産するArrowシリーズは整備の簡略化と低コストの大量生産に最適化された軽量級のウォーカー装甲シリーズである。"
+  armor_bein_m_name:
+    text: "Bein M"
+  armor_bein_name:
+    text: "Bein M"
+  armor_bein_ratio_name:
+    text: "Bein Ratio"
+  armor_blackbird_desc:
+    text: "タイセツ工業が開発した実験的装甲シリーズのひとつ。全身のセットが存在するかは不明――ごく一部の設計だけが確認されている。傾斜面形状により正面に対して平均以上の防御性能を実現した。最新の照準ソフトウェアに対しては脆弱なため近距離戦闘にはほとんど使用されない。"
+  armor_blackbird_m_desc:
+    text: "タイセツ工業が開発した実験的装甲シリーズのひとつ。全身のセットが存在するかは不明――ごく一部の設計だけが確認されている。傾斜面形状により正面に対して平均以上の防御性能を実現した。最新の照準ソフトウェアに対しては脆弱なため近距離戦闘にはほとんど使用されない。"
+  armor_blackbird_m_name:
+    text: "Blackbird M"
+  armor_blackbird_name:
+    text: "Blackbird M"
+  armor_blackbird_ratio_name:
+    text: "Blackbird Ratio"
+  armor_elbrus_desc:
+    text: "頑丈だが旧式化した産業機械シリーズのひとつ。現地生産は20年前に終了しており、より新しい製品が歓迎されたことでエルブルスは徐々に姿を消しつつあるが、採掘、伐採、建設のような民間事業では現役である。整備が非常に簡単で、信頼できる機械として評判を得ている。"
+  armor_elbrus_m_desc:
+    text: "頑丈だが旧式化した産業機械シリーズのひとつ。現地生産は20年前に終了しており、より新しい製品が歓迎されたことでエルブルスは徐々に姿を消しつつあるが、採掘、伐採、建設のような民間事業では現役である。整備が非常に簡単で、信頼できる機械として評判を得ている。"
+  armor_elbrus_m_name:
+    text: "Elbrus M"
+  armor_elbrus_name:
+    text: "Elbrus M"
+  armor_elbrus_ratio_name:
+    text: "Elbrus Ratio"
+  armor_halvard_h_desc:
+    text: "JNIが生産する先進的な重量級装甲。角の内部に追加のLIDAR装置を搭載したことで珍しい形状となった最新のオールラウンド設計が採用されている。整備の複雑さと限られた専門用途のため戦地で用いられることはほとんどない。"
+  armor_halvard_h_name:
+    text: "Halvard H"
+  armor_halvard_ratio_name:
+    text: "Halvard Ratio"
+  armor_helge_desc:
+    text: "JNI協議会が生産するHelgeシリーズは傭兵グループや企業警備部隊で広く使用される中級装甲である。先進的な複合構造は修理が複雑だが、平均以上の防御性能を実現した。"
+  armor_helge_h_desc:
+    text: "JNI協議会が生産するHelgeシリーズは傭兵グループや企業警備部隊で広く使用される中級装甲である。先進的な複合構造は修理が複雑だが、平均以上の防御性能を実現した。"
+  armor_helge_h_name:
+    text: "Helge H"
+  armor_helge_name:
+    text: "Helge H"
+  armor_helge_ratio_name:
+    text: "Helge Ratio"
+  armor_knox_h_desc:
+    text: "JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された重量級のウォーカー装甲シリーズである。"
+  armor_knox_h_name:
+    text: "Knox H"
+  armor_knox_l_desc:
+    text: "JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された軽量級のウォーカー装甲シリーズである。"
+  armor_knox_l_name:
+    text: "Knox L"
+  armor_knox_m_desc:
+    text: "JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された中量級のウォーカー装甲シリーズである。"
+  armor_knox_m_name:
+    text: "Knox M"
+  armor_knox_ratio_name:
+    text: "Knox Ratio"
+  armor_tsubasa_desc:
+    text: "JNI協議会製軽量装甲。特異な構造と先進的複合材により移動の高速化と隠密性向上を実現した。しかし、本装甲の装着にはウォーカー上部構造の改修を伴うため、戦地での運用を複雑にする可能性がある。"
+  armor_tsubasa_l_desc:
+    text: "JNI協議会製軽量装甲。特異な構造と先進的複合材により移動の高速化と隠密性向上を実現した。しかし、本装甲の装着にはウォーカー上部構造の改修を伴うため、戦地での運用を複雑にする可能性がある。"
+  armor_tsubasa_l_name:
+    text: "Tsubasa L"
+  armor_tsubasa_name:
+    text: "Tsubasa L"
+  armor_tsubasa_ratio_name:
+    text: "Tsubasa Ratio"
+  armor_vidar_desc:
+    text: "タイセツ工業により少数生産されたシリーズのひとつ。特異な幾何学形状は対センサ痕跡を抑えつつ投射体を弾くことに優れている。希少材料によって修理が複雑化したため戦闘で目撃されることはほとんどない。"
+  armor_vidar_h_desc:
+    text: "タイセツ工業により少数生産されたシリーズのひとつ。特異な幾何学形状は対センサ痕跡を抑えつつ投射体を弾くことに優れている。希少材料によって修理が複雑化したため戦闘で目撃されることはほとんどない。"
+  armor_vidar_h_name:
+    text: "Vidar H"
+  armor_vidar_name:
+    text: "Vidar H"
+  armor_vidar_ratio_name:
+    text: "Vidar Ratio"
+  internal_heatsink_desc:
+    text: "..."
+  internal_heatsink_name:
+    text: "ヒートシンク"
+  internal_part_assault_desc:
+    text: "基本セット"
+  internal_part_assault_name:
+    text: "Assault"
+  internal_pod_desc:
+    text: "..."
+  internal_pod_name:
+    text: "パイロットポッド"
+  internal_reactor_desc:
+    text: "..."
+  internal_reactor_name:
+    text: "反応炉"
+  internal_structure_arm_desc:
+    text: "..."
+  internal_structure_arm_name:
+    text: "腕部"
+  internal_structure_lower_desc:
+    text: "..."
+  internal_structure_lower_name:
+    text: "下半身パーツ"
+  internal_structure_upper_desc:
+    text: "..."
+  internal_structure_upper_name:
+    text: "上半身部品"
+  manufacturer_aiva_name:
+    text: "AIVA"
+  manufacturer_arms_name:
+    text: ""
+  manufacturer_jni_name:
+    text: "JNI"
+  manufacturer_offgrid_name:
+    text: "Offgrid"
+  mech_internal_corereactor_name:
+    text: "コア反応炉"
+  mech_internal_subsystems_name:
+    text: "メック内部サブシステムフィルタ"
+  partset__base_name:
+    text: "装甲基部"
+  partset_assault_name:
+    text: "Assault"
+  partset_assault_ratio_name:
+    text: "Assault Ratio"
+  partset_bulwark_name:
+    text: "Bulwark"
+  partset_bulwark_ratio_name:
+    text: "Bulwark Ratio"
+  partset_guardian_name:
+    text: "Guardian"
+  partset_guardian_ratio_name:
+    text: "Guardian Ratio"
+  partset_jugernaught_name:
+    text: "Juggernaut"
+  partset_juggernaut_ratio_name:
+    text: "Juggernaut Ratio"
+  partset_scout_name:
+    text: "Scout"
+  partset_scout_ratio_name:
+    text: "Scout Ratio"
+  partset_striker_name:
+    text: "Striker"
+  partset_striker_ratio_name:
+    text: "Striker Ratio"
+  partset_supression_name:
+    text: "Supression"
+  partset_supression_ratio_name:
+    text: "Suppresion Ratio"
+  partset_tactical_name:
+    text: "Tactical"
+  partset_tactical_ratio_name:
+    text: "Tactical Ratio"
+  partset_utility_name:
+    text: "パイロット支援"
+  partset_utility_ratio_name:
+    text: "Utility Ratio"

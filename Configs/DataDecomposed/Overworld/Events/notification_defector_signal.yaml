@@ -1,0 +1,112 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.25
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  main:
+    image: event_intel
+    textName: 暗号通信
+    textDesc: >-
+      あなたは州内のどこかから発せられる暗号通信を検知した。
+
+
+      『これは恐らく解読可能だと思われます、トラブルに巻き込まれても良いのであれば。』パイロットのひとりが告げる。『しかし停車して信号の発信源を三角測量で特定する必要があります。』
+    options:
+    - shared: false
+      key: decode
+    - shared: false
+      key: ignore
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: ResearchInvestigating
+    priority: 0
+    check:
+      self: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  decode:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: inquisitive_primary
+    color: *o0
+    optionMood: ResearchInvestigating
+    textHeader: 解読する
+    textContent: "基地を止めて信号を解読します。\n| -1 時間 |"
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateActionIsolated
+      arg1: !EventCallArgString
+        value: decode
+        mode: DatabaseAction
+      arg2: 
+    steps: 
+  ignore:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 無視する
+    textContent: 我々に立ち止まる時間はない
+    priority: 1
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: {}
+tabsLocal: false

@@ -1,0 +1,53 @@
+hidden: false
+parent: 
+tags:
+- structure
+- site
+- battlefield
+textName: 国境前哨基地
+textDesc: 最初の戦いの地。侵略以来、放棄されたままである。
+textIdentifierGroup: 
+image: world_site_09
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 10
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: true
+  generated: false
+  factionChangesWithProvince: false
+  faction: Independents
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Settlement_Small
+movement: 
+ranges:
+  sensor: 150
+  recognition: 75
+  vision: 35
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: {}
+scenarios:
+  tags:
+    context_outpost: true
+    difficulty_normal: true
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

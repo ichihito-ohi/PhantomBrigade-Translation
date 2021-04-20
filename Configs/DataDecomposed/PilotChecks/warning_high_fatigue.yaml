@@ -1,0 +1,14 @@
+textName: 疲労が激しいです
+textDesc: このパイロットはとても疲労しており、戦闘中に衝撃ダメージの影響を強く受けてしまいます。出撃させるのはリスクが高いです。
+hidden: false
+icon: 
+severity: Warning
+check:
+  fatigueMethod: RequireAll
+  fatigue:
+  - check: Greater
+    value: 150
+  eventMemoryMethodInt: RequireAll
+  eventMemoryInt: 
+  eventMemoryMethodFloat: RequireAll
+  eventMemoryFloat: 

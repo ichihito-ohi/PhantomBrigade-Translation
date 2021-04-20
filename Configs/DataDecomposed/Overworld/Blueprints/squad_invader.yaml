@@ -1,0 +1,54 @@
+hidden: true
+parent: 
+tags:
+- squad
+textName: ''
+textDesc: >
+  幻影旅団を狩りながら移動を続ける敵兵戦隊。エリア内のパトロールをすべて排除すればこの地域で警備兵が増援を呼ぶことが無くなる。
+textIdentifierGroup: ''
+image: ''
+core:
+  inventory: true
+  selectable: true
+  capturable: false
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: true
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
+factionBranch: 
+visual:
+  visualFromSquad: true
+  visualPrefabs:
+  - path: Content/Overworld/Squad_Army
+movement: 
+ranges: 
+intel:
+  detected: false
+  recognized: false
+  inSensorRange: false
+  inRecognitionRange: false
+units: {}
+scenarios:
+  tags:
+    context_squad: true
+    difficulty_veryeasy: true
+areas:
+  tags:
+    context_wilderness: true
+    type_main: true
+production: 
+ai:
+  isAggressive: true
+  activeWhenUntracked: true
+spawning: 
+loot: 
+rewards: 

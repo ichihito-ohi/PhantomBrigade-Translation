@@ -1,0 +1,22 @@
+textName: 副兵装がありません
+textDesc: サイドアームまたは副兵装なしに機体を展開することはお勧めできません。主兵装を補ったり利き腕を失った際の頼みの綱にしたりするために様々な装備が利用可能です。
+hidden: false
+icon: s_icon_l32_socket_arm
+severity: Warning
+check:
+  encompassingMethod: RequireAll
+  tagsMethod: RequireAll
+  blueprintsMethod: RequireAll
+  partsMethod: RequireAll
+  subsystemsMethod: RequireAll
+  statsMethod: RequireAll
+  tags: []
+  blueprints: []
+  parts:
+  - socket: equipment_left
+    not: true
+    requirement: Present
+    tags: 
+  subsystems: []
+  stats: []
+  pilot: []

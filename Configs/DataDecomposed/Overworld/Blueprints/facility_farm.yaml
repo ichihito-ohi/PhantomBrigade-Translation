@@ -1,0 +1,25 @@
+hidden: false
+parent: facility
+tags: []
+textName: 農場
+textDesc: ''
+textIdentifierGroup: site_settlement_city
+image: world_site_09
+core: 
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Farm_Large
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios:
+  tags: {}
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

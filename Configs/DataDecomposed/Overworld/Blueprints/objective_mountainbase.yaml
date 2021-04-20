@@ -1,0 +1,87 @@
+hidden: false
+parent: 
+tags:
+- structure
+- site
+- battlefield
+textName: '山岳基地'
+textDesc: 敵の注意を惹くことなく作戦基地として機能する大規模地下施設。約30年前に放棄されたが、構造的には無傷なままである。古い採掘トラックやウォーカー用に建てられた大きな入口は移動基地にも合っている。
+textIdentifierGroup: objective_mountainbase
+image: world_site_09
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 10
+  hopeOnDefeat: true
+  destroyOnDefeat: false
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: true
+  generated: true
+  factionChangesWithProvince: false
+  faction: Independents
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Mine
+movement: 
+ranges:
+  sensor: 150
+  recognition: 75
+  vision: 35
+intel:
+  detected: true
+  recognized: true
+  inSensorRange: false
+  inRecognitionRange: false
+units: {}
+scenarios:
+  tags:
+    difficulty_veryeasy: true
+    type_elimination: true
+    unique_mountainbase: true
+areas: 
+production:
+  limit: 1
+  duration: 48
+  controllingFactions:
+  - Phantoms
+  eventsOnCompletion:
+  - create_pilot
+ai: 
+spawning: 
+loot:
+  provinceLevelAdded: true
+  supplies:
+    amountMin: 150
+    amountMax: 1
+    amountRandom: false
+  parts:
+  - preset: wpn_shotgun_heavy_v1_s1_r0
+    tagsUsed: false
+    tags:
+      rating_1: true
+      wpn_primary: true
+    countMin: 1
+    countMax: 1
+    countRandom: false
+    levelMin: 0
+    levelMax: 1
+    levelRandom: false
+  - preset: wpn_rifle_assault_v1_s2_r0
+    tagsUsed: false
+    tags: {}
+    countMin: 1
+    countMax: 1
+    countRandom: false
+    levelMin: 0
+    levelMax: 1
+    levelRandom: false
+  subsystems: 
+rewards: 

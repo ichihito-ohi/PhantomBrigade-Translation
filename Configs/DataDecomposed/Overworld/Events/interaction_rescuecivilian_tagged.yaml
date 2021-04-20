@@ -1,0 +1,121 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: main
+priority: 0
+group: 0
+groupConflicts: 
+chance: 1
+chanceModifier:
+  entryOnBase: 1
+  entryOnTarget: 1
+  completionOnBase: 1
+  completionOnTarget: 1
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_military_base
+    textName: 民間人救出
+    textDesc: あなたは小さな村から民間人の後を追った。そこは彼らが捕らえられている基地だった。あとは、彼らとの間に立ちはだかるのは敵兵士だけだ。
+    options:
+    - shared: false
+      key: resque
+    - shared: false
+      key: disengage
+    colorCustom: false
+    colorKey: negative_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: base
+          not: false
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/MissingPersonTarget
+            check: Bool
+            value: 1
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units: 
+        unpacked: 
+        faction:
+          hostileCheck: false
+          hostile: false
+          factions:
+          - Invaders
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  disengage:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: neutral_primary
+    color: *o0
+    optionMood: Neutral
+    textHeader: 回避する
+    textContent: 警備兵に立ち向かう前にもっと資源が必要だ。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+  resque:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color: *o0
+    optionMood: Negative
+    textHeader: 民間人を救助する
+    textContent: 武装した警備兵と戦い民間人を救助しろ。
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartCombatFromTagsOnEntity
+      arg1: 
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData: 
+tabsLocal: false

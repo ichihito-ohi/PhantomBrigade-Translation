@@ -1,0 +1,122 @@
+textName: 
+hidden: false
+optional: false
+restartTimeOnExit: true
+stepOnStart: step_00_spawn
+priority: 0
+group: 0
+groupConflicts: 
+chance: 0.1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: true
+evaluationInterval: Long
+steps:
+  step_00_spawn:
+    image: event_hologram_default
+    textName: 市場
+    textDesc: パイロットのひとりがあなたを呼び出して、近くで装備を売っている集団について情報を得たと説明した。あなたが見たいなら、と。
+    options:
+    - shared: true
+      key: dismiss
+    colorCustom: false
+    colorKey: positive_primary
+    color: &o0
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    eventMood: Positive
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Counter/BlackMarketInfluence
+            check: LessEqual
+            value: -3
+          - key: World/Counter/BlackMarketInfluence
+            check: GreaterEqual
+            value: -4
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        combatReady: 
+        movement: 
+        deployment: 
+        supplies:
+          check: GreaterEqual
+          value: 1000
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target: 
+      province:
+        positionProvider: Self
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: Province/Tag/Ignore
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        faction: 
+        access: 
+        hope: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: CreateOverworldEntity
+      arg1: !EventCallArgString
+        value: market_large
+        mode: CustomSpawnData
+      arg2: 
+options:
+  continue:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: 
+    color: *o0
+    optionMood: None
+    textHeader: 続ける
+    textContent: ''
+    priority: 0
+    completing: false
+    stepByPriority: false
+    stepFallbackMode: Exit
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters: 
+customSpawnData:
+  market_large:
+    locationProvider: SourceProvince
+    provinceKey: 
+    spawnGroupKey: general_dynamic
+    generationProfileCustom: false
+    generationProfileKey: market_general_large
+    generationProfile: 
+    faction: Phantoms
+    memoryChangesInt: []
+    memoryChangesFloat: []
+tabsLocal: false

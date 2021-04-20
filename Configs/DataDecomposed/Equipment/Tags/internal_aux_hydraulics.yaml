@@ -1,0 +1,6 @@
+blocks:
+  subsystem_category:
+    textShort: Auxiliary Hydraulics
+    textLong: 内部補助システムはメック重量の一部を低減する役割を担う。
+    spriteName:
+      name: 

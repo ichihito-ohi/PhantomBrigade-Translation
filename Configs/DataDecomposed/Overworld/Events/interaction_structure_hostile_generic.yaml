@@ -1,0 +1,126 @@
+textName: Assault
+hidden: false
+optional: false
+restartTimeOnExit: false
+stepOnStart: main
+priority: 100
+group: 1
+groupConflicts: 
+chance: 1
+chanceModifier: 
+trackCompletionOnSelf: false
+trackCompletionOnTarget: false
+evaluationOverTime: false
+evaluationInterval: Long
+steps:
+  main:
+    image: event_factory
+    textName: 突撃
+    textDesc: 部隊で攻撃を仕掛けることでこの施設の制圧を試みることができます。
+    options:
+    - shared: false
+      key: combat
+    - shared: true
+      key: disengage
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 1
+      g: 0.3921569
+      b: 0.3254902
+      a: 1
+    eventMood: None
+    priority: 0
+    check:
+      self:
+        tagsMethod: RequireAll
+        tags: 
+        eventMemory: 
+        combatReady:
+          ready: true
+        movement: 
+        deployment: 
+        supplies: 
+        pilotsAvailable: 
+        unitsAvailable: 
+        pilots: 
+        units: 
+        levelDeltaTarget: 
+        levelDeltaProvince: 
+      target:
+        tagsMethod: RequireAll
+        tags:
+        - tag: structure
+          not: false
+        - tag: status_defended
+          not: true
+        eventMemory:
+          eventMemoryMethodInt: RequireAll
+          eventMemoryInt:
+          - key: World/Tag/Raided
+            check: Bool
+            value: 0
+          eventMemoryMethodFloat: RequireAll
+          eventMemoryFloat: 
+        supplies: 
+        inventory: 
+        pilots: 
+        units:
+          present: true
+        unpacked:
+          present: false
+        faction:
+          hostileCheck: true
+          hostile: true
+          factions: []
+        provinceDefender: 
+      province: 
+      action: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls: 
+options:
+  combat:
+    colorFromStep: false
+    colorCustom: false
+    colorKey: negative_primary
+    color:
+      r: 0.8235295
+      g: 0.3176471
+      b: 0.2588235
+      a: 1
+    optionMood: Negative
+    textHeader: 出動準備
+    textContent: 部隊と戦闘準備に取り掛かる。
+    priority: 0
+    completing: true
+    stepByPriority: false
+    stepFallbackMode: None
+    stepFallbackKey: 
+    check: 
+    hopeChange: 
+    memoryChangesInt: 
+    memoryChangesFloat: 
+    calls:
+    - key: StartCombatFromTagsCombined
+      arg1: !EventCallArgString
+        value: ScenarioFilter
+        mode: CustomTagFilter
+      arg2: 
+    - key: StopBase
+      arg1: 
+      arg2: 
+    steps: 
+actions: 
+actorUnits: 
+actorPilots: 
+customFlags: 
+customInts: 
+customFloats: 
+customStrings: 
+customTagFilters:
+  ScenarioFilter:
+    tags: {}
+customSpawnData: 
+tabsLocal: false

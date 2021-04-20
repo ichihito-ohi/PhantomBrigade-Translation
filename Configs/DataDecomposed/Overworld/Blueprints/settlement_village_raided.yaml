@@ -1,0 +1,24 @@
+hidden: false
+parent: settlement_village
+tags: []
+textName: 村
+textDesc: 小さな集落。敵機を殲滅することで希望を高め民間人を自由に戻すことができる。
+textIdentifierGroup: site_settlement_small
+image: world_site_09
+core: 
+factionBranch: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Village_Raided
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 

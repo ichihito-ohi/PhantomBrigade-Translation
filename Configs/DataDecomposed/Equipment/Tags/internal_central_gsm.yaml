@@ -1,0 +1,6 @@
+blocks:
+  subsystem_category:
+    textShort: Central GSM
+    textLong: ジャイロ式安定化モジュールはメックのバランスを大きく向上させる内部中央システムで、より速く移動できるようにする。
+    spriteName:
+      name: 

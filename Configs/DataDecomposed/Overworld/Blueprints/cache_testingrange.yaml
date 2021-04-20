@@ -1,0 +1,21 @@
+hidden: false
+parent: cache_defended
+tags: []
+textName: 射撃試験場
+textDesc: ''
+textIdentifierGroup: site_cache
+image: world_site_08
+core: 
+factionBranch: 
+visual: 
+movement: 
+ranges: 
+intel: 
+units: 
+scenarios: 
+areas: 
+production: 
+ai: 
+spawning: 
+loot: 
+rewards: 
