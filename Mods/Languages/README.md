@@ -16,7 +16,7 @@ Copyright (c) 2020-2021 Ichihito Ohi
 3. コマンドプロンプトまたはPowerShellを起動する
 
 4. ゲームのインストール先に移動する
-    ````
+    ```
     $ cd C:\Program Files\Epic Games\PhantomBrigade
     ```
 
@@ -40,5 +40,7 @@ Copyright (c) 2020-2021 Ichihito Ohi
 
 ---
 ## 更新履歴
+### jp-061-20210422.patch
+- 翻訳済みの内容を本体アップデート Patch 0.6.1-b1701 に適用しました．変更部分は翻訳されていません．
 ### jp-051-20210416.patch
-- ゲーム中の一部を日本語化しました
+- ゲーム中の一部を日本語化しました．
