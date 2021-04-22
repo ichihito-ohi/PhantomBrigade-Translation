@@ -9,16 +9,19 @@ unitPartFilters:
     filters:
       body:
       - tags:
+          branch_army: true
+      - tags:
           mnf_armor_01: true
       equipment:
       - tags:
-          mnf_wpn_01: true
+          branch_army: true
       - tags:
           mnf_wpn_02: true
   tank:
     filters:
+      body:
+      - tags:
+          branch_army: true
       equipment_right:
       - tags:
-          mnf_wpn_01: true
-      - tags:
-          mnf_wpn_02: true
+          branch_army: true

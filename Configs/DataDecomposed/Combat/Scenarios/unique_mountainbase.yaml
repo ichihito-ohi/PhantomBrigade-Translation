@@ -75,7 +75,10 @@ steps:
           flags: 
           faction: 
           speed: 
-          pilot: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_tank_pilot_r0_striker
+            custom: 
       - key: tank_cannon
         countMin: 1
         countMax: 1
@@ -94,7 +97,10 @@ steps:
           flags: 
           faction: 
           speed: 
-          pilot: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_tank_pilot_r0_scout
+            custom: 
       spawnGroupOccupied: true
       spawnCountStrict: false
       spawnOrderRandom: false
@@ -190,7 +196,10 @@ steps:
           flags: 
           faction: 
           speed: 
-          pilot: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_mech_pilot_r0_leader
+            custom: 
       spawnGroupOccupied: true
       spawnCountStrict: false
       spawnOrderRandom: false

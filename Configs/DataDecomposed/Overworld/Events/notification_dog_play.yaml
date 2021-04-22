@@ -130,12 +130,7 @@ options:
     steps: []
 actions: 
 actorUnits: []
-actorPilots:
-- source: Self
-  sort: Name
-  pick: Random
-  stepManual: 
-  check: 
+actorPilots: []
 customFlags: 
 customInts: 
 customFloats: 

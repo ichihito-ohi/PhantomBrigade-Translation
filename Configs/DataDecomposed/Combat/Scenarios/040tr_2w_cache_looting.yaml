@@ -234,7 +234,7 @@ steps:
   wave0:
     color: *o0
     textCurrentPrimary: 現在の目標
-    textCurrentSecondary: 確保のために機体をマークされたエリアに移動しろ。
+    textCurrentSecondary: '確保のために機体をマークされたエリアに移動しろ。'
     allowOutcomeVictory: false
     allowOutcomeDefeat: true
     unitsRevealed: false
@@ -247,7 +247,7 @@ steps:
       difficulty: 0
       tags:
         has_mech: true
-        weight_heavy: true
+        weight_medium: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -314,6 +314,21 @@ steps:
     executionAllowed: true
     visible: true
     unitGroups:
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 0
+      tags:
+        role_striker: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_outer: true
+      spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: true
       difficultyUsed: true

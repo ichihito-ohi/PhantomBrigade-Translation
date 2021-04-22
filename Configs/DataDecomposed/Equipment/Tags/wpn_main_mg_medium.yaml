@@ -1,6 +1,6 @@
 blocks:
   part_category:
-    textShort: Medium MG
+    textShort: MMG
     textLong: 中機関銃は制圧射撃と遮蔽破壊に有効である。
     spriteName:
       name: s_icon_l32_part_arch_machinegun

@@ -1,6 +1,6 @@
 blocks:
   part_category:
-    textShort: Melee Sidearm
+    textShort: MS
     textLong: コンパクトな共振ブレードを使用し、必要出力は低いが質量によるダメージとソケット互換性が犠牲となっている。
     spriteName:
       name: s_icon_l32_part_arch_melee_dagger

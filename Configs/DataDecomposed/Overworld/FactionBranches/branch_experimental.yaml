@@ -9,22 +9,21 @@ unitPartFilters:
     filters:
       body:
       - tags:
-          mnf_armor_03: true
+          branch_experimental: true
       - tags:
           mnf_armor_02: true
       equipment:
       - tags:
-          mnf_wpn_02: true
+          branch_experimental: true
       - tags:
           mnf_wpn_03: true
       - tags:
           mnf_wpn_01: true
   tank:
     filters:
+      body:
+      - tags:
+          branch_experimental: true
       equipment_right:
       - tags:
-          mnf_wpn_02: true
-      - tags:
-          mnf_wpn_03: true
-      - tags:
-          mnf_wpn_01: true
+          branch_experimental: true

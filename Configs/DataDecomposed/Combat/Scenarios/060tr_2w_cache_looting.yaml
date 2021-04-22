@@ -247,7 +247,7 @@ steps:
       difficulty: 1
       tags:
         has_mech: true
-        weight_heavy: true
+        weight_medium: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -320,6 +320,21 @@ steps:
       difficulty: 0
       tags:
         role_scout: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_outer: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      difficultyUsed: true
+      difficulty: 0
+      tags:
+        role_sharpshooter: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true

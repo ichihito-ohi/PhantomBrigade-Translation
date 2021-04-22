@@ -2,14 +2,80 @@ description: Names and description of unit parts and other related text
 entries:
   armor_arrow_h_forearm:
     text: "前腕"
+  internal_aux_capacitor_1:
+    text: Increase heat capacity, grants more time before overheating.
+  internal_aux_capacitor_2:
+    text: Increase heat capacity, grants more time before overheating. Stronger performance than Basic Capacitor.
+  internal_aux_capacitor_3:
+    text: Increase heat capacity, grants more time before overheating. Stronger performance than Improved Capacitor.
+  internal_aux_cooling_active:
+    text: Substantially increase dissipation, but reduce power.
+  internal_aux_cooling_enhanced:
+    text: Reduce power, but increase dissipation.
+  internal_aux_cooling_passive:
+    text: Increase dissipation by a small amount.
+  internal_aux_core_charge:
+    text: Focus on overheat capacity and damage.
+  internal_aux_core_heat:
+    text: Focus on dissipation and damage.
+  internal_aux_core_launch:
+    text: Reduce dissipation, while increasing power output.
+  internal_aux_core_overdrive:
+    text: Focus on mobility output.
+  internal_aux_core_regen:
+    text: Focus on barrier regeneration.
+  internal_aux_core_standard:
+    text: Standard core.
+  internal_aux_gyro_hybrid:
+    text: Further reduce mass, with indirect increase to speed.
+  internal_aux_gyro_pneumatic:
+    text: Reduce mass, with indirect increase to speed.
+  internal_aux_gyro_traction:
+    text: Substantially reduce mass, with indirect increase to speed. Stronger performance than Improved Gyro.
+  internal_aux_hydraulics_1:
+    text: Offset mass at the cost of dissipation.
+  internal_aux_hydraulics_2:
+    text: Improved offset of mass at the cost of dissipation. Stronger performance than the Basic Hydraulics.
+  internal_aux_hydraulics_3:
+    text: Excellent offset of mass at the cost of dissipation. Stronger performance than the Improved Hydraulics.
   internal_aux_plating_basic:
-    text: "..."
+    text: Increase mass and integrity by a small amount.
   internal_aux_plating_composite:
-    text: "..."
+    text: Increase mass, with small increase to integrity and barrier.
+  internal_aux_plating_empty:
+    text: Decrease integrity and barrier, while substantially reducing mass.
+  internal_aux_plating_heavy:
+    text: Substantially increase mass, integrity, and barrier.
+  internal_aux_plating_hollowed:
+    text: Decrease integrity and barrier by a small amount, while reducing mass.
   internal_aux_plating_regenerative:
-    text: "..."
+    text: Increase mass, while increasing barrier regeneration by a small amount.
   internal_aux_plating_reinforced:
-    text: "..."
+    text: '...'
+  internal_aux_reactor_1:
+    text: Additional power, with direct increase to speed.
+  internal_aux_reactor_2:
+    text: Increased additional power, with direct increase to speed. Stronger performance than Basic Reactor.
+  internal_aux_reactor_3:
+    text: Substantial additional Power, with direct increase to Speed. Stronger performance than Improved Reactor.
+  internal_aux_regenerator_1:
+    text: Enhance rate of barrier regeneration. Useful for mechs reliant on barriers.
+  internal_aux_regenerator_2:
+    text: Further enhance rate of barrier regeneration. Useful for mechs reliant on barriers. Stronger performance than Basic Regenerator.
+  internal_aux_regenerator_3:
+    text: Significantly enhance rate of barrier regeneration. Useful for mechs reliant on barriers. Stronger performance than Improved Regenerator.
+  internal_aux_sensor_left_range:
+    text: Increase range on applied weapon.
+  internal_aux_sensor_right_range:
+    text: Increase range on applied weapon.
+  internal_aux_stabilizer_left_hybrid:
+    text: Increase range on applied weapon. Reduce stationary and moving scatter.
+  internal_aux_stabilizer_left_scatter:
+    text: Reduce stationary and moving scatter on applied weapon.
+  internal_aux_stabilizer_right_hybrid:
+    text: Increase range on applied weapon. Reduce stationary and moving scatter.
+  internal_aux_stabilizer_right_scatter:
+    text: Reduce stationary and moving scatter on applied weapon.
   internal_head_s1:
     text: "ヒートシンクはより高い排熱速度を可能にするが、通常より質量が倍増する点に注意する必要がある。代償を払ってでも極限まで熱を排出する必要がある場合に使用する。"
   internal_pod_s1:
@@ -54,7 +120,11 @@ entries:
     text: "ダッシュが使用可能になります。"
   internal_vhc_tank_turret_v01_set01:
     text: "武器性能の大部分を担う主要な内部機構。"
+  wpn_main_mg_medium_v02_set04:
+    text: Main internals of the weapon responsible for the bulk of its performance.
   wpn_main_mg_sub_v02_set03:
     text: "武器性能の大部分を担う主要な内部機構。"
+  wpn_main_rifle_marksman_v01_set04:
+    text: Main internals of the weapon responsible for the bulk of its performance.
   wpn_main_rifle_marksman_v02_set03:
     text: "武器性能の大部分を担う主要な内部機構。"

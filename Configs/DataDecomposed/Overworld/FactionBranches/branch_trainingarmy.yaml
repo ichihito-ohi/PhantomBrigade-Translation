@@ -9,8 +9,15 @@ unitPartFilters:
     filters:
       body:
       - tags:
-          armor_knox: true
+          branch_trainingarmy: true
       equipment:
       - tags:
-          difficulty_hard: false
-          mnf_wpn_01: true
+          branch_trainingarmy: true
+  tank:
+    filters:
+      body:
+      - tags:
+          branch_trainingarmy: true
+      equipment:
+      - tags:
+          branch_trainingarmy: true

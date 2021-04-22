@@ -9,7 +9,15 @@ unitPartFilters:
     filters:
       body:
       - tags:
-          armor_elbrus: true
+          branch_trainingreserves: true
       equipment:
       - tags:
-          difficulty_easy: true
+          branch_trainingreserves: true
+  tank:
+    filters:
+      body:
+      - tags:
+          branch_trainingreserves: true
+      equipment:
+      - tags:
+          branch_trainingreserves: true
