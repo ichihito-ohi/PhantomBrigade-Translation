@@ -1,4 +1,4 @@
-# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/Equipment/Tags'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Equipment/Tags'
 
 import sys
 import argparse
