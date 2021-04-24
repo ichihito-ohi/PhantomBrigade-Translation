@@ -1,5 +1,11 @@
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/EventStats'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/FactionBranches'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/Provinces'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/PilotChecks'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/UnitBlueprints'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/UnitChecks'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/UnitStats'
+
 
 import sys
 import argparse
@@ -11,7 +17,7 @@ import yaml
 ls = list(pathlib.Path('PATH').glob('*.yaml'))
 
 # TODO: Set output name
-dst_path = pathlib.PurePath('Provinces-EN.csv')
+dst_path = pathlib.PurePath('EventOptions-EN.csv')
 
 
 try:
@@ -72,14 +78,13 @@ try:
 
 
                 for key in data:
-                    if key == 'textName' or key == 'textDesc':
+                    if key == 'textHeader' or key == 'textContent' or key == 'textName' or key == 'textDesc' or key == 'description':
                         if data[key] != None:
                             textVal = str(data[key]).replace('"', '""')
                             i += 1
                             text_str = src_stem + ',' + str(i) + ',' + str(key) + ',\"' + textVal + '\"\n'
                             print(text_str)
                             dst.write(text_str)
-
 
 
 except Exception as e:
