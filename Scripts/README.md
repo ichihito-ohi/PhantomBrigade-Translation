@@ -12,7 +12,7 @@ Copyright (c) 2020-2021 Ichihito Ohi
     - Visual Studio 2019 Community
 
 ---
-## How to use
+## How to Use
 
 ### Preparation
 1. Install Python 3.7 .
@@ -57,6 +57,39 @@ Copyright (c) 2020-2021 Ichihito Ohi
     - Successed; you will get a csv file in same folder as the script.
     - Not successed; python will show error message, read it before you exit.
 
-### Common error
+### Common Error
 - You may set wrong path.
 - Some original files have special characters which system in some locations can't deal, so *you need to replace to other available character* using editor before you run.
+
+---
+## Support Files
+
+_(Common)_
+### yaml_to_csv-Text.py
+- `PhantomBrigade/Configs/Text`
+### yaml_to_csv-firstLevelKey.py
+- `PhantomBrigade/Configs/DataDecomposed/Overworld/EventStats`
+- `PhantomBrigade/Configs/DataDecomposed/Overworld/FactionBranches`
+- `PhantomBrigade/Configs/DataDecomposed/Overworld/Provinces`
+- `PhantomBrigade/Configs/DataDecomposed/PilotChecks`
+- `PhantomBrigade/Configs/DataDecomposed/UnitBlueprints`
+- `PhantomBrigade/Configs/DataDecomposed/UnitChecks`
+- `PhantomBrigade/Configs/DataDecomposed/UnitStats`
+### yaml_to_csv-Comms.py
+- `PhantomBrigade/Configs/DataDecomposed/Combat/Comms`
+- `PhantomBrigade/Configs/DataDecomposed/Combat/Stats`
+- `PhantomBrigade/Configs/DataDecomposed/Combat/UnitGroups`
+
+_(Special)_
+### yaml_to_csv-Scenarios.py
+- `PhantomBrigade/Configs/DataDecomposed/Combat/Scenarios`
+### yaml_to_csv-Cutscenes.py
+- `PhantomBrigade/Configs/DataDecomposed/Cutscenes`
+### yaml_to_csv-Tags.py
+- `PhantomBrigade/Configs/DataDecomposed/Equipment/Tags`
+### yaml_to_csv-InfoPages.py
+- `PhantomBrigade/Configs/DataDecomposed/InfoPages`
+### yaml_to_csv-Events.py
+- `PhantomBrigade/Configs/DataDecomposed/Overworld/Events`
+### yaml_to_csv-Actions.py
+- `PhantomBrigade/Configs/DataDecomposed/Overworld/Actions`
