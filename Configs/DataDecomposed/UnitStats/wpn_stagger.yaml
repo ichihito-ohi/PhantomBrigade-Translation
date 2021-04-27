@@ -1,0 +1,31 @@
+textName: 震動ダメージ
+textDesc: 武器が与える震動ダメージを決定する
+uiPriority: 100
+uiColor:
+  r: 0.9529412
+  g: 0.3921569
+  b: 0.3921569
+  a: 1
+uiIcon: s_icon_l32_stat_wpn_damage2
+uiLimit: 3
+uiMinimized: false
+uiComparisonInverted: false
+rounded: false
+derived: false
+exposedPerUnit: false
+exposedPerPart: true
+exposedPerSubsystem: true
+displayAsRangeUsing: ''
+averageSubsystemMultipliers: false
+minPerPartLimit: false
+minPerPart: 0
+maxPerPartLimit: false
+maxPerPart: 100
+minPerUnitLimit: false
+minPerUnit: 0
+maxPerUnitLimit: false
+maxPerUnit: 100
+levelUsed: false
+levelIncrease: 0.25
+multiplierUsed: false
+multiplier: 1

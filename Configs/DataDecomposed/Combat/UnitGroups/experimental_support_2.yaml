@@ -19,8 +19,8 @@ units:
   levelOffsetRandom: false
   qualityEditable: Advanced
   quality: 3
-  aiBehavior: ''
-  aiTargeting: ''
+  aiBehavior: Flanker
+  aiTargeting: support
   custom:
     name: 
     spawn: 
@@ -30,7 +30,7 @@ units:
     speed: 
     pilot:
       presetUsed: true
-      presetKey: enemy_mech_pilot_r2_commander
+      presetKey: enemy_mech_pilot_r2_support
       custom: 
 - key: vehicle
   countMin: 3
@@ -41,8 +41,8 @@ units:
   levelOffsetRandom: false
   qualityEditable: Advanced
   quality: 3
-  aiBehavior: ''
-  aiTargeting: ''
+  aiBehavior: Flanker
+  aiTargeting: support
   custom:
     name: 
     spawn: 
@@ -52,7 +52,7 @@ units:
     speed: 
     pilot:
       presetUsed: true
-      presetKey: enemy_tank_pilot_r0_private
+      presetKey: enemy_tank_pilot_r2_support
       custom: 
 unitPresets:
   mech: !UnitFilter

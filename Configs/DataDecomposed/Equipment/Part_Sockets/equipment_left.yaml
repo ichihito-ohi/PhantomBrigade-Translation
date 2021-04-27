@@ -1,0 +1,6 @@
+textName: 左腕アイテム
+textDesc: 左装備スロットには軽火器とシールドを搭載できる。
+sortPriority: 0
+tags:
+- equipment_left
+- equipment

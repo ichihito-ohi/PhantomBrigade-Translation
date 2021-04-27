@@ -1,0 +1,68 @@
+difficultyEditable: Medium
+difficulty: 1
+description: 移動し続けて遠距離からダメージを与える。
+tags:
+- branch_reserves
+- has_mech
+- range_long
+- range_medium
+- role_generic
+- role_artillery
+- weight_light
+- weight_medium
+units:
+- key: mech
+  countMin: 1
+  countMax: 1
+  countRandom: false
+  levelOffsetMin: 0
+  levelOffsetMax: 0
+  levelOffsetRandom: false
+  qualityEditable: Improved
+  quality: 2
+  aiBehavior: Flanker
+  aiTargeting: artillery
+  custom:
+    name: 
+    spawn: 
+    landing: 
+    flags: 
+    faction: 
+    speed: 
+    pilot:
+      presetUsed: true
+      presetKey: enemy_mech_pilot_r1_artillery
+      custom: 
+- key: vehicle
+  countMin: 2
+  countMax: 2
+  countRandom: false
+  levelOffsetMin: 0
+  levelOffsetMax: 0
+  levelOffsetRandom: false
+  qualityEditable: Improved
+  quality: 2
+  aiBehavior: Flanker
+  aiTargeting: artillery
+  custom:
+    name: 
+    spawn: 
+    landing: 
+    flags: 
+    faction: 
+    speed: 
+    pilot:
+      presetUsed: true
+      presetKey: enemy_tank_pilot_r1_artillery
+      custom: 
+unitPresets:
+  mech: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      role_artillery: true
+      type_mech: true
+  vehicle: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      role_artillery: true
+      type_vehicle: true

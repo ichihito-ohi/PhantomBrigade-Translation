@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Railgun Repeater
+    textLong: 弾丸を使用するマークスマンライフルと同様の役割を担う実験的な精密武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_marksman

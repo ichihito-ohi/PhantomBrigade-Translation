@@ -6,7 +6,7 @@ tags:
 - branch_army
 - role_generic
 - has_mech
-- weight_medium
+- weight_light
 - range_long
 units:
 - key: mech
@@ -18,8 +18,8 @@ units:
   levelOffsetRandom: false
   qualityEditable: Improved
   quality: 2
-  aiBehavior: ''
-  aiTargeting: ''
+  aiBehavior: Flanker
+  aiTargeting: sharpshooter
   custom:
     name: 
     spawn: 
@@ -29,7 +29,7 @@ units:
     speed: 
     pilot:
       presetUsed: true
-      presetKey: enemy_mech_pilot_r1_sergeant
+      presetKey: enemy_mech_pilot_r1_sharpshooter
       custom: 
 - key: vehicle
   countMin: 2
@@ -40,8 +40,8 @@ units:
   levelOffsetRandom: false
   qualityEditable: Improved
   quality: 2
-  aiBehavior: ''
-  aiTargeting: ''
+  aiBehavior: Flanker
+  aiTargeting: sharpshooter
   custom:
     name: 
     spawn: 
@@ -51,7 +51,7 @@ units:
     speed: 
     pilot:
       presetUsed: true
-      presetKey: enemy_tank_pilot_r0_private
+      presetKey: enemy_tank_pilot_r1_sharpshooter
       custom: 
 unitPresets:
   mech: !UnitFilter

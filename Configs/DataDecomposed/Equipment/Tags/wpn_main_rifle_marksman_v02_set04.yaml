@@ -1,0 +1,6 @@
+blocks:
+  part_model:
+    textShort: MRe-04 Thermite
+    textLong: 機体や遮蔽の間を貫いて打撃を与える長射程高速ライフル。物体と衝突するごとに投射体が与えるダメージは減少する。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_marksman

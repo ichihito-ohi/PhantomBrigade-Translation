@@ -1,0 +1,6 @@
+blocks:
+  part_model:
+    textShort: C-04E Charge
+    textLong: 標的付近で爆発して動きの遅い標的集団全体に大量の通常ダメージと衝撃ダメージを与える非常に低速な誘導エネルギー球を発射する。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_sniper

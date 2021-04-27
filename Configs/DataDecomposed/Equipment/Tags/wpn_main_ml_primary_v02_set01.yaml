@@ -1,0 +1,12 @@
+blocks:
+  part_model:
+    textShort: ML-P 02 Slug
+    textLong: >
+      モデル：PRIMARY
+
+
+      バリエーション：SLUG
+
+      無誘導で大きな標的範囲をもつ非常に強力だが低速の中距離ミサイルを1発撃つ。
+    spriteName:
+      name: s_icon_l32_part_arch_launcher

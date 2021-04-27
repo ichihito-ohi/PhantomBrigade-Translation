@@ -139,17 +139,17 @@ entries:
   internal_aux_stabiliser:
     text: "標準型"
   internal_aux_stabilizer_left_hybrid:
-    text: Targeting - Left
+    text: 照準 - 左
   internal_aux_stabilizer_left_range:
     text: "射程 左"
   internal_aux_stabilizer_left_scatter:
-    text: Stabilizer - Left
+    text: スタビライザー - 左
   internal_aux_stabilizer_right_hybrid:
-    text: Targeting - Right
+    text: 照準 - 右
   internal_aux_stabilizer_right_range:
     text: "射程 右"
   internal_aux_stabilizer_right_scatter:
-    text: Stabilizer - Right
+    text: スタビライザー - 右
   internal_aux_subreactor:
     text: "標準型"
   internal_bcm:
@@ -529,11 +529,11 @@ entries:
   tank_internal_turret_s1:
     text: "砲塔"
   wpn_main_mg_medium_v02_set04:
-    text: Core structure
+    text: "コア構造"
   wpn_main_mg_sub_v02_set03:
     text: "コア構造"
   wpn_main_rifle_marksman_v01_set04:
-    text: Core structure
+    text: "コア構造"
   wpn_main_rifle_marksman_v02_set03:
     text: "コア構造"
   wpn_perk_barrel_damaged_range01:

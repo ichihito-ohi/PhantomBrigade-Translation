@@ -1,0 +1,40 @@
+difficultyEditable: Hard
+difficulty: 2
+description: 移動し続けて遠距離からダメージを与える。
+tags:
+- branch_army
+- range_long
+- range_medium
+- role_generic
+- role_artillery
+- weight_light
+- weight_medium
+units:
+- key: vehicle
+  countMin: 5
+  countMax: 2
+  countRandom: false
+  levelOffsetMin: 1
+  levelOffsetMax: 1
+  levelOffsetRandom: false
+  qualityEditable: Advanced
+  quality: 3
+  aiBehavior: Flanker
+  aiTargeting: artillery
+  custom:
+    name: 
+    spawn: 
+    landing: 
+    flags: 
+    faction: 
+    speed: 
+    pilot:
+      presetUsed: true
+      presetKey: enemy_tank_pilot_r2_artillery
+      custom: 
+unitPresets:
+  vehicle: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      role_artillery: true
+      type_vehicle: true

@@ -53,9 +53,9 @@ entries:
   melee_fallback_desc:
     text: "武器なしで咄嗟の近接攻撃をするように指示します。専用装備を使った近接攻撃に比べて効果は低いです。"
   melee_fallback_mode_targeting_locations_header:
-    text: Set destination
+    text: "目標位置を設定"
   melee_fallback_mode_targeting_locations_tooltip:
-    text: Choose the position to dash to. The unit will damage everything in its path.
+    text: "ダッシュする位置を選択しましょう。機体の通過経路すべてにダメージを与えます。"
   melee_fallback_mode_targeting_units_header:
     text: "標的と方向を設定します。"
   melee_fallback_mode_targeting_units_tooltip:
@@ -85,9 +85,9 @@ entries:
   melee_primary_desc:
     text: "主兵装で近距離攻撃するよう指示します。"
   melee_primary_mode_targeting_locations_header:
-    text: Set destination
+    text: "目標位置を設定"
   melee_primary_mode_targeting_locations_tooltip:
-    text: Choose the position to dash to. The unit will damage everything in the path of its weapon. Check the displayed trajectory and line it up with desired targets. You can invert which side the attack happens from by holding Ctrl.
+    text: "ダッシュする位置を選択しましょう。武器を振る経路すべてにダメージを与えます。表示された軌道を確認して狙いたい標的に合わせましょう。Ctrl キーを押したままにするとどちら側で攻撃するか反転させることができます。"
   melee_primary_mode_targeting_units_header:
     text: "標的と方向を設定します。"
   melee_primary_mode_targeting_units_tooltip:
@@ -97,9 +97,9 @@ entries:
   melee_secondary_desc:
     text: "副兵装で近距離攻撃するよう指示します。"
   melee_secondary_mode_targeting_locations_header:
-    text: Set destination
+    text: "目標位置を設定"
   melee_secondary_mode_targeting_locations_tooltip:
-    text: Choose the position to dash to. The unit will damage everything in the path of its weapon. Check the displayed trajectory and line it up with desired targets. You can invert which side the attack happens from by holding Ctrl.
+    text: "ダッシュする位置を選択しましょう。武器を振る経路すべてにダメージを与えます。表示された軌道を確認して狙いたい標的に合わせましょう。Ctrl キーを押したままにするとどちら側で攻撃するか反転させることができます。"
   melee_secondary_mode_targeting_units_header:
     text: "標的と方向を設定します。"
   melee_secondary_mode_targeting_units_tooltip:

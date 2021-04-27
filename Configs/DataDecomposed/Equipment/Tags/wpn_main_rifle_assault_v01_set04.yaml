@@ -1,0 +1,6 @@
+blocks:
+  part_model:
+    textShort: ARe-04 Pulse
+    textLong: 標的を不安定にするエネルギーペレットを中長距離で斉射する。機体を転倒させたり安定性を重視した他機体と組み合わせて支援したりすると効果的である。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_assault

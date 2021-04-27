@@ -1,0 +1,6 @@
+blocks:
+  part_model:
+    textShort: SRe-04 Curve
+    textLong: 標的に高速で誘導されるエネルギーオーブを速射する狙撃銃。通常の狙撃銃ほど協力ではなく精度も低いが、遮蔽越しに発射することができて移動中も静止時と同じ精度を保つ。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_sniper

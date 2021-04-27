@@ -1,0 +1,11 @@
+blocks:
+  part_model:
+    textShort: ML-P 04 Snail
+    textLong: >
+      モデル：PRIMARY
+
+
+      バリエーション：SNAIL
+       標的の拡散が小さく低速の強力な長距離誘導ミサイルを3発撃つ。
+    spriteName:
+      name: s_icon_l32_part_arch_launcher

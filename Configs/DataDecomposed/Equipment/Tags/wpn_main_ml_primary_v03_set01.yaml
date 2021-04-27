@@ -1,0 +1,12 @@
+blocks:
+  part_model:
+    textShort: ML-P 03 Hornet
+    textLong: >-
+      モデル：PRIMARY
+
+
+      バリエーション：HORNET
+
+      中程度の標的範囲をもつ低威力の長距離誘導ミサイルを中程度の速度で6発撃つ。
+    spriteName:
+      name: s_icon_l32_part_arch_launcher

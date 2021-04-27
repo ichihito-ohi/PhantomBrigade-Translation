@@ -1,0 +1,6 @@
+blocks:
+  part_model:
+    textShort: HSe-04 Dragon
+    textLong: 誘導エネルギー炸裂弾を発射する中距離ショットガン。近距離では通常のショットガンほどダメージはなく効果的でないが、中距離で移動する標的に対しては精度がはるかに高い。
+    spriteName:
+      name: s_icon_l32_part_arch_shotgun

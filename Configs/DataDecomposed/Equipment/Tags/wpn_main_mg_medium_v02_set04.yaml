@@ -1,0 +1,6 @@
+blocks:
+  part_model:
+    textShort: MMG-04E Tracer
+    textLong: 中長距離の標的に低速で誘導されるエネルギーペレットを大量に連続射撃する。機銃掃射をしている標的に射撃すると精度が上がる。適切なタイミングならば、大量の熱ダメージを集中して与えることができる。
+    spriteName:
+      name: s_icon_l32_part_arch_machinegun

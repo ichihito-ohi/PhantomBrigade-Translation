@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Plasma Repeater
+    textLong: 重エネルギー投射体を中距離で発射する実験的武器。命中すると標的の安定性を損ない、（軽量な機体でも）相手に転倒の影響を受けやすくする。継続して発射すると、直接衝突せずとも、標的を完全に転倒させることができる。
+    spriteName:
+      name: s_icon_l32_part_arch_rifle_assault

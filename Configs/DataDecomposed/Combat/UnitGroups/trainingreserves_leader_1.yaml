@@ -4,14 +4,8 @@ description: 支援機を随伴させた強力なメック。
 tags:
 - branch_trainingreserves
 - has_mech
-- range_long
-- range_medium
-- range_short
-- role_generic
 - role_leader
-- weight_heavy
-- weight_light
-- weight_medium
+- role_generic
 units:
 - key: mech
   countMin: 1
@@ -22,8 +16,8 @@ units:
   levelOffsetRandom: false
   qualityEditable: Training
   quality: 0
-  aiBehavior: ''
-  aiTargeting: ''
+  aiBehavior: Flanker
+  aiTargeting: leader
   custom:
     name: 
     spawn: 
@@ -33,7 +27,7 @@ units:
     speed: 
     pilot:
       presetUsed: true
-      presetKey: enemy_mech_pilot_r1_sergeant
+      presetKey: enemy_mech_pilot_r0_leader
       custom: 
 - key: vehicle
   countMin: 1
@@ -44,8 +38,8 @@ units:
   levelOffsetRandom: false
   qualityEditable: Training
   quality: 0
-  aiBehavior: ''
-  aiTargeting: ''
+  aiBehavior: Flanker
+  aiTargeting: leader
   custom:
     name: 
     spawn: 
@@ -55,7 +49,7 @@ units:
     speed: 
     pilot:
       presetUsed: true
-      presetKey: enemy_tank_pilot_r0_private
+      presetKey: enemy_tank_pilot_r0_leader
       custom: 
 unitPresets:
   mech: !UnitFilter

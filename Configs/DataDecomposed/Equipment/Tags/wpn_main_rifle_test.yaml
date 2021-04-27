@@ -1,0 +1,6 @@
+blocks:
+  part_category:
+    textShort: Rifle Test
+    textLong: 最大ダメージを出すためには標的がアクションを実行中に攻撃する必要がある。
+    spriteName:
+      name: 

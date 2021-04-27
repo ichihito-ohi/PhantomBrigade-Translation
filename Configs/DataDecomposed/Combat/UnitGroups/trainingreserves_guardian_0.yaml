@@ -19,8 +19,8 @@ units:
   levelOffsetRandom: false
   qualityEditable: Training
   quality: 0
-  aiBehavior: ''
-  aiTargeting: ''
+  aiBehavior: Flanker
+  aiTargeting: guardian
   custom:
     name: 
     spawn: 
@@ -30,7 +30,7 @@ units:
     speed: 
     pilot:
       presetUsed: true
-      presetKey: enemy_mech_pilot_r0_trooper
+      presetKey: enemy_mech_pilot_r0_guardian
       custom: 
 unitPresets:
   mech: !UnitFilter
