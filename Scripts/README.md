@@ -68,12 +68,16 @@ _(Common)_
 ### yaml_to_csv-Text.py
 - `PhantomBrigade/Configs/Text`
 ### yaml_to_csv-firstLevelKey.py
+- `PhantomBrigade/Configs/DataDecomposed/Equipment/Part_Sockets`
+- `PhantomBrigade/Configs/DataDecomposed/Overworld/Blueprints`
+- `PhantomBrigade/Configs/DataDecomposed/Overworld/EventOptions`
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/EventStats`
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/FactionBranches`
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/Provinces`
 - `PhantomBrigade/Configs/DataDecomposed/PilotChecks`
 - `PhantomBrigade/Configs/DataDecomposed/UnitBlueprints`
 - `PhantomBrigade/Configs/DataDecomposed/UnitChecks`
+- `PhantomBrigade/Configs/DataDecomposed/UnitPresets`
 - `PhantomBrigade/Configs/DataDecomposed/UnitStats`
 ### yaml_to_csv-Comms.py
 - `PhantomBrigade/Configs/DataDecomposed/Combat/Comms`
@@ -93,3 +97,9 @@ _(Special)_
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/Events`
 ### yaml_to_csv-Actions.py
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/Actions`
+### yaml_to_csv-Tutorials.py
+- `PhantomBrigade/Configs/DataDecomposed/Tutorials`
+### yaml_to_csv-simulation.py
+- `PhantomBrigade/Configs/Data/Settings/simulation.yaml`
+### yaml_to_csv-ui.py
+- `PhantomBrigade/Configs/Data/Settings/ui.yaml`

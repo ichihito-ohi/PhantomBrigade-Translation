@@ -1,4 +1,4 @@
-# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Equipment/Tags'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Equipment/Tags/'
 
 import sys
 import argparse
@@ -15,9 +15,10 @@ dst_path = pathlib.PurePath('Tags-EN.csv')
 
 try:
     # TODO: Set encoding of csv for your language
+    # TODO: Windows can't en/decode some characters like '\u2014'. Replace them before
     with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
 
-
+        i = 0
         for p in ls:
             src_path = pathlib.PurePath(p)
             print(src_path)
@@ -26,7 +27,6 @@ try:
             src_stem = src_path.stem
 
 
-    
             with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
         
                 def constructor_ActionCallArgInt(loader, node):
@@ -66,18 +66,18 @@ try:
                 yaml.add_constructor(u'!UnitGroupFilter', constructor_UnitGroupFilter)
                 yaml.add_constructor(u'!UnitPresetLink', constructor_UnitPresetLink)
                 yaml.add_constructor(u'!UnitPresetEmbedded', constructor_UnitPresetEmbedded)
-        
+                
                 data = yaml.load(src,yaml.FullLoader)
-                i = 0
 
                 for key_block in data['blocks']:
-                    textShort = data['blocks'][key_block]['textShort']
-                    textLong = data['blocks'][key_block]['textLong']
-                    if textShort != None and textLong != None:
-                        i += 1
-                        text_str = src_stem + ',' + str(i) + ',' + str(key_block) + ',' + str(textShort) + ',\"' + str(textLong) + '\"\n'
-                        print(text_str)
-                        dst.write(text_str)
+                    if data['blocks'][key_block] != None:
+                        if data['blocks'][key_block]['textShort'] != None and data['blocks'][key_block]['textLong'] != None:
+                            textShort = str(data['blocks'][key_block]['textShort']).replace('"', '""')
+                            textLong = str(data['blocks'][key_block]['textLong']).replace('"', '""')
+                            i += 1
+                            text_str = src_stem + ',' + str(i) + ',' + str(key_block) + ',' + textShort + ',\"' + textLong + '\"\n'
+                            print(text_str)
+                            dst.write(text_str)
 
 
 except Exception as e:
