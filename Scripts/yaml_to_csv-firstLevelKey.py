@@ -1,9 +1,13 @@
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Equipment/Part_Sockets'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/Blueprints'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/EventOptions'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/EventStats'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/FactionBranches'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Overworld/Provinces'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/PilotChecks'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/UnitBlueprints'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/UnitChecks'
+# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/UnitPresets'
 # TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/UnitStats'
 
 
@@ -17,7 +21,7 @@ import yaml
 ls = list(pathlib.Path('PATH').glob('*.yaml'))
 
 # TODO: Set output name
-dst_path = pathlib.PurePath('EventOptions-EN.csv')
+dst_path = pathlib.PurePath('output-EN.csv')
 
 
 try:
