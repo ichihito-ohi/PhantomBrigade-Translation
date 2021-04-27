@@ -2,9 +2,9 @@ description:
 entries:
   apply_settings:
     text: >-
-      Apply
+      適用
 
-      changes
+      変更
   audio_volume_main_desc:
     text: '...'
   audio_volume_main_level_0:
@@ -30,7 +30,7 @@ entries:
   audio_volume_main_level_9:
     text: 90%
   audio_volume_main_name:
-    text: Master Volume
+    text: マスターボリューム
   audio_volume_music_desc:
     text: '...'
   audio_volume_music_level_0:
@@ -56,7 +56,7 @@ entries:
   audio_volume_music_level_9:
     text: 90%
   audio_volume_music_name:
-    text: Music Volume
+    text: 音楽ボリューム
   audio_volume_sound_desc:
     text: '...'
   audio_volume_sound_level_0:
@@ -82,7 +82,7 @@ entries:
   audio_volume_sound_level_9:
     text: 90%
   audio_volume_sound_name:
-    text: Sound Volume
+    text: 効果音ボリューム
   audio_volume_voice_desc:
     text: '...'
   audio_volume_voice_level_0:
@@ -108,21 +108,21 @@ entries:
   audio_volume_voice_level_9:
     text: 90%
   audio_volume_voice_name:
-    text: Voice Volume
+    text: 音声ボリューム
   display_mode_desc:
-    text: Controls whether the game is fullscreen or windowed
+    text: フルスクリーンとウィンドウ表示を切り替える
   display_mode_level_fullscreen:
-    text: Fullscreen
+    text: フルスクリーン
   display_mode_level_windowed:
-    text: Windowed
+    text: ウィンドウ表示
   display_mode_name:
-    text: Display mode
+    text: 表示の切り替え
   display_resolution_desc:
-    text: Resolution the game renders at
+    text: 解像度の設定
   display_resolution_name:
-    text: Display resolution
+    text: 解像度
   display_sync_desc:
-    text: Control over vertical sync
+    text: ディスプレイ同期の設定
   display_sync_level_full:
     text: Full (60Hz)
   display_sync_level_half:
@@ -130,9 +130,9 @@ entries:
   display_sync_level_off:
     text: Off
   display_sync_name:
-    text: Display sync
+    text: ディスプレイ同期
   game_language_desc:
-    text: The language used for all the text displayed by the game
+    text: 言語の設定
   game_language_level_chinese:
     text: Chinese / 汉语
   game_language_level_japanese:
@@ -140,19 +140,19 @@ entries:
   game_language_level_english:
     text: English
   game_language_name:
-    text: Language
+    text: 言語
   game_ui_scaling_desc:
-    text: Virtual resolution of the UI that affects its scale
+    text: UIサイズの設定
   game_ui_scaling_name:
-    text: UI scaling
+    text: UIサイズ
   graphics_texture_filtering_level_0:
     text: Off
   graphics_texture_filtering_level_1:
-    text: Enabled
+    text: 有効
   graphics_texture_filtering_level_2:
-    text: Forced On
+    text: 強制
   graphics_texture_filtering_name:
-    text: Anisotropic Filtering
+    text: 異方性フィルタ
   graphics_texture_quality_level_0:
     text: Full
   graphics_texture_quality_level_1:
@@ -162,91 +162,91 @@ entries:
   graphics_texture_quality_level_3:
     text: Eighth
   graphics_texture_quality_name:
-    text: Texture Resolution
+    text: テクスチャ解像度
   group_audio_name:
-    text: Audio
+    text: オーディオ
   group_display_name:
-    text: Video
+    text: ビデオ
   group_game_name:
-    text: Game
+    text: ゲーム
   group_graphics_name:
-    text: Graphics
+    text: グラフィックス
   group_input_name:
-    text: Input
+    text: 入力
   header_main:
-    text: Options
+    text: 設定
   input_gamepad_look_invert_vertical_desc:
     text: '...'
   input_gamepad_look_invert_vertical_name:
-    text: Gamepad / Look inverted
+    text: ゲームパッド / カメラ操作反転
   input_gamepad_look_sensitivity_horizontal_desc:
     text: '...'
   input_gamepad_look_sensitivity_horizontal_name:
-    text: Gamepad / Look horizontal sensitivity
+    text: ゲームパッド / カメラ水平感度
   input_gamepad_look_sensitivity_vertical_desc:
     text: '...'
   input_gamepad_look_sensitivity_vertical_name:
-    text: Gamepad / Look vertical sensitivity
+    text: ゲームパッド / カメラ垂直感度
   input_gamepad_move_sensitivity_desc:
     text: '...'
   input_gamepad_move_sensitivity_name:
-    text: Gamepad / Move sensitivity
+    text: ゲームパッド / カメラ移動感度
   input_gamepad_scrub_sensitivity_desc:
     text: '...'
   input_gamepad_scrub_sensitivity_name:
-    text: Gamepad / Timeline sensitivity
+    text: ゲームパッド / 時間軸感度
   input_gamepad_zoom_sensitivity_desc:
     text: '...'
   input_gamepad_zoom_sensitivity_name:
-    text: Gamepad / Move sensitivity
+    text: ゲームパッド / カメラ感度
   input_keyboard_look_invert_vertical_desc:
     text: '...'
   input_keyboard_look_invert_vertical_name:
-    text: Keyboard / Look inverted
+    text: キーボード / カメラ操作反転
   input_keyboard_look_sensitivity_horizontal_desc:
     text: '...'
   input_keyboard_look_sensitivity_horizontal_name:
-    text: Keyboard / Look horizontal sensitivity
+    text: キーボード / カメラ水平感度
   input_keyboard_look_sensitivity_vertical_desc:
     text: '...'
   input_keyboard_look_sensitivity_vertical_name:
-    text: Keyboard / Look vertical sensitivity
+    text: キーボード / カメラ垂直感度
   input_keyboard_move_sensitivity_desc:
     text: '...'
   input_keyboard_move_sensitivity_name:
-    text: Keyboard / Move sensitivity
+    text: キーボード / カメラ移動感度
   input_keyboard_zoom_sensitivity_desc:
     text: '...'
   input_keyboard_zoom_sensitivity_name:
-    text: Keyboard / Zoom sensitivity
+    text: キーボード / ズーム感度
   input_mouse_edge_scrolling_desc:
     text: When edge scrolling is enabled, the camera moves when the cursor is near the edge of the screen.
   input_mouse_edge_scrolling_name:
-    text: Mouse / Edge scrolling
+    text: マウス / 画面端スクロール
   input_mouse_lock_to_window_desc:
     text: '...'
   input_mouse_lock_to_window_name:
-    text: Mouse / Lock to window
+    text: マウス / ウィンドウ固定
   input_mouse_look_invert_vertical_desc:
     text: '...'
   input_mouse_look_invert_vertical_name:
-    text: Mouse / Look inverted
+    text: マウス / カメラ操作反転
   input_mouse_look_sensitivity_horizontal_desc:
     text: '...'
   input_mouse_look_sensitivity_horizontal_name:
-    text: Mouse / Look horizontal sensitivity
+    text: マウス / カメラ水平感度
   input_mouse_look_sensitivity_vertical_desc:
     text: '...'
   input_mouse_look_sensitivity_vertical_name:
-    text: Mouse / Look vertical sensitivity
+    text: マウス / カメラ垂直感度
   input_mouse_move_sensitivity_desc:
     text: '...'
   input_mouse_move_sensitivity_name:
-    text: Mouse / Move sensitivity
+    text: マウス / カメラ移動感度
   input_mouse_zoom_sensitivity_desc:
     text: '...'
   input_mouse_zoom_sensitivity_name:
-    text: Mouse / Zoom sensitivity
+    text: マウス / ズーム感度
   level_default:
     text: Undefined level
   level_default_bool_false:

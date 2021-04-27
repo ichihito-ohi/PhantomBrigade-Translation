@@ -1,0 +1,130 @@
+description: Names and description of unit parts and other related text
+entries:
+  armor_arrow_h_forearm:
+    text: "前腕"
+  internal_aux_capacitor_1:
+    text: 熱キャパシターを増加させ、オーバーヒートまでの時間を延長する。
+  internal_aux_capacitor_2:
+    text: 熱キャパシターを増加させ、オーバーヒートまでの時間を延長する。標準型キャパシターよりも性能が高い。
+  internal_aux_capacitor_3:
+    text: 熱キャパシターを増加させ、オーバーヒートまでの時間を延長する。改良型キャパシターよりも性能が高い。
+  internal_aux_cooling_active:
+    text: 大幅に排熱を増加させるが、出力が減少する。
+  internal_aux_cooling_enhanced:
+    text: 出力が減少するが、排熱が増加する。
+  internal_aux_cooling_passive:
+    text: 排熱をわずかに増加する。
+  internal_aux_core_charge:
+    text: オーバーヒート限界とダメージを重視する。
+  internal_aux_core_heat:
+    text: 排熱とダメージを重視する。
+  internal_aux_core_launch:
+    text: 排熱が低下するが、出力が上昇する。
+  internal_aux_core_overdrive:
+    text: 機動出力を重視する。
+  internal_aux_core_regen:
+    text: バリア再生を重視する。
+  internal_aux_core_standard:
+    text: 標準型コア
+  internal_aux_gyro_hybrid:
+    text: さらに重量を削減し、間接的に速度を上昇させる。
+  internal_aux_gyro_pneumatic:
+    text: 重量を削減し、間接的に速度を上昇させる。
+  internal_aux_gyro_traction:
+    text: 大幅に重量を削減して、間接的に速度を上昇させる。改良型ジャイロよりも性能が高い。
+  internal_aux_hydraulics_1:
+    text: 排熱を犠牲に重量を削減する。
+  internal_aux_hydraulics_2:
+    text: 排熱を犠牲に重量を削減する。標準型油圧系よりも性能が高い。
+  internal_aux_hydraulics_3:
+    text: 排熱を犠牲に重量を大幅に削減する。改良型油圧系よりも性能が高い。
+  internal_aux_plating_basic:
+    text: 重量と耐久度をわずかに増加させる。
+  internal_aux_plating_composite:
+    text: 重量が増加するが、耐久度とバリアをわずかに増加させる。
+  internal_aux_plating_empty:
+    text: 耐久度とバリアを低下させて、大幅に重量を削減する。
+  internal_aux_plating_heavy:
+    text: 重量とともに耐久度とバリアを大幅に増加させる。
+  internal_aux_plating_hollowed:
+    text: 耐久度とバリアをわずかに低下させて、重量を削減する。
+  internal_aux_plating_regenerative:
+    text: 重量が増加するが、バリア再生がわずかに上昇する。
+  internal_aux_plating_reinforced:
+    text: '...'
+  internal_aux_reactor_1:
+    text: 追加出力で、直接速度を上昇させる。
+  internal_aux_reactor_2:
+    text: 追加出力を増加して、直接速度を増加させる。標準型反応炉よりも性能が高い。
+  internal_aux_reactor_3:
+    text: 大幅な追加出力で、直接速度を増加させる。改良型反応炉よりも性能が高い。
+  internal_aux_regenerator_1:
+    text: バリア再生速度を強化する。バリアに依存する機体に有用。
+  internal_aux_regenerator_2:
+    text: さらにバリア再生速度を強化する。バリアに依存する機体に有用。標準型再生器よりも性能が高い。
+  internal_aux_regenerator_3:
+    text: 大幅にバリア再生速度を強化する。バリアに依存する機体に有用。改良型再生器よりも性能が高い。
+  internal_aux_sensor_left_range:
+    text: 適用した武器の射程距離を延長する。
+  internal_aux_sensor_right_range:
+    text: 適用した武器の射程距離を延長する。
+  internal_aux_stabilizer_left_hybrid:
+    text: 適用した武器の射程距離を延長する。静止時と移動時の拡散を減少する。
+  internal_aux_stabilizer_left_scatter:
+    text: 適用した武器の静止時と移動時の拡散を減少する。
+  internal_aux_stabilizer_right_hybrid:
+    text: 適用した武器の射程距離を延長する。静止時と移動時の拡散を減少する。
+  internal_aux_stabilizer_right_scatter:
+    text: 適用した武器の静止時と移動時の拡散を減少する。
+  internal_head_s1:
+    text: "ヒートシンクはより高い排熱速度を可能にするが、通常より質量が倍増する点に注意する必要がある。代償を払ってでも極限まで熱を排出する必要がある場合に使用する。"
+  internal_pod_s1:
+    text: "強力な線形加速器や反動制御、降下制御システムを装備した軍用グレードの操縦ポッド。多層構造の軽量な複合装甲により戦闘中のパイロット生存率を高めることができる。"
+  internal_pod_v01:
+    text: "強力な線形加速器や反動制御、降下制御システムを装備した軍用グレードの操縦ポッド。多層構造の軽量な複合装甲により戦闘中のパイロット生存率を高めることができる。"
+  internal_pod_v01_set01:
+    text: "強力な加速器や反動制御、降下制御システムを装備した軍用グレードの操縦ポッド。多層構造の軽量な複合装甲がメックの耐久性を高める。"
+  internal_reactor_s1:
+    text: "高いしきい値と上限をもつ型破りな設計の反応炉。オーバーヒート時にシャットダウンしやすく人気のS2型に比べて出力が低い。"
+  internal_reactor_s2:
+    text: "適切なバランスの質量、出力、熱特性を提供する人気のオールラウンド反応炉モデル。"
+  internal_reactor_s3:
+    text: "機体の速度向上に最適な高出力設計。オーバーヒート限界の低下と引き換えに出力が向上した。しかし、低い運転温度領域により安定性が向上し、短時間のオーバーヒートならばシャットダウンのリスクが抑えられている。"
+  internal_structure_arm_s1:
+    text: "大量生産のウォーカーで腕部アクチュエータを駆動する標準仕様のフレームと上部構造、リニアドライブ。"
+  internal_structure_lower_s1:
+    text: "大量生産のウォーカーで脚部アクチュエータを駆動する標準仕様のフレームと上部構造、リニアドライブ、高耐久サスペンションシステム。"
+  internal_structure_upper_s1:
+    text: "内部コンポーネントすべてを支えるフレームと上部構造物"
+  internal_thrusters_0:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_1:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_2:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_3:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_distance:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_endurance:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_evasion:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_heavy:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_hotrod:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_sidestep:
+    text: "ダッシュが使用可能になります。"
+  internal_thrusters_standard:
+    text: "ダッシュが使用可能になります。"
+  internal_vhc_tank_turret_v01_set01:
+    text: "武器性能の大部分を担う主要な内部機構。"
+  wpn_main_mg_medium_v02_set04:
+    text: 武器性能の大部分を担う主要な内部機構。
+  wpn_main_mg_sub_v02_set03:
+    text: "武器性能の大部分を担う主要な内部機構。"
+  wpn_main_rifle_marksman_v01_set04:
+    text: 武器性能の大部分を担う主要な内部機構。
+  wpn_main_rifle_marksman_v02_set03:
+    text: "武器性能の大部分を担う主要な内部機構。"

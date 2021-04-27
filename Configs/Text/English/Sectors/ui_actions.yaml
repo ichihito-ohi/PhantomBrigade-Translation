@@ -1,0 +1,162 @@
+description: Actions (orders) available to units on the battlefield, their descriptions, names etc.
+entries:
+  attack_l_value:
+    text: "指定した標的に副兵装で攻撃するよう指示します。"
+  attack_primary_desc:
+    text: "指定した標的に主兵装で攻撃するよう指示します。"
+  attack_primary_name:
+    text: "攻撃（主）"
+  attack_r_value:
+    text: "指定した標的に主兵装で攻撃するよう指示します。"
+  attack_secondary_desc:
+    text: "指定した標的に副兵装で攻撃するよう指示します。"
+  attack_secondary_name:
+    text: "攻撃（副）"
+  attack_vehicle_desc:
+    text: "指定した標的に大口径の主砲で攻撃するよう指示します。"
+  attack_vehicle_name:
+    text: "攻撃"
+  attack_vehicle_value:
+    text: "指定した標的に大口径の主砲で攻撃するよう指示します。"
+  crash_desc:
+    text: "この機体は衝突や部位破壊により制御不能状態です。以前に計画されていた行動はすべて中断されました。タイムライン上でこの部分は機体が復帰するまでにかかる時間を表しています。"
+  crash_name:
+    text: "衝突"
+  crash_secondary_desc:
+    text: "この機体は制御不能状態です。"
+  crash_secondary_name:
+    text: "衝突"
+  crash_value:
+    text: "この機体は衝突や部位破壊により制御不能状態です。以前に計画されていた行動はすべて中断されました。タイムライン上でこの部分は機体が復帰するまでにかかる時間を表しています。"
+  dash_desc:
+    text: "スラスターを作動させて指定した地点に向けて速やかに加速するよう指示します。射撃が制限され熱が発生しますが、攻撃を回避して有利な地点に移動する際に役立ちます。"
+  dash_name:
+    text: "ダッシュ"
+  eject_desc:
+    text: "パイロットを脱出させますが、この機体は使用不能になります。警告: パイロットを失った機体はすべての動作を停止して周囲に重大な危険をもたらします。"
+  eject_name:
+    text: "パイロット脱出"
+  eject_value:
+    text: "パイロットを脱出させますが、この機体は使用不能になります。警告: パイロットを失った機体はすべての動作を停止して周囲に重大な危険をもたらします。"
+  heat_vent_desc:
+    text: "過剰な熱を排出するよう指示します。これは効果的な冷却方法である一方で、並行して射撃のような二次行動ができなくなるなど重要な機会が犠牲になります。"
+  heat_vent_emergency_desc:
+    text: "この機体はオーバーヒートに陥り冷却と損傷対策のため緊急排熱が作動した。以前に計画されていた行動はすべて中断され廃熱中はすべての動作が停止します。これは最終手段です: この危機的なシャットダウンを避けるために、熱が集中する行動は間隔を空け時間をかけて機体を冷却することでオーバーヒートを防ぎ、慎重に熱を管理しましょう。"
+  heat_vent_emergency_name:
+    text: "緊急排熱"
+  heat_vent_emergency_value:
+    text: "停止して過剰な熱を排出します"
+  heat_vent_name:
+    text: "排熱"
+  heat_vent_value:
+    text: "停止して過剰な熱を排出します"
+  melee_fallback_desc:
+    text: "武器なしで咄嗟の近接攻撃をするように指示します。専用装備を使った近接攻撃に比べて効果は低いです。"
+  melee_fallback_mode_targeting_locations_header:
+    text: "目標位置を設定"
+  melee_fallback_mode_targeting_locations_tooltip:
+    text: "ダッシュする位置を選択しましょう。機体の通過経路すべてにダメージを与えます。"
+  melee_fallback_mode_targeting_units_header:
+    text: "標的と方向を設定します。"
+  melee_fallback_mode_targeting_units_tooltip:
+    text: "近接攻撃は2ステップで構成されています。まず、攻撃機は標的近くの位置にダッシュします――そして次に、攻撃機は標的に打撃を与えるために突撃します。マウスで標的を選択して、1-2キーで突撃する方向を調整します。障害物との衝突を避けることが重要なので、慎重に方向を選びましょう！"
+  melee_fallback_name:
+    text: "近接攻撃"
+  melee_fallback_none_desc:
+    text: "武器なしで咄嗟の近接攻撃をするように指示します。専用装備を使った近接攻撃に比べて効果は低いです。"
+  melee_fallback_none_name:
+    text: "近接攻撃"
+  melee_fallback_primary_desc:
+    text: "武器なしで咄嗟の近接攻撃をするように指示します。専用装備を使った近接攻撃に比べて効果は低いです。"
+  melee_fallback_primary_name:
+    text: "近接攻撃"
+  melee_fallback_secondary_desc:
+    text: "武器なしで咄嗟の近接攻撃をするように指示します。専用装備を使った近接攻撃に比べて効果は低いです。"
+  melee_fallback_secondary_name:
+    text: "近接攻撃"
+  melee_fallback_shield_desc:
+    text: "武器なしで咄嗟の近接攻撃をするように指示します。専用装備を使った近接攻撃に比べて効果は低いです。"
+  melee_fallback_shield_name:
+    text: "近接攻撃"
+  melee_fallback_shieldonly_desc:
+    text: "武器なしで咄嗟の近接攻撃をするように指示します。専用装備を使った近接攻撃に比べて効果は低いです。"
+  melee_fallback_shieldonly_name:
+    text: "近接攻撃"
+  melee_primary_desc:
+    text: "主兵装で近距離攻撃するよう指示します。"
+  melee_primary_mode_targeting_locations_header:
+    text: "目標位置を設定"
+  melee_primary_mode_targeting_locations_tooltip:
+    text: "ダッシュする位置を選択しましょう。武器を振る経路すべてにダメージを与えます。表示された軌道を確認して狙いたい標的に合わせましょう。Ctrl キーを押したままにするとどちら側で攻撃するか反転させることができます。"
+  melee_primary_mode_targeting_units_header:
+    text: "標的と方向を設定します。"
+  melee_primary_mode_targeting_units_tooltip:
+    text: "近接攻撃は2ステップで構成されています。まず、攻撃機は標的近くの位置にダッシュします――そして次に、攻撃機は標的に打撃を与えるために突撃します。マウスで標的を選択して、1-2キーで突撃する方向を調整します。障害物との衝突を避けることが重要なので、慎重に方向を選びましょう！"
+  melee_primary_name:
+    text: "近接攻撃（主）"
+  melee_secondary_desc:
+    text: "副兵装で近距離攻撃するよう指示します。"
+  melee_secondary_mode_targeting_locations_header:
+    text: "目標位置を設定"
+  melee_secondary_mode_targeting_locations_tooltip:
+    text: "ダッシュする位置を選択しましょう。武器を振る経路すべてにダメージを与えます。表示された軌道を確認して狙いたい標的に合わせましょう。Ctrl キーを押したままにするとどちら側で攻撃するか反転させることができます。"
+  melee_secondary_mode_targeting_units_header:
+    text: "標的と方向を設定します。"
+  melee_secondary_mode_targeting_units_tooltip:
+    text: "近接攻撃は2ステップで構成されています。まず、攻撃機は標的近くの位置にダッシュします――そして次に、攻撃機は標的に打撃を与えるために突撃します。マウスで標的を選択して、1-2キーで突撃する方向を調整します。障害物との衝突を避けることが重要なので、慎重に方向を選びましょう！"
+  melee_secondary_name:
+    text: "近接攻撃（副）"
+  move_busy_desc:
+    text: "応答不能"
+  move_busy_name:
+    text: "応答不能"
+  move_limp_desc:
+    text: "推進システムが損傷したままで移動するよう指示します。移動速度は最適状態より遅くなります。"
+  move_limp_name:
+    text: "足を引きずる"
+  move_limp_value:
+    text: "推進システムが損傷したままで移動するよう指示します。移動速度は最適状態より遅くなります。"
+  move_run_desc:
+    text: "目標地点に全速力で移動するよう指示します。下半身の完全に無傷な機体だけが可能です。"
+  move_run_name:
+    text: "走る"
+  move_run_value:
+    text: "目標地点に全速力で移動するよう指示します。下半身の完全に無傷な機体だけが可能です。"
+  move_vehicle_desc:
+    text: "目標地点に全速力で移動するよう指示します。下半身の完全に無傷な機体だけが可能です。"
+  move_vehicle_name:
+    text: "走る"
+  move_vehicle_value:
+    text: "目標地点に全速力で移動するよう指示します。下半身の完全に無傷な機体だけが可能です。"
+  reaction_attack_primary_desc:
+    text: 敵が範囲内に侵入したら反応して主兵装で攻撃する。
+  reaction_attack_primary_name:
+    text: 攻撃スキャン（右）
+  reaction_attack_secondary_desc:
+    text: 敵が範囲内に侵入したら反応して副兵装で攻撃する。
+  reaction_attack_secondary_name:
+    text: 攻撃スキャン（左）
+  reaction_attack_vehicle_desc:
+    text: 敵が範囲内に侵入したら反応して攻撃する。
+  reaction_attack_vehicle_name:
+    text: 攻撃スキャン
+  reaction_shield_desc:
+    text: 敵が範囲内に侵入したら反応してシールドを上げる。
+  reaction_shield_name:
+    text: シールドスキャン
+  shield_desc:
+    text: "指定した方向からの攻撃をシールドで逸らすよう指示します。"
+  shield_name:
+    text: "シールド"
+  shield_value:
+    text: "指定した方向からの攻撃をシールドで逸らすよう指示します。"
+  surrender_desc:
+    text: "この車両のパイロットは降伏して戦闘に参加しなくなりました。降伏した機体は従来の照準ソフトウェアでロックオンできません。"
+  surrender_name:
+    text: "降伏"
+  wait_desc:
+    text: "指定した方向を向いて一定時間待機するよう指示します。注意して使用してください――被弾中に足を止めることは損害に繋がります！"
+  wait_name:
+    text: "待機"
+  wait_value:
+    text: "指定した方向を向いて一定時間待機するよう指示します。注意して使用してください――被弾中に足を止めることは損害に繋がります！"
