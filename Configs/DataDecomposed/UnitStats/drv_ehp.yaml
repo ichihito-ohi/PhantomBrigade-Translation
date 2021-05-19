@@ -6,7 +6,13 @@ uiColor:
   g: 1
   b: 1
   a: 1
+uiColorOutput:
+  r: 0
+  g: 0
+  b: 0
+  a: 0
 uiIcon: s_icon_l32_stat_barrier
+uiIconOutput: 
 uiLimit: 1000
 uiMinimized: false
 uiComparisonInverted: false
@@ -15,6 +21,9 @@ derived: true
 exposedPerUnit: false
 exposedPerPart: false
 exposedPerSubsystem: false
+showAsOutput: false
+showWithoutExpansion: false
+displayIfNonZero: ''
 displayAsRangeUsing: ''
 averageSubsystemMultipliers: false
 minPerPartLimit: false

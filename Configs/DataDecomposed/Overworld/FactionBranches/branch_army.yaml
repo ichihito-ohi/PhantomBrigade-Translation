@@ -11,12 +11,12 @@ unitPartFilters:
       - tags:
           branch_army: true
       - tags:
-          mnf_armor_01: true
+          branch_reserves: true
       equipment:
       - tags:
           branch_army: true
       - tags:
-          mnf_wpn_02: true
+          branch_reserves: true
   tank:
     filters:
       body:

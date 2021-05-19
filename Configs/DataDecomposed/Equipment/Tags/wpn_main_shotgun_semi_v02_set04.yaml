@@ -1,6 +1,0 @@
-blocks:
-  part_model:
-    textShort: HSe-05 Flux
-    textLong: 遮蔽や機体を貫通するフレシェット弾を発射する中距離ショットガン。遮蔽の後ろから射撃する場合や狭い通りに並ぶ複数機体に対する射撃が効果的である。
-    spriteName:
-      name: s_icon_l32_part_arch_shotgun

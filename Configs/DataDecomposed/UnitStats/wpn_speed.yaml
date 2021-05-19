@@ -6,7 +6,13 @@ uiColor:
   g: 0.8962264
   b: 0.2663314
   a: 1
+uiColorOutput:
+  r: 0
+  g: 0
+  b: 0
+  a: 0
 uiIcon: s_icon_l32_stat_wpn_speed
+uiIconOutput: 
 uiLimit: 500
 uiMinimized: true
 uiComparisonInverted: false
@@ -15,6 +21,9 @@ derived: false
 exposedPerUnit: false
 exposedPerPart: true
 exposedPerSubsystem: true
+showAsOutput: false
+showWithoutExpansion: false
+displayIfNonZero: ''
 displayAsRangeUsing: ''
 averageSubsystemMultipliers: false
 minPerPartLimit: false

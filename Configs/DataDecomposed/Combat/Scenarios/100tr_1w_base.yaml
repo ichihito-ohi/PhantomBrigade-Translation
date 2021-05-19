@@ -41,46 +41,44 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 2
       tags:
-        has_mech: true
-        role_leader: true
+        type_main: true
+        weight_medium: false
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 2
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 1
       tags:
         range_medium: true
+        type_main: false
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: false
-      difficultyUsed: true
-      difficulty: 2
       tags:
-        role_sentry: true
+        type_sentry: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 2
       spawnTagsUsed: true
       spawnTags:
         utility_turret: true

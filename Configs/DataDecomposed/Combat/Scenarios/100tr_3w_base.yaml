@@ -71,31 +71,29 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 2
       tags:
-        has_mech: true
-        role_leader: true
+        type_main: true
+        weight_heavy: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 2
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: false
-      difficultyUsed: true
-      difficulty: 2
       tags:
-        role_sentry: true
+        type_sentry: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 2
       spawnTagsUsed: true
       spawnTags:
         utility_turret: true
@@ -157,15 +155,15 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
         range_long: true
+        type_main: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_outer: true
@@ -227,15 +225,15 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
-        range_long: true
+        type_main: true
+        weight_medium: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_outer: true

@@ -1,6 +1,0 @@
-blocks:
-  part_category:
-    textShort: Incendiary Repeater
-    textLong: 焼夷弾を高速に発射する実験的武器。命中した標的を加熱する。敵の熱を生じるアクションに合わせた攻撃が非常に効果的で容易にオーバーヒートによるダメージを発生させることができる。 
-    spriteName:
-      name: s_icon_l32_part_arch_machinegun

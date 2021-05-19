@@ -26,7 +26,6 @@ stepOnStart: 00_wave01
 tags:
 - context_fort
 - difficulty_veryeasy
-- listed
 - type_hitandrun
 states:
   no_hostiles:
@@ -45,14 +44,14 @@ states:
     reactions: 
   wave_delay:
     textName: 敵が再考中
-    textDesc: 現地の敵機体をすべて殲滅したことで敵機体は 3 ターンの間計画を再考せざるを得なくなりました。これが済むまで敵は出撃しません。この時間を使って脱出させましょう。
+    textDesc: 現地の敵機体をすべて殲滅したことで敵機体は 4 ターンの間計画を再考せざるを得なくなりました。これが済むまで敵は出撃しません。この時間を使って脱出させましょう。
     evaluated: true
     visible: true
     evaluationFilter: 
     turn:
       relative: true
       check: GreaterEqual
-      value: 3
+      value: 4
     countEnemy: 
     countFriendly: 
     actionPlanned: 
@@ -60,14 +59,14 @@ states:
     reactions: 
   wave2:
     textName: 増援
-    textDesc: 増援が 5 ターン目に到着準備を完了します。
+    textDesc: 増援が 6 ターン目に到着準備を完了します。
     evaluated: true
     visible: true
     evaluationFilter: 
     turn:
       relative: false
       check: GreaterEqual
-      value: 5
+      value: 6
     countEnemy: 
     countFriendly: 
     actionPlanned: 
@@ -90,16 +89,15 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
-        has_mech: true
-        weight_light: true
+        type_attacker: true
+        type_main: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true
@@ -216,30 +214,15 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
-        role_support: true
+        type_defender: true
+        type_main: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
-      spawnTagsUsed: true
-      spawnTags:
-        perimeter_outer: true
-      spawnGroupKey: 
-    - !UnitGroupFilter
-      tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
-      tags:
-        role_support: true
-      spawnGroupOccupied: true
-      spawnCountStrict: true
-      spawnOrderRandom: true
-      factionBranchOverride: false
-      factionBranchKey: 
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         perimeter_outer: true
@@ -250,10 +233,7 @@ steps:
     retreat:
       key: default
       outcome: Defeat
-      turn:
-        relative: true
-        check: LessEqual
-        value: 1
+      turn: 
       locationProvider: !AreaLocationFilter
         tagRequirements:
           obj_retreat: true
@@ -284,5 +264,5 @@ steps:
     outcome: 
     stepsNext: 
 unitPresets: 
-tabIndex: 1
+tabIndex: 2
 tabsLocal: false

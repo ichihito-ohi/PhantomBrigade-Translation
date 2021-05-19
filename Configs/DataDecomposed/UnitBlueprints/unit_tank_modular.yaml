@@ -1,0 +1,73 @@
+name: XBT Type M
+description: 侵略軍主力戦車
+classTag: tank
+classIcon: s_icon_m_unit_tank
+asset: Content/Objects/Units/unit_tank_modular_overhaul
+assetPreview: Content/Objects/Units/unit_tank_modular_body
+audioEventOnMovementStart: tank_movement
+audioEventOnMovementStop: tank_movement_stop
+audioSyncOnMovementElevation: 
+audioSyncOnMovementTilt: 
+movementSpeedBase: 16
+movementSpeedMin: 4
+movementSpeedMax: 28
+dashDistanceBase: 0
+dashDistanceMin: 0
+dashDistanceMax: 0
+rotationSpeed: 150
+secondaryRotationSpeedLimit: 500
+secondaryRotationSpeedK: 500.0
+hitTableKey: tank_table
+movementRestricted: true
+crashSpin: true
+centerPoint:
+  x: 0
+  y: 1
+  z: 0
+heatMax: 100
+heatOverloadConstant: 0.4
+partPresetFilter:
+  part_energy: false
+  part_melee: false
+  part_ultraheavy: false
+  range_close: false
+  tank_part: true
+  turret_part: false
+sockets:
+  core:
+    presetDefault: 
+    critical: true
+    stabilizing: false
+    ui:
+      blueprintSpriteName: s_icon_l_unit_tank_core
+      textKeyPrefix: socket_tank_core
+  equipment_right:
+    presetDefault: 
+    critical: false
+    stabilizing: false
+    ui: 
+  optional_left:
+    presetDefault: 
+    critical: false
+    stabilizing: true
+    ui:
+      blueprintSpriteName: s_icon_l_unit_tank_side
+      textKeyPrefix: socket_tank_optional_left
+  optional_right:
+    presetDefault: 
+    critical: false
+    stabilizing: true
+    ui:
+      blueprintSpriteName: s_icon_l_unit_tank_side
+      textKeyPrefix: socket_tank_optional_right
+  secondary:
+    presetDefault: 
+    critical: true
+    stabilizing: false
+    ui:
+      blueprintSpriteName: s_icon_l_unit_tank_turret_aa
+      textKeyPrefix: socket_tank_secondary
+dependencies: 
+aiBehavior: Flanker
+aiCollisionRadius: 5
+aiCollisionHeight: 10

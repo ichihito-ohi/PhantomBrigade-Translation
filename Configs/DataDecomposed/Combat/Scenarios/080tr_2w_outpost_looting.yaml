@@ -243,31 +243,29 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 1
       tags:
-        has_mech: true
-        weight_heavy: true
+        type_main: true
+        weight_light: false
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         perimeter_center: true
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 1
       tags:
-        role_sentry: true
+        type_sentry: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         utility_turret: true
@@ -330,15 +328,15 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
+        type_main: true
         weight_light: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_outer: true

@@ -1,0 +1,117 @@
+depthOffset: 0
+pages:
+- depthOffset: -10
+  backgroundUsed: true
+  backgroundBlur: true
+  backgroundColor: &o0
+    r: 0.5
+    g: 0.5
+    b: 0.5
+    a: 1
+  textUsed: true
+  header: キャンペーンモード
+  content: Phantom Brigade のアーリーアクセスへようこそ！ Shift+Tab を押すとバグ報告画面が開きます。お気づきの点やその他のフィードバックがありましたら何でも知らせてください！
+  hints: []
+- depthOffset: -10
+  backgroundUsed: true
+  backgroundBlur: true
+  backgroundColor: *o0
+  textUsed: false
+  header: ナビゲーションバー
+  content: 画面の左上の角を見てみましょう。 UI の説明をしますので準備ができたら次に移りましょう。
+  hints:
+  - uiLocation: TopLeft
+    uiMode: BottomLeft
+    position:
+      x: 0
+      y: -100
+      z: 0
+    text: ナビゲーションバーでポーズメニュー、全体マップ、基地画面を切り替えることができます。
+    icon: icon_error
+    color: &o1
+      r: 0.3411765
+      g: 0.4901961
+      b: 0.2862745
+      a: 1
+    lockWidth: false
+    frameSize:
+      x: 600
+      y: 100
+- depthOffset: -10
+  backgroundUsed: true
+  backgroundBlur: true
+  backgroundColor: *o0
+  textUsed: false
+  header: 全体情報
+  content: 画面の右上の角を見てみましょう。 UI の説明をしますので準備ができたら次に移りましょう。
+  hints:
+  - uiLocation: TopRight
+    uiMode: BottomRight
+    position:
+      x: 0
+      y: -250
+      z: 0
+    text: 世界情報バーでゲームスピードを変更できるほか、地域情報が表示されています。あなたの持つ資源と現在時刻もここで確認できます。
+    icon: icon_error
+    color: *o1
+    lockWidth: false
+    frameSize:
+      x: 600
+      y: 250
+- depthOffset: -10
+  backgroundUsed: true
+  backgroundBlur: false
+  backgroundColor: &o2
+    r: 0
+    g: 0
+    b: 0
+    a: 0.6980392
+  textUsed: false
+  header: 選択 / マウスオーバー情報
+  content: 画面の右下の角を見てみましょう。 UI の説明をしますので準備ができたら次に移りましょう。
+  hints:
+  - uiLocation: BottomRight
+    uiMode: TopRight
+    position:
+      x: 0
+      y: 450
+      z: 0
+    text: このウィジェットは、あなたの移動基地のような、全体マップ上のものに関する情報を示しています。あなたがマップ上でより多くのものを見つけるほど、ここでより多くの情報を読むことができ、より近くで情報を得るほど詳細な情報が確認できます。
+    icon: icon_error
+    color:
+      r: 0.1910377
+      g: 0.3952215
+      b: 0.5
+      a: 1
+    lockWidth: true
+    frameSize:
+      x: 350
+      y: 450
+- depthOffset: -10
+  backgroundUsed: true
+  backgroundBlur: false
+  backgroundColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0.8
+  textUsed: true
+  header: 移動基地
+  content: 部隊全体のメックを格納、整備可能な超大型車両があなたの基地です。あなたの命令次第で、その時々に応じて旅団は敵を避けたり攻撃を仕掛けたりすることができます。
+  hints: []
+- depthOffset: -10
+  backgroundUsed: true
+  backgroundBlur: false
+  backgroundColor: *o2
+  textUsed: true
+  header: 移動
+  content: 対象を左クリックすることで選択します。あなたの基地を選択したら目的地を右クリックして移動しましょう。移動をキャンセルするには、スペースキーまたは画面上の停止ボダンを押します。Tabキーを押すとカメラが基地を中央に捉えます。
+  hints: []
+- depthOffset: -10
+  backgroundUsed: true
+  backgroundBlur: false
+  backgroundColor: *o2
+  textUsed: true
+  header: カメラ操作
+  content: WASD でカメラ移動、 Q と E で旋回し R と F で上下回転します。
+  hints: []

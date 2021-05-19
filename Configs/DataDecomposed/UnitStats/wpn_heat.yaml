@@ -6,7 +6,13 @@ uiColor:
   g: 0.3921569
   b: 0.3921569
   a: 1
+uiColorOutput:
+  r: 1
+  g: 0.724351
+  b: 0.495283
+  a: 1
 uiIcon: s_icon_l32_stat_wpn_damage2
+uiIconOutput: s_icon_l16_status_fire2
 uiLimit: 100
 uiMinimized: false
 uiComparisonInverted: false
@@ -15,6 +21,9 @@ derived: false
 exposedPerUnit: false
 exposedPerPart: true
 exposedPerSubsystem: true
+showAsOutput: true
+showWithoutExpansion: false
+displayIfNonZero: ''
 displayAsRangeUsing: ''
 averageSubsystemMultipliers: false
 minPerPartLimit: false

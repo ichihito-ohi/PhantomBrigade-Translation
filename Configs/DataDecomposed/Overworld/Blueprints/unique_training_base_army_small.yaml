@@ -28,8 +28,7 @@ core:
   generated: true
   factionChangesWithProvince: false
   faction: Invaders
-factionBranch:
-  factionBranch: branch_army
+factionBranch: 
 visual:
   visualFromSquad: false
   visualPrefabs:
@@ -47,9 +46,9 @@ intel:
 units: {}
 scenarios:
   tags:
-    context_base: true
     difficulty_hard: true
     type_elimination: true
+    unique_tutorial_base: true
 areas:
   tags:
     'context_military ': true

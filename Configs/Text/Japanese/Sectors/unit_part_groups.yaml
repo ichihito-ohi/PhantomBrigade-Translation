@@ -1,18 +1,29 @@
+name: 
 description: Names and description of unit part groups
+columns: []
+splits: []
 entries:
   equipment_defensive_desc:
+    temp: true
     text: "..."
   equipment_defensive_name:
+    temp: true
     text: "防御装備"
   equipment_wpn_melee_desc:
+    temp: true
     text: "..."
   equipment_wpn_melee_name:
+    temp: true
     text: "近接武器"
   equipment_wpn_ranged_desc:
+    temp: true
     text: "..."
   equipment_wpn_ranged_name:
+    temp: true
     text: "遠隔武器"
   structure_desc:
+    temp: true
     text: "..."
   structure_name:
+    temp: true
     text: "構造体"

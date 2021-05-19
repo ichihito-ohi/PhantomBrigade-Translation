@@ -45,10 +45,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -67,10 +67,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -89,10 +89,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -111,10 +111,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -133,10 +133,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -155,10 +155,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -177,10 +177,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -199,10 +199,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -221,10 +221,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -243,10 +243,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -265,10 +265,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -287,10 +287,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -309,10 +309,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -331,10 +331,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -353,10 +353,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -375,10 +375,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -397,10 +397,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -419,10 +419,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -441,10 +441,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -463,10 +463,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -485,10 +485,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -507,10 +507,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -529,10 +529,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -551,10 +551,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -573,10 +573,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -593,6 +593,7 @@ steps:
       spawnOrderRandom: false
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_center: true

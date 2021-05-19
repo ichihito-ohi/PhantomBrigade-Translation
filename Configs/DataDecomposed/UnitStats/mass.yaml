@@ -6,7 +6,13 @@ uiColor:
   g: 0.6705883
   b: 0.282353
   a: 1
+uiColorOutput:
+  r: 0
+  g: 0
+  b: 0
+  a: 0
 uiIcon: s_icon_l32_stat_mass
+uiIconOutput: 
 uiLimit: 50
 uiMinimized: false
 uiComparisonInverted: true
@@ -15,6 +21,9 @@ derived: false
 exposedPerUnit: true
 exposedPerPart: true
 exposedPerSubsystem: true
+showAsOutput: false
+showWithoutExpansion: true
+displayIfNonZero: ''
 displayAsRangeUsing: ''
 averageSubsystemMultipliers: false
 minPerPartLimit: false

@@ -1,6 +1,0 @@
-blocks:
-  part_category:
-    textShort: Primary ML
-    textLong: 遠距離にミサイルを発射する。標的集団や遮蔽裏の機体を殲滅するのに効果的である。
-    spriteName:
-      name: s_icon_l32_part_arch_launcher

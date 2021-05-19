@@ -46,7 +46,7 @@ units: {}
 scenarios:
   tags:
     context_fort: true
-    difficulty_easy: true
+    difficulty_veryeasy: true
     type_elimination: true
 areas:
   tags:

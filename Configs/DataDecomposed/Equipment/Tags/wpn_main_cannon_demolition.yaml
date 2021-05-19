@@ -1,6 +1,0 @@
-blocks:
-  part_category:
-    textShort: Cannon
-    textLong: 高い爆発性の弾丸を発射する強力な武器。
-    spriteName:
-      name: s_icon_l32_part_arch_rifle_sniper

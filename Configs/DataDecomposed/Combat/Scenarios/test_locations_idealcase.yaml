@@ -201,8 +201,6 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
         has_mech: true
         range_medium: true
@@ -211,6 +209,7 @@ steps:
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         direction_w: true
@@ -218,8 +217,6 @@ steps:
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
         has_mech: true
         range_medium: true
@@ -228,6 +225,7 @@ steps:
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         direction_w: true
@@ -292,8 +290,6 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 1
       tags:
         has_mech: true
         range_medium: true
@@ -302,6 +298,7 @@ steps:
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         direction_w: true
@@ -309,8 +306,6 @@ steps:
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
         has_mech: true
         range_medium: true
@@ -319,6 +314,7 @@ steps:
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         direction_w: true

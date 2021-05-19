@@ -140,8 +140,6 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 1
       tags:
         has_mech: true
         range_long: true
@@ -150,6 +148,7 @@ steps:
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         perimeter_center: true

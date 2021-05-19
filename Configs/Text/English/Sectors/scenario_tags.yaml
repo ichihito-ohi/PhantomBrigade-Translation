@@ -1,44 +1,68 @@
+name: 
 description: User friendly text for scenario tags
+columns: []
+splits: []
 entries:
   context_base:
+    temp: true
     text: "基地包囲作戦"
   context_cache:
+    temp: true
     text: "貯蔵庫襲撃"
   context_convoy:
+    temp: true
     text: "護送部隊襲撃"
   context_facility:
+    temp: true
     text: "施設解放"
   context_fort:
+    temp: true
     text: "キャンプ争奪"
   context_outpost:
+    temp: true
     text: "前哨基地襲撃"
   context_settlement:
+    temp: true
     text: "植民地解放"
   context_squad:
+    temp: true
     text: "パトロール戦闘"
   difficulty_easy:
+    temp: true
     text: "Easy"
   difficulty_hard:
+    temp: true
     text: "Hard"
   difficulty_normal:
+    temp: true
     text: "Normal"
   difficulty_veryeasy:
+    temp: true
     text: "Very easy"
   difficulty_veryhard:
+    temp: true
     text: "Very hard"
   size_huge:
+    temp: true
     text: "特大"
   size_large:
+    temp: true
     text: "大"
   size_medium:
+    temp: true
     text: "中"
   size_small:
+    temp: true
     text: "小"
   size_tiny:
+    temp: true
     text: "極小"
   type_elimination:
+    temp: true
     text: "殲滅"
   type_hitandrun:
+    temp: true
     text: "一撃離脱"
   type_looting:
+    temp: true
     text: "争奪"

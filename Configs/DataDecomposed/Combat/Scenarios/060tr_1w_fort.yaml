@@ -21,7 +21,7 @@ customPlayerSlot:
 stepOnStart: wave0
 tags:
 - context_fort
-- difficulty_easy
+- difficulty_veryeasy
 - type_elimination
 states: {}
 steps:
@@ -41,32 +41,14 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
-        has_mech: true
-        weight_heavy: true
+        type_main: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
-      spawnTagsUsed: true
-      spawnTags:
-        perimeter_inner: true
-      spawnGroupKey: 
-    - !UnitGroupFilter
-      tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
-      tags:
-        has_mech: true
-        weight_heavy: true
-      spawnGroupOccupied: false
-      spawnCountStrict: true
-      spawnOrderRandom: true
-      factionBranchOverride: false
-      factionBranchKey: 
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true

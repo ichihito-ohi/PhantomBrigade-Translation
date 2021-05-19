@@ -53,14 +53,16 @@ loot:
   - preset: 
     tagsUsed: true
     tags:
-      difficulty_easy: true
+      part_energy: false
+      part_melee: false
+      part_ultraheavy: false
       rating_2: true
       wpn_primary: true
     countMin: 2
     countMax: 2
     countRandom: true
-    levelMin: 1
-    levelMax: 1
+    levelMin: 0
+    levelMax: 0
     levelRandom: true
   subsystems: 
 rewards: 

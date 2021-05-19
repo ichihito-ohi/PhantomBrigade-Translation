@@ -11,12 +11,12 @@ unitPartFilters:
       - tags:
           branch_specops: true
       - tags:
-          mnf_armor_01: true
+          branch_army: true
       equipment:
       - tags:
           branch_specops: true
       - tags:
-          mnf_wpn_01: true
+          branch_army: true
   tank:
     filters:
       body:
@@ -25,3 +25,5 @@ unitPartFilters:
       equipment_right:
       - tags:
           branch_specops: true
+      - tags:
+          branch_army: true

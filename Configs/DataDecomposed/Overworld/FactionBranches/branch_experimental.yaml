@@ -11,14 +11,14 @@ unitPartFilters:
       - tags:
           branch_experimental: true
       - tags:
-          mnf_armor_02: true
+          branch_specops: true
       equipment:
       - tags:
           branch_experimental: true
       - tags:
-          mnf_wpn_03: true
+          branch_specops: true
       - tags:
-          mnf_wpn_01: true
+          branch_army: true
   tank:
     filters:
       body:
@@ -27,3 +27,5 @@ unitPartFilters:
       equipment_right:
       - tags:
           branch_experimental: true
+      - tags:
+          branch_army: true

@@ -19,7 +19,6 @@ actionBlocklist: []
 customPlayerSlot: 
 stepOnStart: 00_start
 tags:
-- listed
 - unique
 states:
   01_turn_check:
@@ -61,10 +60,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -80,10 +79,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -97,6 +96,7 @@ steps:
       spawnOrderRandom: false
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: false
       spawnTags: 
       spawnGroupKey: gates
@@ -174,10 +174,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -193,6 +193,7 @@ steps:
       spawnOrderRandom: false
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: false
       spawnTags: 
       spawnGroupKey: gates

@@ -3,4 +3,4 @@ blocks:
     textShort: Plasma Launcher
     textLong: 誘導エネルギー投射体を発射する実験的武器。（直接的なダメージを犠牲に）制御システムに干渉してパイロットを傷つける。
     spriteName:
-      name: s_icon_l32_part_arch_rifle_sniper
+      name: s_icon_l32_part_arch_plasma_seeker

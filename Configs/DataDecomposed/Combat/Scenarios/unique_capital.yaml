@@ -26,7 +26,6 @@ actionBlocklist: []
 customPlayerSlot: 
 stepOnStart: 01_standingarmy
 tags:
-- listed
 - unique_capital
 - difficulty_veryhard
 - unique
@@ -124,17 +123,17 @@ steps:
     unitGroups:
     - !UnitGroupEmbedded
       units:
-      - key: mech_army
-        countMin: 2
-        countMax: 2
-        countRandom: true
+      - key: mech_army_commander
+        countMin: 1
+        countMax: 1
+        countRandom: false
         levelOffsetMin: 0
         levelOffsetMax: 0
-        levelOffsetRandom: true
-        qualityEditable: Common
-        quality: 1
+        levelOffsetRandom: false
+        quality: 2
         aiBehavior: Flanker
-        aiTargeting: Default
+        aiTargeting: leader
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -142,36 +141,31 @@ steps:
           flags: 
           faction: 
           speed: 
-          pilot: 
-      - key: tank_cannon
-        countMin: 2
-        countMax: 3
-        countRandom: true
-        levelOffsetMin: 0
-        levelOffsetMax: 0
-        levelOffsetRandom: true
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
-      - key: tank_aa
-        countMin: 2
-        countMax: 3
-        countRandom: true
-        levelOffsetMin: 0
-        levelOffsetMax: 0
-        levelOffsetRandom: true
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_tank_pilot_r1_leader
+            custom: 
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_inner: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_army: true
+        role_vanguard: true
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: true
+      factionBranchKey: branch_army
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true
@@ -242,59 +236,20 @@ steps:
     executionAllowed: true
     visible: true
     unitGroups:
-    - !UnitGroupEmbedded
-      units:
-      - key: mech_support
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 2
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom:
-          name: 
-          spawn: 
-          landing: 
-          flags: 
-          faction: 
-          speed: 
-          pilot: 
-      - key: tank_cannon
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 0
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
-      - key: tank_aa
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 0
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_army: true
+        role_sharpshooter: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
-      factionBranchOverride: false
-      factionBranchKey: 
+      factionBranchOverride: true
+      factionBranchKey: branch_army
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
-        direction_nw: true
+        direction_n: true
         perimeter_outer: true
       spawnGroupKey: 
     stateScopeChanges: 
@@ -366,10 +321,10 @@ steps:
         levelOffsetMin: 2
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
+        quality: 2
         aiBehavior: Flanker
-        aiTargeting: Default
+        aiTargeting: leader
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -377,27 +332,35 @@ steps:
           flags: 
           faction: 
           speed: 
-          pilot: 
-      - key: mech_specops
-        countMin: 2
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 1
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_mech_pilot_r2_leader
+            custom: 
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
-      factionBranchOverride: false
-      factionBranchKey: 
+      factionBranchOverride: true
+      factionBranchKey: branch_specops
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
-        direction_sw: true
+        direction_s: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_specops: true
+        role_sharpshooter: true
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: true
+      factionBranchKey: branch_specops
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
+        direction_s: true
         perimeter_outer: true
       spawnGroupKey: 
     stateScopeChanges: 
@@ -469,10 +432,10 @@ steps:
         levelOffsetMin: 1
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
+        quality: 2
         aiBehavior: Flanker
-        aiTargeting: Default
+        aiTargeting: leader
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -480,27 +443,35 @@ steps:
           flags: 
           faction: 
           speed: 
-          pilot: 
-      - key: mech_experimental
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 1
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_mech_pilot_r2_leader
+            custom: 
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
-      factionBranchOverride: false
-      factionBranchKey: 
+      factionBranchOverride: true
+      factionBranchKey: branch_experimental
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
-        direction_ne: true
+        direction_e: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_experimental: true
+        role_juggernaut: true
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: true
+      factionBranchKey: branch_experimental
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
+        direction_e: true
         perimeter_outer: true
       spawnGroupKey: 
     stateScopeChanges: 
@@ -572,10 +543,10 @@ steps:
         levelOffsetMin: 3
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
+        quality: 2
         aiBehavior: Flanker
-        aiTargeting: Default
+        aiTargeting: leader
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -583,27 +554,35 @@ steps:
           flags: 
           faction: 
           speed: 
-          pilot: 
-      - key: mech_reservs
-        countMin: 3
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: -3
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
-        aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_mech_pilot_r2_leader
+            custom: 
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
-      factionBranchOverride: false
-      factionBranchKey: 
+      factionBranchOverride: true
+      factionBranchKey: branch_reserves
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
-        direction_se: true
+        direction_n: true
+        perimeter_outer: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_experimental: true
+        role_juggernaut: true
+      spawnGroupOccupied: true
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: true
+      factionBranchKey: branch_reserves
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
+        direction_n: true
         perimeter_outer: true
       spawnGroupKey: 
     stateScopeChanges: 
@@ -675,11 +654,21 @@ steps:
         levelOffsetMin: 4
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
+        quality: 3
         aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
+        aiTargeting: sharpshooter
+        liveryPreset: 
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_mech_pilot_r2_leader
+            custom: 
       - key: mech_bossguard
         countMin: 3
         countMax: 1
@@ -687,16 +676,27 @@ steps:
         levelOffsetMin: 1
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
-        quality: 1
+        quality: 3
         aiBehavior: Flanker
-        aiTargeting: Default
-        custom: 
+        aiTargeting: support
+        liveryPreset: 
+        custom:
+          name: 
+          spawn: 
+          landing: 
+          flags: 
+          faction: 
+          speed: 
+          pilot:
+            presetUsed: true
+            presetKey: enemy_mech_pilot_r2_support
+            custom: 
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         direction_w: true
@@ -747,46 +747,17 @@ steps:
     outcome: 
     stepsNext: []
 unitPresets:
-  mech_army: !UnitFilter
-    tagsFromOverworld: false
-    tags:
-      branch_army: true
-      type_mech: true
+  mech_army_commander: !UnitPresetLink
+    preset: army_commander_mech
   mech_boss: !UnitPresetLink
     preset: elite_commander_mech
   mech_bossguard: !UnitPresetLink
     preset: elite_guard_mech
-  mech_experimental: !UnitFilter
-    tagsFromOverworld: false
-    tags:
-      branch_experimental: true
-      type_mech: true
   mech_experimental_commander: !UnitPresetLink
     preset: experimental_leader﻿_mech_2
-  mech_reservs: !UnitFilter
-    tagsFromOverworld: false
-    tags:
-      branch_reserves: true
-      type_mech: true
   mech_reservs_commander: !UnitPresetLink
     preset: reserves_leader﻿_mech_2
-  mech_specops: !UnitFilter
-    tagsFromOverworld: false
-    tags:
-      branch_specops: true
-      type_mech: true
   mech_specops_commander: !UnitPresetLink
     preset: specops_commander_mech
-  mech_support: !UnitFilter
-    tagsFromOverworld: false
-    tags:
-      branch_army: true
-      role_support: true
-  mech_support_commander: !UnitPresetLink
-    preset: army_commander_mech
-  tank_aa: !UnitPresetLink
-    preset: vhc_tank_generic_short_1
-  tank_cannon: !UnitPresetLink
-    preset: vhc_tank_generic_long_1
-tabIndex: 0
+tabIndex: 1
 tabsLocal: false

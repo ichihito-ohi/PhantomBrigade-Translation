@@ -1,6 +1,0 @@
-blocks:
-  part_category:
-    textShort: MP Mix
-    textLong: 標的の安定性を減少させることが可能な重い強化ブレードを用いており、標的をノックダウンしたり安定性がゼロに達すれば完全に転倒させることも容易になっている。また加熱することで標的をオーバーヒートさせることも可能である。
-    spriteName:
-      name: s_icon_l32_part_arch_melee_sword

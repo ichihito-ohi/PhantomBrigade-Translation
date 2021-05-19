@@ -1,7 +1,7 @@
 textName: 右腕アイテム
 textDesc: 右装備スロットには通常、武器が使用される。
 icon: s_icon_m_link_squad
-sortPriority: 0
+sortPriority: 5
 tags:
 - equipment_right
 - equipment

@@ -1,6 +1,0 @@
-blocks:
-  part_model:
-    textShort: ML-S 01 s
-    textLong: "モデル：PRIMARY\n\nバリエーション：STARBURST\n無誘導で中程度の標的拡散をもつ低威力だが高速な短距離ミサイルを10発撃つ。ミサイルは始めにほぼ100%垂直な固定軌道で飛行し、『スターバースト』陣形で互いに拡散する。"
-    spriteName:
-      name: s_icon_l32_part_arch_launcher

@@ -6,7 +6,13 @@ uiColor:
   g: 0.7374378
   b: 0.3058823
   a: 1
+uiColorOutput:
+  r: 0
+  g: 0
+  b: 0
+  a: 0
 uiIcon: s_icon_l32_stat_wpn_arc
+uiIconOutput: 
 uiLimit: 40
 uiMinimized: false
 uiComparisonInverted: true
@@ -15,6 +21,9 @@ derived: false
 exposedPerUnit: false
 exposedPerPart: true
 exposedPerSubsystem: true
+showAsOutput: false
+showWithoutExpansion: true
+displayIfNonZero: ''
 displayAsRangeUsing: wpn_scatter_angle
 averageSubsystemMultipliers: false
 minPerPartLimit: false

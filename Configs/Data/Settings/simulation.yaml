@@ -50,6 +50,7 @@ buildCostPartPackStarter: 100
 godMode: false
 noHeatMode: false
 readGuidedScatterStat: true
+unitGroupGradeRefactor: false
 shotScatterXScalar: 0.4
 shotScatterYScalar: 1
 defaultRotationSpeed: 1
@@ -80,10 +81,10 @@ massToDashRatio: 0.5
 dashAngleLimit: 30
 dashWindowMin: 9
 logDashDistanceCalculation: true
-overheatGracePeriod: 0
 overheatTickInterval: 0.1
-minOverheatDamage: 0.0045
-maxOverheatDamage: 0.0045
+overheatTimestampEraseTime: 0.5
+overheatVFXInterval: 0.3
+overheatDamagePerHeatUnit: 0.0016
 timeScaleSteps: 6
 timeScaleMain: 0.6
 timeScaleSlow: 0.03875786
@@ -113,6 +114,8 @@ ricochetScatterDegrees: 20
 ricochetVelocityDecay: 0.6
 ricochetGravityScalar: 2
 ricochetDamageScalar: 1
+beamVulnerabilityDecayPerSec: 1
+beamVulnerabilityDecayPauseOnDamage: 0.1
 penetrationUnitDistance: 3
 impactDamageFalloff:
   modePostWrap: ClampForever
@@ -197,6 +200,7 @@ crashingGroundRayThreshold: 2.25
 meleeGroundRayThreshold: 4.25
 crashingDuration: 5
 crashingAngularVelocityMax: 80
+crashingDelayOnHeatDeath: 0.1
 verticalVelocityLimit: 10
 verticalVelocityGain: 10
 verticalVelocityDamageThreshold: 1

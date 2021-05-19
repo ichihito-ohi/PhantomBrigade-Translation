@@ -1,6 +1,6 @@
 textName: 下半身
 textDesc: "自重を支え移動を司る部分。[機体推進を担う部分で、破壊されると移動能力を大きく失う。"
 icon: s_icon_m_link_squad
-sortPriority: 0
+sortPriority: 1
 tags:
 - body

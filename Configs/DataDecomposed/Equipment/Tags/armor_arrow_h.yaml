@@ -2,8 +2,7 @@ blocks:
   part_model:
     textShort: Arrow H
     textLong: JNI協議会が生産するArrowシリーズは、整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
-    spriteName:
-      name: 
+    spriteName: 
   subsystem_category:
     textShort: Arrow H
     textLong: JNI協議会が生産するArrowシリーズは、整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。

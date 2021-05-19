@@ -6,7 +6,13 @@ uiColor:
   g: 0.3058824
   b: 0.3058824
   a: 1
+uiColorOutput:
+  r: 0
+  g: 0
+  b: 0
+  a: 0
 uiIcon: s_icon_l32_stat_heat
+uiIconOutput: 
 uiLimit: 50
 uiMinimized: false
 uiComparisonInverted: true
@@ -15,6 +21,9 @@ derived: false
 exposedPerUnit: false
 exposedPerPart: false
 exposedPerSubsystem: false
+showAsOutput: false
+showWithoutExpansion: false
+displayIfNonZero: ''
 displayAsRangeUsing: ''
 averageSubsystemMultipliers: false
 minPerPartLimit: false

@@ -1,20 +1,28 @@
+name: 
 description: Save system UI
+columns: []
+splits: []
 entries:
   button_load_game:
+    temp: true
     text: >-
       ロード
       
       ゲーム
   button_save_game:
+    temp: true
     text: >-
       セーブ
       
       ゲーム
   header_load:
+    temp: true
     text: "ロード"
   header_save:
+    temp: true
     text: "セーブ"
   stat_list:
+    temp: true
     text: >-
       侵略からの日数
       

@@ -19,7 +19,6 @@ actionBlocklist: []
 customPlayerSlot: 
 stepOnStart: main
 tags:
-- listed
 - unique_promo_railyard
 - unique
 states: {}
@@ -47,10 +46,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom: 
       - key: mech_generic
         countMin: 1
@@ -59,16 +58,17 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom: 
       spawnGroupOccupied: true
       spawnCountStrict: false
       spawnOrderRandom: false
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: false
       spawnTags: 
       spawnGroupKey: gates
@@ -81,10 +81,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -106,10 +106,10 @@ steps:
         levelOffsetMin: 0
         levelOffsetMax: 0
         levelOffsetRandom: false
-        qualityEditable: Common
         quality: 1
         aiBehavior: Flanker
         aiTargeting: Default
+        liveryPreset: 
         custom:
           name: 
           spawn: 
@@ -129,6 +129,7 @@ steps:
       spawnOrderRandom: false
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: false
       spawnTags: 
       spawnGroupKey: player

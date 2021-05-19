@@ -24,7 +24,6 @@ customPlayerSlot:
 stepOnStart: wave0
 tags:
 - event_defector_stakeout
-- listed
 - unique
 states: {}
 steps:
@@ -44,29 +43,28 @@ steps:
     unitGroups:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
       tags:
-        has_mech: true
+        type_main: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: false
       spawnTags:
         perimeter_inner: true
       spawnGroupKey: center_perimeter_n
     - !UnitGroupFilter
       tagsFromFactionBranch: true
-      difficultyUsed: true
-      difficulty: 0
-      tags: {}
+      tags:
+        type_main: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
+      grade: 0
       spawnTagsUsed: false
       spawnTags:
         perimeter_inner: true
