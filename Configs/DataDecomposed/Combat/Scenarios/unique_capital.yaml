@@ -121,36 +121,17 @@ steps:
     executionAllowed: true
     visible: true
     unitGroups:
-    - !UnitGroupEmbedded
-      units:
-      - key: mech_army_commander
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 0
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        quality: 2
-        aiBehavior: Flanker
-        aiTargeting: leader
-        liveryPreset: 
-        custom:
-          name: 
-          spawn: 
-          landing: 
-          flags: 
-          faction: 
-          speed: 
-          pilot:
-            presetUsed: true
-            presetKey: enemy_tank_pilot_r1_leader
-            custom: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_army: true
+        type_defender: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
-      factionBranchOverride: false
-      factionBranchKey: 
-      grade: 0
+      factionBranchOverride: true
+      factionBranchKey: branch_army
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true
@@ -159,7 +140,7 @@ steps:
       tagsFromFactionBranch: true
       tags:
         branch_army: true
-        role_vanguard: true
+        type_attacker: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -240,7 +221,7 @@ steps:
       tagsFromFactionBranch: true
       tags:
         branch_army: true
-        role_sharpshooter: true
+        type_ranger: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -312,36 +293,17 @@ steps:
     executionAllowed: true
     visible: true
     unitGroups:
-    - !UnitGroupEmbedded
-      units:
-      - key: mech_specops_commander
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 2
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        quality: 2
-        aiBehavior: Flanker
-        aiTargeting: leader
-        liveryPreset: 
-        custom:
-          name: 
-          spawn: 
-          landing: 
-          flags: 
-          faction: 
-          speed: 
-          pilot:
-            presetUsed: true
-            presetKey: enemy_mech_pilot_r2_leader
-            custom: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_specops: true
+        type_ranger: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: true
       factionBranchKey: branch_specops
-      grade: 0
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         direction_s: true
@@ -351,7 +313,7 @@ steps:
       tagsFromFactionBranch: true
       tags:
         branch_specops: true
-        role_sharpshooter: true
+        type_charger: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -423,36 +385,17 @@ steps:
     executionAllowed: true
     visible: true
     unitGroups:
-    - !UnitGroupEmbedded
-      units:
-      - key: mech_experimental_commander
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 1
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        quality: 2
-        aiBehavior: Flanker
-        aiTargeting: leader
-        liveryPreset: 
-        custom:
-          name: 
-          spawn: 
-          landing: 
-          flags: 
-          faction: 
-          speed: 
-          pilot:
-            presetUsed: true
-            presetKey: enemy_mech_pilot_r2_leader
-            custom: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_experimental: true
+        type_berserker: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: true
       factionBranchKey: branch_experimental
-      grade: 0
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         direction_e: true
@@ -462,7 +405,7 @@ steps:
       tagsFromFactionBranch: true
       tags:
         branch_experimental: true
-        role_juggernaut: true
+        type_charger: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -534,36 +477,17 @@ steps:
     executionAllowed: true
     visible: true
     unitGroups:
-    - !UnitGroupEmbedded
-      units:
-      - key: mech_reservs_commander
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelOffsetMin: 3
-        levelOffsetMax: 0
-        levelOffsetRandom: false
-        quality: 2
-        aiBehavior: Flanker
-        aiTargeting: leader
-        liveryPreset: 
-        custom:
-          name: 
-          spawn: 
-          landing: 
-          flags: 
-          faction: 
-          speed: 
-          pilot:
-            presetUsed: true
-            presetKey: enemy_mech_pilot_r2_leader
-            custom: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        branch_reserves: true
+        type_ranger: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: true
       factionBranchKey: branch_reserves
-      grade: 0
+      grade: 1
       spawnTagsUsed: true
       spawnTags:
         direction_n: true
@@ -572,8 +496,8 @@ steps:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
       tags:
-        branch_experimental: true
-        role_juggernaut: true
+        branch_reserves: true
+        type_defender: true
       spawnGroupOccupied: true
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -747,17 +671,9 @@ steps:
     outcome: 
     stepsNext: []
 unitPresets:
-  mech_army_commander: !UnitPresetLink
-    preset: army_commander_mech
   mech_boss: !UnitPresetLink
     preset: elite_commander_mech
   mech_bossguard: !UnitPresetLink
     preset: elite_guard_mech
-  mech_experimental_commander: !UnitPresetLink
-    preset: experimental_leader﻿_mech_2
-  mech_reservs_commander: !UnitPresetLink
-    preset: reserves_leader﻿_mech_2
-  mech_specops_commander: !UnitPresetLink
-    preset: specops_commander_mech
 tabIndex: 1
 tabsLocal: false

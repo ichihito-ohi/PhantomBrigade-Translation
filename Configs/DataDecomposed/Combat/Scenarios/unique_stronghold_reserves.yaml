@@ -43,8 +43,7 @@ steps:
     - !UnitGroupFilter
       tagsFromFactionBranch: true
       tags:
-        has_mech: true
-        role_generic: true
+        type_ranger: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -53,12 +52,54 @@ steps:
       grade: 2
       spawnTagsUsed: true
       spawnTags:
+        perimeter_center: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        type_charger: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      grade: 1
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_center: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        type_attacker: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
         perimeter_inner: true
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: true
       tags:
-        role_generic: true
+        type_defender: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_inner: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        type_berserker: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
@@ -67,18 +108,46 @@ steps:
       grade: 2
       spawnTagsUsed: true
       spawnTags:
-        perimeter_inner: true
+        perimeter_center: true
       spawnGroupKey: 
     - !UnitGroupFilter
       tagsFromFactionBranch: true
       tags:
-        role_generic: true
+        type_sentry: true
       spawnGroupOccupied: false
       spawnCountStrict: true
       spawnOrderRandom: true
       factionBranchOverride: false
       factionBranchKey: 
-      grade: 2
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_inner: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        type_attacker: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      grade: 0
+      spawnTagsUsed: true
+      spawnTags:
+        perimeter_inner: true
+      spawnGroupKey: 
+    - !UnitGroupFilter
+      tagsFromFactionBranch: true
+      tags:
+        type_defender: true
+      spawnGroupOccupied: false
+      spawnCountStrict: true
+      spawnOrderRandom: true
+      factionBranchOverride: false
+      factionBranchKey: 
+      grade: 0
       spawnTagsUsed: true
       spawnTags:
         perimeter_inner: true
