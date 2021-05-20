@@ -1,180 +1,127 @@
-# TODO: Only for 'PhantomBrigade/Configs/DataDecomposed/Combat/Scenarios'
+# TODO: Check target_list, this script extract from only them.
 
 import sys
-import argparse
 import pathlib
 import yaml
+import phantom_brigade as pb
+
+# TODO: Set the path to 'Configs' folder
+root_path = pathlib.Path('C:/Program Files/Epic Games/PhantomBrigade')
+ex = pb.Extractor(root_path)
 
 
-# TODO: Set the path to the folder, not to yaml files
-ls = list(pathlib.Path('PATH').glob('*.yaml'))
-
-# TODO: Set output name
-dst_path = pathlib.PurePath('Scenarios-EN.csv')
+target_list = [
+    'Configs/DataDecomposed/Combat/Scenarios']
 
 
 try:
-    # TODO: Set encoding of csv for your language
-    # TODO: Windows can't en/decode some characters like '\u2014'. Replace them before
-    with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
+    for t in target_list:
+        target = pathlib.Path(t)
+        src_list = list((root_path/target).glob('*.yaml'))
+        dst_stem = str(target).replace(target._flavour.sep, '-') + '-EN'
+        dst_path = pathlib.Path(dst_stem).with_suffix('.csv')
 
-        i = 0
-        for p in ls:
-            src_path = pathlib.PurePath(p)
-            print(src_path)
-
-            src_name = src_path.name
-            src_stem = src_path.stem
-
-    
-            with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
+        with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
+            for p in src_list:
+                src_path = pathlib.Path(p)    
+                with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
         
-                def constructor_ActionCallArgInt(loader, node):
-                    return '!ActionCallArgInt'
-                def constructor_ActionCallArgString(loader, node):
-                    return '!ActionCallArgString'
-                def constructor_AreaLocation(loader, node):
-                    return '!AreaLocation'
-                def constructor_AreaLocationFilter(loader, node):
-                    return '!AreaLocationFilter'
-                def constructor_EventCallArgInt(loader, node):
-                    return '!EventCallArgInt'
-                def constructor_EventCallArgString(loader, node):
-                    return '!EventCallArgString'
-                def constructor_EventCallArgStringList(loader, node):
-                    return '!EventCallArgStringList'
-                def constructor_UnitFilter(loader, node):
-                    return '!UnitFilter'
-                def constructor_UnitGroupEmbedded(loader, node):
-                    return '!UnitGroupEmbedded'
-                def constructor_UnitGroupFilter(loader, node):
-                    return '!UnitGroupFilter'
-                def constructor_UnitPresetLink(loader, node):
-                    return '!UnitPresetLink'
-                def constructor_UnitPresetEmbedded(loader, node):
-                    return '!UnitPresetEmbedded'
+                    data = yaml.load(src,yaml.FullLoader)
 
-                yaml.add_constructor(u'!ActionCallArgInt', constructor_ActionCallArgInt)
-                yaml.add_constructor(u'!ActionCallArgString', constructor_ActionCallArgString)
-                yaml.add_constructor(u'!AreaLocation', constructor_AreaLocation)
-                yaml.add_constructor(u'!AreaLocationFilter', constructor_AreaLocationFilter)
-                yaml.add_constructor(u'!EventCallArgInt', constructor_EventCallArgInt)
-                yaml.add_constructor(u'!EventCallArgString', constructor_EventCallArgString)
-                yaml.add_constructor(u'!EventCallArgStringList', constructor_EventCallArgStringList)
-                yaml.add_constructor(u'!UnitFilter', constructor_UnitFilter)
-                yaml.add_constructor(u'!UnitGroupEmbedded', constructor_UnitGroupEmbedded)
-                yaml.add_constructor(u'!UnitGroupFilter', constructor_UnitGroupFilter)
-                yaml.add_constructor(u'!UnitPresetLink', constructor_UnitPresetLink)
-                yaml.add_constructor(u'!UnitPresetEmbedded', constructor_UnitPresetEmbedded)
-        
-                data = yaml.load(src,yaml.FullLoader)
+                    # TODO: Custom for yaml pattern
+                    if data['states'] != None:
+                        for key_state in data['states']:
+                            if data['states'][key_state] != None:
+                                for key_item in data['states'][key_state]:
+                                    if key_item == 'textName' or key_item == 'textDesc':
+                                        if data['states'][key_state][key_item] != None:
+                                            line = ex.formCsvLine(src_path, data['states'][key_state][key_item], 'states', key_state, key_item)
+                                            print(line)
+                                            dst.write(line)
 
-                if data['states'] != None:
-                    for key_state in data['states']:
-                        if data['states'][key_state] != None:
-                            for key_item in data['states'][key_state]:
-                                if key_item == 'textName' or key_item == 'textDesc':
-                                    if data['states'][key_state][key_item] != None:
-                                        textVal = str(data['states'][key_state][key_item]).replace('"', '""')
-                                        i += 1
-                                        text_str = src_stem + ',' + str(i) + ',' + str('states') + ',' + str(key_state) + ',' + str(key_item) + ',\"' + textVal + '\"\n'
-                                        print(text_str)
-                                        dst.write(text_str)
+                                    elif key_item == 'reactions':
+                                        if data['states'][key_state]['reactions'] != None:
+                                            for key_reaction in data['states'][key_state]['reactions']:
+                                                if key_reaction == 'effectsPerIncrement':
+                                                    if data['states'][key_state]['reactions']['effectsPerIncrement'] != None:
+                                                        for key_increment in data['states'][key_state]['reactions']['effectsPerIncrement']:
+                                                            for key_effect in data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]:
+                                                                if key_effect == 'commsOnStart':
+                                                                    if data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]['commsOnStart'] != None:
+                                                                        for key_commsOnStart in data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]['commsOnStart']:
+                                                                            data_commsOnStart = yaml.safe_load(yaml.safe_dump(key_commsOnStart))
+                                                                            for key_comm in data_commsOnStart:
+                                                                                if key_comm == 'custom':
+                                                                                    if data_commsOnStart['custom'] != None:
+                                                                                        for key_custom in data_commsOnStart['custom']:
+                                                                                            if key_custom == 'textHeader':
+                                                                                                if data_commsOnStart['custom'][key_custom] != None:
+                                                                                                    line = ex.formCsvLine(src_path, data_commsOnStart['custom'][key_custom], 'states', key_step, 'textHeader')
+                                                                                                    print(line)
+                                                                                                    dst.write(line)
 
-                                elif key_item == 'reactions':
-                                    if data['states'][key_state]['reactions'] != None:
-                                        for key_reaction in data['states'][key_state]['reactions']:
-                                            if key_reaction == 'effectsPerIncrement':
-                                                if data['states'][key_state]['reactions']['effectsPerIncrement'] != None:
-                                                    for key_increment in data['states'][key_state]['reactions']['effectsPerIncrement']:
-                                                        for key_effect in data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]:
-                                                            if key_effect == 'commsOnStart':
-                                                                if data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]['commsOnStart'] != None:
-                                                            for key_commsOnStart in data['states'][key_state]['reactions']['effectsPerIncrement'][key_increment]['commsOnStart']:
-                                                                data_commsOnStart = yaml.safe_load(yaml.safe_dump(key_commsOnStart))
-                                                                for key_comm in data_commsOnStart:
-                                                                    if key_comm == 'custom':
-                                                                        if data_commsOnStart['custom'] != None:
-                                                                            for key_custom in data_commsOnStart['custom']:
-                                                                                if key_custom == 'textHeader':
-                                                                                    if data_commsOnStart['custom'][key_custom] != None:
-                                                                                        textVal = str(data_commsOnStart['custom'][key_custom]).replace('"', '""')
-                                                                                        i += 1
-                                                                                                text_str = src_stem + ',' + str(i) + ',' + str('states') + ',' + str(key_step) + ',' + str('textHeader') + ',\"' + textVal + '\"\n'
-                                                                                        print(text_str)
-                                                                                        dst.write(text_str)
-                                                                                elif key_custom == 'textContent':
-                                                                                    for textContent in data_commsOnStart['custom']['textContent']:
-                                                                                        textVal = str(textContent).replace('"', '""')
-                                                                                        i += 1
-                                                                                                text_str = src_stem + ',' + str(i) + ',' + str('states') + ',' + str(key_step) + ',' + str('textContent') + ',\"' + textVal + '\"\n'
-                                                                                        print(text_str)
-                                                                                        dst.write(text_str)
+                                                                                            elif key_custom == 'textContent':
+                                                                                                for textContent in data_commsOnStart['custom']['textContent']:
+                                                                                                    line = ex.formCsvLine(src_path, textContent, 'states', key_step, 'textContent')
+                                                                                                    print(line)
+                                                                                                    dst.write(line)
 
-                if data['steps'] != None:
-                    for key_step in data['steps']:
-                        if data['steps'][key_step] != None:
-                            for key_item in data['steps'][key_step]:
-                                if key_item == 'textCurrentPrimary' or key_item == 'textCurrentSecondary':
-                                    if data['steps'][key_step][key_item] != None:
-                                        textVal = str(data['steps'][key_step][key_item]).replace('"', '""')
-                                        i += 1
-                                        text_str = src_stem + ',' + str(i) + ',' + str('steps') + ',' + str(key_step) + ',' + str(key_item) + ',\"' + textVal + '\"\n'
-                                        print(text_str)
-                                        dst.write(text_str)
+                    if data['steps'] != None:
+                        for key_step in data['steps']:
+                            if data['steps'][key_step] != None:
+                                for key_item in data['steps'][key_step]:
+                                    if key_item == 'textCurrentPrimary' or key_item == 'textCurrentSecondary':
+                                        if data['steps'][key_step][key_item] != None:
+                                            line = ex.formCsvLine(src_path, data['steps'][key_step][key_item], 'steps', key_step, key_item)
+                                            print(line)
+                                            dst.write(line)
 
-                                elif key_item == 'intermissions':
-                                    if data['steps'][key_step][key_item] != None:
-                                        for key_intermission in data['steps'][key_step][key_item]:
-                                            if key_intermission == 'pages':
-                                                if data['steps'][key_step]['intermissions']['pages'] != None:
-                                                    for key_page in data['steps'][key_step]['intermissions']['pages']:
-                                                        data_page = yaml.safe_load(yaml.safe_dump(key_page))
-                                                        for key_hint in data_page:
-                                                            if key_hint == 'header' or key_hint == 'content':
-                                                                if data_page[key_hint] != None:
-                                                                    textVal = str(data_page[key_hint]).replace('"', '""')
-                                                                    i += 1
-                                                                    text_str = src_stem + ',' + str(i) + ',' + str('steps') + ',' + str(key_step) + ',' + str(key_hint) + ',\"' + textVal + '\"\n'
-                                                                    print(text_str)
-                                                                    dst.write(text_str)
+                                    elif key_item == 'intermissions':
+                                        if data['steps'][key_step][key_item] != None:
+                                            for key_intermission in data['steps'][key_step][key_item]:
+                                                if key_intermission == 'pages':
+                                                    if data['steps'][key_step]['intermissions']['pages'] != None:
+                                                        for key_page in data['steps'][key_step]['intermissions']['pages']:
+                                                            data_page = yaml.safe_load(yaml.safe_dump(key_page))
+                                                            for key_hint in data_page:
+                                                                if key_hint == 'header' or key_hint == 'content':
+                                                                    if data_page[key_hint] != None:
+                                                                        line = ex.formCsvLine(src_path, data_page[key_hint], 'steps', key_step, key_hint)
+                                                                        print(line)
+                                                                        dst.write(line)
                                 
-                                elif key_item == 'hintsConditional':
-                                    if data['steps'][key_step][key_item] != None:
-                                        for key_hintsConditional in data['steps'][key_step][key_item]:
-                                            data_hintsConditional = yaml.safe_load(yaml.safe_dump(key_hintsConditional))
-                                            for key_hint in data_hintsConditional:
-                                                if key_hint == 'text':
-                                                    if data_hintsConditional[key_hint] != None:
-                                                        textVal = str(data_hintsConditional[key_hint]).replace('"', '""')
-                                                        i += 1
-                                                        text_str = src_stem + ',' + str(i) + ',' + str('steps') + ',' + str(key_step) + ',' + str(key_hint) + ',\"' + textVal + '\"\n'
-                                                        print(text_str)
-                                                        dst.write(text_str)
+                                    elif key_item == 'hintsConditional':
+                                        if data['steps'][key_step]['hintsConditional'] != None:
+                                            i = 0
+                                            for key_hintsConditional in data['steps'][key_step][key_item]:
+                                                data_hintsConditional = yaml.safe_load(yaml.safe_dump(key_hintsConditional))
+                                                for key_hint in data_hintsConditional:
+                                                    if key_hint == 'text':
+                                                        if data_hintsConditional[key_hint] != None:
+                                                            i += 1
+                                                            line = ex.formCsvLine(src_path, data_hintsConditional[key_hint], 'steps', key_step, 'text-' + str(i))
+                                                            print(line)
+                                                            dst.write(line)
 
-                                elif key_item == 'commsOnStart':
-                                    if data['steps'][key_step]['commsOnStart'] != None:
-                                        for key_commsOnStart in data['steps'][key_step]['commsOnStart']:
-                                            data_commsOnStart = yaml.safe_load(yaml.safe_dump(key_commsOnStart))
-                                            for key_comm in data_commsOnStart:
-                                                if key_comm == 'custom':
-                                                    if data_commsOnStart[key_comm] != None:
-                                                        for key_custom in data_commsOnStart[key_comm]:
-                                                            if key_custom == 'textHeader':
-                                                                if data_commsOnStart[key_comm][key_custom] != None:
-                                                                    textVal = str(data_commsOnStart[key_comm][key_custom]).replace('"', '""')
-                                                                    i += 1
-                                                                    text_str = src_stem + ',' + str(i) + ',' + str('steps') + ',' + str(key_step) + ',' + str(key_custom) + ',\"' + textVal + '\"\n'
-                                                                    print(text_str)
-                                                                    dst.write(text_str)
-                                                            elif key_custom == 'textContent':
-                                                                for textContent in data_commsOnStart[key_comm][key_custom]:
-                                                                    textVal = str(textContent).replace('"', '""')
-                                                                    i += 1
-                                                                    text_str = src_stem + ',' + str(i) + ',' + str('steps') + ',' + str(key_step) + ',' + str(key_custom) + ',\"' + textVal + '\"\n'
-                                                                    print(text_str)
-                                                                    dst.write(text_str)
+                                    elif key_item == 'commsOnStart':
+                                        if data['steps'][key_step]['commsOnStart'] != None:
+                                            for key_commsOnStart in data['steps'][key_step]['commsOnStart']:
+                                                data_commsOnStart = yaml.safe_load(yaml.safe_dump(key_commsOnStart))
+                                                for key_comm in data_commsOnStart:
+                                                    if key_comm == 'custom':
+                                                        if data_commsOnStart[key_comm] != None:
+                                                            for key_custom in data_commsOnStart[key_comm]:
+                                                                if key_custom == 'textHeader':
+                                                                    if data_commsOnStart[key_comm][key_custom] != None:
+                                                                        line = ex.formCsvLine(src_path, data_commsOnStart[key_comm][key_custom], 'steps', key_step, key_custom)
+                                                                        print(line)
+                                                                        dst.write(line)
 
+                                                                elif key_custom == 'textContent':
+                                                                    for textContent in data_commsOnStart[key_comm][key_custom]:
+                                                                        line = ex.formCsvLine(src_path, textContent, 'steps', key_step, key_custom)
+                                                                        print(line)
+                                                                        dst.write(line)
 
 
 except Exception as e:

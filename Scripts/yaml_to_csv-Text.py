@@ -1,89 +1,45 @@
-# TODO: Only for 'PhantomBrigade/Configs/Text'
+# TODO: Check target_list, this script extract from only them.
 
 import sys
-import argparse
 import pathlib
 import yaml
+import phantom_brigade as pb
+
+# TODO: Set the path to 'Configs' folder
+root_path = pathlib.Path('C:/Program Files/Epic Games/PhantomBrigade')
+ex = pb.Extractor(root_path)
 
 
-# TODO: Set the path to the folder, not to yaml files
-ls = list(pathlib.Path('PATH').glob('*.yaml'))
-
-# TODO: Set output name
-dst_path = pathlib.PurePath('Text-EN.csv')
+target_list = [
+    'Configs/Text/English/Sectors']
 
 
 try:
-    # TODO: Set encoding of csv for your language
-    # TODO: Windows can't en/decode some characters like '\u2014'. Replace them before
-    with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
+    for t in target_list:
+        target = pathlib.Path(t)
+        src_list = list((root_path/target).glob('*.yaml'))
+        dst_stem = str(target).replace(target._flavour.sep, '-') + '-EN'
+        dst_path = pathlib.Path(dst_stem).with_suffix('.csv')
 
-        i = 0
-        for p in ls:
-            src_path = pathlib.PurePath(p)
-            print(src_path)
-
-            src_name = src_path.name
-            src_stem = src_path.stem
-
-    
-            with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
+        with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
+            for p in src_list:
+                src_path = pathlib.Path(p)    
+                with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
         
-                def constructor_ActionCallArgInt(loader, node):
-                    return '!ActionCallArgInt'
-                def constructor_ActionCallArgString(loader, node):
-                    return '!ActionCallArgString'
-                def constructor_AreaLocation(loader, node):
-                    return '!AreaLocation'
-                def constructor_AreaLocationFilter(loader, node):
-                    return '!AreaLocationFilter'
-                def constructor_EventCallArgInt(loader, node):
-                    return '!EventCallArgInt'
-                def constructor_EventCallArgString(loader, node):
-                    return '!EventCallArgString'
-                def constructor_EventCallArgStringList(loader, node):
-                    return '!EventCallArgStringList'
-                def constructor_UnitFilter(loader, node):
-                    return '!UnitFilter'
-                def constructor_UnitGroupEmbedded(loader, node):
-                    return '!UnitGroupEmbedded'
-                def constructor_UnitGroupFilter(loader, node):
-                    return '!UnitGroupFilter'
-                def constructor_UnitPresetLink(loader, node):
-                    return '!UnitPresetLink'
-                def constructor_UnitPresetEmbedded(loader, node):
-                    return '!UnitPresetEmbedded'
+                    data = yaml.load(src,yaml.FullLoader)
 
-                yaml.add_constructor(u'!ActionCallArgInt', constructor_ActionCallArgInt)
-                yaml.add_constructor(u'!ActionCallArgString', constructor_ActionCallArgString)
-                yaml.add_constructor(u'!AreaLocation', constructor_AreaLocation)
-                yaml.add_constructor(u'!AreaLocationFilter', constructor_AreaLocationFilter)
-                yaml.add_constructor(u'!EventCallArgInt', constructor_EventCallArgInt)
-                yaml.add_constructor(u'!EventCallArgString', constructor_EventCallArgString)
-                yaml.add_constructor(u'!EventCallArgStringList', constructor_EventCallArgStringList)
-                yaml.add_constructor(u'!UnitFilter', constructor_UnitFilter)
-                yaml.add_constructor(u'!UnitGroupEmbedded', constructor_UnitGroupEmbedded)
-                yaml.add_constructor(u'!UnitGroupFilter', constructor_UnitGroupFilter)
-                yaml.add_constructor(u'!UnitPresetLink', constructor_UnitPresetLink)
-                yaml.add_constructor(u'!UnitPresetEmbedded', constructor_UnitPresetEmbedded)
-        
-                data = yaml.load(src,yaml.FullLoader)
+                    # TODO: Custom for yaml pattern
+                    if data['description'] != None:
+                        line = ex.formCsvLine(src_path, data['description'], 'description')
+                        print(line)
+                        dst.write(line)
 
-                if data['description'] != None:
-                    textVal = str(data['description']).replace('"', '""')
-                    i += 1
-                    text_str = src_stem + ',' + str(i) + ',' + str('description') + ',\"' + textVal + '\"\n'
-                    print(text_str)
-                    dst.write(text_str)
-
-                for key_entry in data['entries']:
-                    if data['entries'][key_entry] != None:
-                        if data['entries'][key_entry]['text'] != None:
-                            textVal = str(data['entries'][key_entry]['text']).replace('"', '""')
-                            i += 1
-                            text_str = src_stem + ',' + str(i) + ',' + str(key_entry) + ',\"' + textVal + '\"\n'
-                            print(text_str)
-                            dst.write(text_str)
+                    for key_entry in data['entries']:
+                        if data['entries'][key_entry] != None:
+                            if data['entries'][key_entry]['text'] != None:
+                                line = ex.formCsvLine(src_path, data['entries'][key_entry]['text'], key_entry)
+                                print(line)
+                                dst.write(line)
 
 
 except Exception as e:
