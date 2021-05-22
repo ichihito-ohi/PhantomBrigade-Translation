@@ -1,0 +1,6 @@
+hidden: false
+type: trait
+priority: 1
+icon: s_icon_l32_spec_concussion
+textName: 衝撃効果
+textDesc: この武器は機体制御システムに直接ダメージを与えてパイロットをノックアウトする。装備を傷つけずに敵機を無力化するのに有用である。

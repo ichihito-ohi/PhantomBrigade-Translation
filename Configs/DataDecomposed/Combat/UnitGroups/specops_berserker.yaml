@@ -1,0 +1,212 @@
+hidden: false
+description: 敵機を追跡し、制圧し続けダメージを与える。
+tags:
+- branch_specops
+- weight_heavy
+- range_long
+- type_berserker
+- type_main
+unitsPerGrade:
+- liveryPreset: ''
+  units:
+  - key: mech_juggernaut
+    countMin: 1
+    countMax: 1
+    countRandom: false
+    levelOffsetMin: 0
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 1
+    aiBehavior: Flanker
+    aiTargeting: juggernaut
+    liveryPreset: inv_specops_g1_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_mech_pilot_r0_juggernaut
+        custom: 
+  - key: mech_support_e_long
+    countMin: 1
+    countMax: 2
+    countRandom: false
+    levelOffsetMin: -1
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 1
+    aiBehavior: Flanker
+    aiTargeting: support
+    liveryPreset: inv_specops_g1_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_mech_pilot_r0_support
+        custom: 
+- liveryPreset: ''
+  units:
+  - key: mech_juggernaut
+    countMin: 1
+    countMax: 1
+    countRandom: false
+    levelOffsetMin: 1
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 2
+    aiBehavior: Flanker
+    aiTargeting: juggernaut
+    liveryPreset: inv_specops_g2_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_mech_pilot_r1_juggernaut
+        custom: 
+  - key: mech_support_e_long
+    countMin: 1
+    countMax: 2
+    countRandom: false
+    levelOffsetMin: 0
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 1
+    aiBehavior: Flanker
+    aiTargeting: support
+    liveryPreset: inv_specops_g1_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_mech_pilot_r0_support
+        custom: 
+- liveryPreset: ''
+  units:
+  - key: mech_juggernaut
+    countMin: 1
+    countMax: 1
+    countRandom: false
+    levelOffsetMin: 1
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 3
+    aiBehavior: Flanker
+    aiTargeting: juggernaut
+    liveryPreset: inv_specops_g3_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_mech_pilot_r2_leader
+        custom: 
+  - key: mech_juggernaut
+    countMin: 1
+    countMax: 1
+    countRandom: false
+    levelOffsetMin: 1
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 2
+    aiBehavior: Flanker
+    aiTargeting: juggernaut
+    liveryPreset: inv_specops_g2_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_mech_pilot_r1_juggernaut
+        custom: 
+  - key: mech_support_e_long
+    countMin: 1
+    countMax: 2
+    countRandom: false
+    levelOffsetMin: 0
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 1
+    aiBehavior: Flanker
+    aiTargeting: support
+    liveryPreset: inv_specops_g1_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_mech_pilot_r0_support
+        custom: 
+  - key: tank_striker_eleavted
+    countMin: 1
+    countMax: 2
+    countRandom: false
+    levelOffsetMin: -1
+    levelOffsetMax: -1
+    levelOffsetRandom: false
+    quality: 1
+    aiBehavior: Flanker
+    aiTargeting: support
+    liveryPreset: inv_specops_g1_berserker
+    custom:
+      name: 
+      spawn: 
+      landing: 
+      flags: 
+      faction: 
+      speed: 
+      pilot:
+        presetUsed: true
+        presetKey: enemy_tank_pilot_r0_support
+        custom: 
+unitPresets:
+  mech_juggernaut: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      filter_energy: false
+      filter_ultraheavy: false
+      role_juggernaut: true
+      type_mech: true
+  mech_support_e_long: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      filter_energy: true
+      filter_ultraheavy: false
+      range_medium: false
+      range_short: false
+      type_mech: true
+  tank_striker_eleavted: !UnitFilter
+    tagsFromOverworld: true
+    tags:
+      role_vanguard: true
+      type_tank_elevated: true

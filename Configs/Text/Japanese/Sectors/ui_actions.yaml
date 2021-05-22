@@ -221,10 +221,10 @@ entries:
     text: シールドスキャン
   retreat_desc:
     temp: true
-    text: Order the unit to retreat from combat. This action can only be executed if the unit is standing in an active retreat zone.
+    text: 戦闘から撤退するよう機体に指示します。このアクションは有効な撤退ゾーンに機体が立っている場合のみ実行できます。
   retreat_name:
     temp: true
-    text: Retreat
+    text: 撤退
   shield_desc:
     temp: true
     text: "指定した方向からの攻撃をシールドで逸らすよう指示します。"

@@ -1,0 +1,6 @@
+hidden: false
+type: trait
+priority: 1
+icon: s_icon_l32_spec_stagger
+textName: 転倒効果
+textDesc: この武器は命中した標的のバランスを奪う。命中するたびに衝突への耐性が低下する。（軽量な機体がより重い標的にタックルできるようになる）十分に命中させれば敵を完全に転倒させることもできる。

@@ -1,27 +1,27 @@
-textName: 直接ダメージ
-textDesc: '武器の投射体が与えるダメージ。このステータスは武器レベルによって変化する：上記のヒットダメージを見て変化後の値を確認してください。様々なサブシステムがこの基本値を変化させます。'
-uiPriority: 100
+textName: 限界旋回速度
+textDesc: 射撃時に武器を旋回可能な速度
+uiPriority: 0
 uiColor:
   r: 0.9529412
   g: 0.3921569
   b: 0.3921569
   a: 1
 uiColorOutput:
-  r: 1
-  g: 1
-  b: 1
-  a: 1
+  r: 0
+  g: 0
+  b: 0
+  a: 0
 uiIcon: s_icon_l32_stat_wpn_damage2
-uiIconOutput: s_icon_l16_status_integrity
+uiIconOutput: 
 uiLimit: 200
 uiMinimized: false
 uiComparisonInverted: false
 rounded: false
 derived: false
 exposedPerUnit: false
-exposedPerPart: true
-exposedPerSubsystem: true
-showAsOutput: true
+exposedPerPart: false
+exposedPerSubsystem: false
+showAsOutput: false
 showWithoutExpansion: false
 displayIfNonZero: ''
 displayAsRangeUsing: ''
@@ -34,7 +34,7 @@ minPerUnitLimit: false
 minPerUnit: 0
 maxPerUnitLimit: false
 maxPerUnit: 100
-levelUsed: true
+levelUsed: false
 levelIncrease: 0.25
 multiplierUsed: false
 multiplier: 1

@@ -1,0 +1,6 @@
+hidden: false
+type: trait
+priority: 1
+icon: s_icon_l32_spec_guided
+textName: 誘導兵器
+textDesc: 標的に向かって方向制御が可能な投射体。一部は、遮蔽を避けて上方から標的を攻撃するように事前プログラムされた軌道に沿って飛翔し始める。

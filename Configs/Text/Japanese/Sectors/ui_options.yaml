@@ -332,7 +332,7 @@ entries:
     text: キーボード / ズーム感度
   input_mouse_edge_scrolling_desc:
     temp: true
-    text: When edge scrolling is enabled, the camera moves when the cursor is near the edge of the screen.
+    text: エッジスクロールが有効な場合、カーソルが画面端に近づくとカメラが移動します。
   input_mouse_edge_scrolling_name:
     temp: true
     text: マウス / 画面端スクロール

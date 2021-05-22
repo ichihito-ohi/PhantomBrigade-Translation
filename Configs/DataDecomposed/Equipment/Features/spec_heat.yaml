@@ -1,0 +1,6 @@
+hidden: false
+type: trait
+priority: 1
+icon: s_icon_l32_spec_heat
+textName: 焼夷弾
+textDesc: この武器は標的をオーバーヒートさせることができる。投射物には衝撃で発火する焼夷剤が充填されており、影響を受けた機体を急速に加熱する。発熱を伴う行動を実行中の機体に対して特に効果的である。
