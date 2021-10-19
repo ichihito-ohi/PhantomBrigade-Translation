@@ -18,6 +18,9 @@ dst_path = pathlib.Path(dst_stem).with_suffix('.csv')
 
 try:
     with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
+        ver = ex.getVersion()
+        print(ex.ver)
+        dst.write(ex.ver + '\n')
 
         with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
 

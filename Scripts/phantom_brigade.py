@@ -3,6 +3,21 @@ import yaml
 
 
 class Extractor:
+    # Get version of Phantom Brigade
+    def getVersion(self):
+        info_path = self.root_path / 'Configs/buildinfo.yaml'
+        try:
+            with open(info_path, 'r', encoding='utf-8', errors='strict') as info:
+                data = yaml.load(info, yaml.FullLoader)
+                if data['data'] != None:
+                    data_info = str(data['data'])
+                    return data_info
+                else:
+                    return 'N/A'
+
+        except Exception as e:
+            print(e, file=sys.stderr)
+
     # Make a line to write into csv with the defined format
     def formCsvLine(self, path:pathlib.Path, text:str=None, subkey1:str='', subkey2:str='', subkey3:str=''):
         folder = str(path.relative_to(self.root_path).parent.as_posix())
@@ -41,5 +56,6 @@ class Extractor:
     # Initiate Extractor
     def __init__(self, root_path:pathlib.Path):
         self.root_path = root_path
+        self.ver = self.getVersion()
         self.add_constructors()
         pass
