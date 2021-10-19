@@ -9,11 +9,11 @@ class Extractor:
         file = str(path.stem)
         key = "%s/%s" % (folder, file)
         if subkey1 != '':
-            key += "-%s" % subkey1
+            key += ":%s" % subkey1
         if subkey2 != '':
-            key += "-%s" % subkey2
+            key += ".%s" % subkey2
         if subkey3 != '':
-            key += "-%s" % subkey3
+            key += ".%s" % subkey3
         str_text = str(text).replace('"', '""')
         line = "%s,%s,%s,%s,%s,%s,\"%s\"\n" % (folder, file, subkey1, subkey2, subkey3, key, str_text)
         return line

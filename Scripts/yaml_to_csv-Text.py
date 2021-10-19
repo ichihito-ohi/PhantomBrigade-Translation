@@ -37,7 +37,7 @@ try:
                     for key_entry in data['entries']:
                         if data['entries'][key_entry] != None:
                             if data['entries'][key_entry]['text'] != None:
-                                line = ex.formCsvLine(src_path, data['entries'][key_entry]['text'], key_entry)
+                                line = ex.formCsvLine(src_path, data['entries'][key_entry]['text'], key_entry, 'text')
                                 print(line)
                                 dst.write(line)
 
