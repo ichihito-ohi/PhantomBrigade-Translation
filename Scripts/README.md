@@ -63,7 +63,7 @@ _(Common)_
 - `PhantomBrigade/Configs/DataDecomposed/UnitChecks`
 - `PhantomBrigade/Configs/DataDecomposed/UnitPresets`
 - `PhantomBrigade/Configs/DataDecomposed/UnitStats`
-### yaml_to_csv-Comms.py (WIP)
+### yaml_to_csv-Combat.py (WIP)
 - `PhantomBrigade/Configs/DataDecomposed/Combat/Stats`
 - `PhantomBrigade/Configs/DataDecomposed/Combat/UnitGroups`
 
