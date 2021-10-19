@@ -11,10 +11,7 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Equipment/Part_Sockets',
-    'Configs/DataDecomposed/Equipment/Features',
     'Configs/DataDecomposed/Overworld/Blueprints',
-    'Configs/DataDecomposed/Overworld/EventOptions',
     'Configs/DataDecomposed/Overworld/EventStats',
     'Configs/DataDecomposed/Overworld/FactionBranches',
     'Configs/DataDecomposed/Overworld/Provinces',

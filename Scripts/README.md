@@ -54,10 +54,7 @@ _(Common)_
 ### yaml_to_csv-Text.py
 - `PhantomBrigade/Configs/Text`
 ### yaml_to_csv-firstLevelKey.py
-- `PhantomBrigade/Configs/DataDecomposed/Equipment/Part_Sockets`
-- `PhantomBrigade/Configs/DataDecomposed/Equipment/Features`
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/Blueprints`
-- `PhantomBrigade/Configs/DataDecomposed/Overworld/EventOptions`
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/EventStats`
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/FactionBranches`
 - `PhantomBrigade/Configs/DataDecomposed/Overworld/Provinces`
@@ -66,27 +63,20 @@ _(Common)_
 - `PhantomBrigade/Configs/DataDecomposed/UnitChecks`
 - `PhantomBrigade/Configs/DataDecomposed/UnitPresets`
 - `PhantomBrigade/Configs/DataDecomposed/UnitStats`
-### yaml_to_csv-Comms.py
-- `PhantomBrigade/Configs/DataDecomposed/Combat/Comms`
+### yaml_to_csv-Comms.py (WIP)
 - `PhantomBrigade/Configs/DataDecomposed/Combat/Stats`
 - `PhantomBrigade/Configs/DataDecomposed/Combat/UnitGroups`
 
-_(Special)_
-### yaml_to_csv-Scenarios.py
-- `PhantomBrigade/Configs/DataDecomposed/Combat/Scenarios`
+_(Unique)_
 ### yaml_to_csv-Cutscenes.py
 - `PhantomBrigade/Configs/DataDecomposed/Cutscenes`
-### yaml_to_csv-Tags.py
-- `PhantomBrigade/Configs/DataDecomposed/Equipment/Tags`
 ### yaml_to_csv-InfoPages.py
 - `PhantomBrigade/Configs/DataDecomposed/InfoPages`
-### yaml_to_csv-Events.py
-- `PhantomBrigade/Configs/DataDecomposed/Overworld/Events`
-### yaml_to_csv-Actions.py
-- `PhantomBrigade/Configs/DataDecomposed/Overworld/Actions`
-### yaml_to_csv-Tutorials.py
-- `PhantomBrigade/Configs/DataDecomposed/Tutorials`
 ### yaml_to_csv-simulation.py
 - `PhantomBrigade/Configs/Data/Settings/simulation.yaml`
-### yaml_to_csv-ui.py
+### yaml_to_csv-ui.py (WIP)
 - `PhantomBrigade/Configs/Data/Settings/ui.yaml`
+
+_(Not required but remain)_
+### yaml_to_csv-Tutorials.py
+- `PhantomBrigade/Configs/DataDecomposed/Tutorials`

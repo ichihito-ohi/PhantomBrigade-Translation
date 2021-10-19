@@ -43,17 +43,6 @@ try:
                                         print(line)
                                         dst.write(line)
 
-                                elif key_item == 'hints':
-                                    if data_page['hints'] != None:
-                                        for key_hint in data_page['hints']:
-                                            data_hint = yaml.safe_load(yaml.safe_dump(key_hint))
-                                            for key in data_hint:
-                                                if key == 'text':
-                                                    if data_hint[key] != None:
-                                                        line = ex.formCsvLine(src_path, data_hint[key], key)
-                                                        print(line)
-                                                        dst.write(line)
-
 
 except Exception as e:
     print(e, file = sys.stderr)

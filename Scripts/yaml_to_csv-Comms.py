@@ -11,7 +11,6 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Combat/Comms',
     'Configs/DataDecomposed/Combat/Stats',
     'Configs/DataDecomposed/Combat/UnitGroups']
 
@@ -36,20 +35,11 @@ try:
 
                     # TODO: Custom for yaml pattern
                     for key_item in data:
-                        if key_item == 'textHeader' or key_item == 'textName' or key_item == 'textSubtitle' or key_item == 'textTooltip' or key_item == 'description':
+                        if key_item == 'textName' or key_item == 'textSubtitle' or key_item == 'textTooltip' or key_item == 'description':
                             if data[key_item] != None:
                                 line = ex.formCsvLine(src_path, data[key_item], key_item)
                                 print(line)
                                 dst.write(line)
-
-                        elif key_item == 'textContent':
-                            if data[key_item] != None:
-                                i = 0
-                                for text in data[key_item]:
-                                    i += 1
-                                    line = ex.formCsvLine(src_path, text, key_item, i)
-                                    print(line)
-                                    dst.write(line)
 
 
 except Exception as e:

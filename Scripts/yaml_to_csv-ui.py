@@ -37,24 +37,6 @@ try:
                                     print(line)
                                     dst.write(line)
 
-                else:
-                    if type(data[key_ui]) == dict:
-                        for key_item in data[key_ui]:
-                            if key_item == 'custom':
-                                for key_text in data[key_ui]['custom']:
-                                    if key_text == 'textHeader':
-                                        if data[key_ui]['custom']['textHeader'] != None:
-                                            line = ex.formCsvLine(src_path, data[key_ui]['custom']['textHeader'], key_ui, 'custom', 'textHeader')
-                                            print(line)
-                                            dst.write(line)
-
-                                    if key_text == 'textContent':
-                                        if data[key_ui]['custom']['textContent'] != None:
-                                            for textContent in data[key_ui]['custom']['textContent']:
-                                                line = ex.formCsvLine(src_path, textContent, key_ui, 'custom', 'textContent')
-                                                print(line)
-                                                dst.write(line)
-
 
 except Exception as e:
     print(e, file = sys.stderr)
