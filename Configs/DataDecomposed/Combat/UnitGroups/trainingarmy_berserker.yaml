@@ -16,7 +16,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_army_g1_berserker
@@ -31,6 +31,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_juggernaut
         custom: 
+      combatTags: 
   - key: vehicle_guardian
     countMin: 1
     countMax: 2
@@ -38,7 +39,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_army_g1_berserker
@@ -53,6 +54,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_guardian
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech_juggernaut
@@ -62,7 +64,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: 0
     levelOffsetRandom: false
-    quality: 2
+    qualityTableKey: unitgroup_q2_uncommon
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_army_g2_berserker
@@ -77,6 +79,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_juggernaut
         custom: 
+      combatTags: 
   - key: vehicle_juggernaut
     countMin: 1
     countMax: 2
@@ -84,7 +87,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: 1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_army_g1_berserker
@@ -99,6 +102,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r1_juggernaut
         custom: 
+      combatTags: 
   - key: mech_guardian
     countMin: 1
     countMax: 1
@@ -106,7 +110,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: 0
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_army_g1_berserker
@@ -121,6 +125,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_guardian
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech_juggernaut
@@ -130,7 +135,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: 0
     levelOffsetRandom: false
-    quality: 2
+    qualityTableKey: unitgroup_q2_uncommon
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_army_g2_berserker
@@ -145,6 +150,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r1_juggernaut
         custom: 
+      combatTags: 
   - key: vehicle_juggernaut
     countMin: 2
     countMax: 1
@@ -152,7 +158,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: 0
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_army_g1_berserker
@@ -167,6 +173,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_juggernaut
         custom: 
+      combatTags: 
   - key: mech_guardian
     countMin: 1
     countMax: 2
@@ -174,7 +181,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: 1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_army_g1_berserker
@@ -189,6 +196,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_guardian
         custom: 
+      combatTags: 
 unitPresets:
   mech_guardian: !UnitFilter
     tagsFromOverworld: true
@@ -207,12 +215,14 @@ unitPresets:
   vehicle_guardian: !UnitFilter
     tagsFromOverworld: true
     tags:
+      filter_energy: false
       filter_hybrid: false
       role_guardian: true
       type_tank_standard: true
   vehicle_juggernaut: !UnitFilter
     tagsFromOverworld: true
     tags:
+      filter_energy: false
       filter_hybrid: false
       role_juggernaut: true
       type_tank_standard: true

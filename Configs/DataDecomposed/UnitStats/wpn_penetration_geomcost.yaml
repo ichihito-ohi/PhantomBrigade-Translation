@@ -1,6 +1,6 @@
 textName: チャージ損失 - 遮蔽
 textDesc: 遮蔽1枚を貫通する際のチャージ損失量。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.9529412
   g: 0.3921569
@@ -19,8 +19,8 @@ uiComparisonInverted: true
 rounded: false
 derived: false
 exposedPerUnit: false
-exposedPerPart: true
-exposedPerSubsystem: true
+exposedPerPart: false
+exposedPerSubsystem: false
 showAsOutput: false
 showWithoutExpansion: false
 displayIfNonZero: ''

@@ -17,7 +17,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Turret
     aiTargeting: default
     liveryPreset: 
@@ -31,7 +31,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Turret
     aiTargeting: default
     liveryPreset: 
@@ -43,7 +43,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Turret
     aiTargeting: default
     liveryPreset: 
@@ -57,7 +57,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Turret
     aiTargeting: default
     liveryPreset: 
@@ -69,7 +69,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Turret
     aiTargeting: default
     liveryPreset: 

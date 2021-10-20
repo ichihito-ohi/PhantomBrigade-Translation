@@ -2,7 +2,6 @@ hidden: false
 parent: 
 tags:
 - structure
-- battlefield
 - site
 - size_large
 textName: 基地
@@ -57,24 +56,39 @@ ai:
 spawning:
   patrolLimit: 2
   reenforcementDelay: 24
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies:
-        amountMin: 450
-        amountMax: 1
-        amountRandom: false
+    - resources:
+        supplies:
+          amountMin: 100
+          amountMax: 1
+          amountRandom: false
+      projects: 
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
         tagsUsed: true
         tags:
           item_part: true
-          rating_3: true
         countMin: 1
         countMax: 1
         countRandom: true
         levelMin: 1
         levelMax: 1
         levelRandom: true
+      subsystems: []
+    rew_project:
+    - resources: 
+      projects:
+      - countMin: 2
+        countMax: 3
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
+      parts: 
       subsystems: 

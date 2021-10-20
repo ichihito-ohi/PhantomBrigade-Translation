@@ -1,6 +1,6 @@
 textName: 発熱量
 textDesc: 部品を使用する際に生じる発熱量。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 1
   g: 0.7176471

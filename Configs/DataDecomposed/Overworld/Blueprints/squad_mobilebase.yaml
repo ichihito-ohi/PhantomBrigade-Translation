@@ -1,5 +1,5 @@
 hidden: false
-parent: ''
+parent: 
 tags:
 - debug_off
 - squad
@@ -48,5 +48,4 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

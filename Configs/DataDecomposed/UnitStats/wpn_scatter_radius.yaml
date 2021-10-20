@@ -1,6 +1,6 @@
 textName: 拡散半径
 textDesc: この半径はミサイルの精度を左右する。拡散が大きいと目標地点に直接命中せずにその周辺に着弾する可能性が高くなる。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.8509805
   g: 0.8392158

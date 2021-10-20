@@ -2,7 +2,6 @@ hidden: false
 parent: 
 tags:
 - structure
-- battlefield
 - site
 - training
 textName: 強化されたキャンプ
@@ -51,53 +50,17 @@ areas:
 production: 
 ai: 
 spawning: 
-loot:
-  provinceLevelAdded: true
-  supplies: 
-  parts:
-  - preset: body_arm_set_knox_light_r0
-    tagsUsed: false
-    tags:
-      rating_1: true
-      wpn_primary: true
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 0
-    levelRandom: false
-  - preset: body_top_set_knox_light_r0
-    tagsUsed: false
-    tags:
-      rating_1: true
-      wpn_primary: true
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 0
-    levelRandom: false
-  - preset: body_bottom_set_knox_light_r0
-    tagsUsed: false
-    tags:
-      rating_1: true
-      wpn_primary: true
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 0
-    levelRandom: false
-  - preset: body_arm_set_knox_light_r0
-    tagsUsed: false
-    tags:
-      rating_1: true
-      wpn_primary: true
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 0
-    levelRandom: false
-  subsystems: 
-rewards: 
+rewards:
+  triggersAfterCombat: 
+  blocks:
+    obj_capture_loot:
+    - resources: 
+      projects:
+      - countMin: 4
+        countMax: 1
+        countRandom: false
+        tagsUsed: false
+        key: prt_body_knox_l
+        tags: 
+      parts: 
+      subsystems: 

@@ -1,5 +1,6 @@
 name: 
 description: Text in the combat UI
+exportMode: None
 columns: []
 splits: []
 entries:

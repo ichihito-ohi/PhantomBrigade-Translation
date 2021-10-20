@@ -1,7 +1,9 @@
 hidden: false
-parent: squad_invader
+parent: 
 tags:
 - size_tiny
+- squad
+- squad_invader
 - training
 textName: '駐留パトロール'
 textDesc: >
@@ -57,36 +59,44 @@ ai:
   isAggressive: true
   activeWhenUntracked: true
 spawning: 
-loot:
-  provinceLevelAdded: true
-  supplies: 
-  parts:
-  - preset: body_top_set_elbrus_medium_r0
-    tagsUsed: false
-    tags: {}
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 0
-    levelRandom: true
-  - preset: body_arm_set_elbrus_medium_r0
-    tagsUsed: false
-    tags: {}
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 0
-    levelRandom: true
-  - preset: body_bottom_set_elbrus_medium_r0
-    tagsUsed: false
-    tags: {}
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 0
-    levelRandom: true
-  subsystems: 
-rewards: 
+rewards:
+  triggersAfterCombat: 
+  blocks:
+    obj_capture_loot:
+    - resources: 
+      projects: 
+      parts:
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: body_set_elbrus_medium_top_r1
+        tagsUsed: false
+        tags: {}
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 0
+        levelMax: 0
+        levelRandom: true
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: body_set_elbrus_medium_arm_r1
+        tagsUsed: false
+        tags: {}
+        countMin: 2
+        countMax: 1
+        countRandom: false
+        levelMin: 0
+        levelMax: 0
+        levelRandom: true
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: body_set_elbrus_medium_bottom_r1
+        tagsUsed: false
+        tags: {}
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 0
+        levelMax: 0
+        levelRandom: true
+      subsystems: 

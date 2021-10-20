@@ -3,7 +3,6 @@ parent:
 tags:
 - facility
 - structure
-- battlefield
 - site
 - facility_farm
 - training
@@ -51,43 +50,47 @@ scenarios:
     type_elimination: true
 areas:
   tags:
-    context_facility: true
+    context_facility_farm: true
     type_main: true
 production: 
 ai: 
 spawning: 
-loot:
-  provinceLevelAdded: true
-  supplies: 
-  parts:
-  - preset: body_top_set_knox_medium_r0
-    tagsUsed: false
-    tags: {}
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 1
-    levelMax: 1
-    levelRandom: false
-  subsystems:
-  - blueprint: internal_aux_core_charge
-    tagsUsed: false
-    tags:
-      '': false
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 1
-    levelMax: 1
-    levelRandom: false
-  - blueprint: internal_aux_core_overdrive
-    tagsUsed: false
-    tags:
-      '': false
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 1
-    levelMax: 1
-    levelRandom: false
-rewards: 
+rewards:
+  triggersAfterCombat: 
+  blocks:
+    event_tutorial_farm:
+    - resources: 
+      projects: 
+      parts:
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: body_set_knox_medium_top_r2
+        tagsUsed: false
+        tags: {}
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 1
+        levelMax: 1
+        levelRandom: false
+      subsystems:
+      - blueprint: internal_aux_core_charge
+        tagsUsed: false
+        tags:
+          '': false
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 1
+        levelMax: 1
+        levelRandom: false
+      - blueprint: internal_aux_core_overdrive
+        tagsUsed: false
+        tags:
+          '': false
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 1
+        levelMax: 1
+        levelRandom: false

@@ -17,9 +17,12 @@ intel:
 units: 
 scenarios:
   tags: {}
-areas: 
+areas:
+  tags:
+    context_facility: false
+    context_facility_mine: true
+    type_main: true
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

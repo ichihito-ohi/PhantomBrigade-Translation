@@ -1,7 +1,6 @@
 hidden: true
 parent: 
 tags:
-- battlefield
 - site
 - size_huge
 - structure
@@ -55,5 +54,4 @@ ai:
 spawning:
   patrolLimit: 4
   reenforcementDelay: 24
-loot: 
 rewards: 

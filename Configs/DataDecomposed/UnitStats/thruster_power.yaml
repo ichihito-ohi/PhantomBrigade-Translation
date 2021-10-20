@@ -1,6 +1,6 @@
 textName: スラスタ―出力
 textDesc: ダッシュアクションの飛距離を増加する。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 1
   g: 1

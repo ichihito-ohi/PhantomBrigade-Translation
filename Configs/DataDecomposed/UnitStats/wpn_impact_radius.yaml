@@ -1,6 +1,6 @@
 textName: 衝撃半径
 textDesc: 武器が環境に与える衝撃の半径。一般的に爆発武器のパラメータである。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 1
   g: 0.5137255

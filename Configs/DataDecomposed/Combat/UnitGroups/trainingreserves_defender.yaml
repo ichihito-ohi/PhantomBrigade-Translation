@@ -18,7 +18,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_reserves_g1_defender
@@ -33,6 +33,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_guardian
         custom: 
+      combatTags: 
   - key: vehicle_vanguard
     countMin: 1
     countMax: 2
@@ -40,7 +41,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: vanguard
     liveryPreset: inv_reserves_g1_defender
@@ -55,6 +56,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_vanguard
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech
@@ -64,7 +66,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: 0
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_reserves_g1_defender
@@ -79,6 +81,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_guardian
         custom: 
+      combatTags: 
   - key: vehicle_guardian
     countMin: 1
     countMax: 2
@@ -86,7 +89,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: 1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_reserves_g1_defender
@@ -101,6 +104,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_guardian
         custom: 
+      combatTags: 
   - key: vehicle_vanguard
     countMin: 1
     countMax: 2
@@ -108,7 +112,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: 1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: vanguard
     liveryPreset: inv_reserves_g1_defender
@@ -123,6 +127,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_vanguard
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech
@@ -132,7 +137,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: 1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_reserves_g1_defender
@@ -147,6 +152,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_guardian
         custom: 
+      combatTags: 
   - key: vehicle_guardian
     countMin: 1
     countMax: 2
@@ -154,7 +160,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: 1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_reserves_g1_defender
@@ -169,6 +175,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_guardian
         custom: 
+      combatTags: 
   - key: vehicle_vanguard
     countMin: 2
     countMax: 2
@@ -176,7 +183,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: 1
     levelOffsetRandom: false
-    quality: 0
+    qualityTableKey: unitgroup_q0_training
     aiBehavior: Flanker
     aiTargeting: vanguard
     liveryPreset: inv_reserves_g1_defender
@@ -191,6 +198,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_vanguard
         custom: 
+      combatTags: 
 unitPresets:
   mech: !UnitFilter
     tagsFromOverworld: true

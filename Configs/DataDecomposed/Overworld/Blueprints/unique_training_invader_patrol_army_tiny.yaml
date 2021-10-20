@@ -51,20 +51,36 @@ scenarios:
     event_tutorial_convoy_looting: true
 areas:
   tags:
-    contest_infrastructure: true
+    context_infrastructure: true
     type_main: true
 production: 
 ai:
   isAggressive: true
   activeWhenUntracked: true
 spawning: 
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies: 
+    - resources: 
+      projects: []
       parts:
-      - preset: body_arm_set_knox_heavy_r0
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: body_set_knox_heavy_arm_r1
+        tagsUsed: false
+        tags:
+          rating_1: true
+          wpn_primary: true
+        countMin: 2
+        countMax: 1
+        countRandom: false
+        levelMin: 0
+        levelMax: 1
+        levelRandom: false
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: body_set_knox_heavy_top_r1
         tagsUsed: false
         tags:
           rating_1: true
@@ -72,10 +88,12 @@ rewards:
         countMin: 1
         countMax: 1
         countRandom: false
-        levelMin: 1
+        levelMin: 0
         levelMax: 1
-        levelRandom: true
-      - preset: body_arm_set_knox_heavy_r0
+        levelRandom: false
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: body_set_knox_heavy_bottom_r1
         tagsUsed: false
         tags:
           rating_1: true
@@ -83,29 +101,7 @@ rewards:
         countMin: 1
         countMax: 1
         countRandom: false
-        levelMin: 1
+        levelMin: 0
         levelMax: 1
-        levelRandom: true
-      - preset: body_top_set_knox_heavy_r0
-        tagsUsed: false
-        tags:
-          rating_1: true
-          wpn_primary: true
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelMin: 1
-        levelMax: 1
-        levelRandom: true
-      - preset: body_bottom_set_knox_heavy_r0
-        tagsUsed: false
-        tags:
-          rating_1: true
-          wpn_primary: true
-        countMin: 1
-        countMax: 1
-        countRandom: false
-        levelMin: 1
-        levelMax: 1
-        levelRandom: true
+        levelRandom: false
       subsystems: 

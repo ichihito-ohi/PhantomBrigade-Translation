@@ -3,7 +3,6 @@ parent:
 tags:
 - structure
 - site
-- battlefield
 - hidden
 textName: ''
 textDesc: >
@@ -18,7 +17,7 @@ core:
   interactionRange: 5
   hopeOnDefeat: false
   destroyOnDefeat: false
-  destroyOnLoot: true
+  destroyOnLoot: false
   intelLocked: false
   detectable: true
   recognizable: true
@@ -41,27 +40,30 @@ intel:
   inRecognitionRange: false
 units: 
 scenarios: 
-areas:
-  tags:
-    context_cache: true
-    type_main: true
+areas: 
 production: 
 ai: 
 spawning: 
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies:
-        amountMin: 150
-        amountMax: 1
-        amountRandom: false
+    - resources: 
+      projects:
+      - countMin: 1
+        countMax: 2
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: unitgroup_q2_uncommon
+        preset: 
         tagsUsed: true
         tags:
           body_part: true
-          rating_3: true
         countMin: 1
         countMax: 1
         countRandom: true
@@ -69,27 +71,51 @@ rewards:
         levelMax: 1
         levelRandom: true
       subsystems: 
-    - supplies:
-        amountMin: 150
-        amountMax: 1
-        amountRandom: false
+    - resources: 
+      projects:
+      - countMin: 1
+        countMax: 2
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q2
+        preset: 
         tagsUsed: true
         tags:
-          body_part: true
-          rating_2: true
+          item_part: true
         countMin: 1
         countMax: 1
         countRandom: true
         levelMin: 1
         levelMax: 1
         levelRandom: true
-      - preset: 
+      subsystems: 
+    rew_locked:
+    - resources: 
+      projects: 
+      parts:
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
         tagsUsed: true
         tags:
           item_part: true
-          rating_2: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
+        tagsUsed: true
+        tags:
+          body_part: true
         countMin: 1
         countMax: 1
         countRandom: true

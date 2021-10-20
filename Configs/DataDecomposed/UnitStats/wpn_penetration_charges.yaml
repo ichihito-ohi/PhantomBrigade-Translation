@@ -1,6 +1,6 @@
 textName: チャージ
 textDesc: チャージにより投射体が遮蔽や機体を貫通できるようになる。レールガンの投射体が機体や構造物に衝突するたびに損失し、投射体が与えるダメージが低下する。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.9529412
   g: 0.3921569
@@ -19,8 +19,8 @@ uiComparisonInverted: false
 rounded: false
 derived: false
 exposedPerUnit: false
-exposedPerPart: true
-exposedPerSubsystem: true
+exposedPerPart: false
+exposedPerSubsystem: false
 showAsOutput: false
 showWithoutExpansion: false
 displayIfNonZero: ''

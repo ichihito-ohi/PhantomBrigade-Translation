@@ -1,6 +1,6 @@
 used: true
-textName: Nordmakt
-textDesc: Nordmakt は我が国で最も裕福な州のひとつであり、今でも若いスタートアップ企業に人気の場所である。
+textName: Røban
+textDesc: Røban は我が国で最も裕福な州のひとつであり、今でも若いスタートアップ企業に人気の場所である。
 alwaysVulnerable: true
 level: 20
 levelRecommended: 19
@@ -209,7 +209,7 @@ spawns:
       z: 1319.668
 entities:
 - spawnGroup: core_military
-  profile: base
+  profile: base_reserves
   countMin: 2
   countMax: 2
   countRandom: false

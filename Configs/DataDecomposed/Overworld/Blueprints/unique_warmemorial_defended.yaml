@@ -15,7 +15,7 @@ core:
   interactionRange: 5
   hopeOnDefeat: false
   destroyOnDefeat: false
-  destroyOnLoot: true
+  destroyOnLoot: false
   intelLocked: false
   detectable: true
   recognizable: true
@@ -49,30 +49,47 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies: 
+    - resources: 
+      projects: 
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
         tagsUsed: true
         tags:
           body_part: true
         countMin: 1
         countMax: 1
-        countRandom: true
+        countRandom: false
         levelMin: 1
-        levelMax: 2
-        levelRandom: true
-      - preset: 
+        levelMax: 1
+        levelRandom: false
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
         tagsUsed: true
         tags:
           item_part: true
         countMin: 1
         countMax: 1
-        countRandom: true
+        countRandom: false
         levelMin: 1
-        levelMax: 2
-        levelRandom: true
+        levelMax: 1
+        levelRandom: false
+      subsystems: 
+    rew_warmemorial:
+    - resources: 
+      projects:
+      - countMin: 1
+        countMax: 2
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
+      parts: 
       subsystems: 

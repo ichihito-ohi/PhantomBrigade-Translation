@@ -39,18 +39,26 @@ unitGameMassMin: 50
 unitGameMassMax: 98
 repairDurationVariable: true
 repairAfterCombat: true
-destroyPartsAfterCombat: false
-lootChancePartIntact: 0.85
-lootChancePartDestroyed: 0.25
-lootChanceSubsystemIntact: 0.85
-lootChanceSubsystemDestroyed: 0.25
-buildCostUnitFrame: 100
-buildCostUnitStarter: 200
-buildCostPartPackStarter: 100
+combatReactionLights: true
+combatNightLights: true
+combatAccentLights: true
 godMode: false
 noHeatMode: false
 readGuidedScatterStat: true
-unitGroupGradeRefactor: false
+estimatedStatsIncludeRandomSystems: false
+costDismantlePartIntact: 5
+costDismantlePartDamaged: 10
+costTakePartIntact: 15
+costTakePartDamaged: 25
+costDismantleSubsystemIntact: 5
+costDismantleSubsystemDamaged: 10
+costTakeSubsystemIntact: 10
+costTakeSubsystemDamaged: 15
+salvageBudgetBaseVictory: 70
+salvageBudgetBaseDefeat: 50
+salvageWorkshopDuplicateProtection: false
+workshopChargeSpending: true
+dismantlingRewardsUsed: false
 shotScatterXScalar: 0.4
 shotScatterYScalar: 1
 defaultRotationSpeed: 1
@@ -62,9 +70,19 @@ landingAngle: 60
 landingDistanceTouchdown: 10.57
 landingDistanceDeceleration: 26.7857
 landingDistanceEntry: 112
-landingDurationTouchdown: 0.9333333
+landingDurationTouchdown: 2.53333
 landingDurationDeceleration: 0.3333333
 landingDurationEntry: 0.5333333
+landingMechThrusterIntensities:
+  x: -0.5
+  y: -0.5
+  z: 1
+  w: -0.5
+landingMechShockwaveIntensities:
+  x: -0.5
+  y: 0.5
+  z: 0.5
+  w: -0.5
 logEquipmentGeneration: false
 logSpawnPointSelection: false
 logProjectileStatus: false
@@ -80,7 +98,7 @@ thrusterPowerToMassRatio: 1
 massToDashRatio: 0.5
 dashAngleLimit: 30
 dashWindowMin: 9
-logDashDistanceCalculation: true
+logDashDistanceCalculation: false
 overheatTickInterval: 0.1
 overheatTimestampEraseTime: 0.5
 overheatVFXInterval: 0.3
@@ -109,6 +127,9 @@ ricochetOnMelee: true
 ricochetOnEjected: false
 minimumEnvironmentalDamageFalloffThreshold: 1
 environmentCollisionDebug: false
+environmentExplosionAsset: fx_aoe_explosion_01_medium
+environmentFireAsset: fx_environment_fire
+environmentFireChance: 0.5
 falloffRicochetThreshold: 0.5
 ricochetScatterDegrees: 20
 ricochetVelocityDecay: 0.6
@@ -116,6 +137,15 @@ ricochetGravityScalar: 2
 ricochetDamageScalar: 1
 beamVulnerabilityDecayPerSec: 1
 beamVulnerabilityDecayPauseOnDamage: 0.1
+beamTicksPerSecond: 30
+turningLimitLengthAdjustmentK: 1.05
+shieldBeamReflectionArc: 180
+beamSingularityGenerationDistance: -1
+beamSingularityRadius: 13
+beamSingularityAreaDamage: 7
+beamSingularityDamageMultiplier: 0.1
+beamReflectionDamageNegation: 0.2
+beamReflectionDamageAttenuationK: 0.8
 penetrationUnitDistance: 3
 impactDamageFalloff:
   modePostWrap: ClampForever
@@ -166,11 +196,16 @@ damageCoverageApproximation:
       w: 0
     w: *o1
     m: *o0
-shieldVsHeatDamageMultiplier: 0.3
+shieldVsHeatDamageMultiplier: 0.5
+shieldVsStaggerDamageMultiplier: 0.8
+shieldVsConcussionDamageMultiplier: 0.25
 staggerDebuffDecay: 0.45
 staggerLevelOffsetMultiplier: 0.25
 staggerLevelMinMultiplier: 0.1
 staggerLevelMaxMultiplier: 2
+heatLevelOffsetMultiplier: 0.25
+heatLevelMinMultiplier: 0.1
+heatLevelMaxMultiplier: 2
 concussionThreshold: 100
 concussionScalarFlanking: 2
 concussionFatiguePenaltyLimit: 0.25
@@ -206,8 +241,12 @@ verticalVelocityGain: 10
 verticalVelocityDamageThreshold: 1
 verticalVelocityDamageLimit: 1
 environmentalImpactDamage: 100
+environmentalDebugDamageLow: 25
+environmentalDebugDamageHigh: 100
+environmentalDebugDamageShift: -0.5
 mechEnvironmentDamageScalar: 0.025
-vehicleEnvironmentDamageScalar: 0.1
+unitCollisionDamageScalar: 0.1
+vehicleEnvironmentDamageScalar: 0.025
 crashingImpactCoefficient: 0.75
 tankAngularDamping: 0.75
 tankLinearDamping: 1.25
@@ -220,12 +259,13 @@ meleeRangeFromDash: true
 meleeCollisionRadius: 3
 pathSegmentLengthLimit: 9
 pathRelaxationFactor: 0.5
-pathSubdivisionLevel: 8
+pathSubdivisionLevel: 4
 restrictedPathTags: 1
 openPathTags: 3
 pathEndPointExactness: ClosestOnNode
 pathStartPointExactness: ClosestOnNode
 combatSpawnTags:
+- direction_center
 - direction_e
 - direction_n
 - direction_ne
@@ -250,7 +290,6 @@ combatSpawnTags:
 - utility_wave_04
 - utility_wave_05
 combatLocationTags:
-- perimeter_outer
 - direction_e
 - direction_n
 - direction_ne
@@ -263,5 +302,23 @@ combatLocationTags:
 - obj_retreat
 - perimeter_center
 - perimeter_inner
+- perimeter_outer
 scenarioRewardKeys:
 - obj_capture_loot
+- rew_locked
+- rew_warmemorial
+scenarioUnitTags:
+- faction_guerillas
+- purpose_recon
+- purpose_scout
+- purpose_vip
+dismantlingRewardsParts:
+- tags:
+    wpn_main: true
+  resources:
+    components_wpn: 1
+- tags:
+    armor: true
+  resources:
+    components_body: 1
+dismantlingRewardsSubsystems: []

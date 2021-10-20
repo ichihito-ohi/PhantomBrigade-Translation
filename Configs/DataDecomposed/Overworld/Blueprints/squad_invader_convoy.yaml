@@ -48,23 +48,30 @@ scenarios:
     type_looting: true
 areas:
   tags:
-    contest_infrastructure: true
+    context_infrastructure: true
     type_main: true
 production: 
 ai:
   isAggressive: false
   activeWhenUntracked: true
 spawning: 
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies:
-        amountMin: 150
-        amountMax: 1
-        amountRandom: false
+    - resources: 
+      projects:
+      - countMin: 2
+        countMax: 3
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_random
+        preset: 
         tagsUsed: true
         tags:
           part_melee: true
@@ -74,11 +81,35 @@ rewards:
         levelMin: 1
         levelMax: 1
         levelRandom: true
-      - preset: 
+      subsystems: 
+    - resources: 
+      projects:
+      - countMin: 2
+        countMax: 3
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
+      parts:
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
+        tagsUsed: true
+        tags:
+          item_part: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
         tagsUsed: true
         tags:
           body_part: true
-          rating_2: true
         countMin: 1
         countMax: 1
         countRandom: true
@@ -86,39 +117,23 @@ rewards:
         levelMax: 1
         levelRandom: true
       subsystems: 
-    - supplies:
-        amountMin: 150
-        amountMax: 1
-        amountRandom: false
+    - resources: 
+      projects:
+      - countMin: 2
+        countMax: 3
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_random
+        preset: 
         tagsUsed: true
         tags:
-          body_part: true
-          rating_2: true
+          part_melee: true
         countMin: 1
-        countMax: 1
-        countRandom: true
-        levelMin: 1
-        levelMax: 1
-        levelRandom: true
-      - preset: 
-        tagsUsed: true
-        tags:
-          item_part: true
-          rating_3: true
-        countMin: 0
-        countMax: 1
-        countRandom: true
-        levelMin: 1
-        levelMax: 1
-        levelRandom: true
-      - preset: 
-        tagsUsed: true
-        tags:
-          body_part: true
-          rating_3: true
-        countMin: 0
         countMax: 1
         countRandom: true
         levelMin: 1

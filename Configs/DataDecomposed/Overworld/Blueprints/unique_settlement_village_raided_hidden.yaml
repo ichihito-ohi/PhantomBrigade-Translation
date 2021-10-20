@@ -2,7 +2,6 @@ hidden: false
 parent: 
 tags:
 - structure
-- battlefield
 - site
 - settlement
 textName: 村
@@ -53,5 +52,4 @@ production:
   - create_pilot
 ai: 
 spawning: 
-loot: 
 rewards: 

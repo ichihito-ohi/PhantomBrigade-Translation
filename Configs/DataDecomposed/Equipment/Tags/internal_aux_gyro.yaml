@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Auxiliary Gyroscope
-    textLong: ジャイロスコープはメックのバランスを向上する内部補助システムで、走行速度が向上する。
-    spriteName:
-      name: 

@@ -1,6 +1,6 @@
 textName: 射程距離（最大）
 textDesc: 武器の最大有効距離。これを超える位置にある標的に対して武器を使用してもほとんど効果がない。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.3632075
   g: 0.5070421

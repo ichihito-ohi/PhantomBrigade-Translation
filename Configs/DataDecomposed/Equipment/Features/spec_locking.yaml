@@ -1,6 +1,0 @@
-hidden: false
-type: trait
-priority: 1
-icon: s_icon_l32_warning_angle
-textName: 固定装置
-textDesc: この武器は射撃する機体が静止しているときに精度が向上する。移動中に射撃することも可能で、有効な場合もあるが、静止中に射撃するとより良い結果となることが多い。

@@ -17,10 +17,14 @@ units:
   unitsBuilt:
   - presetResolver: !UnitPresetEmbedded
       preset:
+        hidden: false
+        listed: true
         textName: 
-        unitBlueprint: unit_mech
-        customizationKey: unit_generated_04
+        parents: []
+        blueprint: unit_mech
         livery: pb_arctic_sky
+        aiBehavior: Flanker
+        aiTargeting: default
         tags: []
         subsystemTagPreferences: {}
         partTagPreferences:
@@ -29,69 +33,65 @@ units:
               armor_elbrus: true
         parts:
           equipment_left:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys: []
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverClear {}
+            systems: 
           equipment_right:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys: []
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverClear {}
+            systems: 
     key: 01_wall
   - presetResolver: !UnitPresetEmbedded
       preset:
+        hidden: false
+        listed: true
         textName: 
-        unitBlueprint: unit_mech
-        customizationKey: unit_generated_04
+        parents: []
+        blueprint: unit_mech
         livery: pb_arctic_sky
+        aiBehavior: Flanker
+        aiTargeting: default
         tags: []
         subsystemTagPreferences: {}
         partTagPreferences:
           body:
           - tags:
               armor_tsubasa: true
-        parts: &o0
+        parts:
           equipment_left:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys: []
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverClear {}
+            systems: 
           equipment_right:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys: []
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverClear {}
+            systems: 
     key: 02_carrying
   - presetResolver: !UnitPresetEmbedded
       preset:
+        hidden: false
+        listed: true
         textName: 
-        unitBlueprint: unit_mech
-        customizationKey: unit_generated_04
+        parents: []
+        blueprint: unit_mech
         livery: pb_arctic_sky
+        aiBehavior: Flanker
+        aiTargeting: default
         tags: []
         subsystemTagPreferences: {}
         partTagPreferences:
           body:
           - tags:
               armor_tsubasa: true
-        parts: *o0
+        parts:
+          equipment_left:
+            livery: 
+            preset: !PartResolverClear {}
+            systems: 
+          equipment_right:
+            livery: 
+            preset: !PartResolverClear {}
+            systems: 
     key: 03_end
 camera: 
 subtitles:

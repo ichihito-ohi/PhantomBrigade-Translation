@@ -1,6 +1,6 @@
 textName: チャージあたりのダメージ
 textDesc: チャージ損失あたりのダメージ低下率。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.9529412
   g: 0.3921569
@@ -19,8 +19,8 @@ uiComparisonInverted: false
 rounded: false
 derived: false
 exposedPerUnit: false
-exposedPerPart: true
-exposedPerSubsystem: true
+exposedPerPart: false
+exposedPerSubsystem: false
 showAsOutput: false
 showWithoutExpansion: false
 displayIfNonZero: ''

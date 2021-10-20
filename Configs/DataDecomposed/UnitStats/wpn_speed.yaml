@@ -1,6 +1,6 @@
 textName: 投射体速度
 textDesc: 投射体が武器から出た時の速度を決定する。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.7065578
   g: 0.8962264

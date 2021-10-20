@@ -14,7 +14,7 @@ core:
   interactionRange: 5
   hopeOnDefeat: false
   destroyOnDefeat: false
-  destroyOnLoot: true
+  destroyOnLoot: false
   intelLocked: false
   detectable: true
   recognizable: true
@@ -46,23 +46,60 @@ areas:
 production: 
 ai: 
 spawning: 
-loot:
-  provinceLevelAdded: true
-  supplies: 
-  parts:
-  - preset: 
-    tagsUsed: true
-    tags:
-      part_energy: false
-      part_melee: false
-      part_ultraheavy: false
-      rating_2: true
-      wpn_primary: true
-    countMin: 2
-    countMax: 2
-    countRandom: true
-    levelMin: 0
-    levelMax: 0
-    levelRandom: true
-  subsystems: 
-rewards: 
+rewards:
+  triggersAfterCombat: 
+  blocks:
+    obj_capture_loot:
+    - resources: 
+      projects: 
+      parts:
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q1
+        preset: 
+        tagsUsed: true
+        tags:
+          item_part: true
+          part_energy: false
+          part_melee: false
+          part_ultraheavy: false
+          wpn_primary: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 0
+        levelMax: 0
+        levelRandom: true
+      subsystems: 
+    rew_locked:
+    - resources: 
+      projects:
+      - countMin: 1
+        countMax: 1
+        countRandom: false
+        tagsUsed: false
+        key: prt_item_ballistic_sniper_any
+        tags: 
+      - countMin: 1
+        countMax: 1
+        countRandom: false
+        tagsUsed: false
+        key: prt_item_ballistic_marksman_any
+        tags: 
+      parts:
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q2
+        preset: 
+        tagsUsed: true
+        tags:
+          item_part: true
+          part_energy: false
+          part_melee: false
+          part_ultraheavy: false
+          wpn_primary: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 0
+        levelMax: 0
+        levelRandom: true
+      subsystems: 

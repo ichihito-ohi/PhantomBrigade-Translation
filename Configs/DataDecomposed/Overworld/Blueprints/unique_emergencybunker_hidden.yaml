@@ -1,5 +1,5 @@
 hidden: false
-parent: cache_defended
+parent: cache
 tags:
 - hidden
 textName: 緊急倉庫
@@ -11,16 +11,11 @@ factionBranch:
 visual: 
 movement: 
 ranges: 
-intel:
-  detected: false
-  recognized: false
-  inSensorRange: false
-  inRecognitionRange: false
+intel: 
 units: 
 scenarios: 
 areas: 
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

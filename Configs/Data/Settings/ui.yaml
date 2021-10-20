@@ -117,10 +117,11 @@ textures:
     path: Content/UI/Textures_Overworld/event_underground_market
   event_workshop:
     path: Content/UI/Textures_Overworld/event_workshop
+  pilot_int_enemy_elite:
+    path: Content/UI/Textures/t_pilot_portrait_03_elite
+  pilot_int_enemy_commander:
+    path: Content/UI/Textures/t_pilot_portrait_03_commander_enemy
 unitPatterns: 
-overlayThresholdHeat: 0.05
-overlayThresholdConcussion: 0.05
-overlayThresholdStagger: 0.05
 projectionCollision:
   scanColorMin:
     r: 1
@@ -215,7 +216,7 @@ projectionEnemySelected:
   rimColorMin: *o1
   rimColorMax: *o1
 colors:
-  unitInfo_AccentFriendly: &o5
+  unitInfo_AccentFriendly: &o6
     r: 0.2745098
     g: 0.6431373
     b: 0.8313726
@@ -287,20 +288,20 @@ colors:
     g: 0.2352941
     b: 0.2352941
     a: 1
-  level_1:
+  level_1: &o3
     r: 1
     g: 1
     b: 1
     a: 0.5019608
   level_2:
-    r: 0.2326896
-    g: 0.5904037
-    b: 0.7830189
-    a: 1
-  level_3:
     r: 0.5529412
     g: 0.6980392
     b: 0.2745098
+    a: 1
+  level_3:
+    r: 0.2313726
+    g: 0.5921569
+    b: 0.7843137
     a: 1
   level_4:
     r: 1
@@ -317,6 +318,48 @@ colors:
     r: 1
     g: 0.8915094
     b: 0.8915094
+    a: 1
+  rating_1_fill: *o3
+  rating_1_highlight: *o3
+  rating_2_highlight:
+    r: 0.8238557
+    g: 1
+    b: 0.4858491
+    a: 1
+  rating_3_highlight:
+    r: 0.504717
+    g: 0.8278804
+    b: 1
+    a: 1
+  rating_4_highlight:
+    r: 0.7868131
+    g: 0.5330188
+    b: 1
+    a: 1
+  rating_2_fill:
+    r: 0.602382
+    g: 0.6980392
+    b: 0.4188235
+    a: 0.8
+  rating_3_fill:
+    r: 0.264774
+    g: 0.4892297
+    b: 0.6603774
+    a: 1
+  rating_4_fill:
+    r: 0.5680142
+    g: 0.2671324
+    b: 0.8207547
+    a: 1
+  rating_5_highlight:
+    r: 1
+    g: 0.7106774
+    b: 0.4292453
+    a: 1
+  rating_5_fill:
+    r: 0.9245283
+    g: 0.5553521
+    b: 0.1962442
     a: 1
 colorsFatigue:
   0.25:
@@ -386,7 +429,7 @@ factionColors:
       g: 0.5705882
       b: 0.6039216
       a: 0.3764706
-    friendlySelected: &o3
+    friendlySelected: &o4
       r: 1
       g: 1
       b: 1
@@ -396,7 +439,7 @@ factionColors:
       g: 0.4861438
       b: 0.4705882
       a: 0.3764706
-    enemySelected: *o3
+    enemySelected: *o4
   Line_Path_Planned_Present:
     friendly:
       r: 0.323015
@@ -411,7 +454,7 @@ factionColors:
       a: 0.4352941
     enemySelected: *o1
   Line_Target_Painted:
-    friendly: &o4
+    friendly: &o5
       r: 0.2313725
       g: 0.8078431
       b: 1
@@ -424,7 +467,7 @@ factionColors:
       a: 1
     enemySelected: *o1
   Line_Target_Planned:
-    friendly: *o4
+    friendly: *o5
     friendlySelected: *o1
     enemy:
       r: 1
@@ -459,27 +502,27 @@ factionColors:
       b: 0.4292453
       a: 1
   Default:
-    friendly: &o6
+    friendly: &o7
       r: 0.1607843
       g: 0.4588236
       b: 0.6117647
       a: 1
-    friendlySelected: *o5
-    enemy: &o7
+    friendlySelected: *o6
+    enemy: &o8
       r: 0.7254902
       g: 0.2745098
       b: 0.2235294
       a: 1
-    enemySelected: &o8
+    enemySelected: &o9
       r: 1
       g: 0.3254902
       b: 0.2313726
       a: 1
   Flag:
-    friendly: *o6
-    friendlySelected: *o5
-    enemy: *o7
-    enemySelected: &o9
+    friendly: *o7
+    friendlySelected: *o6
+    enemy: *o8
+    enemySelected: &o10
       r: 0.8588236
       g: 0.2941177
       b: 0.2941177
@@ -506,23 +549,26 @@ factionColors:
       b: 0.2313726
       a: 0.5019608
   ProvinceBorder:
-    friendly: *o6
-    friendlySelected: *o5
-    enemy: *o7
-    enemySelected: *o8
+    friendly: *o7
+    friendlySelected: *o6
+    enemy: *o8
+    enemySelected: *o9
   FlagOverlay:
     friendly:
       r: 0.1960784
       g: 0.4549019
       b: 0.5843138
       a: 1
-    friendlySelected: *o5
+    friendlySelected: *o6
     enemy:
       r: 0.5849056
       g: 0.2364109
       b: 0.1958882
       a: 1
-    enemySelected: *o9
+    enemySelected: *o10
+overlayThresholdHeat: 0.05
+overlayThresholdConcussion: 0.05
+overlayThresholdStagger: 0.05
 tooltipPivotOffsets:
   BottomLeft:
     x: 24
@@ -703,39 +749,40 @@ colorBase:
 commsOnRetreatPossiblePositive:
   time: 0
   realtime: true
-  shared: false
-  key: 
-  custom:
-    texture: portrait_hq
-    duration: 10
-    audioUsed: false
-    audioKey: 
-    textHeader: HQ
-    textContent:
-    - 司令官、基地は部隊を回収する準備ができています。敵守備隊の通信を傍受していますが、彼らにはもう防衛対象がなく逃げる計画のようです。とどめを刺すこともできますし早期撤退も可能です―どちらにせよ、任務は完了です。
+  key: retreat_possible_positive
 commsOnRetreatPossibleNegative:
   time: 0
   realtime: true
-  shared: false
-  key: 
-  custom:
-    texture: portrait_hq
-    duration: 5
-    audioUsed: false
-    audioKey: 
-    textHeader: HQ
-    textContent:
-    - 司令官、基地が周囲を巡回しました。必要なら部隊を回収する準備はできています。
+  key: retreat_possible_negative
 commsOnRetreatEnd:
   time: 0
   realtime: true
-  shared: false
-  key: 
-  custom:
-    texture: portrait_hq
-    duration: 5
-    audioUsed: false
-    audioKey: 
-    textHeader: HQ
-    textContent:
-    - 司令官、基地を撤退させる必要があったため、しばらく部隊を回収することができません。
+  key: retreat_end
+commSources:
+  enemy_generic_intercepted:
+    image: pilot_int_fallback_enemy
+    text: Enemy / Intercepted
+  friendly_hq:
+    image: portrait_hq
+    text: HQ
+  friendly_tutorial_commander:
+    image: pilot_int_tutorial_commander
+    text: Commander
+  friendly_tutorial_cadet:
+    image: pilot_int_tutorial_cadet
+    text: Cadet
+  enemy_elite_intercepted:
+    image: pilot_int_enemy_elite
+    text: Enemy / Intercepted
+  enemy_commander_intercepted:
+    image: pilot_int_enemy_commander
+    text: General / Intercepted
+  enemy_commander_direct:
+    image: pilot_int_enemy_commander
+    text: General / Direct line
+  enemy_elite_direct:
+    image: pilot_int_enemy_elite
+    text: Elite / Direct line
+  neutral_event_director:
+    image: portrait_hq
+    text: HQ

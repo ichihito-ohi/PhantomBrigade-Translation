@@ -16,7 +16,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_specops_g1_defender
@@ -31,6 +31,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_juggernaut
         custom: 
+      combatTags: 
   - key: mech_guardian
     countMin: 1
     countMax: 2
@@ -38,7 +39,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_specops_g1_defender
@@ -53,6 +54,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_guardian
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech_striker_uh
@@ -62,7 +64,7 @@ unitsPerGrade:
     levelOffsetMin: 1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 2
+    qualityTableKey: unitgroup_q2_uncommon
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_specops_g2_defender
@@ -77,6 +79,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r1_juggernaut
         custom: 
+      combatTags: 
   - key: mech_guardian
     countMin: 1
     countMax: 2
@@ -84,7 +87,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_specops_g1_defender
@@ -99,6 +102,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_guardian
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech_striker_uh
@@ -108,7 +112,7 @@ unitsPerGrade:
     levelOffsetMin: 1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 3
+    qualityTableKey: unitgroup_q3_rare
     aiBehavior: Flanker
     aiTargeting: juggernaut
     liveryPreset: inv_specops_g3_defender
@@ -123,6 +127,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r2_leader
         custom: 
+      combatTags: 
   - key: mech_guardian
     countMin: 2
     countMax: 1
@@ -130,7 +135,7 @@ unitsPerGrade:
     levelOffsetMin: 1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 2
+    qualityTableKey: unitgroup_q2_uncommon
     aiBehavior: Flanker
     aiTargeting: guardian
     liveryPreset: inv_specops_g2_defender
@@ -145,6 +150,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r1_guardian
         custom: 
+      combatTags: 
 unitPresets:
   mech_guardian: !UnitFilter
     tagsFromOverworld: true

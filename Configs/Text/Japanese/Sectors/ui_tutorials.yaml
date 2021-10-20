@@ -1,0 +1,99 @@
+name: Tutorials
+description: Tutorial popups used by the game to explain various bits of UI and mechanics. The text includes overall name of the tutorial, page header/body and hints (not all pages contain hint popups independent from main body, though).
+exportMode: LinePerKeySimple
+columns: []
+splits: []
+entries:
+  overworld_intro__0c_name:
+    temp: true
+    text: 全体マップチュートリアル
+  overworld_intro__1p_00_0c_header:
+    temp: true
+    text: キャンペーンモード
+  overworld_intro__1p_00_0c_text:
+    temp: true
+    text: Phantom Brigade のアーリーアクセスへようこそ！ Shift+Tab を押すとバグ報告画面が開きます。お気づきの点やその他のフィードバックがありましたら何でも知らせてください！
+  overworld_intro__1p_01_0c_header:
+    temp: true
+    text: ナビゲーションバー
+  overworld_intro__1p_01_0c_text:
+    temp: true
+    text: 画面の左上の角を見てみましょう。 UI の説明をしますので準備ができたら次に移りましょう。
+  overworld_intro__1p_01_1h_00_hint:
+    temp: true
+    text: ナビゲーションバーでポーズメニュー、全体マップ、基地画面を切り替えることができます。
+  overworld_intro__1p_02_0c_header:
+    temp: true
+    text: 全体情報
+  overworld_intro__1p_02_0c_text:
+    temp: true
+    text: 画面の右上の角を見てみましょう。 UI の説明をしますので準備ができたら次に移りましょう。
+  overworld_intro__1p_02_1h_00_hint:
+    temp: true
+    text: 世界情報バーでゲームスピードを変更できるほか、地域情報が表示されています。あなたの持つ資源と現在時刻もここで確認できます。
+  overworld_intro__1p_03_0c_header:
+    temp: true
+    text: 選択 / マウスオーバー情報
+  overworld_intro__1p_03_0c_text:
+    temp: true
+    text: 画面の右下の角を見てみましょう。 UI の説明をしますので準備ができたら次に移りましょう。
+  overworld_intro__1p_03_1h_00_hint:
+    temp: true
+    text: このウィジェットは、あなたの移動基地のような、全体マップ上のものに関する情報を示しています。あなたがマップ上でより多くのものを見つけるほど、ここでより多くの情報を読むことができ、より近くで情報を得るほど詳細な情報が確認できます。
+  overworld_intro__1p_04_0c_header:
+    temp: true
+    text: 移動基地
+  overworld_intro__1p_04_0c_text:
+    temp: true
+    text: 部隊全体のメックを格納、整備可能な超大型車両があなたの基地です。あなたの命令次第で、その時々に応じて旅団は敵を避けたり攻撃を仕掛けたりすることができます。
+  overworld_intro__1p_05_0c_header:
+    temp: true
+    text: 移動
+  overworld_intro__1p_05_0c_text:
+    temp: true
+    text: 対象を左クリックすることで選択します。あなたの基地を選択したら目的地を右クリックして移動しましょう。移動をキャンセルするには、スペースキーまたは画面上の停止ボダンを押します。Tabキーを押すとカメラが基地を中央に捉えます。
+  overworld_intro__1p_06_0c_header:
+    temp: true
+    text: カメラ操作
+  overworld_intro__1p_06_0c_text:
+    temp: true
+    text: WASD でカメラ移動、 Q と E で旋回し R と F で上下回転します。
+  overworld_salvage__0c_name:
+    temp: false
+    text: 回収する
+  overworld_salvage__1p_00_0c_header:
+    temp: false
+    text: 回収する
+  overworld_salvage__1p_00_0c_text:
+    temp: false
+    text: 戦闘の煙が晴れ、戦場を探索する時間ができました。敗北した場合、あなたの機体が失った部品を回収できるかもしれません。勝利した場合、敵の装備やアイテムも回収できます。
+  overworld_salvage__1p_00_1h_00_hint:
+    temp: false
+    text: このリストには戦場で検知されたアイテムが表示されます。あなたはこれらを無視、回収、または解体することができます。いくつかのアイテム（リスト最上部に表示）はコストなしに回収することができます（目標達成の報酬など）。機体から落ちたアイテムは、その機体受けたダメージに応じて回収コストが増減します。分解して物資に変換する場合に比べて、アイテムを完全に修理するにはより多くのコストがかかります。
+  overworld_salvage__1p_01_0c_header:
+    temp: false
+    text: ''
+  overworld_salvage__1p_01_0c_text:
+    temp: false
+    text: ''
+  overworld_salvage__1p_01_1h_00_hint:
+    temp: false
+    text: これがあなたの回収予算です。残されたスクラップをすべて運ぶことはできないので、優先順位をつける必要があります。敗北時の予算は固定ですが、勝利時には撃破した機体数に応じて予算が増加します。
+  overworld_salvage__1p_02_0c_header:
+    temp: false
+    text: ''
+  overworld_salvage__1p_02_0c_text:
+    temp: false
+    text: ''
+  overworld_salvage__1p_02_1h_00_hint:
+    temp: false
+    text: アイテムは回収、物資に分解、または放置のなかから選ぶことができます。目標報酬のような無料アイテムは一番上に表示されます。それ以外は、回収コストが増減し、分解して物資に変換する場合に比べて、アイテムを完全に修理するにはより多くのコストがかかります。
+  overworld_salvage__1p_03_0c_header:
+    temp: false
+    text: ''
+  overworld_salvage__1p_03_0c_text:
+    temp: false
+    text: ''
+  overworld_salvage__1p_03_1h_00_hint:
+    temp: false
+    text: 回収予算内に収めない限り選択を確定できないので、よく考えて選択しましょう！

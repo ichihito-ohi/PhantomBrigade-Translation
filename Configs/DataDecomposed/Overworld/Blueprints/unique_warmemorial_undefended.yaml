@@ -4,7 +4,7 @@ tags:
 - status_undefended
 - unique_warmemorial
 textName: 戦争記念館
-textDesc: ''
+textDesc: An active cache that most likely contains parts,  subsystems, or some supplies. Attacking it will present an opportunity to secure that equipment and escape without eliminating all the guards and reinforcements.
 textIdentifierGroup: site_cache
 image: world_site_08
 core:
@@ -15,7 +15,7 @@ core:
   interactionRange: 5
   hopeOnDefeat: false
   destroyOnDefeat: false
-  destroyOnLoot: true
+  destroyOnLoot: false
   intelLocked: false
   detectable: true
   recognizable: true
@@ -42,13 +42,16 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies: 
+    - resources: 
+      projects: 
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q2
+        preset: 
         tagsUsed: true
         tags:
           body_part: true
@@ -56,9 +59,11 @@ rewards:
         countMax: 1
         countRandom: true
         levelMin: 1
-        levelMax: 2
+        levelMax: 1
         levelRandom: true
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q2
+        preset: 
         tagsUsed: true
         tags:
           item_part: true
@@ -66,6 +71,18 @@ rewards:
         countMax: 1
         countRandom: true
         levelMin: 1
-        levelMax: 2
+        levelMax: 1
         levelRandom: true
+      subsystems: 
+    rew_warmemorial:
+    - resources: 
+      projects:
+      - countMin: 1
+        countMax: 2
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
+      parts: 
       subsystems: 

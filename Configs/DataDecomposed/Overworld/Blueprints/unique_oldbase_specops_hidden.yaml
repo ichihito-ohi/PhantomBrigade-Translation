@@ -1,14 +1,34 @@
 hidden: false
-parent: unique_oldbase_specops
+parent: cache
 tags:
-- hidden
+- event_intel
+- cache
 textName: 放棄された作戦基地
-textDesc: ''
+textDesc: An active cache that most likely contains parts,  subsystems, or some supplies. Attacking it will present an opportunity to secure that equipment and escape without eliminating all the guards and reinforcements.
 textIdentifierGroup: site_cache
 image: world_site_08
-core: 
+core:
+  inventory: true
+  selectable: true
+  capturable: true
+  interactable: true
+  interactionRange: 5
+  hopeOnDefeat: false
+  destroyOnDefeat: false
+  destroyOnLoot: false
+  intelLocked: false
+  detectable: true
+  recognizable: true
+  observable: true
+  permanent: false
+  generated: true
+  factionChangesWithProvince: false
+  faction: Invaders
 factionBranch: 
-visual: 
+visual:
+  visualFromSquad: false
+  visualPrefabs:
+  - path: Content/Overworld/Site_Cache
 movement: 
 ranges: 
 intel: 
@@ -18,5 +38,4 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

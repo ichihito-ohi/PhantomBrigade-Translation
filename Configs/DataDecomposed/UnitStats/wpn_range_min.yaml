@@ -1,6 +1,6 @@
 textName: 射程距離（最小）
 textDesc: 武器の最小有効距離。これ未満の位置にある標的に対して武器を使用してもほとんど効果がない。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.1766198
   g: 0.5791442

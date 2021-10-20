@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Auxiliary Resistor
-    textLong: 抵抗器は熱限界に達した時にオーバーヒートしにくくする内部補助システムである。
-    spriteName:
-      name: 

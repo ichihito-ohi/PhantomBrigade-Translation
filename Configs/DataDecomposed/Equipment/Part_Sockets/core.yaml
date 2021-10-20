@@ -1,6 +1,0 @@
-textName: 上半身
-textDesc: '操縦ポッドと反応炉を支える部分。機体の破壊に直結する重要な部分（脱出しなかった場合はパイロットも死亡する）'
-icon: s_icon_m_link_squad
-sortPriority: 0
-tags:
-- body

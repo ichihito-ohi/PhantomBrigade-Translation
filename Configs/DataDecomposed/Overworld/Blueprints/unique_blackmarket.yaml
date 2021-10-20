@@ -33,7 +33,7 @@ movement:
 ranges: 
 intel:
   detected: true
-  recognized: true
+  recognized: false
   inSensorRange: false
   inRecognitionRange: false
 units: {}
@@ -42,5 +42,4 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

@@ -1,6 +1,0 @@
-textName: 左腕
-textDesc: 腕は装備を把持し側面の攻撃からコアを防ぐ。腕を失えば把持していた装備が使用できなくなる。
-icon: s_icon_m_link_squad
-sortPriority: 2
-tags:
-- body

@@ -1,0 +1,63 @@
+name: Scenarios / Steps (Shared)
+description: Text for headers and details repeated across multiple scenarios. Should mostly cover common scenario types, not unique scenarios.
+exportMode: LinePerKeySimple
+columns: []
+splits: []
+entries:
+  generic_eliminate_before_reinforcements_text:
+    temp: true
+    text: 増援が到着する前に敵をすべて殲滅しろ。
+  generic_eliminate_isolated_generic_text:
+    temp: true
+    text: 敵をすべて殲滅しろ。敵機体は孤立しており、増援の接近は検知されていない。
+  generic_eliminate_isolated_site_text:
+    temp: true
+    text: 現地を制圧するために敵をすべて殲滅しろ。敵機体は孤立しており、増援の接近は検知されていない。
+  generic_eliminate_nonspecific_text:
+    temp: true
+    text: すべての敵を殲滅しろ。
+  generic_hitandrun_earlyexit_text:
+    temp: true
+    text: 敵が呼応して増援を送る前に撤退しろ―このように攻撃して脱出しても勝利となる。
+  generic_hitandrun_late_text:
+    temp: true
+    text: 増援が到着した。新たに到着した敵をすべて殲滅しない限り現地は敵が掌握したままになる。
+  generic_looting_cleanup_text:
+    temp: true
+    text: 物資をすべて奪取しました。現在、現地を掌握しています。機体を撤収―またはより多くの装備を得るチャンスのために残りの敵と交戦しましょう。
+  generic_looting_intro_text:
+    temp: true
+    text: 確保のために機体をマークされたエリアに移動しろ。
+  generic_objective_header:
+    temp: true
+    text: 現在の目標
+  generic_unknown_header:
+    temp: true
+    text: 情報なし
+  generic_unknown_text:
+    temp: true
+    text: 'HQとのアップリンク確立に失敗：現在、任務情報は使用不能。'
+  unique_capital_header:
+    temp: true
+    text: 首都解放
+  unique_defector_eliminate_text:
+    temp: true
+    text: この施設を制圧して亡命者を救出するためにすべての敵を殲滅しろ。敵機体は孤立しており、増援の接近は検知されていない。
+  unique_stronghold_text:
+    temp: true
+    text: この要塞を制圧するためにすべての敵を殲滅しろ。細心の注意を払え。
+  unique_tutorial_contact_header:
+    temp: true
+    text: 接触
+  unique_tutorial_contact_text:
+    temp: true
+    text: 未確認車両に対処しろ
+  unique_tutorial_heading_header:
+    temp: true
+    text: 出動
+  unique_tutorial_investigate_header:
+    temp: true
+    text: 調査
+  unique_tutorial_outage_text:
+    temp: true
+    text: 国境の前線基地が外部との通信を失った。問題を調査しろ。

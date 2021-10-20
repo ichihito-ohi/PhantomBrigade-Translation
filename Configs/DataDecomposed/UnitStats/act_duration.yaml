@@ -1,6 +1,6 @@
 textName: 所要時間
 textDesc: 射撃（またはその他の関連動作）にかかる時間。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 1
   g: 1

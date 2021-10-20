@@ -43,5 +43,69 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
-rewards: 
+rewards:
+  triggersAfterCombat: 
+  blocks:
+    event_crashedsatellite_reward:
+    - resources: 
+      projects: 
+      parts:
+      - useQualityTable: true
+        qualityTableKey: reward_generic_random
+        preset: 
+        tagsUsed: true
+        tags:
+          part_bottom: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 0
+        levelMax: 1
+        levelRandom: false
+      - useQualityTable: true
+        qualityTableKey: reward_generic_random
+        preset: 
+        tagsUsed: true
+        tags:
+          part_top: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 0
+        levelMax: 1
+        levelRandom: false
+      - useQualityTable: true
+        qualityTableKey: reward_generic_random
+        preset: 
+        tagsUsed: true
+        tags:
+          part_arm: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 0
+        levelMax: 1
+        levelRandom: false
+      - useQualityTable: true
+        qualityTableKey: reward_generic_random
+        preset: 
+        tagsUsed: true
+        tags:
+          part_arm: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 0
+        levelMax: 1
+        levelRandom: false
+      subsystems:
+      - blueprint: 
+        tagsUsed: true
+        tags:
+          internal_aux: true
+        countMin: 1
+        countMax: 3
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: false

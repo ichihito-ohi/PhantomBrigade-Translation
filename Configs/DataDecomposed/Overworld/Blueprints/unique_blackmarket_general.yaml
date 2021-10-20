@@ -13,10 +13,11 @@ movement:
 ranges: 
 intel: 
 units: 
-scenarios: 
-areas: 
+scenarios:
+  tags: {}
+areas:
+  tags: {}
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

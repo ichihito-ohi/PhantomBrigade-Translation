@@ -1,5 +1,6 @@
 name: 
 description: 
+exportMode: None
 columns: []
 splits: []
 entries:
@@ -9,6 +10,30 @@ entries:
       適用
 
       変更
+  audio_mode_compressed_desc:
+    temp: true
+    text: 全体ダイナミックレンジを圧縮し、音楽と効果音の低音を抑えます。静かな環境や配信に適しています。
+  audio_mode_compressed_level_0:
+    temp: true
+    text: ''
+  audio_mode_compressed_level_1:
+    temp: true
+    text: ''
+  audio_mode_compressed_name:
+    temp: true
+    text: コンプレッサー・モード
+  audio_mode_mono_desc:
+    temp: true
+    text: 音声出力をシングル・チャンネルに統合します。ステレオ出力が望ましくない場合に有用です。（スピーカーやヘッドホンひとつだけでゲームを遊ぶ際など）
+  audio_mode_mono_level_0:
+    temp: true
+    text: ''
+  audio_mode_mono_level_1:
+    temp: true
+    text: ''
+  audio_mode_mono_name:
+    temp: true
+    text: モノラル・モード
   audio_volume_main_desc:
     temp: true
     text: '...'
@@ -219,6 +244,9 @@ entries:
   game_ui_scaling_name:
     temp: true
     text: UIサイズ
+  graphics_texture_filtering_desc:
+    temp: true
+    text: '...'
   graphics_texture_filtering_level_0:
     temp: true
     text: Off
@@ -231,6 +259,9 @@ entries:
   graphics_texture_filtering_name:
     temp: true
     text: 異方性フィルタ
+  graphics_texture_quality_desc:
+    temp: true
+    text: '...'
   graphics_texture_quality_level_0:
     temp: true
     text: Full

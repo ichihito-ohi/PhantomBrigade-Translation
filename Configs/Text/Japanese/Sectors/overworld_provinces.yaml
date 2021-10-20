@@ -1,5 +1,6 @@
 name: Overworld Provinces
 description: 'This sector contains text displayed when you zoom out on overworld map: names and description of provinces.'
+exportMode: LinePerGroup
 columns:
 - suffix: _name
   suffixDisplayName: Name
@@ -33,13 +34,13 @@ entries:
     text: Logge
   province_04_desc:
     temp: false
-    text: 初めて近代農業技術が取り入れられた地域のひとつで、農業が盛んな州である。
+    text: 観光客には有名な休日の市場でよく知られているが、主に農業を扱っている地域。
   province_04_name:
     temp: false
     text: Mæpple
   province_05_desc:
     temp: false
-    text: 観光客には有名な休日の市場でよく知られているが、主に農業を扱っている地域。
+    text: 初めて近代農業技術が取り入れられた地域のひとつで、農業が盛んな州である。
   province_05_name:
     temp: false
     text: Hosfred

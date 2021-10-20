@@ -245,7 +245,7 @@ spawns:
       z: 751.447
 entities:
 - spawnGroup: core_military
-  profile: base
+  profile: base_experimental
   countMin: 1
   countMax: 2
   countRandom: false

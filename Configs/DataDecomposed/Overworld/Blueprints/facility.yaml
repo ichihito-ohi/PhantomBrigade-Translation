@@ -2,7 +2,6 @@ hidden: true
 parent: 
 tags:
 - structure
-- battlefield
 - site
 textName: ' '
 textDesc: 民間施設。軍備は強化されていないが、ここを警備する機体はより手ごわい可能性があり増援を呼ぶことが多い。
@@ -53,54 +52,74 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies: 
+    - resources: 
+      projects:
+      - countMin: 2
+        countMax: 2
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q2
+        preset: 
         tagsUsed: true
         tags:
           body_part: true
-          rating_2: true
         countMin: 1
         countMax: 1
         countRandom: true
         levelMin: 1
         levelMax: 1
         levelRandom: true
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
         tagsUsed: true
         tags:
           item_part: true
-          rating_3: true
-        countMin: 0
+        countMin: 1
         countMax: 1
         countRandom: true
         levelMin: 1
         levelMax: 1
         levelRandom: true
       subsystems: 
-    - supplies: 
+    - resources: 
+      projects:
+      - countMin: 2
+        countMax: 2
+        countRandom: true
+        tagsUsed: true
+        key: 
+        tags:
+          type_frame: false
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q2
+        preset: 
         tagsUsed: true
         tags:
           item_part: true
-          rating_2: true
         countMin: 1
         countMax: 1
         countRandom: true
-        levelMin: 1
-        levelMax: 1
+        levelMin: 2
+        levelMax: 2
         levelRandom: true
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
         tagsUsed: true
         tags:
           body_part: true
-          rating_3: true
-        countMin: 0
+        countMin: 1
         countMax: 1
         countRandom: true
         levelMin: 1

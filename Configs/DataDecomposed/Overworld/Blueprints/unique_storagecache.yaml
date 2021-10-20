@@ -15,7 +15,7 @@ core:
   interactionRange: 5
   hopeOnDefeat: false
   destroyOnDefeat: false
-  destroyOnLoot: true
+  destroyOnLoot: false
   intelLocked: false
   detectable: true
   recognizable: true
@@ -31,16 +31,11 @@ visual:
   - path: Content/Overworld/Site_Cache
 movement: 
 ranges: 
-intel:
-  detected: true
-  recognized: true
-  inSensorRange: false
-  inRecognitionRange: false
+intel: 
 units: 
 scenarios: 
 areas: 
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

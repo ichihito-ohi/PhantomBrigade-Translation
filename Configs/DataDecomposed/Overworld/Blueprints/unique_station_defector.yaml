@@ -1,8 +1,8 @@
 hidden: false
 parent: 
 tags:
-- battlefield
-textName: '[4C8435]◆◆[-][717171]◇◇◇[-] ラジオ局'
+- unique_station_defector
+textName: Radio Station
 textDesc: 荒野にある孤立した小さいラジオ中継局。仮にいるとしても、何機で警備しているか情報は不明である。
 textIdentifierGroup: site_base_mid
 image: world_site_09
@@ -40,18 +40,29 @@ intel:
   inRecognitionRange: false
 units: {}
 scenarios:
-  tags: {}
+  tags:
+    context_fort: true
+    difficulty_normal: true
+    type_elimination: true
 areas:
-  tags: {}
+  tags:
+    context_wilderness: true
+    type_main: true
 production: 
 ai: 
 spawning: 
-loot:
-  provinceLevelAdded: false
-  supplies:
-    amountMin: 50
-    amountMax: 1
-    amountRandom: false
-  parts: 
-  subsystems: 
-rewards: 
+rewards:
+  triggersAfterCombat: 
+  blocks:
+    obj_capture_loot:
+    - resources: 
+      projects:
+      - countMin: 3
+        countMax: 1
+        countRandom: false
+        tagsUsed: true
+        key: 
+        tags:
+          rating_1: true
+      parts: 
+      subsystems: 

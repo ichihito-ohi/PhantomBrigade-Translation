@@ -18,7 +18,7 @@ core:
   destroyOnLoot: true
   intelLocked: false
   detectable: true
-  recognizable: true
+  recognizable: false
   observable: true
   permanent: false
   generated: true
@@ -33,7 +33,7 @@ movement:
 ranges: 
 intel:
   detected: true
-  recognized: true
+  recognized: false
   inSensorRange: false
   inRecognitionRange: false
 units: {}
@@ -42,5 +42,4 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

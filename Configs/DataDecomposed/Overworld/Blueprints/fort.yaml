@@ -2,7 +2,6 @@ hidden: true
 parent: 
 tags:
 - structure
-- battlefield
 - site
 - size_tiny
 - fortification
@@ -58,21 +57,24 @@ ai:
 spawning:
   patrolLimit: 1
   reenforcementDelay: 24
-loot: 
 rewards:
+  triggersAfterCombat: 
   blocks:
     obj_capture_loot:
-    - supplies:
-        amountMin: 150
-        amountMax: 1
-        amountRandom: false
+    - resources:
+        supplies:
+          amountMin: 20
+          amountMax: 1
+          amountRandom: false
+      projects: 
       parts:
-      - preset: 
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q2
+        preset: 
         tagsUsed: true
         tags:
-          item_part: true
-          rating_2: true
-        countMin: 0
+          body_part: true
+        countMin: 1
         countMax: 1
         countRandom: true
         levelMin: 1

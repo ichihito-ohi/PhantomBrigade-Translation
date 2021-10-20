@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Central BCM
-    textLong: 弾道計算モジュールは武器の射撃能力を向上させる内部中央システムである。
-    spriteName:
-      name: 

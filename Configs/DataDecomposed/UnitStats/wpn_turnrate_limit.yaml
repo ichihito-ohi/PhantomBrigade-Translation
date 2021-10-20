@@ -1,6 +1,6 @@
 textName: 限界旋回速度
 textDesc: 射撃時に武器を旋回可能な速度
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.9529412
   g: 0.3921569

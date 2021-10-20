@@ -17,10 +17,14 @@ units:
   unitsBuilt:
   - presetResolver: !UnitPresetEmbedded
       preset:
+        hidden: false
+        listed: true
         textName: 
-        unitBlueprint: unit_mech
-        customizationKey: unit_generated_04
+        parents: []
+        blueprint: unit_mech
         livery: pb_arctic_sky
+        aiBehavior: Flanker
+        aiTargeting: default
         tags: []
         subsystemTagPreferences: {}
         partTagPreferences:
@@ -29,30 +33,24 @@ units:
               armor_elbrus: true
         parts:
           equipment_left:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys: []
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverClear {}
+            systems: 
           equipment_right:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys: []
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverClear {}
+            systems: 
     key: friendly_victim
   - presetResolver: !UnitPresetEmbedded
       preset:
+        hidden: false
+        listed: true
         textName: 
-        unitBlueprint: unit_mech
-        customizationKey: unit_generated_04
+        parents: []
+        blueprint: unit_mech
         livery: pb_arctic_sky
+        aiBehavior: Flanker
+        aiTargeting: default
         tags: []
         subsystemTagPreferences: {}
         partTagPreferences:
@@ -61,25 +59,17 @@ units:
               armor_tsubasa: true
         parts:
           equipment_left:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys:
-            - wpn_mg_sub_v1_s1_r0
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverKeys
+              keys:
+              - wpn_mg_sub_01_r1
+            systems: 
           equipment_right:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys:
-            - wpn_rifle_assault_v1_s2_r0
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverKeys
+              keys:
+              - wpn_rifle_assault_01_r1
+            systems: 
     key: friendly_arrival
   - presetResolver: !UnitPresetLink
       preset: invader_cutscene_intro_bein
@@ -98,10 +88,14 @@ units:
     key: enemy_patrol_early
   - presetResolver: !UnitPresetEmbedded
       preset:
+        hidden: false
+        listed: true
         textName: 
-        unitBlueprint: unit_mech
-        customizationKey: unit_generated_04
+        parents: []
+        blueprint: unit_mech
         livery: inv_army_city_b
+        aiBehavior: Flanker
+        aiTargeting: default
         tags: []
         subsystemTagPreferences: {}
         partTagPreferences:
@@ -110,24 +104,15 @@ units:
               armor_asgard: true
         parts:
           equipment_left:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys: []
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverClear {}
+            systems: 
           equipment_right:
-            liveryOverride: false
             livery: 
-            partPresetOverride: true
-            partPresetTagsUsed: false
-            partPresetTagPreferences: 
-            partPresetKeys:
-            - wpn_rifle_assault_v1_s2_r0
-            subsystemsOverride: false
-            subsystems: {}
+            preset: !PartResolverKeys
+              keys:
+              - wpn_rifle_assault_02_r1
+            systems: 
     key: enemy_patrol_late
 camera: 
 subtitles:

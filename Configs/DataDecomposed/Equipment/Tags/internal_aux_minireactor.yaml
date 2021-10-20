@@ -1,6 +1,0 @@
-blocks:
-  subsystem_category:
-    textShort: Auxiliary Mini Reactor
-    textLong: 小型反応炉はメックの出力を押し上げる内部補助システムである。
-    spriteName:
-      name: s_icon_l32_system_internal_reactor

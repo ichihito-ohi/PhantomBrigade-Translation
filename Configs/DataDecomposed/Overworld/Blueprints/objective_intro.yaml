@@ -3,7 +3,6 @@ parent:
 tags:
 - structure
 - site
-- battlefield
 textName: 国境前哨基地
 textDesc: 最初の戦いの地。侵略以来、放棄されたままである。
 textIdentifierGroup: 
@@ -49,5 +48,4 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

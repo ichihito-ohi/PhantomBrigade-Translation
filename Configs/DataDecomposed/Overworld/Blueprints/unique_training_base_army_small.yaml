@@ -3,7 +3,6 @@ parent:
 tags:
 - base
 - branch_army
-- battlefield
 - site
 - structure
 - training
@@ -59,31 +58,40 @@ ai:
 spawning:
   patrolLimit: 2
   reenforcementDelay: 24
-loot:
-  provinceLevelAdded: true
-  supplies: 
-  parts:
-  - preset: 
-    tagsUsed: true
-    tags:
-      armor_arrow: true
-      rating_2: true
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 1
-    levelRandom: false
-  - preset: 
-    tagsUsed: true
-    tags:
-      body_part: true
-      rating_3: true
-    countMin: 0
-    countMax: 1
-    countRandom: true
-    levelMin: 1
-    levelMax: 1
-    levelRandom: true
-  subsystems: 
-rewards: 
+rewards:
+  triggersAfterCombat:
+  - outcomeVictory: true
+    outcomeDefeat: false
+    caseEarly: true
+    caseTotal: true
+    rewards:
+      rew_project: 1
+  blocks:
+    obj_capture_loot:
+    - resources: 
+      projects: 
+      parts:
+      - useQualityTable: true
+        qualityTableKey: reward_generic_q3
+        preset: 
+        tagsUsed: true
+        tags:
+          body_part: true
+        countMin: 1
+        countMax: 1
+        countRandom: true
+        levelMin: 1
+        levelMax: 1
+        levelRandom: true
+      subsystems: 
+    rew_project:
+    - resources: 
+      projects:
+      - countMin: 2
+        countMax: 1
+        countRandom: false
+        tagsUsed: false
+        key: prt_item_energy_railgun_any
+        tags: {}
+      parts: 
+      subsystems: 

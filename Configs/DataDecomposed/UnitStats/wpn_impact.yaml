@@ -1,6 +1,6 @@
 textName: 衝撃
 textDesc: 適切な距離と手段で使用された場合の、武器が環境へ与える衝撃。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 1
   g: 0.5152804

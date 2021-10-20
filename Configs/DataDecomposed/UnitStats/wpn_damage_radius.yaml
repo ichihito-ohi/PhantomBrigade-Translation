@@ -1,6 +1,6 @@
 textName: ダメージ半径
 textDesc: 武器が機体にダメージを与える半径。一般的に爆発武器のパラメータである。
-uiPriority: 0
+uiPriority: 1
 uiColor:
   r: 0.9529412
   g: 0.3921569

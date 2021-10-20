@@ -1,5 +1,7 @@
 textName: 特殊部隊
 textDesc: 高度に専門化されたメック部隊。特殊装備を運用する非常に機動力の高い機体であることが多い。
+liveryPrefix: inv_specops
+training: false
 unitGroupTags:
   branch_specops: true
 unitPresetTags:

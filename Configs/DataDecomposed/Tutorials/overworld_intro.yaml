@@ -1,3 +1,4 @@
+textName: Overworld Intro
 depthOffset: 0
 pages:
 - depthOffset: -10
@@ -26,7 +27,6 @@ pages:
       x: 0
       y: -100
       z: 0
-    text: ナビゲーションバーでポーズメニュー、全体マップ、基地画面を切り替えることができます。
     icon: icon_error
     color: &o1
       r: 0.3411765
@@ -51,7 +51,6 @@ pages:
       x: 0
       y: -250
       z: 0
-    text: 世界情報バーでゲームスピードを変更できるほか、地域情報が表示されています。あなたの持つ資源と現在時刻もここで確認できます。
     icon: icon_error
     color: *o1
     lockWidth: false
@@ -76,7 +75,6 @@ pages:
       x: 0
       y: 450
       z: 0
-    text: このウィジェットは、あなたの移動基地のような、全体マップ上のものに関する情報を示しています。あなたがマップ上でより多くのものを見つけるほど、ここでより多くの情報を読むことができ、より近くで情報を得るほど詳細な情報が確認できます。
     icon: icon_error
     color:
       r: 0.1910377

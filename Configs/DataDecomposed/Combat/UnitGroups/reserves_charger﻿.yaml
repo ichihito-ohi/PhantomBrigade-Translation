@@ -16,7 +16,7 @@ unitsPerGrade:
     levelOffsetMin: 0
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 2
+    qualityTableKey: unitgroup_q2_uncommon
     aiBehavior: Flanker
     aiTargeting: leader
     liveryPreset: inv_reserves_g2_charger﻿
@@ -31,6 +31,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r1_striker
         custom: 
+      combatTags: 
   - key: tank_scout
     countMin: 1
     countMax: 2
@@ -38,7 +39,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: scout
     liveryPreset: inv_reserves_g1_charger﻿
@@ -53,6 +54,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_scout
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech_striker
@@ -62,7 +64,7 @@ unitsPerGrade:
     levelOffsetMin: 1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 2
+    qualityTableKey: unitgroup_q2_uncommon
     aiBehavior: Flanker
     aiTargeting: sharpshooter
     liveryPreset: inv_reserves_g2_charger﻿
@@ -77,6 +79,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r1_striker
         custom: 
+      combatTags: 
   - key: tank_scout
     countMin: 1
     countMax: 2
@@ -84,7 +87,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: scout
     liveryPreset: inv_reserves_g1_charger﻿
@@ -99,6 +102,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_scout
         custom: 
+      combatTags: 
   - key: tank_vanguard
     countMin: 1
     countMax: 2
@@ -106,7 +110,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: vanguard
     liveryPreset: inv_reserves_g1_charger﻿
@@ -121,6 +125,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_vanguard
         custom: 
+      combatTags: 
   - key: mech_striker
     countMin: 1
     countMax: 2
@@ -128,7 +133,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: striker
     liveryPreset: inv_reserves_g1_charger﻿
@@ -143,6 +148,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_striker
         custom: 
+      combatTags: 
 - liveryPreset: ''
   units:
   - key: mech_striker
@@ -152,7 +158,7 @@ unitsPerGrade:
     levelOffsetMin: 2
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 3
+    qualityTableKey: unitgroup_q3_rare
     aiBehavior: Flanker
     aiTargeting: leader
     liveryPreset: inv_reserves_g3_charger﻿
@@ -167,6 +173,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r2_leader
         custom: 
+      combatTags: 
   - key: tank_scout
     countMin: 1
     countMax: 2
@@ -174,7 +181,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: scout
     liveryPreset: inv_reserves_g1_charger﻿
@@ -189,6 +196,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_scout
         custom: 
+      combatTags: 
   - key: mech_striker
     countMin: 2
     countMax: 2
@@ -196,7 +204,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: striker
     liveryPreset: inv_reserves_g1_charger﻿
@@ -211,6 +219,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_mech_pilot_r0_striker
         custom: 
+      combatTags: 
   - key: tank_vanguard
     countMin: 1
     countMax: 2
@@ -218,7 +227,7 @@ unitsPerGrade:
     levelOffsetMin: -1
     levelOffsetMax: -1
     levelOffsetRandom: false
-    quality: 1
+    qualityTableKey: unitgroup_q1_common
     aiBehavior: Flanker
     aiTargeting: vanguard
     liveryPreset: inv_reserves_g1_charger﻿
@@ -233,6 +242,7 @@ unitsPerGrade:
         presetUsed: true
         presetKey: enemy_tank_pilot_r0_vanguard
         custom: 
+      combatTags: 
 unitPresets:
   mech_striker: !UnitFilter
     tagsFromOverworld: true

@@ -1,5 +1,7 @@
 textName: 予備軍
 textDesc: 変わり者のエリートスペシャリストが率いる予備軍の混成部隊。スキル不足と経験不足を、膨大な数で埋め合わせる。
+liveryPrefix: inv_reserves
+training: true
 unitGroupTags:
   branch_trainingreserves: true
 unitPresetTags:

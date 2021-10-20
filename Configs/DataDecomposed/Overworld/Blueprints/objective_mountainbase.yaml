@@ -3,7 +3,6 @@ parent:
 tags:
 - structure
 - site
-- battlefield
 textName: '山岳基地'
 textDesc: 敵の注意を惹くことなく作戦基地として機能する大規模地下施設。約30年前に放棄されたが、構造的には無傷なままである。古い採掘トラックやウォーカー用に建てられた大きな入口は移動基地にも合っている。
 textIdentifierGroup: objective_mountainbase
@@ -56,32 +55,39 @@ production:
   - create_pilot
 ai: 
 spawning: 
-loot:
-  provinceLevelAdded: true
-  supplies:
-    amountMin: 150
-    amountMax: 1
-    amountRandom: false
-  parts:
-  - preset: wpn_shotgun_heavy_v1_s1_r0
-    tagsUsed: false
-    tags:
-      rating_1: true
-      wpn_primary: true
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 1
-    levelRandom: false
-  - preset: wpn_rifle_assault_v1_s2_r0
-    tagsUsed: false
-    tags: {}
-    countMin: 1
-    countMax: 1
-    countRandom: false
-    levelMin: 0
-    levelMax: 1
-    levelRandom: false
-  subsystems: 
-rewards: 
+rewards:
+  triggersAfterCombat: 
+  blocks:
+    obj_capture_loot:
+    - resources:
+        supplies:
+          amountMin: 50
+          amountMax: 1
+          amountRandom: false
+      projects: 
+      parts:
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: wpn_shotgun_heavy_01_r1
+        tagsUsed: false
+        tags:
+          rating_1: true
+          wpn_primary: true
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 0
+        levelMax: 1
+        levelRandom: false
+      - useQualityTable: false
+        qualityTableKey: 
+        preset: wpn_rifle_assault_01_r1
+        tagsUsed: false
+        tags: {}
+        countMin: 1
+        countMax: 1
+        countRandom: false
+        levelMin: 0
+        levelMax: 1
+        levelRandom: false
+      subsystems: 

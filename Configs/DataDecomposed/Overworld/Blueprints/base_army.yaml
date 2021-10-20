@@ -1,4 +1,4 @@
-hidden: true
+hidden: false
 parent: base
 tags:
 - branch_army
@@ -18,5 +18,4 @@ areas:
 production: 
 ai: 
 spawning: 
-loot: 
 rewards: 

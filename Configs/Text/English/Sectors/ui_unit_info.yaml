@@ -1,5 +1,6 @@
 name: 
 description: Unit blueprints, status, other state information, related hints and tooltips
+exportMode: None
 columns: []
 splits: []
 entries:
@@ -8,13 +9,13 @@ entries:
     text: "◄ KIA ►"
   pilotMissingCallsign:
     temp: true
-    text: "行動不能"
+    text: —
   pilotMissingName:
     temp: true
-    text: "不在"
+    text: パイロット消失
   pilotUnknownCallsign:
     temp: true
-    text: "不明"
+    text: —
   pilotUnknownName:
     temp: true
     text: "未確認のパイロット"
