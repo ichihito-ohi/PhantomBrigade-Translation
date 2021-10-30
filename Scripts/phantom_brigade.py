@@ -43,6 +43,8 @@ class Extractor:
         yaml.add_constructor('!ActionCallArgString', self.constructor)
         yaml.add_constructor('!AreaLocation', self.constructor)
         yaml.add_constructor('!AreaLocationFilter', self.constructor)
+        yaml.add_constructor('!DataBlockGuidanceInputConstant', self.constructor) # for Equipment/Subsystems
+        yaml.add_constructor('!DataBlockGuidanceInputCurve', self.constructor) # for Equipment/Subsystems
         yaml.add_constructor('!EventCallArgInt', self.constructor)
         yaml.add_constructor('!EventCallArgString', self.constructor)
         yaml.add_constructor('!EventCallArgStringList', self.constructor)
