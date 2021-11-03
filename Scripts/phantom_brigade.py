@@ -46,6 +46,9 @@ class Extractor:
         yaml.add_constructor('!EventCallArgInt', self.constructor)
         yaml.add_constructor('!EventCallArgString', self.constructor)
         yaml.add_constructor('!EventCallArgStringList', self.constructor)
+        yaml.add_constructor('!SubsystemResolverHardpoint', self.constructor) # for Equipment/Part_Presets
+        yaml.add_constructor('!SubsystemResolverKeys', self.constructor)
+        yaml.add_constructor('!SubsystemResolverTags', self.constructor) # for Equipment/Part_Presets
         yaml.add_constructor('!UnitFilter', self.constructor)
         yaml.add_constructor('!UnitGroupEmbedded', self.constructor)
         yaml.add_constructor('!UnitGroupFilter', self.constructor)
