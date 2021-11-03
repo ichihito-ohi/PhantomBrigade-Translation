@@ -58,7 +58,7 @@ try:
                                 data_resolver = yaml.safe_load(data['systems'][key_system]['resolver'])
                                 for key_resolver in data_resolver:
                                     if key_resolver == 'keys':
-                                        systems = data_resolver['keys']
+                                        systems.append(data_resolver['keys'])
 
                     str_parents = str(parents).replace('[','').replace(']','').replace("'", '').replace(',', ';')
                     str_systems = str(systems).replace('[','').replace(']','').replace("'", '').replace(',', ';')
