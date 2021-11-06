@@ -37,29 +37,33 @@ class Extractor:
         line = "%s,%s,%s,\"%s\"\n" % (folder, file, key, str_text)
         return line
 
-    # Convert constructor in yaml
-    def constructor(self, loader, node):
+    # Convert construction in yaml
+    def construct(self, loader, node):
         return node.tag
 
     # Add constructors to yaml loader
-    def add_constructors(self):
-        yaml.add_constructor('!ActionCallArgInt', self.constructor)
-        yaml.add_constructor('!ActionCallArgString', self.constructor)
-        yaml.add_constructor('!AreaLocation', self.constructor)
-        yaml.add_constructor('!AreaLocationFilter', self.constructor)
-        yaml.add_constructor('!EventCallArgInt', self.constructor)
-        yaml.add_constructor('!EventCallArgString', self.constructor)
-        yaml.add_constructor('!EventCallArgStringList', self.constructor)
-        yaml.add_constructor('!UnitFilter', self.constructor)
-        yaml.add_constructor('!UnitGroupEmbedded', self.constructor)
-        yaml.add_constructor('!UnitGroupFilter', self.constructor)
-        yaml.add_constructor('!UnitPresetLink', self.constructor)
-        yaml.add_constructor('!UnitPresetEmbedded', self.constructor)
+    def add_multi_constructors(self):
+        yaml.add_constructor('!ActionCallArgInt', self.construct)
+        yaml.add_constructor('!ActionCallArgString', self.construct)
+        yaml.add_constructor('!AreaLocation', self.construct)
+        yaml.add_constructor('!AreaLocationFilter', self.construct)
+        yaml.add_constructor('!EventCallArgInt', self.construct)
+        yaml.add_constructor('!EventCallArgString', self.construct)
+        yaml.add_constructor('!EventCallArgStringList', self.construct)
+        yaml.add_constructor('!PartResolverClear', self.construct)
+        yaml.add_constructor('!PartResolverKeys', self.construct)
+        yaml.add_constructor('!PartResolverTags', self.construct)
+        yaml.add_constructor('!SubsystemResolverKeys', self.construct)
+        yaml.add_constructor('!UnitFilter', self.construct)
+        yaml.add_constructor('!UnitGroupEmbedded', self.construct)
+        yaml.add_constructor('!UnitGroupFilter', self.construct)
+        yaml.add_constructor('!UnitPresetLink', self.construct)
+        yaml.add_constructor('!UnitPresetEmbedded', self.construct)
         pass
 
     # Initiate Extractor
     def __init__(self, root_path:pathlib.Path):
         self.root_path = root_path
         self.ver = self.getVersion()
-        self.add_constructors()
+        self.add_multi_constructors()
         pass
