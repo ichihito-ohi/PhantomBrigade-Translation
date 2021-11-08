@@ -42,14 +42,16 @@ try:
                     if data['description'] != None:
                         key = ex.formId(src_path, ['description'])
                         if key in csvDict:
-                            data['description'] = csvDict.get(key)
+                            if csvDict.get(key) != '':
+                                data['description'] = csvDict.get(key)
 
                     for key_entry in data['entries']:
                         if data['entries'][key_entry] != None:
                             if data['entries'][key_entry]['text'] != None:
                                 key = ex.formId(src_path, ['entries', key_entry, 'text'])
                                 if key in csvDict:
-                                    data['entries'][key_entry]['text'] = csvDict.get(key)
+                                    if csvDict.get(key) != '':
+                                        data['entries'][key_entry]['text'] = csvDict.get(key)
 
 
                     print(data)
