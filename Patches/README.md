@@ -24,7 +24,7 @@ Copyright (c) 2020, Ichihito Ohi
     `<jp-ver-yyyymmdd>.patch` を適用するパッチファイルの名前に変更してから以下のコマンドを実行してください．
     オプション `-p2` は省略せずに指定してください．
     ```
-    $ git apply -p2 Mods/Languages/<jp-ver-yyyymmdd>.patch
+    $ git apply -p2 Patches/<jp-ver-yyyymmdd>.patch
     ```
     `error: ` が表示された場合は失敗です．エラー内容をよく読んでください．
     以下の警告は無視してください．
