@@ -9,6 +9,10 @@ These scripts extract the source texts for translation and output them with the 
 ### Csv_to_yaml
 This script copy the yaml files and overwrite source texts with the translation texts according to the csv file.
 
+### Csv_to_ConfigEdits
+This script makes the config edit files for the official modding system according to the csv file of translation list.
+
+
 ## Requirements
 - Python 3.7 (Not verified with other versions.)
 - Editor
