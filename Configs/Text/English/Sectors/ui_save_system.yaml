@@ -1,4 +1,4 @@
-name: 
+name:
 description: Save system UI
 exportMode: None
 columns: []
@@ -6,29 +6,26 @@ splits: []
 entries:
   button_load_game:
     temp: true
-    text: >-
-      ロード
-      
-      ゲーム
+    text: 'ロード
+
+      ゲーム'
   button_save_game:
     temp: true
-    text: >-
-      セーブ
-      
-      ゲーム
+    text: 'セーブ
+
+      ゲーム'
   header_load:
     temp: true
-    text: "ロード"
+    text: ロード
   header_save:
     temp: true
-    text: "セーブ"
+    text: セーブ
   stat_list:
     temp: true
-    text: >-
-      侵略からの日数
-      
-      
+    text: '侵略からの日数
+
+
       プレイ時間
-      
-      
-      機体数
+
+
+      機体数'

@@ -74,13 +74,13 @@ entries:
     text: ''
   060tr_1w_event_draft_stealth__state_loot_0c_header:
     temp: true
-    text: 目標
+    text: 目的
   060tr_1w_event_draft_stealth__state_loot_0c_text:
     temp: true
     text: 民間人を救助するため、5ターンの間、最低1機を指定された地点に配置した状態でターンを終了しろ。
   060tr_1w_event_draft_stealth__step_retreat_0c_header:
     temp: true
-    text: 目標
+    text: 目的
   060tr_1w_event_draft_stealth__step_retreat_0c_text:
     temp: true
     text: 撤収または残る敵を殲滅しろ。民間人の脱出は完了した。
@@ -275,7 +275,7 @@ entries:
     text: 任務失敗、将軍が戦場から逃走した。キルチームが到着する前に撤収しろ。
   100tr_w2_event_assassination_general__step_b2_killteam_deployment_vip_ejected_0c_text:
     temp: true
-    text: "任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。"
+    text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。
   100tr_w2_event_assassination_general__step_b3_killteam_deployment_vip_alive_0c_text:
     temp: true
     text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。将軍の排除はまだ可能だが、一部のパイロットが取り残される結果になりかねない。
@@ -371,7 +371,7 @@ entries:
     text: 任務失敗、将軍が戦場から逃走した。キルチームが到着する前に撤収しろ。
   test_assassination__step_b2_killteam_deployment_vip_ejected_0c_text:
     temp: true
-    text: "任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。"
+    text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。
   test_assassination__step_b3_killteam_deployment_vip_alive_0c_text:
     temp: true
     text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。将軍の排除はまだ可能だが、一部のパイロットが取り残される結果になりかねない。
@@ -467,7 +467,7 @@ entries:
     text: 予備軍司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_06_boss_0c_text:
     temp: true
-    text: "将軍を戦いに引っ張り出した。ケリをつける時だ：最高司令部を無力化して敵軍の命令系統を混乱させるためにヤツを倒せ。"
+    text: 将軍を戦いに引っ張り出した。ケリをつける時だ：最高司令部を無力化して敵軍の命令系統を混乱させるためにヤツを倒せ。
   unique_mountainbase__core_header:
     temp: true
     text: Unique - Mountain Base
@@ -593,7 +593,7 @@ entries:
     text: さて、QまたはFキーでカメラを水平旋回できます。そしてRまたはFキーで垂直回転できます。また中央クリックを押しながらでも操作可能です。
   unique_tutorial_intro__step_04_discovery_0c_text:
     temp: true
-    text: "アンテナが妨害されているようだ：何が起きているか確かめろ"
+    text: アンテナが妨害されているようだ：何が起きているか確かめろ
   unique_tutorial_intro__step_05_prediction_boot_0c_text:
     temp: true
     text: プロトタイプハードウェアを起動して活動環境をスキャンしろ。
@@ -668,7 +668,7 @@ entries:
     text: チャンス―視線が通り標的と最適な距離になる瞬間を探しましょう。何もないならば、経路の変更を検討しましょう。
   unique_tutorial_intro__step_14_siege_hints_1hc_3_text:
     temp: true
-    text: '標的に近づき、かつダメージを避けることができるちょうど良い経路を探してみましょう。敵の射線と垂直に移動しましょう：撃たれにくくなります'
+    text: 標的に近づき、かつダメージを避けることができるちょうど良い経路を探してみましょう。敵の射線と垂直に移動しましょう：撃たれにくくなります
   unique_tutorial_intro__step_15_siege_freeform_0c_text:
     temp: true
     text: 敵を食い止め、街を守れ。

@@ -1,15 +1,14 @@
-name: 
-description: 
+name:
+description:
 exportMode: None
 columns: []
 splits: []
 entries:
   apply_settings:
     temp: true
-    text: >-
-      適用
+    text: '適用
 
-      変更
+      変更'
   audio_mode_compressed_desc:
     temp: true
     text: 全体ダイナミックレンジを圧縮し、音楽と効果音の低音を抑えます。静かな環境や配信に適しています。
@@ -219,7 +218,7 @@ entries:
     text: Half (30Hz)
   display_sync_level_off:
     temp: true
-    text: Off
+    text: false
   display_sync_name:
     temp: true
     text: ディスプレイ同期
@@ -229,9 +228,6 @@ entries:
   game_language_level_chinese:
     temp: true
     text: Chinese / 汉语
-  game_language_level_japanese:
-    temp: true
-    text: 日本語
   game_language_level_english:
     temp: true
     text: English
@@ -249,7 +245,7 @@ entries:
     text: '...'
   graphics_texture_filtering_level_0:
     temp: true
-    text: Off
+    text: false
   graphics_texture_filtering_level_1:
     temp: true
     text: 有効
@@ -330,7 +326,7 @@ entries:
     text: '...'
   input_gamepad_zoom_sensitivity_name:
     temp: true
-    text: ゲームパッド / カメラ感度
+    text: ゲームパッド / カメラ移動感度
   input_keyboard_look_invert_vertical_desc:
     temp: true
     text: '...'
@@ -408,7 +404,7 @@ entries:
     text: Undefined level
   level_default_bool_false:
     temp: true
-    text: Off
+    text: false
   level_default_bool_true:
     temp: true
-    text: On
+    text: true

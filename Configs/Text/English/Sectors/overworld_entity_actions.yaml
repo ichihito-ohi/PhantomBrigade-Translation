@@ -256,6 +256,24 @@ entries:
   cache_objective_target__6_desc:
     temp: true
     text: 隠された貯蔵庫の場所を見つけます。
+  cat_play__1_name:
+    temp: true
+    text: 猫と遊ぶ
+  cat_play__2_context:
+    temp: true
+    text: ペット
+  cat_play__3_start:
+    temp: true
+    text: 開始
+  cat_play__4_cancel:
+    temp: true
+    text: 中止
+  cat_play__5_finish:
+    temp: true
+    text: 完結
+  cat_play__6_desc:
+    temp: true
+    text: ''
   celebrate__1_name:
     temp: false
     text: 祝典
@@ -477,7 +495,7 @@ entries:
     text: 合流地点に到達
   draft_point__2_context:
     temp: false
-    text: Dra採用ft
+    text: 採用
   draft_point__3_start:
     temp: false
     text: 受諾
@@ -813,7 +831,43 @@ entries:
     text: 完結
   playwithdog__6_desc:
     temp: true
-    text: 現場チームが戦場で貴重な情報を捜索しています。
+    text: ''
+  purranormal_investigating__1_name:
+    temp: true
+    text: 調査中
+  purranormal_investigating__2_context:
+    temp: true
+    text: スーパー・ニャチュラル
+  purranormal_investigating__3_start:
+    temp: true
+    text: 開始
+  purranormal_investigating__4_cancel:
+    temp: true
+    text: 中止
+  purranormal_investigating__5_finish:
+    temp: true
+    text: 完結
+  purranormal_investigating__6_desc:
+    temp: true
+    text: ''
+  purranormal_target__1_name:
+    temp: true
+    text: 幽霊の出現位置
+  purranormal_target__2_context:
+    temp: true
+    text: スーパー・ニャチュラル
+  purranormal_target__3_start:
+    temp: true
+    text: 開始
+  purranormal_target__4_cancel:
+    temp: true
+    text: 中止
+  purranormal_target__5_finish:
+    temp: true
+    text: 完結
+  purranormal_target__6_desc:
+    temp: true
+    text: ''
   quest_tutorial_01__1_name:
     temp: false
     text: ゲーム開始 (1/3)
@@ -850,6 +904,24 @@ entries:
   raid_objective_target__6_desc:
     temp: true
     text: 襲撃された村に向かいます。
+  ranks_training__1_name:
+    temp: true
+    text: 新兵訓練
+  ranks_training__2_context:
+    temp: true
+    text: 貯蔵庫
+  ranks_training__3_start:
+    temp: true
+    text: 開始
+  ranks_training__4_cancel:
+    temp: true
+    text: 中止
+  ranks_training__5_finish:
+    temp: true
+    text: 完結
+  ranks_training__6_desc:
+    temp: true
+    text: ''
   recovery_help__1_name:
     temp: false
     text: 回収作業
@@ -945,7 +1017,7 @@ entries:
     text: 施設への輸送
   rescuesupplies_objective_deliver__2_context:
     temp: false
-    text: Captured Supplise
+    text: 奪われた物資
   rescuesupplies_objective_deliver__3_start:
     temp: false
     text: 受諾

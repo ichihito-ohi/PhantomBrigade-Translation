@@ -57,7 +57,7 @@ entries:
     text: Elbrus
   part_body_set_elbrus__text:
     temp: true
-    text: 頑丈だが旧式化した産業機械シリーズのひとつ。現地生産は20年前に終了しており、より新しい製品が歓迎されたことでエルブルスは徐々に姿を消しつつあるが、採掘、伐採、建設のような民間事業では現役である。整備が非常に簡単で、信頼できる機械として評判を得ている。
+    text: 頑丈だが旧型化した産業機械シリーズのひとつ。現地生産は20年前に終了しており、より新しい製品が歓迎されたことでエルブルスは徐々に姿を消しつつあるが、採掘、伐採、建設のような民間事業では現役である。整備が非常に簡単で、信頼できる機械として評判を得ている。
   part_body_set_helge__name:
     temp: true
     text: Helge
@@ -129,7 +129,7 @@ entries:
     text: Bluebreaker
   part_mnf_08__text:
     temp: true
-    text: '業界の注目度、売り上げ、品質の面で『ARMSキラー』と言われるメーカー。侵略軍によって正規に買収されて傘下に入った。'
+    text: 業界の注目度、売り上げ、品質の面で『ARMSキラー』と言われるメーカー。侵略軍によって正規に買収されて傘下に入った。
   part_mnf_09__name:
     temp: true
     text: Ghostworks
@@ -324,13 +324,13 @@ entries:
     text: 焼夷弾を高速に発射する実験的武器。命中した標的を加熱する。敵の熱を生じるアクションに合わせた攻撃が非常に効果的で容易にオーバーヒートによるダメージを発生させることができる。
   part_wpn_repeater_plasma__name:
     temp: true
-    text: 連射式プラズマ砲
+    text: 連射型プラズマ砲
   part_wpn_repeater_plasma__text:
     temp: true
     text: 重エネルギー投射体を中距離で発射する実験的武器。命中すると標的の安定性を損ない、（軽量な機体でも）相手に転倒の影響を受けやすくする。継続して発射すると、直接衝突せずとも、標的を完全に転倒させることができる。
   part_wpn_repeater_railgun__name:
     temp: true
-    text: 連射式レールガン
+    text: 連射型レールガン
   part_wpn_repeater_railgun__text:
     temp: true
     text: 弾丸を使用するマークスマンライフルと同様の役割を担う実験的な精密武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
@@ -354,7 +354,7 @@ entries:
     text: 射程と一発あたりのダメージを優先した実弾武器。静止中の射撃が最適である。
   part_wpn_seeker_plasma__name:
     temp: true
-    text: 誘導式プラズマ砲
+    text: 誘導型プラズマ砲
   part_wpn_seeker_plasma__text:
     temp: true
     text: 誘導エネルギー投射体を長距離で発射する実験的武器。命中すると標的の安定性を損ない、（軽量な機体でも）相手に転倒の影響を受けやすくする。継続して発射すると、直接衝突せずとも、標的を完全に転倒させることができる。
@@ -372,7 +372,7 @@ entries:
     text: 焼夷弾を発射する実験的なショットガン。敵の熱を生じるアクションに合わせた攻撃が非常に効果的で容易にオーバーヒートによるダメージを発生させることができる。
   part_wpn_splitter_railgun__name:
     temp: true
-    text: 拡散式レールガン
+    text: 拡散型レールガン
   part_wpn_splitter_railgun__text:
     temp: true
     text: ショットガンにやや似た実験的武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
@@ -393,7 +393,7 @@ entries:
     text: 補助冷却装置
   subsystem_internal_aux_cooling__text:
     temp: true
-    text: '冷却モジュールは機体の放熱を増加させる内部補助システムである。'
+    text: 冷却モジュールは機体の放熱を増加させる内部補助システムである。
   subsystem_internal_aux_gyro__name:
     temp: true
     text: 補助ジャイロ
@@ -405,7 +405,7 @@ entries:
     text: 補助ヒートシンク
   subsystem_internal_aux_heatsink__text:
     temp: true
-    text: '冷却モジュールは機体の放熱を増加させる内部補助システムである。'
+    text: 冷却モジュールは機体の放熱を増加させる内部補助システムである。
   subsystem_internal_aux_hydraulics__name:
     temp: true
     text: 補助油圧系
@@ -423,13 +423,13 @@ entries:
     text: 補助装甲
   subsystem_internal_aux_plating__text:
     temp: true
-    text: '内部補助装甲は使用部分に追加の耐久度を付与する。'
+    text: 内部補助装甲は使用部分に追加の耐久度を付与する。
   subsystem_internal_aux_reactor__name:
     temp: true
     text: 補助反応炉
   subsystem_internal_aux_reactor__text:
     temp: true
-    text: '主要内部サブシステム：ウォーカーの動力となるリング型常温核融合チャンバー。最新型は封じ込めが最低限で済み一般的に入手可能な反応炉燃料セルで数か月運転できる。このシステム無しに機体は展開できない。'
+    text: 主要内部サブシステム：ウォーカーの動力となるリング型常温核融合チャンバー。最新型は封じ込めが最低限で済み一般的に入手可能な反応炉燃料セルで数か月運転できる。このシステム無しに機体は展開できない。
   subsystem_internal_aux_regenerator__name:
     temp: true
     text: 補助再生装置
@@ -453,4 +453,4 @@ entries:
     text: スラスタ―
   subsystem_internal_aux_thruster__text:
     temp: true
-    text: 'スラスタ―は動力を消費して加速し、ダッシュアクションを可能にする。ダッシュアクションは熱を発生させる代わりにメックを短距離だが素早く推進することができる。'
+    text: スラスタ―は動力を消費して加速し、ダッシュアクションを可能にする。ダッシュアクションは熱を発生させる代わりにメックを短距離だが素早く推進することができる。

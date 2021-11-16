@@ -66,7 +66,7 @@ entries:
     text: 走行
   internal_aux_offense_name:
     temp: true
-    text: Offense
+    text: 攻撃
   internal_aux_top_core_name:
     temp: true
     text: コア

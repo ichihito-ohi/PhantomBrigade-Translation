@@ -9,37 +9,37 @@ entries:
     text: コモン
   prt_body_ratings_01__rating_1_text:
     temp: true
-    text: 大量生産設計．通常は閉鎖系構造で，コスト削減のためサブシステムは部品に直接溶接されている．コモンの部品は平均的な性能で，パークは僅かにプラスからマイナスの間で変動する．
+    text: 大量生産設計。通常は閉鎖系構造で、コスト削減のためサブシステムは部品に直接溶接されている。コモンの部品は平均的な性能で、パークは僅かにプラスからマイナスの間で変動する。
   prt_body_ratings_01__rating_2_name:
     temp: true
     text: アンコモン
   prt_body_ratings_01__rating_2_text:
     temp: true
-    text: 少量生産となることが多い高品質バリエーション．アンコモンの部品はいくつかの内部サブシステムがカスタマイズ可能で，より高性能なパークを備えている．製造コストが高い．
+    text: 少量生産となることが多い高品質バリエーション。アンコモンの部品はいくつかの内部サブシステムがカスタマイズ可能で、より高性能なパークを備えている。製造コストが高い。
   prt_body_ratings_01__rating_3_name:
     temp: true
     text: レア
   prt_body_ratings_01__rating_3_text:
     temp: true
-    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション．レアの部品はほとんどの内部サブシステムがカスタマイズ可能で，最高性能のパークを備えている．その代わり製造コストは高い．
+    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション。レアの部品はほとんどの内部サブシステムがカスタマイズ可能で、最高性能のパークを備えている。その代わり製造コストは高い。
   prt_body_ratings_starter__rating_1_name:
     temp: true
     text: コモン（スターターキット）
   prt_body_ratings_starter__rating_1_text:
     temp: true
-    text: 大量生産設計．通常は閉鎖系構造で，コスト削減のためサブシステムは部品に直接溶接されている．コモンの部品は平均的な性能で，パークは僅かにプラスからマイナスの間で変動する．
+    text: 大量生産設計。通常は閉鎖系構造で、コスト削減のためサブシステムは部品に直接溶接されている。コモンの部品は平均的な性能で、パークは僅かにプラスからマイナスの間で変動する。
   prt_body_ratings_starter__rating_2_name:
     temp: true
     text: アンコモン
   prt_body_ratings_starter__rating_2_text:
     temp: true
-    text: 少量生産となることが多い高品質バリエーション．アンコモンの部品はいくつかの内部サブシステムがカスタマイズ可能で，より高性能なパークを備えている．製造コストが高い．
+    text: 少量生産となることが多い高品質バリエーション。アンコモンの部品はいくつかの内部サブシステムがカスタマイズ可能で、より高性能なパークを備えている。製造コストが高い。
   prt_body_ratings_starter__rating_3_name:
     temp: true
     text: レア
   prt_body_ratings_starter__rating_3_text:
     temp: true
-    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション．レアの部品はほとんどの内部サブシステムがカスタマイズ可能で，最高性能のパークを備えている．その代わり製造コストは高い．
+    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション。レアの部品はほとんどの内部サブシステムがカスタマイズ可能で、最高性能のパークを備えている。その代わり製造コストは高い。
   prt_body_sockets__body_arm_name:
     temp: true
     text: 腕
@@ -84,25 +84,25 @@ entries:
     text: ''
   prt_item_melee__item_axe_name:
     temp: true
-    text: Axe
+    text: アックス
   prt_item_melee__item_axe_text:
     temp: true
     text: ''
   prt_item_melee__item_blade_name:
     temp: true
-    text: Blade
+    text: ブレード
   prt_item_melee__item_blade_text:
     temp: true
     text: ''
   prt_item_melee__item_cutter_name:
     temp: true
-    text: Cutter
+    text: カッター
   prt_item_melee__item_cutter_text:
     temp: true
     text: ''
   prt_item_melee__item_saber_name:
     temp: true
-    text: Saber
+    text: セイバー
   prt_item_melee__item_saber_text:
     temp: true
     text: ''
@@ -111,37 +111,37 @@ entries:
     text: コモン
   prt_item_ratings_01__rating_1_text:
     temp: true
-    text: 大量生産設計．コモンの部品は平均的な性能で，パークは僅かにプラスからマイナスの間で変動する．
+    text: 大量生産設計。コモンの部品は平均的な性能で、パークは僅かにプラスからマイナスの間で変動する。
   prt_item_ratings_01__rating_2_name:
     temp: true
     text: アンコモン
   prt_item_ratings_01__rating_2_text:
     temp: true
-    text: 少量生産となることが多い高品質バリエーション．アンコモンの部品はより高性能なパークを備えているが，建造コストが高い．
+    text: 少量生産となることが多い高品質バリエーション。アンコモンの部品はより高性能なパークを備えているが、建造コストが高い。
   prt_item_ratings_01__rating_3_name:
     temp: true
     text: レア
   prt_item_ratings_01__rating_3_text:
     temp: true
-    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション．レアの部品は最高性能のパークを備えているが，建造には非常にコストと時間がかかる．
+    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション。レアの部品は最高性能のパークを備えているが、建造には非常にコストと時間がかかる。
   prt_item_ratings_starter__rating_1_name:
     temp: true
     text: コモン（スターターキット）
   prt_item_ratings_starter__rating_1_text:
     temp: true
-    text: 大量生産設計．コモンの部品は平均的な性能で，パークは僅かにプラスからマイナスの間で変動する．
+    text: 大量生産設計。コモンの部品は平均的な性能で、パークは僅かにプラスからマイナスの間で変動する。
   prt_item_ratings_starter__rating_2_name:
     temp: true
     text: アンコモン
   prt_item_ratings_starter__rating_2_text:
     temp: true
-    text: 少量生産となることが多い高品質バリエーション．アンコモンの部品はより高性能なパークを備えているが，建造コストが高い．
+    text: 少量生産となることが多い高品質バリエーション。アンコモンの部品はより高性能なパークを備えているが、建造コストが高い。
   prt_item_ratings_starter__rating_3_name:
     temp: true
     text: レア
   prt_item_ratings_starter__rating_3_text:
     temp: true
-    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション．レアの部品は最高性能のパークを備えているが，建造には非常にコストと時間がかかる．
+    text: ハイパフォーマンス向けにカスタマイズされた最高品質バリエーション。レアの部品は最高性能のパークを備えているが、建造には非常にコストと時間がかかる。
   prt_item_shield__heavy_name:
     temp: true
     text: 重量級
@@ -159,13 +159,13 @@ entries:
     text: 追加装甲
   sub_aux_plating__utl_additive_text:
     temp: true
-    text: このグループの装甲サブシステムは質量増加と引き換えに防御力を優先します．
+    text: このグループの装甲サブシステムは質量増加と引き換えに防御力を優先します。
   sub_aux_plating__utl_subtractive_name:
     temp: true
     text: 装甲削減
   sub_aux_plating__utl_subtractive_text:
     temp: true
-    text: このグループの装甲サブシステムは防御力と引き換えに質量を削減します．
+    text: このグループの装甲サブシステムは防御力と引き換えに質量を削減します。
   sub_aux_ratings_01__rating_1_name:
     temp: true
     text: ''

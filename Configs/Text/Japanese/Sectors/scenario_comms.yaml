@@ -1,5 +1,5 @@
 name: Scenarios / Comms
-description: "Communications you receive in combat. Keys ending with \"header\" show who's speaking - normally it's no one unique (you'll find some heavily reused ones at the end, prefixed with \"src\"). Keys ending with \"text\" are main content. Some types of messages have multiple variants - for example, enemy talking about reinforcements would've gotten old too quickly if only one sentence was attached to that event, so there are some variants (\"text_00\", \"text_01\", \"text_02\" etc.). "
+description: 'Communications you receive in combat. Keys ending with "header" show who''s speaking - normally it''s no one unique (you''ll find some heavily reused ones at the end, prefixed with "src"). Keys ending with "text" are main content. Some types of messages have multiple variants - for example, enemy talking about reinforcements would''ve gotten old too quickly if only one sentence was attached to that event, so there are some variants ("text_00", "text_01", "text_02" etc.). '
 exportMode: LinePerKeySimple
 columns: []
 splits: []
@@ -72,7 +72,7 @@ entries:
     text: 農民どもに敗れるとは。なんて恥だ。もうこのような過ちは犯すまい。
   cm_assassination_vipdown_text_00:
     temp: false
-    text: '将軍ダウン！繰り返す、将軍ダウン！HQ、キルチームの姿が見えない―いったいどこにいるんだ？！'
+    text: 将軍ダウン！繰り返す、将軍ダウン！HQ、キルチームの姿が見えない―いったいどこにいるんだ？！
   cm_director_crew_enemydown1_text_00:
     temp: true
     text: 俯瞰の画は撮れたか？良いぞ、素晴らしい！
@@ -222,7 +222,7 @@ entries:
     text: 警備隊、敵接近中！防御陣形を取り、脅威を排除しろ！
   cm_draft_frontal_enemy_battlestart_text_01:
     temp: true
-    text: 'あれは...？警備隊、幻影旅団を付近に確認、急速に接近中！繰り返す、幻影旅団が接近中！'
+    text: あれは...？警備隊、幻影旅団を付近に確認、急速に接近中！繰り返す、幻影旅団が接近中！
   cm_draft_frontal_enemy_guerrilladown_text_00:
     temp: true
     text: 敵支援機ダウン！圧力をかけ続けろ、警備隊。再集結させるな！
@@ -237,7 +237,7 @@ entries:
     text: 調子に乗るからこうなるのさ。生きてここから出られると思うなよ。
   cm_draft_frontal_guerrillas_1tankdown_text_00:
     temp: true
-    text: '地上機1機がダウン。繰り返す、地上機ダウン。'
+    text: 地上機1機がダウン。繰り返す、地上機ダウン。
   cm_draft_frontal_guerrillas_1tankdown_text_01:
     temp: true
     text: 司令官、背後を取られた。このまま攻撃されたら準備ができていない。
@@ -249,7 +249,7 @@ entries:
     text: 我々戦闘員はリスクを承知していた、司令官...あの村人を捕まえねばならぬ、何としても！
   cm_draft_frontal_guerrillas_2tanksdown_text_02:
     temp: true
-    text: "...2機ダウン...司令官、これ以上戦車はありません。ご決断を。"
+    text: '...2機ダウン...司令官、これ以上戦車はありません。ご決断を。'
   cm_draft_frontal_pb_2enemyeliminated_text_00:
     temp: true
     text: ヤツらを追い詰めてます！あと少しです、ボス、あと少しで民間人の下にたどり着けます...
@@ -315,7 +315,7 @@ entries:
     text: そちらのパイロットが...？くそったれ。陽動部隊、圧力をかけ続けろ！旅団の部隊は形勢不利だ！
   cm_draft_stealth_guerrillas_1pilotejected_text_00:
     temp: true
-    text: "...射出を...通信が...干渉を...旅団、もう時間がない...早く片付けてくれ！"
+    text: '...射出を...通信が...干渉を...旅団、もう時間がない...早く片付けてくれ！'
   cm_draft_stealth_guerrillas_2enemieseliminated_text_00:
     temp: true
     text: ヤツらは何が起きたかまだ気づいていないようだ、旅団。だが、私だったらそこには長居しないな。
@@ -378,13 +378,13 @@ entries:
     text: 降下する。司令部が焦り始めている、これを乗り越えてやり遂げよう。
   cm_mid_replanning_camp_text_00:
     temp: true
-    text: '反乱軍が守備隊を壊滅させた、もっと良い進入角度に戦略的再配置が必要だ。'
+    text: 反乱軍が守備隊を壊滅させた、もっと良い進入角度に戦略的再配置が必要だ。
   cm_mid_replanning_camp_text_01:
     temp: true
     text: 反乱軍が守備隊を壊滅させた、戦術プランを更新する必要がある。
   cm_mid_replanning_squad_text_00:
     temp: true
-    text: '反乱軍機が現地の軍を壊滅させた、もっと良い進入角度に戦略的再配置が必要だ。'
+    text: 反乱軍機が現地の軍を壊滅させた、もっと良い進入角度に戦略的再配置が必要だ。
   cm_mid_replanning_squad_text_01:
     temp: true
     text: 反乱軍機が現地の軍を壊滅させた、戦術プランを更新する必要がある。
@@ -471,7 +471,7 @@ entries:
     text: ブラボー1、デッキに着陸する未確認のメックを視認。何が起きている？滑走路を塞がれて友軍機が着陸できん、ただちに対処するんだ。
   cm_unique_sky_stronghold_00_start_c1_text_00:
     temp: true
-    text: "ラジャー、交戦する。ゴミは元来た場所に戻してやろう。"
+    text: ラジャー、交戦する。ゴミは元来た場所に戻してやろう。
   cm_unique_sky_stronghold_01_wave_c0_text_00:
     temp: true
     text: 交戦中。相手をしつつ司令部に報告しよう―ここではしばらくの間何の活動も無かったはずだ、このウォーカーが何者かまったくわからん。
@@ -495,12 +495,11 @@ entries:
     text: こちらHQ。できません、司令官。追って連絡があるまで修理部隊は手が離せません。待機してください...
   cm_unique_tutorial_intro_04_discovery_c2_text_00:
     temp: false
-    text: >-
-      うわぁ！ここで何があったんだ？ [00]....................[ff]
+    text: 'うわぁ！ここで何があったんだ？[00]....................[ff]
 
-      くそ、おそらく暴徒の仕業だ [00]..........[ff]
+      くそ、おそらく暴徒の仕業だ[00]..........[ff]
 
-      [i]HQ、こちら特殊作戦ブラボー部隊、応急修理部隊を求む、オーバー...[/i]
+      [i]HQ、こちら特殊作戦ブラボー部隊、応急修理部隊を求む、オーバー...[/i]'
   cm_unique_tutorial_intro_06_prediction_explainer_c0_text_00:
     temp: false
     text: 理論上、このプロトタイプは少し先の未来を予測することができるが、これは戦場で計り知れないアドバンテージとなる。これは戦争を永遠に変え得るが、我々が握っている限り市民は安全だ。
@@ -509,14 +508,13 @@ entries:
     text: 私が電波塔の側面を偵察しに行く。そいつの暖機が済んだら、私の移動先が確認できるはずだから反対側に周ってくれ。
   cm_unique_tutorial_intro_08_tank_appears_c0_text_00:
     temp: false
-    text: >-
-      [i]HQ、地点 2-SBR-1-5 に未確認の非協力的な戦車を確認。[/i]  [00].........................................[ff]
+    text: '[i]HQ、地点 2-SBR-1-5 に未確認の非協力的な戦車を確認。[/i]  [00].........................................[ff]
 
       [i]確認を求む、オーバー。[/i]
 
       [aa]*無線ノイズ*[ff][00]......................[ff]
 
-      [i]HQ、確認を、オーバー。[/i]
+      [i]HQ、確認を、オーバー。[/i]'
   cm_unique_tutorial_intro_08_tank_appears_c1_text_00:
     temp: false
     text: 未確認の戦車だと... それに中継器が無い？これは一体？抜き打ち演習か？
@@ -546,7 +544,11 @@ entries:
     text: これは戦争ゲームではない...
   cm_unique_tutorial_intro_14_siege_hints_c0_text_00:
     temp: true
-    text: "ウォーカー1機と車両複数が接近中！\n覚えておけ、最悪の場合は試作機を回収されないように自爆装置をセットして完全に破壊するんだ！\n何があっても、脱出地点R09で合流しよう！"
+    text: 'ウォーカー1機と車両複数が接近中！
+
+      覚えておけ、最悪の場合は試作機を回収されないように自爆装置をセットして完全に破壊するんだ！
+
+      何があっても、脱出地点R09で合流しよう！'
   src_enemy_commander_direct_header:
     temp: true
     text: 将軍 / 直通回線

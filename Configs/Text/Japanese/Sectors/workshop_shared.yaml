@@ -9,19 +9,19 @@ entries:
     text: 本体部品
   generic_body_text:
     temp: true
-    text: 装甲セットから本体部品をひとつ製造します．選択した部品（腕，胴体上部，胴体下部）や品質に基づいてコストが増減します．
+    text: 装甲セットから本体部品をひとつ製造します。選択した部品（腕、胴体上部、胴体下部）や品質に基づいてコストが増減します。
   generic_sub_text:
     temp: true
-    text: サブシステムを製造します．ハードポイントをもつアンコモンやレアの本体部品をカスタマイズする際に利用できます．選択した品質に基づいてコストが増減します．
+    text: サブシステムを製造します。ハードポイントをもつアンコモンやレアの本体部品をカスタマイズする際に利用できます。選択した品質に基づいてコストが増減します。
   generic_unknown_header:
     temp: true
     text: 不明
   generic_unknown_text:
     temp: true
-    text: この工房プロジェクトの説明はありません．
+    text: この工房プロジェクトの説明はありません。
   generic_wpn_text:
     temp: true
-    text: 武器を製造します．選択した品質に基づいてコストが増減します．
+    text: 武器を製造します。選択した品質に基づいてコストが増減します。
   item_defensive_sub:
     temp: true
     text: 防御

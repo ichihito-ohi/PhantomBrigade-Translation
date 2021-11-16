@@ -46,7 +46,7 @@ entries:
     text: Hosfred
   province_06_desc:
     temp: false
-    text: '陸軍のほとんどで使用されている標準的な短距離通信技術、マッサー・レーダー発祥の地。 '
+    text: 陸軍のほとんどで使用されている標準的な短距離通信技術、マッサー・レーダー発祥の地。
   province_06_name:
     temp: false
     text: Vremmel
@@ -97,7 +97,7 @@ entries:
     text: 国境から遠く西海岸で守られており防御に適した位置にある恩恵を受け、首都は侵略中も難攻不落であることを証明した。
   province_14_name:
     temp: false
-    text: 首都地区
+    text: Capital District
   province_15_desc:
     temp: false
     text: 侵略軍は、その戦略的重要性のため、Styggut を接収することに特別な関心を持っていた。 ここには多くの採掘作業と発電所がある。

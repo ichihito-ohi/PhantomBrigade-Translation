@@ -1,4 +1,4 @@
-name: 
+name:
 description: Pause menu UI
 exportMode: None
 columns: []
@@ -6,34 +6,34 @@ splits: []
 entries:
   button_load:
     temp: true
-    text: "セーブデータをロード"
+    text: セーブデータをロード
   button_mm_campaign:
     temp: true
-    text: "基地"
+    text: 基地
   button_mm_demo:
     temp: true
-    text: "デモ"
+    text: デモ
   button_mm_overworld:
     temp: true
-    text: "全体マップ"
+    text: 全体マップ
   button_mm_start:
     temp: true
-    text: "[ff7766]Enter[-] を押して開始"
+    text: '[ff7766]Enter[-] を押して開始'
   button_options:
     temp: true
-    text: "オプション"
+    text: 設定
   button_quit:
     temp: true
-    text: "終了"
+    text: 終了
   button_quit_to_desktop:
     temp: true
-    text: "メニューに戻る"
+    text: メニューに戻る
   button_quit_to_menu:
     temp: true
-    text: "メニューに戻る"
+    text: メニューに戻る
   button_save:
     temp: true
-    text: "セーブ"
+    text: セーブ
   demo_thank_you:
     temp: true
-    text: "プレイしていただきありがとうございます！"
+    text: プレイしていただきありがとうございます！

@@ -60,10 +60,10 @@ entries:
     text: WASD でカメラ移動、 Q と E で旋回し R と F で上下回転します。
   overworld_salvage__0c_name:
     temp: false
-    text: 回収する
+    text: サルベージ
   overworld_salvage__1p_00_0c_header:
     temp: false
-    text: 回収する
+    text: サルベージ
   overworld_salvage__1p_00_0c_text:
     temp: false
     text: 戦闘の煙が晴れ、戦場を探索する時間ができました。敗北した場合、あなたの機体が失った部品を回収できるかもしれません。勝利した場合、敵の装備やアイテムも回収できます。

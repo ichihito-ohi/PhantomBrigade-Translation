@@ -15,7 +15,7 @@ entries:
     text: 下半身
   body_bottom__text:
     temp: true
-    text: "自重を支え移動を司る部分。[ffde5d]機体推進[-]を担う部分で、破壊されると移動能力を大きく失う。"
+    text: 自重を支え移動を司る部分。[ffde5d]機体推進[-]を担う部分で、破壊されると移動能力を大きく失う。
   body_set_arrow_heavy__name:
     temp: true
     text: Arrow 3H
@@ -57,7 +57,7 @@ entries:
     text: Elbrus
   body_set_elbrus_medium__text:
     temp: true
-    text: 頑丈だが旧式化した産業機械シリーズのひとつ。現地生産は20年前に終了しており、より新しい製品が歓迎されたことでエルブルスは徐々に姿を消しつつあるが、採掘、伐採、建設のような民間事業では現役である。整備が非常に簡単で、信頼できる機械として評判を得ている。
+    text: 頑丈だが旧型化した産業機械シリーズのひとつ。現地生産は20年前に終了しており、より新しい製品が歓迎されたことでエルブルスは徐々に姿を消しつつあるが、採掘、伐採、建設のような民間事業では現役である。整備が非常に簡単で、信頼できる機械として評判を得ている。
   body_set_helge_heavy__name:
     temp: true
     text: Helge
@@ -99,7 +99,7 @@ entries:
     text: 胴体上部
   body_top__text:
     temp: true
-    text: '操縦ポッドと反応炉を支える部分。機体の破壊に直結する[ff4c4c]重要な[-]部分（脱出しなかった場合はパイロットも死亡する）'
+    text: 操縦ポッドと反応炉を支える部分。機体の破壊に直結する[ff4c4c]重要な[-]部分（脱出しなかった場合はパイロットも死亡する）
   wpn_beam_01__name:
     temp: true
     text: BM1 Sunswarm
@@ -381,7 +381,7 @@ entries:
     text: PML-1 Slug
   wpn_ml_primary_02__text:
     temp: true
-    text: 広い標的範囲をもつ無誘導の低速、中射程ミサイルを1つ発射する。命中すれば大ダメージを与える。
+    text: 広い標的範囲と大ダメージをもつ誘導性能の低い低速、中射程ミサイルを1つ発射する。
   wpn_ml_primary_03__name:
     temp: true
     text: PML-6 Hornet
@@ -433,6 +433,15 @@ entries:
   wpn_railgun_repeater_01__name:
     temp: true
     text: MRE-01 Thermite
+  wpn_railgun_repeater_02__name:
+    temp: true
+    text: MRE-02 Lancer
+  wpn_railgun_repeater_03__name:
+    temp: true
+    text: MRE-03 Striker
+  wpn_railgun_smg_01__name:
+    temp: true
+    text: SMGRE-01 Barrage
   wpn_railgun_splitter_01__name:
     temp: true
     text: SGE-06 Flux
@@ -471,7 +480,7 @@ entries:
     text: SR-03 Lock
   wpn_rifle_sniper_02__text:
     temp: true
-    text: '強力なオートマチック長距離狙撃銃。'
+    text: 強力なオートマチック長距離狙撃銃。
   wpn_rifle_sniper_03__name:
     temp: true
     text: SR-04 Dice
@@ -490,7 +499,6 @@ entries:
   wpn_shield_02__text:
     temp: true
     text: 重量級複合装甲シールド。使用中は四方のうち二方面を遮蔽できる。
-
   wpn_shield_03__name:
     temp: true
     text: S3 Ajax

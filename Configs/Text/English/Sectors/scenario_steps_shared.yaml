@@ -36,7 +36,7 @@ entries:
     text: 情報なし
   generic_unknown_text:
     temp: true
-    text: 'HQとのアップリンク確立に失敗：現在、任務情報は使用不能。'
+    text: HQとのアップリンク確立に失敗：現在、任務情報は使用不能。
   unique_capital_header:
     temp: true
     text: 首都解放

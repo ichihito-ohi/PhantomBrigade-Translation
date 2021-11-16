@@ -63,7 +63,7 @@ entries:
     text: 大
   size_medium:
     temp: false
-    text: 中
+    text: 中量級
   size_small:
     temp: false
     text: 小

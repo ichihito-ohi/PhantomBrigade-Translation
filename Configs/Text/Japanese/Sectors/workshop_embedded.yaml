@@ -60,7 +60,7 @@ entries:
     text: 実弾兵器
   prt_item_ballistic_sniper_any_header:
     temp: true
-    text: 狙撃銃
+    text: スナイパーライフル
   prt_item_energy_beam_any_header:
     temp: true
     text: ビーム兵器
@@ -126,7 +126,7 @@ entries:
     text: センサー
   sub_aux_thruster_any_header:
     temp: true
-    text: スラスター
+    text: スラスタ―
   utl_unit_frame_header:
     temp: true
     text: メックフレーム
