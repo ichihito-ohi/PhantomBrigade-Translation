@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'textDesc: 投射体が武器から出た時の速度を決定する。'
+- 'textName: 投射体速度'
