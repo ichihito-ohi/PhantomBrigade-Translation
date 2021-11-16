@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'textDesc: 重量に基づいた機体の階級。衝突時の挙動を決定する。'
+- 'textName: 重量階級'

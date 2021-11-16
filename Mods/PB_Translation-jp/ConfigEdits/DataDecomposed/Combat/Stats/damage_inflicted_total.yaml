@@ -1,0 +1,5 @@
+removed: false
+edits:
+- 'textName: 与えたダメージ'
+- 'textSubtitle: 敵側'
+- 'textTooltip: 敵機に命中したダメージ総計。'

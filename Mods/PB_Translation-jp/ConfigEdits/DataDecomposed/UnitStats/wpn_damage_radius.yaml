@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'textDesc: 武器が機体にダメージを与える半径。一般的に爆発武器のパラメータである。'
+- 'textName: ダメージ半径'

@@ -1,0 +1,61 @@
+versionUsed: false
+buildUsed: false
+dateTimeUsed: false
+dateTimeDefinitive: false
+priority: 0
+versionMajor: 0
+versionMinor: 0
+versionPatch: 0
+buildNumber: 0
+dateTime: 0
+textLeftSubheader: Copyrigit (c) 2020, Ichihito Ohi
+textRightHeader: ''
+textRightSubheader: ''
+textTable: 
+textName: 日本語化Modについて
+textDesc: 
+sections: 
+- textHeader: ご質問・ご感想はこちら
+  textChanges: 
+  - '[pr=][aa]質問フォーム'
+  - 'https://github.com/ichihito-ohi/PhantomBrigade-Translation/issues/3'
+  - '[pr=][aa]Discord'
+  - 'BYG公式サーバー #phantom-modding チャンネル @ichihito_ohi'
+  - 'https://discord.gg/braceyourselfgames'
+- textHeader: 更新履歴
+  textChanges: 
+  - '[pr=][aa]jp-0130-20211117'
+  - '新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.13.0-b2773 に適用しました．未翻訳の部分があります．'
+  - 'Mod の適用方法を変更しました．'
+  - '一部の翻訳について，本体 Mod System で管理できるようになりました．具体的には， `Config/Data` および `Config/DataDecomposed` が対象です．この変更は，翻訳漏れの防止ならびに更新の効率化にむけた作業工程改善の一環です．'
+  - '上記に伴い，`Config/Data` および `Config/DataDecomposed` について，パッチファイルおよび手動上書き用ファイルから削除しました．'
+  - 'ただし， `Config/Text` は本体 Mod System が未対応のため，従来通り `git apply` または手動でのファイル上書きにより適用してください．'
+  - 
+  - '[pr=][aa]jp-0120-20211020'
+  - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.12.0-b2696 に適用しました．未翻訳の部分があります．
+  - 
+  - '[pr=][aa]jp-071-20210522'
+  - 本体アップデート Patch 0.7.1-b1896 の変更を翻訳に反映しました．
+  - 本体アップデート Patch 0.7.0-b1882 で追加された一部のファイルについて，ファイル名に不要なバイト列を含む問題があります．本体の修正待ちです．
+  - 
+  - '[pr=][aa]jp-071-20210520'
+  - 翻訳済みの内容を本体アップデート Patch 0.7.1-b1896 に適用しました．変更部分は翻訳されていません．
+  - 
+  - '[pr=][aa]jp-070-20210520'
+  - 翻訳済みの内容を本体アップデート Patch 0.7.0-b1882 に適用しました．変更部分は翻訳されていません．
+  - 
+  - '[pr=][aa]jp-061-20210427'
+  - 本体アップデート Patch 0.6.1-b1701 の変更を翻訳に反映しました．
+  - 翻訳範囲を拡大しました．
+  - ゲーム本体の言語切り替えが正しく機能しないため，一時的に Configs/Text/English/Sectors を Configs/Text/Japanese/Sectors で上書きしました．ゲーム内で英語を選択しても英語は表示されません．
+  - 
+  - '[pr=][aa]jp-061-20210422'
+  - 翻訳済みの内容を本体アップデート Patch 0.6.1-b1701 に適用しました．変更部分は翻訳されていません．
+  - 
+  - '[pr=][aa]jp-051-20210416'
+  - ゲーム中の一部を日本語化しました．
+  - 
+- textHeader: 謝辞（敬称略）
+  textChanges: 
+  - '[pr=][aa]Steamグループ 日本語化作業者互助会'
+  - Guzuo
