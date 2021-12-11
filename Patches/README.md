@@ -106,3 +106,4 @@ Copyright (c) 2020, Ichihito Ohi
 ## 謝辞（敬称略）
 ### Steamグループ 日本語化作業者互助会
 - Guzuo
+- AgeBdeR
