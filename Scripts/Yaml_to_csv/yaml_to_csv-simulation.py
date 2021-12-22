@@ -12,7 +12,7 @@ ex = pb.Extractor(root_path)
 # This script extract from single yaml file
 target = pathlib.Path('Configs/Data/Settings/simulation.yaml')
 src_path = root_path/target
-dst_stem = str(target).replace(target._flavour.sep, '-') + '-EN'
+dst_stem = pathlib.Path(str(target).replace(target._flavour.sep, '-')).stem + '-EN'
 dst_path = pathlib.Path(dst_stem).with_suffix('.csv')
 
 
