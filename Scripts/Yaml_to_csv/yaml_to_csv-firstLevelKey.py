@@ -11,11 +11,13 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
+    'Configs/DataDecomposed/Overworld/BaseActions',
     'Configs/DataDecomposed/Overworld/Blueprints',
     'Configs/DataDecomposed/Overworld/EventStats',
     'Configs/DataDecomposed/Overworld/FactionBranches',
     'Configs/DataDecomposed/Overworld/Provinces',
     'Configs/DataDecomposed/PilotChecks',
+    'Configs/DataDecomposed/Resources',
     'Configs/DataDecomposed/UnitBlueprints',
     'Configs/DataDecomposed/UnitChecks',
     'Configs/DataDecomposed/UnitPresets',
@@ -43,7 +45,7 @@ try:
                     for key0 in data:
                         if key0 == 'textHeader' or key0 == 'textContent' or key0 == 'textName' or key0 == 'textDesc' or key0 == 'description':
                             if data[key0] != None:
-                                line = ex.formCsvLine(src_path, data[key0], key0)
+                                line = ex.formCsvLine(src_path, data[key0], [key0])
                                 print(line)
                                 dst.write(line)
 

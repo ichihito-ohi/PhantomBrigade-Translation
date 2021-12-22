@@ -12,7 +12,7 @@ ex = pb.Extractor(root_path)
 # This script extract from single yaml file
 target = pathlib.Path('Configs/Data/Settings/ui.yaml')
 src_path = root_path/target
-dst_stem = str(target).replace(target._flavour.sep, '-') + '-EN'
+dst_stem = pathlib.Path(str(target).replace(target._flavour.sep, '-')).stem + '-EN'
 dst_path = pathlib.Path(dst_stem).with_suffix('.csv')
 
 
@@ -28,12 +28,12 @@ try:
 
             # TODO: Custom for yaml pattern
             for key_ui in data:
-                if key_ui == 'modeConfigs':
-                    for key_modeConfig in data['modeConfigs']:
-                        for key_item in data['modeConfigs'][key_modeConfig]:
-                            if key_item == 'header' or key_item == 'tooltip':
-                                if data['modeConfigs'][key_modeConfig][key_item] != None:
-                                    line = ex.formCsvLine(src_path, data['modeConfigs'][key_modeConfig][key_item], 'modeConfigs', key_modeConfig, key_item)
+                if key_ui == 'modeConfigs' or key_ui == 'commSources':
+                    for key_item in data[key_ui]:
+                        for key_source in data[key_ui][key_item]:
+                            if key_source == 'header' or key_source == 'tooltip' or key_source == 'text':
+                                if data[key_ui][key_item][key_source] != None:
+                                    line = ex.formCsvLine(src_path, data[key_ui][key_item][key_source], [key_ui, key_item, key_source])
                                     print(line)
                                     dst.write(line)
 

@@ -51,10 +51,10 @@ try:
                                 key = ex.formId(src_path, ['entries', key_entry, 'text'])
                                 if key in csvDict:
                                     if csvDict.get(key) != '':
+                                        print(csvDict.get(key))
                                         data['entries'][key_entry]['text'] = csvDict.get(key)
 
 
-                    print(data)
                     yaml.dump(data, dst, encoding='utf8', allow_unicode=True, width=sys.maxsize, sort_keys=False)
 
 
