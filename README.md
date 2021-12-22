@@ -1,7 +1,7 @@
 # PhantomBrigade-Translation
 
 ## License
-Copyright (c) 2020-2021 Ichihito Ohi
+Copyright (c) 2020, Ichihito Ohi
 
 These scripts are available for non-commercial use only.
 
