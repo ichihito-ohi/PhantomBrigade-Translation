@@ -19,7 +19,7 @@ class Extractor:
         except Exception as e:
             print(e, file=sys.stderr)
 
-    # Make a id with the defined format
+
     def formId(self, path:pathlib.Path, subkey_list:List[Union[int, str]]=None):
         folder = str(path.relative_to(self.root_path).parent.as_posix())
         file = str(path.stem)
@@ -50,6 +50,12 @@ class Extractor:
 
         str_text = str(text).replace('"', '""')
         line = "%s,%s,%s,\"%s\"\n" % (folder, file, key, str_text)
+        return line
+
+
+    def formEditLine(self, id:str=None, text:str=None):
+        key = id.split(':')[1]
+        line = key + ': ' + text
         return line
 
     # Convert construction in yaml
@@ -86,9 +92,10 @@ class Extractor:
         pass
 
     # Initiate Extractor
-    def __init__(self, root_path:pathlib.Path):
-        self.root_path = root_path
-        self.ver = self.getVersion()
-        self.add_multi_constructors()
-        self.add_multi_representors()
+    def __init__(self, root_path:pathlib.Path=None):
+        if root_path != None:
+            self.root_path = root_path
+            self.ver = self.getVersion()
+            self.add_multi_constructors()
+            self.add_multi_representors()
         pass
