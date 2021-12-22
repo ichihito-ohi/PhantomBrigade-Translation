@@ -18,7 +18,7 @@ entries:
     text: 中止
   alarm_easy__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   alarm_easy__6_desc:
     temp: true
     text: 敵軍が気づいて調査のために機体を送ってくる可能性があります。
@@ -36,7 +36,7 @@ entries:
     text: 中止
   alarm_hard__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   alarm_hard__6_desc:
     temp: true
     text: 敵軍が気づいて調査のために機体を送ってくる可能性があります。
@@ -54,7 +54,7 @@ entries:
     text: 中止
   alarm_medium__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   alarm_medium__6_desc:
     temp: true
     text: 敵軍が気づいて調査のために機体を送ってくる可能性があります。
@@ -90,7 +90,7 @@ entries:
     text: 中止
   breakin_easy__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   breakin_easy__6_desc:
     temp: true
     text: 現場チームが戦場で回収可能な装備を捜索しています。
@@ -108,7 +108,7 @@ entries:
     text: 中止
   breakin_hard__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   breakin_hard__6_desc:
     temp: true
     text: 現場チームが戦場で回収可能な装備を捜索しています。
@@ -126,7 +126,7 @@ entries:
     text: 中止
   breakin_medium__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   breakin_medium__6_desc:
     temp: true
     text: 現場チームが戦場で回収可能な装備を捜索しています。
@@ -270,7 +270,7 @@ entries:
     text: 中止
   cat_play__5_finish:
     temp: true
-    text: 完結
+    text: 完了
   cat_play__6_desc:
     temp: true
     text: ''
@@ -288,7 +288,7 @@ entries:
     text: 中止
   celebrate__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   celebrate__6_desc:
     temp: true
     text: 現地のお祭りでクルーとお祝いをしてリラックスします。
@@ -414,7 +414,7 @@ entries:
     text: 中止
   core_workshop_discovery__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   core_workshop_discovery__6_desc:
     temp: true
     text: 農場技術者の工房の位置を特定します。
@@ -558,7 +558,7 @@ entries:
     text: 中止
   festival_outcome_feed__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   festival_outcome_feed__6_desc:
     temp: true
     text: 現地のお祭りでクルーとお祝いをしてリラックスします。
@@ -576,7 +576,7 @@ entries:
     text: 中止
   festival_outcome_help__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   festival_outcome_help__6_desc:
     temp: true
     text: お祭りの手伝いをして焚き火に火をつけます。
@@ -594,7 +594,7 @@ entries:
     text: 中止
   investigate__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   investigate__6_desc:
     temp: true
     text: 現場チームが戦場で貴重な情報を捜索しています。
@@ -612,7 +612,7 @@ entries:
     text: 中止
   lightsout_fixing__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   lightsout_fixing__6_desc:
     temp: true
     text: 戦闘で破壊された送電線を修理します。
@@ -666,7 +666,7 @@ entries:
     text: 中止
   observing_2h__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   observing_2h__6_desc:
     temp: true
     text: 腰を下ろして人工衛星の雨を眺めます。
@@ -684,7 +684,7 @@ entries:
     text: 中止
   observing_4h__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   observing_4h__6_desc:
     temp: true
     text: 腰を下ろして人工衛星の雨を眺めます。
@@ -702,7 +702,7 @@ entries:
     text: 中止
   observing_6h__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   observing_6h__6_desc:
     temp: true
     text: 腰を下ろして人工衛星の雨を眺めます。
@@ -720,7 +720,7 @@ entries:
     text: 中止
   parade__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   parade__6_desc:
     temp: true
     text: パレードに参加して祝典に参加します。
@@ -738,7 +738,7 @@ entries:
     text: 中止
   party__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   party__6_desc:
     temp: true
     text: 誕生日パーティーを開きます。
@@ -750,7 +750,7 @@ entries:
     text: 幻影製薬
   pharma_objective_delivery_final__3_start:
     temp: false
-    text: 受諾
+    text: 配達
   pharma_objective_delivery_final__4_cancel:
     temp: false
     text: 中止
@@ -771,7 +771,7 @@ entries:
     text: 受諾
   pharma_objective_delivery_long__4_cancel:
     temp: false
-    text: 中止
+    text: 配達
   pharma_objective_delivery_long__5_finish:
     temp: false
     text: 完了
@@ -789,7 +789,7 @@ entries:
     text: 受諾
   pharma_objective_delivery_short__4_cancel:
     temp: false
-    text: 中止
+    text: 配達
   pharma_objective_delivery_short__5_finish:
     temp: false
     text: 完了
@@ -810,7 +810,7 @@ entries:
     text: 中止
   pilot_rescue__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   pilot_rescue__6_desc:
     temp: true
     text: 捜索救助活動が進行中で程なく成功する見込みです。
@@ -828,7 +828,7 @@ entries:
     text: 中止
   playwithdog__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   playwithdog__6_desc:
     temp: true
     text: ''
@@ -846,7 +846,7 @@ entries:
     text: 中止
   purranormal_investigating__5_finish:
     temp: true
-    text: 完結
+    text: 完了
   purranormal_investigating__6_desc:
     temp: true
     text: ''
@@ -864,7 +864,7 @@ entries:
     text: 中止
   purranormal_target__5_finish:
     temp: true
-    text: 完結
+    text: 完了
   purranormal_target__6_desc:
     temp: true
     text: ''
@@ -918,7 +918,7 @@ entries:
     text: 中止
   ranks_training__5_finish:
     temp: true
-    text: 完結
+    text: 完了
   ranks_training__6_desc:
     temp: true
     text: ''
@@ -954,7 +954,7 @@ entries:
     text: 中止
   recovery_manual_01__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   recovery_manual_01__6_desc:
     temp: true
     text: トラクターを救助しています。
@@ -972,7 +972,7 @@ entries:
     text: 中止
   recovery_manual_02__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   recovery_manual_02__6_desc:
     temp: true
     text: トラクターを救助しています。
@@ -1062,7 +1062,7 @@ entries:
     text: 中止
   research__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   research__6_desc:
     temp: true
     text: 移動基地で新しい技術を研究しています。
@@ -1098,7 +1098,7 @@ entries:
     text: 中止
   satelliteshower__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   satelliteshower__6_desc:
     temp: true
     text: 腰を下ろして人工衛星の雨を眺めます。
@@ -1116,7 +1116,7 @@ entries:
     text: 中止
   unit_repair__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   unit_repair__6_desc:
     temp: true
     text: 移動基地で機体のひとつを修理しています。
@@ -1134,7 +1134,7 @@ entries:
     text: 中止・資源返却
   workshop_build__5_finish:
     temp: false
-    text: 完結
+    text: 完了
   workshop_build__6_desc:
     temp: true
     text: 我々の工房が指定されたプロジェクトに取り組んでいます。このアクションを中止すると投入した資源は返却されます。

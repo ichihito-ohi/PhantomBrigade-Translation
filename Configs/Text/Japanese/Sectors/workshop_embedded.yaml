@@ -66,13 +66,13 @@ entries:
     text: ビーム兵器
   prt_item_energy_concussion_any_header:
     temp: true
-    text: 衝撃効果
+    text: 衝撃系兵器
   prt_item_energy_railgun_any_header:
     temp: true
     text: レールガン
   prt_item_energy_stagger_any_header:
     temp: true
-    text: 震動効果
+    text: 震動系兵器
   prt_item_energy_thermal_any_header:
     temp: true
     text: 焼夷弾

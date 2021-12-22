@@ -150,6 +150,12 @@ entries:
   065tr_2w_fort_hitandrun__core_text:
     temp: true
     text: ''
+  080tr_1w_event_director_outpost__core_header:
+    temp: true
+    text: ''
+  080tr_1w_event_director_outpost__core_text:
+    temp: true
+    text: ''
   080tr_1w_event_draft_frontal__core_header:
     temp: true
     text: ''
@@ -291,6 +297,126 @@ entries:
   100tr_w2_event_assassination_general__step_d1_retreat_cutoff_0c_text:
     temp: true
     text: 敵をすべて排除するかパイロットを射出させろ。敵軍が移動基地への撤収経路を封鎖した。
+  convoy_looting_easy__core_header:
+    temp: true
+    text: ''
+  convoy_looting_easy__core_text:
+    temp: true
+    text: ''
+  convoy_looting_hard__core_header:
+    temp: true
+    text: ''
+  convoy_looting_hard__core_text:
+    temp: true
+    text: ''
+  convoy_looting_normal__core_header:
+    temp: true
+    text: ''
+  convoy_looting_normal__core_text:
+    temp: true
+    text: ''
+  core_convoy_looting__core_header:
+    temp: true
+    text: ''
+  core_convoy_looting__core_text:
+    temp: true
+    text: ''
+  core_fort_elimination__core_header:
+    temp: true
+    text: ''
+  core_fort_elimination__core_text:
+    temp: true
+    text: ''
+  core_squad_elimination__core_header:
+    temp: true
+    text: Attack - Squad / 40R - 1W
+  core_squad_elimination__core_text:
+    temp: true
+    text: ''
+  generic_convoy_looting__core_header:
+    temp: true
+    text: ''
+  generic_convoy_looting__core_text:
+    temp: true
+    text: ''
+  generic_patrol_elimination__core_header:
+    temp: true
+    text: ''
+  generic_patrol_elimination__core_text:
+    temp: true
+    text: ''
+  patrol_elimination_easy__core_header:
+    temp: true
+    text: ''
+  patrol_elimination_easy__core_text:
+    temp: true
+    text: ''
+  patrol_elimination_hard__core_header:
+    temp: true
+    text: ''
+  patrol_elimination_hard__core_text:
+    temp: true
+    text: ''
+  patrol_elimination_normal__core_header:
+    temp: true
+    text: ''
+  patrol_elimination_normal__core_text:
+    temp: true
+    text: ''
+  prototype_convoy_1__core_header:
+    temp: true
+    text: ''
+  prototype_convoy_1__core_text:
+    temp: true
+    text: ''
+  prototype_convoy_2__core_header:
+    temp: true
+    text: ''
+  prototype_convoy_2__core_text:
+    temp: true
+    text: ''
+  prototype_convoy_3__core_header:
+    temp: true
+    text: ''
+  prototype_convoy_3__core_text:
+    temp: true
+    text: ''
+  prototype_patrol_1__core_header:
+    temp: true
+    text: ''
+  prototype_patrol_1__core_text:
+    temp: true
+    text: ''
+  prototype_patrol_2__core_header:
+    temp: true
+    text: ''
+  prototype_patrol_2__core_text:
+    temp: true
+    text: ''
+  prototype_patrol_3__core_header:
+    temp: true
+    text: ''
+  prototype_patrol_3__core_text:
+    temp: true
+    text: ''
+  prototype_site_1__core_header:
+    temp: true
+    text: ''
+  prototype_site_1__core_text:
+    temp: true
+    text: ''
+  prototype_site_2__core_header:
+    temp: true
+    text: ''
+  prototype_site_2__core_text:
+    temp: true
+    text: ''
+  prototype_site_3__core_header:
+    temp: true
+    text: ''
+  prototype_site_3__core_text:
+    temp: true
+    text: ''
   shootingrange_armors__core_header:
     temp: true
     text: Shooting Range - Armors
@@ -307,6 +433,12 @@ entries:
     temp: true
     text: Shooting Range - Empty (No Squad)
   shootingrange_empty__core_text:
+    temp: true
+    text: ''
+  shootingrange_empty__step_main_0c_header:
+    temp: true
+    text: ''
+  shootingrange_empty__step_main_0c_text:
     temp: true
     text: ''
   shootingrange_empty_squad__core_header:

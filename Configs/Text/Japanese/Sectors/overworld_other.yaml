@@ -1,0 +1,21 @@
+name: Overworld (Other)
+description: Other text used by overworld - various tooltips, weather info etc.
+exportMode: LinePerKeySimple
+columns: []
+splits: []
+entries:
+  weather_l025_name:
+    temp: true
+    text: 晴天
+  weather_l050_name:
+    temp: true
+    text: 曇天
+  weather_l066_name:
+    temp: true
+    text: 小雨
+  weather_l083_name:
+    temp: true
+    text: 雨天
+  weather_l100_name:
+    temp: true
+    text: 大雨

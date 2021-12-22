@@ -11,455 +11,455 @@ entries:
     temp: true
     text: JNIが生産する先進的な重量級装甲。『角』の内部に追加のセンサ装置を搭載したことで珍しい形状となった最新のオールラウンド設計が採用されている。整備の複雑さと限られた専門用途のため戦地で用いられることはほとんどない。
   internal_aux_capacitor_r1__name:
-    temp: true
+    temp: false
     text: キャパシター - 標準型
   internal_aux_capacitor_r1__text:
-    temp: true
-    text: 熱キャパシターを増加させ、オーバーヒートまでの時間を延長する。
+    temp: false
+    text: 熱容量を増加させることでオーバーヒートまでの時間を延長する。
   internal_aux_capacitor_r2__name:
-    temp: true
+    temp: false
     text: キャパシター - 改良型
   internal_aux_capacitor_r2__text:
-    temp: true
-    text: 熱キャパシターを増加させ、オーバーヒートまでの時間を延長する。標準型キャパシターよりも性能が高い。
+    temp: false
+    text: 熱容量を増加させることでオーバーヒートまでの時間をさらに延長する。
   internal_aux_capacitor_r3__name:
-    temp: true
+    temp: false
     text: キャパシター - 最高級
   internal_aux_capacitor_r3__text:
-    temp: true
-    text: 熱キャパシターを増加させ、オーバーヒートまでの時間を延長する。改良型キャパシターよりも性能が高い。
+    temp: false
+    text: 熱容量を増加させることでオーバーヒートまでの時間を大幅に延長する。
   internal_aux_core_charge__name:
-    temp: true
+    temp: false
     text: コア - チャージ
   internal_aux_core_charge__text:
-    temp: true
-    text: オーバーヒート限界とダメージを重視する。
+    temp: false
+    text: 熱容量を増加させることでダメージ出力を向上する。
   internal_aux_core_heat__name:
-    temp: true
+    temp: false
     text: コア - ヒート
   internal_aux_core_heat__text:
-    temp: true
-    text: 排熱とダメージを重視する。
+    temp: false
+    text: 排熱量を増加させることでダメージ出力を向上する。
   internal_aux_core_launch__name:
-    temp: true
+    temp: false
     text: コア - ローンチ
   internal_aux_core_launch__text:
-    temp: true
-    text: 排熱が低下するが、出力が上昇する。
+    temp: false
+    text: 出力を増加させるが排熱量が減少する。
   internal_aux_core_overdrive__name:
-    temp: true
+    temp: false
     text: コア - オーバードライブ
   internal_aux_core_overdrive__text:
-    temp: true
-    text: 機動出力を重視する。
+    temp: false
+    text: 機動力を増加させる。
   internal_aux_core_regen__name:
-    temp: true
+    temp: false
     text: コア - リジェネ
   internal_aux_core_regen__text:
-    temp: true
-    text: バリア再生を重視する。
+    temp: false
+    text: バリア再生速度を増加させる。
   internal_aux_core_standard__name:
-    temp: true
+    temp: false
     text: コア - スタンダード
   internal_aux_core_standard__text:
-    temp: true
-    text: 標準型のコア。
+    temp: false
+    text: 性能を上昇する。
   internal_aux_gyro_r1__name:
-    temp: true
+    temp: false
     text: ジャイロ - 標準型
   internal_aux_gyro_r1__text:
-    temp: true
-    text: 重量を削減し、間接的に速度を上昇させる。
+    temp: false
+    text: 重量を削減して間接的に速度を上昇させる。
   internal_aux_gyro_r2__name:
-    temp: true
+    temp: false
     text: ジャイロ - 改良型
   internal_aux_gyro_r2__text:
-    temp: true
-    text: さらに重量を削減し、間接的に速度を上昇させる。
+    temp: false
+    text: さらに重量を削減して間接的に速度を上昇させる。
   internal_aux_gyro_r3__name:
-    temp: true
+    temp: false
     text: ジャイロ - 最高級
   internal_aux_gyro_r3__text:
-    temp: true
-    text: 大幅に重量を削減して、間接的に速度を上昇させる。改良型ジャイロよりも性能が高い。
+    temp: false
+    text: 大幅に重量を削減して間接的に速度を上昇させる。
   internal_aux_heatsink_r1__name:
-    temp: true
+    temp: false
     text: ヒートシンク - パッシブ型
   internal_aux_heatsink_r1__text:
-    temp: true
-    text: 排熱をわずかに増加する。
+    temp: false
+    text: 出力と速度を犠牲にして排熱量をわずかに増加させる。
   internal_aux_heatsink_r2__name:
-    temp: true
+    temp: false
     text: ヒートシンク - アクティブ型
   internal_aux_heatsink_r2__text:
-    temp: true
-    text: 大幅に排熱を増加させるが、出力が減少する。
+    temp: false
+    text: 出力と速度を犠牲にして排熱量を大幅に増加させる。
   internal_aux_heatsink_r3__name:
-    temp: true
-    text: ヒートシンク - ハイブリッド型
+    temp: false
+    text: ヒートシンク - 改良型
   internal_aux_heatsink_r3__text:
-    temp: true
-    text: 出力が減少するが、排熱が増加する。
+    temp: false
+    text: 出力と速度を犠牲にして排熱量を極めて大幅に増加させる。
   internal_aux_hydraulics_1__name:
-    temp: true
+    temp: false
     text: 油圧系 - 標準型
   internal_aux_hydraulics_1__text:
-    temp: true
-    text: 排熱を犠牲に重量を削減する。
+    temp: false
+    text: 排熱を犠牲にして重量を削減する。
   internal_aux_hydraulics_2__name:
-    temp: true
+    temp: false
     text: 油圧系 - 改良型
   internal_aux_hydraulics_2__text:
-    temp: true
-    text: 排熱を犠牲に重量を削減する。標準型油圧系よりも性能が高い。
+    temp: false
+    text: 排熱を犠牲にしてさらに重量を削減する。
   internal_aux_hydraulics_3__name:
-    temp: true
+    temp: false
     text: 油圧系 - 最高級
   internal_aux_hydraulics_3__text:
-    temp: true
-    text: 排熱を犠牲に重量を大幅に削減する。改良型油圧系よりも性能が高い。
+    temp: false
+    text: 排熱を犠牲にして大幅に重量を削減する。
   internal_aux_plating_basic__name:
-    temp: true
+    temp: false
     text: 装甲 - 標準型
   internal_aux_plating_basic__text:
-    temp: true
-    text: 重量と耐久度をわずかに増加させる。
+    temp: false
+    text: 重量と耐久度を増加させる。
   internal_aux_plating_composite__name:
-    temp: true
+    temp: false
     text: 装甲 - 複合型
   internal_aux_plating_composite__text:
-    temp: true
-    text: 重量が増加するが、耐久度とバリアをわずかに増加させる。
+    temp: false
+    text: 重量を増加させて耐久度とバリアをわずかに増加させる。
   internal_aux_plating_empty__name:
-    temp: true
+    temp: false
     text: 装甲 - 空
   internal_aux_plating_empty__text:
-    temp: true
-    text: 耐久度とバリアを低下させて、大幅に重量を削減する。
+    temp: false
+    text: 大幅に重量を削減するが、耐久度とバリアが減少する。
   internal_aux_plating_heavy__name:
-    temp: true
+    temp: false
     text: 装甲 - 重量級
   internal_aux_plating_heavy__text:
-    temp: true
+    temp: false
     text: 重量とともに耐久度とバリアを大幅に増加させる。
   internal_aux_plating_hollowed__name:
-    temp: true
+    temp: false
     text: 装甲 - 中空型
   internal_aux_plating_hollowed__text:
-    temp: true
-    text: 耐久度とバリアをわずかに低下させて、重量を削減する。
+    temp: false
+    text: 重量を削減するが耐久度とバリアがわずかに減少する。
   internal_aux_plating_regenerative__name:
-    temp: true
+    temp: false
     text: 装甲 - 再生型
   internal_aux_plating_regenerative__text:
-    temp: true
+    temp: false
     text: 重量が増加するが、バリア再生がわずかに上昇する。
   internal_aux_reactor_r1__name:
-    temp: true
+    temp: false
     text: 反応炉 - 標準型
   internal_aux_reactor_r1__text:
-    temp: true
-    text: 追加出力で、直接速度を上昇させる。
+    temp: false
+    text: 追加出力を供給して、速度を上昇させる。
   internal_aux_reactor_r2__name:
-    temp: true
+    temp: false
     text: 反応炉 - 改良型
   internal_aux_reactor_r2__text:
-    temp: true
-    text: 追加出力を増加して、直接速度を増加させる。標準型反応炉よりも性能が高い。
+    temp: false
+    text: さらに追加出力を供給して、速度を上昇させる。
   internal_aux_reactor_r3__name:
-    temp: true
+    temp: false
     text: 反応炉 - 最高級
   internal_aux_reactor_r3__text:
-    temp: true
-    text: 大幅な追加出力で、直接速度を増加させる。改良型反応炉よりも性能が高い。
+    temp: false
+    text: 大幅に追加出力を供給して、速度を上昇させる。
   internal_aux_regenerator_r1__name:
-    temp: true
+    temp: false
     text: 再生装置 - 標準型
   internal_aux_regenerator_r1__text:
-    temp: true
-    text: バリア再生速度を強化する。バリアに依存する機体に有用。
+    temp: false
+    text: バリア再生速度を強化する。
   internal_aux_regenerator_r2__name:
-    temp: true
+    temp: false
     text: 再生装置 - 改良型
   internal_aux_regenerator_r2__text:
-    temp: true
-    text: さらにバリア再生速度を強化する。バリアに依存する機体に有用。標準型再生器よりも性能が高い。
+    temp: false
+    text: さらにバリア再生速度を強化する。
   internal_aux_regenerator_r3__name:
-    temp: true
+    temp: false
     text: 再生装置 - 最高級
   internal_aux_regenerator_r3__text:
-    temp: true
-    text: 大幅にバリア再生速度を強化する。バリアに依存する機体に有用。改良型再生器よりも性能が高い。
+    temp: false
+    text: 大幅にバリア再生速度を強化する。
   internal_aux_sensor_left_hybrid__name:
-    temp: true
+    temp: false
     text: 照準 - 左
   internal_aux_sensor_left_hybrid__text:
-    temp: true
-    text: 適用した武器の射程距離を延長する。静止時と移動時の拡散を減少する。
+    temp: false
+    text: 左の武器の射程距離を延長し、静止時と移動時の拡散を減少する。
   internal_aux_sensor_left_range__name:
-    temp: true
+    temp: false
     text: センサ - 左
   internal_aux_sensor_left_range__text:
-    temp: true
-    text: 適用した武器の射程距離を延長する。
+    temp: false
+    text: 左の武器の射程距離を延長する。
   internal_aux_sensor_left_scatter__name:
-    temp: true
+    temp: false
     text: スタビライザー - 左
   internal_aux_sensor_left_scatter__text:
-    temp: true
-    text: 適用した武器の静止時と移動時の拡散を減少する。
+    temp: false
+    text: 左の武器の静止時と移動時の拡散を減少する。
   internal_aux_sensor_right_hybrid__name:
-    temp: true
+    temp: false
     text: 照準 - 右
   internal_aux_sensor_right_hybrid__text:
-    temp: true
-    text: 適用した武器の射程距離を延長する。静止時と移動時の拡散を減少する。
+    temp: false
+    text: 右の武器の射程距離を延長し、静止時と移動時の拡散を減少する。
   internal_aux_sensor_right_range__name:
-    temp: true
+    temp: false
     text: センサ - 右
   internal_aux_sensor_right_range__text:
-    temp: true
-    text: 適用した武器の射程距離を延長する。
+    temp: false
+    text: 右の武器の射程距離を延長する。
   internal_aux_sensor_right_scatter__name:
-    temp: true
+    temp: false
     text: スタビライザー - 右
   internal_aux_sensor_right_scatter__text:
-    temp: true
-    text: 適用した武器の静止時と移動時の拡散を減少する。
+    temp: false
+    text: 右の武器の静止時と移動時の拡散を減少する。
   internal_aux_thruster_distance__name:
-    temp: true
+    temp: false
     text: DST Reach
   internal_aux_thruster_distance__text:
-    temp: true
-    text: ダッシュ距離に最適化されたスラスター。
+    temp: false
+    text: 長距離ダッシュに最適化されているが、オーバーヒートしやすい。
   internal_aux_thruster_endurance__name:
-    temp: true
+    temp: false
     text: EDT Endurance
   internal_aux_thruster_endurance__text:
-    temp: true
-    text: 長時間の使用に最適化されたスラスター。
+    temp: false
+    text: 発熱量と出力を抑えて調整されており、総合的な移動性能の向上のために距離を抑えている。
   internal_aux_thruster_evasion__name:
-    temp: true
+    temp: false
     text: EVT Flashpoint
   internal_aux_thruster_evasion__text:
-    temp: true
-    text: 接近する誘導爆弾の妨害に最適化されたスラスター。
+    temp: false
+    text: 軽量だが、結果的に、他のスラスターと比べて性能は低い。
   internal_aux_thruster_heavy__name:
-    temp: true
+    temp: false
     text: HVT Atlas
   internal_aux_thruster_heavy__text:
-    temp: true
-    text: より重いメックを持ち上げることに最適化されたスラスター。
+    temp: false
+    text: 性能重視で調整されているが、大半のスラスターより重い。
   internal_aux_thruster_hotrod__name:
-    temp: true
+    temp: false
     text: PVT Hotrod
   internal_aux_thruster_hotrod__text:
-    temp: true
-    text: 発熱量の増加を犠牲にして出力に最適化されたスラスター。
+    temp: false
+    text: 性能重視で調整されているが、結果的に発熱量が大きい。
   internal_aux_thruster_sidestep__name:
-    temp: true
+    temp: false
     text: LEV Sidestep
   internal_aux_thruster_sidestep__text:
-    temp: true
-    text: 持続的な低出力使用に最適化されたスラスター。
+    temp: false
+    text: 連続的な短距離移動に最適化されているが、長距離移動には適していない。
   internal_aux_thruster_standard__name:
-    temp: true
+    temp: false
     text: STV Logi
   internal_aux_thruster_standard__text:
-    temp: true
-    text: バランスが取れた平均的性能のスラスター。
+    temp: false
+    text: バランスの取れた性能に調整されている。
   perk_barrier_neg_r1__name:
-    temp: true
+    temp: false
     text: バリア -
   perk_barrier_neg_r2__name:
-    temp: true
+    temp: false
     text: バリア - -
   perk_barrier_pos_r1__name:
-    temp: true
+    temp: false
     text: バリア +
   perk_barrier_pos_r2__name:
-    temp: true
+    temp: false
     text: バリア ++
   perk_barrier_pos_r3__name:
-    temp: true
+    temp: false
     text: バリア +++
   perk_damage_neg_r1__name:
-    temp: true
+    temp: false
     text: ダメージ -
   perk_damage_neg_r2__name:
-    temp: true
+    temp: false
     text: ダメージ - -
   perk_damage_pos_r1__name:
-    temp: true
+    temp: false
     text: ダメージ +
   perk_damage_pos_r2__name:
-    temp: true
+    temp: false
     text: ダメージ ++
   perk_damage_pos_r3__name:
-    temp: true
+    temp: false
     text: ダメージ +++
   perk_dissipation_neg_r1__name:
-    temp: true
+    temp: false
     text: 排熱 -
   perk_dissipation_neg_r2__name:
-    temp: true
+    temp: false
     text: 排熱 - -
   perk_dissipation_pos_r1__name:
-    temp: true
+    temp: false
     text: 排熱 +
   perk_dissipation_pos_r2__name:
-    temp: true
+    temp: false
     text: 排熱 ++
   perk_dissipation_pos_r3__name:
-    temp: true
+    temp: false
     text: 排熱 +++
   perk_dps_neg_r1__name:
-    temp: true
+    temp: false
     text: DPS -
   perk_dps_neg_r2__name:
-    temp: true
+    temp: false
     text: DPS - -
   perk_dps_pos_r1__name:
-    temp: true
+    temp: false
     text: DPS +
   perk_dps_pos_r2__name:
-    temp: true
-    text: DPS +++
+    temp: false
+    text: DPS++
   perk_dps_pos_r3__name:
-    temp: true
-    text: DPS ++
+    temp: false
+    text: DPS +++
   perk_duration_neg_r1__name:
-    temp: true
+    temp: false
     text: 動作速度 -
   perk_duration_neg_r2__name:
-    temp: true
+    temp: false
     text: 動作速度 - -
   perk_duration_pos_r1__name:
-    temp: true
+    temp: false
     text: 動作速度 +
   perk_duration_pos_r2__name:
-    temp: true
+    temp: false
     text: 動作速度 ++
   perk_duration_pos_r3__name:
-    temp: true
+    temp: false
     text: 動作速度 +++
   perk_heat_neg_r1__name:
-    temp: true
+    temp: false
     text: 発熱 -
   perk_heat_neg_r2__name:
-    temp: true
+    temp: false
     text: 発熱 - -
   perk_heat_pos_r1__name:
-    temp: true
+    temp: false
     text: 発熱 +
   perk_heat_pos_r2__name:
-    temp: true
+    temp: false
     text: 発熱 ++
   perk_heat_pos_r3__name:
-    temp: true
+    temp: false
     text: 発熱 +++
   perk_integrity_neg_r1__name:
-    temp: true
+    temp: false
     text: 耐久度 -
   perk_integrity_neg_r2__name:
-    temp: true
+    temp: false
     text: 耐久度 - -
   perk_integrity_pos_r1__name:
-    temp: true
+    temp: false
     text: 耐久度 +
   perk_integrity_pos_r2__name:
-    temp: true
+    temp: false
     text: 耐久度 ++
   perk_integrity_pos_r3__name:
-    temp: true
+    temp: false
     text: 耐久度 +++
   perk_mass_neg_r1__name:
-    temp: true
+    temp: false
     text: 質量 -
   perk_mass_neg_r2__name:
-    temp: true
+    temp: false
     text: 質量 - -
   perk_mass_pos_r1__name:
-    temp: true
+    temp: false
     text: 質量 +
   perk_mass_pos_r2__name:
-    temp: true
+    temp: false
     text: 質量 ++
   perk_mass_pos_r3__name:
-    temp: true
+    temp: false
     text: 質量 +++
   perk_power_neg_r1__name:
-    temp: true
+    temp: false
     text: 出力 -
   perk_power_neg_r2__name:
-    temp: true
+    temp: false
     text: 出力 - -
   perk_power_pos_r1__name:
-    temp: true
+    temp: false
     text: 出力 +
   perk_power_pos_r2__name:
-    temp: true
+    temp: false
     text: 出力 ++
   perk_power_pos_r3__name:
-    temp: true
+    temp: false
     text: 出力 +++
   perk_range_distance_neg_r1__name:
-    temp: true
+    temp: false
     text: 射程距離 -
   perk_range_distance_neg_r2__name:
-    temp: true
+    temp: false
     text: 射程距離 - -
   perk_range_distance_pos_r1__name:
-    temp: true
+    temp: false
     text: 射程距離 +
   perk_range_distance_pos_r2__name:
-    temp: true
+    temp: false
     text: 射程距離 ++
   perk_range_distance_pos_r3__name:
-    temp: true
+    temp: false
     text: 射程距離 +++
   perk_range_effective_neg_r1__name:
-    temp: true
+    temp: false
     text: 有効射程 -
   perk_range_effective_neg_r2__name:
-    temp: true
+    temp: false
     text: 有効射程 - -
   perk_range_effective_pos_r1__name:
-    temp: true
+    temp: false
     text: 有効射程 +
   perk_range_effective_pos_r2__name:
-    temp: true
+    temp: false
     text: 有効射程 ++
   perk_range_effective_pos_r3__name:
-    temp: true
+    temp: false
     text: 有効射程 +++
   perk_scatter_idle_neg_r1__name:
-    temp: true
+    temp: false
     text: 静止時拡散 -
   perk_scatter_idle_neg_r2__name:
-    temp: true
+    temp: false
     text: 静止時拡散 - -
   perk_scatter_idle_pos_r1__name:
-    temp: true
+    temp: false
     text: 静止時拡散 +
   perk_scatter_idle_pos_r2__name:
-    temp: true
+    temp: false
     text: 静止時拡散 ++
   perk_scatter_idle_pos_r3__name:
-    temp: true
+    temp: false
     text: 静止時拡散 +++
   perk_scatter_neg_r1__name:
-    temp: true
+    temp: false
     text: 拡散 -
   perk_scatter_neg_r2__name:
-    temp: true
+    temp: false
     text: 拡散 - -
   perk_scatter_pos_r1__name:
-    temp: true
+    temp: false
     text: 拡散 +
   perk_scatter_pos_r2__name:
-    temp: true
+    temp: false
     text: 拡散 ++
   perk_scatter_pos_r3__name:
-    temp: true
+    temp: false
     text: 拡散 +++

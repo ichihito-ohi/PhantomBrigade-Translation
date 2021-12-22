@@ -218,7 +218,7 @@ entries:
     text: Half (30Hz)
   display_sync_level_off:
     temp: true
-    text: false
+    text: オフ
   display_sync_name:
     temp: true
     text: ディスプレイ同期
@@ -245,7 +245,7 @@ entries:
     text: '...'
   graphics_texture_filtering_level_0:
     temp: true
-    text: false
+    text: 無効
   graphics_texture_filtering_level_1:
     temp: true
     text: 有効
@@ -404,7 +404,7 @@ entries:
     text: Undefined level
   level_default_bool_false:
     temp: true
-    text: false
+    text: オフ
   level_default_bool_true:
     temp: true
-    text: true
+    text: オン

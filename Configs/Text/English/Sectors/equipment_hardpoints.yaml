@@ -5,92 +5,92 @@ columns: []
 splits: []
 entries:
   external_arm_lower_name:
-    temp: true
+    temp: false
     text: 前腕装甲
   external_arm_lower_suffix:
-    temp: true
+    temp: false
     text: A2
   external_arm_upper_name:
-    temp: true
+    temp: false
     text: 上腕装甲
   external_arm_upper_suffix:
-    temp: true
+    temp: false
     text: A1
   external_bottom_left_lower_name:
-    temp: true
+    temp: false
     text: 左脚下腿装甲
   external_bottom_left_lower_suffix:
-    temp: true
+    temp: false
     text: L2
   external_bottom_left_upper_name:
-    temp: true
+    temp: false
     text: 左脚大腿装甲
   external_bottom_left_upper_suffix:
-    temp: true
+    temp: false
     text: L1
   external_bottom_right_lower_name:
-    temp: true
+    temp: false
     text: 右脚下腿装甲
   external_bottom_right_lower_suffix:
-    temp: true
+    temp: false
     text: L2
   external_bottom_right_upper_name:
-    temp: true
+    temp: false
     text: 右脚大腿装甲
   external_bottom_right_upper_suffix:
-    temp: true
+    temp: false
     text: L1
   external_top_head_name:
-    temp: true
+    temp: false
     text: 頭部装甲
   external_top_head_suffix:
-    temp: true
+    temp: false
     text: T1
   external_top_pelvis_name:
-    temp: true
+    temp: false
     text: 胴体下部装甲
   external_top_pelvis_suffix:
-    temp: true
+    temp: false
     text: T3
   external_top_torso_name:
-    temp: true
+    temp: false
     text: 胴体上部装甲
   external_top_torso_suffix:
-    temp: true
+    temp: false
     text: T2
   internal_aux_defense_name:
-    temp: true
-    text: 防御
+    temp: false
+    text: 防御サブシステム
   internal_aux_mobility_name:
-    temp: true
-    text: 走行
+    temp: false
+    text: 機動サブシステム
   internal_aux_offense_name:
-    temp: true
-    text: 攻撃
+    temp: false
+    text: 攻撃サブシステム
   internal_aux_top_core_name:
-    temp: true
+    temp: false
     text: コア
   internal_aux_top_thrusters_name:
-    temp: true
+    temp: false
     text: スラスタ―
   internal_main_equipment_name:
-    temp: true
+    temp: false
     text: 内部フレーム
   internal_vhc_chassis_name:
-    temp: true
+    temp: false
     text: シャーシ
   internal_vhc_side_name:
-    temp: true
+    temp: false
     text: 側面
   internal_vhc_turret_name:
-    temp: true
+    temp: false
     text: 砲塔
   perk_1_name:
-    temp: true
+    temp: false
     text: 改造パーツ
   perk_2_name:
-    temp: true
+    temp: false
     text: 改造パーツ
   perk_3_name:
-    temp: true
+    temp: false
     text: 改造パーツ
