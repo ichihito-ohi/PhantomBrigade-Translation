@@ -24,6 +24,10 @@ try:
         dst_path = pathlib.Path(dst_stem).with_suffix('.csv')
 
         with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
+            ver = ex.getVersion()
+            print(ex.ver)
+            dst.write(ex.ver + '\n')
+            
             for p in src_list:
                 src_path = pathlib.Path(p)    
                 with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
@@ -32,20 +36,20 @@ try:
 
                     # TODO: Custom for yaml pattern
                     for key_item in data:
-                        if key_item == 'textHeader' or key_item == 'textName' or key_item == 'textSubtitle' or key_item == 'textTooltip' or key_item == 'description':
+                        if key_item == 'textName' or key_item == 'textSubtitle' or key_item == 'textTooltip' or key_item == 'description':
                             if data[key_item] != None:
-                                line = ex.formCsvLine(src_path, data[key_item], key_item)
+                                line = ex.formCsvLine(src_path, data[key_item], [key_item])
                                 print(line)
                                 dst.write(line)
 
-                        elif key_item == 'textContent':
-                            if data[key_item] != None:
-                                i = 0
-                                for text in data[key_item]:
-                                    i += 1
-                                    line = ex.formCsvLine(src_path, text, key_item, i)
-                                    print(line)
-                                    dst.write(line)
+                        if key_item == 'sourceCustom':
+                            if data['sourceCustom'] != None:
+                                for key_custom in data['sourceCustom']:
+                                    if key_custom == 'text':
+                                        if data['sourceCustom']['text'] != None:
+                                            line = ex.formCsvLine(src_path, data['sourceCustom']['text'], ['sourceCustom', 'text'])
+                                            print(line)
+                                            dst.write(line)
 
 
 except Exception as e:

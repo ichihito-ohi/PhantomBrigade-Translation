@@ -11,7 +11,7 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Overworld/Actions']
+    'Configs/Text/English/Sectors']
 
 
 try:
@@ -22,19 +22,28 @@ try:
         dst_path = pathlib.Path(dst_stem).with_suffix('.csv')
 
         with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
+            ver = ex.getVersion()
+            print(ex.ver)
+            dst.write(ex.ver + '\n')
+
             for p in src_list:
                 src_path = pathlib.Path(p)    
                 with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
         
                     data = yaml.load(src,yaml.FullLoader)
 
-                    if data['ui'] != None:
-                        for key_item in data['ui']:
-                            if key_item == 'textName' or key_item == 'textContext' or key_item == 'textStart' or key_item == 'textCancel' or key_item == 'textEnd' or key_item == 'textDesc':
-                                if data['ui'][key_item] != None:
-                                    line = ex.formCsvLine(src_path, data['ui'][key_item], key_item)
-                                    print(line)
-                                    dst.write(line)
+                    # TODO: Custom for yaml pattern
+                    if data['description'] != None:
+                        line = ex.formCsvLine(src_path, data['description'], ['description'])
+                        print(line)
+                        dst.write(line)
+
+                    for key_entry in data['entries']:
+                        if data['entries'][key_entry] != None:
+                            if data['entries'][key_entry]['text'] != None:
+                                line = ex.formCsvLine(src_path, data['entries'][key_entry]['text'], ['entries', key_entry, 'text'])
+                                print(line)
+                                dst.write(line)
 
 
 except Exception as e:
