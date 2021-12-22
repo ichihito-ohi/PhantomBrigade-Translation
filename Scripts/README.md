@@ -1,17 +1,27 @@
-# yaml_to_csv Scripts
+# Python Scripts of Translation Toolkit
 
-Copyright (c) 2020-2021 Ichihito Ohi
+Copyright (c) 2021 Ichihito Ohi
+
+## Main Purposes
+### Yaml_to_csv
+These scripts extract the source texts for translation and output them with the metadata of folder path, file name, and ID into a csv file.
+
+### Csv_to_yaml
+This script copy the yaml files and overwrite source texts with the translation texts according to the csv file.
+
+### Csv_to_ConfigEdits
+This script makes the config edit files for the official modding system according to the csv file of translation list.
+
 
 ## Requirements
 - Python 3.7 (Not verified with other versions.)
 - Editor
     - *(Official recommended)* Notepad++
-- *(Recommended)* CSV viewer;
-    - Microsoft Office Excel
 - *(Recommended)* A virtual environment manager for Python;
     - Visual Studio 2019 Community
+- *(Recommended)* CSV viewer;
+    - Microsoft Office Excel
 
----
 ## How to Use
 
 ### Preparation
@@ -40,43 +50,9 @@ Copyright (c) 2020-2021 Ichihito Ohi
         - You can set as relative path, but it could be changed depending on environment.
 
 1.  Run the script.
-    - Successed; you will get a csv file in same folder as the script.
-    - Not successed; python will show error message, read it before you exit.
+    - Run it at the same directory to  `phantom_brigade.py`.
+    - When not successed; python will show error message, read it before you exit.
 
 ### Common Error
 - You may set wrong path.
 - Some original files have special characters which system in some locations can't deal, so *you need to replace to other available character* using editor before you run.
-
----
-## Support Files
-
-_(Common)_
-### yaml_to_csv-Text.py
-- `PhantomBrigade/Configs/Text`
-### yaml_to_csv-firstLevelKey.py
-- `PhantomBrigade/Configs/DataDecomposed/Overworld/Blueprints`
-- `PhantomBrigade/Configs/DataDecomposed/Overworld/EventStats`
-- `PhantomBrigade/Configs/DataDecomposed/Overworld/FactionBranches`
-- `PhantomBrigade/Configs/DataDecomposed/Overworld/Provinces`
-- `PhantomBrigade/Configs/DataDecomposed/PilotChecks`
-- `PhantomBrigade/Configs/DataDecomposed/UnitBlueprints`
-- `PhantomBrigade/Configs/DataDecomposed/UnitChecks`
-- `PhantomBrigade/Configs/DataDecomposed/UnitPresets`
-- `PhantomBrigade/Configs/DataDecomposed/UnitStats`
-### yaml_to_csv-Combat.py (WIP)
-- `PhantomBrigade/Configs/DataDecomposed/Combat/Stats`
-- `PhantomBrigade/Configs/DataDecomposed/Combat/UnitGroups`
-
-_(Unique)_
-### yaml_to_csv-Cutscenes.py
-- `PhantomBrigade/Configs/DataDecomposed/Cutscenes`
-### yaml_to_csv-InfoPages.py
-- `PhantomBrigade/Configs/DataDecomposed/InfoPages`
-### yaml_to_csv-simulation.py
-- `PhantomBrigade/Configs/Data/Settings/simulation.yaml`
-### yaml_to_csv-ui.py (WIP)
-- `PhantomBrigade/Configs/Data/Settings/ui.yaml`
-
-_(Not required but remain)_
-### yaml_to_csv-Tutorials.py
-- `PhantomBrigade/Configs/DataDecomposed/Tutorials`

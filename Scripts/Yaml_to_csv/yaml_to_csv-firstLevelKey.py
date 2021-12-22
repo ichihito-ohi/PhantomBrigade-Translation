@@ -11,8 +11,17 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Combat/Stats',
-    'Configs/DataDecomposed/Combat/UnitGroups']
+    'Configs/DataDecomposed/Overworld/BaseActions',
+    'Configs/DataDecomposed/Overworld/Blueprints',
+    'Configs/DataDecomposed/Overworld/EventStats',
+    'Configs/DataDecomposed/Overworld/FactionBranches',
+    'Configs/DataDecomposed/Overworld/Provinces',
+    'Configs/DataDecomposed/PilotChecks',
+    'Configs/DataDecomposed/Resources',
+    'Configs/DataDecomposed/UnitBlueprints',
+    'Configs/DataDecomposed/UnitChecks',
+    'Configs/DataDecomposed/UnitPresets',
+    'Configs/DataDecomposed/UnitStats']
 
 
 try:
@@ -26,18 +35,17 @@ try:
             ver = ex.getVersion()
             print(ex.ver)
             dst.write(ex.ver + '\n')
-            
+
             for p in src_list:
                 src_path = pathlib.Path(p)    
                 with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
-        
-                    data = yaml.load(src,yaml.FullLoader)
 
-                    # TODO: Custom for yaml pattern
-                    for key_item in data:
-                        if key_item == 'textName' or key_item == 'textSubtitle' or key_item == 'textTooltip' or key_item == 'description':
-                            if data[key_item] != None:
-                                line = ex.formCsvLine(src_path, data[key_item], key_item)
+                    data = yaml.load(src, yaml.FullLoader)
+
+                    for key0 in data:
+                        if key0 == 'textHeader' or key0 == 'textContent' or key0 == 'textName' or key0 == 'textDesc' or key0 == 'description':
+                            if data[key0] != None:
+                                line = ex.formCsvLine(src_path, data[key0], [key0])
                                 print(line)
                                 dst.write(line)
 

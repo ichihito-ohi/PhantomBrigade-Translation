@@ -11,7 +11,7 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Tutorials']
+    'Configs/DataDecomposed/Cutscenes']
 
 
 try:
@@ -33,16 +33,19 @@ try:
                     data = yaml.load(src,yaml.FullLoader)
 
                     # TODO: Custom for yaml pattern
-                    if data['pages'] != None:
-                        for key_page in data['pages']:
-                            data_page = yaml.safe_load(yaml.safe_dump(key_page))
-                            for key_item in data_page:
-                                if key_item == 'header' or key_item == 'content':
-                                    if data_page[key_item] != None:
-                                        line = ex.formCsvLine(src_path, data_page[key_item], key_item)
-                                        print(line)
-                                        dst.write(line)
+                    if data['subtitles'] != None:
+
+                        i = -1
+                        for key_sub in data['subtitles']:
+                            i += 1
+                            
+                            data_sub = yaml.safe_load(yaml.safe_dump(key_sub))
+                            if data_sub['textContent'] != None:
+                                line = ex.formCsvLine(src_path, data_sub['textContent'], ['subtitles', i, 'textContent'])
+                                print(line)
+                                dst.write(line)
 
 
 except Exception as e:
-    print(e, file = sys.stderr)
+    print(e, file=sys.stderr)
+    # sys.exit(1)

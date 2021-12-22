@@ -11,7 +11,7 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/Text/English/Sectors']
+    'Configs/DataDecomposed/Tutorials']
 
 
 try:
@@ -25,7 +25,7 @@ try:
             ver = ex.getVersion()
             print(ex.ver)
             dst.write(ex.ver + '\n')
-
+            
             for p in src_list:
                 src_path = pathlib.Path(p)    
                 with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
@@ -33,18 +33,20 @@ try:
                     data = yaml.load(src,yaml.FullLoader)
 
                     # TODO: Custom for yaml pattern
-                    if data['description'] != None:
-                        line = ex.formCsvLine(src_path, data['description'], 'description')
-                        print(line)
-                        dst.write(line)
+                    if data['pages'] != None:
 
-                    for key_entry in data['entries']:
-                        if data['entries'][key_entry] != None:
-                            if data['entries'][key_entry]['text'] != None:
-                                line = ex.formCsvLine(src_path, data['entries'][key_entry]['text'], key_entry, 'text')
-                                print(line)
-                                dst.write(line)
+                        i = -1
+                        for key_page in data['pages']:
+                            i += 1
+                            
+                            data_page = yaml.safe_load(yaml.safe_dump(key_page))
+                            for key_item in data_page:
+                                if key_item == 'header' or key_item == 'content':
+                                    if data_page[key_item] != None:
+                                        line = ex.formCsvLine(src_path, data_page[key_item], ['pages', i, key_item])
+                                        print(line)
+                                        dst.write(line)
 
 
 except Exception as e:
-    print(e, file=sys.stderr)
+    print(e, file = sys.stderr)
