@@ -52,6 +52,7 @@ _(Common)_
 ### yaml_to_csv-Text.py
 - `Configs/Text`
 ### yaml_to_csv-firstLevelKey.py
+- `Configs/DataDecomposed/Overworld/BaseActions`
 - `Configs/DataDecomposed/Overworld/Blueprints`
 - `Configs/DataDecomposed/Overworld/EventStats`
 - `Configs/DataDecomposed/Overworld/FactionBranches`
