@@ -37,9 +37,18 @@ try:
                     for key_item in data:
                         if key_item == 'textName' or key_item == 'textSubtitle' or key_item == 'textTooltip' or key_item == 'description':
                             if data[key_item] != None:
-                                line = ex.formCsvLine(src_path, data[key_item], key_item)
+                                line = ex.formCsvLine(src_path, data[key_item], [key_item])
                                 print(line)
                                 dst.write(line)
+
+                        if key_item == 'sourceCustom':
+                            if data['sourceCustom'] != None:
+                                for key_custom in data['sourceCustom']:
+                                    if key_custom == 'text':
+                                        if data['sourceCustom']['text'] != None:
+                                            line = ex.formCsvLine(src_path, data['sourceCustom']['text'], ['sourceCustom', 'text'])
+                                            print(line)
+                                            dst.write(line)
 
 
 except Exception as e:

@@ -27,12 +27,15 @@ try:
             data = yaml.load(src,yaml.FullLoader)
 
             # TODO: Custom for yaml pattern
+            i = -1
             for key_item in data['weightClasses']:
+                i += 1
+
                 data_item = yaml.safe_load(yaml.safe_dump(key_item))
                 for key_text in data_item:
                     if key_text == 'textName' or key_text == 'textDesc':
                         if data_item[key_text] != None:
-                            line = ex.formCsvLine(src_path, data_item[key_text], data_item['textName'], key_text)
+                            line = ex.formCsvLine(src_path, data_item[key_text], ['weightClasses', i, key_text])
                             print(line)
                             dst.write(line)
 

@@ -34,13 +34,14 @@ try:
 
                     # TODO: Custom for yaml pattern
                     if data['subtitles'] != None:
+
+                        i = -1
                         for key_sub in data['subtitles']:
-                        # print(key_states)
+                            i += 1
+                            
                             data_sub = yaml.safe_load(yaml.safe_dump(key_sub))
-                            time = data_sub['time']
-                            textContent = data_sub['textContent']
-                            if time != None and textContent != None:
-                                line = ex.formCsvLine(src_path, textContent, time)
+                            if data_sub['textContent'] != None:
+                                line = ex.formCsvLine(src_path, data_sub['textContent'], ['subtitles', i, 'textContent'])
                                 print(line)
                                 dst.write(line)
 

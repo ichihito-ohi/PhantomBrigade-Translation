@@ -43,7 +43,7 @@ try:
                     for key0 in data:
                         if key0 == 'textHeader' or key0 == 'textContent' or key0 == 'textName' or key0 == 'textDesc' or key0 == 'description':
                             if data[key0] != None:
-                                line = ex.formCsvLine(src_path, data[key0], key0)
+                                line = ex.formCsvLine(src_path, data[key0], [key0])
                                 print(line)
                                 dst.write(line)
 
