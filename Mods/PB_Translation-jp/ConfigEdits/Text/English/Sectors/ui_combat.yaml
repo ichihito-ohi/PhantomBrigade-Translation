@@ -1,0 +1,116 @@
+removed: false
+edits:
+- 'entries.controls_column_left.text: 左 [88]クリック[ff]
+
+
+  右 [88]クリック[ff]
+
+
+  中央 [88]クリック[ff]
+
+  W[88]/[ff]A[88]/[ff]S[88]/[ff]D
+
+  R[88]/[ff]F
+
+  Q[88]/[ff]E
+
+  ESC
+
+  F1 ... F4
+
+  1 ... 6'
+- 'entries.controls_column_right.text: フィールド上で機体を選択
+
+  フィールド上で行動を選択
+
+  ボタンを操作
+
+
+  メニューを開く
+
+  タイムラインから行動を削除
+
+  取消または元に戻す
+
+
+  カメラ回転
+
+
+  カメラ移動
+
+
+  カメラ垂直回転
+
+
+  カメラ水平回転
+
+
+  取消または元に戻す
+
+
+  リストから機体を選択
+
+
+  リストから行動を選択'
+- 'entries.controls_header.text: 操作方法'
+- 'entries.demo_timer_hint.text: 残り時間'
+- 'entries.end_continue.text: 続ける'
+- 'entries.end_detail_defeat.text: 基地は戦闘地域から離脱し、現地は未だ敵の制圧下です。我々はここから学び次こそは打ち倒せるはずです。'
+- 'entries.end_detail_victory.text: おめでとうございます！現地の統制を取りもどし周辺地域の希望が上昇しました。'
+- 'entries.end_header_defeat_early.text: 撤退'
+- 'entries.end_header_defeat_total.text: 敗北'
+- 'entries.end_header_victory_early.text: 勝利'
+- 'entries.end_header_victory_total.text: 勝利'
+- 'entries.end_subtitle_defeat_early.text: 部隊は目標を達成せずに脱出しました'
+- 'entries.end_subtitle_defeat_total.text: すべての機体が失われました'
+- 'entries.end_subtitle_victory_early.text: 部隊は早期に脱出し、すべての目標が達成されました'
+- 'entries.end_subtitle_victory_total.text: すべての敵を排除し、現地は統制下に置かれました'
+- 'entries.mode_ai_desc.text: 5秒先まで敵の動作を予測中...'
+- 'entries.mode_ai_header.text: 予測生成中'
+- 'entries.mode_execution_desc.text: フィールド上の全機が計画を実行に移します！'
+- 'entries.mode_execution_header.text: 実行開始'
+- 'entries.mode_path_desc.text: 選択した機体について次の目標地点を選択します'
+- 'entries.mode_path_header.text: 移動'
+- 'entries.mode_path_overlay_header.text: 移動'
+- 'entries.mode_path_overlay_subheader.text: 目標地点'
+- 'entries.mode_target_pos_desc.text: 現在の行動について目標となる地点を選択します'
+- 'entries.mode_target_pos_header.text: [aa]目標 [-][ffbb22][ff]地点'
+- 'entries.mode_target_pos_overlay_header.text: 地点'
+- 'entries.mode_target_pos_overlay_subheader.text: 目標'
+- 'entries.mode_target_unit_desc.text: 現在の行動について目標となる機体を選択します'
+- 'entries.mode_target_unit_header.text: [aa]目標 [-][ff5555][ff]機体'
+- 'entries.mode_target_unit_overlay_header.text: 機体'
+- 'entries.mode_target_unit_overlay_subheader.text: 目標'
+- 'entries.mode_time_desc.text: 選択した行動について時間を選択します'
+- 'entries.mode_time_header.text: 時間配分'
+- 'entries.mode_time_overlay_header.text: 時間'
+- 'entries.mode_time_overlay_subheader.text: 配分'
+- 'entries.mode_wait_desc.text: （カーソルまでの距離に応じて）待機時間と機体の向く方向を選択します'
+- 'entries.mode_wait_header.text: 待機'
+- 'entries.mode_wait_overlay_header.text: 待機'
+- 'entries.mode_wait_overlay_subheader.text: 時間/方向'
+- 'entries.timeline_boot_desc.text: 予測システム
+
+  使用準備完了'
+- 'entries.timeline_boot_header.text: 起動'
+- 'entries.timeline_confirm_removal.text: 確認
+
+  削除'
+- 'entries.timeline_execute.text: 実行'
+- 'entries.timeline_lock_desc.text: 目的遂行
+
+  続ける'
+- 'entries.timeline_lock_header.text: ロック'
+- 'entries.timeline_overlap_desc.text: 攻撃などの二次行動を重複させることはできません。しかし、機体は攻撃と移動を同時に行うことはできます。'
+- 'entries.timeline_overlap_header.text: 重複'
+- 'entries.timeline_status_normal_desc.text: 予測限界到達'
+- 'entries.timeline_status_warning_desc.text: 次のターンまで予測中'
+- 'entries.timeline_status_warning_header.text: 警告: 精度低下'
+- 'entries.unit_info_blueprint_hint.text: 耐久度'
+- 'entries.unit_info_targeted_hint.text: 目標機体'
+- 'entries.weapon_corner_hint.text: 項目'
+- 'entries.weapon_stats.text: 攻撃ごとの発射数
+
+  散乱角
+
+  最高ダメージ'

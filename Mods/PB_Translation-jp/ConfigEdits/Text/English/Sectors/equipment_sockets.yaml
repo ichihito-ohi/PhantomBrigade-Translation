@@ -1,0 +1,14 @@
+removed: false
+edits:
+- 'entries.core__name.text: 上半身'
+- 'entries.core__text.text: 操縦ポッドと反応炉を支える。破壊された場合、機体は動作不能になり、緊急脱出しなければパイロットが死亡する危険性が高い。'
+- 'entries.equipment_left__name.text: 左スロット'
+- 'entries.equipment_left__text.text: 軽火器およびシールド用の装備スロット。'
+- 'entries.equipment_right__name.text: 右スロット'
+- 'entries.equipment_right__text.text: 武器用の汎用装備スロット。'
+- 'entries.optional_left__name.text: 左腕'
+- 'entries.optional_left__text.text: 側面攻撃からコアを守る。装備を把持するが、腕を破壊された場合は装備が使用不能になる。'
+- 'entries.optional_right__name.text: 右腕'
+- 'entries.optional_right__text.text: 側面攻撃からコアを守る。装備を把持するが、腕を破壊された場合は装備が使用不能になる。'
+- 'entries.secondary__name.text: 下半身'
+- 'entries.secondary__text.text: 自重を支え移動を司る部分。破壊された場合、機体は移動不能になる。'

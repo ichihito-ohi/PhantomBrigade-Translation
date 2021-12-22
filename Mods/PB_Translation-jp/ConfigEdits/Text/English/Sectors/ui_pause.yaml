@@ -1,0 +1,13 @@
+removed: false
+edits:
+- 'entries.button_load.text: セーブデータをロード'
+- 'entries.button_mm_campaign.text: 基地'
+- 'entries.button_mm_demo.text: デモ'
+- 'entries.button_mm_overworld.text: 全体マップ'
+- 'entries.button_mm_start.text: [ff7766]Enter[-] を押して開始'
+- 'entries.button_options.text: 設定'
+- 'entries.button_quit_to_desktop.text: メニューに戻る'
+- 'entries.button_quit_to_menu.text: メニューに戻る'
+- 'entries.button_quit.text: 終了'
+- 'entries.button_save.text: セーブ'
+- 'entries.demo_thank_you.text: プレイしていただきありがとうございます！'

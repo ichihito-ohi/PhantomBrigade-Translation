@@ -1,0 +1,17 @@
+removed: false
+edits:
+- 'entries.button_load_game.text: ロード
+
+  ゲーム'
+- 'entries.button_save_game.text: セーブ
+
+  ゲーム'
+- 'entries.header_load.text: ロード'
+- 'entries.header_save.text: セーブ'
+- 'entries.stat_list.text: 侵略からの日数
+
+
+  プレイ時間
+
+
+  機体数'

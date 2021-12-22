@@ -1,0 +1,15 @@
+removed: false
+edits:
+- 'entries.demo_intro-01_0.text: 機体を左クリックしてアクションリストを開きます'
+- 'entries.demo_intro-01_1.text: 移動アクションボタンをクリックします'
+- 'entries.demo_intro-01_2.text: 移動先をクリックしてアクションプランを作成します'
+- 'entries.demo_intro-01_3.text: このボタンをクリックしてプランを実行します'
+- 'entries.demo_intro-prediction-boot_0.text: プロトタイプシステムを起動します'
+- 'entries.demo_intro-prediction-flank_0.text: ここにカーソルを重ねて時系列を確認します'
+- 'entries.demo_intro-prediction-flank_1.text: フィールド上の経路にカーソルを重ねても確認できます'
+- 'entries.demo_intro-prediction-flank_2.text: 移動が長いほど時間もかかります！'
+- 'entries.demo_intro-prediction-tank-plans_0.text: 攻撃を計画するときは、[b]いつ[/b] 開始するか選択します'
+- 'entries.demo_intro-prediction-tank-plans_1.text: 攻撃したい標的をクリックします'
+- 'entries.demo_intro-prediction-tank-plans_2.text: 移動と攻撃は重複させることができます'
+- 'entries.demo_intro-prediction-tank-plans_3.text: 常に動き続けることをお勧めします'
+- 'entries.demo_intro-prediction-tank-plans_4.text: 攻撃予定はいつでも再配置することができます'

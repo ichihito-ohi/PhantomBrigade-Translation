@@ -1,0 +1,7 @@
+removed: false
+edits:
+- 'entries.weather_l025_name.text: 晴天'
+- 'entries.weather_l050_name.text: 曇天'
+- 'entries.weather_l066_name.text: 小雨'
+- 'entries.weather_l083_name.text: 雨天'
+- 'entries.weather_l100_name.text: 大雨'
