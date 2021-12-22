@@ -61,7 +61,8 @@ _(Common)_
 - `Configs/DataDecomposed/UnitChecks`
 - `Configs/DataDecomposed/UnitPresets`
 - `Configs/DataDecomposed/UnitStats`
-### yaml_to_csv-Combat.py (WIP)
+### yaml_to_csv-Combat.py
+- `Configs/DataDecomposed/Combat/Comms`
 - `Configs/DataDecomposed/Combat/Stats`
 - `Configs/DataDecomposed/Combat/UnitGroups`
 
