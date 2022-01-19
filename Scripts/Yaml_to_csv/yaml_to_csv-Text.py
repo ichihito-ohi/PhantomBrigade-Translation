@@ -37,13 +37,14 @@ try:
                         line = ex.formCsvLine(src_path, data['description'], ['description'])
                         print(line)
                         dst.write(line)
-
-                    for key_entry in data['entries']:
-                        if data['entries'][key_entry] != None:
-                            if data['entries'][key_entry]['text'] != None:
-                                line = ex.formCsvLine(src_path, data['entries'][key_entry]['text'], ['entries', key_entry, 'text'])
-                                print(line)
-                                dst.write(line)
+                        
+                    if data['entries'] != None:
+                        for key_entry in data['entries']:
+                            if data['entries'][key_entry] != None:
+                                if data['entries'][key_entry]['text'] != None:
+                                    line = ex.formCsvLine(src_path, data['entries'][key_entry]['text'], ['entries', key_entry, 'text'])
+                                    print(line)
+                                    dst.write(line)
 
 
 except Exception as e:
