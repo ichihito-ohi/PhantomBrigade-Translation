@@ -54,7 +54,7 @@ Folder|File|Id|Source|Translation
     csv_path = pathlib.Path('PhantomBrigade-Translation-jp.csv')
     ```
 
-- Set metadata as needed. Don't change `includesConfigEdits: true`.
+- Set metadata as needed. Don't change `includesConfigEdits: true` and `includesLocalizations: true`.
     ```python
     # TODO: Don't forget ', ' at every end of lines
     dst = open(root_path / 'metadata.yaml', 'w', encoding='utf-8', errors='strict')
@@ -65,7 +65,7 @@ Folder|File|Id|Source|Translation
                          "includesConfigEdits: true, "
                          "includesLibraries: false, "
                          "includesTextures: false, "
-                         "includesLocalizations: false, "
+                         "includesLocalizations: true, "
                          "gameVersionMin: , "
                          "gameVersionMax: , "
                          "name: PB_Translation-jp, "
