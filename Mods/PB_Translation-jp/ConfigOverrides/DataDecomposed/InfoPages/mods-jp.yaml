@@ -24,6 +24,12 @@ sections:
   - 'https://discord.gg/braceyourselfgames'
 - textHeader: 更新履歴
   textChanges: 
+  - '[pr=][aa]jp-0150-20220119'
+  - '本体アップデート Patch 0.15.0-b3121 に伴い，日本語化 Mod が本体 Mod System に完全対応しました．'
+  - '`git apply` および手動でのファイル上書きは必要なくなりました．'
+  - '上記に伴い，手動上書き用ファイルを削除しました．'
+  - '新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.15.0-b3121 に適用しました．未翻訳の部分があります．'
+  - 
   - '[pr=][aa]jp-0140-20211222'
   - '【祝】ひと通り翻訳が完了しました！'
   - '新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.14.0-b3016 に適用しました．'
@@ -62,6 +68,9 @@ sections:
   - 
 - textHeader: 謝辞（敬称略）
   textChanges: 
+  - '[pr=][aa]Discord - Brace Yourself Games サーバー'
+  - Artyom Zuev (Core Development Team of Phantom Brigade, Technical Artist)
+  - Miketan
   - '[pr=][aa]Steamグループ 日本語化作業者互助会'
   - Guzuo
   - AgeBdeR

@@ -1,0 +1,342 @@
+name:
+description:
+exportMode: None
+columns: []
+splits: []
+entries:
+  audio_mode_compressed__header:
+    temp: true
+    text: コンプレッサー・モード
+  audio_mode_compressed__text:
+    temp: true
+    text: 全体ダイナミックレンジを圧縮し、音楽と効果音の低音を抑えます。静かな環境や配信に適しています。
+  audio_mode_mono__header:
+    temp: true
+    text: モノラル・モード
+  audio_mode_mono__text:
+    temp: true
+    text: 音声出力をシングル・チャンネルに統合します。ステレオ出力が望ましくない場合に有用です。（スピーカーやヘッドホンひとつだけでゲームを遊ぶ際など）
+  audio_volume_main__header:
+    temp: true
+    text: マスターボリューム
+  audio_volume_main__text:
+    temp: true
+    text: ゲーム全体の音量を調整します。他のすべての音量設定に乗算されます。
+  audio_volume_music__header:
+    temp: true
+    text: 音楽ボリューム
+  audio_volume_music__text:
+    temp: true
+    text: ゲーム全体の音楽の音量を調整します。マスターボリュームに乗算されます。
+  audio_volume_sound__header:
+    temp: true
+    text: 効果音ボリューム
+  audio_volume_sound__text:
+    temp: true
+    text: ゲーム全体の効果音の音量を調整します。マスターボリュームに乗算されます。
+  audio_volume_voice__header:
+    temp: true
+    text: 音声ボリューム
+  audio_volume_voice__text:
+    temp: true
+    text: カットシーンの吹替の音量を調整します。マスターボリュームに乗算されます。
+  display_fps_limit__header:
+    temp: true
+    text: フレームレート上限
+  display_fps_limit__text:
+    temp: true
+    text: ゲームが出力できる秒間フレーム数に上限を設けます。垂直同期が無効の状態で、不必要に高いフレームレートを防ぐ場合に役立ちます。
+  display_mode__header:
+    temp: true
+    text: 全画面表示
+  display_mode__text:
+    temp: true
+    text: ゲームの表示を全画面モードかウィンドウモードに切り替えます。
+  display_resolution__header:
+    temp: true
+    text: 解像度
+  display_resolution__text:
+    temp: true
+    text: ゲームが表示される解像度。パフォーマンスが許すならば、ディスプレイ固有の解像度の使用をお勧めします。
+  display_sync__header:
+    temp: true
+    text: 垂直同期
+  display_sync__lv_full:
+    temp: true
+    text: フル
+  display_sync__lv_half:
+    temp: true
+    text: ハーフ
+  display_sync__lv_off:
+    temp: true
+    text: オフ
+  display_sync__text:
+    temp: true
+    text: 垂直同期を調整します。オフの場合、ディスプレイのリフレッシュレートに関係なく、ゲームは描画するとすぐに新しいフレームを出力します。これにより、フレームが更新中に切り替わるため、画面が乱れる可能性があります。フル・モードは、フレームをディスプレイのリフレッシュレートに固定します。ハーフ・モードは、フレームをディスプレイのリフレッシュレートの半分に固定します。（通常レートの半分）
+  display_ui_scaling__header:
+    temp: true
+    text: UIサイズ
+  display_ui_scaling__lv_1032:
+    temp: true
+    text: 105% (1032px)
+  display_ui_scaling__lv_1080:
+    temp: true
+    text: 100% (1080px)
+  display_ui_scaling__lv_1280:
+    temp: true
+    text: 85% (1280px)
+  display_ui_scaling__lv_1440:
+    temp: true
+    text: 75% (1440px)
+  display_ui_scaling__lv_2160:
+    temp: true
+    text: 50% (2160px)
+  display_ui_scaling__lv_900:
+    temp: true
+    text: 120% (900px)
+  display_ui_scaling__lv_936:
+    temp: true
+    text: 115% (936px)
+  display_ui_scaling__lv_984:
+    temp: true
+    text: 110% (984px)
+  display_ui_scaling__text:
+    temp: true
+    text: ユーザーインターフェースの仮想的な解像度を調整します。 UI サイズは画面解像度に依存しておらず、既定値は垂直方向で 1080px です。これにより、 UI を拡大・縮小できます。より小さな値（UI 拡大）は実験段階で、 UI 要素が衝突する可能性があります。
+  game_language__header:
+    temp: true
+    text: 言語
+  game_language__lv_english:
+    temp: true
+    text: English
+  game_language__text:
+    temp: true
+    text: ゲームで表示されるすべてのテキストに使われる言語。現時点では、英語のみ公式で対応していますが、非公式翻訳が導入されている場合はこのオプションが使用できます。
+  graphics_antialiasing__header:
+    temp: true
+    text: アンチ・エイリアシング
+  graphics_antialiasing__lv_0:
+    temp: true
+    text: SMAA（低）
+  graphics_antialiasing__lv_1:
+    temp: true
+    text: SMAA（高）
+  graphics_antialiasing__lv_2:
+    temp: true
+    text: TAA（シャープ）
+  graphics_antialiasing__lv_3:
+    temp: true
+    text: TAA（ソフト）
+  graphics_antialiasing__text:
+    temp: true
+    text: 画像からギザギザのエッジを除去する方法を調整します。『SMAA（高）』であっても SMAA はパフォーマンス負荷が非常に低いですが、単一フレームのみ使用するため詳細なサブピクセルからエイリアシングを修正することはできません。 TAA はパフォーマンス負荷が高いですが、複数フレームから情報を統合してより良い結果を提供します。複数フレームでオブジェクトが静止していることが多い Phantom Brigade のようなゲームでは、特に顕著です。
+  graphics_filter_brightness__header:
+    temp: true
+    text: 明るさ
+  graphics_filter_brightness__text:
+    temp: true
+    text: 明るさ（正確には、トーン・マッピング後の露出）の既定レベルからの増減を調整します。ディスプレイ上で明る過ぎたり暗過ぎたりする画像を微調整するために使用できます。
+  graphics_filter_contrast__header:
+    temp: true
+    text: コントラスト
+  graphics_filter_contrast__text:
+    temp: true
+    text: コントラストの増減を調整します。ディスプレイ上でコントラストが不足したり過剰であったりする画像を微調整するために使用できます。
+  graphics_pps_ao__header:
+    temp: true
+    text: アンビエント・オクルージョン
+  graphics_pps_ao__lv_0:
+    temp: true
+    text: 無効
+  graphics_pps_ao__lv_1:
+    temp: true
+    text: 低
+  graphics_pps_ao__lv_2:
+    temp: true
+    text: 高
+  graphics_pps_ao__text:
+    temp: true
+    text: 間接照明によるソフト・シャドウを司るアンビエント・オクルージョン効果を調整します。低品質設定では、高速かつ大まかな MSVO パスのみが有効になります。（建物のような大きい形状で最も顕著に表れます）高品質設定では、最上部に追加の GTAO パスを有効にします。（機体や小道具などの小さく非常に細かなオブジェクトで最も顕著に表れます）
+  graphics_pps_bloom__header:
+    temp: true
+    text: ブルーム
+  graphics_pps_bloom__text:
+    temp: true
+    text: ブルームの量を調整します―画像上の非常に明るい領域周辺を発光させます。爆発や投射体、その他の高放射オブジェクトで最も顕著です。
+  graphics_pps_blur__header:
+    temp: true
+    text: モーション・ブラー
+  graphics_pps_blur__text:
+    temp: true
+    text: モーション・ブラーの量を調整します―高速で移動するオブジェクトの残像を指します。
+  graphics_pps_chromatic__header:
+    temp: true
+    text: 色収差
+  graphics_pps_chromatic__text:
+    temp: true
+    text: 色収差の量を調整します―画像の端に向けて色を分離します
+  graphics_shadow_quality__header:
+    temp: true
+    text: 影
+  graphics_shadow_quality__lv_0:
+    temp: true
+    text: 無効
+  graphics_shadow_quality__lv_1:
+    temp: true
+    text: 超低品質（256px）
+  graphics_shadow_quality__lv_2:
+    temp: true
+    text: 低品質（512px）
+  graphics_shadow_quality__lv_3:
+    temp: true
+    text: 中品質（1024px）
+  graphics_shadow_quality__lv_4:
+    temp: true
+    text: 高品質（2048px）
+  graphics_shadow_quality__lv_5:
+    temp: true
+    text: 超高品質（4096px）
+  graphics_shadow_quality__text:
+    temp: true
+    text: 太陽の影に使われるテクスチャーの解像度を調整します。高解像度ではより多くの GPU メモリが必要で、描画にはより多くの負荷がかかります。2048pxが推奨の既定値です。
+  graphics_texture_filtering__header:
+    temp: true
+    text: 異方性フィルタ
+  graphics_texture_filtering__lv_0:
+    temp: true
+    text: オフ
+  graphics_texture_filtering__lv_1:
+    temp: true
+    text: オン
+  graphics_texture_filtering__lv_2:
+    temp: true
+    text: 強制オン
+  graphics_texture_filtering__text:
+    temp: true
+    text: 斜めからの視点におけるテクスチャーの外観を向上する異方性フィルタを調整します。推奨されるオプションは『強制オン』です―ほとんどの GPU において、このパフォーマンス負荷はごくわずかであるため、オフにすることはお勧めしません。
+  graphics_texture_quality__header:
+    temp: true
+    text: テクスチャ解像度
+  graphics_texture_quality__lv_0:
+    temp: true
+    text: フル
+  graphics_texture_quality__lv_1:
+    temp: true
+    text: 50%
+  graphics_texture_quality__lv_2:
+    temp: true
+    text: 25%
+  graphics_texture_quality__lv_3:
+    temp: true
+    text: 12.5%
+  graphics_texture_quality__text:
+    temp: true
+    text: ユーザーインターフェースを除いたテクスチャーの解像度を調整します。品質レベルを下げるごとに、テクスチャ解像度は半分になり、 GPU メモリを節約します。メモリが非常に限られた GPU でディスプレイ解像度が比較的大きい場合を除き、この設定はフルのままにすることをお勧めします。
+  input_gamepad_look_invert_vertical__header:
+    temp: true
+    text: ゲームパッド / カメラ操作反転
+  input_gamepad_look_invert_vertical__text:
+    temp: true
+    text: 垂直方向のカメラ操作入力を反転します
+  input_gamepad_look_sensitivity_horizontal__header:
+    temp: true
+    text: ゲームパッド / カメラ水平感度
+  input_gamepad_look_sensitivity_horizontal__text:
+    temp: true
+    text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
+  input_gamepad_look_sensitivity_vertical__header:
+    temp: true
+    text: ゲームパッド / カメラ垂直感度
+  input_gamepad_look_sensitivity_vertical__text:
+    temp: true
+    text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
+  input_gamepad_move_sensitivity__header:
+    temp: true
+    text: ゲームパッド / カメラ移動感度
+  input_gamepad_move_sensitivity__text:
+    temp: true
+    text: ユーザーの入力に対するカメラ移動量を調整します
+  input_gamepad_scrub_sensitivity__header:
+    temp: true
+    text: ゲームパッド / タイムライン感度
+  input_gamepad_scrub_sensitivity__text:
+    temp: true
+    text: ユーザーの入力に対するタイムラインでの移動量を調整します
+  input_gamepad_zoom_sensitivity__header:
+    temp: true
+    text: ゲームパッド / ズーム感度
+  input_gamepad_zoom_sensitivity__text:
+    temp: true
+    text: ユーザーの入力に対するカメラズーム感度を調整します
+  input_keyboard_look_invert_vertical__header:
+    temp: true
+    text: キーボード / カメラ操作反転
+  input_keyboard_look_invert_vertical__text:
+    temp: true
+    text: 垂直方向のカメラ操作入力を反転します
+  input_keyboard_look_sensitivity_horizontal__header:
+    temp: true
+    text: キーボード / カメラ水平感度
+  input_keyboard_look_sensitivity_horizontal__text:
+    temp: true
+    text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
+  input_keyboard_look_sensitivity_vertical__header:
+    temp: true
+    text: キーボード / カメラ垂直感度
+  input_keyboard_look_sensitivity_vertical__text:
+    temp: true
+    text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
+  input_keyboard_move_sensitivity__header:
+    temp: true
+    text: キーボード / カメラ移動感度
+  input_keyboard_move_sensitivity__text:
+    temp: true
+    text: ユーザーの入力に対するカメラ移動量を調整します
+  input_keyboard_zoom_sensitivity__header:
+    temp: true
+    text: キーボード / ズーム感度
+  input_keyboard_zoom_sensitivity__text:
+    temp: true
+    text: ユーザーの入力に対するカメラズーム感度を調整します
+  input_mouse_edge_scrolling__header:
+    temp: true
+    text: マウス / 画面端スクロール
+  input_mouse_edge_scrolling__text:
+    temp: true
+    text: エッジスクロールが有効な場合、カーソルが画面端に近づくとカメラが移動します。
+  input_mouse_lock_to_window__header:
+    temp: true
+    text: マウス / ウィンドウ固定
+  input_mouse_lock_to_window__text:
+    temp: true
+    text: ゲームウィンドウにフォーカスが当たっている状態で、マウスをウィンドウの境界を越えて動かせるかどうかを設定します。
+  input_mouse_look_invert_vertical__header:
+    temp: true
+    text: マウス / カメラ操作反転
+  input_mouse_look_invert_vertical__text:
+    temp: true
+    text: 垂直方向のカメラ操作入力を反転します
+  input_mouse_look_sensitivity_horizontal__header:
+    temp: true
+    text: マウス / カメラ水平感度
+  input_mouse_look_sensitivity_horizontal__text:
+    temp: true
+    text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
+  input_mouse_look_sensitivity_vertical__header:
+    temp: true
+    text: マウス / カメラ垂直感度
+  input_mouse_look_sensitivity_vertical__text:
+    temp: true
+    text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
+  input_mouse_move_sensitivity__header:
+    temp: true
+    text: マウス / カメラ移動感度
+  input_mouse_move_sensitivity__text:
+    temp: true
+    text: ユーザーの入力に対するカメラ移動量を調整します
+  input_mouse_zoom_sensitivity__header:
+    temp: true
+    text: マウス / ズーム感度
+  input_mouse_zoom_sensitivity__text:
+    temp: true
+    text: ユーザーの入力に対するカメラズーム感度を調整します

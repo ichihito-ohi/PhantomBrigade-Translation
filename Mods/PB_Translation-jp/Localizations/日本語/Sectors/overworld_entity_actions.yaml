@@ -1,0 +1,1266 @@
+name: Overworld Actions
+description: Text in the actions that pop up during overworld events in the top left of the screen.
+exportMode: LinePerKeySplit
+columns: []
+splits: []
+entries:
+  alarm_easy__1_name:
+    temp: false
+    text: 警報！
+  alarm_easy__2_context:
+    temp: false
+    text: 貯蔵庫
+  alarm_easy__3_start:
+    temp: false
+    text: 開始
+  alarm_easy__4_cancel:
+    temp: false
+    text: 中止
+  alarm_easy__5_finish:
+    temp: false
+    text: 完了
+  alarm_easy__6_desc:
+    temp: true
+    text: 敵軍が気づいて調査のために機体を送ってくる可能性があります。
+  alarm_hard__1_name:
+    temp: false
+    text: 警報！
+  alarm_hard__2_context:
+    temp: false
+    text: 貯蔵庫
+  alarm_hard__3_start:
+    temp: false
+    text: 開始
+  alarm_hard__4_cancel:
+    temp: false
+    text: 中止
+  alarm_hard__5_finish:
+    temp: false
+    text: 完了
+  alarm_hard__6_desc:
+    temp: true
+    text: 敵軍が気づいて調査のために機体を送ってくる可能性があります。
+  alarm_medium__1_name:
+    temp: false
+    text: 警報！
+  alarm_medium__2_context:
+    temp: false
+    text: 貯蔵庫
+  alarm_medium__3_start:
+    temp: false
+    text: 開始
+  alarm_medium__4_cancel:
+    temp: false
+    text: 中止
+  alarm_medium__5_finish:
+    temp: false
+    text: 完了
+  alarm_medium__6_desc:
+    temp: true
+    text: 敵軍が気づいて調査のために機体を送ってくる可能性があります。
+  armypilot_target__1_name:
+    temp: true
+    text: パイロット位置
+  armypilot_target__2_context:
+    temp: true
+    text: 採用
+  armypilot_target__3_start:
+    temp: true
+    text: 受諾
+  armypilot_target__4_cancel:
+    temp: true
+    text: 中止
+  armypilot_target__5_finish:
+    temp: true
+    text: 完了
+  armypilot_target__6_desc:
+    temp: true
+    text: パイロットの現在位置
+  assassination_objective_target__1_name:
+    temp: false
+    text: 標的
+  assassination_objective_target__2_context:
+    temp: false
+    text: 暗殺
+  assassination_objective_target__3_start:
+    temp: false
+    text: 受諾
+  assassination_objective_target__4_cancel:
+    temp: false
+    text: 中止
+  assassination_objective_target__5_finish:
+    temp: false
+    text: 完了
+  assassination_objective_target__6_desc:
+    temp: true
+    text: 追跡された標的を暗殺します。
+  breakin_easy__1_name:
+    temp: false
+    text: 押し入り
+  breakin_easy__2_context:
+    temp: false
+    text: 貯蔵庫
+  breakin_easy__3_start:
+    temp: false
+    text: 開始
+  breakin_easy__4_cancel:
+    temp: false
+    text: 中止
+  breakin_easy__5_finish:
+    temp: false
+    text: 完了
+  breakin_easy__6_desc:
+    temp: true
+    text: 現場チームが戦場で回収可能な装備を捜索しています。
+  breakin_hard__1_name:
+    temp: false
+    text: 押し入り
+  breakin_hard__2_context:
+    temp: false
+    text: 貯蔵庫
+  breakin_hard__3_start:
+    temp: false
+    text: 開始
+  breakin_hard__4_cancel:
+    temp: false
+    text: 中止
+  breakin_hard__5_finish:
+    temp: false
+    text: 完了
+  breakin_hard__6_desc:
+    temp: true
+    text: 現場チームが戦場で回収可能な装備を捜索しています。
+  breakin_medium__1_name:
+    temp: false
+    text: 押し入り
+  breakin_medium__2_context:
+    temp: false
+    text: 貯蔵庫
+  breakin_medium__3_start:
+    temp: false
+    text: 開始
+  breakin_medium__4_cancel:
+    temp: false
+    text: 中止
+  breakin_medium__5_finish:
+    temp: false
+    text: 完了
+  breakin_medium__6_desc:
+    temp: true
+    text: 現場チームが戦場で回収可能な装備を捜索しています。
+  build_part_pack_starter__1_name:
+    temp: false
+    text: 部品製造
+  build_part_pack_starter__2_context:
+    temp: false
+    text: 標準仕様部品
+  build_part_pack_starter__3_start:
+    temp: false
+    text: 開始
+  build_part_pack_starter__4_cancel:
+    temp: false
+    text: 中止
+  build_part_pack_starter__5_finish:
+    temp: false
+    text: 終了
+  build_part_pack_starter__6_desc:
+    temp: true
+    text: パーツ一式が基地で製造中です。プロセスが完了し次第使用可能になります。
+  build_unit_frame__1_name:
+    temp: false
+    text: 機体建造
+  build_unit_frame__2_context:
+    temp: false
+    text: 素体フレーム
+  build_unit_frame__3_start:
+    temp: false
+    text: 開始
+  build_unit_frame__4_cancel:
+    temp: false
+    text: 中止
+  build_unit_frame__5_finish:
+    temp: false
+    text: 終了
+  build_unit_frame__6_desc:
+    temp: true
+    text: 機体が基地で製造中です。プロセスが完了し次第使用可能になります。
+  build_unit_starter__1_name:
+    temp: false
+    text: 機体建造
+  build_unit_starter__2_context:
+    temp: false
+    text: フレーム + 標準仕様部品
+  build_unit_starter__3_start:
+    temp: false
+    text: 開始
+  build_unit_starter__4_cancel:
+    temp: false
+    text: 中止
+  build_unit_starter__5_finish:
+    temp: false
+    text: 終了
+  build_unit_starter__6_desc:
+    temp: true
+    text: 機体が基地で製造中です。プロセスが完了し次第使用可能になります。
+  build_utility_smoke_01__1_name:
+    temp: false
+    text: 煙幕容器 [1]
+  build_utility_smoke_01__2_context:
+    temp: false
+    text: 生産
+  build_utility_smoke_01__3_start:
+    temp: false
+    text: 開始
+  build_utility_smoke_01__4_cancel:
+    temp: false
+    text: 中止
+  build_utility_smoke_01__5_finish:
+    temp: false
+    text: 終了
+  build_utility_smoke_01__6_desc:
+    temp: true
+    text: 素早く逃げるために煙幕を製造できます。
+  build_utility_smoke_02__1_name:
+    temp: false
+    text: 煙幕容器 [2]
+  build_utility_smoke_02__2_context:
+    temp: false
+    text: 生産
+  build_utility_smoke_02__3_start:
+    temp: false
+    text: 開始
+  build_utility_smoke_02__4_cancel:
+    temp: false
+    text: 中止
+  build_utility_smoke_02__5_finish:
+    temp: false
+    text: 終了
+  build_utility_smoke_02__6_desc:
+    temp: true
+    text: 素早く逃げるために煙幕を製造できます。
+  build_utility_smoke_03__1_name:
+    temp: false
+    text: 煙幕容器 [3]
+  build_utility_smoke_03__2_context:
+    temp: false
+    text: 生産
+  build_utility_smoke_03__3_start:
+    temp: false
+    text: 開始
+  build_utility_smoke_03__4_cancel:
+    temp: false
+    text: 中止
+  build_utility_smoke_03__5_finish:
+    temp: false
+    text: 終了
+  build_utility_smoke_03__6_desc:
+    temp: true
+    text: 素早く逃げるために煙幕を製造できます。
+  cache_objective_target__1_name:
+    temp: false
+    text: 発見された場所
+  cache_objective_target__2_context:
+    temp: false
+    text: 貯蔵庫
+  cache_objective_target__3_start:
+    temp: false
+    text: 受諾
+  cache_objective_target__4_cancel:
+    temp: false
+    text: 中止
+  cache_objective_target__5_finish:
+    temp: false
+    text: 完了
+  cache_objective_target__6_desc:
+    temp: true
+    text: 隠された貯蔵庫の場所を見つけます。
+  cache_target_combat__1_name:
+    temp: true
+    text: 標的
+  cache_target_combat__2_context:
+    temp: true
+    text: 鉱山
+  cache_target_combat__3_start:
+    temp: true
+    text: 受諾
+  cache_target_combat__4_cancel:
+    temp: true
+    text: 中止
+  cache_target_combat__5_finish:
+    temp: true
+    text: 完了
+  cache_target_combat__6_desc:
+    temp: true
+    text: 貯蔵庫から資源を手に入れる
+  cache_target_return__1_name:
+    temp: true
+    text: 帰還
+  cache_target_return__2_context:
+    temp: true
+    text: 鉱山
+  cache_target_return__3_start:
+    temp: true
+    text: 受諾
+  cache_target_return__4_cancel:
+    temp: true
+    text: 中止
+  cache_target_return__5_finish:
+    temp: true
+    text: 完了
+  cache_target_return__6_desc:
+    temp: true
+    text: 物品を返しに鉱山へ戻る
+  cat_play__1_name:
+    temp: true
+    text: 猫と遊ぶ
+  cat_play__2_context:
+    temp: true
+    text: ペット
+  cat_play__3_start:
+    temp: true
+    text: 開始
+  cat_play__4_cancel:
+    temp: true
+    text: 中止
+  cat_play__5_finish:
+    temp: true
+    text: 完了
+  cat_play__6_desc:
+    temp: true
+    text: ''
+  celebrate__1_name:
+    temp: false
+    text: 祝典
+  celebrate__2_context:
+    temp: false
+    text: 解放
+  celebrate__3_start:
+    temp: false
+    text: 開始
+  celebrate__4_cancel:
+    temp: false
+    text: 中止
+  celebrate__5_finish:
+    temp: false
+    text: 完了
+  celebrate__6_desc:
+    temp: true
+    text: 現地のお祭りでクルーとお祝いをしてリラックスします。
+  core_base_eliminate__1_name:
+    temp: false
+    text: 基地攻撃
+  core_base_eliminate__2_context:
+    temp: false
+    text: 本編
+  core_base_eliminate__3_start:
+    temp: false
+    text: 受諾
+  core_base_eliminate__4_cancel:
+    temp: false
+    text: 中止
+  core_base_eliminate__5_finish:
+    temp: false
+    text: 完了
+  core_base_eliminate__6_desc:
+    temp: true
+    text: 基地は重要拠点として機能しており、殲滅すれば他の州における解放運動の助けになるでしょう。しかし、適切な準備なしに優位を取ることは難しいため、この地域で他の地点を制圧して増強するか、基地に挑戦する前に Fyrland 州でより簡単な標的を狙うことを検討しましょう。
+  core_capital_liberate__1_name:
+    temp: false
+    text: 首都解放
+  core_capital_liberate__2_context:
+    temp: false
+    text: 本編
+  core_capital_liberate__3_start:
+    temp: false
+    text: 受諾
+  core_capital_liberate__4_cancel:
+    temp: false
+    text: 中止
+  core_capital_liberate__5_finish:
+    temp: false
+    text: 完了
+  core_capital_liberate__6_desc:
+    temp: true
+    text: 首都解放を一朝一夕に容易く成し遂げることはできないので、首都とそれを警備する精鋭部隊を攻撃する前に準備をしましょう。首都に向かう中で、民間人を助け国内に存在する敵をかく乱し、道中の各州を解放しましょう。
+  core_farm_discovery__1_name:
+    temp: false
+    text: 農場捜索
+  core_farm_discovery__2_context:
+    temp: false
+    text: 改造パーツ
+  core_farm_discovery__3_start:
+    temp: false
+    text: 受諾
+  core_farm_discovery__4_cancel:
+    temp: false
+    text: 中止
+  core_farm_discovery__5_finish:
+    temp: false
+    text: 完了
+  core_farm_discovery__6_desc:
+    temp: true
+    text: 農場の位置を特定します。
+  core_mountainbase_retake__1_name:
+    temp: false
+    text: Felheim 奪還
+  core_mountainbase_retake__2_context:
+    temp: false
+    text: 本編
+  core_mountainbase_retake__3_start:
+    temp: false
+    text: 受諾
+  core_mountainbase_retake__4_cancel:
+    temp: false
+    text: 中止
+  core_mountainbase_retake__5_finish:
+    temp: false
+    text: 完了
+  core_mountainbase_retake__6_desc:
+    temp: true
+    text: Felheim の山岳基地はかつて幻影旅団に属しており、その奪還は作戦において避けることのできない要です。ここは、あなたがすべてのメックとパイロットを失った際の貴重な撤収地点として機能し、その他の失敗の際に予備部隊を派遣します。
+  core_province1_liberate__1_name:
+    temp: false
+    text: Hedmark 解放
+  core_province1_liberate__2_context:
+    temp: false
+    text: 本編
+  core_province1_liberate__3_start:
+    temp: false
+    text: 受諾
+  core_province1_liberate__4_cancel:
+    temp: false
+    text: 中止
+  core_province1_liberate__5_finish:
+    temp: false
+    text: 完了
+  core_province1_liberate__6_desc:
+    temp: true
+    text: 地域に存在する敵支配下の防衛施設を殲滅することで Hedmark を解放しましょう。準備が整っていない状態では困難な戦闘を強いられる可能性があるため、軍事施設に挑戦する前に、より簡単な標的を狙うことを検討しましょう。
+  core_province2_liberate__1_name:
+    temp: false
+    text: Ostbager-Weil 解放
+  core_province2_liberate__2_context:
+    temp: false
+    text: 本編
+  core_province2_liberate__3_start:
+    temp: false
+    text: 受諾
+  core_province2_liberate__4_cancel:
+    temp: false
+    text: 中止
+  core_province2_liberate__5_finish:
+    temp: false
+    text: 完了
+  core_province2_liberate__6_desc:
+    temp: true
+    text: Ostbager-Weil の解放には、地域に存在する敵支配下の防衛施設を殲滅する必要があります。武装が強化された軍事施設に挑戦する前に、まずはより簡単な標的を狙うことを検討しましょう。
+  core_workshop_discovery__1_name:
+    temp: false
+    text: 工房捜索
+  core_workshop_discovery__2_context:
+    temp: false
+    text: 改造パーツ
+  core_workshop_discovery__3_start:
+    temp: false
+    text: 開始
+  core_workshop_discovery__4_cancel:
+    temp: false
+    text: 中止
+  core_workshop_discovery__5_finish:
+    temp: false
+    text: 完了
+  core_workshop_discovery__6_desc:
+    temp: true
+    text: 農場技術者の工房の位置を特定します。
+  defector_objective_decode__1_name:
+    temp: false
+    text: 解読
+  defector_objective_decode__2_context:
+    temp: false
+    text: 亡命者
+  defector_objective_decode__3_start:
+    temp: false
+    text: 受諾
+  defector_objective_decode__4_cancel:
+    temp: false
+    text: 中止
+  defector_objective_decode__5_finish:
+    temp: false
+    text: 完了
+  defector_objective_decode__6_desc:
+    temp: true
+    text: 断片化した暗号化情報を解読しています。
+  defector_objective_investigate__1_name:
+    temp: false
+    text: 地点調査
+  defector_objective_investigate__2_context:
+    temp: false
+    text: 亡命者
+  defector_objective_investigate__3_start:
+    temp: false
+    text: 受諾
+  defector_objective_investigate__4_cancel:
+    temp: false
+    text: 中止
+  defector_objective_investigate__5_finish:
+    temp: false
+    text: 完了
+  defector_objective_investigate__6_desc:
+    temp: true
+    text: 信号の発信源を調査する。
+  director_objective_target__1_name:
+    temp: false
+    text: 標的
+  director_objective_target__2_context:
+    temp: false
+    text: ディレクターズ・カット
+  director_objective_target__3_start:
+    temp: false
+    text: 受諾
+  director_objective_target__4_cancel:
+    temp: false
+    text: 中止
+  director_objective_target__5_finish:
+    temp: false
+    text: 完了
+  director_objective_target__6_desc:
+    temp: true
+    text: 前哨基地を狙います。
+  dog_play__1_name:
+    temp: true
+    text: イッヌとの遊び
+  dog_play__2_context:
+    temp: true
+    text: ペット
+  dog_play__3_start:
+    temp: true
+    text: 開始
+  dog_play__4_cancel:
+    temp: true
+    text: 中止
+  dog_play__5_finish:
+    temp: true
+    text: 完了
+  dog_play__6_desc:
+    temp: true
+    text: ''
+  draft_deliver__1_name:
+    temp: false
+    text: 合流地点への輸送
+  draft_deliver__2_context:
+    temp: false
+    text: 採用
+  draft_deliver__3_start:
+    temp: false
+    text: 受諾
+  draft_deliver__4_cancel:
+    temp: false
+    text: 中止
+  draft_deliver__5_finish:
+    temp: false
+    text: 完了
+  draft_deliver__6_desc:
+    temp: true
+    text: 救出した民間人を指定された合流地点へ移送します。
+  draft_point__1_name:
+    temp: false
+    text: 合流地点に到達
+  draft_point__2_context:
+    temp: false
+    text: 採用
+  draft_point__3_start:
+    temp: false
+    text: 受諾
+  draft_point__4_cancel:
+    temp: false
+    text: 中止
+  draft_point__5_finish:
+    temp: false
+    text: 完了
+  draft_point__6_desc:
+    temp: true
+    text: 指定された合流地点でゲリラの情報提供者と会います。
+  draft_report__1_name:
+    temp: false
+    text: 合流地点に報告
+  draft_report__2_context:
+    temp: false
+    text: 採用
+  draft_report__3_start:
+    temp: false
+    text: 受諾
+  draft_report__4_cancel:
+    temp: false
+    text: 中止
+  draft_report__5_finish:
+    temp: false
+    text: 完了
+  draft_report__6_desc:
+    temp: true
+    text: 指定された合流地点に報告します。
+  draft_target__1_name:
+    temp: false
+    text: 民間人救助
+  draft_target__2_context:
+    temp: false
+    text: 採用
+  draft_target__3_start:
+    temp: false
+    text: 受諾
+  draft_target__4_cancel:
+    temp: false
+    text: 中止
+  draft_target__5_finish:
+    temp: false
+    text: 完了
+  draft_target__6_desc:
+    temp: true
+    text: 捕らえられた民間人の場所。
+  farm_target__1_name:
+    temp: true
+    text: 標的
+  farm_target__2_context:
+    temp: true
+    text: 農場
+  farm_target__3_start:
+    temp: true
+    text: 受諾
+  farm_target__4_cancel:
+    temp: true
+    text: 中止
+  farm_target__5_finish:
+    temp: true
+    text: 完了
+  farm_target__6_desc:
+    temp: true
+    text: 農場を解放する
+  festival_outcome_feed__1_name:
+    temp: false
+    text: 祝典
+  festival_outcome_feed__2_context:
+    temp: false
+    text: 祝典
+  festival_outcome_feed__3_start:
+    temp: false
+    text: 開始
+  festival_outcome_feed__4_cancel:
+    temp: false
+    text: 中止
+  festival_outcome_feed__5_finish:
+    temp: false
+    text: 完了
+  festival_outcome_feed__6_desc:
+    temp: true
+    text: 現地のお祭りでクルーとお祝いをしてリラックスします。
+  festival_outcome_help__1_name:
+    temp: false
+    text: 手伝い
+  festival_outcome_help__2_context:
+    temp: false
+    text: 祝典
+  festival_outcome_help__3_start:
+    temp: false
+    text: 開始
+  festival_outcome_help__4_cancel:
+    temp: false
+    text: 中止
+  festival_outcome_help__5_finish:
+    temp: false
+    text: 完了
+  festival_outcome_help__6_desc:
+    temp: true
+    text: お祭りの手伝いをして焚き火に火をつけます。
+  investigate__1_name:
+    temp: false
+    text: 調査
+  investigate__2_context:
+    temp: false
+    text: 貯蔵庫
+  investigate__3_start:
+    temp: false
+    text: 開始
+  investigate__4_cancel:
+    temp: false
+    text: 中止
+  investigate__5_finish:
+    temp: false
+    text: 完了
+  investigate__6_desc:
+    temp: true
+    text: 現場チームが戦場で貴重な情報を捜索しています。
+  lightsout_fixing__1_name:
+    temp: false
+    text: 送電線の修復
+  lightsout_fixing__2_context:
+    temp: false
+    text: 停電
+  lightsout_fixing__3_start:
+    temp: false
+    text: 開始
+  lightsout_fixing__4_cancel:
+    temp: false
+    text: 中止
+  lightsout_fixing__5_finish:
+    temp: false
+    text: 完了
+  lightsout_fixing__6_desc:
+    temp: true
+    text: 戦闘で破壊された送電線を修理します。
+  market_objective__1_name:
+    temp: false
+    text: 地点
+  market_objective__2_context:
+    temp: false
+    text: 市場
+  market_objective__3_start:
+    temp: false
+    text: 追跡
+  market_objective__4_cancel:
+    temp: false
+    text: 削除
+  market_objective__5_finish:
+    temp: false
+    text: 削除
+  market_objective__6_desc:
+    temp: true
+    text: 良い部品を購入できる市場の場所。
+  memorial_objective_target__1_name:
+    temp: false
+    text: 目的
+  memorial_objective_target__2_context:
+    temp: false
+    text: 記念館
+  memorial_objective_target__3_start:
+    temp: false
+    text: 受諾
+  memorial_objective_target__4_cancel:
+    temp: false
+    text: 中止
+  memorial_objective_target__5_finish:
+    temp: false
+    text: 完了
+  memorial_objective_target__6_desc:
+    temp: true
+    text: かつての戦争記念館を調査する。
+  observing_2h__1_name:
+    temp: false
+    text: 観察
+  observing_2h__2_context:
+    temp: false
+    text: 人工衛星の雨
+  observing_2h__3_start:
+    temp: false
+    text: 開始
+  observing_2h__4_cancel:
+    temp: false
+    text: 中止
+  observing_2h__5_finish:
+    temp: false
+    text: 完了
+  observing_2h__6_desc:
+    temp: true
+    text: 腰を下ろして人工衛星の雨を眺めます。
+  observing_4h__1_name:
+    temp: false
+    text: 観察
+  observing_4h__2_context:
+    temp: false
+    text: 人工衛星の雨
+  observing_4h__3_start:
+    temp: false
+    text: 開始
+  observing_4h__4_cancel:
+    temp: false
+    text: 中止
+  observing_4h__5_finish:
+    temp: false
+    text: 完了
+  observing_4h__6_desc:
+    temp: true
+    text: 腰を下ろして人工衛星の雨を眺めます。
+  observing_6h__1_name:
+    temp: false
+    text: 観察
+  observing_6h__2_context:
+    temp: false
+    text: 人工衛星の雨
+  observing_6h__3_start:
+    temp: false
+    text: 開始
+  observing_6h__4_cancel:
+    temp: false
+    text: 中止
+  observing_6h__5_finish:
+    temp: false
+    text: 完了
+  observing_6h__6_desc:
+    temp: true
+    text: 腰を下ろして人工衛星の雨を眺めます。
+  parade__1_name:
+    temp: false
+    text: パレード
+  parade__2_context:
+    temp: false
+    text: 解放
+  parade__3_start:
+    temp: false
+    text: 開始
+  parade__4_cancel:
+    temp: false
+    text: 中止
+  parade__5_finish:
+    temp: false
+    text: 完了
+  parade__6_desc:
+    temp: true
+    text: パレードに参加して祝典に参加します。
+  party__1_name:
+    temp: false
+    text: パーティー
+  party__2_context:
+    temp: false
+    text: 誕生日
+  party__3_start:
+    temp: false
+    text: 開始
+  party__4_cancel:
+    temp: false
+    text: 中止
+  party__5_finish:
+    temp: false
+    text: 完了
+  party__6_desc:
+    temp: true
+    text: 誕生日パーティーを開きます。
+  pharma_objective_delivery_final__1_name:
+    temp: false
+    text: 治療薬配達
+  pharma_objective_delivery_final__2_context:
+    temp: false
+    text: 幻影製薬
+  pharma_objective_delivery_final__3_start:
+    temp: false
+    text: 配達
+  pharma_objective_delivery_final__4_cancel:
+    temp: false
+    text: 中止
+  pharma_objective_delivery_final__5_finish:
+    temp: false
+    text: 完了
+  pharma_objective_delivery_final__6_desc:
+    temp: true
+    text: 集落に治療薬を輸送します。
+  pharma_objective_delivery_long__1_name:
+    temp: false
+    text: 治療薬配達
+  pharma_objective_delivery_long__2_context:
+    temp: false
+    text: 幻影製薬
+  pharma_objective_delivery_long__3_start:
+    temp: false
+    text: 受諾
+  pharma_objective_delivery_long__4_cancel:
+    temp: false
+    text: 配達
+  pharma_objective_delivery_long__5_finish:
+    temp: false
+    text: 完了
+  pharma_objective_delivery_long__6_desc:
+    temp: true
+    text: 集落に治療薬を輸送します。
+  pharma_objective_delivery_short__1_name:
+    temp: false
+    text: 治療薬配達
+  pharma_objective_delivery_short__2_context:
+    temp: false
+    text: 幻影製薬
+  pharma_objective_delivery_short__3_start:
+    temp: false
+    text: 受諾
+  pharma_objective_delivery_short__4_cancel:
+    temp: false
+    text: 配達
+  pharma_objective_delivery_short__5_finish:
+    temp: false
+    text: 完了
+  pharma_objective_delivery_short__6_desc:
+    temp: true
+    text: 集落に治療薬を輸送します。
+  pilot_rescue__1_name:
+    temp: false
+    text: 救出
+  pilot_rescue__2_context:
+    temp: false
+    text: パイロット救出
+  pilot_rescue__3_start:
+    temp: false
+    text: 開始
+  pilot_rescue__4_cancel:
+    temp: false
+    text: 中止
+  pilot_rescue__5_finish:
+    temp: false
+    text: 完了
+  pilot_rescue__6_desc:
+    temp: true
+    text: 捜索救助活動が進行中で程なく成功する見込みです。
+  playwithdog__1_name:
+    temp: false
+    text: イッヌとの遊び
+  playwithdog__2_context:
+    temp: false
+    text: ペット
+  playwithdog__3_start:
+    temp: false
+    text: 開始
+  playwithdog__4_cancel:
+    temp: false
+    text: 中止
+  playwithdog__5_finish:
+    temp: false
+    text: 完了
+  playwithdog__6_desc:
+    temp: true
+    text: ''
+  purranormal_investigating__1_name:
+    temp: true
+    text: 調査中
+  purranormal_investigating__2_context:
+    temp: true
+    text: スーパー・ニャチュラル
+  purranormal_investigating__3_start:
+    temp: true
+    text: 開始
+  purranormal_investigating__4_cancel:
+    temp: true
+    text: 中止
+  purranormal_investigating__5_finish:
+    temp: true
+    text: 完了
+  purranormal_investigating__6_desc:
+    temp: true
+    text: ''
+  purranormal_target__1_name:
+    temp: true
+    text: 幽霊の出現位置
+  purranormal_target__2_context:
+    temp: true
+    text: スーパー・ニャチュラル
+  purranormal_target__3_start:
+    temp: true
+    text: 開始
+  purranormal_target__4_cancel:
+    temp: true
+    text: 中止
+  purranormal_target__5_finish:
+    temp: true
+    text: 完了
+  purranormal_target__6_desc:
+    temp: true
+    text: ''
+  quest_tutorial_01__1_name:
+    temp: false
+    text: ゲーム開始 (1/3)
+  quest_tutorial_01__2_context:
+    temp: false
+    text: チュートリアル
+  quest_tutorial_01__3_start:
+    temp: false
+    text: 開始
+  quest_tutorial_01__4_cancel:
+    temp: false
+    text: スキップ
+  quest_tutorial_01__5_finish:
+    temp: false
+    text: 完了
+  quest_tutorial_01__6_desc:
+    temp: true
+    text: 我が祖国を取り戻す時が来ました。幻影旅団に所属していた最後の前哨基地である Felheim から始めましょう。我々の再起を助ける予備の物資と部品がまだあるはずです。
+  radio_target__1_name:
+    temp: true
+    text: 標的
+  radio_target__2_context:
+    temp: true
+    text: ラジオ塔
+  radio_target__3_start:
+    temp: true
+    text: 受諾
+  radio_target__4_cancel:
+    temp: true
+    text: 中止
+  radio_target__5_finish:
+    temp: true
+    text: 完了
+  radio_target__6_desc:
+    temp: true
+    text: ラジオ塔を破壊する
+  radio_triangulating__1_name:
+    temp: true
+    text: 三角測量地点
+  radio_triangulating__2_context:
+    temp: true
+    text: ラジオ塔
+  radio_triangulating__3_start:
+    temp: true
+    text: 受諾
+  radio_triangulating__4_cancel:
+    temp: true
+    text: 中止
+  radio_triangulating__5_finish:
+    temp: true
+    text: 完了
+  radio_triangulating__6_desc:
+    temp: true
+    text: ラジオ塔の位置を三角測量で割り出す。
+  raid_objective_target__1_name:
+    temp: false
+    text: 標的
+  raid_objective_target__2_context:
+    temp: false
+    text: 襲撃
+  raid_objective_target__3_start:
+    temp: false
+    text: 受諾
+  raid_objective_target__4_cancel:
+    temp: false
+    text: 中止
+  raid_objective_target__5_finish:
+    temp: false
+    text: 完了
+  raid_objective_target__6_desc:
+    temp: true
+    text: 襲撃された村に向かいます。
+  ranks_training__1_name:
+    temp: true
+    text: 新兵訓練
+  ranks_training__2_context:
+    temp: true
+    text: 貯蔵庫
+  ranks_training__3_start:
+    temp: true
+    text: 開始
+  ranks_training__4_cancel:
+    temp: true
+    text: 中止
+  ranks_training__5_finish:
+    temp: true
+    text: 完了
+  ranks_training__6_desc:
+    temp: true
+    text: ''
+  recovery_help__1_name:
+    temp: false
+    text: 回収作業
+  recovery_help__2_context:
+    temp: false
+    text: 泥濘
+  recovery_help__3_start:
+    temp: false
+    text: 受諾
+  recovery_help__4_cancel:
+    temp: false
+    text: 中止
+  recovery_help__5_finish:
+    temp: false
+    text: 完了
+  recovery_help__6_desc:
+    temp: true
+    text: トラクターを救助しています。
+  recovery_manual_01__1_name:
+    temp: false
+    text: 回収作業
+  recovery_manual_01__2_context:
+    temp: false
+    text: 泥濘
+  recovery_manual_01__3_start:
+    temp: false
+    text: 受諾
+  recovery_manual_01__4_cancel:
+    temp: false
+    text: 中止
+  recovery_manual_01__5_finish:
+    temp: false
+    text: 完了
+  recovery_manual_01__6_desc:
+    temp: true
+    text: トラクターを救助しています。
+  recovery_manual_02__1_name:
+    temp: false
+    text: 回収作業
+  recovery_manual_02__2_context:
+    temp: false
+    text: 泥濘
+  recovery_manual_02__3_start:
+    temp: false
+    text: 受諾
+  recovery_manual_02__4_cancel:
+    temp: false
+    text: 中止
+  recovery_manual_02__5_finish:
+    temp: false
+    text: 完了
+  recovery_manual_02__6_desc:
+    temp: true
+    text: トラクターを救助しています。
+  rescuecivilians_objective_deliver__1_name:
+    temp: false
+    text: 集落への輸送
+  rescuecivilians_objective_deliver__2_context:
+    temp: false
+    text: 民間人救助
+  rescuecivilians_objective_deliver__3_start:
+    temp: false
+    text: 受諾
+  rescuecivilians_objective_deliver__4_cancel:
+    temp: false
+    text: 中止
+  rescuecivilians_objective_deliver__5_finish:
+    temp: false
+    text: 完了
+  rescuecivilians_objective_deliver__6_desc:
+    temp: true
+    text: 救助した民間人を集落に還します。
+  rescuecivilians_objective_target__1_name:
+    temp: false
+    text: 民間人救助
+  rescuecivilians_objective_target__2_context:
+    temp: false
+    text: 民間人救助
+  rescuecivilians_objective_target__3_start:
+    temp: false
+    text: 受諾
+  rescuecivilians_objective_target__4_cancel:
+    temp: false
+    text: 中止
+  rescuecivilians_objective_target__5_finish:
+    temp: false
+    text: 完了
+  rescuecivilians_objective_target__6_desc:
+    temp: true
+    text: 捕らえられた民間人の場所。
+  rescuesupplies_objective_deliver__1_name:
+    temp: false
+    text: 施設への輸送
+  rescuesupplies_objective_deliver__2_context:
+    temp: false
+    text: 奪われた物資
+  rescuesupplies_objective_deliver__3_start:
+    temp: false
+    text: 受諾
+  rescuesupplies_objective_deliver__4_cancel:
+    temp: false
+    text: 中止
+  rescuesupplies_objective_deliver__5_finish:
+    temp: false
+    text: 完了
+  rescuesupplies_objective_deliver__6_desc:
+    temp: true
+    text: 奪われた物資を施設に輸送します。
+  rescuesupplies_objective_target__1_name:
+    temp: false
+    text: 物資奪還
+  rescuesupplies_objective_target__2_context:
+    temp: false
+    text: 奪われた物資
+  rescuesupplies_objective_target__3_start:
+    temp: false
+    text: 受諾
+  rescuesupplies_objective_target__4_cancel:
+    temp: false
+    text: 中止
+  rescuesupplies_objective_target__5_finish:
+    temp: false
+    text: 完了
+  rescuesupplies_objective_target__6_desc:
+    temp: true
+    text: 奪われた物資の場所。
+  research__1_name:
+    temp: false
+    text: 研究
+  research__2_context:
+    temp: true
+    text: ''
+  research__3_start:
+    temp: false
+    text: 開始
+  research__4_cancel:
+    temp: false
+    text: 中止
+  research__5_finish:
+    temp: false
+    text: 完了
+  research__6_desc:
+    temp: true
+    text: 移動基地で新しい技術を研究しています。
+  satellite_objective__1_name:
+    temp: false
+    text: 墜落現場
+  satellite_objective__2_context:
+    temp: false
+    text: 人工衛星の雨
+  satellite_objective__3_start:
+    temp: false
+    text: 受諾
+  satellite_objective__4_cancel:
+    temp: false
+    text: 中止
+  satellite_objective__5_finish:
+    temp: false
+    text: 完了
+  satellite_objective__6_desc:
+    temp: true
+    text: 墜落現場を調査します。
+  satelliteshower__1_name:
+    temp: false
+    text: 人工衛星の雨
+  satelliteshower__2_context:
+    temp: true
+    text: ''
+  satelliteshower__3_start:
+    temp: false
+    text: 開始
+  satelliteshower__4_cancel:
+    temp: false
+    text: 中止
+  satelliteshower__5_finish:
+    temp: false
+    text: 完了
+  satelliteshower__6_desc:
+    temp: true
+    text: 腰を下ろして人工衛星の雨を眺めます。
+  unit_repair__1_name:
+    temp: false
+    text: 機体修理
+  unit_repair__2_context:
+    temp: true
+    text: ''
+  unit_repair__3_start:
+    temp: false
+    text: 開始
+  unit_repair__4_cancel:
+    temp: false
+    text: 中止
+  unit_repair__5_finish:
+    temp: false
+    text: 完了
+  unit_repair__6_desc:
+    temp: true
+    text: 移動基地で機体のひとつを修理しています。
+  workshop_build__1_name:
+    temp: false
+    text: 工房プロジェクト
+  workshop_build__2_context:
+    temp: true
+    text: ''
+  workshop_build__3_start:
+    temp: false
+    text: 開始
+  workshop_build__4_cancel:
+    temp: false
+    text: 中止・資源返却
+  workshop_build__5_finish:
+    temp: false
+    text: 完了
+  workshop_build__6_desc:
+    temp: true
+    text: 我々の工房が指定されたプロジェクトに取り組んでいます。このアクションを中止すると投入した資源は返却されます。
