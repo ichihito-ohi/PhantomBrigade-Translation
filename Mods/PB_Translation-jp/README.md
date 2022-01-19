@@ -81,6 +81,9 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
 
 ---
 ## 謝辞（敬称略）
+### Discord - Brace Yourself Games サーバー
+- Artyom Zuev (Core Development Team of Phantom Brigade, Technical Artist)
+- Miketan
 ### Steamグループ 日本語化作業者互助会
 - Guzuo
 - AgeBdeR
