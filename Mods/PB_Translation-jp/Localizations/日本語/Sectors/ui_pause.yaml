@@ -1,0 +1,291 @@
+name: Pause Menu
+description: Variety of text used in pause menu and related screens like splash screen. Load screen text, save system text, submenus etc.
+exportMode: LinePerKeySimple
+columns: []
+splits: []
+entries:
+  dialog_exit_header:
+    temp: true
+    text: 終了します
+  dialog_exit_text_desktop:
+    temp: true
+    text: デスクトップに戻ってもよろしいですか？セーブされていない進行状況はすべて失われます。
+  dialog_exit_text_menu:
+    temp: true
+    text: メインメニューに戻ってもよろしいですか？セーブされていない進行状況はすべて失われます。
+  dialog_url_header:
+    temp: true
+    text: URLを開きます
+  dialog_url_text_changelog:
+    temp: true
+    text: リリースノートへのリンク先に移動してもよろしいですか？ブラウザウィンドウが開き、ゲームは中断されバックグラウンドで待機します。
+  dialog_url_text_chat:
+    temp: true
+    text: Discord サーバーへのリンク先に移動してもよろしいですか？ブラウザウィンドウが開き、ゲームは中断されバックグラウンドで待機します。
+  dialog_url_text_forum:
+    temp: true
+    text: フォーラムへのリンク先に移動してもよろしいですか？ブラウザウィンドウが開き、ゲームは中断されバックグラウンドで待機します。
+  dialog_url_text_privacy:
+    temp: true
+    text: Unity プライバシーページへのリンク先に移動してもよろしいですか？ブラウザウィンドウが開き、ゲームは中断されバックグラウンドで待機します。
+  footer_button_changelog:
+    temp: true
+    text: リリースノート
+  footer_button_chat:
+    temp: true
+    text: Discord
+  footer_button_forum:
+    temp: true
+    text: Reddit
+  footer_button_privacy:
+    temp: true
+    text: プライバシー
+  footer_button_reporter:
+    temp: true
+    text: フィードバックを送る
+  footer_button_roadmap:
+    temp: true
+    text: ロードマップ
+  info_button_next:
+    temp: true
+    text: 進む
+  info_button_prev:
+    temp: true
+    text: 戻る
+  loading_to_base:
+    temp: true
+    text: 基地を初期化中...
+  loading_to_campaign:
+    temp: true
+    text: キャンペーンを初期化中...
+  loading_to_combat:
+    temp: true
+    text: 戦闘を初期化中...
+  loading_to_lowlevel:
+    temp: true
+    text: 低レベルデータを初期化中...
+  loading_to_menu:
+    temp: true
+    text: 終了中...
+  loading_to_overworld:
+    temp: true
+    text: 戦闘を初期化中...
+  loading_to_test:
+    temp: true
+    text: テストを初期化中...
+  loading_to_tutorial:
+    temp: true
+    text: チュートリアルを初期化中...
+  mods_button_apply:
+    temp: true
+    text: Mod を適用
+  mods_button_reset:
+    temp: true
+    text: 設定をリセット
+  mods_button_save:
+    temp: true
+    text: 設定をセーブ
+  mods_dialog_apply_header:
+    temp: true
+    text: Mod をロードします
+  mods_dialog_apply_text:
+    temp: true
+    text: 'ゲームは起動時に（その時点での設定に基づいて）既に mod を適用しています。Mod 設定の変更を適用する目的での mod の再ロードは推奨されません。予期しない問題を引き起こす可能性があります。さらに、1セッション中にライブラリ mod （コード注入 mod）を複数回ロードする処理には対応していません―このセッション中にゲームがそのような mod を既にロードしていた場合、コンテンツはすべてスキップされます。
+
+
+      ただし、 config mod の開発やその他同様の場合に、変更内容をすばやく確認する上でこのオプションが役立ちます。続行しますか？'
+  mods_header_all:
+    temp: true
+    text: すべて
+  mods_header_config:
+    temp: true
+    text: 設定
+  mods_header_details:
+    temp: true
+    text: 詳細
+  mods_hint_unsaved:
+    temp: true
+    text: '未セーブの変更を検出：
+
+      適用するにはセーブをクリックして再起動してください！'
+  mods_stats_names:
+    temp: true
+    text: 'バージョン
+
+      識別子
+
+      ディレクトリ
+
+      最小ゲームバージョン
+
+      最大ゲームバージョン'
+  newgame_button_generate:
+    temp: true
+    text: シード値を生成
+  newgame_button_randomize:
+    temp: true
+    text: シード値をランダム化
+  newgame_button_start:
+    temp: true
+    text: 開始
+  newgame_button_start_tutorial:
+    temp: true
+    text: チュートリアルから開始
+  newgame_hint_seed_fixed:
+    temp: true
+    text: このモードでは、固定されたシード値が使用されます。この値が同じである限り、生成されるワールドは変化しません。同じシード値による複数のセッション間で、各種地点や機体、戦利品にばらつきが見つかった場合は、バグとしてご報告ください。
+  newgame_hint_seed_random:
+    temp: true
+    text: このモードでは、ゲームが自動的にランダムなシード値を生成します。新しく始めたゲームはそれぞれワールドが異なります。これにより多様性が増しますが、何らかの問題が発生した場合に再現が困難になる可能性もあります。報告をお送りいただく際には、生成されたシード値が埋め込まれて送信されます。
+  root_button_back:
+    temp: true
+    text: 戻る
+  root_button_info:
+    temp: true
+    text: 各種情報
+  root_button_load:
+    temp: true
+    text: ロード
+  root_button_mods:
+    temp: true
+    text: Mods
+  root_button_new:
+    temp: true
+    text: ニューゲーム
+  root_button_options:
+    temp: true
+    text: 設定
+  root_button_quit_to_desktop:
+    temp: true
+    text: デスクトップに戻る
+  root_button_quit_to_menu:
+    temp: true
+    text: メニューに戻る
+  root_button_save:
+    temp: true
+    text: セーブ
+  save_button_create_new:
+    temp: true
+    text: セーブを作成
+  save_button_create_overwrite:
+    temp: true
+    text: セーブを上書き
+  save_button_load:
+    temp: true
+    text: セーブをロード
+  save_dialog_delete_header:
+    temp: true
+    text: 削除します
+  save_dialog_delete_text:
+    temp: true
+    text: このセーブファイルを削除してもよろしいですか？
+  save_dialog_load_header:
+    temp: true
+    text: ロードします
+  save_dialog_load_text:
+    temp: true
+    text: セーブデータをロードしてよろしいですか？
+  save_dialog_overwrite_header:
+    temp: true
+    text: 上書きします
+  save_dialog_overwrite_text:
+    temp: true
+    text: セーブファイルを上書きしてもよろしいですか？
+  save_list_experimental_normal:
+    temp: true
+    text: 実験版
+  save_list_experimental_warning:
+    temp: true
+    text: 実験版（ロード非対応）
+  save_list_province_unknown:
+    temp: true
+    text: 州（不明）
+  save_list_state_base:
+    temp: true
+    text: 移動基地
+  save_list_state_combat:
+    temp: true
+    text: 戦闘
+  save_list_state_overworld:
+    temp: true
+    text: 全体マップ
+  save_list_time_unknown:
+    temp: true
+    text: ゲーム内時間（不明）
+  save_stats_names:
+    temp: true
+    text: '解放した州
+
+      機体レベル
+
+      機体数
+
+      パイロット人数
+
+      物資'
+  save_warning_base:
+    temp: true
+    text: 基地を初期化せずにセーブはできません
+  save_warning_combat:
+    temp: true
+    text: 戦闘中のセーブは現在対応していません！（この機能は開発中です）
+  save_warning_combat_debriefing:
+    temp: true
+    text: 戦闘結果の報告中にセーブはできません
+  save_warning_combat_execution:
+    temp: true
+    text: ターン実行中にセーブはできません
+  save_warning_cutscene:
+    temp: true
+    text: カットシーン中にセーブはできません
+  save_warning_empty:
+    temp: true
+    text: セーブ名は空欄にできません
+  save_warning_empty_folder:
+    temp: true
+    text: 利用可能なセーブデータがありません。ゲーム中にセーブメニューを使用して作成してください。
+  save_warning_overworld_lock:
+    temp: true
+    text: 操作ロック中にセーブはできません
+  save_warning_overworld_retreat:
+    temp: true
+    text: 撤退中にセーブはできません
+  save_warning_overworld_salvage:
+    temp: true
+    text: サルベージ中にセーブはできません
+  save_warning_overwrite:
+    temp: true
+    text: 既存のファイルを上書きしてセーブします
+  save_warning_state:
+    temp: true
+    text: 通常のゲーム状態以外でセーブはできません
+  splash_button:
+    temp: true
+    text: 続ける
+  splash_ea_header:
+    temp: true
+    text: アーリーアクセス
+  splash_ea_text:
+    temp: true
+    text: '旅団にようこそ！アーリーアクセス期間中に、皆様が Phantom Brigade を体験して開発を形作るためにあなたの手助けを得られることを楽しみにしています。
+
+
+      開発過程で、何かしらの面でゲームが粗削りだったり、不足していたり、バグがあると感じることがあるかもしれません。毎月、バグ修正や新機能、プレイヤーの『クオリティ・オブ・ライフ』改善を含むメジャーアップデートをリリースする予定です。最も重要な機能や修正を提供できるよう努めておりますので、このプロセスを通じて皆様のご協力とフィードバックをお願いいたします。
+
+
+      メインメニューから、 [ff7766]アーリーアクセスのロードマップ[-] をチェックして Phantom Brigade に何が来る予定かご覧いただくこと、Brace Yourself Games の Discord コミュニティを通じて私たちに連絡すること、 [ff7766]パッチノート[-] で最新の変更と既知の問題を確認いただくことができます。
+
+
+      この旅路にご参加いただきありがとうございます。あなたの助けを借りて、 Phantom Brigade をどんどん良くしていくことを楽しみにしています！'
+  splash_warn_header:
+    temp: true
+    text: 光敏感性発作について
+  splash_warn_text:
+    temp: true
+    text: '点滅する光や模様を含む特定の視覚イメージを見たとき、発作を起こされる方がごくまれにいらっしゃいます。
+
+
+      この発作には、めまい、視覚の変調、目や顔のけいれん、手足のけいれんや震え、前後不覚、混乱、一時的な意識喪失など様々な症状があります。
+
+
+      これらの症状を感じた場合は、すぐにゲームを中止して医師の診察を受けてください。あなたやご家族、ご親戚の中に発作やてんかんを起こした方がいらっしゃる場合は、ゲームをプレイする前に医師にご相談ください。'

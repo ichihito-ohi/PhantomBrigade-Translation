@@ -1,0 +1,839 @@
+name: Scenarios / Embedded
+description: All text unique to specific scenarios. Core header/text are only visible in developer menus for the time being. States are akin to objectives, their header/text usually describe what needs to be done or consequences of something happening. Steps are similar to narrative event steps, but can include a lot more data - aside from standard header/text strings, they can also include strings for tutorial intermissions, contextual hints etc. State/step text that repeats more than oncecan be found in scenario_states_shared or scenario_steps_shared sectors.
+exportMode: LinePerKeySplit
+columns: []
+splits:
+- displayName: Scenario
+  prefix: core_header
+entries:
+  030tr_2w_fort_hitandrun__core_header:
+    temp: true
+    text: Hit and Run - Camp / 30R - 2W
+  030tr_2w_fort_hitandrun__core_text:
+    temp: true
+    text: ''
+  030tr_2w_squad_hitandrun__core_header:
+    temp: true
+    text: Hit and Run - Squad / 30R - 2W
+  030tr_2w_squad_hitandrun__core_text:
+    temp: true
+    text: ''
+  040tr_1w_squad__core_header:
+    temp: true
+    text: Attack - Squad / 40R - 1W
+  040tr_1w_squad__core_text:
+    temp: true
+    text: ''
+  040tr_2w_cache_looting__core_header:
+    temp: true
+    text: Looting - Cache / 40R - 2W
+  040tr_2w_cache_looting__core_text:
+    temp: true
+    text: ''
+  040tr_2w_event_tutorial_convoy_looting__core_header:
+    temp: true
+    text: Looting - Convoy (Tutorial) / 40R - 2W
+  040tr_2w_event_tutorial_convoy_looting__core_text:
+    temp: true
+    text: ''
+  040tr_2w_squad__core_header:
+    temp: true
+    text: Attack - Squad / 40R - 2W
+  040tr_2w_squad__core_text:
+    temp: true
+    text: ''
+  050tr_2w_squad_hitandrun__core_header:
+    temp: true
+    text: Hit and Run - Squad / 50R - 2W
+  050tr_2w_squad_hitandrun__core_text:
+    temp: true
+    text: ''
+  060tr_1w_event_defector_chargeflanked__core_header:
+    temp: true
+    text: Defector - Charge & Flank / 60R - 1W
+  060tr_1w_event_defector_chargeflanked__core_text:
+    temp: true
+    text: ''
+  060tr_1w_event_defector_recon__core_header:
+    temp: true
+    text: Defector - Recon / 60R - 1W
+  060tr_1w_event_defector_recon__core_text:
+    temp: true
+    text: ''
+  060tr_1w_event_defector_stakeout__core_header:
+    temp: true
+    text: Defector - Stakeout / 60R - 1W
+  060tr_1w_event_defector_stakeout__core_text:
+    temp: true
+    text: ''
+  060tr_1w_event_draft_stealth__core_header:
+    temp: true
+    text: ''
+  060tr_1w_event_draft_stealth__core_text:
+    temp: true
+    text: ''
+  060tr_1w_event_draft_stealth__state_loot_0c_header:
+    temp: true
+    text: 目的
+  060tr_1w_event_draft_stealth__state_loot_0c_text:
+    temp: true
+    text: 民間人を救助するため、5ターンの間、最低1機を指定された地点に配置した状態でターンを終了しろ。
+  060tr_1w_event_draft_stealth__step_retreat_0c_header:
+    temp: true
+    text: 目的
+  060tr_1w_event_draft_stealth__step_retreat_0c_text:
+    temp: true
+    text: 撤収または残る敵を殲滅しろ。民間人の脱出は完了した。
+  060tr_1w_event_draft_stealth__step_wave0_0c_header:
+    temp: true
+    text: ステルス任務
+  060tr_1w_event_draft_stealth__step_wave0_0c_text:
+    temp: true
+    text: 民間人を救助するか、周辺の敵をすべて排除しろ。
+  060tr_1w_facility__core_header:
+    temp: true
+    text: Attack - Facility / 60R - 1W
+  060tr_1w_facility__core_text:
+    temp: true
+    text: ''
+  060tr_1w_fort__core_header:
+    temp: true
+    text: Attack - Camp / 60R - 1W
+  060tr_1w_fort__core_text:
+    temp: true
+    text: ''
+  060tr_1w_squad__core_header:
+    temp: true
+    text: Attack - Squad / 60R - 1W
+  060tr_1w_squad__core_text:
+    temp: true
+    text: ''
+  060tr_2w_cache_looting__core_header:
+    temp: true
+    text: Looting - Cache / 60R - 2W
+  060tr_2w_cache_looting__core_text:
+    temp: true
+    text: ''
+  060tr_2w_facility__core_header:
+    temp: true
+    text: Attack - Facility / 60R - 2W
+  060tr_2w_facility__core_text:
+    temp: true
+    text: ''
+  060tr_2w_fort__core_header:
+    temp: true
+    text: Attack - Camp / 60R - 2W
+  060tr_2w_fort__core_text:
+    temp: true
+    text: ''
+  060tr_2w_fort_hitandrun__core_header:
+    temp: true
+    text: Hit and Run - Camp / 60R - 2W
+  060tr_2w_fort_hitandrun__core_text:
+    temp: true
+    text: ''
+  060tr_2w_outpost_looting__core_header:
+    temp: true
+    text: Attack - Outpost / 60R - 2W
+  060tr_2w_outpost_looting__core_text:
+    temp: true
+    text: ''
+  060tr_2w_squad__core_header:
+    temp: true
+    text: Attack - Squad / 60R - 2W
+  060tr_2w_squad__core_text:
+    temp: true
+    text: ''
+  065tr_2w_fort_hitandrun__core_header:
+    temp: true
+    text: Hit and Run - Camp / 65R - 2W
+  065tr_2w_fort_hitandrun__core_text:
+    temp: true
+    text: ''
+  080tr_1w_event_director_outpost__core_header:
+    temp: true
+    text: ''
+  080tr_1w_event_director_outpost__core_text:
+    temp: true
+    text: ''
+  080tr_1w_event_draft_frontal__core_header:
+    temp: true
+    text: ''
+  080tr_1w_event_draft_frontal__core_text:
+    temp: true
+    text: ''
+  080tr_1w_facility__core_header:
+    temp: true
+    text: Attack - Facility / 80R - 1W
+  080tr_1w_facility__core_text:
+    temp: true
+    text: ''
+  080tr_1w_outpost__core_header:
+    temp: true
+    text: Attack - Outpost / 80R - 1W
+  080tr_1w_outpost__core_text:
+    temp: true
+    text: ''
+  080tr_1w_settlement_town__core_header:
+    temp: true
+    text: Attack - Town / 80R - 1W
+  080tr_1w_settlement_town__core_text:
+    temp: true
+    text: ''
+  080tr_1w_settlement_village__core_header:
+    temp: true
+    text: Attack - Village / 80R - 1W
+  080tr_1w_settlement_village__core_text:
+    temp: true
+    text: ''
+  080tr_2w_outpost_looting__core_header:
+    temp: true
+    text: Looting - Outpost / 80R - 2W
+  080tr_2w_outpost_looting__core_text:
+    temp: true
+    text: ''
+  080tr_2w_settlement_city__core_header:
+    temp: true
+    text: Attack - City / 80R - 2W
+  080tr_2w_settlement_city__core_text:
+    temp: true
+    text: ''
+  080tr_2w_settlement_village__core_header:
+    temp: true
+    text: Attack - Village / 80R - 2W
+  080tr_2w_settlement_village__core_text:
+    temp: true
+    text: ''
+  090tr_1w_convoy_looting__core_header:
+    temp: true
+    text: Looting - Convoy / 90R - 1W
+  090tr_1w_convoy_looting__core_text:
+    temp: true
+    text: ''
+  090tr_2w_convoy_looting__core_header:
+    temp: true
+    text: Looting - Convoy / 90R - 2W
+  090tr_2w_convoy_looting__core_text:
+    temp: true
+    text: ''
+  100tr_1w_base__core_header:
+    temp: true
+    text: Attack - Base / 100R - 1W
+  100tr_1w_base__core_text:
+    temp: true
+    text: ''
+  100tr_1w_event_draft_retry__core_header:
+    temp: true
+    text: ''
+  100tr_1w_event_draft_retry__core_text:
+    temp: true
+    text: ''
+  100tr_2w_base__core_header:
+    temp: true
+    text: Attack - Base / 100R - 2W
+  100tr_2w_base__core_text:
+    temp: true
+    text: ''
+  100tr_3w_base__core_header:
+    temp: true
+    text: Attack - Base / 100R - 3W
+  100tr_3w_base__core_text:
+    temp: true
+    text: ''
+  100tr_w2_event_assassination_general__core_header:
+    temp: true
+    text: Test - Assassination
+  100tr_w2_event_assassination_general__core_text:
+    temp: true
+    text: 上級大将の待ち伏せを試みる。彼らは伝説級の強力な兵器を持っており、この州の情勢に強く影響を与えている。
+  100tr_w2_event_assassination_general__state_transition_delay_deploy_killteam_scout_0c_text:
+    temp: true
+    text: すぐに偵察がキルチームの援軍を呼び出すだろう。
+  100tr_w2_event_assassination_general__state_transition_delay_deploy_killteam_vip_0c_text:
+    temp: true
+    text: まもなくキルチームの援軍が到着する。
+  100tr_w2_event_assassination_general__state_transition_delay_deploy_vip_0c_header:
+    temp: true
+    text: 将軍の到着を待て
+  100tr_w2_event_assassination_general__state_transition_delay_deploy_vip_0c_text:
+    temp: true
+    text: まもなく将軍が中央近くに着陸する。
+  100tr_w2_event_assassination_general__state_transition_delay_retreat_block_0c_header:
+    temp: true
+    text: 警告！
+  100tr_w2_event_assassination_general__state_transition_delay_retreat_block_0c_text:
+    temp: true
+    text: まもなく撤収地点が封鎖される。
+  100tr_w2_event_assassination_general__step_a0_scouts_spotted_pb_0c_text:
+    temp: true
+    text: 報告される前に [b]スカウトメック[/b] を排除しろ。敵軍が報告してしまった場合、将軍の代わりにキルチームが現地に着陸してしまう。
+  100tr_w2_event_assassination_general__step_a1_vip_deployment_delay_0c_text:
+    temp: true
+    text: 残存する偵察員を倒し、残り時間のうちに将軍の待ち伏せを準備しろ。着陸予想地点は中央近くである。
+  100tr_w2_event_assassination_general__step_b0_vip_deployed_0c_text:
+    temp: true
+    text: 将軍を倒せ（脱出させてはならない）。迅速に行動しろ―キルチーム到着までの時間は限られている。
+  100tr_w2_event_assassination_general__step_b1_pb_killed_vip_0c_text:
+    temp: true
+    text: 標的を排除し、今すぐ撤退しろ！まもなくキルチームの援軍が到着する。
+  100tr_w2_event_assassination_general__step_b1_vip_ejected_0c_text:
+    temp: true
+    text: 任務失敗、将軍が戦場から逃走した。キルチームが到着する前に撤収しろ。
+  100tr_w2_event_assassination_general__step_b2_killteam_deployment_vip_ejected_0c_text:
+    temp: true
+    text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。
+  100tr_w2_event_assassination_general__step_b3_killteam_deployment_vip_alive_0c_text:
+    temp: true
+    text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。将軍の排除はまだ可能だが、一部のパイロットが取り残される結果になりかねない。
+  100tr_w2_event_assassination_general__step_b4_killteam_deployed_vip_dead_0c_text:
+    temp: true
+    text: 標的排除、今すぐ撤収しろ！敵軍に封鎖されるまで撤収の時間は限られている。
+  100tr_w2_event_assassination_general__step_b5_killteam_deployment_vip_dead_0c_text:
+    temp: true
+    text: 敵軍に封鎖されるまで撤収の時間は限られている。
+  100tr_w2_event_assassination_general__step_d0_killteam_deployed_from_scouts_0c_text:
+    temp: true
+    text: 将軍は着陸しない；任務失敗。敵軍に封鎖されるまで撤収の時間は限られている。
+  100tr_w2_event_assassination_general__step_d1_retreat_cutoff_0c_text:
+    temp: true
+    text: 敵をすべて排除するかパイロットを射出させろ。敵軍が移動基地への撤収経路を封鎖した。
+  convoy_looting_easy__core_header:
+    temp: true
+    text: ''
+  convoy_looting_easy__core_text:
+    temp: true
+    text: ''
+  convoy_looting_hard__core_header:
+    temp: true
+    text: ''
+  convoy_looting_hard__core_text:
+    temp: true
+    text: ''
+  convoy_looting_normal__core_header:
+    temp: true
+    text: ''
+  convoy_looting_normal__core_text:
+    temp: true
+    text: ''
+  core_convoy_looting__core_header:
+    temp: true
+    text: ''
+  core_convoy_looting__core_text:
+    temp: true
+    text: ''
+  core_fort_elimination__core_header:
+    temp: true
+    text: ''
+  core_fort_elimination__core_text:
+    temp: true
+    text: ''
+  core_squad_elimination__core_header:
+    temp: true
+    text: Attack - Squad / 40R - 1W
+  core_squad_elimination__core_text:
+    temp: true
+    text: ''
+  event_cache_informed__core_header:
+    temp: true
+    text: Looting - Cache / 60R - 2W
+  event_cache_informed__core_text:
+    temp: true
+    text: ''
+  event_cache_uninformed__core_header:
+    temp: true
+    text: Looting - Cache / 60R - 2W
+  event_cache_uninformed__core_text:
+    temp: true
+    text: ''
+  event_farm_default__core_header:
+    temp: true
+    text: Attack - Facility / 80R - 1W
+  event_farm_default__core_text:
+    temp: true
+    text: ''
+  event_radio_default__core_header:
+    temp: true
+    text: Attack - Outpost / 60R - 2W
+  event_radio_default__core_text:
+    temp: true
+    text: ''
+  event_radio_default__state_objective_destruction_0c_header:
+    temp: true
+    text: 目的
+  event_radio_default__state_objective_destruction_0c_text:
+    temp: true
+    text: ラジオ塔を停止させるため、3ターンの間、各ターンの終了時に最低1機に指定された地点を確保させろ。
+  event_radio_default__step_wave0_0c_text:
+    temp: true
+    text: ラジオ塔を停止させるか、敵をすべて排除しろ。
+  generic_convoy_looting__core_header:
+    temp: true
+    text: ''
+  generic_convoy_looting__core_text:
+    temp: true
+    text: ''
+  generic_patrol_elimination__core_header:
+    temp: true
+    text: ''
+  generic_patrol_elimination__core_text:
+    temp: true
+    text: ''
+  patrol_elimination_easy__core_header:
+    temp: true
+    text: ''
+  patrol_elimination_easy__core_text:
+    temp: true
+    text: ''
+  patrol_elimination_hard__core_header:
+    temp: true
+    text: ''
+  patrol_elimination_hard__core_text:
+    temp: true
+    text: ''
+  patrol_elimination_normal__core_header:
+    temp: true
+    text: ''
+  patrol_elimination_normal__core_text:
+    temp: true
+    text: ''
+  prototype_convoy_1__core_header:
+    temp: true
+    text: ''
+  prototype_convoy_1__core_text:
+    temp: true
+    text: ''
+  prototype_convoy_2__core_header:
+    temp: true
+    text: ''
+  prototype_convoy_2__core_text:
+    temp: true
+    text: ''
+  prototype_convoy_3__core_header:
+    temp: true
+    text: ''
+  prototype_convoy_3__core_text:
+    temp: true
+    text: ''
+  prototype_patrol_1__core_header:
+    temp: true
+    text: ''
+  prototype_patrol_1__core_text:
+    temp: true
+    text: ''
+  prototype_patrol_2__core_header:
+    temp: true
+    text: ''
+  prototype_patrol_2__core_text:
+    temp: true
+    text: ''
+  prototype_patrol_3__core_header:
+    temp: true
+    text: ''
+  prototype_patrol_3__core_text:
+    temp: true
+    text: ''
+  prototype_site_1__core_header:
+    temp: true
+    text: ''
+  prototype_site_1__core_text:
+    temp: true
+    text: ''
+  prototype_site_2__core_header:
+    temp: true
+    text: ''
+  prototype_site_2__core_text:
+    temp: true
+    text: ''
+  prototype_site_3__core_header:
+    temp: true
+    text: ''
+  prototype_site_3__core_text:
+    temp: true
+    text: ''
+  shootingrange_armors__core_header:
+    temp: true
+    text: Shooting Range - Armors
+  shootingrange_armors__core_text:
+    temp: true
+    text: ''
+  shootingrange_duelwieldtest__core_header:
+    temp: true
+    text: Shooting Range - Dual Wield
+  shootingrange_duelwieldtest__core_text:
+    temp: true
+    text: ''
+  shootingrange_empty__core_header:
+    temp: true
+    text: Shooting Range - Empty (No Squad)
+  shootingrange_empty__core_text:
+    temp: true
+    text: ''
+  shootingrange_empty__step_main_0c_header:
+    temp: true
+    text: ''
+  shootingrange_empty__step_main_0c_text:
+    temp: true
+    text: ''
+  shootingrange_empty_squad__core_header:
+    temp: true
+    text: Shooting Range - Empty (Squad)
+  shootingrange_empty_squad__core_text:
+    temp: true
+    text: ''
+  shootingrange_equipment__core_header:
+    temp: true
+    text: Shooting Range - Equipment Types
+  shootingrange_equipment__core_text:
+    temp: true
+    text: ''
+  shootingrange_obstaclecourse__core_header:
+    temp: true
+    text: Shooting Range - Obstacles
+  shootingrange_obstaclecourse__core_text:
+    temp: true
+    text: ''
+  test_assassination__core_header:
+    temp: true
+    text: Test - Assassination
+  test_assassination__core_text:
+    temp: true
+    text: 上級大将の待ち伏せを試みる。彼らは伝説級の強力な兵器を持っており、この州の情勢に強く影響を与えている。
+  test_assassination__state_transition_delay_deploy_killteam_scout_0c_text:
+    temp: true
+    text: すぐに偵察がキルチームの援軍を呼び出すだろう。
+  test_assassination__state_transition_delay_deploy_killteam_vip_0c_text:
+    temp: true
+    text: まもなくキルチームの援軍が到着する。
+  test_assassination__state_transition_delay_deploy_killteam_vip_placeholder_0c_text:
+    temp: true
+    text: ''
+  test_assassination__state_transition_delay_deploy_vip_0c_header:
+    temp: true
+    text: 将軍の到着を待て
+  test_assassination__state_transition_delay_deploy_vip_0c_text:
+    temp: true
+    text: まもなく将軍が中央近くに着陸する。
+  test_assassination__state_transition_delay_retreat_block_0c_header:
+    temp: true
+    text: 警告！
+  test_assassination__state_transition_delay_retreat_block_0c_text:
+    temp: true
+    text: まもなく撤収地点が封鎖される。
+  test_assassination__step_a0_scouts_spotted_pb_0c_text:
+    temp: true
+    text: 報告される前に [b]スカウトメック[/b] を排除しろ。敵軍が報告してしまった場合、将軍の代わりにキルチームが現地に着陸してしまう。
+  test_assassination__step_a1_vip_deployment_delay_0c_text:
+    temp: true
+    text: 残存する偵察員を倒し、残り時間のうちに将軍の待ち伏せを準備しろ。着陸予想地点は中央近くである。
+  test_assassination__step_b0_vip_deployed_0c_text:
+    temp: true
+    text: 将軍を倒せ（脱出させてはならない）。迅速に行動しろ―キルチーム到着までの時間は限られている。
+  test_assassination__step_b1_pb_killed_vip_0c_text:
+    temp: true
+    text: 標的を排除し、今すぐ撤退しろ！まもなくキルチームの援軍が到着する。
+  test_assassination__step_b1_vip_ejected_0c_text:
+    temp: true
+    text: 任務失敗、将軍が戦場から逃走した。キルチームが到着する前に撤収しろ。
+  test_assassination__step_b2_killteam_deployment_vip_ejected_0c_text:
+    temp: true
+    text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。
+  test_assassination__step_b3_killteam_deployment_vip_alive_0c_text:
+    temp: true
+    text: 任務を中止しろ！敵軍に封鎖されるまで撤収の時間は限られている。将軍の排除はまだ可能だが、一部のパイロットが取り残される結果になりかねない。
+  test_assassination__step_b4_killteam_deployed_vip_dead_0c_text:
+    temp: true
+    text: 標的排除、今すぐ撤収しろ！敵軍に封鎖されるまで撤収の時間は限られている。
+  test_assassination__step_b5_killteam_deployment_vip_dead_0c_text:
+    temp: true
+    text: 敵軍に封鎖されるまで撤収の時間は限られている。
+  test_assassination__step_d0_killteam_deployed_from_scouts_0c_text:
+    temp: true
+    text: 将軍は着陸しない；任務失敗。敵軍に封鎖されるまで撤収の時間は限られている。
+  test_assassination__step_d1_retreat_cutoff_0c_text:
+    temp: true
+    text: 敵をすべて排除するかパイロットを射出させろ。敵軍が移動基地への撤収経路を封鎖した。
+  test_equipment_uhbeams1__core_header:
+    temp: true
+    text: Test - UH Beam 1 (Normal-Hard)
+  test_equipment_uhbeams1__core_text:
+    temp: true
+    text: 超重量級ビーム兵器の試験シナリオ、所有しているビーム兵器を装備してください。
+  test_equipment_uhbeams2__core_header:
+    temp: true
+    text: Test - UH Beam 2 (Very Hard)
+  test_equipment_uhbeams2__core_text:
+    temp: true
+    text: 超重量級ビーム兵器の試験シナリオ、所有しているビーム兵器を装備してください。
+  test_locations_center__core_header:
+    temp: true
+    text: Test - Locations (Center)
+  test_locations_center__core_text:
+    temp: true
+    text: ''
+  test_locations_elimination__core_header:
+    temp: true
+    text: Test - Locations (Elimination)
+  test_locations_elimination__core_text:
+    temp: true
+    text: ''
+  test_locations_idealcase__core_header:
+    temp: true
+    text: Test - Locations (Ideal Case)
+  test_locations_idealcase__core_text:
+    temp: true
+    text: ''
+  unique_capital__core_header:
+    temp: true
+    text: Unique - Capital
+  unique_capital__core_text:
+    temp: true
+    text: ''
+  unique_capital__state_01_standingarmy_turn_0c_header:
+    temp: true
+    text: 支援部隊が接近中
+  unique_capital__state_02_support_turn_0c_header:
+    temp: true
+    text: 特殊作戦部隊が接近中
+  unique_capital__state_02_support_turn_0c_text:
+    temp: true
+    text: 6 ターン目
+  unique_capital__state_03_specops_turn_0c_header:
+    temp: true
+    text: 実験部隊が接近中
+  unique_capital__state_03_specops_turn_0c_text:
+    temp: true
+    text: 9 ターン目
+  unique_capital__state_04_experimental_turn_0c_header:
+    temp: true
+    text: 予備軍部隊が接近中
+  unique_capital__state_04_experimental_turn_0c_text:
+    temp: true
+    text: 12 ターン目
+  unique_capital__state_05_recruits_turn_0c_header:
+    temp: true
+    text: HVT が接近中
+  unique_capital__state_05_recruits_turn_0c_text:
+    temp: true
+    text: 15 ターン目
+  unique_capital__step_01_standingarmy_0c_text:
+    temp: true
+    text: 最高司令部のすぐそばに乗り込むと敵の注意を引くことに繋がる。我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+  unique_capital__step_02_support_0c_text:
+    temp: true
+    text: 支援部隊が到着した。我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+  unique_capital__step_03_specops_0c_text:
+    temp: true
+    text: 特殊作戦部隊司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+  unique_capital__step_04_experimental_0c_text:
+    temp: true
+    text: 実験師団のリーダーが現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+  unique_capital__step_05_recruits_0c_text:
+    temp: true
+    text: 予備軍司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+  unique_capital__step_06_boss_0c_text:
+    temp: true
+    text: 将軍を戦いに引っ張り出した。ケリをつける時だ：最高司令部を無力化して敵軍の命令系統を混乱させるためにヤツを倒せ。
+  unique_mountainbase__core_header:
+    temp: true
+    text: Unique - Mountain Base
+  unique_mountainbase__core_text:
+    temp: true
+    text: ''
+  unique_mountainbase__step_wave_00_guard_0c_text:
+    temp: true
+    text: 基地は無傷のようですが、現地に敵パトロールがいます。あなたの存在が報告される前に始末してください。
+  unique_mountainbase__step_wave_01_alarm_0c_text:
+    temp: true
+    text: たったいま追加機体が戦闘に参加しました。あなたの存在が報告される前に敵をすべて始末してください。
+  unique_stronghold_army__core_header:
+    temp: true
+    text: Unique - Stronghold (Army)
+  unique_stronghold_army__core_text:
+    temp: true
+    text: ''
+  unique_stronghold_experimental__core_header:
+    temp: true
+    text: Unique - Stronghold (Experimental)
+  unique_stronghold_experimental__core_text:
+    temp: true
+    text: ''
+  unique_stronghold_reserves__core_header:
+    temp: true
+    text: Unique - Stronghold (Reserves)
+  unique_stronghold_reserves__core_text:
+    temp: true
+    text: ''
+  unique_stronghold_specops__core_header:
+    temp: true
+    text: Unique - Stronghold (Special Ops)
+  unique_stronghold_specops__core_text:
+    temp: true
+    text: ''
+  unique_tutorial_base__core_header:
+    temp: true
+    text: ''
+  unique_tutorial_base__core_text:
+    temp: true
+    text: ''
+  unique_tutorial_intro__core_header:
+    temp: true
+    text: Unique - Intro Tutorial
+  unique_tutorial_intro__core_text:
+    temp: true
+    text: ''
+  unique_tutorial_intro__state_act_plan_attack1_0c_header:
+    temp: true
+    text: 射撃開始
+  unique_tutorial_intro__state_act_plan_attack1_0c_text:
+    temp: true
+    text: 報復のため敵機体に攻撃を開始しましょう。
+  unique_tutorial_intro__state_act_plan_move1_0c_text:
+    temp: true
+    text: ウォーカーを操縦して北へ進路を取り、司令官の後に続きましょう。
+  unique_tutorial_intro__state_act_plan_move2_0c_text:
+    temp: true
+    text: さらに北へ経路を取ってアンテナに向かい、ブラックアウトの原因を特定しましょう。
+  unique_tutorial_intro__state_act_plan_move3_0c_text:
+    temp: true
+    text: 指示の通り、司令官に合わせて移動して側面を抑えましょう。
+  unique_tutorial_intro__state_act_plan_move4_0c_text:
+    temp: true
+    text: 撃ちながら移動しましょう。最適な経路を作成して被弾率を抑えましょう。
+  unique_tutorial_intro__state_act_plan_move5_0c_text:
+    temp: true
+    text: 機動力は最大の防御です。敵の砲火を避けるため後退しましょう。
+  unique_tutorial_intro__state_prediction_active_0c_header:
+    temp: true
+    text: 起動
+  unique_tutorial_intro__state_prediction_active_0c_text:
+    temp: true
+    text: あなたのメックにインストールされたプロトタイプハードウェアを起動しましょう。
+  unique_tutorial_intro__state_retreat_0c_header:
+    temp: true
+    text: （任意）撤退
+  unique_tutorial_intro__state_retreat_0c_text:
+    temp: true
+    text: 状況が厳しい場合は、街の端にある避難場所へ撤退しましょう。
+  unique_tutorial_intro__state_units_defeated_enemy_0c_header:
+    temp: true
+    text: 敵の殲滅
+  unique_tutorial_intro__state_units_defeated_enemy_0c_text:
+    temp: true
+    text: 街を攻撃している敵機体をすべて破壊しましょう。
+  unique_tutorial_intro__state_units_defeated_friendly_0c_header:
+    temp: true
+    text: 生き延びる
+  unique_tutorial_intro__state_units_defeated_friendly_0c_text:
+    temp: true
+    text: 必要ならば撤退してください―これは負け戦かもしれません。
+  unique_tutorial_intro__step_02_move1_1hc_0_text:
+    temp: true
+    text: 機体を左クリックしてアクションリストを開きます
+  unique_tutorial_intro__step_02_move1_1hc_1_text:
+    temp: true
+    text: 移動アクションボタンをクリックします
+  unique_tutorial_intro__step_02_move1_1hc_2_text:
+    temp: true
+    text: 移動先をクリックしてアクションプランを作成します
+  unique_tutorial_intro__step_02_move1_1hc_3_text:
+    temp: true
+    text: このボタンをクリックしてプランを実行します
+  unique_tutorial_intro__step_02_move1_2ic_0_header:
+    temp: true
+    text: チュートリアルガイド (1/2)
+  unique_tutorial_intro__step_02_move1_2ic_0_text:
+    temp: true
+    text: これから簡単なチュートリアルでこのゲームの基本的な仕組みと操作方法を説明します。
+  unique_tutorial_intro__step_02_move1_2ic_1_header:
+    temp: true
+    text: チュートリアルガイド (2/2)
+  unique_tutorial_intro__step_02_move1_2ic_1_text:
+    temp: true
+    text: まず、画面のヒントに従ってください。ここで覚えるべき操作は [b]左クリック[/b] で確認、 [b]右クリック[/b] で取り消し、WASDでカメラ移動です。
+  unique_tutorial_intro__step_03_move2_2ic_0_header:
+    temp: true
+    text: カメラ操作
+  unique_tutorial_intro__step_03_move2_2ic_0_text:
+    temp: true
+    text: さて、QまたはFキーでカメラを水平旋回できます。そしてRまたはFキーで垂直回転できます。また中央クリックを押しながらでも操作可能です。
+  unique_tutorial_intro__step_04_discovery_0c_text:
+    temp: true
+    text: アンテナが妨害されているようだ：何が起きているか確かめろ
+  unique_tutorial_intro__step_05_prediction_boot_0c_text:
+    temp: true
+    text: プロトタイプハードウェアを起動して活動環境をスキャンしろ。
+  unique_tutorial_intro__step_05_prediction_boot_1hc_0_text:
+    temp: true
+    text: プロトタイプ・システムを起動します
+  unique_tutorial_intro__step_06_prediction_explainer_0c_header:
+    temp: true
+    text: 説明
+  unique_tutorial_intro__step_06_prediction_explainer_0c_text:
+    temp: true
+    text: 新システムについて学べ。
+  unique_tutorial_intro__step_06_prediction_explainer_2ic_0_header:
+    temp: true
+    text: タイムライン
+  unique_tutorial_intro__step_06_prediction_explainer_2ic_0_text:
+    temp: true
+    text: 画面角に表示されたこの新しいウィンドウはタイムラインと呼びます。動画の再生バーのようなもので―この上でマウスを動かすことである時刻に何が起きるか見ることができます。ここでは、司令官が移動を計画しており本機能を練習します。
+  unique_tutorial_intro__step_07_prediction_flank_0c_header:
+    temp: true
+    text: 予測
+  unique_tutorial_intro__step_07_prediction_flank_0c_text:
+    temp: true
+    text: 環境をスキャンするために予測システムをテストしろ。
+  unique_tutorial_intro__step_07_prediction_flank_1hc_0_text:
+    temp: true
+    text: ここにカーソルを重ねて時系列を確認します
+  unique_tutorial_intro__step_07_prediction_flank_1hc_1_text:
+    temp: true
+    text: フィールド上の経路にカーソルを重ねても確認できます
+  unique_tutorial_intro__step_07_prediction_flank_1hc_2_text:
+    temp: true
+    text: 移動が長いほど時間もかかります！
+  unique_tutorial_intro__step_07_prediction_flank_1hc_3_text:
+    temp: true
+    text: 計画したアクションはダブル右クリックで取り消せます
+  unique_tutorial_intro__step_09_tank_plans_1hc_0_text:
+    temp: true
+    text: 攻撃を計画するときは、タイムラインを使って [b]いつ[/b] 開始するか選択します。理想的には、標的が最適な距離にいるときです。
+  unique_tutorial_intro__step_09_tank_plans_1hc_1_text:
+    temp: true
+    text: 攻撃したい標的をクリックします
+  unique_tutorial_intro__step_09_tank_plans_1hc_2_text:
+    temp: true
+    text: 移動と攻撃は重複させることができます
+  unique_tutorial_intro__step_09_tank_plans_1hc_3_text:
+    temp: true
+    text: 常に動き続けることをお勧めします
+  unique_tutorial_intro__step_09_tank_plans_1hc_4_text:
+    temp: true
+    text: 攻撃はタイムライン上で再配置できるので、タイミングを微調整しましょう
+  unique_tutorial_intro__step_09_tank_plans_1hc_5_text:
+    temp: true
+    text: 第二ステップはフィールド上の標的を選択します。正面の車両をクリックしてください。
+  unique_tutorial_intro__step_10_skirmish_reaction_0c_text:
+    temp: true
+    text: 警戒を怠るな
+  unique_tutorial_intro__step_11_skirmish_cover_0c_text:
+    temp: true
+    text: 降りかかる攻撃から身を守れ
+  unique_tutorial_intro__step_12_skirmish_final_0c_text:
+    temp: true
+    text: 遮蔽に留まり反撃に備えろ
+  unique_tutorial_intro__step_14_siege_hints_1hc_0_text:
+    temp: true
+    text: その他のアクションが解除されました。覚えておいてください―ひとつのアクションを何度も繰り返すことができます。
+  unique_tutorial_intro__step_14_siege_hints_1hc_1_text:
+    temp: true
+    text: ショットガンとシールドの機体です。遮蔽で待つかシールドに隠れて距離を詰め、近距離で射撃しましょう。
+  unique_tutorial_intro__step_14_siege_hints_1hc_2_text:
+    temp: true
+    text: チャンス―視線が通り標的と最適な距離になる瞬間を探しましょう。何もないならば、経路の変更を検討しましょう。
+  unique_tutorial_intro__step_14_siege_hints_1hc_3_text:
+    temp: true
+    text: 標的に近づき、かつダメージを避けることができるちょうど良い経路を探してみましょう。敵の射線と垂直に移動しましょう：撃たれにくくなります
+  unique_tutorial_intro__step_15_siege_freeform_0c_text:
+    temp: true
+    text: 敵を食い止め、街を守れ。

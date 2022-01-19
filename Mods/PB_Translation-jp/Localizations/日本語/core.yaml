@@ -1,0 +1,10 @@
+name: Japanese
+flag: icon_flag_japanese
+subtitleBuffer: "[00]........................................."
+subtitleFadeoutTime: 3
+widthSubtitle: 800
+sizeSubtitle: 20
+sizeHint: 20
+sizeTooltipHeader: 20
+sizeTooltipContent: 16
+spacingTooltipHeader: 0

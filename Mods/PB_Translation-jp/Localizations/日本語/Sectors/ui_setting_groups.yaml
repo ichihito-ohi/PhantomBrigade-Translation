@@ -1,0 +1,36 @@
+name:
+description:
+exportMode: None
+columns: []
+splits: []
+entries:
+  audio__header:
+    temp: true
+    text: オーディオ
+  audio__text:
+    temp: true
+    text: '...'
+  display__header:
+    temp: true
+    text: ディスプレイ
+  display__text:
+    temp: true
+    text: '...'
+  game__header:
+    temp: true
+    text: ゲーム
+  game__text:
+    temp: true
+    text: ゲーム
+  graphics__header:
+    temp: true
+    text: グラフィックス
+  graphics__text:
+    temp: true
+    text: ゲーム
+  input__header:
+    temp: true
+    text: 入力
+  input__text:
+    temp: true
+    text: ゲーム
