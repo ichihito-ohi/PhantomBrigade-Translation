@@ -1,4 +1,4 @@
 removed: false
 edits:
 - 'textDesc: 反応炉の出力に定数を乗じて、出力1単位あたりが支えられる重量に変換したもの。（訳？）'
-- 'textName: 反応炉発揮重量'
+- 'textName: 反応炉推力'
