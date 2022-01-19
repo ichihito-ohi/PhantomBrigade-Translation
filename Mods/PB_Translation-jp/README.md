@@ -12,9 +12,11 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
 
 
 ## 適用方法
-- 日本語化 Mod は，本体 Mod System に対応しています．ゲーム内で Mod の有効化・無効化を切り替えることができます．
+日本語化 Mod は，本体 Mod System に対応しています．ゲーム内で Mod の有効化・無効化を切り替えることができます．
 
 ### 本体 Mod System の有効化
+[解説動画 @YouTube](https://youtu.be/wSLrug7lZqs)
+
 1. Mod System フォルダを確認する
     - ユーザーフォルダの `Documents/My Games/Phantom Brigade/Mods` に，各種 Mod を保存できます．
 
