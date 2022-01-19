@@ -29,7 +29,7 @@ try:
                              "includesConfigEdits: true, "
                              "includesLibraries: false, "
                              "includesTextures: false, "
-                             "includesLocalizations: false, "
+                             "includesLocalizations: true, "
                              "gameVersionMin: , "
                              "gameVersionMax: , "
                              "name: PB_Translation-jp, "
