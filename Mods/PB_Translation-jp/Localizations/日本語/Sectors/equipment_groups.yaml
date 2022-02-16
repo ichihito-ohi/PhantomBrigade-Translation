@@ -388,12 +388,24 @@ entries:
   part_wpn_tank_cannon_railgun__text:
     temp: false
     text: 戦車砲に似た実験的な精密武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
+  subsystem_internal_aux_capacitor__name:
+    temp: true
+    text: 補助キャパシター
+  subsystem_internal_aux_capacitor__text:
+    temp: true
+    text: 熱容量を増加させることで、機体のダメージ出力を強化する。
   subsystem_internal_aux_cooling__name:
     temp: false
     text: 補助冷却装置
   subsystem_internal_aux_cooling__text:
     temp: false
     text: 機体の放熱を増加させる。
+  subsystem_internal_aux_core__name:
+    temp: true
+    text: 補助コア
+  subsystem_internal_aux_core__text:
+    temp: true
+    text: リング型常温核融合チャンバーを通じてメックに動力を共有する。すべてのメックに不可欠であり、反応炉なしでは出撃することができない。
   subsystem_internal_aux_gyro__name:
     temp: false
     text: 補助ジャイロ
@@ -412,12 +424,6 @@ entries:
   subsystem_internal_aux_hydraulics__text:
     temp: false
     text: メック重量の一部を軽減する。
-  subsystem_internal_aux_minireactor__name:
-    temp: false
-    text: 補助反応炉
-  subsystem_internal_aux_minireactor__text:
-    temp: false
-    text: メックの出力を押し上げる。
   subsystem_internal_aux_plating__name:
     temp: false
     text: 補助装甲
@@ -425,11 +431,11 @@ entries:
     temp: false
     text: 使用部分に追加の耐久度を付与する。
   subsystem_internal_aux_reactor__name:
-    temp: false
+    temp: true
     text: 補助反応炉
   subsystem_internal_aux_reactor__text:
-    temp: false
-    text: リング型常温核融合チャンバーを通じてメックに動力を共有する。すべてのメックに不可欠であり、反応炉なしでは出撃することができない。
+    temp: true
+    text: 機体の出力を向上させる
   subsystem_internal_aux_regenerator__name:
     temp: false
     text: 補助再生装置
@@ -442,12 +448,12 @@ entries:
   subsystem_internal_aux_resistor__text:
     temp: false
     text: 最大熱容量に達した際にメックがオーバーヒートしにくくする。
-  subsystem_internal_aux_stabiliser__name:
-    temp: false
-    text: 補助スタビライザー
-  subsystem_internal_aux_stabiliser__text:
-    temp: false
-    text: メックの重量配分を改善し、機体の速度を強化する。
+  subsystem_internal_aux_sensor__name:
+    temp: true
+    text: 補助センサー
+  subsystem_internal_aux_sensor__text:
+    temp: true
+    text: 武器の精度を向上させる。
   subsystem_internal_aux_thruster__name:
     temp: false
     text: スラスター

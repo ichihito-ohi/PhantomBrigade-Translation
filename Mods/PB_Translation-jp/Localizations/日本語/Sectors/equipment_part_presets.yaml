@@ -16,24 +16,21 @@ entries:
   body_bottom__text:
     temp: true
     text: 自重を支え移動を司る部分。[ffde5d]機体推進[-]を担う部分で、破壊されると移動能力を大きく失う。
+  body_set_arrow__name:
+    temp: true
+    text: 'Arrow '
+  body_set_arrow__text:
+    temp: true
+    text: JNI協議会が生産するArrowシリーズは、整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
   body_set_arrow_heavy__name:
     temp: true
-    text: Arrow 3H
-  body_set_arrow_heavy__text:
-    temp: true
-    text: JNI協議会が生産するArrowシリーズは、整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
+    text: 3H
   body_set_arrow_light__name:
     temp: true
-    text: Arrow 1L
-  body_set_arrow_light__text:
-    temp: true
-    text: JNI協議会が生産するArrowシリーズは、整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
+    text: 1L
   body_set_arrow_medium__name:
     temp: true
-    text: Arrow 2M
-  body_set_arrow_medium__text:
-    temp: true
-    text: JNI協議会が生産するArrowシリーズは、整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
+    text: 2M
   body_set_asgard_heavy__name:
     temp: true
     text: Asgard
@@ -63,25 +60,22 @@ entries:
     text: Helge
   body_set_helge_heavy__text:
     temp: true
-    text: JNI協議会が生産するHelgeシリーズは傭兵グループや企業警備部隊で広く使用される中級装甲である。先進的な複合構造は修理が複雑だが、平均以上の防御性能を実現した。
+    text: JNI協議会が生産するHelgeシリーズは傭兵グループや企業警備部隊で広く使用される重量級装甲である。先進的な複合構造は修理が複雑だが、平均以上の防御性能を実現した。
+  body_set_knox__name:
+    temp: true
+    text: Knox
+  body_set_knox__text:
+    temp: true
+    text: JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
   body_set_knox_heavy__name:
     temp: true
-    text: Knox 3H
-  body_set_knox_heavy__text:
-    temp: true
-    text: JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
+    text: 3H
   body_set_knox_light__name:
     temp: true
-    text: Knox 1L
-  body_set_knox_light__text:
-    temp: true
-    text: JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
+    text: 1L
   body_set_knox_medium__name:
     temp: true
-    text: Knox 2M
-  body_set_knox_medium__text:
-    temp: true
-    text: JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
+    text: 2M
   body_set_tsubasa_light__name:
     temp: true
     text: Tsubasa
@@ -120,7 +114,7 @@ entries:
     text: HG-02 Granite
   wpn_handgun_heavy_02__name:
     temp: true
-    text: HGS-04 Firestarter
+    text: HG-04 Firestarter
   wpn_handgun_semi_01__name:
     temp: true
     text: HG-05 Stand
@@ -381,7 +375,7 @@ entries:
     text: PML-1 Slug
   wpn_ml_primary_02__text:
     temp: true
-    text: 広い標的範囲と大ダメージをもつ誘導性能の低い低速、中射程ミサイルを1つ発射する。
+    text: 広い標的範囲をもつ非誘導式の低い低速、中射程ミサイルを1つ発射する。大ダメージを与える。
   wpn_ml_primary_03__name:
     temp: true
     text: PML-6 Hornet
@@ -405,7 +399,7 @@ entries:
     text: SML-1 Oneshot
   wpn_ml_sidearm_02__text:
     temp: true
-    text: 障害物を超えて長距離誘導ミサイルを一発だけ発射する。このミサイルは機体や障害物に大きな範囲ダメージを与える。"
+    text: 障害物を超えて長距離誘導ミサイルを一発だけ発射する。このミサイルは機体や障害物に大きな範囲ダメージを与える。
   wpn_ml_sidearm_03__name:
     temp: true
     text: SML-8 Cluster

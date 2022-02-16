@@ -24,6 +24,11 @@ sections:
   - 'https://discord.gg/braceyourselfgames'
 - textHeader: 更新履歴
   textChanges: 
+  - '[pr=][aa]jp-0160-20220216'
+  - '新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.16.0-b3297 に適用しました．'
+  - '本体 Mod System を有効化する方法について， README に追記しました．また，必要なテンプレートファイルを追加しました．'
+  - 'Mod 情報のバージョン表記フォーマットを修正しました．'
+  - 
   - '[pr=][aa]jp-0150-20220119'
   - '本体アップデート Patch 0.15.0-b3121 に伴い，日本語化 Mod が本体 Mod System に完全対応しました．'
   - '`git apply` および手動でのファイル上書きは必要なくなりました．'
