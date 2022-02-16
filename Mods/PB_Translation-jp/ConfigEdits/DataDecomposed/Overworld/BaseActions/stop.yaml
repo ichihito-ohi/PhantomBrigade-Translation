@@ -1,5 +1,6 @@
 removed: false
 edits:
+- 'textName: 停車'
 - 'textDesc: [aa]条件[ff]
 
   基地が移動中のとき。
@@ -13,4 +14,3 @@ edits:
   [aa]ホットキー[ff]
 
   Enter'
-- 'textName: 停車'

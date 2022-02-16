@@ -1,9 +1,15 @@
-name: Scenarios / Steps (Shared)
+name: Scenarios (Shared Steps)
 description: Text for headers and details repeated across multiple scenarios. Should mostly cover common scenario types, not unique scenarios.
 exportMode: LinePerKeySimple
 columns: []
 splits: []
 entries:
+  generic_breakin_clenup_text:
+    temp: false
+    text: 貯蔵庫が確保され敵はすべて排除された。続行しろ。
+  generic_breakin_objective_text:
+    temp: false
+    text: 増援が到着する前に貯蔵庫入口を確保して敵を排除しろ。
   generic_eliminate_before_reinforcements_text:
     temp: true
     text: 増援が到着する前に敵をすべて殲滅しろ。

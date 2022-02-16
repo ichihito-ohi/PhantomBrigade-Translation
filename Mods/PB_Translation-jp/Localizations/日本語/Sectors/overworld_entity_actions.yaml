@@ -600,7 +600,7 @@ entries:
     text: 指定された合流地点に報告します。
   draft_target__1_name:
     temp: false
-    text: 民間人救助
+    text: 民間人救出
   draft_target__2_context:
     temp: false
     text: 採用
@@ -834,7 +834,7 @@ entries:
     text: 誕生日パーティーを開きます。
   pharma_objective_delivery_final__1_name:
     temp: false
-    text: 治療薬配達
+    text: 治療薬を配達中
   pharma_objective_delivery_final__2_context:
     temp: false
     text: 幻影製薬
@@ -852,7 +852,7 @@ entries:
     text: 集落に治療薬を輸送します。
   pharma_objective_delivery_long__1_name:
     temp: false
-    text: 治療薬配達
+    text: 治療薬を配達中
   pharma_objective_delivery_long__2_context:
     temp: false
     text: 幻影製薬
@@ -870,7 +870,7 @@ entries:
     text: 集落に治療薬を輸送します。
   pharma_objective_delivery_short__1_name:
     temp: false
-    text: 治療薬配達
+    text: 治療薬を配達中
   pharma_objective_delivery_short__2_context:
     temp: false
     text: 幻影製薬
@@ -903,7 +903,7 @@ entries:
     text: 完了
   pilot_rescue__6_desc:
     temp: true
-    text: 捜索救助活動が進行中で程なく成功する見込みです。
+    text: 捜索救出活動が進行中で程なく成功する見込みです。
   playwithdog__1_name:
     temp: false
     text: イッヌとの遊び
@@ -921,7 +921,7 @@ entries:
     text: 完了
   playwithdog__6_desc:
     temp: true
-    text: ''
+    text: 現場チームが戦場で貴重な情報を捜索しています。
   purranormal_investigating__1_name:
     temp: true
     text: 調査中
@@ -1065,7 +1065,7 @@ entries:
     text: 完了
   recovery_help__6_desc:
     temp: true
-    text: トラクターを救助しています。
+    text: トラクターを救出しています。
   recovery_manual_01__1_name:
     temp: false
     text: 回収作業
@@ -1083,7 +1083,7 @@ entries:
     text: 完了
   recovery_manual_01__6_desc:
     temp: true
-    text: トラクターを救助しています。
+    text: トラクターを救出しています。
   recovery_manual_02__1_name:
     temp: false
     text: 回収作業
@@ -1101,13 +1101,13 @@ entries:
     text: 完了
   recovery_manual_02__6_desc:
     temp: true
-    text: トラクターを救助しています。
+    text: トラクターを救出しています。
   rescuecivilians_objective_deliver__1_name:
     temp: false
     text: 集落への輸送
   rescuecivilians_objective_deliver__2_context:
     temp: false
-    text: 民間人救助
+    text: 民間人救出
   rescuecivilians_objective_deliver__3_start:
     temp: false
     text: 受諾
@@ -1119,13 +1119,13 @@ entries:
     text: 完了
   rescuecivilians_objective_deliver__6_desc:
     temp: true
-    text: 救助した民間人を集落に還します。
+    text: 救出した民間人を集落に還します。
   rescuecivilians_objective_target__1_name:
     temp: false
-    text: 民間人救助
+    text: 民間人救出
   rescuecivilians_objective_target__2_context:
     temp: false
-    text: 民間人救助
+    text: 民間人救出
   rescuecivilians_objective_target__3_start:
     temp: false
     text: 受諾

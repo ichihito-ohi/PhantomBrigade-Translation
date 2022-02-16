@@ -1,4 +1,4 @@
-name: Scenarios / States (Shared)
+name: Scenarios (Shared States)
 description: States (objectives) shared between scenarios.
 exportMode: LinePerKeySimple
 columns: []
@@ -7,6 +7,21 @@ entries:
   generic_action_move_header:
     temp: true
     text: 移動計画
+  generic_breakin_objective_cache_header:
+    temp: false
+    text: 貯蔵庫入口
+  generic_breakin_objective_cache_text:
+    temp: false
+    text: 確保するためにメックを貯蔵庫入口に移動させろ。
+  generic_breakin_objective_hostiles_header:
+    temp: false
+    text: 警備兵を排除する
+  generic_breakin_objective_hostiles_text:
+    temp: false
+    text: 敵機をすべて倒せ。
+  generic_breakin_turn_text:
+    temp: false
+    text: 貯蔵庫入口が敵に確保されている限り、増援が現れる可能性がある。
   generic_enemy_delay_header:
     temp: true
     text: 敵が再考中
@@ -46,3 +61,27 @@ entries:
   generic_unknown_text:
     temp: true
     text: 情報なし
+  retreat_incoming_negative_header:
+    temp: true
+    text: まもなく撤退可能
+  retreat_incoming_negative_text:
+    temp: true
+    text: 可能になると、ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。敵は現地を制圧し続けます。
+  retreat_incoming_positive_header:
+    temp: true
+    text: まもなく撤収可能
+  retreat_incoming_positive_text:
+    temp: true
+    text: 可能になると、ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。または、さらなる報酬のために留まって敵を殲滅してください。どちらの場合も勝利となります。
+  retreat_possible_negative_header:
+    temp: true
+    text: 撤退可能
+  retreat_possible_negative_text:
+    temp: true
+    text: ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。敵は現地を制圧し続けます。
+  retreat_possible_positive_header:
+    temp: true
+    text: 撤収可能
+  retreat_possible_positive_text:
+    temp: true
+    text: ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。または、さらなる報酬のために留まって敵を殲滅してください。どちらの場合も勝利となります。

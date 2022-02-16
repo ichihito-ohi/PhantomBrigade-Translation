@@ -70,6 +70,15 @@ entries:
   size_tiny:
     temp: false
     text: 極小
+  type_assassination:
+    temp: true
+    text: 暗殺
+  type_assault:
+    temp: true
+    text: 突撃
+  type_blitz:
+    temp: true
+    text: 急襲
   type_elimination_header:
     temp: false
     text: 殲滅
@@ -82,9 +91,21 @@ entries:
   type_hitandrun_text:
     temp: true
     text: 情報なし
+  type_liberation:
+    temp: true
+    text: 解放
   type_looting_header:
     temp: false
     text: 争奪
   type_looting_text:
     temp: true
     text: 情報なし
+  type_raid:
+    temp: true
+    text: 襲撃
+  type_rescue:
+    temp: true
+    text: 救出
+  type_team:
+    temp: true
+    text: チーム

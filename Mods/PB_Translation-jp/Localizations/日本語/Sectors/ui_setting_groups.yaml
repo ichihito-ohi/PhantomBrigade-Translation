@@ -1,6 +1,6 @@
-name:
-description:
-exportMode: None
+name: UI (Settings Groups)
+description: Text for settings groups displayed on the left in the settings screen.
+exportMode: LinePerKeySplit
 columns: []
 splits: []
 entries:
@@ -21,16 +21,16 @@ entries:
     text: ゲーム
   game__text:
     temp: true
-    text: ゲーム
+    text: '...'
   graphics__header:
     temp: true
     text: グラフィックス
   graphics__text:
     temp: true
-    text: ゲーム
+    text: '...'
   input__header:
     temp: true
     text: 入力
   input__text:
     temp: true
-    text: ゲーム
+    text: '...'
