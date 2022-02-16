@@ -1,0 +1,609 @@
+name: Overworld Entities
+description: Names and descriptions of various objects on the overworld map. This sector is structured similarly to part preset and contains text from nodes in the hierarchy that declare they need localization. Expect keys to change often and do not leave changes unsynced for long.
+exportMode: LinePerKeySplit
+columns: []
+splits: []
+entries:
+  base__name:
+    temp: true
+    text: 基地
+  base__text:
+    temp: true
+    text: 侵略軍の作戦を監督するために増強された軍事施設。厳重に警備されており地元のパトロールを排除せずに攻撃すると注意を惹く可能性が高く、注意が必要。
+  base_army__name:
+    temp: true
+    text: 陸軍基地
+  base_experimental__name:
+    temp: true
+    text: 実験基地
+  base_reserves__name:
+    temp: true
+    text: 予備軍基地
+  base_specops__name:
+    temp: true
+    text: 特殊部隊基地
+  cache__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い。警備兵をすべて排除せずとも装備を確保して脱出できることが多い。
+  cache_manufactory__name:
+    temp: true
+    text: 製作所倉庫
+  cache_repairbay__name:
+    temp: true
+    text: 修理場
+  cache_shootingrange__name:
+    temp: true
+    text: 射撃練習場
+  cache_testingrange__name:
+    temp: true
+    text: 射撃試験場
+  camp__text:
+    temp: true
+    text: パトロールを送り出す小規模な敵の野営地。キャンプを攻撃すると付近の部隊に警報を発する可能性があるが、増援が来る前にエリア内の機体グループをすべて排除すれば安全に撤退して回収作業が可能になる。
+  camp_army__name:
+    temp: true
+    text: キャンプ
+  camp_experimental__name:
+    temp: true
+    text: キャンプ
+  camp_reserves__name:
+    temp: true
+    text: キャンプ
+  camp_specops__name:
+    temp: true
+    text: キャンプ
+  event_armypilot_location__name:
+    temp: true
+    text: 合流地点
+  event_armypilot_location__text:
+    temp: true
+    text: ゲリラ工作員との合流地点。
+  event_blackmarket__name:
+    temp: true
+    text: ブラックマーケット
+  event_blackmarket__text:
+    temp: true
+    text: 入手困難なアイテムが手に入るかもしれない怪しげな売人。
+  event_blackmarket_general__name:
+    temp: true
+    text: ブラックマーケット
+  event_blackmarket_general_huge__name:
+    temp: true
+    text: ブラックマーケット - 特大
+  event_blackmarket_general_large__name:
+    temp: true
+    text: ブラックマーケット - 大
+  event_blackmarket_general_medium__name:
+    temp: true
+    text: ブラックマーケット - 中
+  event_blackmarket_general_small__name:
+    temp: true
+    text: ブラックマーケット - 小
+  event_blackmarket_general_tiny__name:
+    temp: true
+    text: ブラックマーケット - 極小
+  event_bombtestsite__name:
+    temp: true
+    text: 爆弾試験場
+  event_crashedsatellite_defended__name:
+    temp: true
+    text: 人工衛星墜落現場
+  event_crashedsatellite_undefended__name:
+    temp: true
+    text: 人工衛星墜落現場
+  event_draft_point__name:
+    temp: true
+    text: 合流地点
+  event_draft_point__text:
+    temp: true
+    text: ゲリラ工作員との合流地点。
+  event_market__name:
+    temp: true
+    text: 民間市場
+  event_market__text:
+    temp: true
+    text: 屋台が集まり、地元民が経営して豊富な品ぞろえの商品を販売している。資材補充に適している。
+  event_market_general__name:
+    temp: true
+    text: 一般市場
+  event_market_general_huge__name:
+    temp: true
+    text: 市場 - 特大
+  event_market_general_large__name:
+    temp: true
+    text: 市場 - 大
+  event_market_general_medium__name:
+    temp: true
+    text: 市場 - 中
+  event_market_general_small__name:
+    temp: true
+    text: 市場 - 小
+  event_market_general_tiny__name:
+    temp: true
+    text: 市場 - 極小
+  event_warmemorial_defended__name:
+    temp: true
+    text: 戦争記念館
+  event_warmemorial_defended__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  event_warmemorial_undefended__name:
+    temp: true
+    text: 戦争記念館
+  event_warmemorial_undefended__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  facility__name:
+    temp: true
+    text: ' '
+  facility__text:
+    temp: true
+    text: 民間施設。必ずしも戦う必要はないが、より手強い機体が警備している。
+  facility_depot__name:
+    temp: true
+    text: 兵站部
+  facility_energystorage__name:
+    temp: true
+    text: エネルギー貯蔵プラント
+  facility_factory__name:
+    temp: true
+    text: 工場
+  facility_farm__name:
+    temp: true
+    text: 農場
+  facility_forestry__name:
+    temp: true
+    text: 森林
+  facility_fuel__name:
+    temp: true
+    text: 燃料加工プラント
+  facility_fusion__name:
+    temp: true
+    text: 核融合プラント
+  facility_logging__name:
+    temp: true
+    text: 伐採現場
+  facility_logistics__name:
+    temp: true
+    text: 物流センター
+  facility_mine__name:
+    temp: true
+    text: 採掘現場
+  facility_radiostation__name:
+    temp: true
+    text: ラジオ局
+  facility_radiostation__text:
+    temp: true
+    text: 荒野にある孤立した小さいラジオ中継局。仮にいるとしても、何機で警備しているか情報は不明である。
+  facility_railyard__name:
+    temp: true
+    text: 車両基地
+  facility_research__name:
+    temp: true
+    text: 研究所
+  facility_storage__name:
+    temp: true
+    text: 複合倉庫
+  fort__text:
+    temp: true
+    text: パトロールを送り出す小規模な敵の野営地。キャンプを攻撃すると付近の部隊に警報を発する可能性があるが、増援が来る前にエリア内の機体グループをすべて排除すれば安全に撤退して回収作業が可能になる。
+  fort_army__name:
+    temp: true
+    text: キャンプ
+  fort_experimental__name:
+    temp: true
+    text: キャンプ
+  fort_reserves__name:
+    temp: true
+    text: キャンプ
+  fort_specops__name:
+    temp: true
+    text: キャンプ
+  manufacturer_warehouse__name:
+    temp: true
+    text: 倉庫
+  manufacturer_warehouse_mfr01__name:
+    temp: true
+    text: M1 倉庫
+  manufacturer_warehouse_mfr02__name:
+    temp: true
+    text: M2 倉庫
+  manufacturer_warehouse_mfr03__name:
+    temp: true
+    text: M3 倉庫
+  objective_capital__name:
+    temp: true
+    text: 首都
+  objective_capital__text:
+    temp: true
+    text: 占領政府の権力の座。敵軍が集中しているため従来の攻撃方法は通用しない―都市中心部の最高司令部に対する攻撃が成功しなければ効果はない。そのような任務のために都市に潜入することも、周囲の州をすべて解放するまでは不可能だ。
+  objective_intro__name:
+    temp: true
+    text: 国境前哨基地
+  objective_intro__text:
+    temp: true
+    text: 最初の戦いの地。侵略以来、放棄されたままである。
+  objective_mountainbase__name:
+    temp: true
+    text: 山岳基地
+  objective_mountainbase__text:
+    temp: true
+    text: 敵の注意を惹くことなく作戦基地として機能する大規模地下施設。約30年前に放棄されたが、構造的には無傷なままである。古い採掘トラックやウォーカー用に建てられた大きな入口は移動基地にも合っている。
+  outpost__text:
+    temp: true
+    text: 補給地点。堅く警備されていることが多く警備は攻撃されるとすぐに増援を呼ぶ。襲撃時に撤退地点が設定されている場合は敵をすべて排除せずとも戦利品を手に入れることが可能になる。
+  outpost_army__name:
+    temp: true
+    text: 前哨基地
+  outpost_experimental__name:
+    temp: true
+    text: 前哨基地
+  outpost_reserves__name:
+    temp: true
+    text: 前哨基地
+  outpost_specops__name:
+    temp: true
+    text: 前哨基地
+  settlement_city__name:
+    temp: true
+    text: 都市
+  settlement_city__text:
+    temp: true
+    text: かつては賑やかな大都市だった。占領中の敵機を殲滅することでこの地域での敵の影響力を大幅に減らすことができ民間人を解放できる。
+  settlement_town__name:
+    temp: true
+    text: 町
+  settlement_town__text:
+    temp: true
+    text: この町にいる敵機を殲滅することで希望を高め民間人を自由に戻すことができる。
+  settlement_village__name:
+    temp: true
+    text: 村
+  settlement_village__text:
+    temp: true
+    text: 小さな集落。敵機を殲滅することで希望を高め民間人を自由に戻すことができる。
+  settlement_village_raided__name:
+    temp: true
+    text: 村
+  settlement_village_raided__text:
+    temp: true
+    text: 小さな集落。敵機を殲滅することで希望を高め民間人を自由に戻すことができる。
+  site_battlefield__name:
+    temp: true
+    text: 戦場
+  site_battlefield__text:
+    temp: true
+    text: 戦いの地。時間があれば、回収作業で貴重な資源や部品が手に入るかもしれない。
+  site_crashed_pod__name:
+    temp: true
+    text: 墜落したパイロットポッド
+  site_crashed_pod__text:
+    temp: true
+    text: この地点でパイロットが救出を待っている。残された時間は短い―しばらくするとパイロットが侵略軍に拾われてしまうだろう。
+  squad_invader__text:
+    temp: true
+    text: 幻影旅団を狩りながら移動を続ける敵兵戦隊。エリア内のパトロールをすべて排除すればこの地域で警備兵が増援を呼ぶことが無くなる。
+  squad_invader_attack__text:
+    temp: true
+    text: この侵略軍のパトロール部隊は幻影旅団を捜索しながら複数地点を移動する。数機だけで構成されておりそれほど脅威ではない。部隊の全機を排除すればエリア内のより増強された施設を攻撃できる機会が開かれる。
+  squad_invader_convoy__name:
+    temp: true
+    text: コンボイ
+  squad_invader_convoy__text:
+    temp: true
+    text: 貴重な部品やサブシステムを最前線の機体や複数地点に輸送する機動部隊。厳重に防衛されていることが多く、全機を排除するのではなく資源を持って撤退するのが望ましい。
+  squad_invader_convoy_army__name:
+    temp: true
+    text: コンボイ
+  squad_invader_convoy_army_elite__name:
+    temp: true
+    text: コンボイ（エリート）
+  squad_invader_convoy_elite__name:
+    temp: true
+    text: コンボイ
+  squad_invader_convoy_elite__text:
+    temp: true
+    text: 貴重な部品やサブシステムを最前線の機体や複数地点に輸送する機動部隊。厳重に防衛されていることが多く、全機を排除するのではなく資源を持って撤退するのが望ましい。
+  squad_invader_convoy_experimental__name:
+    temp: true
+    text: コンボイ
+  squad_invader_convoy_experimental_elite__name:
+    temp: true
+    text: コンボイ（エリート）
+  squad_invader_convoy_reserves__name:
+    temp: true
+    text: コンボイ
+  squad_invader_convoy_reserves_elite__name:
+    temp: true
+    text: コンボイ（エリート）
+  squad_invader_convoy_specops__name:
+    temp: true
+    text: コンボイ
+  squad_invader_convoy_specops_elite__name:
+    temp: true
+    text: コンボイ（エリート）
+  squad_invader_convoy_standard__name:
+    temp: true
+    text: コンボイ
+  squad_invader_convoy_standard__text:
+    temp: true
+    text: 貴重な部品やサブシステムを最前線の機体や複数地点に輸送する機動部隊。厳重に防衛されていることが多く、全機を排除するのではなく資源を持って撤退するのが望ましい。
+  squad_invader_convoy_training__name:
+    temp: true
+    text: コンボイ（訓練部隊）
+  squad_invader_investigation_army__name:
+    temp: true
+    text: 調査部隊
+  squad_invader_investigation_experimental__name:
+    temp: true
+    text: 調査部隊
+  squad_invader_investigation_reserves__name:
+    temp: true
+    text: 調査部隊
+  squad_invader_investigation_specops__name:
+    temp: true
+    text: 対応部隊
+  squad_invader_killteam__name:
+    temp: true
+    text: 攻撃部隊
+  squad_invader_patrol__text:
+    temp: true
+    text: 幻影旅団を狩る敵兵戦隊。このエリアの全機グループを排除すると増援が到着する前ならば安全に撤退して回収作業を行なうことが可能になる。
+  squad_invader_patrol_army__name:
+    temp: true
+    text: パトロール部隊
+  squad_invader_patrol_army_elite__name:
+    temp: true
+    text: パトロール部隊（エリート）
+  squad_invader_patrol_elite__text:
+    temp: true
+    text: 幻影旅団を狩る敵兵戦隊。このエリアの全機グループを排除すると増援が到着する前ならば安全に撤退して回収作業を行なうことが可能になる。
+  squad_invader_patrol_experimental__name:
+    temp: true
+    text: パトロール部隊
+  squad_invader_patrol_experimental_elite__name:
+    temp: true
+    text: パトロール部隊（エリート）
+  squad_invader_patrol_reserves__name:
+    temp: true
+    text: パトロール部隊
+  squad_invader_patrol_reserves_elite__name:
+    temp: true
+    text: パトロール部隊（エリート）
+  squad_invader_patrol_specops__name:
+    temp: true
+    text: パトロール部隊
+  squad_invader_patrol_specops_elite__name:
+    temp: true
+    text: パトロール部隊（エリート）
+  squad_invader_patrol_standard__text:
+    temp: true
+    text: 幻影旅団を狩る敵兵戦隊。このエリアの全機グループを排除すると増援が到着する前ならば安全に撤退して回収作業を行なうことが可能になる。
+  squad_invader_patrol_training__name:
+    temp: true
+    text: パトロール（訓練部隊）
+  squad_mobilebase__name:
+    temp: true
+    text: 移動基地
+  squad_mobilebase__text:
+    temp: true
+    text: 古い採掘現場のひとつで使われていたウォーカー整備車両を大幅に改造したもの。復元された上でレジスタンスが見つけられたステルス装備をありったけ取り付けており、我々の任務に不可欠である。これにより、旅団は緻密な攻撃を実行して敵が反応する前に脱出することができる。
+  stronghold__text:
+    temp: true
+    text: 厳重に防衛され武装した要塞であり百戦錬磨の部隊でも苦戦する可能性がある。
+  stronghold_army__name:
+    temp: true
+    text: 巨大基地
+  stronghold_experimental__name:
+    temp: true
+    text: 超巨大研究所
+  stronghold_reserves__name:
+    temp: true
+    text: 訓練施設
+  stronghold_specops__name:
+    temp: true
+    text: 侵略軍 HQ
+  tutorial_base__name:
+    temp: true
+    text: 基地
+  tutorial_base__text:
+    temp: true
+    text: 侵略軍の作戦を監督するために増強された軍事施設。厳重に警備されており攻撃すると注意を惹く可能性が高い。最初に基地の全機を排除すると解放が容易になる。
+  tutorial_cache__name:
+    temp: true
+    text: 隠された工房倉庫
+  tutorial_cache__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  tutorial_camp__name:
+    temp: true
+    text: 予備軍キャンプ
+  tutorial_camp__text:
+    temp: true
+    text: 新しく訓練された兵士を送り出し付近に攻撃を仕掛ける増強されたキャンプ。ここで全機排除すればこの州における侵略軍の影響力を劇的に減らすことができる。
+  tutorial_convoy__name:
+    temp: true
+    text: 立ち往生した陸軍コンボイ
+  tutorial_convoy__text:
+    temp: true
+    text: 貴重な部品やサブシステムを最前線の機体や複数地点に輸送する機動部隊。情報によると防衛は軽く殲滅すれば回収が可能になるようだ。
+  tutorial_facility_farm__name:
+    temp: true
+    text: 農場
+  tutorial_facility_farm__text:
+    temp: true
+    text: 民間施設。必ずしも戦う必要はないが、より手強い機体が警備している。
+  tutorial_farm__name:
+    temp: true
+    text: 農場
+  tutorial_farm__text:
+    temp: true
+    text: 侵略軍に占領されている民間施設。この施設は増強されていないが、警備している機体の排除はてこずることがあり増援を呼ばれる可能性が高い。
+  tutorial_outpost__name:
+    temp: true
+    text: 武装キャンプ
+  tutorial_outpost__text:
+    temp: true
+    text: この増強された侵略軍施設は兵士を送り出し付近に攻撃を仕掛けるために使用されている。苦戦が予想される。ここで全機排除すれば、この州における侵略軍の影響力を減らすことができ、倒した機体からは装備が回収可能になる。
+  tutorial_patrol__name:
+    temp: true
+    text: 駐留パトロール
+  tutorial_patrol__text:
+    temp: true
+    text: 幻影旅団を狩りながら移動を続ける敵兵戦隊。エリア内のパトロールをすべて排除すればこの地域で警備兵が増援を呼ぶことが無くなる。
+  unique_blackmarket__name:
+    temp: true
+    text: ブラックマーケット
+  unique_blackmarket__text:
+    temp: true
+    text: 入手困難なアイテムが手に入るかもしれない怪しげな売人。
+  unique_blackmarket_general__name:
+    temp: true
+    text: ブラックマーケット
+  unique_blackmarket_general_huge__name:
+    temp: true
+    text: ブラックマーケット - 特大
+  unique_blackmarket_general_large__name:
+    temp: true
+    text: ブラックマーケット - 大
+  unique_blackmarket_general_medium__name:
+    temp: true
+    text: ブラックマーケット - 中
+  unique_blackmarket_general_small__name:
+    temp: true
+    text: ブラックマーケット - 小
+  unique_blackmarket_general_tiny__name:
+    temp: true
+    text: ブラックマーケット - 極小
+  unique_bombtestsite__name:
+    temp: true
+    text: 爆弾試験場
+  unique_crashedsatellite_defended__name:
+    temp: true
+    text: 人工衛星墜落現場
+  unique_crashedsatellite_undefended__name:
+    temp: true
+    text: 人工衛星墜落現場
+  unique_emergencybunker__name:
+    temp: true
+    text: 緊急倉庫
+  unique_emergencybunker_hidden__name:
+    temp: true
+    text: 緊急倉庫
+  unique_market__name:
+    temp: true
+    text: 民間市場
+  unique_market__text:
+    temp: true
+    text: 屋台が集まり、地元民が経営して豊富な品ぞろえの商品を販売している。資材補充に適している。
+  unique_market_general__name:
+    temp: true
+    text: 一般市場
+  unique_market_general_huge__name:
+    temp: true
+    text: 市場 - 特大
+  unique_market_general_large__name:
+    temp: true
+    text: 市場 - 大
+  unique_market_general_medium__name:
+    temp: true
+    text: 市場 - 中
+  unique_market_general_small__name:
+    temp: true
+    text: 市場 - 小
+  unique_market_general_tiny__name:
+    temp: true
+    text: 市場 - 極小
+  unique_oldbase_experimental__name:
+    temp: true
+    text: 放棄された研究基地
+  unique_oldbase_experimental_hidden__name:
+    temp: true
+    text: 放棄された研究基地
+  unique_oldbase_specops__name:
+    temp: true
+    text: 放棄された作戦基地
+  unique_oldbase_specops__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  unique_oldbase_specops_hidden__name:
+    temp: true
+    text: 放棄された作戦基地
+  unique_oldbase_specops_hidden__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  unique_oldbase_standard__name:
+    temp: true
+    text: 放棄された陸軍基地
+  unique_oldbase_standard_hidden__name:
+    temp: true
+    text: 放棄された陸軍基地
+  unique_settlement_village_raided_hidden__name:
+    temp: true
+    text: 村
+  unique_settlement_village_raided_hidden__text:
+    temp: true
+    text: 小さな集落。敵機を殲滅することで希望を高め民間人を自由に戻すことができる。
+  unique_station_defector__name:
+    temp: true
+    text: ラジオ局
+  unique_station_defector__text:
+    temp: true
+    text: 荒野にある孤立した小さいラジオ中継局。仮にいるとしても、何機で警備しているか情報は不明である。
+  unique_storagecache__name:
+    temp: true
+    text: 放棄された倉庫
+  unique_training_base_army_small__name:
+    temp: true
+    text: 基地
+  unique_training_base_army_small__text:
+    temp: true
+    text: 侵略軍の作戦を監督するために増強された軍事施設。厳重に警備されており攻撃すると注意を惹く可能性が高い。最初に基地の全機を排除すると解放が容易になる。
+  unique_training_facility_farm_small__name:
+    temp: true
+    text: 農場
+  unique_training_facility_farm_small__text:
+    temp: true
+    text: 侵略軍に占領されている民間施設。この施設は増強されていないが、警備している機体の排除はてこずることがあり増援を呼ばれる可能性が高い。
+  unique_training_fort_tiny__name:
+    temp: true
+    text: 予備軍キャンプ
+  unique_training_fort_tiny__text:
+    temp: true
+    text: 新しく訓練された兵士を送り出し付近に攻撃を仕掛ける増強されたキャンプ。ここで全機排除すればこの州における侵略軍の影響力を劇的に減らすことができる。
+  unique_training_hiddenchache_workshop__name:
+    temp: true
+    text: 隠された工房倉庫
+  unique_training_hiddenchache_workshop__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  unique_training_invader_patrol_army_tiny__name:
+    temp: true
+    text: 立ち往生した陸軍コンボイ
+  unique_training_invader_patrol_army_tiny__text:
+    temp: true
+    text: 貴重な部品やサブシステムを最前線の機体や複数地点に輸送する機動部隊。情報によると防衛は軽く殲滅すれば回収が可能になるようだ。
+  unique_training_invader_patrol_reserves_tiny__name:
+    temp: true
+    text: 駐留パトロール
+  unique_training_invader_patrol_reserves_tiny__text:
+    temp: true
+    text: 幻影旅団を狩りながら移動を続ける敵兵戦隊。エリア内のパトロールをすべて排除すればこの地域で警備兵が増援を呼ぶことが無くなる。
+  unique_training_outpost_tiny__name:
+    temp: true
+    text: 武装キャンプ
+  unique_training_outpost_tiny__text:
+    temp: true
+    text: この増強された侵略軍施設は兵士を送り出し付近に攻撃を仕掛けるために使用されている。苦戦が予想される。ここで全機排除すれば、この州における侵略軍の影響力を減らすことができ、倒した機体からは装備が回収可能になる。
+  unique_warmemorial_defended__name:
+    temp: true
+    text: 戦争記念館
+  unique_warmemorial_defended__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  unique_warmemorial_undefended__name:
+    temp: true
+    text: 戦争記念館
+  unique_warmemorial_undefended__text:
+    temp: true
+    text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。

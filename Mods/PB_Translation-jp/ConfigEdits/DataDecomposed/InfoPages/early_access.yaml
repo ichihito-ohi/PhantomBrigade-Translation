@@ -1,5 +1,7 @@
 removed: false
 edits:
+- 'textLeftSubheader: 旅団へようこそ！'
+- 'textName: アーリーアクセス'
 - 'textDesc: アーリーアクセス期間中に Phantom Brigade を体験して開発を形作るためにあなたの手助けを得られることを楽しみにしています。
 
 
@@ -10,5 +12,3 @@ edits:
 
 
   この旅路にご参加いただきありがとうございます。あなたの助けを借りて、 Phantom Brigade をどんどん良くしていくことを楽しみにしています！'
-- 'textLeftSubheader: 旅団へようこそ！'
-- 'textName: アーリーアクセス'

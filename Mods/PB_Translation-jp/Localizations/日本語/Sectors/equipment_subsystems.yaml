@@ -192,37 +192,37 @@ entries:
     text: 大幅にバリア再生速度を強化する。
   internal_aux_sensor_left_hybrid__name:
     temp: false
-    text: 照準 - 左
+    text: 照準センサー - 左
   internal_aux_sensor_left_hybrid__text:
     temp: false
     text: 左の武器の射程距離を延長し、静止時と移動時の拡散を減少する。
   internal_aux_sensor_left_range__name:
     temp: false
-    text: センサー - 左
+    text: 測距センサー - 左
   internal_aux_sensor_left_range__text:
     temp: false
     text: 左の武器の射程距離を延長する。
   internal_aux_sensor_left_scatter__name:
     temp: false
-    text: スタビライザー - 左
+    text: 姿勢センサ― - 左
   internal_aux_sensor_left_scatter__text:
     temp: false
     text: 左の武器の静止時と移動時の拡散を減少する。
   internal_aux_sensor_right_hybrid__name:
     temp: false
-    text: 照準 - 右
+    text: 照準センサー - 右
   internal_aux_sensor_right_hybrid__text:
     temp: false
     text: 右の武器の射程距離を延長し、静止時と移動時の拡散を減少する。
   internal_aux_sensor_right_range__name:
     temp: false
-    text: センサー - 右
+    text: 測距センサー - 右
   internal_aux_sensor_right_range__text:
     temp: false
     text: 右の武器の射程距離を延長する。
   internal_aux_sensor_right_scatter__name:
     temp: false
-    text: スタビライザー - 右
+    text: 姿勢センサー - 右
   internal_aux_sensor_right_scatter__text:
     temp: false
     text: 右の武器の静止時と移動時の拡散を減少する。

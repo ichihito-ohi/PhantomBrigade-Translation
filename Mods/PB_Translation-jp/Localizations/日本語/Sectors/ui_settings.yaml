@@ -1,6 +1,6 @@
-name:
-description:
-exportMode: None
+name: UI (Settings)
+description: Text for setting names, descriptions and levels used on the settings screen.
+exportMode: LinePerKeySplit
 columns: []
 splits: []
 entries:
@@ -216,7 +216,7 @@ entries:
     text: 斜めからの視点におけるテクスチャーの外観を向上する異方性フィルタを調整します。推奨されるオプションは『強制オン』です―ほとんどの GPU において、このパフォーマンス負荷はごくわずかであるため、オフにすることはお勧めしません。
   graphics_texture_quality__header:
     temp: true
-    text: テクスチャ解像度
+    text: テクスチャー解像度
   graphics_texture_quality__lv_0:
     temp: true
     text: フル
@@ -231,7 +231,7 @@ entries:
     text: 12.5%
   graphics_texture_quality__text:
     temp: true
-    text: ユーザーインターフェースを除いたテクスチャーの解像度を調整します。品質レベルを下げるごとに、テクスチャ解像度は半分になり、 GPU メモリを節約します。メモリが非常に限られた GPU でディスプレイ解像度が比較的大きい場合を除き、この設定はフルのままにすることをお勧めします。
+    text: ユーザーインターフェースを除いたテクスチャーの解像度を調整します。品質レベルを下げるごとに、テクスチャー解像度は半分になり、 GPU メモリを節約します。メモリが非常に限られた GPU でディスプレイ解像度が比較的大きい場合を除き、この設定はフルのままにすることをお勧めします。
   input_gamepad_look_invert_vertical__header:
     temp: true
     text: ゲームパッド / カメラ操作反転

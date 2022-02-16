@@ -109,24 +109,24 @@ entries:
     text: ''
   ev_interaction_armypilot_joins__1s_joins_header:
     temp: true
-    text: Joining the Ranks
+    text: 仲間入り
   ev_interaction_armypilot_joins__1s_joins_text:
     temp: true
-    text: 'The guerrilla agent nods to you in greeting.
+    text: '挨拶をすると、ゲリラ工作員がうなずいた。
 
 
-      “Good to see you again, Commander,” he says. With the conscripts rescued and safely home, he looks more energetic than before. Perhaps even a little younger. “Take care of our friend, will you? Brigade now or not, our people are still our people. It’s tough to see ‘em go, sometimes.”
+      『また会えて嬉しい、司令官。』工作員が挨拶する。志願兵が救出され安全な拠点も見つかったことで、以前より気力に満ちているようだった。若返ったようにすら見える。『我らが友をよろしく頼む。旅団に居ようとも、彼らは我らの仲間であり続ける。見送るのは辛いものであるが。』
 
 
-      As the new pilot is guided toward the base by one of your scouts, you salute them, thanking him for placing his trust in you.'
+      新しいパイロットが偵察員のひとりに連れられて移動基地へやってくると、あなたは敬礼をして、自分を信じてくれたことに感謝を伝えた。'
   ev_interaction_armypilot_joins__2o_continue_header:
     temp: true
     text: 続ける
   ev_interaction_armypilot_joins__2o_continue_text:
     temp: true
-    text: 'Keep moving.
+    text: '進み続けよう。
 
-      | +1 pilot |'
+      | +1 パイロット |'
   ev_interaction_assassination_combat__0c_name:
     temp: true
     text: ''
@@ -468,7 +468,7 @@ entries:
       『町を代表して、感謝の気持ちを伝えたいと思ってたんだ。』品を検める抗議メンバーを指して、彼は大きく手を広げた。『この鉱物は俺たちの生き方そのものだ。安心してくれ、もう侵略軍の手には渡さん。次はこっちにも備えがある。それもこれもあんたらのおかげだ。どうぞ、感謝の印にこの物資を持って行ってくれ、遠慮はいらん。』
 
 
-      あなたは頷くと、乗組員に旅路へ戻るよう合図を出した。ここでの仕事はこれで終わりだ。'
+      あなたはうなずくと、乗組員に旅路へ戻るよう合図を出した。ここでの仕事はこれで終わりだ。'
   ev_interaction_cache_resolution__2o_finish_header:
     temp: true
     text: 終わり
@@ -609,7 +609,7 @@ entries:
       『囲まれた』パイロットのひとりが叫ぶ。'
   ev_interaction_defector_station__1s_01_chargerescue_header:
     temp: false
-    text: 亡命者は救助された
+    text: 亡命者は救出された
   ev_interaction_defector_station__1s_01_chargerescue_text:
     temp: false
     text: 'ついに、巧妙な駆け引きと迅速な判断によって、最後の敵兵士が倒れあなたの部隊はラジオ局へと進路を取った。中に入り、あなたは亡命者を見つけた。
@@ -978,7 +978,7 @@ entries:
     text: 却下
   ev_interaction_draft_meetup__2o_decline_text:
     temp: true
-    text: "情報不足で危険性が高すぎる．\r\n| - 5 希望 |"
+    text: "情報不足で危険性が高すぎる。\r\n| - 5 希望 |"
   ev_interaction_draft_meetup__2o_donate_header:
     temp: true
     text: 辞退・寄付
@@ -1182,13 +1182,13 @@ entries:
     text: Generic Combat 01
   ev_interaction_farm_combat__1s_combat_header:
     temp: true
-    text: Occupation
+    text: 占拠
   ev_interaction_farm_combat__1s_combat_text:
     temp: true
-    text: 'You approach the farmhouse, recognizing it as the one the farmer told you about. Your seismic detectors are going wild: there are definitely mechs stationed here.
+    text: 'あなたは農場に近づき、あの農家が言っていた場所であることを確認した。震動計が激しく反応している。間違いなく、ここにはメックが配備されている。
 
 
-      "We''re seeing three enemies on the board, boss," one of your pilots says. "They look a bit beefy, but nothing we haven''t seen before. Reckon we can take them?"'
+      『画面上では敵を3機確認しました、ボス。』パイロットのひとりが報告する。『すこしは骨のある敵のようですが、どれも見たことのあるタイプです。勝算はありますか？』'
   ev_interaction_farm_combat__2o_combat_header:
     temp: true
     text: 出動準備
@@ -1200,46 +1200,46 @@ entries:
     text: Generic Combat 01
   ev_interaction_farm_combatretry__1s_combat_header:
     temp: true
-    text: Occupation
+    text: 占拠
   ev_interaction_farm_combatretry__1s_combat_text:
     temp: true
-    text: 'You return to the farm occupied by enemy mechs.
+    text: 'あなたは敵メックの占拠する農場に戻ってきた。
 
 
-      "We''ll get them this time," your pilot assures you. "They won''t know what hit them."
+      『今度こそやれます。』パイロットが請け合う。『ヤツらは何が起きたすらわからないはずです。』
 
 
-      "Then we can give the farm back to the rightful owner!" another cheers.'
+      『農場をあるべき持ち主のもとに返そう！』別の歓声が上がる。'
   ev_interaction_farm_combatretry__2o_combat_header:
     temp: true
     text: 出動準備
   ev_interaction_farm_combatretry__2o_combat_text:
     temp: true
-    text: You're ready for them this time.
+    text: 今度こそ大丈夫だ。
   ev_interaction_farm_victory__0c_name:
     temp: true
     text: ''
   ev_interaction_farm_victory__1s_victory_header:
     temp: true
-    text: Occupied No More
+    text: 占拠はもうされない
   ev_interaction_farm_victory__1s_victory_text:
     temp: true
-    text: 'Your squad was successful. When the dust settles, your mechanic goes to collect the family and bring them back to the farm.
+    text: 'あなたの部隊は成し遂げました！戦塵が落ち着くと、整備員が家族を集めて農場に送り届けた。
 
 
-      When they arrive, the kids immediately run inside to check if any of their toys have been moved, and the farmer and her husband come to you.
+      家に着くと、子供たちはすぐに駆けていって玩具が動かされていないかを確かめ、農家夫婦はあなたの前にやって来た。
 
 
-      "Thanks," she says. "We have little to repay you with, but we will be sure to tell our neighbors about how much the Phantom Brigade helped us here."
+      『ありがとうございます。』彼女が感謝を述べる。『お返しできるようなものはありませんが、幻影旅団の皆様がどれほど助けてくださったか、ご近所に必ず宣伝します。』
 
 
-      The husband nods. "We really thought you were just a legend people were creating. Now, to see you in the flesh, helping us? The people should know that there is hope after all."'
+      夫もそれにうなずく。『私たちはてっきり、貴方がたを人々のつくり出した伝説に過ぎないと思っていた。それが、目の前にいて、しかも助けてくれた？ついに希望が現れたことを、みなに知らせないと。』'
   ev_interaction_farm_victory__2o_continue_header:
     temp: true
     text: 続ける
   ev_interaction_farm_victory__2o_continue_text:
     temp: true
-    text: '| +10 Hope |'
+    text: '| +10 希望 |'
   ev_interaction_festival_solo__0c_name:
     temp: false
     text: 祝典
@@ -1299,7 +1299,7 @@ entries:
     text: 'あなたとパイロットが勝利を祝っていると、ボイラースーツの男が基地に現れた。おどおどした様子だ。
 
 
-      『感謝してもしきれない。』男が口を開く。ばつが悪そうに唾を呑む。『ただ、だからどうという訳じゃないんだが、戦ってくれていた時、送電線のひとつが切断されたことまでは気づかなかったんじゃないか？』
+      『感謝してもしきれない。』そういって男は口を開いたが、ばつが悪そうに唾を呑んだ。『ただ、だからどうという訳じゃないんだが、戦ってくれていた時、送電線のひとつが切断されたことまでは気づかなかったんじゃないか？』
 
 
       今度はあなたの部隊が恥ずかしい思いをする番だった。パイロットの一人が振り向く。顔が赤い。
@@ -1874,25 +1874,25 @@ entries:
     text: Generic Combat 01
   ev_interaction_radio_combat__1s_combat_header:
     temp: true
-    text: Tower Defense
+    text: タワーディフェンス
   ev_interaction_radio_combat__1s_combat_text:
     temp: true
-    text: 'You approach the radio tower, and the signal only gets louder on the radio.
+    text: 'あなたはラジオ塔の近くに来た。ラジオでその電波は大きくなる一方だった。
 
 
-      "This is it! This is the spot!" your mechanic says. "Looks like you might have company, though."
+      『ここですよ！ここが目当ての場所ですよ！』整備員が声を上げる。『見たところお相手もいるようですが...』
 
 
-      "I guess they really want to make sure they can drip poison in people''s ears," one of your pilots sneers. "Come on, boss. Can we take them out? Show them what we think of their lies?"
+      『ヤツらは人々の耳に毒を注げるか試しているとしか思えない。』パイロットのひとりが顔をひきつらせる。『行きましょう、ボス。今なら追い出せますよね？ヤツらの嘘に我々がハッキリと言ってやりましょう。』
 
 
-      "If you take out the mechs, I''ll be able to get in there and take the radio off the air," your mechanic tells you. They look eager for the opportunity.'
+      『メックを出してくだされば、私がそこに行ってラジオを停波させられます。』整備員はそう話している。またとない機会にやる気は十分のようだ。'
   ev_interaction_radio_combat__2o_combat_header:
     temp: true
     text: 出動準備
   ev_interaction_radio_combat__2o_combat_text:
     temp: true
-    text: Fight the mechs so your mechanic can get to the tower.
+    text: 整備員が塔にたどり着けるようメックを戦わせる。
   ev_interaction_radio_victory__0c_name:
     temp: true
     text: ''
@@ -1901,19 +1901,19 @@ entries:
     text: 勝利
   ev_interaction_radio_victory__1s_main_text:
     temp: true
-    text: 'While your pilots settle down from a battle well-fought, your mechanic goes in to take the radio off the air.
+    text: '奮闘したパイロットが疲れを癒している間に、ラジオを止めに整備員が塔に入っていった。
 
 
-      They return a little while later with a grin on their face.
+      しばらくして、整備員たちが笑顔で戻ってきた。
 
 
-      "We won''t be hearing from them again in a hurry," they tell you. "Hopefully this''ll be a nice hit to their morale!"'
+      『しばらくは耳にしないで済むはずです。』と報告する。『上手くいけばヤツらの士気を削れるでしょう。』'
   ev_interaction_radio_victory__2o_finish_header:
     temp: true
     text: 続ける
   ev_interaction_radio_victory__2o_finish_text:
     temp: true
-    text: '| +10 Hope |'
+    text: '| +10 希望 |'
   ev_interaction_raid_combat__0c_name:
     temp: false
     text: 突撃
@@ -2044,10 +2044,10 @@ entries:
     text: 助けに行くリスクはわかっているはずで長い間立ち止まる余裕もなかった。
   ev_interaction_rescue_pilot__2o_rescue_header:
     temp: false
-    text: パイロットを救助する
+    text: パイロットを救出する
   ev_interaction_rescue_pilot__2o_rescue_text:
     temp: false
-    text: "捜索・救助チームを出動させるため基地を停車する。\r\n| 7.5 時間 |"
+    text: "捜索・救出チームを出動させるため基地を停車する。\r\n| 7.5 時間 |"
   ev_interaction_rescuecivilians_combat__0c_name:
     temp: false
     text: ''
@@ -2065,10 +2065,10 @@ entries:
     text: 警備兵に立ち向かう前にもっと資源が必要だ。
   ev_interaction_rescuecivilians_combat__2o_resque_header:
     temp: false
-    text: 民間人救助
+    text: 民間人救出
   ev_interaction_rescuecivilians_combat__2o_resque_text:
     temp: false
-    text: 武装した警備兵と戦い民間人を救助しろ。
+    text: 武装した警備兵と戦い民間人を救出しろ。
   ev_interaction_rescuecivilians_rescue__0c_name:
     temp: false
     text: ''
@@ -2178,19 +2178,28 @@ entries:
     text: ''
   ev_notification_armypilot_intel__1s_accept_header:
     temp: true
-    text: All Aboard
+    text: 出発進行
   ev_notification_armypilot_intel__1s_accept_text:
     temp: true
-    text: '“That’s great news! I’ll relay the message to them right away, Commander.”
+    text: '『これはいい知らせですね！すぐにメッセージを伝達してきます、司令官。』
 
 
-      The scout tells forwards you the location of the guerrillas current hideout, where the pilot will be waiting.'
+      偵察員が、パイロットが待っているゲリラの現在の隠れ家の位置を転送する。'
   ev_notification_armypilot_intel__1s_decline_header:
     temp: true
-    text: Tight-Knit
+    text: 結束
   ev_notification_armypilot_intel__1s_decline_text:
     temp: true
-    text: "You respectfully decline, explaining to the scout that you can’t take on a guerrilla fighter at this point in time. \n\n“Ah, I see,” nods the scout. “I guess the guerrillas are still in need of people...the pilot might be better off staying with them.\n\nThe scout nods. “You have a point, Commander. I’ll relay the message!”\n\nWith that concluded, your eyes return to the road."
+    text: 'あなたは丁寧に辞退を伝え、現状ゲリラから戦闘員を受け入れることはできないと偵察員に説明した。
+
+
+      『ああ、なるほど。』偵察員が同意する。『ゲリラにはまだ人手が必要でしょう...パイロットも彼らと一緒にいたほうが良いかもしれません。』
+
+
+      偵察員がうなずく。『一理ありますね、司令官。メッセージを伝達しておきます！』
+
+
+      それが済むと、あなたは再び旅路に目を向けた。'
   ev_notification_armypilot_intel__1s_message_header:
     temp: true
     text: ゲリラ・パイロット
@@ -2208,9 +2217,7 @@ entries:
     text: 受諾
   ev_notification_armypilot_intel__2o_accept_text:
     temp: true
-    text: 'パイロットを招く。
-
-      | -200 物資 |'
+    text: パイロットを招く。
   ev_notification_armypilot_intel__2o_continue_header:
     temp: true
     text: 続ける
@@ -2533,7 +2540,9 @@ entries:
     text: ネコを撫でる
   ev_notification_cat_play__2o_yes_text:
     temp: true
-    text: "頭を撫でてやるべきだろう。\r\n| 2.5 時間 | -10 疲労度 | +1 猫との絆 |"
+    text: '頭を撫でてやるべきだろう。
+
+      | 1.5 時間 | -10 疲労度 | +1 猫との絆 |'
   ev_notification_civilianmarket_huge__0c_name:
     temp: false
     text: ''
@@ -3295,7 +3304,7 @@ entries:
     temp: false
     text: 'これまでずっと、良い子にしていた。
 
-      | 2.5 時間 | -10 疲労度 | +1 犬との絆 |'
+      | 1.5 時間 | -10 疲労度 | +1 犬との絆 |'
   ev_notification_dog_ranoff__0c_name:
     temp: false
     text: ''
@@ -3361,7 +3370,7 @@ entries:
     text: 使い捨て要員
   ev_notification_expendable__1s_intel_text:
     temp: true
-    text: '先の戦闘の後で，あなたは状況を確認するためいつものように基地内を歩いて回っていた。
+    text: '先の戦闘の後で、あなたは状況を確認するためいつものように基地内を歩いて回っていた。
 
 
       すると、メック格納庫の隅から声が聞こえた。それは整備員のひとりで、立ち並ぶパイロットのロッカーを見つめていた。彼女のそばにはベテラン技術者が寄り添っており、足元にはパイロットの私物を収めた箱が置かれている。
@@ -3391,44 +3400,44 @@ entries:
     text: ''
   ev_notification_farm_intel__1s_01_intel_header:
     temp: true
-    text: Seized & Confused
+    text: 接収そして混乱
   ev_notification_farm_intel__1s_01_intel_text:
     temp: true
-    text: 'You''re waved down by a farmer, dressed in dusty overalls and looking worse for wear.
+    text: 'ひとりの農家がこちらに手を振っている。着ているつなぎは汚れ、ボロボロのようだった。
 
 
-      "They took my farm! They took everything!" she cries.
+      『私の農場が奪われた！何もかも奪っていった！』農家が泣き叫ぶ。
 
 
-      One of your pilots makes her a nice cup of tea and when her nerves are settled, you ask her to explain.
+      パイロットのひとりが彼女にお茶を一杯入れてやり、落ち着いてきたところであなたは訳を尋ねた。
 
 
-      "They kicked us out of our farm! I tried to fight them, but they threatened my family if we didn’t clear out. We''ve been walking for days, and have nowhere to go. That farm was our life and livelihood."
+      『農場を追い出されたんです！戦おうとしましたが、家族ともども立ち去るよう脅されました。何日も歩いてきて、もうどこにも行くところがありません。農場は私の生活そのものだったんです。』
 
 
-      Her family, she tells you, are staying in an abandoned barn nearby, but she came out when she heard the base rumbling through.'
+      彼女が言うには、家族と近くの廃屋にいたらしいが、移動基地の走る音を聞いて出てきたらしい。'
   ev_notification_farm_intel__2o_donate_header:
     temp: true
     text: 物資を寄付する
   ev_notification_farm_intel__2o_donate_text:
     temp: true
-    text: 'For her and her family to use in the meantime.
+    text: '少しの間でも彼女とその家族のためになるように。
 
-      | -100 Supplies | +5 Hope |'
+      | -100 物資 | |+5 希望 |'
   ev_notification_farm_intel__2o_help_header:
     temp: true
-    text: Offer Help
+    text: 手助けを申し出る
   ev_notification_farm_intel__2o_help_text:
     temp: true
-    text: Fend off the enemy forces occupying her farm.
+    text: 彼女の農場を占拠する敵軍を退ける。
   ev_notification_farm_intel__2o_leave_header:
     temp: true
-    text: Leave Her
+    text: 彼女を見捨てる。
   ev_notification_farm_intel__2o_leave_text:
     temp: true
-    text: 'You can offer apologies but there are more pressing matters.
+    text: '忍びないが、もっと差し迫った問題がある。
 
-      | -5 Hope |'
+      | -5 希望 |'
   ev_notification_generation_reset__0c_name:
     temp: false
     text: おかえりなさい
@@ -3643,49 +3652,49 @@ entries:
     text: ゴースト・バスター
   ev_notification_purranormal_activity__1s_activity_text:
     temp: true
-    text: 'パイロットのほとんどは待っている間仕事をしていた，入れ込んでいるひとりを除いて．しかし数時間が経った頃，納屋を見張っていたそのひとりがあなた達全員に向かって大きく手を振った．
+    text: 'パイロットのほとんどは待っている間仕事をしていた、入れ込んでいるひとりを除いて。しかし数時間が経った頃、納屋を見張っていたそのひとりがあなた達全員に向かって大きく手を振った。
 
 
-      『聞きましたか？』呼んだパイロットが声を潜めて言う．
+      『聞きましたか？』呼んだパイロットが声を潜めて言う。
 
 
-      そして，確かに納屋から甲高い奇妙な泣き声が聞こえてきた．かすかに，だが間違いなく人ならざる声だった．さらに木をひっかくような音も聞こえてくる．
+      そして、確かに納屋から甲高い奇妙な泣き声が聞こえてきた。かすかに、だが間違いなく人ならざる声だった。さらに木をひっかくような音も聞こえてくる。
 
 
-      懐疑的だったパイロットも思わず後ずさる．『多分これは関わらないほうが良いよ．』
+      懐疑的だったパイロットも思わず後ずさる。『多分これは関わらないほうが良いよ。』
 
 
-      『君は幽霊なんて信じないと思ってた！』そう言って興奮している．
+      『君は幽霊なんて信じないと思ってた！』そう言って興奮している。
 
 
-      『まさか！いや，でも...触らぬ神に祟りなし，だよ．』'
+      『まさか！いや、でも...触らぬ神に祟りなし、だよ。』'
   ev_notification_purranormal_activity__1s_hasdog_header:
     temp: true
     text: スーパー・ニャチュラル
   ev_notification_purranormal_activity__1s_hasdog_text:
     temp: true
-    text: 'パイロットとあなたは覚悟を決めると，ゆっくり納屋に近づいた．甲高い泣き声は止んだが，ひっかく音は鳴り続ける．
+    text: 'パイロットとあなたは覚悟を決めると、ゆっくり納屋に近づいた。甲高い泣き声は止んだが、ひっかく音は鳴り続ける。
 
 
-      更に近づいて，パイロットは，あなたに待機するよう合図すると朽ちた木の穴のひとつに潜り込んだ．その途端，パイロットの笑い声が聞こえてきた．
+      更に近づいて、パイロットは、あなたに待機するよう合図すると朽ちた木の穴のひとつに潜り込んだ。その途端、パイロットの笑い声が聞こえてきた。
 
 
-      一拍おいて，パイロットが姿を現した．その手には，一掴みの生姜か何かが包まれている．
+      一拍おいて、パイロットが姿を現した。その手には、一掴みの生姜か何かが包まれている。
 
 
-      『子猫ですよ！』パイロットが大きな声を上げる．『母猫に置き去りにされて，ここで騒いでいたに違いないですよ．なんて可哀そうに．』
+      『子猫ですよ！』パイロットが大きな声を上げる。『母猫に置き去りにされて、ここで騒いでいたに違いないですよ。なんて可哀そうに。』
 
 
-      『うーん，うちの犬は子猫を気に入らない気もするが...』あなたが基地に戻るとパイロットのひとりが声をかけた．『でも友達にしてあげられるかもしれない．いい子にできるもんね？』
+      『うーん、うちの犬は子猫を気に入らない気もするが...』あなたが基地に戻るとパイロットのひとりが声をかけた。『でも友達にしてあげられるかもしれない。いい子にできるもんね？』
 
 
-      子猫は鼻を鳴らすと，答えるように喉を鳴らした．'
+      子猫は鼻を鳴らすと、答えるように喉を鳴らした。'
   ev_notification_purranormal_activity__1s_nodog_header:
     temp: true
     text: スーパー・ニャチュラル
   ev_notification_purranormal_activity__1s_nodog_text:
     temp: true
-    text: "パイロットとあなたは覚悟を決めると，ゆっくり納屋に近づいた．甲高い泣き声は止んだが，ひっかく音は鳴り続ける．\r\n\r\n更に近づいて，パイロットは，あなたに待機するよう合図すると朽ちた木の穴のひとつに潜り込んだ．その途端，パイロットの笑い声が聞こえてきた．\r\n\r\n一拍おいて，パイロットが姿を現した．その手には，一掴みの生姜か何かが包まれている．\r\n\r\n『子猫ですよ！』パイロットが大きな声を上げる．『母猫に置き去りにされて，ここで騒いでいたに違いないですよ．なんて可哀そうに．この子を飼っても良いですか？そのときはいい子にできるもんね？』\r\n\r\n子猫は鼻を鳴らすと，答えるように喉を鳴らした．"
+    text: "パイロットとあなたは覚悟を決めると、ゆっくり納屋に近づいた。甲高い泣き声は止んだが、ひっかく音は鳴り続ける。\r\n\r\n更に近づいて、パイロットは、あなたに待機するよう合図すると朽ちた木の穴のひとつに潜り込んだ。その途端、パイロットの笑い声が聞こえてきた。\r\n\r\n一拍おいて、パイロットが姿を現した。その手には、一掴みの生姜か何かが包まれている。\r\n\r\n『子猫ですよ！』パイロットが大きな声を上げる。『母猫に置き去りにされて、ここで騒いでいたに違いないですよ。なんて可哀そうに。この子を飼っても良いですか？そのときはいい子にできるもんね？』\r\n\r\n子猫は鼻を鳴らすと、答えるように喉を鳴らした。"
   ev_notification_purranormal_activity__2o_agree_header:
     temp: true
     text: 賛成
@@ -3703,13 +3712,13 @@ entries:
     text: 調査
   ev_notification_purranormal_activity__2o_investigate_text:
     temp: true
-    text: いったい何が見つかるのだろうか．
+    text: いったい何が見つかるのだろうか。
   ev_notification_purranormal_activity__2o_leave_header:
     temp: true
     text: 離れる
   ev_notification_purranormal_activity__2o_leave_text:
     temp: true
-    text: 怨霊を怒らせる意味はない．
+    text: 怨霊を怒らせる意味はない。
   ev_notification_purranormal_intel__0c_name:
     temp: true
     text: ''
@@ -3718,22 +3727,22 @@ entries:
     text: 何かがいる
   ev_notification_purranormal_intel__1s_intel_text:
     temp: true
-    text: 'ある太っ腹の農家が燃料をいくらか寄付してくれた．基地に燃料を補給している際，パイロットのひとりが農家と雑談しに行った．
+    text: 'ある太っ腹の農家が燃料をいくらか寄付してくれた。基地に燃料を補給している際、パイロットのひとりが農家と雑談しに行った。
 
 
-      パイロットは帰ってくると，聞いてきた話にとても興奮しているようだった．
+      パイロットは帰ってくると、聞いてきた話にとても興奮しているようだった。
 
 
-      『ここは地元民から「幽霊の出る州」と呼ばれているそうです．』パイロットが語る．『そしてあの農家が言うには，占領が始まって以来心霊現象の件数は増加しているんです！実際，ポルターガイストが起きて今では誰も近寄りたがらないという，とある納屋について聞いたことがあると言っていました！想像できますか？』
+      『ここは地元民から「幽霊の出る州」と呼ばれているそうです。』パイロットが語る。『そしてあの農家が言うには、占領が始まって以来心霊現象の件数は増加しているんです！実際、ポルターガイストが起きて今では誰も近寄りたがらないという、とある納屋について聞いたことがあると言っていました！想像できますか？』
 
 
-      『なんて馬鹿げた話だ』他のパイロットが一蹴する．
+      『なんて馬鹿げた話だ』他のパイロットが一蹴する。
 
 
       『いやいや！確かめに行くべきだと思いませんか？』
 
 
-      皆があなたに注目しています．'
+      皆があなたに注目しています。'
   ev_notification_purranormal_intel__2o_agree_header:
     temp: true
     text: 賛成
@@ -3745,48 +3754,48 @@ entries:
     text: 却下
   ev_notification_purranormal_intel__2o_decline_text:
     temp: true
-    text: 時間の無駄だ！幽霊なんてものはいない．
+    text: 時間の無駄だ！幽霊なんてものはいない。
   ev_notification_radio_intel__0c_name:
     temp: true
     text: ''
   ev_notification_radio_intel__1s_01_intel_header:
     temp: true
-    text: On the Airways
+    text: 空を伝って
   ev_notification_radio_intel__1s_01_intel_text:
     temp: true
-    text: '"Ugh, not this muck again." One of your pilots slams their fist on the radio. "They''ve always got such a cheerful spin on invasion."
+    text: '『んー、ここでもない。』パイロットのひとりがラジオに拳を叩きつける。『ヤツらは侵略中ずっとこんな風にあちこちうるさく回っている。』
 
 
-      Another pilot frowns, leaning in. "Hey, does this dross sound clearer than it usually does? Do you think we might be close to the source? I always thought they must be circuiting the broadcast through a local tower, since there''s no way it would reach us otherwise."
+      もうひとりのパイロットが眉をひそめ、身を乗り出す。『おい、このくだらない放送、いつもよりハッキリ聴こえないか？発信源が近いと思わないか？ずっと考えていたんだが、ヤツらは現地のラジオ塔を経由して放送しているに違いない。我々のもとに電波が届く理由は他にないはずだ。』
 
 
-      "I can look for radio waves specifically," a mechanic pipes up from their screen. "Just give me a second…"'
+      『特定の電波を見つけだすことならできますよ。』整備員がスクリーン越しに話しかけてきた。『ちょっと時間をもらえれば...』'
   ev_notification_radio_intel__2o_ignore_header:
     temp: true
     text: 無視する
   ev_notification_radio_intel__2o_ignore_text:
     temp: true
-    text: What does one radio station really do?
+    text: ラジオ局ひとつが何になる？
   ev_notification_radio_intel__2o_triangulate_header:
     temp: true
-    text: 'Triangulate the Source '
+    text: 発信源を三角測量で見つける
   ev_notification_radio_intel__2o_triangulate_text:
     temp: true
-    text: 'Your mechanic knows what to do!
+    text: '整備員にやらせてみよう！
 
-      | 5 Hours |'
+      | 5 時間 |'
   ev_notification_radio_triangulate__0c_name:
     temp: true
     text: ''
   ev_notification_radio_triangulate__1s_01_triangulate_header:
     temp: true
-    text: Triangulate
+    text: 三角測量
   ev_notification_radio_triangulate__1s_01_triangulate_text:
     temp: true
-    text: '"There it is!" the mechanic cries, almost jumping from their seat. "Looks like it''s not too far from here."
+    text: '『ここです！』整備員が叫び、席から飛び上がりそうだった。『ここからそう遠くはないようです。』
 
 
-      "It''d be a nice knock to their propaganda parade, if we could take out this broadcast." The pilot looks over at your hopeful. "What do you think, boss?"'
+      『この放送を止めさせることができれば、ヤツらのプロパガンダ・パレードへの有効打になるはずです。』期待のこもった顔でパイロットがあなたに目を向ける。『いかがお考えですか、ボス？』'
   ev_notification_radio_triangulate__2o_ignore_header:
     temp: true
     text: 無視する
@@ -3795,10 +3804,10 @@ entries:
     text: ''
   ev_notification_radio_triangulate__2o_mark_header:
     temp: true
-    text: 'Mark it on Your Map '
+    text: 地図に印をつける
   ev_notification_radio_triangulate__2o_mark_text:
     temp: true
-    text: '| Spawns Location |'
+    text: '| 地点出現 |'
   ev_notification_ranks_intel__0c_name:
     temp: true
     text: ''
@@ -4476,7 +4485,7 @@ entries:
     text: ''
   ev_resolution_defector_rescue__1s_main_header:
     temp: false
-    text: 亡命者は救助された
+    text: 亡命者は救出された
   ev_resolution_defector_rescue__1s_main_text:
     temp: false
     text: '戦闘により疲弊はしたが、あなたの部隊は勝利を収めた。亡命者は無事で、ラジオ局から救出することができた。

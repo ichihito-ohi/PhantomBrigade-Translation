@@ -1,4 +1,4 @@
-name: Pause Menu
+name: UI (Pause)
 description: Variety of text used in pause menu and related screens like splash screen. Load screen text, save system text, submenus etc.
 exportMode: LinePerKeySimple
 columns: []

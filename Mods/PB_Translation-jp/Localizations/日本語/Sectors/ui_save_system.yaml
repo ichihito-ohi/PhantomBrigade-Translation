@@ -1,6 +1,6 @@
-name:
-description: Save system UI
-exportMode: None
+name: UI (Save System)
+description: Save system UI (load/save window, save file info etc.)
+exportMode: LinePerKeySimple
 columns: []
 splits: []
 entries:

@@ -97,7 +97,7 @@ entries:
     text: 国境から遠く西海岸で守られており防御に適した位置にある恩恵を受け、首都は侵略中も難攻不落であることを証明した。
   province_14_name:
     temp: false
-    text: Capital District
+    text: 首都地区
   province_15_desc:
     temp: false
     text: 侵略軍は、その戦略的重要性のため、Styggut を接収することに特別な関心を持っていた。 ここには多くの採掘作業と発電所がある。
@@ -160,7 +160,7 @@ entries:
     text: Nordtre
   province_25_desc:
     temp: false
-    text: 侵略軍は、その戦略的重要性のため、Styggut を接収することに特別な関心を持っていた。 ここには多くの採掘作業と発電所がある。
+    text: 10年前、この地域では当時の農務長官が多くの採掘事業を停止させたが、侵略直前の新長官は Oxbrut に産業を呼び戻す政策に取り組んでいた。
   province_25_name:
     temp: false
     text: Oxbrut

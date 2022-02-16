@@ -1,7 +1,9 @@
 name: Japanese
 flag: icon_flag_japanese
+prefix: 
 subtitleBuffer: "[00]........................................."
 subtitleFadeoutTime: 3
+insertNewLines: false
 widthSubtitle: 800
 sizeSubtitle: 20
 sizeHint: 20
