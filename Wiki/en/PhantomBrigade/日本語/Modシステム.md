@@ -1,10 +1,4 @@
-# Mod システム
-アプリケーションフォルダー内のファイルを改造せずにデータとコードを変更できる mod システムの概要．
-Last edited by Artyom Zuev, 02/06/2022.
-
----
-
-## 前書き
+# 前書き
 設定ファイルが公開されているデータ駆動型構造のおかげで， Phantom Brigade はいつでもかなり簡単に改造することができます． `Configs` フォルダー内の任意のファイルを改造することで，さまざまな mod を作成することができます．（シナリオ変更，装備の再調整，新しい機体やローカライゼーションの追加，など．）しかし，この改造方法にはいくつかの問題と制約があります：
 
 - アプリケーションディレクトリのコンテンツを改造する必要があります．
@@ -17,11 +11,12 @@ Last edited by Artyom Zuev, 02/06/2022.
 - その他様々な問題の原因（mod の優先順位を制御できない， mod とは直接関係のない大量のデータを複製する必要性，など．）
 
 
-## はじめに
+# はじめに
 この新しい mod システムはこれらの問題すべてを解決するための試みです．人気のある改造可能な Unity ゲームの mod システムにかなり近いものです．はじめるには，以下の操作を行う必要があります：
 
 ![](https://wiki.braceyourselfgames.com/mods/mods_config_01.png)
 ![](https://wiki.braceyourselfgames.com/mods/mods_config_02.png)
+![](https://wiki.braceyourselfgames.com/mods/mod_config_01.png)
 
 - `mods.yaml` ファイルを作成するかダウンロードして，ユーザーフォルダーの `My Games/Phantom Brigade/Settings` に配置してください．
     - `enabled` が `true` となっていることを確認してください．
@@ -34,7 +29,7 @@ Last edited by Artyom Zuev, 02/06/2022.
 - ユーザーフォルダーの `My Games/Phantom Brigade/Mods` に mod を展開します．
     - `Mods/MyMod1`, `Mods/MyMod2`... のように mod は別々のフォルダーにします．
 
-![](https://wiki.braceyourselfgames.com/mods/mod_metadata_01.png)
+![](https://wiki.braceyourselfgames.com/mods/mod_metadata_02.png)
 
 - それぞれの mod フォルダーには， mod の内容について基本的な情報をゲームに伝える `metadata.yaml` ファイルが必ず必要で，これにより読み込みと mod 管理 UI の描画が可能になります．
     - バージョン
@@ -44,7 +39,7 @@ Last edited by Artyom Zuev, 02/06/2022.
     - 含まれる内容（詳細は後述）
     - 互換性のあるゲームバージョン（形式は `a.b.c`，例えば `0.14.2`， `0.16.0` のようになります．ビルド情報の透かしで見られる `-b3103E` のような接尾辞は含めないでください．）
 
-![](https://wiki.braceyourselfgames.com/mods/mods_screen_01.png)
+![](https://wiki.braceyourselfgames.com/mods/mod_manager_01.png)
 
 - `mods.yaml` の `enabled` 項目が `true` に設定されると，新しいメインメニュー設定として Mods メニューがゲームに現れます．
     - このメニューでは，検出された mod フォルダーすべてのリストが左に表示されます．
@@ -62,10 +57,10 @@ Last edited by Artyom Zuev, 02/06/2022.
 `mods.yaml` 内の `list` 項目に列挙された（Mod メニューまたは設定の手動編集で追加，有効化された） mod ディレクトリは，ゲーム起動時に解析されます． `metadata.yaml` で与えられた情報に基づいて，ゲームは現在のバージョンと mod との互換性を確認してフォルダーの内容を走査し，ロードを試みます．対応する mod コンテンツタイプについて詳細は以降の節を参照してください．
 
 
-## Mod コンテンツタイプ
+# Mod コンテンツタイプ
 Mod にはいくつかのコンテンツタイプを含めることができます．これらは mod フォルダー内でサブフォルダーとして分けられ，その存在は `metadata.yaml` 内で宣言します．対応するコンテンツタイプは今後拡張していく予定（ローカライゼーションなど）ですが，現在は以下の4タイプに対応しています．
 
-### 設定上書き
+## 設定上書き
 
 ![](https://wiki.braceyourselfgames.com/mods/mod_content_overrides_02.png)
 
@@ -81,7 +76,7 @@ Mod にはいくつかのコンテンツタイプを含めることができま�
 - 別の例：独自バージョンのグローバル設定ファイルを `Mods/[ModName]/ConfigOverrides/Data/Settings/simulation.yaml` に配置すると，ゲームはそのバージョンのグローバル設定を使用した状態で起動します．
 - 制限： `Data` と `DataDecomposed` フォルダーの内容のみ対応しています． `Configs` の中には他にもファイルがありますが，現時点ではこの mod コンテンツタイプで改造することはできません． Config overrides を用いた mod 適用は `PB/Configs` ディレクトリのファイルを直接改造するディスク操作ではなく， DataLinker および DataMultiLinker データマネージャーの読み込み段階における挿入操作です．ですが，通常みなさんが改造したいであろうファイルは上書き可能です―それ以外のファイルはごく少数で改造には適していません．（古いバイナリファイル，現在のデータベースシステムより前から存在する使われていない設定など）
 
-### 設定編集
+## 設定編集
 
 ![](https://wiki.braceyourselfgames.com/mods/mod_content_edits_02.png)
 
@@ -170,7 +165,7 @@ Config edits の形式は比較的単純です．
         ```
 - 対応操作は今後時間をかけて拡張されていきます．ただし， config edit system に大きな変更を加える必要がある場合（複雑なデータタイプを解析する機能が必要な場合など）は， config edits の前にライブラリ mod を使用して必要機能の実装から始めることを検討してください．
 
-### ライブラリ
+## ライブラリ
 
 ![](https://wiki.braceyourselfgames.com/mods/mod_content_libraries_01.png)
 
@@ -232,7 +227,7 @@ Config edits の形式は比較的単純です．
     - `.dll` をビルドして， mod の `Libraries` フォルダーに配置してください
     - シナリオの機体を設定するロジックに入り込み機体の生成方法を変更することができます．データコンテナでの逆シリアル化コードの挙動をオーバーライドして， AI に伝える武器効率について変更することも可能です．どんなメソッドでも前処理，後処理の追加や完全な置き換えが可能です．限界はありません． Rimworld， Oxygen not Included， KSP やその他の Unity 製ゲームでロジックを変更したり新しいシステムを実装したりしている mod のほとんどが同様の原理で動作しています．
 
-### テクスチャー
+## テクスチャー
 
 - Metadata フラグ： `includesTextures`
 - フォルダー： `Textures/`
@@ -254,12 +249,12 @@ Config edits の形式は比較的単純です．
         - パイロット写真に使われる画像（基地でパイロットを編集するときにプレイヤーに制御されます）
         - 解像度は必ず 256x256 にしてください
 
-### ローカライゼーション編集
+## ローカライゼーション編集
 
- ![](https://wiki.braceyourselfgames.com/mods/mod_language_edits.jpg)
- （右上）新しいアイテム設定ファイルをゲームデータのフォルダーのパスと一致させる．
- （左下）追加または改造されたローカライゼーションデータについて，パスを言語と一致させ，ファイル名を `Text` セクターと一致させる．キーとなる接頭辞を新しいアイテム設定と一致させる．
- （右下）テキストの登録に成功するとゲーム内ログで通知される．
+![](https://wiki.braceyourselfgames.com/mods/mod_language_edits.jpg)
+*（右上）新しいアイテム設定ファイルをゲームデータのフォルダーのパスと一致させる．*
+*（左下）追加または改造されたローカライゼーションデータについて，パスを言語と一致させ，ファイル名を `Text` セクターと一致させる．キーとなる接頭辞を新しいアイテム設定と一致させる．*
+*（右下）テキストの登録に成功するとゲーム内ログで通知される．*
 
 - Metadata フラグ： `includesLocalizationEdits`
 - フォルダー： `LocalizationEdits/`
@@ -285,7 +280,7 @@ Config edits の形式は比較的単純です．
 例：このアイテムはゲーム本体には存在せず mod で追加されたものですが，スクリーンショットで示されているように，独自の名前と説明文がゲームで適切に表示されています．
 ![](https://wiki.braceyourselfgames.com/mods/mod_loc_edit.png)
 
-### ローカライゼーション
+## ローカライゼーション
 
 ![](https://wiki.braceyourselfgames.com/mods/mod_loc_full.png)
 
@@ -305,7 +300,7 @@ Config edits の形式は比較的単純です．
 - ゲームのどの部分がローカライゼーション・データベースのどの部分を使用しているかを確かめるには， ILSpy や dotPeek のような中間言語解析ソフトを使用し，ゲームのインストールフォルダーから `Assembly-CSharp` を開いて `DataContainer` クラスを継承しているファイルで `ResolveText` という名前のメソッドを探すことをお勧めします．ゲーム内データベースの大部分はこのようなメソッドでテキストのローカライズを処理しており，それを読むことでローカライゼーション・キーがどのように生成されてデータ・キーの中からどのように使われているかわかるようになるでしょう．これは上述のローカライゼーション編集 mod においても役立ちます．
 
 
-## その他
+# その他
 ゲームログに注意してください―何らかの問題が起きた場合に mod マネージャーから多くの情報が含まれていたり，すべて上手く動作した場合に読み込みが成功したことを確認したりすることができます．接頭辞 "Mod Manager" がついたメッセージをログの一番初めに向けて探してください．ログを表示するには， <kbd>Shift</kbd> + <kbd>F11</kbd> を押すか，アプリケーションのデータフォルダーにあるログファイルを開いてください [^9] ．
 
 Mod の開発中は，`My Games/Phantom Brigade/Settings` フォルダーの `debug.yaml` にある `developerMode` を有効化して，追加オプション，デバッグ情報，コンソールコマンドにアクセスできるようにすると役に立つ場合があります．
