@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'textName: 速度'
+- 'textDesc: オーバードライブ・モードでの移動基地の速度（km/h）。'

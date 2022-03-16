@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'textName: エネルギー再充電'
+- 'textDesc: 巡行モードでの予備エネルギー充電速度（1時間あたり）。'

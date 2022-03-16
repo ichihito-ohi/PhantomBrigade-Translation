@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'ui.textName: 巡行センシング'
+- 'ui.textDesc: センサーアレイの部品を交換し、通常移動状態においてより遠くの敵を検知できるようになる。'
