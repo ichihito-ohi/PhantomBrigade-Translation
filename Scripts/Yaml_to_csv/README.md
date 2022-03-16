@@ -53,7 +53,8 @@ _(Common)_
 - `Configs/Text`
 ### yaml_to_csv-firstLevelKey.py
 - `Configs/DataDecomposed/Overworld/BaseActions`
-- `Configs/DataDecomposed/Overworld/Blueprints`
+- `Configs/DataDecomposed/Overworld/BaseStats`
+- `Configs/DataDecomposed/Overworld/BaseStatGroups`
 - `Configs/DataDecomposed/Overworld/EventStats`
 - `Configs/DataDecomposed/Overworld/FactionBranches`
 - `Configs/DataDecomposed/Overworld/Provinces`
@@ -68,6 +69,8 @@ _(Common)_
 - `Configs/DataDecomposed/Combat/UnitGroups`
 
 _(Unique)_
+### yaml_to_csv-BaseParts.py
+- `Configs/DataDecomposed/Overworld/BaseParts`
 ### yaml_to_csv-Cutscenes.py
 - `Configs/DataDecomposed/Cutscenes`
 ### yaml_to_csv-InfoPages.py
