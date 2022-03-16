@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'textName: 収容枠'
+- 'textDesc: 移動基地に収容できる機体の数。この数により、新しい機体を建造できるかどうかが決まる。'

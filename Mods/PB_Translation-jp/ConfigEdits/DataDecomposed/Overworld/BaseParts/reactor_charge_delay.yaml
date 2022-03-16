@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'ui.textName: 急速点火'
+- 'ui.textDesc: 点火システムを好感して、エネルギーを消費した後の発電再開までの遅延を減らす。'
