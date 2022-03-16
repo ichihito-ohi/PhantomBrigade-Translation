@@ -187,6 +187,12 @@ entries:
   timeline_execute:
     temp: true
     text: 実行
+  timeline_late_desc:
+    temp: true
+    text: タイムライン上のあまりに遅い位置に行動を配置することはできません。
+  timeline_late_header:
+    temp: true
+    text: 遅すぎます
   timeline_lock_desc:
     temp: true
     text: '目的遂行

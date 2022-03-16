@@ -1,0 +1,4 @@
+removed: false
+edits:
+- 'ui.textName: スキャン妨害'
+- 'ui.textDesc: 軍用グレードの ECM を導入する。反射波を欺瞞することで敵を混乱させ移動基地の特定を遅らせる。'

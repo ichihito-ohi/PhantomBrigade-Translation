@@ -15,7 +15,9 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
 日本語化 Mod は，本体 Mod System に対応しています．ゲーム内で Mod の有効化・無効化を切り替えることができます．
 
 ### 本体 Mod System の有効化
-参考：[Modding System @BYG Wiki](https://wiki.braceyourselfgames.com/en/PhantomBrigade/Modding/ModSystem)
+参考
+- [Modding System @BYG Wiki （オリジナル）](https://wiki.braceyourselfgames.com/en/PhantomBrigade/Modding/ModSystem)
+- [Modシステム @BYG Wiki （翻訳版）](https://wiki.braceyourselfgames.com/en/PhantomBrigade/日本語/Modシステム)
 
 ゲームのインストール時，本体 Mod System は無効化された状態です．
 ダウンロードした `Settings/mods.yaml` ファイルを，ユーザーフォルダの `Documents/My Games/Phantom Brigade/Settings` にコピーしてください．
@@ -56,6 +58,9 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
 
 
 ## 更新履歴
+### jp-0170-20220316
+- 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.17.0 に適用しました．
+- 誤字脱字を修正しました．
 ### jp-0160-20220216
 - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.16.0-b3297 に適用しました．
 - 本体 Mod System を有効化する方法について， README に追記しました．また，必要なテンプレートファイルを追加しました．
