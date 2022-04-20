@@ -157,6 +157,12 @@ entries:
   event_draft_stealth__step_retreat_0c_text:
     temp: true
     text: 撤収または残る敵を殲滅しろ。民間人の脱出は完了した。
+  event_draft_stealth__step_wave_0c_header:
+    temp: true
+    text: ステルス任務
+  event_draft_stealth__step_wave_0c_text:
+    temp: true
+    text: 民間人を救出するか、周辺の敵をすべて排除しろ。
   event_draft_stealth__step_wave0_0c_header:
     temp: true
     text: ステルス任務
@@ -169,6 +175,27 @@ entries:
   event_farm__core_text:
     temp: true
     text: ''
+  event_meteor__core_header:
+    temp: true
+    text: generic_breakin
+  event_meteor__core_text:
+    temp: true
+    text: ''
+  event_meteor__state_obj_cache_0c_header:
+    temp: true
+    text: 隕石落下地点
+  event_meteor__state_obj_cache_0c_text:
+    temp: true
+    text: 確保するためにメックを隕石落下地点に移動させろ。
+  event_meteor__state_wave0_turn_0c_text:
+    temp: true
+    text: 隕石が敵に確保されている限り、増援が現れる可能性がある。
+  event_meteor__step_cleanup_0c_text:
+    temp: true
+    text: 隕石が確保され敵はすべて排除された。続行しろ。
+  event_meteor__step_wave0_0c_text:
+    temp: true
+    text: 隕石落下地点を確保しろ。
   event_radio__core_header:
     temp: true
     text: event_radio
@@ -181,9 +208,18 @@ entries:
   event_radio__state_objective_destruction_0c_text:
     temp: true
     text: ラジオ塔を停止させるため、3ターンの間、各ターンの終了時に最低1機に指定された地点を確保させろ。
+  event_radio__step_wave_0c_text:
+    temp: true
+    text: ラジオ塔を停止させるか、敵をすべて排除しろ。
   event_radio__step_wave0_0c_text:
     temp: true
     text: ラジオ塔を停止させるか、敵をすべて排除しろ。
+  generic_assault__core_header:
+    temp: true
+    text: generic_assault
+  generic_assault__core_text:
+    temp: true
+    text: ''
   generic_assault_average__core_header:
     temp: true
     text: generic_assault_average
@@ -200,6 +236,12 @@ entries:
     temp: true
     text: generic_assault_small
   generic_assault_small__core_text:
+    temp: true
+    text: ''
+  generic_battlesite__core_header:
+    temp: true
+    text: generic_elimination_elite
+  generic_battlesite__core_text:
     temp: true
     text: ''
   generic_blitz_elite__core_header:
@@ -242,6 +284,12 @@ entries:
     temp: true
     text: generic_elimination_training
   generic_elimination_training__core_text:
+    temp: true
+    text: ''
+  generic_liberation__core_header:
+    temp: true
+    text: generic_liberation
+  generic_liberation__core_text:
     temp: true
     text: ''
   generic_liberation_average__core_header:
@@ -378,19 +426,19 @@ entries:
     text: 15 ターン目
   unique_capital__step_01_standingarmy_0c_text:
     temp: true
-    text: 最高司令部のすぐそばに乗り込むと敵の注意を引くことに繋がる。我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    text: 最高司令部のすぐそばに乗り込むと敵の注意を引くことに繋がる。我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_02_support_0c_text:
     temp: true
-    text: 支援部隊が到着した。我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    text: 支援部隊が到着した。我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_03_specops_0c_text:
     temp: true
-    text: 特殊作戦部隊司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    text: 特殊作戦部隊司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_04_experimental_0c_text:
     temp: true
-    text: 実験師団のリーダーが現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    text: 実験師団のリーダーが現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_05_recruits_0c_text:
     temp: true
-    text: 予備軍司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
+    text: 予備軍司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_06_boss_0c_text:
     temp: true
     text: 将軍を戦いに引っ張り出した。ケリをつける時だ：最高司令部を無力化して敵軍の命令系統を混乱させるためにヤツを倒せ。
@@ -562,6 +610,12 @@ entries:
   unique_mountainbase__step_wave_01_alarm_0c_text:
     temp: true
     text: たったいま追加機体が戦闘に参加しました。あなたの存在が報告される前に敵をすべて始末してください。
+  unique_stronghold__core_header:
+    temp: true
+    text: unique_stronghold_army
+  unique_stronghold__core_text:
+    temp: true
+    text: ''
   unique_stronghold_army__core_header:
     temp: true
     text: unique_stronghold_army

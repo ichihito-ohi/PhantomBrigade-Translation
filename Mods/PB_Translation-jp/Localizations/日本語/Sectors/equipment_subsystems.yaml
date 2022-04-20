@@ -51,7 +51,7 @@ entries:
     text: コア - オーバードライブ
   internal_aux_core_overdrive__text:
     temp: false
-    text: 機動力を増加させる。
+    text: 熱容量を犠牲にして機動力を増加させる。
   internal_aux_core_regen__name:
     temp: false
     text: コア - リジェネ
@@ -63,7 +63,7 @@ entries:
     text: コア - スタンダード
   internal_aux_core_standard__text:
     temp: false
-    text: 性能を上昇する。
+    text: 平均的な性能の標準コア。
   internal_aux_gyro_r1__name:
     temp: false
     text: ジャイロ - 標準型
@@ -87,7 +87,7 @@ entries:
     text: ヒートシンク - パッシブ型
   internal_aux_heatsink_r1__text:
     temp: false
-    text: 出力と速度を犠牲にして排熱量をわずかに増加させる。
+    text: 排熱量をわずかに増加させる。
   internal_aux_heatsink_r2__name:
     temp: false
     text: ヒートシンク - アクティブ型
@@ -204,7 +204,7 @@ entries:
     text: 左の武器の射程距離を延長する。
   internal_aux_sensor_left_scatter__name:
     temp: false
-    text: 姿勢センサ― - 左
+    text: 姿勢センサー - 左
   internal_aux_sensor_left_scatter__text:
     temp: false
     text: 左の武器の静止時と移動時の拡散を減少する。
