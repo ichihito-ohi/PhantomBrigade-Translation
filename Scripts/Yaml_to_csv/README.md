@@ -67,6 +67,8 @@ _(Common)_
 - `Configs/DataDecomposed/Combat/UnitGroups`
 
 _(Unique)_
+### yaml_to_csv-BaseParts.py
+- `Configs/DataDecomposed/Overworld/BaseParts`
 ### yaml_to_csv-Cutscenes.py
 - `Configs/DataDecomposed/Cutscenes`
 ### yaml_to_csv-InfoPages.py
