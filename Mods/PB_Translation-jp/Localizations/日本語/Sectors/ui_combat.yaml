@@ -69,12 +69,18 @@ entries:
   end_continue:
     temp: true
     text: 続ける
-  end_detail_defeat:
+  end_detail_defeat_early:
     temp: true
-    text: 基地は戦闘地域から離脱し、現地は未だ敵の制圧下です。我々はここから学び次こそは打ち倒せるはずです。
-  end_detail_victory:
+    text: 移動基地が機体を回収して現地から撤退した。現地は未だ敵の制圧下だ。我々はここから学び、次こそは打ち倒せるはずだ。
+  end_detail_defeat_total:
     temp: true
-    text: おめでとうございます！現地の統制を取りもどし周辺地域の希望が上昇しました。
+    text: 我々は機体を失ったが、移動基地はなんとか現地から逃げ出すことができた。現地は未だ敵の制圧下だ。我々はここから学び、次こそは打ち倒せるはずだ。
+  end_detail_victory_early:
+    temp: true
+    text: おめでとう！移動基地の機体回収が完了し、我々はすべての目標を達成した。敵は逃走し、いま現地はあなたの制圧下にある。
+  end_detail_victory_total:
+    temp: true
+    text: おめでとう！敵は倒され、いま現地はあなたの制圧下にある。
   end_header_defeat_early:
     temp: true
     text: 撤退

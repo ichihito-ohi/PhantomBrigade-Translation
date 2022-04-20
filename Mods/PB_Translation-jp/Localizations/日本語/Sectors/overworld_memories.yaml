@@ -1,0 +1,42 @@
+name:
+description:
+exportMode: None
+columns: []
+splits: []
+entries:
+  province_liberation_acknowledged__name:
+    temp: true
+    text: ''
+  world_armypilot_in_progress__name:
+    temp: true
+    text: ''
+  world_cache_informed__name:
+    temp: true
+    text: ''
+  world_counter_black_market_influence__name:
+    temp: true
+    text: 市場の安定度
+  world_counter_cat_bond__name:
+    temp: true
+    text: 猫との絆
+  world_counter_dog_bond__name:
+    temp: true
+    text: 犬との絆
+  world_counter_reputation_guerrillas__name:
+    temp: true
+    text: 祖国軍からの評判
+  world_tag_cat_present__name:
+    temp: true
+    text: 猫
+  world_tag_defector_rescued__name:
+    temp: true
+    text: 亡命者
+  world_tag_dog_present__name:
+    temp: true
+    text: 犬
+  world_tag_enemy_captive__name:
+    temp: true
+    text: 捕虜
+  world_tag_lock_pilot_recruitment__name:
+    temp: true
+    text: パイロット採用不可

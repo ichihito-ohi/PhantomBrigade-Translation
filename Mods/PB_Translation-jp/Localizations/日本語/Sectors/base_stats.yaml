@@ -1,0 +1,156 @@
+name: Base (Stats)
+description: '...'
+exportMode: LinePerKeySimple
+columns: []
+splits: []
+entries:
+  energy_limit__name:
+    temp: true
+    text: 備蓄量
+  energy_limit__text:
+    temp: true
+    text: 移動基地が蓄えられる予備電力の量。特殊移動モードのようなアクションの実行で消費する。移動基地のエネルギー消費が活発でないとき、この上限までエネルギーが充電される。
+  energy_recharge_delay__name:
+    temp: true
+    text: 再充電までの遅延
+  energy_recharge_delay__text:
+    temp: true
+    text: エネルギー消費が止まってから充電が開始するまでの遅延（単位：時間）。反応炉の運転モードを瞬時に切り替えることはできないが、適切なアップグレードでこの遅延は改善する。
+  mm_fast_energy_change__name:
+    temp: true
+    text: エネルギー消費
+  mm_fast_energy_change__text:
+    temp: true
+    text: オーバードライブ・モードでの予備エネルギーの消費速度（1時間あたり）
+  mm_fast_speed__name:
+    temp: true
+    text: 速度
+  mm_fast_speed__text:
+    temp: true
+    text: オーバードライブ・モードでの移動基地の速度（km/h）。
+  mm_fast_vision_enemy__name:
+    temp: true
+    text: 視認性（敵から）
+  mm_fast_vision_enemy__text:
+    temp: true
+    text: オーバードライブ・モード走行中の移動基地が敵から発見される距離。
+  mm_fast_vision_own__name:
+    temp: true
+    text: 視認性（移動基地から）
+  mm_fast_vision_own__text:
+    temp: true
+    text: オーバードライブ・モード走行中の移動基地から敵を発見できる距離。
+  mm_normal_energy_change__name:
+    temp: true
+    text: エネルギー再充電
+  mm_normal_energy_change__text:
+    temp: true
+    text: 巡行モードでの予備エネルギー充電速度（1時間あたり）。
+  mm_normal_speed__name:
+    temp: true
+    text: 速度
+  mm_normal_speed__text:
+    temp: true
+    text: 巡行モードでの移動基地の速度（km/h）。
+  mm_normal_vision_enemy__name:
+    temp: true
+    text: 視認性（敵から）
+  mm_normal_vision_enemy__text:
+    temp: true
+    text: 巡行モード走行中の移動基地が敵から発見される距離。
+  mm_normal_vision_own__name:
+    temp: true
+    text: 視認性（移動基地から）
+  mm_normal_vision_own__text:
+    temp: true
+    text: 巡行モード走行中の移動基地から敵を発見できる距離。
+  mm_stealth_energy_change__name:
+    temp: true
+    text: エネルギー消費
+  mm_stealth_energy_change__text:
+    temp: true
+    text: ステルス・モードでの予備エネルギーの消費速度（1時間あたり）
+  mm_stealth_speed__name:
+    temp: true
+    text: 速度
+  mm_stealth_speed__text:
+    temp: true
+    text: ステルス・モードでの移動基地の速度（km/h）。
+  mm_stealth_vision_enemy__name:
+    temp: true
+    text: 視認性（敵から）
+  mm_stealth_vision_enemy__text:
+    temp: true
+    text: ステルス・モード走行中の移動基地から敵を発見できる距離。
+  mm_stealth_vision_own__name:
+    temp: true
+    text: 視認性（移動基地から）
+  mm_stealth_vision_own__text:
+    temp: true
+    text: ステルス・モード走行中の移動基地から敵を発見できる距離。
+  pilot_slots__name:
+    temp: true
+    text: パイロット上限
+  pilot_slots__text:
+    temp: true
+    text: 移動基地に収容できるパイロットの数。
+  sensor_rain_effect__name:
+    temp: true
+    text: 雨天補助機能
+  sensor_rain_effect__text:
+    temp: true
+    text: 激しい雨はセンサーに干渉し、視認性を低下させる。しかし、適切なアップグレードにより、悪天候でも移動基地からより遠くまで視認できるようになる。
+  sensor_scan_time_enemy__name:
+    temp: true
+    text: スキャン時間（敵から）
+  sensor_scan_time_enemy__text:
+    temp: true
+    text: 敵が移動基地を特定するのにかかる時間（単位：時間）。この時間が長いほど、敵の警戒範囲で警報を鳴らされるまでの時間が伸びる。
+  sensor_scan_time_own__name:
+    temp: true
+    text: スキャン時間（移動基地から）
+  sensor_scan_time_own__text:
+    temp: true
+    text: 移動基地が詳細なスキャン情報を取得するのにかかる時間（単位：時間）。未確認目標が脆弱なコンボイである可能性もあれば危険なパトロールである可能性もあるため、適切なアップグレードでこの時間を短縮すると有効である。
+  unit_repair_jobs__name:
+    temp: true
+    text: 並行修理
+  unit_repair_jobs__text:
+    temp: true
+    text: 同時に修理できる機体の数。部隊全体を並行して修理できる余裕を確保し、最小限の中断で戦力を行使できるようにすることが推奨される。もしくは、他の機体が修理中に交代できる予備の機体を持つ方法もある。
+  unit_repair_resource_drain__name:
+    temp: true
+    text: 修理ゲル消費量
+  unit_repair_resource_drain__text:
+    temp: true
+    text: 機体修理中に部品を印刷したりダメージを修復したりするためにゲルが消費される速度。
+  unit_repair_resource_limit__name:
+    temp: true
+    text: 修理ゲル上限
+  unit_repair_resource_limit__text:
+    temp: true
+    text: 移動基地が保管できる修理ゲルの量であり、敵軍に対する遠征において機体を維持できる期間が左右される。
+  unit_repair_speed__name:
+    temp: true
+    text: 修理速度
+  unit_repair_speed__text:
+    temp: true
+    text: 標準的な修理時間と比較した、機体の修理にかかる時間。
+  unit_slots__name:
+    temp: true
+    text: 収容枠
+  unit_slots__text:
+    temp: true
+    text: 移動基地に収容できる機体の数。この数により、新しい機体を建造できるかどうかが決まる。
+  workshop_jobs__name:
+    temp: true
+    text: 並行製造
+  workshop_jobs__text:
+    temp: true
+    text: 加工室が同時に製造できるプロジェクトの数。
+  workshop_speed__name:
+    temp: true
+    text: 製造速度
+  workshop_speed__text:
+    temp: true
+    text: 標準的な修理時間と比較した、加工室が装備を製造するのにかかる時間。

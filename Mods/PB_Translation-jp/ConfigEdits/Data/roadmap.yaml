@@ -1,0 +1,124 @@
+removed: false
+edits:
+- 'blocks.0.content: 移動基地 移動モード
+
+  敵パトロール強化
+
+  オーバーワールド・ステルス・ゲームプレイ
+
+  シネマティック戦闘オープニング'
+- 'blocks.1.content: ブリーフィング・フロー強化
+
+  新メイン・メニュー体験
+
+  物語イベント改訂'
+- 'blocks.2.content: 新・移動基地
+
+  移動基地アップグレード
+
+  エンジニアリング・ルーム'
+- 'blocks.3.content: 戦闘リプレイ
+
+  パイロット成長
+
+  ライバル・パイロット
+
+  ローカライズ対応
+
+  [cc]ゲーム・パッド対応[ff]
+
+  [aa]ダイナミックな天候などなど！[ff]'
+- 'timeline.0.textDesc: - エスカレーションと州の争奪
+
+  - 目標と交戦区域
+
+  - 新しい補給機能
+
+  - 修理システムの改修
+
+  - 敵による場所の再制圧'
+- 'timeline.0.textName: オーバーワールド改修 II'
+- 'timeline.1.textDesc: - オーバーワールド UI 強化
+
+  - ブリーフィング中のアニメーション
+
+  - 戦闘結果 UI 強化
+
+  - ブリーフィング中の脅威 UI、難易度予測
+
+  - パイロット採用の単純化
+
+  - オーバーワールドでの撤退の単純化'
+- 'timeline.1.textName: - QoL 強化'
+- 'timeline.2.textDesc: - 最初の州におけるなだらかな難易度曲線
+
+  - よりバランスの取れたシナリオ分布
+
+  - 加工室のバランス再調整
+
+  - パトロール削減
+
+  - 戦利品品質の上昇'
+- 'timeline.2.textName: キャンペーンのバランス再調整'
+- 'timeline.3.textDesc: - イベント UI 強化
+
+  - 選択の影響を提示
+
+  - さらなるコンテキスト・イベント'
+- 'timeline.3.textName: イベント・アップデート'
+- 'timeline.4.textDesc: - オーバーワールド地形強化
+
+  - 戦争のビジュアル'
+- 'timeline.4.textName: オーバーワールド・ビジュアル'
+- 'timeline.5.textDesc: - 希望要素の改修
+
+  - オーバーワールドの変化に結びつく新たなイベント'
+- 'timeline.5.textName: さらなるイベント'
+- 'timeline.6.textDesc: - 新たなオーバーワールド・アクション
+
+  - 敵の撹乱、支援要請'
+- 'timeline.6.textName: 移動基地アップグレード II'
+- 'timeline.7.textDesc: - AI 挙動の強化
+
+  - 希望要素の改修
+
+  - 動的な州レベル設定'
+- 'timeline.7.textName: オーバーワールド改修 III'
+- 'timeline.8.textDesc: - 複数勢力が参加する戦闘
+
+  - 追加のシナリオ・タイプ'
+- 'timeline.8.textName: 多彩な戦闘'
+- 'timeline.9.textDesc: - ゲームプレイ・オプション
+
+  - 難易度選択
+
+  - カスタマイズ、インベントリ、戦闘'
+- 'timeline.9.textName: UI ・ QoL 強化'
+- 'timeline.10.textDesc: - バイオーム
+
+  - 戦闘の多様なビジュアル'
+- 'timeline.10.textName: 戦闘ビジュアル'
+- 'timeline.11.textDesc: - Alpha 終了
+
+  - Discord に参加して発表にご注目ください！'
+- 'timeline.11.textName: Steam プレイテスト'
+- 'timeline.12.textName: パイロット要素'
+- 'timeline.13.textName: パイロット要素 II'
+- 'timeline.14.textDesc: - 直前ターンのリプレイ
+
+  - 時間の早送り・巻き戻し'
+- 'timeline.14.textName: 戦闘リプレイ'
+- 'timeline.15.textDesc: - CPU パフォーマンス
+
+  - GPU パフォーマンス
+
+  - メモリ最適化'
+- 'timeline.15.textName: 最適化'
+- 'timeline.16.textDesc: - 戦闘チュートリアル強化
+
+  - UI・メカニクスのチュートリアル
+
+  - 州イントロの改修'
+- 'timeline.16.textName: 新・プレイヤー体験'
+- 'timeline.17.textName: ローカライゼーション'
+- 'timeline.18.textName: 特設セットでの戦闘'

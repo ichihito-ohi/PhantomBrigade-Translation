@@ -63,7 +63,7 @@ entries:
     text: Helge
   part_body_set_helge__text:
     temp: false
-    text: JNI協議会が生産するHelgeシリーズは傭兵グループや企業警備部隊で広く使用される中級装甲である。先進的な複合構造は修理が複雑だが、平均以上の防御性能を実現した。
+    text: JNI協議会が生産するHelgeシリーズは傭兵グループや企業警備部隊で広く使用される重量級装甲である。先進的な複合構造は修理が複雑だが、平均以上の防御性能を実現した。
   part_body_set_knox__name:
     temp: false
     text: Knox
@@ -431,11 +431,11 @@ entries:
     temp: false
     text: 使用部分に追加の耐久度を付与する。
   subsystem_internal_aux_reactor__name:
-    temp: true
+    temp: false
     text: 補助反応炉
   subsystem_internal_aux_reactor__text:
-    temp: true
-    text: 機体の出力を向上させる
+    temp: false
+    text: リング型常温核融合チャンバーを通じてメックに動力を共有する。すべてのメックに不可欠であり、反応炉なしでは出撃することができない。
   subsystem_internal_aux_regenerator__name:
     temp: false
     text: 補助再生装置

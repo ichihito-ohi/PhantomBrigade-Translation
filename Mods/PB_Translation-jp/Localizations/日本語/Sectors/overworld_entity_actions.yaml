@@ -1192,6 +1192,60 @@ entries:
   research__6_desc:
     temp: true
     text: 移動基地で新しい技術を研究しています。
+  resupply__1_name:
+    temp: true
+    text: 補給中
+  resupply__2_context:
+    temp: true
+    text: ''
+  resupply__3_start:
+    temp: true
+    text: ''
+  resupply__4_cancel:
+    temp: true
+    text: ''
+  resupply__5_finish:
+    temp: true
+    text: ''
+  resupply__6_desc:
+    temp: true
+    text: 敵領土への遠征に必要なものをすべて補給しています。
+  resupply_pilot__1_name:
+    temp: true
+    text: パイロットを採用する
+  resupply_pilot__2_context:
+    temp: true
+    text: ''
+  resupply_pilot__3_start:
+    temp: true
+    text: ''
+  resupply_pilot__4_cancel:
+    temp: true
+    text: ''
+  resupply_pilot__5_finish:
+    temp: true
+    text: ''
+  resupply_pilot__6_desc:
+    temp: true
+    text: 移動基地は新しいパイロットの受け入れ中で、いまは補給地点から移動できません。あなたの名声が上がり、人々がパイロットの活躍ぶりを耳にするにつれて、あなたの兵士に志願する人が増えてきた。その一部はかつての戦争で戦った者たちだった。それ以外も、実戦経験はないものの敵が家を滅ぼす様を目の当たりにして情熱に満ちていた。
+  resupply_repair__1_name:
+    temp: true
+    text: 休憩・補給中
+  resupply_repair__2_context:
+    temp: true
+    text: ''
+  resupply_repair__3_start:
+    temp: true
+    text: ''
+  resupply_repair__4_cancel:
+    temp: true
+    text: ''
+  resupply_repair__5_finish:
+    temp: true
+    text: ''
+  resupply_repair__6_desc:
+    temp: true
+    text: 移動基地は補給作業中で、パイロットは十分な休息をとっています。ダメージを受けた機体はすべて修理され、修理ゲルとエネルギーが最大値まで補充され、パイロット疲労度はリセットされます。移動基地に最低2機の戦闘可能な機体とパイロットがいない場合、この補給地点に配置された予備から追加の機体とパイロットが譲渡されます。
   satellite_objective__1_name:
     temp: false
     text: 墜落現場
@@ -1248,7 +1302,7 @@ entries:
     text: 移動基地で機体のひとつを修理しています。
   workshop_build__1_name:
     temp: false
-    text: 工房プロジェクト
+    text: 加工室プロジェクト
   workshop_build__2_context:
     temp: true
     text: ''
@@ -1263,4 +1317,4 @@ entries:
     text: 完了
   workshop_build__6_desc:
     temp: true
-    text: 我々の工房が指定されたプロジェクトに取り組んでいます。このアクションを中止すると投入した資源は返却されます。
+    text: 我々の加工室が指定されたプロジェクトに取り組んでいます。このアクションを中止すると投入した資源は返却されます。
