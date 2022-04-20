@@ -17,13 +17,22 @@ textDesc:
 sections: 
 - textHeader: ご質問・ご感想はこちら
   textChanges: 
+  - '[pr=][aa]Phantom Brigade 日本語 Wiki'
+  - 'https://wiki.braceyourselfgames.com/ja/PhantomBrigade'
+  - 
   - '[pr=][aa]質問フォーム'
   - 'https://github.com/ichihito-ohi/PhantomBrigade-Translation/issues/3'
+  - 
   - '[pr=][aa]Discord'
   - 'BYG公式サーバー #phantom-modding チャンネル @ichihito_ohi'
   - 'https://discord.gg/braceyourselfgames'
 - textHeader: 更新履歴
   textChanges: 
+  - '[pr=][aa]jp-0180-20220420'
+  - '新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.18.0 に適用しました．'
+  - '新たにロードマップを翻訳しました．'
+  - '誤字脱字を修正しました．'
+  - 
   - '[pr=][aa]jp-0170-20220316'
   - '新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.17.0 に適用しました．'
   - '誤字脱字を修正しました．'

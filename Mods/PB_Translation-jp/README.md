@@ -16,8 +16,7 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
 
 ### 本体 Mod System の有効化
 参考
-- [Modding System @BYG Wiki （オリジナル）](https://wiki.braceyourselfgames.com/en/PhantomBrigade/Modding/ModSystem)
-- [Modシステム @BYG Wiki （翻訳版）](https://wiki.braceyourselfgames.com/en/PhantomBrigade/日本語/Modシステム)
+- [Modシステム @Phantom Brigade 日本語 Wiki](https://wiki.braceyourselfgames.com/ja/PhantomBrigade/Modding/ModSystem)
 
 ゲームのインストール時，本体 Mod System は無効化された状態です．
 ダウンロードした `Settings/mods.yaml` ファイルを，ユーザーフォルダの `Documents/My Games/Phantom Brigade/Settings` にコピーしてください．
@@ -58,6 +57,10 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
 
 
 ## 更新履歴
+### jp-0180-20220420
+- 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.18.0 に適用しました．
+- 新たにロードマップを翻訳しました．
+- 誤字脱字を修正しました．
 ### jp-0170-20220316
 - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.17.0 に適用しました．
 - 誤字脱字を修正しました．
