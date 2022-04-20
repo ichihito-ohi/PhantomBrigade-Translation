@@ -39,11 +39,11 @@ build info<br>Folder|<br>File|<br>Id|<br>Source
     - This column shows the source text to translate.
 
 ### Note
-- For each `.py` script, set `root_path` to the folder including the `Configs` folder.
-    ```python
-    # TODO: Set the path to 'Configs' folder
-    root_path = pathlib.Path('C:/Program Files/Epic Games/PhantomBrigade')
-    ```
+- In `config.yaml`, set `rootPath` to the folder just above `Configs` folder: `PhantomBrigade` or `PhantomAlpha`
+    - **config.yaml**
+        ```yaml
+        rootPath: C:\Program Files\Epic Games\PhantomBrigade
+        ```
 
 
 ## Support Files
@@ -53,7 +53,6 @@ _(Common)_
 - `Configs/Text`
 ### yaml_to_csv-firstLevelKey.py
 - `Configs/DataDecomposed/Overworld/BaseActions`
-- `Configs/DataDecomposed/Overworld/Blueprints`
 - `Configs/DataDecomposed/Overworld/EventStats`
 - `Configs/DataDecomposed/Overworld/FactionBranches`
 - `Configs/DataDecomposed/Overworld/Provinces`
@@ -68,10 +67,14 @@ _(Common)_
 - `Configs/DataDecomposed/Combat/UnitGroups`
 
 _(Unique)_
+### yaml_to_csv-BaseParts.py
+- `Configs/DataDecomposed/Overworld/BaseParts`
 ### yaml_to_csv-Cutscenes.py
 - `Configs/DataDecomposed/Cutscenes`
 ### yaml_to_csv-InfoPages.py
 - `Configs/DataDecomposed/InfoPages`
+### yaml_to_csv-roadmap.py
+- `Configs/Data/roadmap.yaml`
 ### yaml_to_csv-simulation.py
 - `Configs/Data/Settings/simulation.yaml`
 ### yaml_to_csv-ui.py (WIP)

@@ -5,17 +5,13 @@ import pathlib
 import yaml
 import phantom_brigade as pb
 
-with open('Yaml_to_csv/config.yaml', 'r', encoding='utf-8', errors='strict') as cfg:
-    config = yaml.load(cfg, yaml.FullLoader)
-    for key in config:
-        if key == 'rootPath':
-            root_path = pathlib.Path(config['rootPath'])
-
+# TODO: Set the path to 'Configs' folder
+root_path = pathlib.Path('C:/Program Files/Epic Games/PhantomBrigade')
 ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Cutscenes']
+    'Configs/DataDecomposed/Overworld/BaseParts']
 
 
 try:
@@ -37,19 +33,16 @@ try:
                     data = yaml.load(src,yaml.FullLoader)
 
                     # TODO: Custom for yaml pattern
-                    if data['subtitles'] != None:
-
-                        i = -1
-                        for key_sub in data['subtitles']:
-                            i += 1
-                            
-                            data_sub = yaml.safe_load(yaml.safe_dump(key_sub))
-                            if data_sub['textContent'] != None:
-                                line = ex.formCsvLine(src_path, data_sub['textContent'], ['subtitles', i, 'textContent'])
-                                print(line)
-                                dst.write(line)
+                    for key_item in data:
+                        if key_item == 'ui':
+                            if data['ui'] != None:
+                                for key_ui in data['ui']:
+                                    if key_ui == 'textName' or key_ui == 'textDesc':
+                                        if data['ui'][key_ui] != None:
+                                            line = ex.formCsvLine(src_path, data['ui'][key_ui], ['ui', key_ui])
+                                            print(line)
+                                            dst.write(line)
 
 
 except Exception as e:
     print(e, file=sys.stderr)
-    # sys.exit(1)
