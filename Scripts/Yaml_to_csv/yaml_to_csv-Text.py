@@ -5,8 +5,12 @@ import pathlib
 import yaml
 import phantom_brigade as pb
 
-# TODO: Set the path to 'Configs' folder
-root_path = pathlib.Path('C:/Program Files/Epic Games/PhantomBrigade')
+with open('Yaml_to_csv/config.yaml', 'r', encoding='utf-8', errors='strict') as cfg:
+    config = yaml.load(cfg, yaml.FullLoader)
+    for key in config:
+        if key == 'rootPath':
+            root_path = pathlib.Path(config['rootPath'])
+
 ex = pb.Extractor(root_path)
 
 
