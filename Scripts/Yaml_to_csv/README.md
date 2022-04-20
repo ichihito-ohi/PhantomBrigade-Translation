@@ -71,6 +71,8 @@ _(Unique)_
 - `Configs/DataDecomposed/Cutscenes`
 ### yaml_to_csv-InfoPages.py
 - `Configs/DataDecomposed/InfoPages`
+### yaml_to_csv-roadmap.py
+- `Configs/Data/roadmap.yaml`
 ### yaml_to_csv-simulation.py
 - `Configs/Data/Settings/simulation.yaml`
 ### yaml_to_csv-ui.py (WIP)
