@@ -1,3 +1,4 @@
+import os
 import sys
 import pathlib
 import yaml
@@ -14,6 +15,8 @@ dir_list = [
 # TODO: Set the translation csv file
 csv_path = pathlib.Path('PhantomBrigade-Translation-jp.csv')
 
+ja_path = pathlib.Path("PB_Translation-jp/Localizations/日本語/Sectors")
+
 try:
     with open(csv_path, 'r', newline='', encoding='utf-8', errors='strict') as csvFile:
         csvReader = csv.DictReader(csvFile)
@@ -25,6 +28,7 @@ try:
             text.append(row.get('Translation'))
         csvDict = dict(zip(id, text))
 
+    os.makedirs(ja_path, exist_ok=True)
 
     for dir in dir_list:
         dir_path = pathlib.Path(dir)
@@ -34,7 +38,7 @@ try:
             src_path = pathlib.Path(p)
             with open(src_path, 'r', encoding='utf-8', errors='strict') as src:
 
-                dst_path = src_path.name
+                dst_path = ja_path / src_path.name
                 with open(dst_path, 'w', encoding='utf-8', errors='strict') as dst:
                     data = yaml.load(src,yaml.FullLoader)
 
