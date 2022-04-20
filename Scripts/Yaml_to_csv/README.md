@@ -39,11 +39,11 @@ build info<br>Folder|<br>File|<br>Id|<br>Source
     - This column shows the source text to translate.
 
 ### Note
-- For each `.py` script, set `root_path` to the folder including the `Configs` folder.
-    ```python
-    # TODO: Set the path to 'Configs' folder
-    root_path = pathlib.Path('C:/Program Files/Epic Games/PhantomBrigade')
-    ```
+- In `config.yaml`, set `rootPath` to the folder just above `Configs` folder: `PhantomBrigade` or `PhantomAlpha`
+    - **config.yaml**
+        ```yaml
+        rootPath: C:\Program Files\Epic Games\PhantomBrigade
+        ```
 
 
 ## Support Files
