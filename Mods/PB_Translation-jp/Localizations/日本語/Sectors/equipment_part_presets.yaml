@@ -21,7 +21,7 @@ entries:
     text: 'Arrow '
   body_set_arrow__text:
     temp: false
-    text: Arrow ウォーカー装甲は、整備の簡略化と低コストの大量生産に最適化されている。
+    text: 信頼性の高い予備機である Arrow ウォーカー装甲は容易な学習曲線と低コストで生産できる装備として知られている。
   body_set_arrow_heavy__name:
     temp: false
     text: Arrow 3H
@@ -42,7 +42,7 @@ entries:
     text: Bein
   body_set_bein_medium__text:
     temp: false
-    text: 占領軍が好んで使用する実験的装甲。複数の素材を使用しており修理が複雑化している。性能は市販の中量級装甲に匹敵する。
+    text: 占領軍が好んで使用する実験的装甲。複数の素材を使用しており修理の複雑さが増している。性能は市販の中量級装甲に匹敵する。
   body_set_blackbird_medium__name:
     temp: false
     text: Blackbird
@@ -87,7 +87,7 @@ entries:
     text: Vidar
   body_set_vidar_heavy__text:
     temp: false
-    text: 特異な幾何学形状の珍しい装甲で、投射物を弾き対センサー痕跡を抑えている。希少材料のために整備が難しい。
+    text: 特異な幾何学形状の珍しい装甲で、投射物を弾き対センサー痕跡が抑えられている。希少材料のために整備が難しい。
   body_top__name:
     temp: false
     text: 胴体上部
@@ -264,7 +264,7 @@ entries:
     text: ' MK1'
   wpn_melee_primary_saber_medium_r1__text:
     temp: false
-    text: タイミングを狙えば大ダメージを与えるバリエーション．
+    text: タイミングを狙えば大ダメージを与えるバリエーション。
   wpn_melee_primary_saber_medium_r2__name:
     temp: true
     text: ' MK2'
@@ -540,7 +540,7 @@ entries:
     text: SG-04 Semi
   wpn_shotgun_semi_01__text:
     temp: false
-    text: 一般的なセミ・オートマチック・ショットガン。中程度のレートで小口径のシェルを撃つ。精度は低いが、近距離では致命的。
+    text: セミ・オートマチック・ショットガン。中程度のレートで小口径のシェルを撃つ。精度は低いが、近距離では致命的。
   wpn_ultraheavy_beam_01__name:
     temp: true
     text: UHB Solarburst

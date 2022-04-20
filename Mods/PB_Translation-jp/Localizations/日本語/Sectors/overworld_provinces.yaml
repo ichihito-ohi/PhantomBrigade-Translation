@@ -8,6 +8,12 @@ columns:
   suffixDisplayName: Description
 splits: []
 entries:
+  empty_desc:
+    temp: true
+    text: ''
+  empty_name:
+    temp: true
+    text: ''
   province_00_desc:
     temp: false
     text: 山の中にひっそりと佇む、この忘れられがちな地域は主に農業を扱っている。離れた場所にあるため常設基地として素晴らしい。

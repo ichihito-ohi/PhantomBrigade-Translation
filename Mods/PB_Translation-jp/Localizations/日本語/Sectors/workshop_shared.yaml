@@ -18,7 +18,7 @@ entries:
     text: 不明
   generic_unknown_text:
     temp: true
-    text: この工房プロジェクトの説明はありません。
+    text: この加工室プロジェクトの説明はありません。
   generic_wpn_text:
     temp: true
     text: 武器を製造します。選択した品質に基づいてコストが増減します。

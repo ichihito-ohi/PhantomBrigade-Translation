@@ -103,6 +103,12 @@ entries:
   cm_director_crew_enemydown1_text_08:
     temp: true
     text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_09:
+    temp: true
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_10:
+    temp: true
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
   cm_director_crew_enemydown1loss_text_00:
     temp: true
     text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
@@ -143,6 +149,15 @@ entries:
     temp: true
     text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
   cm_director_crew_enemydown3_text_11:
+    temp: true
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない...
+  cm_director_crew_enemydown3_text_12:
+    temp: true
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_13:
+    temp: true
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_14:
     temp: true
     text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない...
   cm_director_crew_enemydown3loss_text_00:
@@ -188,6 +203,15 @@ entries:
     temp: true
     text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
   cm_director_crew_enemydown6_text_11:
+    temp: true
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_12:
+    temp: true
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_13:
+    temp: true
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_14:
     temp: true
     text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
   cm_director_crew_enemydown6loss_text_00:
@@ -379,6 +403,9 @@ entries:
   cm_looting_increment_start_text_00:
     temp: true
     text: ドローンはクレートの場所を大まかに把握していますが、確実にピックアップするために再度ピンを打つ必要があります。これが完了するまでその場所に留まってください。
+  cm_meteorite_secured_text_00:
+    temp: true
+    text: お見事です、司令官。この隕石にあるものを探しに回収要員が出動します。
   cm_mid_reinforcement_first_text_00:
     temp: true
     text: ブラボー1、後退して再集結せよ、ここから主導権を掴む。ヤツらは数的優位にあるが、手短に終わらせよう。まもなく別グループが到達するに違いない。
