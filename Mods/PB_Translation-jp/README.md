@@ -109,3 +109,5 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
 ### Steamグループ 日本語化作業者互助会
 - Guzuo
 - AgeBdeR
+### OmegaT プロジェクト
+- OmegaT Official Twitter アカウント（@OmegaTOfficial）
