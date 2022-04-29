@@ -57,6 +57,16 @@ Mod ファイルを含むフォルダを上書き保存すると，アップデ�
     - しばらく待って，画面表示が日本語に切り替われば成功です．
 
 
+## 動画を投稿される方へ
+Phantom Brigade で生配信・動画投稿される前に，[公式の動画ポリシー](https://braceyourselfgames.com/brace-yourself-games-video-policy/)を確認してください．補助資料として，[非公式の翻訳記事](https://wiki.braceyourselfgames.com/ja/video-policy)があります．
+
+また，この日本語化 mod を使用した動画を投稿する際は，以下を記載してください．記載場所は，動画説明・チャンネル説明・動画字幕のいずれかで構いません．
+> 有志日本語化modを使用しています (c) 2020, Ichihito Ohi
+> https://github.com/ichihito-ohi/PhantomBrigade-Translation
+
+2022年5月1日以前に投稿された動画については，この限りではありません．
+
+
 ## 更新履歴
 ### jp-0180-20220420
 - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.18.0 に適用しました．
