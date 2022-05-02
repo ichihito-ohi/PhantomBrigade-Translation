@@ -26,7 +26,7 @@ namespace PB_LoadLocalization
         [HarmonyPatch("TryExit")]
         public class PatchOnCIViewSplashScreenTryExit
         {
-            // The proccess below is excuted after PhantomBrigade.Data.ScenarioFunctions.OnEndCapitalDelayed()
+            // The process below is executed after CIViewSplashScreen.TryExit() closes the splash screens waiting for the game to start, including the Seizure Warning and Wwise credit.
             public static void Postfix()
             {
                 Debug.Log("<PB_LoadLocalization> Mod executes this as suffix to CIViewSplashScreen.TryExit()");
