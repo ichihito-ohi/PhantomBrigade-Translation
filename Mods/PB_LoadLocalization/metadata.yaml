@@ -1,0 +1,11 @@
+id: PB_LoadLocalization
+ver: 0.1
+includesConfigOverrides: false
+includesConfigEdits: false
+includesLibraries: true
+includesTextures: false
+includesLocalizations: false
+gameVersionMin: 
+gameVersionMax: 
+name: Load Localaization
+desc: This mod fixes some localization not loaded at startup.
