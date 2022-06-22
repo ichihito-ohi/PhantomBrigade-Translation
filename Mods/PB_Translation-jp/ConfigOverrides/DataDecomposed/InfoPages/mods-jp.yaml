@@ -28,6 +28,9 @@ sections:
   - 'https://discord.gg/braceyourselfgames'
 - textHeader: 更新履歴
   textChanges: 
+  - '[pr=][aa]jp-0200-20220622'
+  - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.20.0 に適用しました．未翻訳の部分があります．
+  - 
   - '[pr=][aa]jp-0180-20220420'
   - '新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.18.0 に適用しました．'
   - '新たにロードマップを翻訳しました．'

@@ -4,102 +4,111 @@ exportMode: LinePerKeySimple
 columns: []
 splits: []
 entries:
+  ability_block_combat__name:
+    temp: true
+    text: 発煙弾
+  ability_block_combat__text:
+    temp: true
+    text: 発煙弾発射装置を移動基地に配備する。これにより敵パトロールを一時的に無力化して逃げることができる。弾は加工室で製造する。
+  ability_block_escalation__name:
+    temp: true
+    text: スキャン妨害
+  ability_block_escalation__text:
+    temp: true
+    text: '高解像度スキャンに対して干渉する装置を移動基地に配備する。これにより敵を撹乱して移動基地を小規模な民間人グループと信じさせ、派遣される戦力が小さくなる。消耗品は加工室で製造する。
+
+
+      高エスカレーション州で危険なパトロールに捕まった場合に有用。'
+  ability_block_reinforcements__name:
+    temp: true
+    text: 通信妨害
+  ability_block_reinforcements__text:
+    temp: true
+    text: '敵の無線と測位機能に対して干渉する装置を移動基地に配備する。戦闘前に起動することで敵機の戦闘参加を防ぐ。消耗品は加工室で製造する。
+
+
+      複数のパトロールに追跡されている場合に有用。'
+  ability_call_homeguard__name:
+    temp: true
+    text: 無線通信回線
+  ability_call_homeguard__text:
+    temp: true
+    text: 祖国軍と連絡可能な通信システムを移動基地に設置し、あなたの評判が十分な場合に増援を要請できる。評判が高いほど、より多くの戦力が派遣される。戦闘中にこれらの機体を失うと評判が下降するが、勝利することで上昇する。
+  ability_drone_decoy__name:
+    temp: true
+    text: デコイ・ドローン
+  ability_drone_decoy__text:
+    temp: true
+    text: '移動基地にデコイ・ドローン発着場を配置する。ドローンは移動基地のセンサー痕跡を模擬して敵を撹乱する。ドローンは加工室で製造する。
+
+
+      エリアの偵察や敵を進路から引き剥がす場合に有用。'
   mm_core__name:
     temp: true
     text: 速度制限解除
   mm_core__text:
     temp: true
-    text: この機能により、はるかに高いパフォーマンスが発揮できるようになる。駆動系から民生向け速度制限と安全装置を解除する。
+    text: 駆動系から民生向け速度制限と安全装置を解除し、移動基地の速度を上昇させる。
   mm_cruise__name:
     temp: true
     text: 巡行モード
   mm_cruise__text:
     temp: true
-    text: 移動基地の通常移動モード。動力コアに合わせて最適化することで、余剰エネルギーを生み出し、備蓄電力を補充する。平均的な速度、中程度の隠密性。
+    text: 通常移動モード。動力コアに合わせて最適化して、余剰エネルギーを生み出し備蓄電力を補充する。平均的な速度、中程度の隠密性。
   mm_cruise_regen__name:
     temp: true
     text: 発電量強化
   mm_cruise_regen__text:
     temp: true
-    text: 反応炉を覆う熱交換器を追加し、より多くの熱を取り込んで発電を高速化する。拡張機能により最大3つの熱交換機を追加することができる。
+    text: 反応炉を覆う熱交換器を追加し、より多くの熱を取り込んで発電を高速化する。この拡張機能により最大3つの熱交換機を追加することができる。
   mm_cruise_speed__name:
     temp: true
     text: 巡航速度
   mm_cruise_speed__text:
     temp: true
-    text: 動力伝達系を強化することでより高速な巡航速度に対応する。騒音も増えるため、移動基地が検出される距離がわずかに増える。
-  mm_cruise_vision_enemy__name:
-    temp: true
-    text: 巡航シールド
-  mm_cruise_vision_enemy__text:
-    temp: true
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut augue sed turpis consequat suscipit non non justo.
+    text: 動力伝達系を強化し、より高速な巡航速度に対応するが、騒音も増えるため、移動基地が検出される距離が伸びる。
   mm_cruise_vision_own__name:
     temp: true
     text: 巡行センシング
   mm_cruise_vision_own__text:
     temp: true
-    text: センサーアレイの部品を交換し、通常移動状態においてより遠くの敵を検知できるようになる。
+    text: センサーアレイ設備を交換して、より遠くの敵を検知できるようになる。
   mm_overdrive__name:
     temp: true
     text: オーバードライブ・モード
   mm_overdrive__text:
     temp: true
-    text: 反応炉の排出ガスを即席のターボチャージャーに再利用して、移動基地の速度を劇的に上昇させる。過熱防止のために反応炉の出力を絞る必要があり、バッテリーの消耗が早くなる。発熱が増え、移動基地の隠密性が低下する。瞬間的に使用することで、移動基地を危険から素早く遠ざけることができる。
-  mm_overdrive_drain__name:
-    temp: true
-    text: オーバードライブ効率
-  mm_overdrive_drain__text:
-    temp: true
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut augue sed turpis consequat suscipit non non justo.
-  mm_overdrive_speed__name:
-    temp: true
-    text: オーバードライブ速度
-  mm_overdrive_speed__text:
-    temp: true
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut augue sed turpis consequat suscipit non non justo.
+    text: 反応炉の排出ガスをターボチャージャーに再流入させて、移動基地の速度を劇的に上昇させる。反応炉の出力を絞るためバッテリーの消耗が早くなる。瞬間的な使用が有用。
   mm_overdrive_vision_enemy__name:
     temp: true
     text: オーバードライブ・シールド
   mm_overdrive_vision_enemy__text:
     temp: true
-    text: 反応炉まわりに断熱シールドを追加する。オーバードライブ・モード中の発熱を抑え、遠距離から移動基地が発見されにくくなる。騒音が増えるため、近距離で捕捉されやすくなる。
+    text: 反応炉に断熱シールドを追加し、オーバーワールド・モード中の熱源反応を抑える。遠距離からは発見されにくくなるが、騒音が増えるため近距離では移動基地が補足されやすくなる。
   mm_overdrive_vision_own__name:
     temp: true
     text: オーバードライブ・センシング
   mm_overdrive_vision_own__text:
     temp: true
-    text: 高い移動速度と振動はセンサーに問題を引き起こし、巡行モード用の最適設定はオーバードライブ中に使用できない。画像スタビライザーを導入して動作周期を上げることで、このモード中の視認距離が向上する。
+    text: Improves the base's vision range in Overdrive Mode, by installing image stabilizers to counteract high speed vibrations.
   mm_stealth__name:
     temp: true
     text: ステルス・モード
   mm_stealth__text:
     temp: true
-    text: 低速移動モードで移動基地を敵から隠す。排出ガスは排出前に収集され、冷却される。また、光学迷彩が起動して、遠くの者から見ると車両が透明になる。エネルギーを消費するため、危険から逃れたり敵に忍び寄ったりするときの短時間使用が最も有効である。
+    text: Reduces energy drain of Stealth Mode with more efficient heat exchangers and optimized optical camouflage.
   mm_stealth_drain__name:
     temp: true
     text: ステルス効率
   mm_stealth_drain__text:
     temp: true
-    text: より高効率な熱交換機を導入し光学迷彩に最適化することで、エネルギー消費を抑える。メックから回収したレア・コンポーネントが必要。
-  mm_stealth_speed__name:
-    temp: true
-    text: ステルス速度
-  mm_stealth_speed__text:
-    temp: true
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut augue sed turpis consequat suscipit non non justo.
-  mm_stealth_vision_enemy__name:
-    temp: true
-    text: ステルス・シールド
-  mm_stealth_vision_enemy__text:
-    temp: true
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut augue sed turpis consequat suscipit non non justo.
+    text: Improves the vision range with low-emission sensors that will not compromise the base's Stealth Mode.
   mm_stealth_vision_own__name:
     temp: true
     text: ステルス・センシング
   mm_stealth_vision_own__text:
     temp: true
-    text: ステルス・モードは一部センサーの電源を落とす必要があり、視認距離が減少する。十分な物資があれば、自分の位置を露呈することなく視界を延長できる低放射センサーも作成可能だ。
+    text: Improves the vision range with low-emission sensors that will not compromise the base's Stealth Mode.
   mobilebase__name:
     temp: true
     text: 移動基地
@@ -111,55 +120,55 @@ entries:
     text: 反応炉解禁
   reactor__text:
     temp: true
-    text: 民生向け反応炉すべてに導入されている安全装置と出力上限を無効にする。動力コアがより多くのエネルギーを蓄えられるようになり、さらなる改造が可能になる。
+    text: Allows the power core to store more energy and enables further customization by disabling civilian reactor safety checks.
   reactor_charge_delay__name:
     temp: true
     text: 急速点火
   reactor_charge_delay__text:
     temp: true
-    text: 点火システムを好感して、エネルギーを消費した後の発電再開までの遅延を減らす。
+    text: Reduces regeneration delay after energy is drained.
   reactor_expanded__name:
-    temp: true
+    temp: false
     text: 反応炉機能拡張
   reactor_expanded__text:
-    temp: true
+    temp: false
     text: 反応炉の隠蔽率が低下する代わりに、高度な機能を解禁する。
   reactor_storage_limit__name:
     temp: true
     text: 補助キャパシター
   reactor_storage_limit__text:
     temp: true
-    text: 動力コアの機能拡張により、エネルギー貯蔵容量の拡張が可能になる。最大3つの補助キャパシターを追加できる。
+    text: Expands the energy storage capacity. Up to three auxiliary capacitors can be installed.
   sensor__name:
     temp: true
     text: 軍用グレード・センサー
   sensor__text:
     temp: true
-    text: メックから回収したコンポーネントを使用してセンサー一式を軍規格に再構築する。視認距離がさらに伸び、強力なアップグレードが解禁される。
+    text: Improves vision range and unlocks powerful upgrades by using salvaged components from mechs.
   sensor_rain__name:
     temp: true
     text: 雨天最適化
   sensor_rain__text:
     temp: true
-    text: 敵機からの回収品を使用して、軍用グレードの雨天対応センサーを製造する。どんなに激しい雨でも移動基地の視界がほとんど妨げられなくなる。全国のドライバーの羨望の的。
+    text: Allows the base to see practically unimpeded through even the heaviest rain using salvaged water penetrating sensors from enemy mechs. Envy of every driver in the country.
   sensor_scan_speed__name:
-    temp: true
+    temp: false
     text: 高速分析
   sensor_scan_speed__text:
-    temp: true
+    temp: false
     text: センサーシステムの処理ユニットをオーバークロックすることで敵目標の特定が早くなる。
   sensor_scan_speedhostile__name:
-    temp: true
+    temp: false
     text: スキャン妨害
   sensor_scan_speedhostile__text:
     temp: true
-    text: 軍用グレードの ECM を導入する。反射波を欺瞞することで敵を混乱させ移動基地の特定を遅らせる。
+    text: Confuses enemy sensors by installing a military grade ECM. Shapes return signals and delaying unification of the base.
   unit_bay__name:
     temp: true
     text: 格納庫解禁
   unit_bay__text:
     temp: true
-    text: 産業機器区画を整理し、一画をメック格納庫に改造して移動中にメックを修理できるようにする。スペースを有効活用することで移動基地は便利になったが、これは手始めに過ぎない。
+    text: Opens up a new bay and enables mech repairs on the go by clearing out an industrial equipment compartment on the base.
   unit_bay_repair_lines__name:
     temp: true
     text: 平行修理
@@ -172,12 +181,6 @@ entries:
   unit_bay_repair_speed__text:
     temp: true
     text: 修理場の産業安全規格を排除する。
-  unit_storage__name:
-    temp: true
-    text: 機体格納庫
-  unit_storage__text:
-    temp: true
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut augue sed turpis consequat suscipit non non justo.
   unit_storage_l1__name:
     temp: true
     text: 格納庫最適化
@@ -189,37 +192,37 @@ entries:
     text: 格納庫拡張
   unit_storage_l2__text:
     temp: true
-    text: 移動基地の内部システムの一部を移動し、機体用スペースを更に確保する。移動した設備の分を補完する必要があるため、移動基地の重要が増加してわずかに速度が低下する。
+    text: Makes space for new units on the base by moving some internal systems out of the way. Reinforcements to relocated equipment increases the base's weight, decreasing the speed slightly.
   unit_storage_l3__name:
     temp: true
     text: 格納庫立体化
   unit_storage_l3__text:
     temp: true
-    text: メックの上にメックを積み重ねることで、移動基地に更に多くのメックを収容できるようになる。懸架構造とリフトが追加されることで、移動基地の重要が増加して速度が低下する。
+    text: Allows for more room by stacking mechs on top of each other. Additional structural supports and lifts increases the base's weight, decreasing the speed.
   unit_storage_l4__name:
     temp: true
     text: 格納庫最大化
   unit_storage_l4__text:
-    temp: true
-    text: 隙間を開けずにメックを積み重ねることで、移動基地が信じられないほどの数の機体に対応できるようになる（速度が大きく犠牲になる）。
+    temp: false
+    text: 隙間を開けずにメックを積み重ねることで、移動基地が信じられないほどの数の機体に対応できるようになるが、速度が大きく犠牲になる。
   workshop__name:
     temp: true
     text: 加工室解禁
   workshop__text:
-    temp: true
+    temp: false
     text: 複合プリンターと組立マニピュレーターを修復する。加工室が解禁され、十分な資源があれば移動基地で装備や新しい機体を製造できるようになる。
   workshop_lines__name:
     temp: true
     text: 並行プリント
   workshop_lines__text:
     temp: true
-    text: 民生グレードのシステムを拡張して、マルチスレッド・プリントに対応する。複数のプロジェクトを並行して製造できるようになる。
+    text: Allows more than one project to be built in parallel by extending the civilian-grade systems to support multithreaded printing.
   workshop_tech_r2__name:
     temp: true
     text: 先進的組立設備
   workshop_tech_r2__text:
     temp: true
-    text: 安全装置を無効化し、加工室の設備が軍用グレードの材料に対応する。組み立てが高速化し、アンコモン装備が解禁される。
+    text: Speeds up construction and unlocks uncommon equipment by extending workshop hardware to support military grade materials
   workshop_tech_r3__name:
     temp: true
     text: 実験的組立設備

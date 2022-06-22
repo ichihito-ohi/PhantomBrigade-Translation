@@ -30,6 +30,18 @@ entries:
   debug_shootingrange_obstaclecourse__core_text:
     temp: true
     text: ''
+  debug_squad__core_header:
+    temp: true
+    text: ''
+  debug_squad__core_text:
+    temp: true
+    text: ''
+  debug_squad__step_main_0c_header:
+    temp: true
+    text: ''
+  debug_squad__step_main_0c_text:
+    temp: true
+    text: ''
   event_assassination__core_header:
     temp: true
     text: 暗殺
@@ -236,6 +248,12 @@ entries:
     temp: true
     text: generic_assault_small
   generic_assault_small__core_text:
+    temp: true
+    text: ''
+  generic_assisted__core_header:
+    temp: true
+    text: ''
+  generic_assisted__core_text:
     temp: true
     text: ''
   generic_battlesite__core_header:
@@ -604,6 +622,12 @@ entries:
   unique_mountainbase__core_text:
     temp: true
     text: ''
+  unique_mountainbase__state_reinforcement_wave_test_0c_header:
+    temp: true
+    text: External reinforcements
+  unique_mountainbase__state_reinforcement_wave_test_0c_text:
+    temp: true
+    text: An example of how state based reinforcements can work. This state just checks for second turn and activates associated units via reaction data block once that turn comes, no matter which scenario step we're in.
   unique_mountainbase__step_wave_00_guard_0c_text:
     temp: true
     text: 基地は無傷のようですが、現地に敵パトロールがいます。あなたの存在が報告される前に始末してください。

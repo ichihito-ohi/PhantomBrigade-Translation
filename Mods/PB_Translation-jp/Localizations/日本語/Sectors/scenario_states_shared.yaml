@@ -61,6 +61,18 @@ entries:
   generic_unknown_text:
     temp: true
     text: 情報なし
+  reinforcements_friendly_header:
+    temp: true
+    text: Incoming allies
+  reinforcements_friendly_text:
+    temp: true
+    text: Home Guard units are approaching our location after receiving our call for help.
+  reinforcements_hostile_header:
+    temp: true
+    text: External reinforcements
+  reinforcements_hostile_text:
+    temp: true
+    text: Another target knows about this fight. A squad took off from a nearby unit and is expected to land here soon.
   retreat_incoming_negative_header:
     temp: true
     text: まもなく撤退可能

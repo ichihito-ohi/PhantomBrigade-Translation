@@ -1,6 +1,6 @@
 removed: false
 edits:
-- 'pages.0.content: Phantom Brigade のアーリーアクセスにようこそ！ Shift+Tab を押すと報告ウィンドウが開きます。バグを見つけたときや、その他のフィードバックがあれば、なんでも教えてください！'
+- 'pages.0.content: Phantom Brigade のアーリーアクセスにようこそ！ Alt+B を押すと報告ウィンドウが開きます。バグを見つけたときや、その他のフィードバックがあれば、なんでも教えてください！'
 - 'pages.0.header: キャンペーンモード'
 - 'pages.1.content: 画面の左上の角を見てみましょう。 UI の説明をしますので準備ができたら次に移りましょう。'
 - 'pages.1.header: ナビゲーションバー'

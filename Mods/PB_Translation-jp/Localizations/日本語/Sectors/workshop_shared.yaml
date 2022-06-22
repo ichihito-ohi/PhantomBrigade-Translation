@@ -7,6 +7,9 @@ entries:
   body_sub:
     temp: true
     text: 本体部品
+  consumable_sub:
+    temp: true
+    text: 消費アイテム
   generic_body_text:
     temp: true
     text: 装甲セットから本体部品をひとつ製造します。選択した部品（腕、胴体上部、胴体下部）や品質に基づいてコストが増減します。

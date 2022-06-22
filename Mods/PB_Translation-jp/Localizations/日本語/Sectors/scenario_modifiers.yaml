@@ -1,0 +1,24 @@
+name:
+description:
+exportMode: None
+columns: []
+splits: []
+entries:
+  block_escalation__header:
+    temp: true
+    text: スキャン阻止
+  block_escalation__text:
+    temp: true
+    text: Interfere with the enemy sensors, leading them to believe they are about to approach a small group of civilians. Prevents the enemy from deploying forces appropriate for the current escalation level. Useful when encountering an enemy in a highly escalated province.
+  block_reinforcements__header:
+    temp: true
+    text: 増援阻止
+  block_reinforcements__text:
+    temp: true
+    text: Activate the comm jammer. Prevent squads nearby from joining this fight. Normally, squads aware of the player base will help any hostile you engage and join the fight, but using the jammer charge will disrupt communications and prevent them from arriving in time. Useful when you're being chased by multiple patrols and ill-equipped to take them on all at once.
+  call_home_guard__header:
+    temp: true
+    text: Radio for help
+  call_home_guard__text:
+    temp: true
+    text: Thanks to your reputation with the Home Guard, you can call their forces to join this fight. Doing this will cost 1 reputation point. A victory with no Home Guard losses will increase your reputation by 1. The strength of their forces will depend on your total reputation.

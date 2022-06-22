@@ -1,11 +1,11 @@
 id: PB_Translation-jp
-ver: 0180-20220420
+ver: 0200-20220622
 includesConfigOverrides: true
 includesConfigEdits: true
 includesLibraries: false
 includesTextures: false
 includesLocalizations: true
-gameVersionMin: 0.18.0
+gameVersionMin: 0.19.3
 gameVersionMax: 
 name: PB_Translation-jp
 desc: Phantom Brigade Translation Mod for Japanese

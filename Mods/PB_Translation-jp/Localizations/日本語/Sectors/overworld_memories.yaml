@@ -4,12 +4,30 @@ exportMode: None
 columns: []
 splits: []
 entries:
+  pilot_counter_auto_combat_defeat__name:
+    temp: true
+    text: 敗北
+  pilot_counter_auto_combat_encounters__name:
+    temp: true
+    text: Deployments
+  pilot_counter_auto_combat_kills__name:
+    temp: true
+    text: Enemies killed
+  pilot_counter_auto_combat_takedowns__name:
+    temp: true
+    text: 破壊した機体
+  pilot_counter_auto_combat_victory__name:
+    temp: true
+    text: 勝利
   province_liberation_acknowledged__name:
     temp: true
     text: ''
   world_armypilot_in_progress__name:
     temp: true
     text: ''
+  world_auto_hope__name:
+    temp: true
+    text: 希望
   world_cache_informed__name:
     temp: true
     text: ''
@@ -28,7 +46,10 @@ entries:
   world_tag_cat_present__name:
     temp: true
     text: 猫
-  world_tag_defector_rescued__name:
+  world_tag_civilians_present__name:
+    temp: true
+    text: 民間人
+  world_tag_defector_present__name:
     temp: true
     text: 亡命者
   world_tag_dog_present__name:
@@ -37,6 +58,9 @@ entries:
   world_tag_enemy_captive__name:
     temp: true
     text: 捕虜
+  world_tag_favour_criminal__name:
+    temp: true
+    text: Favour
   world_tag_lock_pilot_recruitment__name:
     temp: true
     text: パイロット採用不可

@@ -12,7 +12,7 @@ entries:
     text: キャンペーンモード
   overworld_intro__1p_00_0c_text:
     temp: true
-    text: Phantom Brigade のアーリーアクセスにようこそ！ Shift+Tab を押すと報告ウィンドウが開きます。バグを見つけたときや、その他のフィードバックがあれば、なんでも教えてください！
+    text: Phantom Brigade のアーリーアクセスにようこそ！ Alt+B を押すと報告ウィンドウが開きます。バグを見つけたときや、その他のフィードバックがあれば、なんでも教えてください！
   overworld_intro__1p_01_0c_header:
     temp: true
     text: ナビゲーションバー

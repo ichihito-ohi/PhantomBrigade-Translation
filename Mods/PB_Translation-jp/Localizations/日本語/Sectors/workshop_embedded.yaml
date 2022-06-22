@@ -48,7 +48,7 @@ entries:
     text: アサルトライフル
   prt_item_ballistic_marksman_any_header:
     temp: true
-    text: マークスマンライフル
+    text: マークスマン・ライフル
   prt_item_ballistic_mg_any_header:
     temp: true
     text: 機関銃
@@ -127,6 +127,30 @@ entries:
   sub_aux_thruster_any_header:
     temp: true
     text: スラスター
+  utl_cons_block_combat_header:
+    temp: true
+    text: 発煙弾
+  utl_cons_block_combat_text:
+    temp: true
+    text: 発煙弾を製造する。パトロールが目の前に来たときに、敵を一時的に無力化し戦闘が発生しても中止させ、移動基地に逃げる選択肢を与える。
+  utl_cons_block_escalation_header:
+    temp: true
+    text: スキャン妨害装置
+  utl_cons_block_escalation_text:
+    temp: true
+    text: 高解像度スキャンに干渉する装置を製造する。戦闘前に起動すると、小規模な民間人の集団が接近していると敵に思わせ、現在のエスカレーション・レベルに見合った最大戦力を出し渋らせる。高エスカレーション・レベルの州で危険なパトロールに捕まった場合に有効。
+  utl_cons_block_reinforcements_header:
+    temp: true
+    text: 通信妨害装置
+  utl_cons_block_reinforcements_text:
+    temp: true
+    text: 敵の無線と測位機能に干渉する装置を製造する。戦闘前に起動すると、付近の敵機が戦いに合流することを防ぐ。複数のパトロールに追跡されて、一度にすべてを相手にしたくない場合に有効。
+  utl_cons_drone_decoy_header:
+    temp: true
+    text: デコイ・ドローン
+  utl_cons_drone_decoy_text:
+    temp: true
+    text: デコイ・ドローンを製造する。周囲をスキャンし移動基地のセンサー痕跡を模擬しながら、（限られた範囲内で）選択した目的地に移動する。これは、周囲の偵察や経路から敵を遠ざける場合に有効。
   utl_unit_frame_header:
     temp: true
     text: メックフレーム
