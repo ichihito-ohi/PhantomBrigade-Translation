@@ -195,7 +195,7 @@ entries:
     text: 照準センサー - 左
   internal_aux_sensor_left_hybrid__text:
     temp: false
-    text: 左の武器の射程距離を延長し、静止時と移動時の拡散を減少する。
+    text: 左の武器の射程距離を延長し、拡散を抑制する。
   internal_aux_sensor_left_range__name:
     temp: false
     text: 測距センサー - 左
@@ -207,13 +207,13 @@ entries:
     text: 姿勢センサー - 左
   internal_aux_sensor_left_scatter__text:
     temp: false
-    text: 左の武器の静止時と移動時の拡散を減少する。
+    text: 左の武器の拡散を抑制する。
   internal_aux_sensor_right_hybrid__name:
     temp: false
     text: 照準センサー - 右
   internal_aux_sensor_right_hybrid__text:
     temp: false
-    text: 右の武器の射程距離を延長し、静止時と移動時の拡散を減少する。
+    text: 右の武器の射程距離を延長し、拡散を抑制する。
   internal_aux_sensor_right_range__name:
     temp: false
     text: 測距センサー - 右
@@ -268,198 +268,120 @@ entries:
   internal_aux_thruster_standard__text:
     temp: false
     text: バランスの取れた性能に調整されている。
-  perk_barrier_neg_r1__name:
-    temp: false
-    text: バリア -
-  perk_barrier_neg_r2__name:
-    temp: false
-    text: バリア - -
   perk_barrier_pos_r1__name:
     temp: false
-    text: バリア +
+    text: バリア追加 I
   perk_barrier_pos_r2__name:
     temp: false
-    text: バリア ++
+    text: バリア追加 II
   perk_barrier_pos_r3__name:
     temp: false
-    text: バリア +++
-  perk_damage_neg_r1__name:
-    temp: false
-    text: ダメージ -
-  perk_damage_neg_r2__name:
-    temp: false
-    text: ダメージ - -
+    text: バリア追加 III
   perk_damage_pos_r1__name:
     temp: false
-    text: ダメージ +
+    text: 高品質弾薬 I
   perk_damage_pos_r2__name:
     temp: false
-    text: ダメージ ++
+    text: 高品質弾薬 II
   perk_damage_pos_r3__name:
     temp: false
-    text: ダメージ +++
-  perk_dissipation_neg_r1__name:
-    temp: false
-    text: 排熱 -
-  perk_dissipation_neg_r2__name:
-    temp: false
-    text: 排熱 - -
+    text: 高品質弾薬 III
   perk_dissipation_pos_r1__name:
     temp: false
-    text: 排熱 +
+    text: 冷却強化 I
   perk_dissipation_pos_r2__name:
     temp: false
-    text: 排熱 ++
+    text: 冷却強化 II
   perk_dissipation_pos_r3__name:
     temp: false
-    text: 排熱 +++
-  perk_dps_neg_r1__name:
-    temp: false
-    text: DPS -
-  perk_dps_neg_r2__name:
-    temp: false
-    text: DPS - -
+    text: 冷却強化 III
   perk_dps_pos_r1__name:
     temp: false
-    text: DPS +
+    text: Supercharge I
   perk_dps_pos_r2__name:
     temp: false
-    text: DPS++
+    text: Supercharge II
   perk_dps_pos_r3__name:
     temp: false
-    text: DPS +++
-  perk_duration_neg_r1__name:
-    temp: false
-    text: 動作速度 -
-  perk_duration_neg_r2__name:
-    temp: false
-    text: 動作速度 - -
+    text: Supercharge III
   perk_duration_pos_r1__name:
     temp: false
-    text: 動作速度 +
+    text: 高速装填装置 I
   perk_duration_pos_r2__name:
     temp: false
-    text: 動作速度 ++
+    text: 高速装填装置 II
   perk_duration_pos_r3__name:
     temp: false
-    text: 動作速度 +++
-  perk_heat_neg_r1__name:
-    temp: false
-    text: 発熱 -
-  perk_heat_neg_r2__name:
-    temp: false
-    text: 発熱 - -
+    text: 高速装填装置 III
   perk_heat_pos_r1__name:
     temp: false
-    text: 発熱 +
+    text: 放熱 I
   perk_heat_pos_r2__name:
     temp: false
-    text: 発熱 ++
+    text: 放熱 II
   perk_heat_pos_r3__name:
     temp: false
-    text: 発熱 +++
-  perk_integrity_neg_r1__name:
-    temp: false
-    text: 耐久度 -
-  perk_integrity_neg_r2__name:
-    temp: false
-    text: 耐久度 - -
+    text: 放熱 III
   perk_integrity_pos_r1__name:
     temp: false
-    text: 耐久度 +
+    text: 増加装甲 I
   perk_integrity_pos_r2__name:
     temp: false
-    text: 耐久度 ++
+    text: 増加装甲 II
   perk_integrity_pos_r3__name:
     temp: false
-    text: 耐久度 +++
-  perk_mass_neg_r1__name:
-    temp: false
-    text: 質量 -
-  perk_mass_neg_r2__name:
-    temp: false
-    text: 質量 - -
+    text: 増加装甲 III
   perk_mass_pos_r1__name:
     temp: false
-    text: 質量 +
+    text: 複合装甲 I
   perk_mass_pos_r2__name:
     temp: false
-    text: 質量 ++
+    text: 複合装甲 II
   perk_mass_pos_r3__name:
     temp: false
-    text: 質量 +++
-  perk_power_neg_r1__name:
-    temp: false
-    text: 出力 -
-  perk_power_neg_r2__name:
-    temp: false
-    text: 出力 - -
+    text: 複合装甲 III
   perk_power_pos_r1__name:
     temp: false
-    text: 出力 +
+    text: ブースト I
   perk_power_pos_r2__name:
     temp: false
-    text: 出力 ++
+    text: ブースト II
   perk_power_pos_r3__name:
     temp: false
-    text: 出力 +++
-  perk_range_distance_neg_r1__name:
-    temp: false
-    text: 射程距離 -
-  perk_range_distance_neg_r2__name:
-    temp: false
-    text: 射程距離 - -
+    text: ブースト III
   perk_range_distance_pos_r1__name:
     temp: false
-    text: 射程距離 +
+    text: 射程延長 I
   perk_range_distance_pos_r2__name:
     temp: false
-    text: 射程距離 ++
+    text: 射程延長 II
   perk_range_distance_pos_r3__name:
     temp: false
-    text: 射程距離 +++
-  perk_range_effective_neg_r1__name:
-    temp: false
-    text: 有効射程 -
-  perk_range_effective_neg_r2__name:
-    temp: false
-    text: 有効射程 - -
+    text: 射程延長 III
   perk_range_effective_pos_r1__name:
     temp: false
-    text: 有効射程 +
+    text: 可変照準 I
   perk_range_effective_pos_r2__name:
     temp: false
-    text: 有効射程 ++
+    text: 可変照準 II
   perk_range_effective_pos_r3__name:
     temp: false
-    text: 有効射程 +++
-  perk_scatter_idle_neg_r1__name:
-    temp: false
-    text: 静止時拡散 -
-  perk_scatter_idle_neg_r2__name:
-    temp: false
-    text: 静止時拡散 - -
+    text: 可変照準 III
   perk_scatter_idle_pos_r1__name:
     temp: false
-    text: 静止時拡散 +
+    text: 精密射撃 I
   perk_scatter_idle_pos_r2__name:
     temp: false
-    text: 静止時拡散 ++
+    text: 精密射撃 II
   perk_scatter_idle_pos_r3__name:
     temp: false
-    text: 静止時拡散 +++
-  perk_scatter_neg_r1__name:
-    temp: false
-    text: 拡散 -
-  perk_scatter_neg_r2__name:
-    temp: false
-    text: 拡散 - -
+    text: 精密射撃 III
   perk_scatter_pos_r1__name:
     temp: false
-    text: 拡散 +
+    text: 安定化 I
   perk_scatter_pos_r2__name:
     temp: false
-    text: 拡散 ++
+    text: 安定化 II
   perk_scatter_pos_r3__name:
     temp: false
-    text: 拡散 +++
+    text: 安定化 II

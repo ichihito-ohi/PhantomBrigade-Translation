@@ -22,6 +22,18 @@ entries:
   trait_escape__text:
     temp: false
     text: 時には、更地にしてしまうより手加減する方が良い場合もあります。目標を達成したら、出撃したメックを早期に撤退させることができます。
+  trait_hidden_block_escalation__name:
+    temp: true
+    text: スキャン妨害
+  trait_hidden_block_escalation__text:
+    temp: true
+    text: The enemy can't see our units on their scans. They're only sending a small force, no matter the current escalation level.
+  trait_hidden_block_reinforcements__name:
+    temp: true
+    text: 通信妨害
+  trait_hidden_block_reinforcements__text:
+    temp: true
+    text: The enemy can't contact others or send our precise position. Nearby patrols will not be able to reach the join the battle.
   trait_hidden_retreat__name:
     temp: false
     text: 撤退
@@ -34,6 +46,18 @@ entries:
   trait_hidden_units_delayed__text:
     temp: false
     text: ヤツらのバックアップが来ました！増援が接近しており戦闘中に展開してくる可能性があります。
+  trait_hidden_units_delayed_external__name:
+    temp: true
+    text: Long range contacts
+  trait_hidden_units_delayed_external__text:
+    temp: true
+    text: Additional units detected on long-range scans. They are coming from nearby patrols aware of our position.
+  trait_hidden_units_delayed_friendly__name:
+    temp: true
+    text: Friendly contacts
+  trait_hidden_units_delayed_friendly__text:
+    temp: true
+    text: We have detected units belonging to the Home Guard approaching our position. Looks like they have responded to our call for help!
   trait_hidden_units_start__name:
     temp: false
     text: 現地にて接敵

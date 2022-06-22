@@ -237,109 +237,145 @@ entries:
     text: ユーザー・インターフェースを除くテクスチャーの解像度を調整します。推奨既定値は『フル』です。
   input_gamepad_look_invert_vertical__header:
     temp: true
-    text: ゲームパッド / カメラ操作反転
+    text: '[aa]ゲームパッド[ff]
+
+      カメラ操作反転'
   input_gamepad_look_invert_vertical__text:
     temp: true
     text: 垂直方向のカメラ操作入力を反転します
   input_gamepad_look_sensitivity_horizontal__header:
     temp: true
-    text: ゲームパッド / カメラ水平感度
+    text: '[aa]ゲームパッド[ff]
+
+      カメラ水平感度'
   input_gamepad_look_sensitivity_horizontal__text:
     temp: true
     text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
   input_gamepad_look_sensitivity_vertical__header:
     temp: true
-    text: ゲームパッド / カメラ垂直感度
+    text: '[aa]ゲームパッド[ff]
+
+      カメラ垂直感度'
   input_gamepad_look_sensitivity_vertical__text:
     temp: true
     text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
   input_gamepad_move_sensitivity__header:
     temp: true
-    text: ゲームパッド / カメラ移動感度
+    text: '[aa]ゲームパッド[ff]
+
+      カメラ移動感度'
   input_gamepad_move_sensitivity__text:
     temp: true
     text: ユーザーの入力に対するカメラ移動量を調整します
   input_gamepad_scrub_sensitivity__header:
     temp: true
-    text: ゲームパッド / タイムライン感度
+    text: '[aa]ゲームパッド[ff]
+
+      タイムライン感度'
   input_gamepad_scrub_sensitivity__text:
     temp: true
     text: ユーザーの入力に対するタイムラインでの移動量を調整します
   input_gamepad_zoom_sensitivity__header:
     temp: true
-    text: ゲームパッド / ズーム感度
+    text: '[aa]ゲームパッド[ff]
+
+      ズーム感度'
   input_gamepad_zoom_sensitivity__text:
     temp: true
     text: ユーザーの入力に対するカメラズーム感度を調整します
   input_keyboard_look_invert_vertical__header:
     temp: true
-    text: キーボード / カメラ操作反転
+    text: '[aa]キーボード[ff]
+
+      カメラ操作反転'
   input_keyboard_look_invert_vertical__text:
     temp: true
     text: 垂直方向のカメラ操作入力を反転します
   input_keyboard_look_sensitivity_horizontal__header:
     temp: true
-    text: キーボード / カメラ水平感度
+    text: '[aa]キーボード[ff]
+
+      カメラ水平感度'
   input_keyboard_look_sensitivity_horizontal__text:
     temp: true
     text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
   input_keyboard_look_sensitivity_vertical__header:
     temp: true
-    text: キーボード / カメラ垂直感度
+    text: '[aa]キーボード[ff]
+
+      カメラ垂直感度'
   input_keyboard_look_sensitivity_vertical__text:
     temp: true
     text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
   input_keyboard_move_sensitivity__header:
     temp: true
-    text: キーボード / カメラ移動感度
+    text: '[aa]キーボード[ff]
+
+      カメラ移動感度'
   input_keyboard_move_sensitivity__text:
     temp: true
     text: ユーザーの入力に対するカメラ移動量を調整します
   input_keyboard_zoom_sensitivity__header:
     temp: true
-    text: キーボード / ズーム感度
+    text: '[aa]キーボード[ff]
+
+      ズーム感度'
   input_keyboard_zoom_sensitivity__text:
     temp: true
     text: ユーザーの入力に対するカメラズーム感度を調整します
   input_mouse_edge_scrolling__header:
     temp: true
-    text: マウス / 画面端スクロール
+    text: '[aa]マウス[ff]
+
+      画面端スクロール'
   input_mouse_edge_scrolling__text:
     temp: true
     text: エッジスクロールが有効な場合、カーソルが画面端に近づくとカメラが移動します。
   input_mouse_lock_to_window__header:
     temp: true
-    text: マウス / ウィンドウ固定
+    text: '[aa]マウス[ff]
+
+      ウィンドウ固定'
   input_mouse_lock_to_window__text:
     temp: true
     text: ゲームウィンドウにフォーカスが当たっている状態で、マウスをウィンドウの境界を越えて動かせるかどうかを設定します。
   input_mouse_look_invert_vertical__header:
     temp: true
-    text: マウス / カメラ操作反転
+    text: '[aa]マウス[ff]
+
+      カメラ操作反転'
   input_mouse_look_invert_vertical__text:
     temp: true
     text: 垂直方向のカメラ操作入力を反転します
   input_mouse_look_sensitivity_horizontal__header:
     temp: true
-    text: マウス / カメラ水平感度
+    text: '[aa]マウス[ff]
+
+      カメラ水平感度'
   input_mouse_look_sensitivity_horizontal__text:
     temp: true
     text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
   input_mouse_look_sensitivity_vertical__header:
     temp: true
-    text: マウス / カメラ垂直感度
+    text: '[aa]マウス[ff]
+
+      カメラ垂直感度'
   input_mouse_look_sensitivity_vertical__text:
     temp: true
     text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
   input_mouse_move_sensitivity__header:
     temp: true
-    text: マウス / カメラ移動感度
+    text: '[aa]マウス[ff]
+
+      カメラ移動感度'
   input_mouse_move_sensitivity__text:
     temp: true
     text: ユーザーの入力に対するカメラ移動量を調整します
   input_mouse_zoom_sensitivity__header:
     temp: true
-    text: マウス / ズーム感度
+    text: '[aa]マウス[ff]
+
+      ズーム感度'
   input_mouse_zoom_sensitivity__text:
     temp: true
     text: ユーザーの入力に対するカメラズーム感度を調整します

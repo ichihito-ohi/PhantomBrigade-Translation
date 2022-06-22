@@ -670,6 +670,24 @@ entries:
   festival_outcome_help__6_desc:
     temp: true
     text: お祭りの手伝いをして焚き火に火をつけます。
+  infiltration_inprogress__1_name:
+    temp: true
+    text: Infiltration
+  infiltration_inprogress__2_context:
+    temp: true
+    text: 軍事施設
+  infiltration_inprogress__3_start:
+    temp: true
+    text: 開始
+  infiltration_inprogress__4_cancel:
+    temp: true
+    text: 中止
+  infiltration_inprogress__5_finish:
+    temp: true
+    text: 完了
+  infiltration_inprogress__6_desc:
+    temp: true
+    text: Defector infiltrating a military structure to steal equipment blueprints.
   investigate__1_name:
     temp: false
     text: 調査
@@ -747,7 +765,7 @@ entries:
     text: 観察
   observing_2h__2_context:
     temp: false
-    text: 人工衛星の雨
+    text: 流星群
   observing_2h__3_start:
     temp: false
     text: 開始
@@ -759,13 +777,13 @@ entries:
     text: 完了
   observing_2h__6_desc:
     temp: true
-    text: 腰を下ろして人工衛星の雨を眺めます。
+    text: Sit back and watch the meteor shower.
   observing_4h__1_name:
     temp: false
     text: 観察
   observing_4h__2_context:
     temp: false
-    text: 人工衛星の雨
+    text: 流星群
   observing_4h__3_start:
     temp: false
     text: 開始
@@ -777,13 +795,13 @@ entries:
     text: 完了
   observing_4h__6_desc:
     temp: true
-    text: 腰を下ろして人工衛星の雨を眺めます。
+    text: Sit back and watch the meteor shower.
   observing_6h__1_name:
     temp: false
     text: 観察
   observing_6h__2_context:
     temp: false
-    text: 人工衛星の雨
+    text: 流星群
   observing_6h__3_start:
     temp: false
     text: 開始
@@ -795,7 +813,7 @@ entries:
     text: 完了
   observing_6h__6_desc:
     temp: true
-    text: 腰を下ろして人工衛星の雨を眺めます。
+    text: Sit back and watch the meteor shower.
   parade__1_name:
     temp: false
     text: パレード
@@ -1251,7 +1269,7 @@ entries:
     text: 墜落現場
   satellite_objective__2_context:
     temp: false
-    text: 人工衛星の雨
+    text: 流星群
   satellite_objective__3_start:
     temp: false
     text: 受諾
@@ -1266,7 +1284,7 @@ entries:
     text: 墜落現場を調査します。
   satelliteshower__1_name:
     temp: false
-    text: 人工衛星の雨
+    text: 流星群
   satelliteshower__2_context:
     temp: true
     text: ''
@@ -1281,7 +1299,7 @@ entries:
     text: 完了
   satelliteshower__6_desc:
     temp: true
-    text: 腰を下ろして人工衛星の雨を眺めます。
+    text: Sit back and watch the meteor shower.
   unit_repair__1_name:
     temp: false
     text: 機体修理

@@ -333,7 +333,7 @@ entries:
     text: 連射型レールガン
   part_wpn_repeater_railgun__text:
     temp: false
-    text: 弾丸を使用するマークスマンライフルに近い実験的な精密武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
+    text: 弾丸を使用するマークスマン・ライフルに近い実験的な精密武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
   part_wpn_rifle_assault__name:
     temp: false
     text: アサルトライフル
@@ -342,7 +342,7 @@ entries:
     text: 高レートと中距離射程のオールラウンドな主兵装である。
   part_wpn_rifle_marksman__name:
     temp: false
-    text: マークスマンライフル
+    text: マークスマン・ライフル
   part_wpn_rifle_marksman__text:
     temp: false
     text: アサルトライフルと狙撃銃の中間的役割を担う精密実弾武器。
