@@ -126,10 +126,7 @@ entries:
     text: SMAA（高）
   graphics_antialiasing__lv_2:
     temp: true
-    text: TAA（シャープ）
-  graphics_antialiasing__lv_3:
-    temp: true
-    text: TAA（ソフト）
+    text: TAA
   graphics_antialiasing__text:
     temp: true
     text: 画像中のジャギー除去を調整します。 TAA はパフォーマンス不可が高いですが、より高品質です。 SMAA はパフォーマンス負荷が低いですが、サブピクセルの細部からエイリアシングを除去できません。

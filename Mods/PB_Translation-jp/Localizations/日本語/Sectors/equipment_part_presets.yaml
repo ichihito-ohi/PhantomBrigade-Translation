@@ -321,7 +321,7 @@ entries:
     text: 3 Razor
   wpn_melee_secondary_blade_r3__text:
     temp: false
-    text: Variant with excellent damage output.
+    text: 優れたダメージのバリエーション。
   wpn_melee_secondary_cutter__name:
     temp: true
     text: MC-S Slicer

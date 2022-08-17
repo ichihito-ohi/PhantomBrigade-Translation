@@ -4,6 +4,24 @@ exportMode: LinePerKeySplit
 columns: []
 splits: []
 entries:
+  alarm__1_name:
+    temp: true
+    text: 警報
+  alarm__2_context:
+    temp: true
+    text: 貯蔵庫
+  alarm__3_start:
+    temp: true
+    text: 開始
+  alarm__4_cancel:
+    temp: true
+    text: 中止
+  alarm__5_finish:
+    temp: true
+    text: 完了
+  alarm__6_desc:
+    temp: true
+    text: 侵略軍が調査にパトロールを派遣中。
   alarm_easy__1_name:
     temp: false
     text: 警報！
@@ -94,6 +112,78 @@ entries:
   assassination_objective_target__6_desc:
     temp: true
     text: 追跡された標的を暗殺します。
+  bomb_timer__1_name:
+    temp: true
+    text: 爆弾だ！
+  bomb_timer__2_context:
+    temp: true
+    text: 移動基地
+  bomb_timer__3_start:
+    temp: true
+    text: 開始
+  bomb_timer__4_cancel:
+    temp: true
+    text: 中止
+  bomb_timer__5_finish:
+    temp: true
+    text: 完了
+  bomb_timer__6_desc:
+    temp: true
+    text: 基地内で爆弾のブザーが鳴り響いている。
+  bomb_timer_base__1_name:
+    temp: true
+    text: 爆弾だ！
+  bomb_timer_base__2_context:
+    temp: true
+    text: 爆発物
+  bomb_timer_base__3_start:
+    temp: true
+    text: 開始
+  bomb_timer_base__4_cancel:
+    temp: true
+    text: 中止
+  bomb_timer_base__5_finish:
+    temp: true
+    text: 完了
+  bomb_timer_base__6_desc:
+    temp: true
+    text: 爆弾のタイマーが進行中
+  bomb_timer_location__1_name:
+    temp: true
+    text: 爆弾だ！
+  bomb_timer_location__2_context:
+    temp: true
+    text: 爆発物
+  bomb_timer_location__3_start:
+    temp: true
+    text: 開始
+  bomb_timer_location__4_cancel:
+    temp: true
+    text: 中止
+  bomb_timer_location__5_finish:
+    temp: true
+    text: 完了
+  bomb_timer_location__6_desc:
+    temp: true
+    text: 爆弾のタイマーが進行中
+  breakin__1_name:
+    temp: true
+    text: 押し入り
+  breakin__2_context:
+    temp: true
+    text: 貯蔵庫
+  breakin__3_start:
+    temp: true
+    text: 開始
+  breakin__4_cancel:
+    temp: true
+    text: 中止
+  breakin__5_finish:
+    temp: true
+    text: 完了
+  breakin__6_desc:
+    temp: true
+    text: 現場チームが戦場で回収可能な装備を捜索しています。
   breakin_easy__1_name:
     temp: false
     text: 押し入り
@@ -148,6 +238,24 @@ entries:
   breakin_medium__6_desc:
     temp: true
     text: 現場チームが戦場で回収可能な装備を捜索しています。
+  broadcast__1_name:
+    temp: true
+    text: ブロードキャスト
+  broadcast__2_context:
+    temp: true
+    text: 貯蔵庫
+  broadcast__3_start:
+    temp: true
+    text: 開始
+  broadcast__4_cancel:
+    temp: true
+    text: 中止
+  broadcast__5_finish:
+    temp: true
+    text: 完了
+  broadcast__6_desc:
+    temp: true
+    text: 敵が秘密情報を発信中
   build_part_pack_starter__1_name:
     temp: false
     text: 部品製造
@@ -310,6 +418,24 @@ entries:
   cache_target_return__6_desc:
     temp: true
     text: 物品を返しに鉱山へ戻る
+  captive_target__1_name:
+    temp: true
+    text: 捕虜を移送中
+  captive_target__2_context:
+    temp: true
+    text: 捕虜
+  captive_target__3_start:
+    temp: true
+    text: 受諾
+  captive_target__4_cancel:
+    temp: true
+    text: 中止
+  captive_target__5_finish:
+    temp: true
+    text: 完了
+  captive_target__6_desc:
+    temp: true
+    text: 捕虜を基地に移送する。
   cat_play__1_name:
     temp: true
     text: 猫と遊ぶ
@@ -616,6 +742,24 @@ entries:
   draft_target__6_desc:
     temp: true
     text: 捕らえられた民間人の場所。
+  electrical_restore__1_name:
+    temp: true
+    text: 電力回復
+  electrical_restore__2_context:
+    temp: true
+    text: 電気
+  electrical_restore__3_start:
+    temp: true
+    text: 開始
+  electrical_restore__4_cancel:
+    temp: true
+    text: 中止
+  electrical_restore__5_finish:
+    temp: true
+    text: 完了
+  electrical_restore__6_desc:
+    temp: true
+    text: 移動基地の電力を回復中。
   farm_target__1_name:
     temp: true
     text: 標的
@@ -670,9 +814,81 @@ entries:
   festival_outcome_help__6_desc:
     temp: true
     text: お祭りの手伝いをして焚き火に火をつけます。
+  fusion_defusing__1_name:
+    temp: true
+    text: Defusing
+  fusion_defusing__2_context:
+    temp: true
+    text: Fusion
+  fusion_defusing__3_start:
+    temp: true
+    text: 開始
+  fusion_defusing__4_cancel:
+    temp: true
+    text: 中止
+  fusion_defusing__5_finish:
+    temp: true
+    text: 完了
+  fusion_defusing__6_desc:
+    temp: true
+    text: Defusing the reactor.
+  fusion_melt__1_name:
+    temp: true
+    text: Meltdown
+  fusion_melt__2_context:
+    temp: true
+    text: Fusion
+  fusion_melt__3_start:
+    temp: true
+    text: 開始
+  fusion_melt__4_cancel:
+    temp: true
+    text: 中止
+  fusion_melt__5_finish:
+    temp: true
+    text: 完了
+  fusion_melt__6_desc:
+    temp: true
+    text: Reactor will explode any moment
+  fusion_message__1_name:
+    temp: true
+    text: Messaging
+  fusion_message__2_context:
+    temp: true
+    text: Fusion
+  fusion_message__3_start:
+    temp: true
+    text: 開始
+  fusion_message__4_cancel:
+    temp: true
+    text: 中止
+  fusion_message__5_finish:
+    temp: true
+    text: 完了
+  fusion_message__6_desc:
+    temp: true
+    text: Relaying message to the home army
+  fusion_timer__1_name:
+    temp: true
+    text: Reactor Overloading
+  fusion_timer__2_context:
+    temp: true
+    text: Fusion
+  fusion_timer__3_start:
+    temp: true
+    text: 開始
+  fusion_timer__4_cancel:
+    temp: true
+    text: 中止
+  fusion_timer__5_finish:
+    temp: true
+    text: 完了
+  fusion_timer__6_desc:
+    temp: true
+    text: Fusion reactor is going to blow up.
   infiltration_inprogress__1_name:
     temp: true
-    text: Infiltration
+    text: 潜入
   infiltration_inprogress__2_context:
     temp: true
     text: 軍事施設
@@ -687,7 +903,7 @@ entries:
     text: 完了
   infiltration_inprogress__6_desc:
     temp: true
-    text: Defector infiltrating a military structure to steal equipment blueprints.
+    text: 亡命者が装備の設計図を盗むため軍事施設に潜入している。
   investigate__1_name:
     temp: false
     text: 調査
@@ -724,6 +940,24 @@ entries:
   lightsout_fixing__6_desc:
     temp: true
     text: 戦闘で破壊された送電線を修理します。
+  mail_target__1_name:
+    temp: true
+    text: Delivering Mail
+  mail_target__2_context:
+    temp: true
+    text: Mail
+  mail_target__3_start:
+    temp: true
+    text: 受諾
+  mail_target__4_cancel:
+    temp: true
+    text: 中止
+  mail_target__5_finish:
+    temp: true
+    text: 完了
+  mail_target__6_desc:
+    temp: true
+    text: Transport mail to the settlement.
   market_objective__1_name:
     temp: false
     text: 地点
@@ -777,7 +1011,7 @@ entries:
     text: 完了
   observing_2h__6_desc:
     temp: true
-    text: Sit back and watch the meteor shower.
+    text: 腰を下ろして流星群を眺めます。
   observing_4h__1_name:
     temp: false
     text: 観察
@@ -795,7 +1029,7 @@ entries:
     text: 完了
   observing_4h__6_desc:
     temp: true
-    text: Sit back and watch the meteor shower.
+    text: 腰を下ろして流星群を眺めます。
   observing_6h__1_name:
     temp: false
     text: 観察
@@ -813,7 +1047,7 @@ entries:
     text: 完了
   observing_6h__6_desc:
     temp: true
-    text: Sit back and watch the meteor shower.
+    text: 腰を下ろして流星群を眺めます。
   parade__1_name:
     temp: false
     text: パレード
@@ -832,6 +1066,96 @@ entries:
   parade__6_desc:
     temp: true
     text: パレードに参加して祝典に参加します。
+  parts_delivery__1_name:
+    temp: true
+    text: Delivery target
+  parts_delivery__2_context:
+    temp: true
+    text: 採用
+  parts_delivery__3_start:
+    temp: true
+    text: 受諾
+  parts_delivery__4_cancel:
+    temp: true
+    text: 中止
+  parts_delivery__5_finish:
+    temp: true
+    text: 完了
+  parts_delivery__6_desc:
+    temp: true
+    text: Delivering parts to the target destination.
+  parts_deliveryfactory__1_name:
+    temp: true
+    text: Delivery target
+  parts_deliveryfactory__2_context:
+    temp: true
+    text: 採用
+  parts_deliveryfactory__3_start:
+    temp: true
+    text: 受諾
+  parts_deliveryfactory__4_cancel:
+    temp: true
+    text: 中止
+  parts_deliveryfactory__5_finish:
+    temp: true
+    text: 完了
+  parts_deliveryfactory__6_desc:
+    temp: true
+    text: Delivering parts to the target destination.
+  parts_holding__1_name:
+    temp: true
+    text: Awaiting collection
+  parts_holding__2_context:
+    temp: true
+    text: 部品
+  parts_holding__3_start:
+    temp: true
+    text: 受諾
+  parts_holding__4_cancel:
+    temp: true
+    text: 中止
+  parts_holding__5_finish:
+    temp: true
+    text: 完了
+  parts_holding__6_desc:
+    temp: true
+    text: Awaiting collection of special parts by the home guard units.
+  parts_homeguard_delivery__1_name:
+    temp: true
+    text: Awaiting Collection
+  parts_homeguard_delivery__2_context:
+    temp: true
+    text: 部品
+  parts_homeguard_delivery__3_start:
+    temp: true
+    text: 受諾
+  parts_homeguard_delivery__4_cancel:
+    temp: true
+    text: 中止
+  parts_homeguard_delivery__5_finish:
+    temp: true
+    text: 完了
+  parts_homeguard_delivery__6_desc:
+    temp: true
+    text: Waiting for the home guard to collect parts from mobile base
+  parts_working__1_name:
+    temp: true
+    text: Creating
+  parts_working__2_context:
+    temp: true
+    text: 工場
+  parts_working__3_start:
+    temp: true
+    text: 受諾
+  parts_working__4_cancel:
+    temp: true
+    text: 中止
+  parts_working__5_finish:
+    temp: true
+    text: 完了
+  parts_working__6_desc:
+    temp: true
+    text: Creating a secret weapon
   party__1_name:
     temp: false
     text: パーティー
@@ -957,7 +1281,7 @@ entries:
     text: 完了
   purranormal_investigating__6_desc:
     temp: true
-    text: ''
+    text: Investigating the location of the activity.
   purranormal_target__1_name:
     temp: true
     text: 幽霊の出現位置
@@ -975,7 +1299,7 @@ entries:
     text: 完了
   purranormal_target__6_desc:
     temp: true
-    text: ''
+    text: Location of the ghost activity.
   quest_tutorial_01__1_name:
     temp: false
     text: ゲーム開始 (1/3)
@@ -1299,7 +1623,43 @@ entries:
     text: 完了
   satelliteshower__6_desc:
     temp: true
-    text: Sit back and watch the meteor shower.
+    text: 腰を下ろして流星群を眺めます。
+  secret_target__1_name:
+    temp: true
+    text: 標的
+  secret_target__2_context:
+    temp: true
+    text: Secret
+  secret_target__3_start:
+    temp: true
+    text: revealed
+  secret_target__4_cancel:
+    temp: true
+    text: 中止
+  secret_target__5_finish:
+    temp: true
+    text: 完了
+  secret_target__6_desc:
+    temp: true
+    text: 'Location of Invader secret location '
+  spies_target__1_name:
+    temp: true
+    text: 標的
+  spies_target__2_context:
+    temp: true
+    text: Spies
+  spies_target__3_start:
+    temp: true
+    text: 受諾
+  spies_target__4_cancel:
+    temp: true
+    text: 中止
+  spies_target__5_finish:
+    temp: true
+    text: 完了
+  spies_target__6_desc:
+    temp: true
+    text: Location of Invader spies
   unit_repair__1_name:
     temp: false
     text: 機体修理
@@ -1318,6 +1678,42 @@ entries:
   unit_repair__6_desc:
     temp: true
     text: 移動基地で機体のひとつを修理しています。
+  weapon_delivery__1_name:
+    temp: true
+    text: Delivery target
+  weapon_delivery__2_context:
+    temp: true
+    text: Weapon
+  weapon_delivery__3_start:
+    temp: true
+    text: 受諾
+  weapon_delivery__4_cancel:
+    temp: true
+    text: 中止
+  weapon_delivery__5_finish:
+    temp: true
+    text: 完了
+  weapon_delivery__6_desc:
+    temp: true
+    text: Deliver the scret weapon to the closest home guard base.
+  weapon_target__1_name:
+    temp: true
+    text: Awaiting collection
+  weapon_target__2_context:
+    temp: true
+    text: Weapon
+  weapon_target__3_start:
+    temp: true
+    text: 受諾
+  weapon_target__4_cancel:
+    temp: true
+    text: 中止
+  weapon_target__5_finish:
+    temp: true
+    text: 完了
+  weapon_target__6_desc:
+    temp: true
+    text: Collect the secret weapon form a factory.
   workshop_build__1_name:
     temp: false
     text: 加工室プロジェクト

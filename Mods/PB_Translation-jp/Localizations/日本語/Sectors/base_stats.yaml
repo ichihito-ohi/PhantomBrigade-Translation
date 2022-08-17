@@ -40,6 +40,12 @@ entries:
   item_drone_decoy_limit__text:
     temp: true
     text: '...'
+  item_rain_sensor_limit__name:
+    temp: true
+    text: 雨天センサー　可能回数
+  item_rain_sensor_limit__text:
+    temp: true
+    text: '...'
   mm_fast_energy_change__name:
     temp: false
     text: エネルギー消費

@@ -151,6 +151,12 @@ entries:
   utl_cons_drone_decoy_text:
     temp: true
     text: デコイ・ドローンを製造する。周囲をスキャンし移動基地のセンサー痕跡を模擬しながら、（限られた範囲内で）選択した目的地に移動する。これは、周囲の偵察や経路から敵を遠ざける場合に有効。
+  utl_cons_rain_sensor_header:
+    temp: true
+    text: 雨天センサー
+  utl_cons_rain_sensor_text:
+    temp: true
+    text: 雨天センサーを1つ製造する。
   utl_unit_frame_header:
     temp: true
     text: メックフレーム
