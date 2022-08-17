@@ -28,97 +28,95 @@ edits:
   [cc]ゲーム・パッド対応[ff]
 
   [aa]ダイナミックな天候などなど！[ff]'
-- 'timeline.0.textDesc: - エスカレーションと州の争奪
+- 'timeline.0.textDesc: - パイロットが完全に動くキャラクターになりました。移動基地でパイロットの見た目をカスタマイズできます。
 
-  - 目標と交戦区域
+  - 各パイロットには個性があり、アニメーションやメックの動きを通じて表れます。個性は全体マップのイベントにも影響を与える可能性があります。'
+- 'timeline.0.textName: パイロットの新しい見た目'
+- 'timeline.1.textDesc: - パイロットの安全を守ることがより直感的になりました。
 
-  - 新しい補給機能
+  - 疲労度の代わりに、パイロットには体力があり、ダメージに対する回復力と最大体力はそれぞれ異なります。
 
-  - 修理システムの改修
+  - パイロットの状態によっては、戦闘ダメージが気絶や死につながる可能性があるので、新しいパイロット UI に注目してください。
 
-  - 敵による場所の再制圧'
-- 'timeline.0.textName: オーバーワールド改修 II'
-- 'timeline.1.textDesc: - オーバーワールド UI 強化
+  - パイロットには出身州と街がランダムに生成され、イベント中に効果が発生する可能性があります。'
+- 'timeline.1.textName: パイロット・メカニズム'
+- 'timeline.2.textDesc: - 新しい戦闘シナリオとバリエーション。
 
-  - ブリーフィング中のアニメーション
+  - 民間の建造物をダメージから守り、希望を高めましょう。
 
-  - 戦闘結果 UI 強化
+  - 新しいシナリオで、軍事建造物を破壊して目標を達成しましょう。'
+- 'timeline.2.textName: ダメージ目標'
+- 'timeline.3.textDesc: - 物語イベントがさらにゲームへ追加されました。
 
-  - ブリーフィング中の脅威 UI、難易度予測
+  - 一部のイベントはパイロットの体力に影響を与え、計画の歯車を狂わせたり部隊の回復を早めたりします。'
+- 'timeline.3.textName: 新規イベント'
+- 'timeline.4.textDesc: - ゲーム全体に多数の最適化が適用
 
-  - パイロット採用の単純化
+  - 全体マップのゲームプレイ・パフォーマンスが大幅に向上
 
-  - オーバーワールドでの撤退の単純化'
-- 'timeline.1.textName: - QoL 強化'
-- 'timeline.2.textDesc: - 最初の州におけるなだらかな難易度曲線
+  - 戦闘環境のレンダリング・パフォーマンスが大幅に向上'
+- 'timeline.4.textName: 最適化'
+- 'timeline.5.textDesc: - 翻訳と mod のためゲーム・テキストをすべて公開
 
-  - よりバランスの取れたシナリオ分布
+  - すべてのヒントとその他1回限りのテキストへのパス
 
-  - 加工室のバランス再調整
+  - 名前生成の改善'
+- 'timeline.5.textName: テキストとローカライズ対応の改善'
+- 'timeline.6.textDesc: - 敵の動き
 
-  - パトロール削減
+  - 全体マップに登場する味方
 
-  - 戦利品品質の上昇'
-- 'timeline.2.textName: キャンペーンのバランス再調整'
-- 'timeline.3.textDesc: - イベント UI 強化
+  - 緊急脱出したパイロットに派遣される敵'
+- 'timeline.6.textName: 全体マップ AI の改善'
+- 'timeline.7.textDesc: - カスタマイズ・オプションの拡張
 
-  - 選択の影響を提示
+  - パイロットがブリーフィングに参加
 
-  - さらなるコンテキスト・イベント'
-- 'timeline.3.textName: イベント・アップデート'
-- 'timeline.4.textDesc: - オーバーワールド地形強化
+  - 基地を周るパイロット、パイロット画面改修'
+- 'timeline.7.textName: パイロット・ビジュアル II'
+- 'timeline.8.textDesc: - 軍事拠点の破壊を含む追加シナリオ
 
-  - 戦争のビジュアル'
-- 'timeline.4.textName: オーバーワールド・ビジュアル'
-- 'timeline.5.textDesc: - 希望要素の改修
+  - 警報破壊を含むメカニクス
 
-  - オーバーワールドの変化に結びつく新たなイベント'
-- 'timeline.5.textName: さらなるイベント'
-- 'timeline.6.textDesc: - 新たなオーバーワールド・アクション
+  - マップ・デザイン改善'
+- 'timeline.8.textName: 追加シナリオとマップ'
+- 'timeline.9.textDesc: - 数十の追加イベントが制作中
 
-  - 敵の撹乱、支援要請'
-- 'timeline.6.textName: 移動基地アップグレード II'
-- 'timeline.7.textDesc: - AI 挙動の強化
+  - イベントと関連付けられた追加メカニクスを含む'
+- 'timeline.9.textName: さらなるイベント'
+- 'timeline.10.textDesc: - GPU メモリ使用量の最適化
 
-  - 希望要素の改修
+  - GPU パフォーマンス要件の削減
 
-  - 動的な州レベル設定'
-- 'timeline.7.textName: オーバーワールド改修 III'
-- 'timeline.8.textDesc: - 複数勢力が参加する戦闘
+  - CPU パフォーマンス要件の削減'
+- 'timeline.10.textName: さらなる最適化'
+- 'timeline.11.textDesc: - 戦闘チュートリアル改善
 
-  - 追加のシナリオ・タイプ'
-- 'timeline.8.textName: 多彩な戦闘'
-- 'timeline.9.textDesc: - ゲームプレイ・オプション
+  - ゲーム開始時の体験の改修
+
+  - 全体マップ・メカニクスのより良い紹介'
+- 'timeline.11.textName: 新たなプレイヤー体験'
+- 'timeline.12.textDesc: - 首都戦の改修
+
+  - さらに発表予定'
+- 'timeline.12.textName: 特設セットでの戦闘'
+- 'timeline.13.textDesc: - バイオーム
+
+  - 雪
+
+  - バリエーション強化'
+- 'timeline.13.textName: 戦闘ビジュアル II'
+- 'timeline.14.textDesc: - ゲームプレイ・オプション
 
   - 難易度選択
 
   - カスタマイズ、インベントリ、戦闘'
-- 'timeline.9.textName: UI ・ QoL 強化'
-- 'timeline.10.textDesc: - バイオーム
+- 'timeline.14.textName: UI ・ QoL 強化'
+- 'timeline.15.textDesc: - 複数言語へのゲーム翻訳
 
-  - 戦闘の多様なビジュアル'
-- 'timeline.10.textName: 戦闘ビジュアル'
-- 'timeline.11.textDesc: - Alpha 終了
+  - Mod によるローカライズへのサポート改善'
+- 'timeline.15.textName: ローカライゼーション'
+- 'timeline.16.textDesc: - 単一ターン・リプレイのセーブとロード
 
-  - Discord に参加して発表にご注目ください！'
-- 'timeline.11.textName: Steam プレイテスト'
-- 'timeline.12.textName: パイロット要素'
-- 'timeline.13.textName: パイロット要素 II'
-- 'timeline.14.textDesc: - 直前ターンのリプレイ
-
-  - 時間の早送り・巻き戻し'
-- 'timeline.14.textName: 戦闘リプレイ'
-- 'timeline.15.textDesc: - CPU パフォーマンス
-
-  - GPU パフォーマンス
-
-  - メモリ最適化'
-- 'timeline.15.textName: 最適化'
-- 'timeline.16.textDesc: - 戦闘チュートリアル強化
-
-  - UI・メカニクスのチュートリアル
-
-  - 州イントロの改修'
-- 'timeline.16.textName: 新・プレイヤー体験'
-- 'timeline.17.textName: ローカライゼーション'
-- 'timeline.18.textName: 特設セットでの戦闘'
+  - より長いリプレイの可能性を探る'
+- 'timeline.16.textName: リプレイ改良'

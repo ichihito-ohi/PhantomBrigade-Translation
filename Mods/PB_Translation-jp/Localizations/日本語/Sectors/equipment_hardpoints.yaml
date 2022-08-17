@@ -1,5 +1,5 @@
 name: Equipment (Hardpoints)
-description: Descriptions and names of unit hardpoints (attachment slots for subsystems)
+description: 機体の懸架点（サブシステムの取り付けスロット）の説明と名前
 exportMode: LinePerKeySimple
 columns: []
 splits: []
@@ -73,9 +73,9 @@ entries:
   internal_aux_top_thrusters_name:
     temp: false
     text: スラスター
-  internal_main_equipment_name:
-    temp: false
-    text: 内部フレーム
+  internal_utl_name:
+    temp: true
+    text: パイロット支援
   internal_vhc_chassis_name:
     temp: false
     text: シャーシ

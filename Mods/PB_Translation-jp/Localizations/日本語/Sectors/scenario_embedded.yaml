@@ -30,6 +30,18 @@ entries:
   debug_shootingrange_obstaclecourse__core_text:
     temp: true
     text: ''
+  debug_squad__core_header:
+    temp: true
+    text: ''
+  debug_squad__core_text:
+    temp: true
+    text: ''
+  debug_squad__step_main_0c_header:
+    temp: true
+    text: ''
+  debug_squad__step_main_0c_text:
+    temp: true
+    text: ''
   event_assassination__core_header:
     temp: true
     text: 暗殺
@@ -91,6 +103,12 @@ entries:
   event_assassination__step_d1_retreat_cutoff_0c_text:
     temp: true
     text: 敵をすべて排除するかパイロットを緊急脱出させろ。移動基地への撤退経路は敵軍が封鎖した。
+  event_blackmarket_raid__core_header:
+    temp: true
+    text: event_cache_informed
+  event_blackmarket_raid__core_text:
+    temp: true
+    text: ''
   event_cache_informed__core_header:
     temp: true
     text: event_cache_informed
@@ -175,6 +193,30 @@ entries:
   event_farm__core_text:
     temp: true
     text: ''
+  event_fusion__core_header:
+    temp: true
+    text: ''
+  event_fusion__core_text:
+    temp: true
+    text: ''
+  event_fusion__state_loot_0c_header:
+    temp: true
+    text: ''
+  event_fusion__state_loot_0c_text:
+    temp: true
+    text: ''
+  event_fusion__step_retreat_0c_header:
+    temp: true
+    text: ''
+  event_fusion__step_retreat_0c_text:
+    temp: true
+    text: ''
+  event_fusion__step_wave0_0c_header:
+    temp: true
+    text: ''
+  event_fusion__step_wave0_0c_text:
+    temp: true
+    text: ''
   event_meteor__core_header:
     temp: true
     text: generic_breakin
@@ -204,22 +246,52 @@ entries:
     text: ''
   event_radio__state_objective_destruction_0c_header:
     temp: true
-    text: 目的
+    text: 破壊工作
   event_radio__state_objective_destruction_0c_text:
     temp: true
-    text: ラジオ塔を停止させるため、3ターンの間、各ターンの終了時に最低1機に指定された地点を確保させろ。
+    text: Disable the structure by destroying enough pieces.
   event_radio__step_wave_0c_text:
     temp: true
     text: ラジオ塔を停止させるか、敵をすべて排除しろ。
   event_radio__step_wave0_0c_text:
     temp: true
     text: ラジオ塔を停止させるか、敵をすべて排除しろ。
+  event_spies__core_header:
+    temp: true
+    text: ''
+  event_spies__core_text:
+    temp: true
+    text: ''
+  event_spies__state_objective_spy_concussed_0c_header:
+    temp: true
+    text: Main Objective
+  event_spies__state_objective_spy_concussed_0c_text:
+    temp: true
+    text: Concuss the spy. Do not kill them or let them eject.
   generic_assault__core_header:
     temp: true
     text: generic_assault
   generic_assault__core_text:
     temp: true
     text: ''
+  generic_assault_alarm__core_header:
+    temp: true
+    text: ''
+  generic_assault_alarm__core_text:
+    temp: true
+    text: ''
+  generic_assault_alarm__state_alarm_0c_header:
+    temp: true
+    text: 副次目標
+  generic_assault_alarm__state_alarm_0c_text:
+    temp: true
+    text: 警報塔を破壊して予備機体の出撃を防げ。
+  generic_assault_alarm__state_wave_2_0c_header:
+    temp: true
+    text: 予備の増援
+  generic_assault_alarm__state_wave_2_0c_text:
+    temp: true
+    text: 警報塔を破壊しないと、予備の増援が警報を聞きつけて出撃します。
   generic_assault_average__core_header:
     temp: true
     text: generic_assault_average
@@ -236,6 +308,12 @@ entries:
     temp: true
     text: generic_assault_small
   generic_assault_small__core_text:
+    temp: true
+    text: ''
+  generic_assisted__core_header:
+    temp: true
+    text: ''
+  generic_assisted__core_text:
     temp: true
     text: ''
   generic_battlesite__core_header:
@@ -292,16 +370,34 @@ entries:
   generic_liberation__core_text:
     temp: true
     text: ''
+  generic_liberation_alarm__core_header:
+    temp: true
+    text: ''
+  generic_liberation_alarm__core_text:
+    temp: true
+    text: ''
   generic_liberation_average__core_header:
     temp: true
     text: generic_liberation_average
   generic_liberation_average__core_text:
     temp: true
     text: ''
+  generic_liberation_industry__core_header:
+    temp: true
+    text: ''
+  generic_liberation_industry__core_text:
+    temp: true
+    text: ''
   generic_liberation_large__core_header:
     temp: true
     text: generic_liberation_large
   generic_liberation_large__core_text:
+    temp: true
+    text: ''
+  generic_liberation_settlement__core_header:
+    temp: true
+    text: ''
+  generic_liberation_settlement__core_text:
     temp: true
     text: ''
   generic_liberation_small__core_header:
@@ -326,6 +422,18 @@ entries:
     temp: true
     text: generic_raid_training
   generic_raid_training__core_text:
+    temp: true
+    text: ''
+  new_00__core_header:
+    temp: true
+    text: ''
+  new_00__core_text:
+    temp: true
+    text: ''
+  obj_protect_01__core_header:
+    temp: true
+    text: generic_raid_elite
+  obj_protect_01__core_text:
     temp: true
     text: ''
   tutorial_assault_hard__core_header:
@@ -604,6 +712,12 @@ entries:
   unique_mountainbase__core_text:
     temp: true
     text: ''
+  unique_mountainbase__state_reinforcement_wave_test_0c_header:
+    temp: true
+    text: 追加の増援
+  unique_mountainbase__state_reinforcement_wave_test_0c_text:
+    temp: true
+    text: 状態に基づく増援がどのように機能するか示す例。この状態は2番目のターンを確認し、どのシナリオ・ステップにいるかに関わらず、そのターンが来るとリアクション・データ・ブロックを介して関連機体を有効化します。
   unique_mountainbase__step_wave_00_guard_0c_text:
     temp: true
     text: 基地は無傷のようですが、現地に敵パトロールがいます。あなたの存在が報告される前に始末してください。

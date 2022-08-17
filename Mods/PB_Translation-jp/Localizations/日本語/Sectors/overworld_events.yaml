@@ -8,6 +8,30 @@ splits:
 - displayName: Shared Option
   prefix: os_
 entries:
+  ev_agent_notification_contact__0c_name:
+    temp: true
+    text: ''
+  ev_agent_notification_contact__1s_contact_header:
+    temp: true
+    text: Civilian Meeting
+  ev_agent_notification_contact__1s_contact_text:
+    temp: true
+    text: 'PLACEHOLDER PB encounters a civilian who offers them a salvaged, albeit heavily damaged black box recorder from a downed invader mech. Upon inspection, the mechanics in the PB state they can salvage either a collection of secret codes, or coordinates to a secret location but NOT both due to the damage incurred on the recorder.
+
+
+      If a defector is present in the PB, there is a chance they will point out that the black box damage was deliberate, and not caused by the heat of battle.PLACEHOLDER'
+  ev_agent_notification_contact__2o_codes_header:
+    temp: true
+    text: PLACEHOLDER codes
+  ev_agent_notification_contact__2o_codes_text:
+    temp: true
+    text: PLACEHOLDER codes
+  ev_agent_notification_contact__2o_location_header:
+    temp: true
+    text: PLACEHOLDER location
+  ev_agent_notification_contact__2o_location_text:
+    temp: true
+    text: PLACEHOLDER location
   ev_armypilot_interaction_end__0c_name:
     temp: true
     text: ''
@@ -49,7 +73,7 @@ entries:
     text: 'あなたは丁寧に辞退を伝え、現状祖国軍から戦闘員を受け入れることはできないと偵察員に説明した。
 
 
-      『ああ、なるほど。』偵察員が同意する。『わが軍にはまだ人手が必要でしょう...パイロットも彼らと一緒にいたほうが良いかもしれません。』
+      “Ah, I see,” nods the scout. “I guess the army are still in need of people...the pilot might be better off staying with them."
 
 
       偵察員がうなずく。『一理ありますね、司令官。メッセージを伝達しておきます！』
@@ -119,12 +143,6 @@ entries:
   ev_assassination_interaction_combat__2o_abandon_text:
     temp: true
     text: リスクが高すぎる。
-  ev_assassination_interaction_combat__2o_disengage_header:
-    temp: true
-    text: 回避する
-  ev_assassination_interaction_combat__2o_disengage_text:
-    temp: true
-    text: ''
   ev_assassination_interaction_combat__2o_initiate_header:
     temp: true
     text: 開始する
@@ -244,7 +262,7 @@ entries:
     text: 巨人の出現
   ev_assassination_notification_start__1s_notification_text:
     temp: true
-    text: '丘の間を縫って移動する間、移動基地は厳戒態勢だった。あなたの周りにも緊張が走っていた。そこに、技術者が司令室へと駆け込んできた。驚いて、アシスタントがデータパッドを落としてしまう。
+    text: 'The base on is on high alert as you weave through the field. Everyone around you is tense. When a technician bursts into the command room, one of the assistants drops her tablet in alarm.
 
 
       『妙な信号を受信しています、ボス。』彼がそう話す。『見たところ非常に重要なもののようです。』
@@ -311,12 +329,30 @@ entries:
 
 
       彼はトラックの後ろに積んだ装備を見せる。言う通りだ、見たところ悪くない。'
-  ev_blackmarket_interaction__2o_leave_header:
+  ev_blackmarket_interaction__2o_combat_header:
     temp: true
-    text: 離れる
-  ev_blackmarket_interaction__2o_leave_text:
+    text: Raid the Black market
+  ev_blackmarket_interaction__2o_combat_text:
     temp: true
-    text: どうせ詐欺師だろう。
+    text: Put a stop to their dealings.
+  ev_blackmarket_interaction__2o_report_header:
+    temp: true
+    text: Report to Home Guard
+  ev_blackmarket_interaction__2o_report_text:
+    temp: true
+    text: Let the Home Guard deal with them.
+  ev_blackmarket_interaction__2o_sell_bomb_header:
+    temp: true
+    text: Sell Bomb
+  ev_blackmarket_interaction__2o_sell_bomb_text:
+    temp: true
+    text: You have explosives you're not using.
+  ev_blackmarket_interaction__2o_sell_booze_header:
+    temp: true
+    text: Sell Booze
+  ev_blackmarket_interaction__2o_sell_booze_text:
+    temp: true
+    text: You have alcohol you're not using.
   ev_blackmarket_interaction__2o_trade_huge_header:
     temp: true
     text: 取引する
@@ -363,6 +399,444 @@ entries:
     temp: true
     text: 続ける
   ev_blackmarket_notification__2o_continue_text:
+    temp: true
+    text: ''
+  ev_blackmarket_raided__0c_name:
+    temp: true
+    text: ''
+  ev_blackmarket_raided__1s_combat_header:
+    temp: true
+    text: Black Market Bartering
+  ev_blackmarket_raided__1s_combat_text:
+    temp: true
+    text: 'Thinking better of it, you pull your team away from the stranger and his wares. He quickly shrugs off his disappointment and mutters something about cheap window shoppers. Spit hits on the ground at your back as you walk away.
+
+
+      Back on the mobile base, you give the order to prepare for a raid, and the base erupts into a flurry of motion.
+
+
+      There’s no reason to let this opportunity pass you by.'
+  ev_blackmarket_raided__2o_combat_header:
+    temp: true
+    text: 出動準備
+  ev_blackmarket_raided__2o_combat_text:
+    temp: true
+    text: Raid the black market.
+  ev_blackmarket_raided_defeat__0c_name:
+    temp: true
+    text: ''
+  ev_blackmarket_raided_defeat__1s_start_header:
+    temp: true
+    text: Market Muscle
+  ev_blackmarket_raided_defeat__1s_start_text:
+    temp: true
+    text: 'The unnerving stranger pings you through your communications channel.
+
+
+      The smoke hasn’t even cleared, yet.
+
+
+      “Heh, nice try, Brigade,” he chuckles. “But you aren’t the first to think they can skip the sacred ritual of [i]commerce[/i] and try taking things by force. We’re prepared for people like you, always.”
+
+
+      He signs off. At your side, your scout wonders aloud how he even knew your frequency.
+
+
+      You give him the order to get back to work.'
+  ev_blackmarket_raided_defeat__2o_acknowledge_header:
+    temp: true
+    text: 続ける
+  ev_blackmarket_raided_defeat__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_blackmarket_raided_victory__0c_name:
+    temp: true
+    text: ''
+  ev_blackmarket_raided_victory__1s_start_header:
+    temp: true
+    text: Market Warfare
+  ev_blackmarket_raided_victory__1s_start_text:
+    temp: true
+    text: 'Your scouts come back from their survey, and rattle off their reports.
+
+
+      “Most of the goods are intact,” says one, thumbing through the data on her pad, “though not all of it is going to be of use to us, of course. But there’s a lot here we can use.”
+
+
+      “We can be on our way whenever you need, boss,” says the other. “All is in order. They won’t be setting up shop here again anytime soon…”
+
+
+      You nod, and send them on their way. Your work here is done.'
+  ev_blackmarket_raided_victory__2o_acknowledge_header:
+    temp: true
+    text: 続ける
+  ev_blackmarket_raided_victory__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_blackmarket_report__0c_name:
+    temp: true
+    text: ''
+  ev_blackmarket_report__1s_start_header:
+    temp: true
+    text: Eyes on the Black Market
+  ev_blackmarket_report__1s_start_text:
+    temp: true
+    text: 'After you conclude your business with the stranger and his wares, you signal to your team to head back to the mobile base.
+
+
+      You tell your scout to send a report to the Home Guard, and to send it quickly. They should know about such an organization operating around the area.'
+  ev_blackmarket_report__2o_acknowledge_header:
+    temp: true
+    text: 続ける
+  ev_blackmarket_report__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_bomb_notification_civilain__0c_name:
+    temp: true
+    text: ''
+  ev_bomb_notification_civilain__1s_start_header:
+    temp: false
+    text: 過失
+  ev_bomb_notification_civilain__1s_start_text:
+    temp: false
+    text: 'あなたは今すぐ爆弾を移動基地から投げ捨てるよう指示した！
+
+
+      移動基地は加速し、爆弾からできるだけ距離を取った。爆発で背後の地面が揺れ、乗組員の誰かが端末に叩きつけられた音が聞こえた。
+
+
+      すべてが落ち着いたあとで、偵察員はやつれた表情で報告をまとめた。爆弾は民間人の集落に落下し、距離が近かったため重大な物的損害と街の住民数人に負傷者が出た。
+
+
+      あなたは知らせを受けると堅苦しくうなずいた。偵察員は敬礼すると急いで立ち去った。'
+  ev_bomb_notification_civilain__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_bomb_notification_civilain__2o_acknowledge_text:
+    temp: false
+    text: ''
+  ev_bomb_notification_fail__0c_name:
+    temp: true
+    text: ''
+  ev_bomb_notification_fail__1s_start_header:
+    temp: false
+    text: Out of Luck
+  ev_bomb_notification_fail__1s_start_text:
+    temp: false
+    text: 'You hear it before you feel it–the bomb going off, shaking the ground and pulsing in the air.
+
+
+      The screens in the command room go haywire, and the commotion makes the entire base erupt in noise. For a moment, you are dizzy, your senses swimming in static.
+
+
+      “Commander! Commander, I…” it’s your scout, her face ashen. “I’m sorry…”
+
+
+      You call for calm, and for order. A status report makes its way to you through the mouth of a very shaken technician.
+
+
+      After everything settles, you sit and take stock of the situation.'
+  ev_bomb_notification_fail__2o_civilains_header:
+    temp: false
+    text: The Civilians Are Gone
+  ev_bomb_notification_fail__2o_civilains_text:
+    temp: false
+    text: They left the base after the loss.
+  ev_bomb_notification_fail__2o_defector_header:
+    temp: false
+    text: The Defector Was Lost
+  ev_bomb_notification_fail__2o_defector_text:
+    temp: false
+    text: Caught in the blast.
+  ev_bomb_notification_fail__2o_pilot_header:
+    temp: false
+    text: Barely Survived
+  ev_bomb_notification_fail__2o_pilot_text:
+    temp: false
+    text: The pilot was critically injured in the explosion.
+  ev_bomb_notification_military __0c_name:
+    temp: true
+    text: ''
+  ev_bomb_notification_military __1s_start_header:
+    temp: false
+    text: Home Fire!
+  ev_bomb_notification_military __1s_start_text:
+    temp: false
+    text: 'あなたは今すぐ爆弾を移動基地から投げ捨てるよう指示した！
+
+
+      The base accelerates, putting as much distance between it and the bomb as possible. The walls shake with the explosion, and you nearly lose your footing. Someone’s datapad breaks into pieces on the floor.
+
+
+      You order an inspection when the base comes to a safe stop.
+
+
+      Later, a technician comes to you with a message from the Home Guard: the bomb you disposed of was set off next to an important military location…and they are not pleased.
+
+
+      The tech hurries off, embarrassed. You give the signal to get back on the road.'
+  ev_bomb_notification_military __2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_bomb_notification_military __2o_acknowledge_text:
+    temp: false
+    text: ''
+  ev_bomb_notification_off__0c_name:
+    temp: true
+    text: ''
+  ev_bomb_notification_off__1s_start_header:
+    temp: false
+    text: 間一髪
+  ev_bomb_notification_off__1s_start_text:
+    temp: false
+    text: '奇妙なコンテナが司令室のテーブルの上に慎重に置かれると、まわりは好奇心で人だかりができた。あなたが技術者に開けるよう合図すると、部屋は静まり返った。
+
+
+      パカッとふたが開く。そして、あなたは技術者の顔に目をやる。
+
+
+      『これを恐れていました。』技術者が口を開く。『爆弾です、司令官。』
+
+
+      そばで、偵察員が徐々に後ずさる。
+
+
+      『[i]生きてる[/i]わけではありません。』技術者が続けて言う。『ですが…ですがどうしますか、これ？』'
+  ev_bomb_notification_primed__0c_name:
+    temp: true
+    text: ''
+  ev_bomb_notification_primed__1s_start_header:
+    temp: false
+    text: カウントダウンだ！
+  ev_bomb_notification_primed__1s_start_text:
+    temp: false
+    text: '司令室に置かれた奇妙なコンテナの周りにみなが群がっている。あなたの指示で、技術者の一人がかがみ込み、作業を始める。掛け金が外れ、ふたが開いて軋むところを、みな固唾を呑んで見守る。
+
+
+      『ちくしょう！こりゃ爆弾だ―しかも[i]生きてる！[/i]』
+
+
+      まわりはみな緊張で張り詰めた表情だ。周囲にざわめきが広がる。
+
+
+      『運が良ければ解除できるかもしれませんが、急いでください、ボス！誰かに任せて、その間に移動基地をこの装置からできるだけ遠ざけてください！』'
+  ev_bomb_notification_primed__2o_civilian_header:
+    temp: false
+    text: 民間人に任せる
+  ev_bomb_notification_primed__2o_civilian_text:
+    temp: false
+    text: 民間人の爆弾処理専門家なら対処できる。
+  ev_bomb_notification_primed__2o_defector_header:
+    temp: false
+    text: 亡命者に任せる
+  ev_bomb_notification_primed__2o_defector_text:
+    temp: false
+    text: 敵の兵器に関する知識が役立つはずだ。
+  ev_bomb_notification_primed__2o_pilot_header:
+    temp: false
+    text: パイロットに任せる
+  ev_bomb_notification_primed__2o_pilot_text:
+    temp: false
+    text: 爆発物訓練を受けたパイロットならできるはずだ。
+  ev_bomb_notification_primed__2o_throw_header:
+    temp: false
+    text: 爆弾を投げる
+  ev_bomb_notification_primed__2o_throw_text:
+    temp: false
+    text: 止められない、基地から投げ捨てろ！
+  ev_bomb_notification_success__0c_name:
+    temp: true
+    text: ''
+  ev_bomb_notification_success__1s_start_header:
+    temp: false
+    text: すんでのところで！
+  ev_bomb_notification_success__1s_start_text:
+    temp: false
+    text: '移動基地に重く苦しい沈黙が流れた。やがて、安堵の空気が部屋中に広がり、あふれ出すように乗組員たちは声を掛け合った。
+
+
+      『やった。』偵察員がささやく。『信じられない！』
+
+
+      『ギリギリでしたね。』整備員が声をかける。
+
+
+      『もう[i]二度と[/i]勘弁してくださいよ？』技術者がうめく。
+
+
+      あなたが爆弾のもとに戻ると、装置は筐体から慎重に取り外され、検査のために慎重に置かれていた。技術者はひと通り検分すると、手に持ったパッドにデータを入力していく。喉で低く唸る。
+
+
+      『いまは問題ないはずです。』技術者が報告する。『これをどうしますか、司令官？』'
+  ev_bomb_notification_wires__0c_name:
+    temp: true
+    text: ''
+  ev_bomb_notification_wires__1s_start_header:
+    temp: false
+    text: 最後の手段
+  ev_bomb_notification_wires__1s_start_text:
+    temp: false
+    text: '『司令官、時間切れです！』
+
+
+      爆弾を解除する時間はもう残っていなかった。ノイズ越しに通信機から聞こえる声が緊張で震えている。
+
+
+      『もう、配線をどれか1本切るしかありません。どれか選んでください、司令官！早く！』'
+  ev_bomb_notification_wires__2o_blue_header:
+    temp: false
+    text: 青色の線
+  ev_bomb_notification_wires__2o_blue_text:
+    temp: false
+    text: ''
+  ev_bomb_notification_wires__2o_green_header:
+    temp: false
+    text: 緑色の線
+  ev_bomb_notification_wires__2o_green_text:
+    temp: false
+    text: ''
+  ev_bomb_notification_wires__2o_red_header:
+    temp: false
+    text: 赤色の線
+  ev_bomb_notification_wires__2o_red_text:
+    temp: false
+    text: ''
+  ev_booze_notification_factory__0c_name:
+    temp: true
+    text: ''
+  ev_booze_notification_factory__1s_start_header:
+    temp: true
+    text: A Hard Day’s Work
+  ev_booze_notification_factory__1s_start_text:
+    temp: true
+    text: 'Someone from the factory approaches you. A worker with a weathered, smiling face. He hauls a crate behind him, and as you peer past his shoulder into the open top, you see several bottles of alcohol packed tightly together.
+
+
+      One of your pilots whistles at the sight, and the man laughs.
+
+
+      “We don’t have much to give you,” he says. “But we do have some good vintage stocked up for an occasion like this. Here, it’s all yours, Commander.”
+
+
+      The crate gets taken to the base, and your pilot turns to you with a hopeful eye.
+
+
+      “What do you say we crack those open now, boss? It’d be [i]nice[/i] to unwind after all that…”'
+  ev_booze_notification_start__0c_name:
+    temp: true
+    text: ''
+  ev_booze_notification_start__1s_start_header:
+    temp: true
+    text: Lucky Lager
+  ev_booze_notification_start__1s_start_text:
+    temp: true
+    text: '“Whoa, hey…check this out!”
+
+
+      A group crowds around the container you found. Inside, you see several expensive-looking bottles, their labels slightly worn and their caps dusty, yet remarkably intact.
+
+
+      “Oh, this is the [i]good[/i] stuff, Commander,” remarks one of the techs. He holds a bottle up to the light and whistles. “You know the factory that used to make this stopped operations years ago? This is probably worth a lot…”
+
+
+      A scout snorts.
+
+
+      “Who cares how much they’re worth, just crack ‘em open!"'
+  ev_booze_notification_stash__0c_name:
+    temp: true
+    text: ''
+  ev_booze_notification_stash__1s_start_header:
+    temp: true
+    text: Our Heart and Soul
+  ev_booze_notification_stash__1s_start_text:
+    temp: true
+    text: 'Someone plops a large crate onto the table in front of you. Slowly, you look up, and take in the proud face of one of the townsmen. He beams at you, his mustache twitching in glee.
+
+
+      “We don’t have much to give you, Brigade, but this? [i]This[/i] is the heart and soul of our town,” he gestures to the alcohol in the crate. “We make it all locally, right down to the glass and the labels. You did us an enormous favor, so it’s only right you get to take some of our heart and soul with you!”
+
+
+      The townsman preens, and one of your pilots whistles at the offering.
+
+
+      “Please enjoy, and come back again to visit sometime!”'
+  ev_broadcast_notification_codes__0c_name:
+    temp: true
+    text: ''
+  ev_broadcast_notification_codes__1s_codes_header:
+    temp: false
+    text: Between the Lines
+  ev_broadcast_notification_codes__1s_codes_text:
+    temp: false
+    text: '“Something’s strange about this broadcast…”
+
+
+      Your analyst turns up the radio…and after a while, his eyes start to widen.
+
+
+      “Hey Commander, remember the mail we found with the coded messages? Well, I’m cross-referencing the data with the broadcast–and it’s [i]too close[/i]. These references, and numbers…even the ads…”
+
+
+      “If my hunch is right…we should check out the radio tower before they finish the broadcast. Who knows what’ll happen after if they do?” he finishes, looking disturbed.
+
+
+      You scout interjects. “We might learn something useful if we listen to the whole thing, though!”'
+  ev_broadcast_notification_codes__2o_acknowledge_header:
+    temp: true
+    text: Acknowledge
+  ev_broadcast_notification_codes__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_broadcast_notification_end__0c_name:
+    temp: true
+    text: ''
+  ev_broadcast_notification_end__1s_start_header:
+    temp: false
+    text: Losses and Lies
+  ev_broadcast_notification_end__1s_start_text:
+    temp: false
+    text: 'Your analyst has a heavy look on his face.
+
+
+      “We’ve just got word that the Guard has lost several units out at the edge of the province. That radio broadcast earlier…the timing is too conspicuous, Commander. I don’t like it.”
+
+
+      “You think the broadcast gave away the Guard’s location?” asks one of your scouts.
+
+
+      “Yes,” he nods. “If we’d stopped it earlier, then maybe…”
+
+
+      He trails off, and doesn’t finish the thought.
+
+
+      The radio is quiet.'
+  ev_broadcast_notification_end__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_broadcast_notification_end__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_broadcast_notification_standard__0c_name:
+    temp: true
+    text: ''
+  ev_broadcast_notification_standard__1s_standard_header:
+    temp: false
+    text: A Taste of Normal
+  ev_broadcast_notification_standard__1s_standard_text:
+    temp: false
+    text: '“Nice to hear that the radio broadcasts are still functioning normally in the area,” remarks your analyst as he turns the radio up. It’s a commercial break, and you find that the jingle is strangely addictive.
+
+
+      Trees and open fields stream by the windows.
+
+
+      You reach over and turn up the volume, and at your side, a scout is humming along.'
+  ev_broadcast_notification_standard__2o_acknowledge_header:
+    temp: false
+    text: 続ける
+  ev_broadcast_notification_standard__2o_acknowledge_text:
     temp: true
     text: ''
   ev_cache_interaction_defended__0c_name:
@@ -415,25 +889,13 @@ entries:
     text: 'あなたはマークされた地点に到着した。その場所を偵察するためパイロットを送り出す。
 
 
-      『誰の兆候もありません。』戻ってきてパイロットが話す。『すぐ前に建物がありますが、閉鎖されています。何らかの警報が張り巡らされているようです。どう対処したいですか？』'
-  ev_cache_locked_interaction_easy__2o_alarm_header:
-    temp: true
-    text: 警報突破
-  ev_cache_locked_interaction_easy__2o_alarm_text:
-    temp: true
-    text: ドアを蹴破り、ヤツらが来たら相手をする。
+      『何の兆候もありません。』戻ってきてパイロットが話す。『すぐ前に建物がありますが、閉鎖されています。何らかの警報が張り巡らされているようです。どう対処しますか？』'
   ev_cache_locked_interaction_easy__2o_force_header:
     temp: true
     text: 腕力を使う
   ev_cache_locked_interaction_easy__2o_force_text:
     temp: true
     text: 時間はかかるが警報を止められるだろう。
-  ev_cache_locked_interaction_easy__2o_leave_header:
-    temp: true
-    text: 離れる
-  ev_cache_locked_interaction_easy__2o_leave_text:
-    temp: true
-    text: ここまで騒ぐ価値があるか？
   ev_cache_locked_interaction_easy__2o_tools_header:
     temp: true
     text: 機材を使う
@@ -451,25 +913,13 @@ entries:
     text: 'あなたはマークされた地点に到着した。その場所を偵察するためパイロットを送り出す。
 
 
-      『誰の兆候もありません。』戻ってきてパイロットが話す。『すぐ前に建物がありますが、閉鎖されています。何らかの警報が張り巡らされているようです。どう対処したいですか？』'
-  ev_cache_locked_interaction_hard__2o_alarm_header:
-    temp: true
-    text: 警報突破
-  ev_cache_locked_interaction_hard__2o_alarm_text:
-    temp: true
-    text: ドアを蹴破り、ヤツらが来たら相手をする。
+      『何の兆候もありません。』戻ってきてパイロットが話す。『すぐ前に建物がありますが、閉鎖されています。何らかの警報が張り巡らされているようです。どう対処しますか？』'
   ev_cache_locked_interaction_hard__2o_force_header:
     temp: true
     text: 腕力を使う
   ev_cache_locked_interaction_hard__2o_force_text:
     temp: true
     text: 時間はかかるが警報を止められるだろう。
-  ev_cache_locked_interaction_hard__2o_leave_header:
-    temp: true
-    text: 離れる
-  ev_cache_locked_interaction_hard__2o_leave_text:
-    temp: true
-    text: ここまで騒ぐ価値があるか？
   ev_cache_locked_interaction_hard__2o_tools_header:
     temp: true
     text: 機材を使う
@@ -487,19 +937,13 @@ entries:
     text: 'あなたはマークされた地点に到着した。その場所を偵察するためパイロットを送り出す。
 
 
-      『誰の兆候もありません。』戻ってきてパイロットが話す。『すぐ前に建物がありますが、閉鎖されています。何らかの警報が張り巡らされているようです。どう対処したいですか？』'
+      『何の兆候もありません。』戻ってきてパイロットが話す。『すぐ前に建物がありますが、閉鎖されています。何らかの警報が張り巡らされているようです。どう対処しますか？』'
   ev_cache_locked_interaction_medium__2o_force_header:
     temp: true
     text: 腕力を使う
   ev_cache_locked_interaction_medium__2o_force_text:
     temp: true
     text: 時間はかかるが警報を止められるだろう。
-  ev_cache_locked_interaction_medium__2o_leave_header:
-    temp: true
-    text: 離れる
-  ev_cache_locked_interaction_medium__2o_leave_text:
-    temp: true
-    text: ここまで騒ぐ価値があるか？
   ev_cache_locked_interaction_medium__2o_tools_header:
     temp: true
     text: 機材を使う
@@ -680,6 +1124,141 @@ entries:
   ev_capsule_notification_intel__2o_rebury_text:
     temp: true
     text: そっと戻しておく。
+  ev_captive_interaction_delivered__0c_name:
+    temp: true
+    text: ''
+  ev_captive_interaction_delivered__1s_start_header:
+    temp: true
+    text: Delivery
+  ev_captive_interaction_delivered__1s_start_text:
+    temp: true
+    text: Have you got the captive you were odered to deliver
+  ev_captive_interaction_delivered__2o_no_header:
+    temp: true
+    text: What pilot, I do not know what you are talking about!
+  ev_captive_interaction_delivered__2o_no_text:
+    temp: true
+    text: ''
+  ev_captive_interaction_delivered__2o_yes_header:
+    temp: true
+    text: Yes, here you go.
+  ev_captive_interaction_delivered__2o_yes_text:
+    temp: true
+    text: ''
+  ev_captive_interaction_give__0c_name:
+    temp: true
+    text: ''
+  ev_captive_interaction_give__1s_start_header:
+    temp: true
+    text: Delivered Captive
+  ev_captive_interaction_give__1s_start_text:
+    temp: true
+    text: Hey, looks like you have a POW in the back; we can take them.
+  ev_captive_interaction_give__2o_acknowledge_header:
+    temp: true
+    text: Hand them over
+  ev_captive_interaction_give__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_captive_interaction_give__2o_decline_header:
+    temp: true
+    text: こんなことをしている時間はない。
+  ev_captive_interaction_give__2o_decline_text:
+    temp: true
+    text: I do not know what you are talking about.
+  ev_captive_interaction_recovery__0c_name:
+    temp: false
+    text: ''
+  ev_captive_interaction_recovery__1s_main_header:
+    temp: false
+    text: 救助目前のトラブルシューティング
+  ev_captive_interaction_recovery__1s_main_text:
+    temp: false
+    text: '『[i]本気で[/i]そうすると？』分析官が聞き返す。『たしかに救助実施を提案したのは私ですが、しかし…』
+
+
+      『どうした？』偵察員が眉を上げる。『二の足を踏んでるのは何故？』
+
+
+      『彼女を信頼して良いものか、そこだけが。簡単な、単なる取引だと彼女は言っていたでしょう？』分析官はこちらに目を向けながら、苛立ちを募らせている。『そもそも嘘だったら！もし彼女が我々を売ったら？』
+
+
+      偵察員はため息をつくと、あなたの方に向き直る。『パラノイアになってます。』
+
+
+      『正当な理由がある！どちらにせよ、亡命する者を誰が信じる？そんな訳がない。』
+
+
+      “Commander, what should we do?” the scout talks over him. She has her fingers on her tablet, ready to relay your orders.'
+  ev_captive_interaction_recovery__2o_recover_header:
+    temp: false
+    text: 亡命者を救出する
+  ev_captive_interaction_recovery__2o_recover_text:
+    temp: false
+    text: 彼女を連れ戻す。
+  ev_captive_interaction_recovery__2o_traitor_header:
+    temp: false
+    text: 離れる
+  ev_captive_interaction_recovery__2o_traitor_text:
+    temp: false
+    text: 彼女には自分でなんとかしてもらうしかない。
+  ev_captive_interaction_transfer__0c_name:
+    temp: true
+    text: ''
+  ev_captive_interaction_transfer__1s_start_header:
+    temp: true
+    text: POW
+  ev_captive_interaction_transfer__1s_start_text:
+    temp: true
+    text: Could you move a POW for us to a more secure location. We will even pay for the trouble.
+  ev_captive_interaction_transfer__2o_no_header:
+    temp: true
+    text: こんなことをしている時間はない。
+  ev_captive_interaction_transfer__2o_no_text:
+    temp: true
+    text: ''
+  ev_captive_interaction_transfer__2o_yes_header:
+    temp: true
+    text: はい
+  ev_captive_interaction_transfer__2o_yes_text:
+    temp: true
+    text: You will receive some supplies on arrival.
+  ev_captive_notification_convert__0c_name:
+    temp: true
+    text: ''
+  ev_captive_notification_convert__1s_start_header:
+    temp: true
+    text: Let me help
+  ev_captive_notification_convert__1s_start_text:
+    temp: true
+    text: 'Wherewer you are taking me I can be of more help here. '
+  ev_captive_notification_convert__2o_base_header:
+    temp: true
+    text: Sure, stay on the base and help us out.
+  ev_captive_notification_convert__2o_base_text:
+    temp: true
+    text: ''
+  ev_captive_notification_convert__2o_no_header:
+    temp: true
+    text: No way we are letting you go
+  ev_captive_notification_convert__2o_no_text:
+    temp: true
+    text: ''
+  ev_captive_notification_fail__0c_name:
+    temp: true
+    text: ''
+  ev_captive_notification_fail__1s_fail_header:
+    temp: true
+    text: Failed to deliver
+  ev_captive_notification_fail__1s_fail_text:
+    temp: true
+    text: You can deal with the captive we no longer need them.
+  ev_captive_notification_fail__2o_acknowledge_header:
+    temp: true
+    text: ok
+  ev_captive_notification_fail__2o_acknowledge_text:
+    temp: true
+    text: ''
   ev_captive_notification_start__0c_name:
     temp: true
     text: ''
@@ -803,6 +1382,45 @@ entries:
   ev_cat_notification_activity__2o_leave_text:
     temp: true
     text: 怨霊を怒らせる意味はない。
+  ev_cat_notification_donate__0c_name:
+    temp: false
+    text: ''
+  ev_cat_notification_donate__1s_donate_header:
+    temp: false
+    text: 新しい友達
+  ev_cat_notification_donate__1s_donate_text:
+    temp: false
+    text: '『えぇと、すみません…』
+
+
+      搭乗中の民間人のひとりである幼い男の子が、クレートの山の上で丸まる猫を指さしている。猫はうとうとしながら、夢の中で尻尾をくねらせている。
+
+
+      『飼いたいな…みたいな…』子供が後ずさる。顔が真っ赤だ。
+
+
+      『あら、だめよ。』うしろの女性が声をかけ、やって来ると子供の肩に手をかけた。『すみません、司令官さん。この子ったらあそこの子猫に、もう夢中なんです…。寂しいのかしら。』
+
+
+      気恥ずかしそうに話す。『旅団さんのものだって説明したんですけど、ご存知のように子どもはどうしても…』'
+  ev_cat_notification_donate__2o_donate_header:
+    temp: false
+    text: 猫を譲る
+  ev_cat_notification_donate__2o_donate_text:
+    temp: false
+    text: あの猫には家が必要だ。
+  ev_cat_notification_donate__2o_instead_header:
+    temp: false
+    text: 犬を譲る
+  ev_cat_notification_donate__2o_instead_text:
+    temp: false
+    text: 家を必要としている犬がいる。
+  ev_cat_notification_donate__2o_refuse_header:
+    temp: false
+    text: 立ち去る
+  ev_cat_notification_donate__2o_refuse_text:
+    temp: false
+    text: 猫はここに残す。
   ev_cat_notification_play__0c_name:
     temp: true
     text: ''
@@ -872,12 +1490,18 @@ entries:
 
 
       『あまり』屋台の持ち主が答える。『でも商品を抱えて旅をするのはもう危なすぎる。人助けだと思って取引しないか？そしたらみんなに良い奴だって伝えるさ。』'
-  ev_civilianmarket_interaction__2o_leave_header:
+  ev_civilianmarket_interaction__2o_sell_bomb_header:
     temp: true
-    text: 離れる
-  ev_civilianmarket_interaction__2o_leave_text:
+    text: Sell Bomb
+  ev_civilianmarket_interaction__2o_sell_bomb_text:
     temp: true
-    text: ここでは何も買えそうにない。物資が不足している。
+    text: Selling explosives to civilians cannot end well.
+  ev_civilianmarket_interaction__2o_sell_booze_header:
+    temp: true
+    text: Sell Booze
+  ev_civilianmarket_interaction__2o_sell_booze_text:
+    temp: true
+    text: ''
   ev_civilianmarket_interaction__2o_trade_huge_header:
     temp: true
     text: 取引する
@@ -923,6 +1547,78 @@ entries:
   ev_civilianmarket_notification__2o_continue_text:
     temp: true
     text: ''
+  ev_codes_interaction_combat__0c_name:
+    temp: true
+    text: Generic Combat 04
+  ev_codes_interaction_combat__1s_combat_header:
+    temp: false
+    text: Tower Takedown
+  ev_codes_interaction_combat__1s_combat_text:
+    temp: false
+    text: 'It looks just like any other radio tower you’ve seen. But you know that looks can be deceiving.
+
+
+      “We’re ready to engage when you are, Commander,” your analyst says. You see him tracking the broadcast on one screen, and compiling coded data on the other.
+
+
+      Eyes trained on the front door, you consider your options.'
+  ev_codes_interaction_combat__2o_combat_header:
+    temp: false
+    text: 出動準備
+  ev_codes_interaction_combat__2o_combat_text:
+    temp: false
+    text: 部隊と戦闘準備に取り掛かる。
+  ev_codes_interaction_victory__0c_name:
+    temp: true
+    text: ''
+  ev_codes_interaction_victory__1s_victory_header:
+    temp: false
+    text: Silencing the Cry
+  ev_codes_interaction_victory__1s_victory_text:
+    temp: false
+    text: 'You take a break during your walkthrough of the battleground, taking in the scene around you.
+
+
+      A mechanic inspects one of the mechs, murmuring to himself about reckless pilots and priceless metals. Next to him, a group of analysts argue amongst themselves, and a scout chatters into her handheld radio, musing about enemy codes and communications strategies…
+
+
+      All in a day’s work.
+
+
+      You glance behind you, at the tower looming overhead.
+
+
+      Silent, for now.'
+  ev_codes_interaction_victory__2o_acknowledged_header:
+    temp: false
+    text: 終わり
+  ev_codes_interaction_victory__2o_acknowledged_text:
+    temp: false
+    text: Time to move on.
+  ev_codes_notification_location__0c_name:
+    temp: true
+    text: ''
+  ev_codes_notification_location__1s_location_header:
+    temp: false
+    text: Cache Advance
+  ev_codes_notification_location__1s_location_text:
+    temp: false
+    text: '“Huh, that sounds familiar…wait, there was something in the codes…hmm…what if…”
+
+
+      Your analyst flies through the mail codes in a flurry of motion, cross-referencing the data with the radio broadcast coming from the tower.
+
+
+      And then he goes rigid, his eyes alight with excitement.
+
+
+      “Commander…[i]Commander[/i]! If I’m right, the broadcast is signaling the location of a [i]cache[/i],” he brings up a map on his screen. “Here!”'
+  ev_codes_notification_location__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_codes_notification_location__2o_acknowledge_text:
+    temp: true
+    text: ''
   ev_combat_interaction_fallback__0c_name:
     temp: true
     text: ''
@@ -935,6 +1631,89 @@ entries:
 
 
       機体を再配備するために基地は身を隠して山岳基地まで後退する必要があります。潜伏しながらとなるため、時間を要しますが、少なくとも移動基地は補給を受けられるようになり明日の戦いに向けて生き延びることができます。'
+  ev_conscripts_interaction_eliminated__0c_name:
+    temp: false
+    text: ''
+  ev_conscripts_interaction_eliminated__1s_eliminated_header:
+    temp: false
+    text: 最後にもうひとつだけ
+  ev_conscripts_interaction_eliminated__1s_eliminated_text:
+    temp: false
+    text: '『彼らと戦う以外できることはなかった、それはわかってるんです。でも次からはこの状況を避けられることを願うばかりです、ボス。』整備員が話す。その表情は重い。
+
+
+      彼が立ち去ると、亡命者がそばにやってきた。目を合わせようとはせず、話し始めてもその声は普段より静かなものだった。
+
+
+      『足を止めるわけにはいきません…』彼女が告げる。『ぐずぐずしていても意味はありません、おわかりでしょう？』
+
+
+      彼女が立ち去り、あなたは移動指示を出した。'
+  ev_conscripts_interaction_eliminated__2o_continue_header:
+    temp: false
+    text: 立ち去る
+  ev_conscripts_interaction_eliminated__2o_continue_text:
+    temp: false
+    text: 旅路に就く。
+  ev_conscripts_interaction_retreat__0c_name:
+    temp: false
+    text: ''
+  ev_conscripts_interaction_retreat__1s_main_header:
+    temp: false
+    text: 前線に立つ徴集兵
+  ev_conscripts_interaction_retreat__1s_main_text:
+    temp: false
+    text: '亡命者が前回の戦闘データをじっと見つめ、喉を低く鳴らしている。
+
+
+      『敵パイロットの一人についてわかりました。この者はこの州から徴兵されたようです。』
+
+
+      『ヤツらは我が同胞を前線に立たせているのか？卑劣な！』整備員のひとりが吐き捨てるように言う。そしてあなたのほうを向くと、心配そうな顔を見せた。『前の戦いで上手くいかなかったことはわかっています、ボス、ですが…もし我々の戦っている相手が同胞だというのなら、再び戦おうという気にはなれそうもありません。』
+
+
+      『あなたの同胞とやらは至るところで徴兵されているんです。増え続ける以上、今さら手を引いたところで何も変わりません。』亡命者が主張するが、整備員は彼女を無視した。
+
+
+      整備員が怒って出ていったところで彼女と目が合い、彼女はただ肩をすくめた。
+
+
+      『これは戦争です。寝覚めが悪いなんて言わないでくださいね。』'
+  ev_conscripts_interaction_retreat__2o_continue_header:
+    temp: false
+    text: 続ける
+  ev_conscripts_interaction_retreat__2o_continue_text:
+    temp: false
+    text: ''
+  ev_crackdown_notification_start__0c_name:
+    temp: true
+    text: ''
+  ev_crackdown_notification_start__1s_start_header:
+    temp: true
+    text: Crackdown
+  ev_crackdown_notification_start__1s_start_text:
+    temp: true
+    text: 'You receive a message from the Home Guard, which your scout reads off her pad:
+
+
+      [i]Good tip about the black market’s movements, Brigade.
+
+
+      We’ve sent out a team to handle the situation, so rest easy, and let us take care of it. Soon enough we’ll be cracking down on all black market activity in the area, and it’s all thanks to you.
+
+
+      Cheers, Commander.
+
+      Always love to watch you work.[/i]
+
+
+      She finishes her report and gives you a happy salute, and you get back to work.'
+  ev_crackdown_notification_start__2o_acknowledge_header:
+    temp: true
+    text: Acknowledge
+  ev_crackdown_notification_start__2o_acknowledge_text:
+    temp: true
+    text: ''
   ev_defector_interaction_captured__0c_name:
     temp: true
     text: ''
@@ -1244,6 +2023,21 @@ entries:
   ev_difficulty_notification__2o_continue_text:
     temp: true
     text: ''
+  ev_director_interaction_canceled__0c_name:
+    temp: true
+    text: ''
+  ev_director_interaction_canceled__1s_start_header:
+    temp: true
+    text: Cancel Director Event
+  ev_director_interaction_canceled__1s_start_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_director_interaction_canceled__2o_confirm_header:
+    temp: true
+    text: confirm
+  ev_director_interaction_canceled__2o_confirm_text:
+    temp: true
+    text: ''
   ev_director_interaction_combat__0c_name:
     temp: true
     text: ''
@@ -1463,6 +2257,45 @@ entries:
   ev_director_notification_encounter__2o_messages_inquire_text:
     temp: true
     text: もっと話を聞く。
+  ev_dog_notification_donate__0c_name:
+    temp: false
+    text: ''
+  ev_dog_notification_donate__1s_donate_header:
+    temp: false
+    text: 新しい仲間
+  ev_dog_notification_donate__1s_donate_text:
+    temp: false
+    text: 'You walk through the mobile base during an inspection, tablet in hand. As you turn a corner, you nearly trip when your leg catches on something soft.
+
+
+      『あら、ごめんなさい、司令官さん。』壁際の腰掛けに座る老婆が声をかける。見た目からして、民間人の一人のようだ。
+
+
+      あなたの足元では、古い布の塊を口に咥えて、あなたを見上げている。ふたりは遊んでいるようだ。
+
+
+      『そちらの小さなお客さんはここがとても退屈なようね。』老婆はそう説明すると笑った。『それは私もですの、本当のところはね。でも小さな毛むくじゃらのおしゃべり相手がそばに居てくれるだけ良いですわ。家に帰ってもそんな子はいませんでしたからね…』
+
+
+      老婆が犬にウィンクする。『でもいまは、それどころじゃないとわかってるつもりですのよ！』'
+  ev_dog_notification_donate__2o_donate_header:
+    temp: false
+    text: 犬を譲る
+  ev_dog_notification_donate__2o_donate_text:
+    temp: false
+    text: 彼女は新しい友人がほしいようだ。
+  ev_dog_notification_donate__2o_instead_header:
+    temp: false
+    text: 猫を譲る
+  ev_dog_notification_donate__2o_instead_text:
+    temp: false
+    text: 友人を求める猫ならいる。
+  ev_dog_notification_donate__2o_refuse_header:
+    temp: false
+    text: 立ち去る
+  ev_dog_notification_donate__2o_refuse_text:
+    temp: false
+    text: 犬はあなたの下に残る。
   ev_dog_notification_found__0c_name:
     temp: true
     text: ペット
@@ -1525,7 +2358,7 @@ entries:
     text: 飼い続ける
   ev_dog_notification_owner__2o_attached_no_text:
     temp: true
-    text: 心を抉られるが、行かせてあげなくては。
+    text: He's part of your crew now.
   ev_dog_notification_owner__2o_attached_yes_header:
     temp: true
     text: さよならを告げる
@@ -1682,6 +2515,27 @@ entries:
   ev_draft_interaction_delivered_frontal__2o_leave_text:
     temp: true
     text: 旅路に戻るときだ。
+  ev_draft_interaction_delivered_missing__0c_name:
+    temp: true
+    text: ''
+  ev_draft_interaction_delivered_missing__1s_main_header:
+    temp: true
+    text: 家には、もう…
+  ev_draft_interaction_delivered_missing__1s_main_text:
+    temp: true
+    text: '合流地点で、祖国軍の工作員は愕然とした。
+
+
+      『彼らを失った？どうしてそのようなことが？』工作員が失望した様子で顔を横に振る。『これから尻拭いをせねばならんだろうな。』
+
+
+      彼は足早に立ち去った。残されたのはあなたひとりだった。'
+  ev_draft_interaction_delivered_missing__2o_leave_header:
+    temp: true
+    text: 作戦中止
+  ev_draft_interaction_delivered_missing__2o_leave_text:
+    temp: true
+    text: ''
   ev_draft_interaction_delivered_retry__0c_name:
     temp: true
     text: ''
@@ -2027,6 +2881,60 @@ entries:
   ev_draft_notification_message__2o_investigate_text:
     temp: true
     text: 座標を受け取り祖国軍工作員と合流する。
+  ev_electrical_notification_recovered__0c_name:
+    temp: true
+    text: ''
+  ev_electrical_notification_recovered__1s_start_header:
+    temp: true
+    text: Battery Recovered
+  ev_electrical_notification_recovered__1s_start_text:
+    temp: true
+    text: The silence of the power outage is eerie. The base, with the hum of all the equipment, is rarely so quiet. Your crew speaks softer, as if adjusting for the lack. Then, a triumphant shout, and all systems reboot, flickering back online.
+  ev_electrical_notification_recovered__2o_continue_header:
+    temp: true
+    text: 続ける
+  ev_electrical_notification_recovered__2o_continue_text:
+    temp: true
+    text: With recovered power and spirits, you’re back to your mission.
+  ev_electrical_notification_start__0c_name:
+    temp: false
+    text: ''
+  ev_electrical_notification_start__1s_start_header:
+    temp: false
+    text: 大気圧
+  ev_electrical_notification_start__1s_start_text:
+    temp: false
+    text: '今日は嵐の予報だったが、これほどとは聞いていなかった。稲妻が空を白く切り裂き、近くに落ちると大地を揺るがした。雨は周囲をホワイト・ノイズで覆ってしまった。雷雨でさえなければ、センサーでナビゲートできたかもしれないが、駄目だった。
+
+
+      You’re contemplating the best course of action when the mobile base goes abruptly dark. Disgruntled and concerned murmurs rise from the crew. The lights flicker back up on emergency power, and red lights are flashing on the charging mech reactors.
+
+
+      Well. That narrows your options.'
+  ev_electrical_notification_start__2o_civilians_header:
+    temp: false
+    text: Ask Civilians for Help
+  ev_electrical_notification_start__2o_civilians_text:
+    temp: false
+    text: Maybe they’ve seen this sort of electrical failure before.
+  ev_electrical_notification_start__2o_fuel_header:
+    temp: false
+    text: Replace Parts
+  ev_electrical_notification_start__2o_fuel_text:
+    temp: false
+    text: The pilots know their machines well.
+  ev_electrical_notification_start__2o_repair_header:
+    temp: false
+    text: Your Pilots Can Regenerate the Reactor
+  ev_electrical_notification_start__2o_repair_text:
+    temp: false
+    text: The pilots know their machines well.
+  ev_electrical_notification_start__2o_wait_header:
+    temp: false
+    text: Wait for the Battery to Regenerate
+  ev_electrical_notification_start__2o_wait_text:
+    temp: false
+    text: Perhaps the storm is a sign to slow down.
   ev_expendable_notification__0c_name:
     temp: true
     text: ''
@@ -2222,6 +3130,243 @@ entries:
   ev_festival_interaction_intel__2o_leave_text:
     temp: true
     text: 目前にもっと差し迫った問題がある。
+  ev_fusion_interaction_combat__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_interaction_combat__1s_combat_header:
+    temp: false
+    text: Vigilance
+  ev_fusion_interaction_combat__1s_combat_text:
+    temp: false
+    text: 'You’ve made it to the reactor in time!
+
+
+      Ahead of you, the reactor stands intact, and all seems quiet on the outside…
+
+
+      “Ready to engage on your signal, Commander.”
+
+
+      Still, there is no time to deliberate. You make your choice.'
+  ev_fusion_interaction_combat__2o_combat_header:
+    temp: false
+    text: 距離
+  ev_fusion_interaction_combat__2o_combat_text:
+    temp: false
+    text: Engage the enemy head on!
+  ev_fusion_interaction_combat__2o_defector_header:
+    temp: false
+    text: Defector Defusal
+  ev_fusion_interaction_combat__2o_defector_text:
+    temp: false
+    text: Send the Defector to defuse explosives.
+  ev_fusion_interaction_combat__2o_pilot_header:
+    temp: false
+    text: Pilot Defusal
+  ev_fusion_interaction_combat__2o_pilot_text:
+    temp: false
+    text: Send a pilot to defuse explosives.
+  ev_fusion_notification_fail_close__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_notification_fail_close__1s_fail_header:
+    temp: false
+    text: Close to Home
+  ev_fusion_notification_fail_close__1s_fail_text:
+    temp: false
+    text: 'Your ears are ringing.
+
+
+      As you pull yourself off the floor, the commotion floods your senses all at once: the wild crush of anxious voices, and the pounding of feet on the ground. All around you, the consoles flash red with danger.
+
+
+      “The reactor…” whispers your scout. “It’s…”
+
+
+      Gone.'
+  ev_fusion_notification_fail_close__2o_acknowledge_defector_header:
+    temp: false
+    text: Defector Lost
+  ev_fusion_notification_fail_close__2o_acknowledge_defector_text:
+    temp: false
+    text: The Defector is gone…
+  ev_fusion_notification_fail_close__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_fusion_notification_fail_close__2o_acknowledge_pilot_header:
+    temp: false
+    text: Pilot Lost
+  ev_fusion_notification_fail_close__2o_acknowledge_pilot_text:
+    temp: false
+    text: Your pilot is gone...
+  ev_fusion_notification_fail_close__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_fusion_notification_fail_distant__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_notification_fail_distant__1s_fail_header:
+    temp: false
+    text: That Light Over There
+  ev_fusion_notification_fail_distant__1s_fail_text:
+    temp: false
+    text: 'The ground shakes hard enough to nearly knock the base off balance. Far in the distance, the sound of the explosion splits through the air, so loud and heavy that you feel it in your bones.
+
+
+      A scout picks herself up from off the floor, and gasps, “That was...that was terrifying…”
+
+
+      “It’s…” whispers an analyst, with dawning horror. “That whole area, it’s…”
+
+
+      Gone.'
+  ev_fusion_notification_fail_distant__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_fusion_notification_fail_distant__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_fusion_notification_interrupt__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_notification_interrupt__1s_interrupt_header:
+    temp: false
+    text: Caught at a Bad Time
+  ev_fusion_notification_interrupt__1s_interrupt_text:
+    temp: false
+    text: '“Damn, that skirmish took time we don’t really have, Commander,” a technician spits.
+
+
+      “We need to get back on track,” your analyst’s fingers fly over his console. His voice is steady, but his expression betrays his worry. “The explosives are [i]still[/i] on that reactor, in case anyone forgot!”
+
+
+      You signal the base to move. You’ve wasted enough time!'
+  ev_fusion_notification_interrupt__2o_continue_header:
+    temp: false
+    text: 続ける
+  ev_fusion_notification_interrupt__2o_continue_text:
+    temp: true
+    text: ''
+  ev_fusion_notification_start__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_notification_start__1s_start_header:
+    temp: false
+    text: Eye for an Eye
+  ev_fusion_notification_start__1s_start_text:
+    temp: false
+    text: '“Incoming emergency transmission!”
+
+
+      Through the radio static, the Home Guard agent’s voice is sharp with urgency:
+
+
+      [i]Wish I came with better news, Brigade, but we’re hearing the enemy has a power reactor rigged with explosives. We believe this attack is in response to all our activity in the province lately.
+
+
+      Commander…we can’t let that reactor go off. The damage would be catastrophic![/i]
+
+
+      “The Guard are offering their help,” reports your analyst. “But this is a retaliatory strike rather than a strategic one, boss…we should be prepared for anything.”'
+  ev_fusion_notification_start__2o_accept_distract_header:
+    temp: false
+    text: Civilian Distraction
+  ev_fusion_notification_start__2o_accept_distract_text:
+    temp: false
+    text: Use a less direct approach.
+  ev_fusion_notification_start__2o_accept_header:
+    temp: false
+    text: 受諾
+  ev_fusion_notification_start__2o_accept_help_header:
+    temp: false
+    text: Defector Distraction
+  ev_fusion_notification_start__2o_accept_help_text:
+    temp: false
+    text: Use a less direct approach.
+  ev_fusion_notification_start__2o_accept_text:
+    temp: false
+    text: The Brigade will tackle it head-on.
+  ev_fusion_notification_start__2o_army_header:
+    temp: false
+    text: Defer to Guard
+  ev_fusion_notification_start__2o_army_text:
+    temp: false
+    text: The Home Guard can handle it.
+  ev_fusion_notification_start__2o_giveup_header:
+    temp: false
+    text: 降伏
+  ev_fusion_notification_start__2o_giveup_text:
+    temp: false
+    text: Don’t risk the reactor.
+  ev_fusion_notification_successarmy__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_notification_successarmy__1s_success_header:
+    temp: false
+    text: Home Guardians
+  ev_fusion_notification_successarmy__1s_success_text:
+    temp: false
+    text: 'You had been prepared for the worst.
+
+
+      But then the words are coming through the radio, and the tension rolls off you like rainwater:
+
+
+      “Reactor secured, Brigade.”
+
+
+      The voice of the Home Guard agent is dampened by radio static. Still, you can hear her triumph, her pride. You sign off and turn to your crew, all of whom are grinning wide with relief.
+
+
+      Your allies have it handled. Now, you must move on.'
+  ev_fusion_notification_successarmy__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_fusion_notification_successarmy__2o_acknowledge_text:
+    temp: false
+    text: ''
+  ev_fusion_notification_successpb__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_notification_successpb__1s_start_header:
+    temp: false
+    text: All in a Day’s Work
+  ev_fusion_notification_successpb__1s_start_text:
+    temp: false
+    text: 'The radio crackles. Everyone holds their breath.
+
+
+      “Reactor secured, Commander!”
+
+
+      The scout next to you collapses into her chair, her face slack with relief. Footsteps beat the floor, and the base swells with noise as the crew jumps into action. There are post-mission sweeps to do, check-ins to complete…
+
+
+      You look at the reactor in the distance, whole and stable.
+
+
+      And then you move on.'
+  ev_fusion_notification_successpb__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_fusion_notification_successpb__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_fusion_notification_warning__0c_name:
+    temp: true
+    text: ''
+  ev_fusion_notification_warning__1s_warning_header:
+    temp: false
+    text: Running in the Dark
+  ev_fusion_notification_warning__1s_warning_text:
+    temp: false
+    text: "“Message from the Guard: the enemy has cut all communications. State of the reactor is now unknown! We’re in the dark now, Commander!”\n\nYou give a stiff nod.\n \nOne of the scouts sits on her shaking hands, and you hear her muttering to herself, “Please…[i]please[/i]…”"
+  ev_fusion_notification_warning__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_fusion_notification_warning__2o_acknowledge_text:
+    temp: true
+    text: ''
   ev_generation_notification_reset__0c_name:
     temp: true
     text: おかえりなさい
@@ -2240,6 +3385,120 @@ entries:
   ev_generation_notification_reset__2o_confirm_text:
     temp: true
     text: 基地を起動して出発の準備だ。
+  ev_infiltration_notification_fail__0c_name:
+    temp: false
+    text: ''
+  ev_infiltration_notification_fail__1s_fail_header:
+    temp: false
+    text: 深入りのし過ぎ
+  ev_infiltration_notification_fail__1s_fail_text:
+    temp: false
+    text: 'Your console flashes in warning. At your side, the analyst types furiously on his tablet before turning to you.
+
+
+      『駄目です、ボス。』分析官が声を上げる。『引き上げましょう、いますぐ！』
+
+
+      偵察員のひとりが割って入る。必死の形相だ。『おい、待て、彼女がまだ中に！』
+
+
+      『我々がここに留まれば、彼女も危険に晒されます！』
+
+
+      基地の動力が入ると、分析官があなたに向き直る。『ボス、事態が落ち着けば救出に乗り出すこともできます。しかし今は、我々が近くにいても事態が悪化するだけです。』
+
+
+      あなたはうなずき、撤退命令を出す。'
+  ev_infiltration_notification_fail__2o_continue_header:
+    temp: false
+    text: 続ける
+  ev_infiltration_notification_fail__2o_continue_text:
+    temp: false
+    text: ''
+  ev_infiltration_notification_start__0c_name:
+    temp: false
+    text: ''
+  ev_infiltration_notification_start__1s_start_header:
+    temp: false
+    text: 欲望、潜伏、迷彩
+  ev_infiltration_notification_start__1s_start_text:
+    temp: false
+    text: '『司令官！ちょっとよろしいですか？』亡命者がやってきて、声を掛ける。彼女は画面上のデータをじっと見つめている。『この地点に潜入できるかもしれません…お望みなら、建物内に保管されている加工室用の材料を入手できます。戦う必要すらありません。』
+
+
+      『本当ですか？』分析官のひとりが尋ねる。
+
+
+      彼女はうなずく。
+
+
+      『もちろん、[i]邪魔[/i]をされないことが条件ですが。この前哨基地は完全に孤立しています。私が亡命したことすら知らない可能性が高いです。』
+
+
+      分析官があなたの方に向き直る。彼は懐疑的なようだ。『どう思われますか、ボス？』'
+  ev_infiltration_notification_start__2o_agree_header:
+    temp: false
+    text: 賛成
+  ev_infiltration_notification_start__2o_agree_text:
+    temp: false
+    text: やらせてみよう。
+  ev_infiltration_notification_start__2o_ignore_header:
+    temp: false
+    text: 却下
+  ev_infiltration_notification_start__2o_ignore_text:
+    temp: false
+    text: 危険を冒すほどの価値はない。
+  ev_infiltration_notification_success__0c_name:
+    temp: false
+    text: ''
+  ev_infiltration_notification_success__1s_success_header:
+    temp: false
+    text: 戦利品は勝者の手に
+  ev_infiltration_notification_success__1s_success_text:
+    temp: false
+    text: '『大漁だ』分析官はヒューッと口笛を吹くと、戦利品を見渡して目を大きくした。『わぉ！加工室の技術部長がこれを見たら、[i]アタマ[/i]がおかしくなってしまうな。』
+
+
+      亡命者がうなずく。少し消耗しているようだが、その顔は誇らしげだ。『あそこでは本当にギリギリを攻めましたが…ですから、これがいつでもできるとはお考えなさりませんように、司令官。』
+
+
+      物資を加工室に運ぶのを手伝うよう分析官が手招きするので、亡命者はその後に付いて行った。あなたは自分の端末に向き直り、次の一手に考えを向けた。'
+  ev_infiltration_notification_success__2o_continue_header:
+    temp: false
+    text: 終わり
+  ev_infiltration_notification_success__2o_continue_text:
+    temp: false
+    text: ''
+  ev_infiltration_notification_terminate__0c_name:
+    temp: false
+    text: ''
+  ev_infiltration_notification_terminate__1s_terminate_header:
+    temp: false
+    text: 不運
+  ev_infiltration_notification_terminate__1s_terminate_text:
+    temp: false
+    text: '分析官の手が端末上を電光石火で行き来する。端末上ではデータ・ポイントがいくつも流れていき、分析官は息を切らして声にならない悲鳴を上げている。
+
+
+      『ボス、発見されました！引き上げねばなりません、[i]いますぐ[/i]！』
+
+
+      『待て、彼女がまだ中にいる！』そばにいた偵察員が叫ぶ。
+
+
+      『待ってはいられません、すぐに大変なことになります。』分析官が言い返す。彼はあなたを見上げ、一瞬手を止めた。急速離脱に向けて移動基地が始動する機械音だけがまわりで響く。
+
+
+      『周辺を掃討したあとで救出任務を実施すれば、彼女にも打つ手が生まれます。ですが今は、逃げなければ！』
+
+
+      あなたはうなずき、合図した。'
+  ev_infiltration_notification_terminate__2o_continue_header:
+    temp: false
+    text: 続ける
+  ev_infiltration_notification_terminate__2o_continue_text:
+    temp: false
+    text: ''
   ev_lightsout_interaction_end__0c_name:
     temp: true
     text: 送電
@@ -2330,6 +3589,96 @@ entries:
   ev_lostweapon_notification_intel__2o_leave_text:
     temp: true
     text: 今その余裕はない。
+  ev_mail_interaction_delivered__0c_name:
+    temp: false
+    text: ''
+  ev_mail_interaction_delivered__1s_start_header:
+    temp: false
+    text: Signed and Stamped
+  ev_mail_interaction_delivered__1s_start_text:
+    temp: false
+    text: 'You send a scout out to the town''s post office with the container of mail tucked in her arm. When she returns, her expression is mildly confused.
+
+
+      “Oh, it’s nothing,” she says, glancing back at the direction she came. “Just a mail run, right? I guess I’m just not used to things being so…simple! I didn’t even get shot at!”
+
+
+      One of your mechanics snorts. “Careful, the day’s not over yet.”
+
+
+      She laughs and shrugs it off, and you give the signal to get moving.'
+  ev_mail_interaction_delivered__2o_acknowledge_header:
+    temp: false
+    text: Head Out
+  ev_mail_interaction_delivered__2o_acknowledge_text:
+    temp: false
+    text: Get back on the road.
+  ev_mail_notification_defector__0c_name:
+    temp: false
+    text: ''
+  ev_mail_notification_defector__1s_start_header:
+    temp: false
+    text: To Whom it May Concern
+  ev_mail_notification_defector__1s_start_text:
+    temp: false
+    text: 'At your order, a scout carefully opens the strange container. Inside it is a large bundle of envelopes…judging by the stamps and addresses, it’s a stack of civilian mail.
+
+
+      “Mind if I take a look at those?” asks the defector.
+
+
+      Her fingers move through the stash lightning fast–and the further she gets, the heavier her frown becomes.
+
+
+      “As I thought…these are codes, Commander. I don’t have the cipher so I can’t decode them for you, but if you deliver these, you’d be handing intel directly to enemy spies stationed at the delivery point.”
+
+
+      Your scout, who had been watching in curiosity, backs away in alarm.'
+  ev_mail_notification_defector__2o_keep_header:
+    temp: false
+    text: Keep Codes
+  ev_mail_notification_defector__2o_keep_text:
+    temp: false
+    text: You’ll hang onto them for now.
+  ev_mail_notification_defector__2o_report_header:
+    temp: false
+    text: Report It
+  ev_mail_notification_defector__2o_report_text:
+    temp: false
+    text: The Home Guard should know.
+  ev_mail_notification_start__0c_name:
+    temp: false
+    text: ''
+  ev_mail_notification_start__1s_start_header:
+    temp: false
+    text: You've Got Mail!
+  ev_mail_notification_start__1s_start_text:
+    temp: false
+    text: 'You give your scout the go-ahead to open the odd container.
+
+
+      Inside is a large bundle of envelopes, the paper in surprisingly good condition. They are covered in postage stamps, marked for addresses all over the country.
+
+
+      “I guess someone’s missing their mail,” murmurs the scout. “But other than that…I don’t think there’s anything special about these. We can just leave ‘em, I think.”
+
+
+      “Is there a post office nearby?” asks your mechanic, crouching to take a look. “If it’s on the way then we may as well hand it off.”
+
+
+      The scout shrugs. “What do you say, Commander? Up for playing courier?”'
+  ev_mail_notification_start__2o_deliver_header:
+    temp: false
+    text: Deliver Mail
+  ev_mail_notification_start__2o_deliver_text:
+    temp: false
+    text: Make someone’s day.
+  ev_mail_notification_start__2o_refuse_header:
+    temp: false
+    text: 拒む
+  ev_mail_notification_start__2o_refuse_text:
+    temp: false
+    text: You’re way too busy.
   ev_memorial_interaction_approach__0c_name:
     temp: true
     text: ''
@@ -2855,6 +4204,225 @@ entries:
   ev_mud_notification_start__2o_unstuck_help_text:
     temp: true
     text: ここは希望が高く、地元の助けを仲介できます。
+  ev_paint_notification_start__0c_name:
+    temp: false
+    text: ''
+  ev_paint_notification_start__1s_speech_header:
+    temp: false
+    text: Extending Empathy
+  ev_paint_notification_start__1s_speech_text:
+    temp: false
+    text: 'You gaze around the province’s war-torn square as you prepare to address those gathered. The fountain is dry, its centerpiece so scarred by bullets and shrapnel that you can no longer tell what it used to be. You stand tall with your back to the destruction.
+
+
+      Your message is one of unity in struggle. You wish there was more you could do, but like everyone in the Homeland, your resources are limited. Your time spent in the mobile base is not restful but tirelessly strategizing in service to the provinces.
+
+
+      The next morning, you wake to find your stolen parts in the shadow of the treeline.'
+  ev_paint_notification_start__1s_start_header:
+    temp: false
+    text: Expressionism
+  ev_paint_notification_start__1s_start_text:
+    temp: false
+    text: 'Outside, your crew has gathered. They huddle together in the dawn light, murmuring and eyeing the mobile base. When they see you, they fall silent and still, anticipating your reaction.
+
+
+      Outer panels have been stripped from the base, partially exposing frames and sparking wires beneath. On what remains of the siding, someone’s left a biting message in blue spray paint: Get out of your fortress and help us. A glowing review of your work from some struggling civilians.
+
+
+      A mechanic sidles up to you. “Admittedly, we were a bit lax in our patrols. Friendly territory and all…” They trail off, glancing back at the dripping paint and exposed wiring, reconsidering their words. They straighten. “Won’t happen again, Boss.”'
+  ev_paint_notification_start__2o_guard_header:
+    temp: false
+    text: Home Guard Can Deal with Them
+  ev_paint_notification_start__2o_guard_text:
+    temp: false
+    text: Petty vandalism isn’t worth your energy.
+  ev_paint_notification_start__2o_speech_header:
+    temp: false
+    text: Give the Speech
+  ev_paint_notification_start__2o_speech_text:
+    temp: false
+    text: You’re all on the same side.
+  ev_paint_notification_start__2o_talk_header:
+    temp: false
+    text: Let Your Pilot Give the Speech
+  ev_paint_notification_start__2o_talk_text:
+    temp: false
+    text: Your pilot is from around here, and knows the people well.
+  ev_parts_interaction_delivered__0c_name:
+    temp: true
+    text: ''
+  ev_parts_interaction_delivered__1s_start_header:
+    temp: true
+    text: ''
+  ev_parts_interaction_delivered__1s_start_text:
+    temp: true
+    text: ''
+  ev_parts_interaction_delivered__2o_acknowledge_header:
+    temp: true
+    text: Acknowledge PLACEHOLDER
+  ev_parts_interaction_delivered__2o_acknowledge_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_parts_interaction_delivery__0c_name:
+    temp: true
+    text: ''
+  ev_parts_interaction_delivery__1s_start_header:
+    temp: true
+    text: Delivering Parts PLACEHOLDER
+  ev_parts_interaction_delivery__1s_start_text:
+    temp: true
+    text: Here are some experimental parts that a facility not far away desperatly need to keep operating. PLACEHOLDER
+  ev_parts_interaction_delivery__2o_deliver_header:
+    temp: true
+    text: Deliver PLACEHOLDER
+  ev_parts_interaction_delivery__2o_deliver_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_parts_interaction_delivery__2o_leave_header:
+    temp: true
+    text: Leave PLACEHOLDER
+  ev_parts_interaction_delivery__2o_leave_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_parts_interaction_factory__0c_name:
+    temp: true
+    text: ''
+  ev_parts_interaction_factory__1s_start_header:
+    temp: true
+    text: Delivered Parts PLACEHOLDER
+  ev_parts_interaction_factory__1s_start_text:
+    temp: true
+    text: Thank you for delivering the parts. PLACEHOLDER
+  ev_parts_interaction_factory__2o_acknowledge_header:
+    temp: true
+    text: Acknowledge PLACEHOLDER
+  ev_parts_interaction_factory__2o_acknowledge_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_parts_interaction_secured__0c_name:
+    temp: true
+    text: ''
+  ev_parts_interaction_secured__1s_start_header:
+    temp: true
+    text: ' Parts Found PLACEHOLDER'
+  ev_parts_interaction_secured__1s_start_text:
+    temp: true
+    text: Discovered experimental parts in the rubble. PLACEHOLDER
+  ev_parts_interaction_secured__2o_acknowledge_header:
+    temp: true
+    text: Collect  PLACEHOLDER
+  ev_parts_interaction_secured__2o_acknowledge_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_parts_notification_contact__0c_name:
+    temp: true
+    text: ''
+  ev_parts_notification_contact__1s_start_header:
+    temp: true
+    text: Homearmy Part request PLACEHOLDER
+  ev_parts_notification_contact__1s_start_text:
+    temp: true
+    text: 'Homeguard requests parts from PB PLACEHOLDER '
+  ev_parts_notification_contact__2o_accept_header:
+    temp: true
+    text: 'Accept Request PLACEHOLDER '
+  ev_parts_notification_contact__2o_accept_text:
+    temp: true
+    text: 'Accept homeguard parts request PLACEHOLDER '
+  ev_parts_notification_contact__2o_refuse_header:
+    temp: true
+    text: 'Refuse Request PLACEHOLDER '
+  ev_parts_notification_contact__2o_refuse_text:
+    temp: true
+    text: 'Refuse homeguard parts request PLACEHOLDER '
+  ev_parts_notification_fail__0c_name:
+    temp: true
+    text: ''
+  ev_parts_notification_fail__1s_start_header:
+    temp: true
+    text: Fail PLACEHOLDER
+  ev_parts_notification_fail__1s_start_text:
+    temp: true
+    text: You failed to deliver the parts PLACEHOLDER
+  ev_parts_notification_fail__2o_acknowledge_header:
+    temp: true
+    text: acknowledge PLACEHOLDER
+  ev_parts_notification_fail__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_parts_notification_late__0c_name:
+    temp: true
+    text: ''
+  ev_parts_notification_late__1s_start_header:
+    temp: true
+    text: Late PLACEHOLDER
+  ev_parts_notification_late__1s_start_text:
+    temp: true
+    text: The war is over we were too late PLACEHOLDER
+  ev_parts_notification_late__2o_acknowledge_header:
+    temp: true
+    text: acknowledge PLACEHOLDER
+  ev_parts_notification_late__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_parts_notification_lost__0c_name:
+    temp: true
+    text: ''
+  ev_parts_notification_lost__1s_start_header:
+    temp: true
+    text: PLACEHOLDER
+  ev_parts_notification_lost__1s_start_text:
+    temp: true
+    text: As mobile base is intercepted the experimental parts break in the storagePLACEHOLDER
+  ev_parts_notification_lost__2o_acknowledge_header:
+    temp: true
+    text: Acknowledge PLACEHOLDER
+  ev_parts_notification_lost__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_parts_notification_request__0c_name:
+    temp: true
+    text: ''
+  ev_parts_notification_request__1s_start_header:
+    temp: true
+    text: Secret Weapon PLACEHOLDER
+  ev_parts_notification_request__1s_start_text:
+    temp: true
+    text: Home guard needs you to deliver parts to a remote factory to build a secret weapon that will really help with the war. The factory does not need to be liberated and you should avoid getting attcked by patrols AT ALL COSTS. PLACEHOLDER
+  ev_parts_notification_request__2o_accept_header:
+    temp: true
+    text: Accept PLACEHOLDER
+  ev_parts_notification_request__2o_accept_text:
+    temp: true
+    text: ''
+  ev_parts_notification_request__2o_decline_header:
+    temp: true
+    text: Decline PLACEHOLDER
+  ev_parts_notification_request__2o_decline_text:
+    temp: true
+    text: ''
+  ev_parts_notification_transfer__0c_name:
+    temp: true
+    text: ''
+  ev_parts_notification_transfer__1s_start_header:
+    temp: true
+    text: Part Transfer Success PLACEHOLDER
+  ev_parts_notification_transfer__1s_start_text:
+    temp: true
+    text: PB has delivered the parts to the homeguard PLACEHOLDER
+  ev_parts_notification_transfer__2o_give_header:
+    temp: true
+    text: Give Parts to Homeguard PLACEHOLDER
+  ev_parts_notification_transfer__2o_give_text:
+    temp: true
+    text: Give Parts to Homeguard PLACEHOLDER
+  ev_parts_notification_transfer__2o_give_war_header:
+    temp: true
+    text: Give Parts to Homeguard PLACEHOLDER
+  ev_parts_notification_transfer__2o_give_war_text:
+    temp: true
+    text: Give Parts to Homeguard (during war) PLACEHOLDER
   ev_person_notification_intel__0c_name:
     temp: true
     text: ''
@@ -3115,6 +4683,12 @@ entries:
   ev_pilotbirthday_notification__2o_acknowledge_text:
     temp: true
     text: ハッピーバースデーを歌う
+  ev_pilotbirthday_notification__2o_booze_header:
+    temp: true
+    text: Lets drink
+  ev_pilotbirthday_notification__2o_booze_text:
+    temp: true
+    text: Let them drink!
   ev_pilotbirthday_notification__2o_celebrate_header:
     temp: true
     text: 小さなパーティーを開く
@@ -3127,6 +4701,39 @@ entries:
   ev_pilotbirthday_notification__2o_dismiss_text:
     temp: true
     text: 占領軍がこの地にいる限り誕生日など問題にならない。
+  ev_postcombat_interaction_destruction__0c_name:
+    temp: true
+    text: ''
+  ev_postcombat_interaction_destruction__1s_start_header:
+    temp: true
+    text: Aftermath
+  ev_postcombat_interaction_destruction__1s_start_text:
+    temp: true
+    text: Your pilots are in high spirits after a successful battle, and it cuts through their post-fight fatigue. Warm from their suits, they hang around outside the base, talking to civilians and enjoying some fresh air and festivities.
+  ev_postcombat_interaction_destruction__2o_bad_header:
+    temp: true
+    text: Destruction Wrought
+  ev_postcombat_interaction_destruction__2o_bad_text:
+    temp: true
+    text: But civilians don’t want to spend time with the soldiers who destroyed their homes...
+  ev_postcombat_interaction_destruction__2o_good_header:
+    temp: true
+    text: 偵察員があなたの方に向き直る。『悪くない取引のようですが、どう思いますか、司令官？』
+  ev_postcombat_interaction_destruction__2o_good_text:
+    temp: true
+    text: The pilots even volunteer to help rebuild the homes they damaged.
+  ev_postcombat_interaction_destruction__2o_ok_header:
+    temp: true
+    text: Rough Around the Edges
+  ev_postcombat_interaction_destruction__2o_ok_text:
+    temp: true
+    text: But the civilians are weary given how little care your soldiers took with their homes.
+  ev_postcombat_interaction_destruction__2o_perfect_header:
+    temp: true
+    text: Warm Welcome
+  ev_postcombat_interaction_destruction__2o_perfect_text:
+    temp: true
+    text: Relieved that their homes are safe, the civilians are very happy with you.
   ev_postwar_notification_defeated_close__0c_name:
     temp: true
     text: 州が奪われた
@@ -3142,12 +4749,6 @@ entries:
 
 
       『みんなわかってます、ボス。すべてを出し尽くした結果です。恥ではありません。』彼女はそう言った。『それに、今ならヤツらの弱点もわかっています。』'
-  ev_postwar_notification_defeated_close__2o_leave_header:
-    temp: true
-    text: 次こそ勝つ。
-  ev_postwar_notification_defeated_close__2o_leave_text:
-    temp: true
-    text: ''
   ev_postwar_notification_defeated_complete__0c_name:
     temp: true
     text: 州が奪われた
@@ -3163,12 +4764,6 @@ entries:
 
 
       あなたは頷いた。次の戦争まで時間はある。それまでには、パイロットたちもこれまでにないほどの精鋭になって勝利をもたらしてくれるだろう。'
-  ev_postwar_notification_defeated_complete__2o_leave_header:
-    temp: true
-    text: 次こそ勝つ。
-  ev_postwar_notification_defeated_complete__2o_leave_text:
-    temp: true
-    text: ''
   ev_postwar_notification_defeated_standard__0c_name:
     temp: true
     text: 州が奪われた
@@ -3184,12 +4779,6 @@ entries:
 
 
       『元気出せ。』もうひとりのパイロットが声を掛ける。『これに負けたからといって、お先真っ暗って訳じゃない。次に向けてできることがあるはずさ。』'
-  ev_postwar_notification_defeated_standard__2o_leave_header:
-    temp: true
-    text: 次こそ勝つ。
-  ev_postwar_notification_defeated_standard__2o_leave_text:
-    temp: true
-    text: ''
   ev_postwar_notification_liberated_1__0c_name:
     temp: true
     text: ''
@@ -3205,12 +4794,6 @@ entries:
 
 
       彼女とパイロットたちは人々と祝いたいと思っているようだ。'
-  ev_postwar_notification_liberated_1__2o_join_header:
-    temp: true
-    text: パレードに参加する
-  ev_postwar_notification_liberated_1__2o_join_text:
-    temp: true
-    text: 一晩中休暇にすることはできないが、数時間なら構わないだろう。
   ev_postwar_notification_liberated_2__0c_name:
     temp: true
     text: ''
@@ -3226,24 +4809,6 @@ entries:
 
 
       彼女とパイロットたちは人々と祝いたいと思っているようだ。'
-  ev_postwar_notification_liberated_2__2o_celebrate_header:
-    temp: true
-    text: 祝典
-  ev_postwar_notification_liberated_2__2o_celebrate_text:
-    temp: true
-    text: パイロットに外泊許可と気晴らしの酒を与える。
-  ev_postwar_notification_liberated_2__2o_join_header:
-    temp: true
-    text: パレードに参加する
-  ev_postwar_notification_liberated_2__2o_join_text:
-    temp: true
-    text: 一晩中休暇にすることはできないが、数時間なら構わないだろう。
-  ev_postwar_notification_liberated_2__2o_moveon_header:
-    temp: true
-    text: 離れる
-  ev_postwar_notification_liberated_2__2o_moveon_text:
-    temp: true
-    text: まだまだ仕事は残っておりグズグズしていられない。
   ev_postwar_notification_liberated_close__0c_name:
     temp: true
     text: 州を解放
@@ -3262,24 +4827,6 @@ entries:
 
 
       いまなら、一息ついて羽を伸ばすこともできる。'
-  ev_postwar_notification_liberated_close__2o_celebrate_header:
-    temp: true
-    text: 祝典
-  ev_postwar_notification_liberated_close__2o_celebrate_text:
-    temp: true
-    text: パイロットに外泊許可と気晴らしの酒を与える。
-  ev_postwar_notification_liberated_close__2o_join_header:
-    temp: true
-    text: パレードに参加する
-  ev_postwar_notification_liberated_close__2o_join_text:
-    temp: true
-    text: 一晩中休暇にすることはできないが、数時間なら構わないだろう。
-  ev_postwar_notification_liberated_close__2o_moveon_header:
-    temp: true
-    text: 離れる
-  ev_postwar_notification_liberated_close__2o_moveon_text:
-    temp: true
-    text: まだまだ仕事は残っておりグズグズしていられない。
   ev_postwar_notification_liberated_complete__0c_name:
     temp: true
     text: 州を解放
@@ -3298,24 +4845,6 @@ entries:
 
 
       移動基地の外で始まっている祝典に皆が気を取られている中、パイロットのひとりがあなたのもとにやって来た。『我々も参加してよろしいですか、ボス？今夜だけでも。みな参加したがっています！』'
-  ev_postwar_notification_liberated_complete__2o_celebrate_header:
-    temp: true
-    text: 祝典
-  ev_postwar_notification_liberated_complete__2o_celebrate_text:
-    temp: true
-    text: パイロットに外泊許可と気晴らしの酒を与える。
-  ev_postwar_notification_liberated_complete__2o_join_header:
-    temp: true
-    text: パレードに参加する
-  ev_postwar_notification_liberated_complete__2o_join_text:
-    temp: true
-    text: 一晩中休暇にすることはできないが、数時間なら構わないだろう。
-  ev_postwar_notification_liberated_complete__2o_moveon_header:
-    temp: true
-    text: 離れる
-  ev_postwar_notification_liberated_complete__2o_moveon_text:
-    temp: true
-    text: まだまだ仕事は残っておりグズグズしていられない。
   ev_postwar_notification_liberated_standard__0c_name:
     temp: true
     text: 州を解放
@@ -3331,24 +4860,6 @@ entries:
 
 
       パイロットたちは上機嫌で、今夜あなたから休みをもらってどんちゃん騒ぎできるか口々に話し合っているようだった。みな希望で満ち溢れている。'
-  ev_postwar_notification_liberated_standard__2o_celebrate_header:
-    temp: true
-    text: 祝典
-  ev_postwar_notification_liberated_standard__2o_celebrate_text:
-    temp: true
-    text: パイロットに外泊許可と気晴らしの酒を与える。
-  ev_postwar_notification_liberated_standard__2o_join_header:
-    temp: true
-    text: パレードに参加する
-  ev_postwar_notification_liberated_standard__2o_join_text:
-    temp: true
-    text: 一晩中休暇にすることはできないが、数時間なら構わないだろう。
-  ev_postwar_notification_liberated_standard__2o_moveon_header:
-    temp: true
-    text: 離れる
-  ev_postwar_notification_liberated_standard__2o_moveon_text:
-    temp: true
-    text: まだまだ仕事は残っておりグズグズしていられない。
   ev_precombat_interaction_battlesite_fireteam__0c_name:
     temp: true
     text: ''
@@ -3736,6 +5247,36 @@ entries:
   ev_raid_interaction_late__2o_leave_text:
     temp: true
     text: 助けるのが遅すぎた。
+  ev_raid_notification_failed__0c_name:
+    temp: true
+    text: ''
+  ev_raid_notification_failed__1s_failed_header:
+    temp: false
+    text: Too Little, Too Late
+  ev_raid_notification_failed__1s_failed_text:
+    temp: false
+    text: 'You order the base to a stop.
+
+
+      The crew peers through the windows, taking in the sight of the village. Or what is left of it. There is debris everywhere, and scorch marks blacken the ground as far as you can see.
+
+
+      You approach one of the village men. He stares ahead, eyes unblinking.
+
+
+      “We should have ran,” he murmurs. “We should have ran instead of waited…”
+
+
+      He does not ask who you are.
+
+
+      The crew gets back onto the base, and you give the order to keep moving. There is nothing here for you to do.'
+  ev_raid_notification_failed__2o_acknowledge_header:
+    temp: false
+    text: 離れる
+  ev_raid_notification_failed__2o_acknowledge_text:
+    temp: false
+    text: Get back on the road.
   ev_raid_notification_noticed__0c_name:
     temp: true
     text: 悪い予感
@@ -3859,6 +5400,90 @@ entries:
   ev_ranks_notification_start__2o_train_text:
     temp: true
     text: 今はこれが精いっぱい。
+  ev_rare_interaction_deliver__0c_name:
+    temp: true
+    text: ''
+  ev_rare_interaction_deliver__1s_start_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_deliver__1s_start_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_deliver__2o_intel_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_deliver__2o_intel_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_deliver__2o_leave_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_deliver__2o_leave_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_missing__0c_name:
+    temp: true
+    text: ''
+  ev_rare_interaction_missing__1s_start_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_missing__1s_start_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_missing__2o_intel_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_missing__2o_intel_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_missing__2o_leave_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_missing__2o_leave_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_start__0c_name:
+    temp: true
+    text: ''
+  ev_rare_interaction_start__1s_start_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_start__1s_start_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_start__2o_intel_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_start__2o_intel_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_start__2o_leave_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_start__2o_leave_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_terminate__0c_name:
+    temp: true
+    text: ''
+  ev_rare_interaction_terminate__1s_start_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_terminate__1s_start_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_terminate__2o_intel_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_terminate__2o_intel_text:
+    temp: true
+    text: ''
+  ev_rare_interaction_terminate__2o_leave_header:
+    temp: true
+    text: ''
+  ev_rare_interaction_terminate__2o_leave_text:
+    temp: true
+    text: ''
   ev_recruit_interaction_pilot_general__0c_name:
     temp: true
     text: ''
@@ -3901,6 +5526,126 @@ entries:
   ev_recruit_interaction_pilot_mountain__2o_leave_text:
     temp: true
     text: まだ拡大する時ではない。
+  ev_recycle_notification_start__0c_name:
+    temp: false
+    text: ''
+  ev_recycle_notification_start__1s_investigate_header:
+    temp: false
+    text: くず鉄経済
+  ev_recycle_notification_start__1s_investigate_text:
+    temp: false
+    text: 'その集団はくず鉄を積んだ箱を運んでいた。見覚えのあるものが多く含まれている。あなたに気づいて、集団のひとりが驚いていたが、その顔は嬉しそうで満面の笑みだった。
+
+
+      『おや、こんにちは！お気になさらず。私どもはこの辺を漁っているだけです…ここに来るのが早くて良かった、そう、お連れの皆さんがここで大乱闘して残骸を周囲に残していってくれたばかりだ。来るのが遅かったら、良いスクラップはみんな消えてしまう！』男は箱を回収すると手を振った。
+
+
+      偵察員が眉をひそめる。『それで我々のスクラップは、本当はどこへ[i]消えて[/i]しまうのですか…？』
+
+
+      男の笑顔は動かない。『おぉ、そりゃあ…いろいろですよ。必要な人のもとへ、ですよ。』
+
+
+      『信じて良いものだろうか』偵察員がつぶやく。彼女はあなたのほうに向き直ると、低く囁いて尋ねた。『どう思われますか、ボス？』'
+  ev_recycle_notification_start__1s_notification_header:
+    temp: false
+    text: リデュース、リユース
+  ev_recycle_notification_start__1s_notification_text:
+    temp: false
+    text: 'いつものメンテナンス・チェックのために移動基地を停車すると、あなたが以前交戦した区域のひとつのすぐ近くで、外を歩き回っている集団を見つけた。今いるところからでは、何をしているのかわからない。
+
+
+      偵察員が目を凝らす。
+
+
+      『彼らが何をしているか見に行くべきでしょうか？トラブルのようには[i]見え[/i]ませんが…ご指示を、ボス。』'
+  ev_recycle_notification_start__2o_deal_header:
+    temp: false
+    text: 取引する
+  ev_recycle_notification_start__2o_deal_text:
+    temp: false
+    text: 保障が効くはずだ。
+  ev_recycle_notification_start__2o_investigate_header:
+    temp: false
+    text: 調査
+  ev_recycle_notification_start__2o_investigate_text:
+    temp: false
+    text: 興味がある。
+  ev_recycle_notification_start__2o_leave_header:
+    temp: false
+    text: 好きにさせておく
+  ev_recycle_notification_start__2o_leave_text:
+    temp: false
+    text: あなたには関係ないことだ。
+  ev_recycle_notification_start__2o_report_header:
+    temp: false
+    text: 防衛軍に報告する。
+  ev_recycle_notification_start__2o_report_text:
+    temp: false
+    text: スクラップを祖国防衛軍に送り、略奪者を報告する。
+  ev_recycle_notification_start__2o_requisition_header:
+    temp: false
+    text: スクラップ徴発
+  ev_recycle_notification_start__2o_requisition_text:
+    temp: false
+    text: これは当然あなたのものだ。
+  ev_refugees_notification_encounter__0c_name:
+    temp: false
+    text: ''
+  ev_refugees_notification_encounter__1s_encounter_header:
+    temp: false
+    text: 一線を越える
+  ev_refugees_notification_encounter__1s_encounter_text:
+    temp: false
+    text: '『司令官…ちょっとお時間はありますか？面倒なことになりそうです。』
+
+
+      技術者の額には汗が溜まっており、ホールの方をチラチラと気にしていることにあなたは気づいた。
+
+
+      Some of the civilians on board are getting agitated, he reports. They are opposed to sharing space with an enemy defector and are calling for her removal from the base. The defector herself has been holed up in the armor bay, but has otherwise been ignoring the situation.
+
+
+      『彼女の情報は[i]使え[/i]ます…しかし、防衛軍のもとまで安全に輸送する前に、民間人がこれに抗議して出ていく事態も避けたいです。』技術者はそう続ける。『どうしましょうか、司令官？』'
+  ev_refugees_notification_encounter__2o_civilians_header:
+    temp: false
+    text: 亡命者を引き止める
+  ev_refugees_notification_encounter__2o_civilians_text:
+    temp: false
+    text: 我々には彼女の情報が必要だ。
+  ev_refugees_notification_encounter__2o_defector_header:
+    temp: false
+    text: 亡命者を追い出す
+  ev_refugees_notification_encounter__2o_defector_text:
+    temp: false
+    text: 自分でなんとかできるだろう。
+  ev_refugees_notification_encounter__2o_pb_header:
+    temp: false
+    text: 民間人に補償を出す
+  ev_refugees_notification_encounter__2o_pb_text:
+    temp: false
+    text: 物資を上乗せしてやれば心配を和らげられるかもしれない。
+  ev_refugees_notification_encounter__2o_please_header:
+    temp: false
+    text: 緊張を和らげる
+  ev_refugees_notification_encounter__2o_please_text:
+    temp: false
+    text: 自信があると安心させる。
+  ev_rescue_interaction_dead__0c_name:
+    temp: true
+    text: ''
+  ev_rescue_interaction_dead__1s_main_header:
+    temp: true
+    text: Dead Pilot
+  ev_rescue_interaction_dead__1s_main_text:
+    temp: true
+    text: The pilot pod was shot down, casuing the death of the pilot inside the pod.
+  ev_rescue_interaction_dead__2o_leave_header:
+    temp: true
+    text: 離れる
+  ev_rescue_interaction_dead__2o_leave_text:
+    temp: true
+    text: 助けに行くリスクはわかっているはずで長い間立ち止まる余裕もなかった。
   ev_rescue_interaction_pilot__0c_name:
     temp: true
     text: ''
@@ -3943,6 +5688,24 @@ entries:
   ev_rescuecivilians_interaction_combat__2o_resque_text:
     temp: true
     text: 武装した警備兵と戦い民間人を救出しろ。
+  ev_rescuecivilians_interaction_delivered_missing__0c_name:
+    temp: false
+    text: ''
+  ev_rescuecivilians_interaction_delivered_missing__1s_main_header:
+    temp: false
+    text: 行方不明
+  ev_rescuecivilians_interaction_delivered_missing__1s_main_text:
+    temp: false
+    text: '民間人を救助できなかったことに気づき、村の歓迎は冷ややかなものだった。
+
+
+      『もうここから出ませんか。』パイロットの一人が告げる。『歓迎されないでしょう。』'
+  ev_rescuecivilians_interaction_delivered_missing__2o_leave_header:
+    temp: false
+    text: 作戦中止
+  ev_rescuecivilians_interaction_delivered_missing__2o_leave_text:
+    temp: false
+    text: ''
   ev_rescuecivilians_interaction_end__0c_name:
     temp: true
     text: ''
@@ -3969,7 +5732,7 @@ entries:
     text: 市民は守られた
   ev_rescuecivilians_interaction_rescue__1s_main_text:
     temp: true
-    text: '市民はあなたに会えて嬉しそうだ。涙を流す者までいた。
+    text: '市民はあなたに会えてとても嬉しそうだ。
 
 
       『誰か来てくれる人はいるのかわからなかった。』ひとりがあなたに言う。『故郷に帰るのを手伝ってくれないか？』'
@@ -4153,6 +5916,42 @@ entries:
   ev_resupply_notification_end__2o_rest_text:
     temp: true
     text: ''
+  ev_reward_interaction_box__0c_name:
+    temp: true
+    text: ''
+  ev_reward_interaction_box__1s_start_header:
+    temp: false
+    text: Token of Appreciation
+  ev_reward_interaction_box__1s_start_text:
+    temp: false
+    text: '“Thank you for all your help, Brigade,” says a woman from the settlement.
+
+
+      She brings out a cart full of scrap from her house. Sitting atop a stack of dented armor plating and military provisions is a container, its casing worn and aged.
+
+
+      “We’ve been scavenging around abandoned houses and invader facilities,” she explains. “Honestly, we don’t know what half of this stuff even [i]is[/i], but you can help yourself to whatever you want. It’s the least we can do for you. Thanks again, Brigade…and good hunting.”
+
+
+      She leaves. You peer at the old container in consideration.'
+  ev_rubble_interaction_box__0c_name:
+    temp: false
+    text: ''
+  ev_rubble_interaction_box__1s_start_header:
+    temp: false
+    text: Buried Treasures
+  ev_rubble_interaction_box__1s_start_text:
+    temp: false
+    text: 'After the fight, your team performs a routine sweep of the area. You notice a group of scouts huddled around some rubble, talking in hushed tones. When one of them spots you, they all stand at attention.
+
+
+      “Commander!”
+
+
+      At their feet is a container, its casing caked in dirt and dust. It looks old, but otherwise intact.
+
+
+      “We found it jammed in between some books and tools,” explains a scout. “What should we do with it?”'
   ev_rubble_interaction_hostile__0c_name:
     temp: true
     text: ''
@@ -4186,6 +5985,24 @@ entries:
   ev_rubble_interaction_hostile__2o_leave_text:
     temp: true
     text: 敵と取引はしない。
+  ev_secret_interaction_combat__0c_name:
+    temp: true
+    text: Generic Combat 04
+  ev_secret_interaction_combat__1s_combat_header:
+    temp: true
+    text: 渦中へ
+  ev_secret_interaction_combat__1s_combat_text:
+    temp: true
+    text: 'ブーツの床を踏み鳴らす音が響き、基地が活気に満ちている。格納庫では、技術者のひとりが乗組員に指示を飛ばし、パイロットが慌ただしく着替えている。
+
+
+      あなたは戦闘コンソールに目を据えると、深呼吸をして気持ちを整えた。'
+  ev_secret_interaction_combat__2o_combat_header:
+    temp: true
+    text: 出動準備
+  ev_secret_interaction_combat__2o_combat_text:
+    temp: true
+    text: 部隊と戦闘準備に取り掛かる。
   ev_secret_notification_target__0c_name:
     temp: true
     text: 情報
@@ -4201,6 +6018,123 @@ entries:
   ev_secret_notification_target__2o_continue_text:
     temp: true
     text: 場所発見
+  ev_spies_interaction_combat__0c_name:
+    temp: true
+    text: ''
+  ev_spies_interaction_combat__1s_combat_header:
+    temp: false
+    text: Hidden Among You
+  ev_spies_interaction_combat__1s_combat_text:
+    temp: false
+    text: 'You stop at the outskirts of a small, sleepy town. At a glance, you find it’s not especially different from any other settlement you’ve passed in the province…
+
+
+      “Well, intel says the spies are in this town,” says your scout. She has the box of mail codes next to her feet.
+
+
+      “We have a read on their possible location,” she continues. “Ready to deploy on your word, Commander!”'
+  ev_spies_interaction_combat__2o_combat_header:
+    temp: false
+    text: リスクは許容できない。
+  ev_spies_interaction_combat__2o_combat_text:
+    temp: false
+    text: Find those spies.
+  ev_spies_interaction_counter__0c_name:
+    temp: true
+    text: ''
+  ev_spies_interaction_counter__1s_counter_header:
+    temp: false
+    text: An Offer You Can’t Refuse
+  ev_spies_interaction_counter__1s_counter_text:
+    temp: false
+    text: '『司令官』
+
+
+      As you approach, the leader of the enemy spies stands straighter. He remains calm even with your scout’s weapon trained on him.
+
+
+      “We know when we’re outgunned,” he says. “So, how about this? Rather than wasting us in some Home Guard cell…we can work for you. We have intel, connections…I’m sure you see the merit.”
+
+
+      Your scout looks at you. “Bring them on as double agents, huh?”'
+  ev_spies_interaction_counter__2o_counter_header:
+    temp: false
+    text: Take the Offer
+  ev_spies_interaction_counter__2o_counter_text:
+    temp: false
+    text: Bring on spies as double agents.
+  ev_spies_interaction_defeat__0c_name:
+    temp: true
+    text: ''
+  ev_spies_interaction_defeat__1s_defeat_header:
+    temp: false
+    text: Not Today, Brigade
+  ev_spies_interaction_defeat__1s_defeat_text:
+    temp: false
+    text: 'At your side, one of your analysts crosses his arms. He grunts.
+
+
+      “They’ve escaped, it looks like. Damn, I could’ve sworn we had them on the ropes…”
+
+
+      “On the bright side…at least we chased them out of the area?” your scout interjects. She’s trying to cheer him up.
+
+
+      “Not much of a bright side if they’re just gonna keep spying somewhere else, kiddo.”
+
+
+      She sighs. “Right, right…”'
+  ev_spies_interaction_defeat__2o_acknowledge_header:
+    temp: false
+    text: Acknowledge
+  ev_spies_interaction_defeat__2o_acknowledge_text:
+    temp: false
+    text: There is nothing else to do here.
+  ev_spies_interaction_killed__0c_name:
+    temp: true
+    text: ''
+  ev_spies_interaction_killed__1s_start_header:
+    temp: true
+    text: ''
+  ev_spies_interaction_killed__1s_start_text:
+    temp: true
+    text: ''
+  ev_spies_interaction_killed__2o_acknowledge_header:
+    temp: true
+    text: ''
+  ev_spies_interaction_killed__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_spies_interaction_surrender__0c_name:
+    temp: true
+    text: ''
+  ev_spies_interaction_surrender__1s_surrender_header:
+    temp: false
+    text: Quick Work
+  ev_spies_interaction_surrender__1s_surrender_text:
+    temp: false
+    text: 'As the base comes to a stop, you and the crew peer out into the field with interest. You take in a sleepy, inconspicuous-looking town…and an enemy agent standing alone in the open street, his hands raised in the air.
+
+
+      One of your scouts approaches, her sidearm drawn. The two speak in hushed tones as she pats him down for weapons.
+
+
+      Her report through the radio: they know you’ve obtained the mail codes, and have surrendered.'
+  ev_spies_interaction_victory__0c_name:
+    temp: true
+    text: ''
+  ev_spies_interaction_victory__1s_victory_header:
+    temp: false
+    text: Head Hunter
+  ev_spies_interaction_victory__1s_victory_text:
+    temp: false
+    text: 'You make your way through the field, surveying the damage. The air smells sharply of hot metal.
+
+
+      “Commander,” your analyst catches up to you, a data tablet clutched in the crook of his arm. “We captured some of the spies and are awaiting your orders.”
+
+
+      Nodding, you follow him through the wreckage.'
   ev_squad_interaction_whimp__0c_name:
     temp: true
     text: ''
@@ -4506,7 +6440,13 @@ entries:
     text: 州の争奪
   ev_tutorial_notification_war__1s_main_text:
     temp: true
-    text: '敵対的な州に入るとエスカレーションが増加します。エスカレーションが増加すると敵がより強く、より多くなります。エスカレーションがレベル1に達すると、州の争奪が可能になります。州争奪が始まると複数の場所が目標や交戦区域に指定されるようになります。これらの場所における戦闘の結果が、その州での影響力を決定します。侵略軍または祖国軍のどちらかが州内の影響力をすべて失うと、その州は平和な状態に戻り勝者が州の支配権を手に入れます。 '
+    text: '敵対的な領土に入ると、その州のエスカレーションが上昇します。その結果、敵の数が多くなり強さも増します。
+
+
+      エスカレーション・レベルが1以上に達すると州の争奪が可能になります。新たに指定される目標地点や交戦区域における勝敗によって祖国軍と侵略軍の戦闘力が増減します。
+
+
+      祖国軍または侵略軍が州内からいなくなった時点でその州の『勝敗』が決し、次にあなたが争奪を始めるまで勝者が州を支配します。'
   ev_tutorial_notification_war__2o_continue_header:
     temp: true
     text: 続ける
@@ -4558,6 +6498,143 @@ entries:
   ev_unknownexplosion_notification_meteor__2o_continue_text:
     temp: true
     text: しかし後でいつでも決められる
+  ev_weapon_interaction_collected__0c_name:
+    temp: true
+    text: ''
+  ev_weapon_interaction_collected__1s_start_header:
+    temp: true
+    text: Secret weaponPLACEHOLDER
+  ev_weapon_interaction_collected__1s_start_text:
+    temp: true
+    text: 'Deliver the scret weapon to the nearest Home guard base PLACEHOLDER
+
+      DO NOT GET ATTACKED BY PATROLS '
+  ev_weapon_interaction_collected__2o_take_header:
+    temp: true
+    text: Take PLACEHOLDER
+  ev_weapon_interaction_collected__2o_take_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_interaction_delivered__0c_name:
+    temp: true
+    text: ''
+  ev_weapon_interaction_delivered__1s_start_header:
+    temp: true
+    text: Delivery PLACEHOLDER
+  ev_weapon_interaction_delivered__1s_start_text:
+    temp: true
+    text: You successfully delivered the secret weapon PLACEHOLDER
+  ev_weapon_interaction_delivered__2o_deliver_header:
+    temp: true
+    text: deliver PLACEHOLDER
+  ev_weapon_interaction_delivered__2o_deliver_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_interaction_done__0c_name:
+    temp: true
+    text: ''
+  ev_weapon_interaction_done__1s_start_header:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_interaction_done__1s_start_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_interaction_done__2o_acknowledge_header:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_interaction_done__2o_acknowledge_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_interaction_lost__0c_name:
+    temp: true
+    text: ''
+  ev_weapon_interaction_lost__1s_start_header:
+    temp: true
+    text: Weapon lost PLACEHOLDER
+  ev_weapon_interaction_lost__1s_start_text:
+    temp: true
+    text: As mobile base is intercepted you lose the secret weapon to the enemy patrol PLACEHOLDER
+  ev_weapon_interaction_lost__2o_acknowledge_header:
+    temp: true
+    text: ''
+  ev_weapon_interaction_lost__2o_acknowledge_text:
+    temp: true
+    text: ''
+  ev_weapon_notification_done__0c_name:
+    temp: true
+    text: ''
+  ev_weapon_notification_done__1s_start_header:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_notification_done__1s_start_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_notification_done__2o_intel_header:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_notification_done__2o_intel_text:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_notification_done__2o_leave_header:
+    temp: true
+    text: PLACEHOLDER
+  ev_weapon_notification_done__2o_leave_text:
+    temp: true
+    text: PLACEHOLDER
+  os_agent_convert__header:
+    temp: true
+    text: You can act as a double agent
+  os_agent_convert__text:
+    temp: true
+    text: ''
+  os_block_combat__header:
+    temp: true
+    text: 敵を一時無力化
+  os_block_combat__text:
+    temp: true
+    text: 逃げるために、発煙弾を発射して敵のセンサーを妨害する。発煙弾は加工室で製造できる。
+  os_bomb_drop__header:
+    temp: true
+    text: Drop Bomb
+  os_bomb_drop__text:
+    temp: true
+    text: ''
+  os_bomb_keep__header:
+    temp: true
+    text: Keep Bomb
+  os_bomb_keep__text:
+    temp: true
+    text: ''
+  os_booze_drink__header:
+    temp: true
+    text: Drink
+  os_booze_drink__text:
+    temp: true
+    text: No time like the present.
+  os_booze_save__header:
+    temp: true
+    text: Save for later
+  os_booze_save__text:
+    temp: true
+    text: There will be better occasions.
+  os_box_leave__header:
+    temp: true
+    text: 離れる
+  os_box_leave__text:
+    temp: true
+    text: You don't need it.
+  os_box_open__header:
+    temp: true
+    text: Open
+  os_box_open__text:
+    temp: true
+    text: Take it and investigate its contents.
+  os_box_store__header:
+    temp: true
+    text: Store
+  os_box_store__text:
+    temp: true
+    text: Place in storage for now.
   os_breakin_supply__header:
     temp: false
     text: 機材を使う
@@ -4581,6 +6658,12 @@ entries:
     text: 続ける
   os_continue_completing__text:
     temp: false
+    text: ''
+  os_defeat_leave__header:
+    temp: true
+    text: 次こそ勝つ。
+  os_defeat_leave__text:
+    temp: true
     text: ''
   os_developer_combat_cancel__header:
     temp: true
@@ -4618,6 +6701,36 @@ entries:
   os_leave__text:
     temp: false
     text: ''
+  os_liberate_celebrate__header:
+    temp: false
+    text: 祝典
+  os_liberate_celebrate__text:
+    temp: false
+    text: パイロットに外泊許可と気晴らしの酒を与える。
+  os_liberate_join__header:
+    temp: false
+    text: パレードに参加する
+  os_liberate_join__text:
+    temp: false
+    text: 一晩中休暇にすることはできないが、数時間なら構わないだろう。
+  os_liberate_moveon__header:
+    temp: false
+    text: 離れる
+  os_liberate_moveon__text:
+    temp: false
+    text: まだまだ仕事は残っておりグズグズしていられない。
+  os_locked_alarm__header:
+    temp: false
+    text: 警報突破
+  os_locked_alarm__text:
+    temp: false
+    text: ドアを蹴破り、ヤツらが来たら相手をする。
+  os_locked_bomb__header:
+    temp: false
+    text: Use Explosives
+  os_locked_bomb__text:
+    temp: false
+    text: Try using the bomb you found.
   os_no__header:
     temp: false
     text: いいえ
@@ -4636,6 +6749,30 @@ entries:
   os_recruit__text:
     temp: false
     text: 民間人のひとりをメックのパイロットとして採用する。
+  os_spies_captive__header:
+    temp: false
+    text: Capture Them
+  os_spies_captive__text:
+    temp: false
+    text: ''
+  os_spies_free__header:
+    temp: false
+    text: 泳がせる
+  os_spies_free__text:
+    temp: false
+    text: ''
+  os_spies_report__header:
+    temp: false
+    text: Report
+  os_spies_report__text:
+    temp: false
+    text: ''
+  os_spies_report_fake__header:
+    temp: false
+    text: Report to Home Army
+  os_spies_report_fake__text:
+    temp: false
+    text: ''
   os_yes__header:
     temp: false
     text: はい

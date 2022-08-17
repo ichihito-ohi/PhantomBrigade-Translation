@@ -61,6 +61,24 @@ entries:
   generic_unknown_text:
     temp: true
     text: 情報なし
+  liberation_description:
+    temp: true
+    text: Avoid destroying this historic building to gain hope.
+  liberation_header:
+    temp: true
+    text: Protect Structure
+  reinforcements_friendly_header:
+    temp: true
+    text: 友軍が接近中
+  reinforcements_friendly_text:
+    temp: true
+    text: 救援要請を受けて祖国防衛軍が我々の位置に向かっています。
+  reinforcements_hostile_header:
+    temp: true
+    text: 追加の増援
+  reinforcements_hostile_text:
+    temp: true
+    text: 他の標的がこの戦闘に感づきました。分隊が近くの部隊を離れ、まもなくこちらに離陸する見込みです。
   retreat_incoming_negative_header:
     temp: true
     text: まもなく撤退可能

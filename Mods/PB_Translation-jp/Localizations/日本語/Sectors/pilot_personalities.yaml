@@ -1,0 +1,27 @@
+name:
+description:
+exportMode: None
+columns: []
+splits: []
+entries:
+  pilot_personality_aggressive_name:
+    temp: true
+    text: Combative
+  pilot_personality_brave_name:
+    temp: true
+    text: Daring
+  pilot_personality_cautious_name:
+    temp: true
+    text: Cautious
+  pilot_personality_cocky_name:
+    temp: true
+    text: Brash
+  pilot_personality_default_name:
+    temp: true
+    text: Calm
+  pilot_personality_menacing_name:
+    temp: true
+    text: Menacing
+  pilot_personality_sneaky_name:
+    temp: true
+    text: Sly

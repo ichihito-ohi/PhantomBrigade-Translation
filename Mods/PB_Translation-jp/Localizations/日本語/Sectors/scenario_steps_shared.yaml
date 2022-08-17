@@ -36,7 +36,7 @@ entries:
     text: 確保のために機体をマークされたエリアに移動しろ。
   generic_objective_header:
     temp: true
-    text: 現在の目標
+    text: 概要
   generic_unknown_header:
     temp: true
     text: 情報なし

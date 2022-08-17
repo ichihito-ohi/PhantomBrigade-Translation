@@ -9,7 +9,7 @@ entries:
     text: 警報
   trait_alarm__text:
     temp: false
-    text: 警報が発せられますが、敵の援軍が検知・出撃するのを防ぐためにマップ上の警戒されている地点を制圧することができます。
+    text: 警報が発せられますが、マップ上の警戒されている地点を破壊することで敵の援軍が検知・出撃することを防げます。
   trait_entrenched__name:
     temp: false
     text: 塹壕
@@ -22,6 +22,18 @@ entries:
   trait_escape__text:
     temp: false
     text: 時には、更地にしてしまうより手加減する方が良い場合もあります。目標を達成したら、出撃したメックを早期に撤退させることができます。
+  trait_hidden_block_escalation__name:
+    temp: true
+    text: スキャン妨害
+  trait_hidden_block_escalation__text:
+    temp: true
+    text: 敵は我々の機体をスキャンできなくなります。現在のエスカレーション・レベルに関わらず、敵は少ない戦力しか送ってこないでしょう。
+  trait_hidden_block_reinforcements__name:
+    temp: true
+    text: 通信妨害
+  trait_hidden_block_reinforcements__text:
+    temp: true
+    text: 敵は外部に連絡したり我々の正確な位置を送信したりできなくなります。近くのパトロールが戦闘に参加できなくなるでしょう。
   trait_hidden_retreat__name:
     temp: false
     text: 撤退
@@ -34,6 +46,18 @@ entries:
   trait_hidden_units_delayed__text:
     temp: false
     text: ヤツらのバックアップが来ました！増援が接近しており戦闘中に展開してくる可能性があります。
+  trait_hidden_units_delayed_external__name:
+    temp: true
+    text: 遠方からの接触
+  trait_hidden_units_delayed_external__text:
+    temp: true
+    text: 追加の機体が長距離スキャンで検知されました。我々の位置に気づいた付近のパトロールから来ています。
+  trait_hidden_units_delayed_friendly__name:
+    temp: true
+    text: 友軍との接触
+  trait_hidden_units_delayed_friendly__text:
+    temp: true
+    text: 現在地に接近中の祖国防衛軍所属の機体を検知しました。救援要請に応えてくれたようです！
   trait_hidden_units_start__name:
     temp: false
     text: 現地にて接敵
@@ -100,6 +124,12 @@ entries:
   type_breakin__text:
     temp: false
     text: 警備された施設で待ち伏せして増援が呼ばれる前に確保してください。より良い報酬のため、優位を奪わせず試練を乗り越えましょう！
+  type_capture__name:
+    temp: true
+    text: 捕まえる
+  type_capture__text:
+    temp: true
+    text: Concuss the target pilot without killing them or letting them eject.
   type_destruction__name:
     temp: false
     text: 破壊工作
