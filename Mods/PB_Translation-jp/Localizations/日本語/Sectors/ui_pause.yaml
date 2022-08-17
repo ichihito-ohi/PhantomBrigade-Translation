@@ -193,7 +193,7 @@ entries:
     text: セーブファイルを上書きしてもよろしいですか？
   save_list_experimental_normal:
     temp: false
-    text: 実験
+    text: 実験版
   save_list_experimental_warning:
     temp: false
     text: 実験版（ロード非対応）
