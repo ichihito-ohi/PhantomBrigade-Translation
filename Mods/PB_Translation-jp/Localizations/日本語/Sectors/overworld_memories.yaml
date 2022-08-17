@@ -4,39 +4,90 @@ exportMode: None
 columns: []
 splits: []
 entries:
+  pilot_auto_combat_defeat__name:
+    temp: true
+    text: 敗北
+  pilot_auto_combat_encounters__name:
+    temp: true
+    text: 出撃
+  pilot_auto_combat_kills__name:
+    temp: true
+    text: 殺害した敵兵
+  pilot_auto_combat_takedowns__name:
+    temp: true
+    text: 破壊した機体
+  pilot_auto_combat_victory__name:
+    temp: true
+    text: 勝利
   province_liberation_acknowledged__name:
     temp: true
     text: ''
-  world_armypilot_in_progress__name:
+  world_agent__name:
+    temp: true
+    text: Double Agent
+  world_armypilot_active__name:
     temp: true
     text: ''
+  world_auto_hope__name:
+    temp: true
+    text: 希望
+  world_bomb_defused__name:
+    temp: true
+    text: Bomb
+  world_booze__name:
+    temp: true
+    text: Booze
+  world_box_closed__name:
+    temp: true
+    text: Closed Box
+  world_box_open__name:
+    temp: true
+    text: Open Box
   world_cache_informed__name:
     temp: true
     text: ''
-  world_counter_black_market_influence__name:
-    temp: true
-    text: 市場の安定度
-  world_counter_cat_bond__name:
-    temp: true
-    text: 猫との絆
-  world_counter_dog_bond__name:
-    temp: true
-    text: 犬との絆
-  world_counter_reputation_guerrillas__name:
-    temp: true
-    text: 祖国軍からの評判
-  world_tag_cat_present__name:
-    temp: true
-    text: 猫
-  world_tag_defector_rescued__name:
-    temp: true
-    text: 亡命者
-  world_tag_dog_present__name:
-    temp: true
-    text: 犬
-  world_tag_enemy_captive__name:
+  world_captive__name:
     temp: true
     text: 捕虜
-  world_tag_lock_pilot_recruitment__name:
+  world_cat__name:
+    temp: true
+    text: 猫
+  world_cat_bond__name:
+    temp: true
+    text: 猫との絆
+  world_civilians__name:
+    temp: true
+    text: 民間人
+  world_codes__name:
+    temp: true
+    text: Codes
+  world_defector__name:
+    temp: true
+    text: 亡命者
+  world_dog__name:
+    temp: true
+    text: 犬
+  world_dog_bond__name:
+    temp: true
+    text: 犬との絆
+  world_favour_criminal__name:
+    temp: true
+    text: 好意
+  world_lock_pilot_recruitment__name:
     temp: true
     text: パイロット採用不可
+  world_mail__name:
+    temp: true
+    text: Mail
+  world_parts__name:
+    temp: true
+    text: Experimental parts
+  world_reputation_crime__name:
+    temp: true
+    text: Crime Rate
+  world_reputation_guard__name:
+    temp: true
+    text: Home Guard Reputation
+  world_weapon__name:
+    temp: true
+    text: Secret Weapon

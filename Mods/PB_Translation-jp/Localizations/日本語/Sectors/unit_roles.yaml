@@ -1,0 +1,30 @@
+name:
+description:
+exportMode: None
+columns: []
+splits: []
+entries:
+  generic_r0__name:
+    temp: true
+    text: 訓練兵
+  generic_r0__text:
+    temp: true
+    text: 僻地に展開する機体の大半を構成する経験の浅い新兵。標準仕様の限定的な兵装を装備している。
+  generic_r1__name:
+    temp: true
+    text: 一般兵
+  generic_r1__text:
+    temp: true
+    text: 最も一般的なランクの敵機。共通の大量生産部品を装備している。
+  generic_r2__name:
+    temp: true
+    text: ベテラン
+  generic_r2__text:
+    temp: true
+    text: 経験豊富な敵機。高度なカスタム装備を搭載している。
+  generic_r3__name:
+    temp: true
+    text: エリート
+  generic_r3__text:
+    temp: true
+    text: 高ランクの敵機。高価なレア装備を搭載している場合が多い。

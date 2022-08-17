@@ -5,35 +5,38 @@ columns: []
 splits: []
 entries:
   body_sub:
-    temp: true
+    temp: false
     text: 本体部品
+  consumable_sub:
+    temp: false
+    text: 消費アイテム
   generic_body_text:
-    temp: true
-    text: 装甲セットから本体部品をひとつ製造します。選択した部品（腕、胴体上部、胴体下部）や品質に基づいてコストが増減します。
+    temp: false
+    text: いずれかの装甲セットから本体部品を1つ製造する。
   generic_sub_text:
-    temp: true
-    text: サブシステムを製造します。ハードポイントをもつアンコモンやレアの本体部品をカスタマイズする際に利用できます。選択した品質に基づいてコストが増減します。
+    temp: false
+    text: 懸架点が開放されているコモンやレアの本体部品のカスタマイズに使用するサブシステムを製造する。
   generic_unknown_header:
-    temp: true
+    temp: false
     text: 不明
   generic_unknown_text:
-    temp: true
+    temp: false
     text: この加工室プロジェクトの説明はありません。
   generic_wpn_text:
-    temp: true
-    text: 武器を製造します。選択した品質に基づいてコストが増減します。
+    temp: false
+    text: 武器を製造する。
   item_defensive_sub:
-    temp: true
+    temp: false
     text: 防御
   item_wpn_primary_sub:
-    temp: true
+    temp: false
     text: 主兵装
   item_wpn_secondary_sub:
-    temp: true
+    temp: false
     text: 副兵装
   subsystem_sub:
-    temp: true
+    temp: false
     text: サブシステム
   unit_sub:
-    temp: true
+    temp: false
     text: 機体

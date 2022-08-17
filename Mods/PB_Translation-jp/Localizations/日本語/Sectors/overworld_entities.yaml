@@ -106,6 +106,12 @@ entries:
   capital__text:
     temp: true
     text: 占領政府の権力の座。敵軍が集中しているため従来の攻撃方法は通用しない―都市中心部の最高司令部に対する攻撃が成功しなければ効果はない。そのような任務のために都市に潜入することも、周囲の州をすべて解放するまでは不可能だ。
+  drone_decoy__name:
+    temp: true
+    text: デコイ・ドローン
+  drone_decoy__text:
+    temp: true
+    text: 移動基地から出撃する。出撃から24時間連続動作できるだけの能力がある。移動基地のセンサー痕跡を模擬して敵を引き付け、移動基地周辺のスキャン・データを送信する。
   event_armypilot_location__name:
     temp: true
     text: 合流地点
@@ -250,6 +256,12 @@ entries:
   facility_mine__name:
     temp: true
     text: 採掘現場
+  facility_radio__name:
+    temp: true
+    text: ラジオ局
+  facility_radio__text:
+    temp: true
+    text: '荒野にある孤立した小さいラジオ中継局。仮にいるとしても、何機で警備しているか情報は不明である。 '
   facility_radiostation__name:
     temp: true
     text: ラジオ局
@@ -280,6 +292,9 @@ entries:
   fort_specops__name:
     temp: true
     text: キャンプ
+  hidden_research__name:
+    temp: true
+    text: エネルギー貯蔵プラント
   intro__name:
     temp: true
     text: 国境前哨基地
@@ -346,6 +361,18 @@ entries:
   outpost_tutorial__text:
     temp: true
     text: この増強された侵略軍施設は兵士を送り出し付近に攻撃を仕掛けるために使用されている。苦戦が予想される。ここで全機排除すれば、この州における侵略軍の影響力を減らすことができ、倒した機体からは装備が回収可能になる。
+  secret__name:
+    temp: true
+    text: ''
+  secret__text:
+    temp: true
+    text: ''
+  secret_armory__name:
+    temp: true
+    text: ''
+  secret_research__name:
+    temp: true
+    text: エネルギー貯蔵プラント
   settlement_city__name:
     temp: true
     text: 都市
@@ -441,7 +468,7 @@ entries:
     text: コンボイ（訓練部隊）
   squad_invader_convoy_tutorial__name:
     temp: true
-    text: 立ち往生した陸軍コンボイ
+    text: 立ち往生したコンボイ
   squad_invader_convoy_tutorial__text:
     temp: true
     text: 貴重な部品やサブシステムを最前線の機体や複数地点に輸送する機動部隊。情報によると防衛は軽く殲滅すれば回収が可能になるようだ。
@@ -784,3 +811,9 @@ entries:
   unique_warmemorial_undefended__text:
     temp: true
     text: 部品、サブシステム、または装備のある可能性が最も高い稼働中の倉庫。ここを攻撃すれば警備兵と増援をすべて排除せずとも装備を確保して脱出できる可能性がある。
+  war_base__name:
+    temp: true
+    text: 前線基地
+  war_base__text:
+    temp: true
+    text: 州内のほぼすべての地点から敵を追い出すと、敵は一時的な前線作戦基地の利用を余儀なくされる。これらの基地は、昔からの盤石な軍事拠点と比べると守りは脆弱で、攻撃に成功すればマップ上に残らない。

@@ -1,4 +1,4 @@
 removed: false
 edits:
-- 'textName: 衝撃ダメージ'
-- 'textDesc: 武器の投射体が与える衝撃。戦闘中にパイロットをノックアウトできる。'
+- 'textName: 体力ダメージ'
+- 'textDesc: パイロットの体力に与えるダメージ。'

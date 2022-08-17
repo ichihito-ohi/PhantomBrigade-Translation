@@ -321,7 +321,7 @@ entries:
     text: 3 Razor
   wpn_melee_secondary_blade_r3__text:
     temp: false
-    text: Variant with excellent damage output.
+    text: 優れたダメージのバリエーション。
   wpn_melee_secondary_cutter__name:
     temp: true
     text: MC-S Slicer
@@ -456,19 +456,19 @@ entries:
     text: MR Baseline
   wpn_rifle_marksman_01__text:
     temp: false
-    text: 長距離マークスマンライフル。
+    text: 標準仕様長距離マークスマン・ライフル。
   wpn_rifle_marksman_02__name:
     temp: true
     text: MR-02 Sharp
   wpn_rifle_marksman_02__text:
     temp: false
-    text: 長距離マークスマンライフル。
+    text: オートマチック長距離マークスマン・ライフル。高火力で知られる。
   wpn_rifle_sniper_01__name:
     temp: true
     text: SR-01 Midway
   wpn_rifle_sniper_01__text:
     temp: false
-    text: 標準仕様長距離狙撃銃。
+    text: 標準仕様長距離狙撃銃。単発射撃。
   wpn_rifle_sniper_02__name:
     temp: true
     text: SR-03 Lock
