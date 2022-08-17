@@ -256,6 +256,12 @@ entries:
   facility_mine__name:
     temp: true
     text: 採掘現場
+  facility_radio__name:
+    temp: true
+    text: ラジオ局
+  facility_radio__text:
+    temp: true
+    text: '荒野にある孤立した小さいラジオ中継局。仮にいるとしても、何機で警備しているか情報は不明である。 '
   facility_radiostation__name:
     temp: true
     text: ラジオ局
@@ -286,6 +292,9 @@ entries:
   fort_specops__name:
     temp: true
     text: キャンプ
+  hidden_research__name:
+    temp: true
+    text: エネルギー貯蔵プラント
   intro__name:
     temp: true
     text: 国境前哨基地
@@ -352,6 +361,18 @@ entries:
   outpost_tutorial__text:
     temp: true
     text: この増強された侵略軍施設は兵士を送り出し付近に攻撃を仕掛けるために使用されている。苦戦が予想される。ここで全機排除すれば、この州における侵略軍の影響力を減らすことができ、倒した機体からは装備が回収可能になる。
+  secret__name:
+    temp: true
+    text: ''
+  secret__text:
+    temp: true
+    text: ''
+  secret_armory__name:
+    temp: true
+    text: ''
+  secret_research__name:
+    temp: true
+    text: エネルギー貯蔵プラント
   settlement_city__name:
     temp: true
     text: 都市

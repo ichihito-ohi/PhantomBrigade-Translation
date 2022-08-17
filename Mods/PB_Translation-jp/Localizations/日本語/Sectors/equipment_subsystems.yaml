@@ -225,7 +225,7 @@ entries:
     text: 姿勢センサー - 右
   internal_aux_sensor_right_scatter__text:
     temp: false
-    text: 右の武器の静止時と移動時の拡散を減少する。
+    text: 右の武器の拡散を抑制する。
   internal_aux_thruster_distance__name:
     temp: false
     text: DST Reach
@@ -268,6 +268,12 @@ entries:
   internal_aux_thruster_standard__text:
     temp: false
     text: バランスの取れた性能に調整されている。
+  internal_utl_destruction__name:
+    temp: true
+    text: SDS
+  internal_utl_destruction__text:
+    temp: true
+    text: 自爆サブシステムは、機体が戦闘中に行動不能になった場合に部品を内部まで抹消して修理不能にする。
   perk_barrier_pos_r1__name:
     temp: false
     text: バリア追加 I
@@ -297,13 +303,13 @@ entries:
     text: 冷却強化 III
   perk_dps_pos_r1__name:
     temp: false
-    text: Supercharge I
+    text: スーパーチャージ I
   perk_dps_pos_r2__name:
     temp: false
-    text: Supercharge II
+    text: スーパーチャージ II
   perk_dps_pos_r3__name:
     temp: false
-    text: Supercharge III
+    text: スーパーチャージ III
   perk_duration_pos_r1__name:
     temp: false
     text: 高速装填装置 I

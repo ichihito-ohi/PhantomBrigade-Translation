@@ -43,6 +43,12 @@ entries:
 
 
       エリアの偵察や敵を進路から引き剥がす場合に有用。'
+  ability_sensor_rain__name:
+    temp: true
+    text: 雨天センサー
+  ability_sensor_rain__text:
+    temp: true
+    text: 雨天センサー機能を移動基地に配備する。
   mm_core__name:
     temp: true
     text: 速度制限解除
@@ -90,25 +96,25 @@ entries:
     text: オーバードライブ・センシング
   mm_overdrive_vision_own__text:
     temp: true
-    text: Improves the base's vision range in Overdrive Mode, by installing image stabilizers to counteract high speed vibrations.
+    text: オーバードライブ・モード中の移動基地の視界を改善する。画像スタビライザーを導入することで高速移動時の振動を打ち消している。
   mm_stealth__name:
     temp: true
     text: ステルス・モード
   mm_stealth__text:
     temp: true
-    text: Reduces energy drain of Stealth Mode with more efficient heat exchangers and optimized optical camouflage.
+    text: 熱交換器の効率化と光学迷彩の最適化により、ステルス・モードのエネルギー消費を抑える。
   mm_stealth_drain__name:
     temp: true
     text: ステルス効率
   mm_stealth_drain__text:
     temp: true
-    text: Improves the vision range with low-emission sensors that will not compromise the base's Stealth Mode.
+    text: 移動基地のステルス・モードを邪魔しない低放射センサーで視界を改善する。
   mm_stealth_vision_own__name:
     temp: true
     text: ステルス・センシング
   mm_stealth_vision_own__text:
     temp: true
-    text: Improves the vision range with low-emission sensors that will not compromise the base's Stealth Mode.
+    text: 移動基地のステルス・モードを邪魔しない低放射センサーで視界を改善する。
   mobilebase__name:
     temp: true
     text: 移動基地
@@ -120,13 +126,13 @@ entries:
     text: 反応炉解禁
   reactor__text:
     temp: true
-    text: Allows the power core to store more energy and enables further customization by disabling civilian reactor safety checks.
+    text: 民生向け反応炉の安全装置を無効にすることで、動力コアにより多くのエネルギーを蓄えられるようにし、さらなる改造を可能にする。
   reactor_charge_delay__name:
     temp: true
     text: 急速点火
   reactor_charge_delay__text:
     temp: true
-    text: Reduces regeneration delay after energy is drained.
+    text: エネルギー消費後の発電再開までの遅延を抑える。
   reactor_expanded__name:
     temp: false
     text: 反応炉機能拡張
@@ -138,19 +144,19 @@ entries:
     text: 補助キャパシター
   reactor_storage_limit__text:
     temp: true
-    text: Expands the energy storage capacity. Up to three auxiliary capacitors can be installed.
+    text: エネルギー貯蔵容量を拡張する。最大3つの補助キャパシターを追加できる。
   sensor__name:
     temp: true
     text: 軍用グレード・センサー
   sensor__text:
     temp: true
-    text: Improves vision range and unlocks powerful upgrades by using salvaged components from mechs.
+    text: メックから回収したコンポーネントを使用して、視界を改善し強力なアップグレードを解禁する。
   sensor_rain__name:
     temp: true
     text: 雨天最適化
   sensor_rain__text:
     temp: true
-    text: Allows the base to see practically unimpeded through even the heaviest rain using salvaged water penetrating sensors from enemy mechs. Envy of every driver in the country.
+    text: 敵メックから回収した雨天対応センサーを使用して、どんなに激しい雨でも移動基地の視界が妨げられなくなる。全国のドライバーにとって羨望の的。
   sensor_scan_speed__name:
     temp: false
     text: 高速分析
@@ -162,13 +168,13 @@ entries:
     text: スキャン妨害
   sensor_scan_speedhostile__text:
     temp: true
-    text: Confuses enemy sensors by installing a military grade ECM. Shapes return signals and delaying unification of the base.
+    text: 軍用グレードの ECM を導入して、敵のセンサーを撹乱する。反射波を欺瞞することで移動基地の特定を遅らせる。
   unit_bay__name:
     temp: true
     text: 格納庫解禁
   unit_bay__text:
     temp: true
-    text: Opens up a new bay and enables mech repairs on the go by clearing out an industrial equipment compartment on the base.
+    text: 移動基地の産業機器区画を整理することで、新しく格納庫を確保し移動中のメック修理を可能にする。
   unit_bay_repair_lines__name:
     temp: true
     text: 平行修理
@@ -192,13 +198,13 @@ entries:
     text: 格納庫拡張
   unit_storage_l2__text:
     temp: true
-    text: Makes space for new units on the base by moving some internal systems out of the way. Reinforcements to relocated equipment increases the base's weight, decreasing the speed slightly.
+    text: 内部システムの一部を移動することで、新しい機体用の空間を移動基地に確保する。再配置した機器の補強で移動基地の重量が増え、速度がわずかに低下する。
   unit_storage_l3__name:
     temp: true
     text: 格納庫立体化
   unit_storage_l3__text:
     temp: true
-    text: Allows for more room by stacking mechs on top of each other. Additional structural supports and lifts increases the base's weight, decreasing the speed.
+    text: それぞれのメックを積み重ねることで、より多くの空間を確保する。追加の構造用支持部材とリフトで移動基地の重量が増加し、速度が低下する。
   unit_storage_l4__name:
     temp: true
     text: 格納庫最大化
@@ -216,13 +222,13 @@ entries:
     text: 並行プリント
   workshop_lines__text:
     temp: true
-    text: Allows more than one project to be built in parallel by extending the civilian-grade systems to support multithreaded printing.
+    text: 民生グレードのシステムを拡張してマルチスレッド・プリントに対応することで、複数のプロジェクトを並行して製造できるようになる。
   workshop_tech_r2__name:
     temp: true
     text: 先進的組立設備
   workshop_tech_r2__text:
     temp: true
-    text: Speeds up construction and unlocks uncommon equipment by extending workshop hardware to support military grade materials
+    text: 加工室の設備を拡張して軍用グレードの材料に対応することで、組み立てを高速化し、アンコモン装備を解禁する。
   workshop_tech_r3__name:
     temp: true
     text: 実験的組立設備

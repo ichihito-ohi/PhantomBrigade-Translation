@@ -9,16 +9,16 @@ entries:
     text: スキャン阻止
   block_escalation__text:
     temp: true
-    text: Interfere with the enemy sensors, leading them to believe they are about to approach a small group of civilians. Prevents the enemy from deploying forces appropriate for the current escalation level. Useful when encountering an enemy in a highly escalated province.
+    text: 敵のセンサーに干渉し、接近相手が小規模な民間人グループだと信じ込ませます。敵が現在のエスカレーション・レベルに適した戦力を出撃させることを防ぎます。高エスカレーションの州で敵と遭遇したときに有用です。
   block_reinforcements__header:
     temp: true
     text: 増援阻止
   block_reinforcements__text:
     temp: true
-    text: Activate the comm jammer. Prevent squads nearby from joining this fight. Normally, squads aware of the player base will help any hostile you engage and join the fight, but using the jammer charge will disrupt communications and prevent them from arriving in time. Useful when you're being chased by multiple patrols and ill-equipped to take them on all at once.
+    text: 通信妨害装置を起動します。付近の舞台がこの戦闘に参加することを防ぎます。通常、プレイヤーの移動基地に気づいた部隊は、あなたが交戦する敵を支援し戦闘に参加しますが、妨害装置を使用すると通信を遮断して部隊が時間内に到着できないようにします。複数のパトロールに追跡され、それらを一度に相手する準備が整っていない場合に有用です。
   call_home_guard__header:
     temp: true
-    text: Radio for help
+    text: 救難信号
   call_home_guard__text:
     temp: true
-    text: Thanks to your reputation with the Home Guard, you can call their forces to join this fight. Doing this will cost 1 reputation point. A victory with no Home Guard losses will increase your reputation by 1. The strength of their forces will depend on your total reputation.
+    text: 祖国防衛軍からあなたへの評判のおかげで、この戦闘に戦力提供を要請できます。これを行うことで1評判ポイントを失います。祖国防衛軍を1機も失わずに勝利すれば、評判が1上昇します。戦力の強さは評判に依存します。

@@ -69,7 +69,7 @@ entries:
     text: ハーフ
   display_sync__lv_off:
     temp: true
-    text: オフ
+    text: こんなことをしている時間はない。
   display_sync__text:
     temp: true
     text: 垂直同期を調整します。フル・モードはフレーム周期をディスプレイのリフレッシュ・レートに合わせます。ハーフ・モードはフレーム周期を通常の半分に合わせます。オフ・モードはディスプレイのリフレッシュ・レートに関係なく描画され次第すぐに新しいフレームを出力します。これにより、フレームが更新中に切り替わるため、画面が乱れる可能性があります。
@@ -126,10 +126,7 @@ entries:
     text: SMAA（高）
   graphics_antialiasing__lv_2:
     temp: true
-    text: TAA（シャープ）
-  graphics_antialiasing__lv_3:
-    temp: true
-    text: TAA（ソフト）
+    text: TAA
   graphics_antialiasing__text:
     temp: true
     text: 画像中のジャギー除去を調整します。 TAA はパフォーマンス不可が高いですが、より高品質です。 SMAA はパフォーマンス負荷が低いですが、サブピクセルの細部からエイリアシングを除去できません。
@@ -150,7 +147,7 @@ entries:
     text: アンビエント・オクルージョン
   graphics_pps_ao__lv_0:
     temp: true
-    text: 無効
+    text: こんなことをしている時間はない。
   graphics_pps_ao__lv_1:
     temp: true
     text: 低
@@ -183,7 +180,7 @@ entries:
     text: 影
   graphics_shadow_quality__lv_0:
     temp: true
-    text: 無効
+    text: こんなことをしている時間はない。
   graphics_shadow_quality__lv_1:
     temp: true
     text: 超低品質（256px）
@@ -207,10 +204,10 @@ entries:
     text: 異方性フィルタ
   graphics_texture_filtering__lv_0:
     temp: true
-    text: オフ
+    text: こんなことをしている時間はない。
   graphics_texture_filtering__lv_1:
     temp: true
-    text: オン
+    text: はい
   graphics_texture_filtering__lv_2:
     temp: true
     text: 強制オン

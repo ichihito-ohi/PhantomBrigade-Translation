@@ -121,6 +121,12 @@ entries:
   cm_director_crew_enemydown1_text_14:
     temp: true
     text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_15:
+    temp: true
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_16:
+    temp: true
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
   cm_director_crew_enemydown1loss_text_00:
     temp: true
     text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
@@ -188,6 +194,15 @@ entries:
     temp: true
     text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
   cm_director_crew_enemydown3_text_20:
+    temp: true
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない...
+  cm_director_crew_enemydown3_text_21:
+    temp: true
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_22:
+    temp: true
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_23:
     temp: true
     text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない...
   cm_director_crew_enemydown3loss_text_00:
@@ -260,6 +275,15 @@ entries:
     temp: true
     text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
   cm_director_crew_enemydown6_text_20:
+    temp: true
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_21:
+    temp: true
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_22:
+    temp: true
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_23:
     temp: true
     text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
   cm_director_crew_enemydown6loss_text_00:
@@ -445,6 +469,12 @@ entries:
   cm_exit_reinforcement_hold_text_03:
     temp: true
     text: 降下部隊が大気中、スキャンには活動が見られなくなった。現場の機体は、反乱軍機の状況を報告せよ。
+  cm_liberation_destroyed_text_00:
+    temp: true
+    text: One of the historical buildings was destroyed beyond repair. Civilians will not be happy with this.
+  cm_liberation_warning_text_00:
+    temp: true
+    text: Careful, do not damage key civilian locations. We are here to protect them.
   cm_looting_increment_end_text_00:
     temp: true
     text: これで、クレートがロックオンされました。ドローンのセットが完了したのですぐに降下するはずです。
@@ -492,7 +522,7 @@ entries:
     text: 反乱軍機が現地の軍を壊滅させた、戦術プランを更新する必要がある。
   cm_radio_home_guard_active_text_00:
     temp: true
-    text: Approaching the LZ, landing five seconds away! Glad to join the fight, Commander!
+    text: 着陸地点に接近中、5秒後に着陸する！共に闘えて嬉しい、司令官！
   cm_retreat_end_text_00:
     temp: true
     text: 司令官、基地を撤退させる必要があったため、しばらく部隊を回収することができません。
@@ -671,7 +701,7 @@ entries:
     text: 敵 / 傍受
   src_friendly_hq_header:
     temp: true
-    text: HQ
+    text: こちらHQ。
   src_friendly_tutorial_cadet_header:
     temp: true
     text: 見習い士官
