@@ -16,7 +16,7 @@ edits:
 - 'modeConfigs.Replay.header: リプレイ'
 - 'modeConfigs.Replay.tooltip: 戦闘の直前5秒を見ることができます。'
 - 'commSources.enemy_generic_intercepted.text: 敵 / 傍受'
-- 'commSources.friendly_hq.text: こちらHQ。'
+- 'commSources.friendly_hq.text: HQ'
 - 'commSources.friendly_tutorial_commander.text: 司令官'
 - 'commSources.friendly_tutorial_cadet.text: 見習い士官'
 - 'commSources.enemy_elite_intercepted.text: 敵 / 傍受'
