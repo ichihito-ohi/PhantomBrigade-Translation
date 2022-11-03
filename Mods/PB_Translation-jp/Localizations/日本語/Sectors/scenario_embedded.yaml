@@ -1,756 +1,1306 @@
+timeAtSync: 2022-10-24 11:34:38.587770-07:00
+exportMode: LinePerKeySplit
 name: Scenarios (Embedded)
 description: All text unique to specific scenarios. Core header/text are only visible in developer menus for the time being. States are akin to objectives, their header/text usually describe what needs to be done or consequences of something happening. Steps are similar to narrative event steps, but can include a lot more data - aside from standard header/text strings, they can also include strings for tutorial intermissions, contextual hints etc. State/step text that repeats more than oncecan be found in scenario_states_shared or scenario_steps_shared sectors.
-exportMode: LinePerKeySplit
-columns: []
 splits:
 - displayName: Scenario
   prefix: core_header
 entries:
   debug_empty_anyarea__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: debug_empty_anyarea
   debug_empty_anyarea__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   debug_shootingrange_empty__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: debug_shootingrange_empty
   debug_shootingrange_empty__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   debug_shootingrange_empty__step_main_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ' '
   debug_shootingrange_empty__step_main_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   debug_shootingrange_obstaclecourse__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: debug_shootingrange_obstaclecourse
   debug_shootingrange_obstaclecourse__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   debug_squad__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   debug_squad__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   debug_squad__step_main_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   debug_squad__step_main_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_assassination__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 暗殺
   event_assassination__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 南から標的に接近して有名なVIPの待ち伏せを試みます。VIPは伝説級の強力な武器を持っており、この州の情勢に強い影響力を持ちます。
   event_assassination__state_transition_delay_deploy_killteam_scout_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: あと3ターンで偵察隊が増援のキルチームを呼ぶ。
+    text: あと3ターンで偵察隊が増援のキル・チームを呼ぶ。
   event_assassination__state_transition_delay_deploy_killteam_vip_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: あと4ターンで増援のキルチームが到着する。
+    text: あと4ターンで増援のキル・チームが到着する。
   event_assassination__state_transition_delay_deploy_vip_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: VIPの到着を待て
   event_assassination__state_transition_delay_deploy_vip_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: あと2ターンでVIPがマップ中央に出撃する。
   event_assassination__state_transition_delay_retreat_block_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 警告！
   event_assassination__state_transition_delay_retreat_block_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: あと4ターンで撤退地点が封鎖される。
-  event_assassination__step_a0_scouts_spotted_pb_0c_text:
-    temp: true
-    text: 3ターン以内に偵察メックを殲滅しろ。失敗すると、VIPではなく増援のキルチームが出撃する。
   event_assassination__step_a1_vip_deployment_delay_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: '残る偵察戦車を倒しVIP待ち伏せの準備をしろ。3ターンある。
-
-      VIPはマップのおよそ中央に出撃すると予想される。'
+    text: 残る偵察戦車を倒しVIP待ち伏せの準備をしろ。3ターンある。 VIPはマップのおよそ中央に出撃すると予想される。
   event_assassination__step_b0_vip_deployed_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: VIPを倒せ。緊急脱出させるな。急げ！増援のキルチームが到着するまで4ターンだ。
+    text: VIPを倒せ。緊急脱出させるな。急げ！増援のキル・チームが到着するまで4ターンだ。
   event_assassination__step_b1_pb_killed_vip_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 標的排除、すぐに撤退しろ！増援のキルチームがすぐに現れる。
+    text: 標的排除、すぐに撤退しろ！増援のキル・チームがすぐに現れる。
   event_assassination__step_b1_vip_ejected_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: ミッション中止！
+    text: 'ミッション中止！ '
   event_assassination__step_b2_killteam_deployment_vip_ejected_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: ミッション中止！
+    text: 'ミッション中止！ '
   event_assassination__step_b3_killteam_deployment_vip_alive_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 'ミッション中止！敵軍に撤退地点が封鎖されるまで、あと4ターンある。
 
       まだVIPを排除することもできるが、パイロットを置き去りにする恐れがある。'
   event_assassination__step_b4_killteam_deployed_vip_dead_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 標的排除、すぐに撤退しろ！敵軍に撤退地点が封鎖されるまで、あと4ターンある。
   event_assassination__step_b5_killteam_deployment_vip_dead_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 敵軍に撤退地点が封鎖されるまで、あと4ターンある。
   event_assassination__step_d0_killteam_deployed_from_scouts_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: VIPは出撃しない。ミッション失敗だ。敵軍に撤退地点が封鎖されるまで、あと4ターンある。
   event_assassination__step_d1_retreat_cutoff_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 敵をすべて排除するかパイロットを緊急脱出させろ。移動基地への撤退経路は敵軍が封鎖した。
   event_blackmarket_raid__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_cache_informed
   event_blackmarket_raid__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_cache_informed__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_cache_informed
   event_cache_informed__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_cache_uninformed__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_cache_uninformed
   event_cache_uninformed__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_defector_charge__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_defector_charge
   event_defector_charge__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_defector_recon__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_defector_recon
   event_defector_recon__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_defector_stakeout__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_defector_stakeout
   event_defector_stakeout__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_director__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_director
   event_director__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_draft_frontal__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_draft_frontal
   event_draft_frontal__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_draft_retry__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_draft_retry
   event_draft_retry__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_draft_stealth__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_draft_stealth
   event_draft_stealth__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_draft_stealth__state_loot_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 目的
   event_draft_stealth__state_loot_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 民間人を救出するため、5ターンの間、最低1機を指定された地点に配置した状態でターンを終了しろ。
   event_draft_stealth__step_retreat_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 目的
   event_draft_stealth__step_retreat_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 撤収または残る敵を殲滅しろ。民間人の脱出は完了した。
-  event_draft_stealth__step_wave_0c_header:
-    temp: true
-    text: ステルス任務
-  event_draft_stealth__step_wave_0c_text:
-    temp: true
-    text: 民間人を救出するか、周辺の敵をすべて排除しろ。
   event_draft_stealth__step_wave0_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ステルス任務
   event_draft_stealth__step_wave0_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 民間人を救出するか、周辺の敵をすべて排除しろ。
   event_farm__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_farm
   event_farm__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__state_loot_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__state_loot_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__step_retreat_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__step_retreat_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__step_wave0_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_fusion__step_wave0_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_meteor__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_breakin
   event_meteor__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_meteor__state_obj_cache_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 隕石落下地点
   event_meteor__state_obj_cache_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 確保するためにメックを隕石落下地点に移動させろ。
   event_meteor__state_wave0_turn_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 隕石が敵に確保されている限り、増援が現れる可能性がある。
   event_meteor__step_cleanup_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 隕石が確保され敵はすべて排除された。続行しろ。
   event_meteor__step_wave0_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 隕石落下地点を確保しろ。
   event_radio__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: event_radio
   event_radio__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_radio__state_objective_destruction_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 破壊工作
   event_radio__state_objective_destruction_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: Disable the structure by destroying enough pieces.
-  event_radio__step_wave_0c_text:
-    temp: true
-    text: ラジオ塔を停止させるか、敵をすべて排除しろ。
+    text: 各箇所を十分に破壊して施設を無力化しろ。
   event_radio__step_wave0_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ラジオ塔を停止させるか、敵をすべて排除しろ。
   event_spies__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_spies__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   event_spies__state_objective_spy_concussed_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: Main Objective
+    text: 主目標
   event_spies__state_objective_spy_concussed_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: Concuss the spy. Do not kill them or let them eject.
+    text: スパイを気絶させろ。死亡も緊急脱出もさせるな。
   generic_assault__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_assault
   generic_assault__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_assault_alarm__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_assault_alarm__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_assault_alarm__state_alarm_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 副次目標
   generic_assault_alarm__state_alarm_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 警報塔を破壊して予備機体の出撃を防げ。
   generic_assault_alarm__state_wave_2_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 予備の増援
   generic_assault_alarm__state_wave_2_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 警報塔を破壊しないと、予備の増援が警報を聞きつけて出撃します。
-  generic_assault_average__core_header:
-    temp: true
-    text: generic_assault_average
-  generic_assault_average__core_text:
-    temp: true
-    text: ''
-  generic_assault_large__core_header:
-    temp: true
-    text: generic_assault_large
-  generic_assault_large__core_text:
-    temp: true
-    text: ''
-  generic_assault_small__core_header:
-    temp: true
-    text: generic_assault_small
-  generic_assault_small__core_text:
-    temp: true
-    text: ''
   generic_assisted__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_assisted__core_text:
-    temp: true
-    text: ''
-  generic_battlesite__core_header:
-    temp: true
-    text: generic_elimination_elite
-  generic_battlesite__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_blitz_elite__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_blitz_elite
   generic_blitz_elite__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_blitz_standard__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_blitz_standard
   generic_blitz_standard__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_breakin__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_breakin
   generic_breakin__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
-  generic_breakin__state_obj_cache_0c_header:
-    temp: true
-    text: 貯蔵庫入口
-  generic_breakin__state_obj_cache_0c_text:
-    temp: true
-    text: 入口を確保するためにメックを目的位置に移動させろ。
   generic_elimination_elite__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_elimination_elite
   generic_elimination_elite__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_elimination_standard__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_elimination_standard
   generic_elimination_standard__core_text:
-    temp: true
-    text: ''
-  generic_elimination_training__core_header:
-    temp: true
-    text: generic_elimination_training
-  generic_elimination_training__core_text:
-    temp: true
-    text: ''
-  generic_liberation__core_header:
-    temp: true
-    text: generic_liberation
-  generic_liberation__core_text:
-    temp: true
-    text: ''
-  generic_liberation_alarm__core_header:
-    temp: true
-    text: ''
-  generic_liberation_alarm__core_text:
-    temp: true
-    text: ''
-  generic_liberation_average__core_header:
-    temp: true
-    text: generic_liberation_average
-  generic_liberation_average__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_liberation_industry__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_liberation_industry__core_text:
-    temp: true
-    text: ''
-  generic_liberation_large__core_header:
-    temp: true
-    text: generic_liberation_large
-  generic_liberation_large__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_liberation_settlement__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_liberation_settlement__core_text:
-    temp: true
-    text: ''
-  generic_liberation_small__core_header:
-    temp: true
-    text: generic_liberation_small
-  generic_liberation_small__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_raid_elite__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_raid_elite
   generic_raid_elite__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   generic_raid_standard__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: generic_raid_standard
   generic_raid_standard__core_text:
-    temp: true
-    text: ''
-  generic_raid_training__core_header:
-    temp: true
-    text: generic_raid_training
-  generic_raid_training__core_text:
-    temp: true
-    text: ''
-  new_00__core_header:
-    temp: true
-    text: ''
-  new_00__core_text:
-    temp: true
-    text: ''
-  obj_protect_01__core_header:
-    temp: true
-    text: generic_raid_elite
-  obj_protect_01__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   tutorial_assault_hard__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: tutorial_assault_hard
   tutorial_assault_hard__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   tutorial_assault_normal__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: tutorial_assault_normal
   tutorial_assault_normal__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   tutorial_blitz__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: tutorial_blitz
   tutorial_blitz__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   tutorial_breakin__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: tutorial_breakin
   tutorial_breakin__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
-  tutorial_breakin__state_no_hostiles_0c_header:
-    temp: true
-    text: 警備兵を排除する
-  tutorial_breakin__state_no_hostiles_0c_text:
-    temp: true
-    text: 入口を守る敵機をすべて倒せ。
-  tutorial_breakin__state_obj_looting_01_0c_header:
-    temp: true
-    text: 貯蔵庫入口
-  tutorial_breakin__state_obj_looting_01_0c_text:
-    temp: true
-    text: 貯蔵庫入口を確保するためにメックを目的位置に移動させろ。
-  tutorial_breakin__state_wave0_turn_0c_text:
-    temp: true
-    text: 貯蔵庫入口が侵略軍に確保されているか警備されている場合、敵は増援を送ってくる。
-  tutorial_breakin__step_cleanup_0c_text:
-    temp: true
-    text: 貯蔵庫入口が確保され敵がすべて排除された。敵の増援はもう現れない。回収要員が貯蔵庫に入る。続行しろ。
-  tutorial_breakin__step_wave0_0c_text:
-    temp: true
-    text: 増援が到着する前に貯蔵庫入口を確保して警備兵を排除しろ。
   tutorial_elimination__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: tutorial_elimination
   tutorial_elimination__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   tutorial_liberation__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: tutorial_liberation
   tutorial_liberation__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   tutorial_raid__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: tutorial_raid
   tutorial_raid__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   unique_capital__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: unique_capital
   unique_capital__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
   unique_capital__state_01_standingarmy_turn_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 支援部隊が接近中
   unique_capital__state_02_support_turn_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 特殊作戦部隊が接近中
   unique_capital__state_02_support_turn_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 6 ターン目
   unique_capital__state_03_specops_turn_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 実験部隊が接近中
   unique_capital__state_03_specops_turn_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 9 ターン目
   unique_capital__state_04_experimental_turn_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 予備軍部隊が接近中
   unique_capital__state_04_experimental_turn_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 12 ターン目
   unique_capital__state_05_recruits_turn_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: HVT が接近中
   unique_capital__state_05_recruits_turn_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 15 ターン目
   unique_capital__step_01_standingarmy_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 最高司令部のすぐそばに乗り込むと敵の注意を引くことに繋がる。我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
+    text: 最高司令部のすぐそばに乗り込むと敵の注意を引くことに繋がる。我々は圧倒されないようにすべての機体を現地へ迅速に戦いに引っ張り出す必要がある。
   unique_capital__step_02_support_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 支援部隊が到着した。我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
+    text: 支援部隊が到着した。我々は圧倒されないようにすべての機体を現地へ迅速に戦いに引っ張り出す必要がある。
   unique_capital__step_03_specops_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 特殊作戦部隊司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
+    text: 特殊作戦部隊司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_04_experimental_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 実験師団のリーダーが現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
+    text: 実験師団のリーダーが現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_05_recruits_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 予備軍司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃させて全将校を戦いに引っ張り出す必要がある。
+    text: 予備軍司令官が現地にいる。細心の注意を払い、我々は圧倒されないようにすべての機体を現地へ迅速に出撃さてて全将校を戦いに引っ張り出す必要がある。
   unique_capital__step_06_boss_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 将軍を戦いに引っ張り出した。ケリをつける時だ：最高司令部を無力化して敵軍の命令系統を混乱させるためにヤツを倒せ。
   unique_intro__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: Unique - Intro Tutorial
   unique_intro__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
-  unique_intro__state_act_plan_attack1_0c_header:
-    temp: true
-    text: 射撃開始
-  unique_intro__state_act_plan_attack1_0c_text:
-    temp: true
-    text: 報復のため敵機体に攻撃を開始しましょう。
-  unique_intro__state_act_plan_move1_0c_text:
-    temp: true
-    text: ウォーカーを操縦して北へ進路を取り、司令官の後に続きましょう。
-  unique_intro__state_act_plan_move2_0c_text:
-    temp: true
-    text: さらに北へ経路を取ってアンテナに向かい、ブラックアウトの原因を特定しましょう。
-  unique_intro__state_act_plan_move3_0c_text:
-    temp: true
-    text: 指示の通り、司令官に合わせて移動して側面を抑えましょう。
-  unique_intro__state_act_plan_move4_0c_text:
-    temp: true
-    text: 撃ちながら移動しましょう。最適な経路を作成して被弾率を抑えましょう。
-  unique_intro__state_act_plan_move5_0c_text:
-    temp: true
-    text: 機動力は最大の防御です。敵の砲火を避けるため後退しましょう。
-  unique_intro__state_prediction_active_0c_header:
-    temp: true
-    text: 起動
-  unique_intro__state_prediction_active_0c_text:
-    temp: true
-    text: あなたのメックにインストールされたプロトタイプハードウェアを起動しましょう。
   unique_intro__state_units_defeated_enemy_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 敵の殲滅
+    text: 主目標
   unique_intro__state_units_defeated_enemy_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 街を攻撃している敵機体をすべて破壊しましょう。
-  unique_intro__state_units_defeated_friendly_0c_header:
-    temp: true
-    text: 生き延びる
-  unique_intro__state_units_defeated_friendly_0c_text:
-    temp: true
-    text: 必要ならば撤退してください―これは負け戦かもしれません。
+    text: すべての敵を殲滅しろ。
   unique_intro__step_02_move1_1hc_0_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 機体を左クリックしてアクションリストを開きます
   unique_intro__step_02_move1_1hc_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 移動アクションボタンをクリックします
+    text: 『走る』アクション・ボタンを左クリックします
   unique_intro__step_02_move1_1hc_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 移動先をクリックしてアクションプランを作成します
+    text: フィールドを左クリックして移動先を確定します
   unique_intro__step_02_move1_1hc_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: このボタンをクリックしてプランを実行します
-  unique_intro__step_02_move1_2ic_0_header:
+  unique_intro__step_07_wait_and_move_1hc_0_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: チュートリアルガイド (1/2)
-  unique_intro__step_02_move1_2ic_0_text:
+    text: '『待機』アクションをクリックして、どのように予測が計画に役立つか見てみましょう。
+
+
+      タイムラインにカーソルを重ねても予測を見ることができます。'
+  unique_intro__step_07_wait_and_move_1hc_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: これから簡単なチュートリアルでこのゲームの基本的な仕組みと操作方法を説明します。
-  unique_intro__step_02_move1_2ic_1_header:
+    text: ここを狙いましょう。これで待機中の向きと時間を決定します。
+  unique_intro__step_07_wait_and_move_1hc_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: チュートリアルガイド (2/2)
-  unique_intro__step_02_move1_2ic_1_text:
+    text: '次に、『走る』アクションをクリックしましょう。
+
+
+      標的までの距離が長くなるにつれて、タイムライン上の待機時間が伸びることに注意しましょう。'
+  unique_intro__step_07_wait_and_move_1hc_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: まず、画面のヒントに従ってください。ここで覚えるべき操作は [b]左クリック[/b] で確認、 [b]右クリック[/b] で取り消し、WASDでカメラ移動です。
-  unique_intro__step_03_move2_2ic_0_header:
+    text: This point should provide a clear view.
+  unique_intro__step_07_wait_and_move_1hc_4_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: カメラ操作
-  unique_intro__step_03_move2_2ic_0_text:
+    text: '距離に応じて移動にかかる時間は変化します。移動は何度でも可能です。
+
+
+      アクションは右クリック2回でキャンセルできます。プランに満足したら、実行してみましょう。'
+  unique_intro__step_07_wait_and_move_1hc_5_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: さて、QまたはFキーでカメラを水平旋回できます。そしてRまたはFキーで垂直回転できます。また中央クリックを押しながらでも操作可能です。
-  unique_intro__step_04_discovery_0c_text:
+    text: 'こちらは司令官のタイムラインです。これから5秒後までの司令官のアクションが表示されています。
+
+
+      敵を含め、どの機体のプランも確認できること、その情報を踏まえてプランを作成できることをお忘れなく。'
+  unique_intro__step_07_wait_and_move_1hc_6_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: アンテナが妨害されているようだ：何が起きているか確かめろ
-  unique_intro__step_05_prediction_boot_0c_text:
-    temp: true
-    text: プロトタイプハードウェアを起動して活動環境をスキャンしろ。
-  unique_intro__step_05_prediction_boot_1hc_0_text:
-    temp: true
-    text: プロトタイプ・システムを起動します
-  unique_intro__step_06_prediction_explainer_0c_header:
-    temp: true
-    text: 説明
-  unique_intro__step_06_prediction_explainer_0c_text:
-    temp: true
-    text: 新システムについて学べ。
-  unique_intro__step_06_prediction_explainer_2ic_0_header:
-    temp: true
-    text: タイムライン
-  unique_intro__step_06_prediction_explainer_2ic_0_text:
-    temp: true
-    text: 画面角に表示されたこの新しいウィンドウはタイムラインと呼びます。動画の再生バーのようなもので―この上でマウスを動かすことである時刻に何が起きるか見ることができます。ここでは、司令官が移動を計画しており本機能を練習します。
-  unique_intro__step_07_prediction_flank_0c_header:
-    temp: true
-    text: 予測
-  unique_intro__step_07_prediction_flank_0c_text:
-    temp: true
-    text: 環境をスキャンするために予測システムをテストしろ。
-  unique_intro__step_07_prediction_flank_1hc_0_text:
-    temp: true
-    text: ここにカーソルを重ねて時系列を確認します
-  unique_intro__step_07_prediction_flank_1hc_1_text:
-    temp: true
-    text: フィールド上の経路にカーソルを重ねても確認できます
-  unique_intro__step_07_prediction_flank_1hc_2_text:
-    temp: true
-    text: 移動が長いほど時間もかかります！
-  unique_intro__step_07_prediction_flank_1hc_3_text:
-    temp: true
-    text: 計画したアクションはダブル右クリックで取り消せます
+    text: 操作可能な機体を選択しましょう
   unique_intro__step_09_tank_plans_1hc_0_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 攻撃を計画するときは、タイムラインを使って [b]いつ[/b] 開始するか選択します。理想的には、標的が最適な距離にいるときです。
+    text: 戦車が攻撃しようとしています。応戦するために、近づく必要があります。『走る』アクションをクリックしましょう。
   unique_intro__step_09_tank_plans_1hc_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 攻撃したい標的をクリックします
+    text: この地点に移動することで、標的が最適な距離に入ります。
   unique_intro__step_09_tank_plans_1hc_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 移動と攻撃は重複させることができます
+    text: 次に『攻撃』アクションをクリックしましょう。
   unique_intro__step_09_tank_plans_1hc_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 常に動き続けることをお勧めします
+    text: '初めに、タイムライン上にマウスを合わせて、[b]いつ[/b]攻撃を開始するか設定します。
+
+
+      標的が[b]適正距離[/b]（自機を囲む白い輪）の中にいるときを狙うと良いでしょう。'
   unique_intro__step_09_tank_plans_1hc_4_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 攻撃はタイムライン上で再配置できるので、タイミングを微調整しましょう
+    text: '標的となる機体またはその予測をクリックして攻撃を確定しましょう。
+
+
+      表示されるパーセンテージは、その距離において予測される武器の効果です。'
   unique_intro__step_09_tank_plans_1hc_5_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 第二ステップはフィールド上の標的を選択します。正面の車両をクリックしてください。
-  unique_intro__step_10_skirmish_reaction_0c_text:
+    text: 'タイムライン上で攻撃をドラッグすることで時間を変更できます。
+
+
+      念のため、もう一度攻撃を設定しましょう。[b]攻撃は複数回計画可能です。[/b]'
+  unique_intro__step_09_tank_plans_1hc_6_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 警戒を怠るな
-  unique_intro__step_11_skirmish_cover_0c_text:
+    text: 2回連続攻撃を計画できました。このプランを実行してみましょう。
+  unique_intro__step_09_tank_plans_1hc_7_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 降りかかる攻撃から身を守れ
-  unique_intro__step_12_skirmish_final_0c_text:
+    text: こちらは司令官のタイムラインです。戦車の進路を塞ぐつもりです。
+  unique_intro__step_09_tank_plans_1hc_8_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 遮蔽に留まり反撃に備えろ
-  unique_intro__step_14_siege_hints_1hc_0_text:
+    text: こちらは敵戦車のタイムラインです。前進して射撃するとの予測です。
+  unique_intro__step_11_skirmish_cover_1hc_0_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: その他のアクションが解除されました。覚えておいてください―ひとつのアクションを何度も繰り返すことができます。
-  unique_intro__step_14_siege_hints_1hc_1_text:
+    text: 新たに出現した敵は射程外です―最善策は身を隠すことです。
+  unique_intro__step_11_skirmish_cover_1hc_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: ショットガンとシールドの機体です。遮蔽で待つかシールドに隠れて距離を詰め、近距離で射撃しましょう。
-  unique_intro__step_14_siege_hints_1hc_2_text:
+    text: この地点なら飛んでくる砲火を防げるでしょう。
+  unique_intro__step_15_siege_hints_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: チャンス―視線が通り標的と最適な距離になる瞬間を探しましょう。何もないならば、経路の変更を検討しましょう。
-  unique_intro__step_14_siege_hints_1hc_3_text:
+    text: 任務状況
+  unique_intro__step_15_siege_hints_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 標的に近づき、かつダメージを避けることができるちょうど良い経路を探してみましょう。敵の射線と垂直に移動しましょう：撃たれにくくなります
-  unique_intro__step_15_siege_freeform_0c_text:
+    text: 敵侵略軍から街を防衛せよ。
+  unique_intro__step_15_siege_hints_1hc_0_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 敵を食い止め、街を守れ。
+    text: '■ この軽量級メックはアサルトライフルとサブマシンガンを装備している。
+
+
+      ■ 中距離に最適な機体である。回り込み、速度を活かして被弾を避けましょう。'
+  unique_intro__step_15_siege_hints_1hc_1_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '■ このメックはショットガンを持っています。ショットガンは大ダメージを与えますが、近距離に限られます。
+
+
+      ■ 『シールド』アクションを使って敵の攻撃を防ぎながら距離を縮めることができます。'
+  unique_intro__step_15_siege_hints_1hc_2_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '■ このメックは重量級のビーム兵器を装備しています。速度は遅いですが、強力です。
+
+
+      ■ ビームは遮蔽を貫通して複数の機体を同時に攻撃することができます。'
+  unique_intro__step_16_siege_freeform_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 任務状況
+  unique_intro__step_16_siege_freeform_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 敵侵略軍から街を防衛せよ。
   unique_mountainbase__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: unique_mountainbase
   unique_mountainbase__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
-  unique_mountainbase__state_reinforcement_wave_test_0c_header:
+  unique_mountainbase__state_main_0c_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 追加の増援
-  unique_mountainbase__state_reinforcement_wave_test_0c_text:
+    text: 主目標
+  unique_mountainbase__state_main_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 状態に基づく増援がどのように機能するか示す例。この状態は2番目のターンを確認し、どのシナリオ・ステップにいるかに関わらず、そのターンが来るとリアクション・データ・ブロックを介して関連機体を有効化します。
+    text: すべての敵を殲滅しろ。
   unique_mountainbase__step_wave_00_guard_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 基地は無傷のようですが、現地に敵パトロールがいます。あなたの存在が報告される前に始末してください。
+    text: この州に足場を築くため、 Felheim を再制圧せよ。
+  unique_mountainbase__step_wave_00_guard_1hc_0_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 攻撃は熱を生みます。タイムラインと発熱インジゲーターに注意しましょう。攻撃の間隔を空け、熱を逃しダメージを避けましょう。
   unique_mountainbase__step_wave_01_alarm_0c_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: たったいま追加機体が戦闘に参加しました。あなたの存在が報告される前に敵をすべて始末してください。
   unique_stronghold__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: unique_stronghold_army
   unique_stronghold__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
-  unique_stronghold_army__core_header:
-    temp: true
-    text: unique_stronghold_army
-  unique_stronghold_army__core_text:
-    temp: true
-    text: ''
-  unique_stronghold_experimental__core_header:
-    temp: true
-    text: unique_stronghold_experimental
-  unique_stronghold_experimental__core_text:
+  unique_tutorial_base__core_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
-  unique_stronghold_reserves__core_header:
-    temp: true
-    text: unique_stronghold_reserves
-  unique_stronghold_reserves__core_text:
-    temp: true
-    text: ''
-  unique_stronghold_specops__core_header:
-    temp: true
-    text: unique_stronghold_specops
-  unique_stronghold_specops__core_text:
+  unique_tutorial_base__core_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ''
+  unique_tutorial_base__state_power_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 副次目標
+  unique_tutorial_base__state_power_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ジェネレーターを破壊してタレットを無効化せよ。
+  unique_tutorial_base__state_wave2_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 増援
+  unique_tutorial_base__state_wave2_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: さらに多くの敵が接近中。到着する前に現地の統制を確保せよ。
+  unique_tutorial_base__step_wave_01_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 任務状況
+  unique_tutorial_base__step_wave_01_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 祖国防衛軍の助けを借りて基地を奪取せよ。
+  unique_tutorial_base__step_wave_02_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 敵機をすべて排除し敵要塞を制圧せよ。
+  unique_tutorial_battlesite__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ''
+  unique_tutorial_battlesite__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ''
+  unique_tutorial_battlesite__state_homeguard_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 主目標
+  unique_tutorial_battlesite__state_homeguard_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 祖国防衛軍の機体を生還させよ。
+  unique_tutorial_battlesite__step_homeguard_lost_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 任務失敗。さらなる損失を避けるため、祖国防衛軍の機体は撤退した。
+  unique_tutorial_battlesite__step_wave_01_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 祖国防衛軍は身動きが取れない。味方を防衛しつつ敵機をすべて排除せよ。
+  unique_tutorial_elimination__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ''
+  unique_tutorial_elimination__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ''
+  unique_tutorial_elimination__state_transition_vip_killed_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 主目標
+  unique_tutorial_elimination__state_transition_vip_killed_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: VIP パイロットを排除または気絶させよ
+  unique_tutorial_elimination__step_retreat_fail_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 任務失敗。暗殺標的が逃走した。これ以上の損失を避けるため撤退せよ。
+  unique_tutorial_elimination__step_retreat_success_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 任務成功、標的排除。撤退して勝ちを決めろ。
+  unique_tutorial_elimination__step_wave_01_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 指定された暗殺標的のいる敵パトロールを待ち伏せした。
+  unique_tutorial_liberation__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ''
+  unique_tutorial_liberation__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ''
+  unique_tutorial_liberation__state_alarm_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 副次目標
+  unique_tutorial_liberation__state_alarm_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 警報塔を破壊して予備機体の出撃を防げ。
+  unique_tutorial_liberation__state_wave_2_0c_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 予備の増援
+  unique_tutorial_liberation__state_wave_2_0c_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 警報塔を破壊しないと、予備の増援が警報を聞きつけて出撃します。

@@ -1,69 +1,132 @@
-name: Scenarios (Shared Steps)
-description: Text for headers and details repeated across multiple scenarios. Should mostly cover common scenario types, not unique scenarios.
+timeAtSync: 2022-10-04 18:11:22.017469-07:00
 exportMode: LinePerKeySimple
-columns: []
+name: Scenarios (Shared Steps)
+description: Text for step headers and details repeated across multiple scenarios. Should mostly cover common scenario types, not unique scenarios.
 splits: []
 entries:
   generic_breakin_clenup_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 貯蔵庫が確保され敵はすべて排除された。続行しろ。
   generic_breakin_objective_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 増援が到着する前に貯蔵庫入口を確保して敵を排除しろ。
   generic_eliminate_before_reinforcements_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 増援が到着する前に敵をすべて殲滅しろ。
   generic_eliminate_isolated_generic_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 敵をすべて殲滅しろ。敵機体は孤立しており、増援の接近は検知されていない。
   generic_eliminate_isolated_site_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 現地を制圧するために敵をすべて殲滅しろ。敵機体は孤立しており、増援の接近は検知されていない。
   generic_eliminate_nonspecific_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: すべての敵を殲滅しろ。
   generic_hitandrun_earlyexit_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 敵が呼応して増援を送る前に撤退しろ―このように攻撃して脱出しても勝利となる。
   generic_hitandrun_late_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 増援が到着した。新たに到着した敵をすべて殲滅しない限り現地は敵が掌握したままになる。
   generic_looting_cleanup_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 物資をすべて奪取しました。現在、現地を掌握しています。機体を撤収―またはより多くの装備を得るチャンスのために残りの敵と交戦しましょう。
   generic_looting_intro_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 確保のために機体をマークされたエリアに移動しろ。
   generic_objective_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 概要
+    text: 任務状況
   generic_unknown_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 情報なし
   generic_unknown_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: HQとのアップリンク確立に失敗：現在、任務情報は使用不能。
   unique_capital_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 首都解放
   unique_defector_eliminate_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: この施設を制圧して亡命者を救出するためにすべての敵を殲滅しろ。敵機体は孤立しており、増援の接近は検知されていない。
   unique_stronghold_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: この要塞を制圧するためにすべての敵を殲滅しろ。細心の注意を払え。
   unique_tutorial_contact_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 接触
   unique_tutorial_contact_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 未確認車両に対処しろ
   unique_tutorial_heading_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 出動
   unique_tutorial_investigate_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 調査
   unique_tutorial_outage_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 国境の前線基地が外部との通信を失った。問題を調査しろ。

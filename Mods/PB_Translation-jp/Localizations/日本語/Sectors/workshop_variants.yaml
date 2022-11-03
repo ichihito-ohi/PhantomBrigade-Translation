@@ -1,222 +1,438 @@
-name: Workshop (Variants)
-description: '...'
+timeAtSync: 0001-01-01 00:00:00
 exportMode: LinePerKeySplit
-columns: []
+name: Workshop (Variants)
+description: Workshop project variants cover common modifications shared between many different projects. For example, each weapon project might have a unique description in the project sector, but might offer the player a choice between 3 quality levels, and text for these quality levels will be defined in this sector.
 splits: []
 entries:
   prt_body_ratings_01__rating_1_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: コモン
   prt_body_ratings_01__rating_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 平均的な性能で、様々なパークが付く。大量生産品で、コスト削減のためにサブシステムは直接溶接されている。
   prt_body_ratings_01__rating_2_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: アンコモン
   prt_body_ratings_01__rating_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 一部の内部サブシステムをカスタマイズ可能で、より高品質なパークが付く。
   prt_body_ratings_01__rating_3_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア
   prt_body_ratings_01__rating_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア部品は内部サブシステムの高度なカスタマイズが可能で、優れたパークが付く。
   prt_body_ratings_starter__rating_1_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: コモン（スターターキット）
   prt_body_ratings_starter__rating_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 平均的な性能で、様々なパークが付く。大量生産品で、コスト削減のためにサブシステムは直接溶接されている。
   prt_body_ratings_starter__rating_2_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: アンコモン
   prt_body_ratings_starter__rating_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 一部の内部サブシステムをカスタマイズ可能で、より高品質なパークが付く。
   prt_body_ratings_starter__rating_3_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア
   prt_body_ratings_starter__rating_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア部品は内部サブシステムの高度なカスタマイズが可能で、優れたパークが付く。
   prt_body_sockets__body_arm_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 腕
   prt_body_sockets__body_arm_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_body_sockets__body_bottom_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 下半身
   prt_body_sockets__body_bottom_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_body_sockets__body_top_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 上半身
   prt_body_sockets__body_top_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_body_sockets_armless__body_bottom_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 下半身
   prt_body_sockets_armless__body_bottom_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_body_sockets_armless__body_top_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 上半身
   prt_body_sockets_armless__body_top_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_ballistic_sidearm__item_medium_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 中射程
   prt_item_ballistic_sidearm__item_medium_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_ballistic_sidearm__item_short_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 短射程
   prt_item_ballistic_sidearm__item_short_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_melee__item_axe_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: アックス
   prt_item_melee__item_axe_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_melee__item_blade_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ブレード
   prt_item_melee__item_blade_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_melee__item_cutter_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: カッター
   prt_item_melee__item_cutter_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_melee__item_saber_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: セイバー
   prt_item_melee__item_saber_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_ratings_01__rating_1_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: コモン
   prt_item_ratings_01__rating_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 平均的な性能で、様々なパークが付く。大量生産品で、コスト削減のためにサブシステムは直接溶接されている。
   prt_item_ratings_01__rating_2_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: アンコモン
   prt_item_ratings_01__rating_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 一部の内部サブシステムをカスタマイズ可能で、より高品質なパークが付く。
   prt_item_ratings_01__rating_3_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア
   prt_item_ratings_01__rating_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア部品は内部サブシステムの高度なカスタマイズが可能で、優れたパークが付く。
   prt_item_ratings_starter__rating_1_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: コモン（スターターキット）
   prt_item_ratings_starter__rating_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 平均的な性能で、様々なパークが付く。大量生産品で、コスト削減のためにサブシステムは直接溶接されている。
   prt_item_ratings_starter__rating_2_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: アンコモン
   prt_item_ratings_starter__rating_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 一部の内部サブシステムをカスタマイズ可能で、より高品質なパークが付く。
   prt_item_ratings_starter__rating_3_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア
   prt_item_ratings_starter__rating_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: レア部品は内部サブシステムの高度なカスタマイズが可能で、優れたパークが付く。
   prt_item_shield__heavy_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 重量級
   prt_item_shield__heavy_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   prt_item_shield__light_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 軽量級
   prt_item_shield__light_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_aux_plating__utl_additive_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 追加装甲
   sub_aux_plating__utl_additive_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 防御力を優先した高質量の装甲サブシステム。
   sub_aux_plating__utl_subtractive_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 装甲削減
   sub_aux_plating__utl_subtractive_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 防御力と引き換えに質量を削減した装甲サブシステム。
   sub_aux_ratings_01__rating_1_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_aux_ratings_01__rating_1_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_aux_ratings_01__rating_2_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_aux_ratings_01__rating_2_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_aux_ratings_01__rating_3_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_aux_ratings_01__rating_3_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_spc_core__utl_combat_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 戦闘
   sub_spc_core__utl_combat_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_spc_core__utl_speed_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 速度
   sub_spc_core__utl_speed_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_spc_core__utl_utility_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
-    text: パイロット支援
+    text: 支援
   sub_spc_core__utl_utility_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_spc_thruster__utl_combat_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 戦闘
   sub_spc_thruster__utl_combat_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_spc_thruster__utl_distance_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 距離
   sub_spc_thruster__utl_distance_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
   sub_spc_thruster__utl_utility_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
-    text: パイロット支援
+    text: 支援
   sub_spc_thruster__utl_utility_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''
