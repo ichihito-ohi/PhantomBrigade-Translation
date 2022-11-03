@@ -1,0 +1,174 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySplit
+name: Units (Checks)
+description: This text is associated with checks used to determine whether a unit can be used in combat. Checks can range from minor to critical. When a check is failed, the text defined here is displayed to the player, e.g. during briefing before combat.
+splits: []
+entries:
+  error_missing_part_core__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: コアがありません
+  error_missing_part_core__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 反応炉などの不可欠な部品を搭載しているため、コアが無いと機体は機能しません。この機体を出撃させる前にコアが組み込まれていることを確認してください。
+  error_missing_part_optional_left__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 左腕がありません
+  error_missing_part_optional_left__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 左腕が無いと機体は機能しません。機体を出撃させる前に組み込まれていることを確認してください。
+  error_missing_part_optional_right__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 右腕がありません
+  error_missing_part_optional_right__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 右腕が無いと機体は機能しません。機体を出撃させる前に組み込まれていることを確認してください。
+  error_missing_part_secondary__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 下半身がありません
+  error_missing_part_secondary__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 下半身が無いと機体は機能しません。機体を出撃させる前に組み込まれていることを確認してください。
+  error_missing_system_reactor__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: コアがありません
+  error_missing_system_reactor__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: コアサブシステムはどんなウォーカーでも動作させるのに不可欠で取り外すことはできません。
+  error_missing_weapons__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 主兵装または副兵装がありません。
+  error_missing_weapons__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器なしで機体を出撃させることはできません。
+  error_missing_weapons_shieldonly__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 主兵装または副兵装がありません。
+  error_missing_weapons_shieldonly__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: シールドだけで機体を出撃させることはできません。
+  info_incomplete_armor_core__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: コア装甲不足
+  info_incomplete_armor_core__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 利用可能なすべての懸架点に装甲を取り付けて上半身を保護することで機体の生存率が著しく上昇します。多くの基幹システムが追加保護の恩恵を受けられます。
+  info_incomplete_armor_left__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 左側装甲不足
+  info_incomplete_armor_left__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 副兵装を保護するため左腕の懸架点すべてに装甲を取り付けることをお勧めします。
+  info_incomplete_armor_right__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 右側装甲不足
+  info_incomplete_armor_right__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 副兵装を保護するため右腕の懸架点すべてに装甲を取り付けることをお勧めします。
+  info_incomplete_armor_secondary__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 脚部装甲不足
+  info_incomplete_armor_secondary__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 可能であれば、下半身の全懸架点を装甲で覆うことで戦場における機体の生存率を著しく上昇できます。下半身に致命的なダメージを受けると移動能力が著しく損なわれる恐れがあります。
+  warning_damage__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 損傷しています
+  warning_damage__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 機体を再展開する前に損傷を修復することをお勧めします。
+  warning_missing_primary__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 主兵装がありません
+  warning_missing_primary__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 主兵装なしに機体を展開することはお勧めできません。
+  warning_missing_secondary__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 副兵装がありません
+  warning_missing_secondary__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: サイドアームまたは副兵装なしに機体を展開することはお勧めできません。主兵装を補ったり利き腕を失った際の頼みの綱にしたりするために様々な装備が利用可能です。

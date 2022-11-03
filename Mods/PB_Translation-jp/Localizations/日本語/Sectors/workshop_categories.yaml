@@ -1,0 +1,54 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySplit
+name: Workshop (Categories)
+description: Workshop categories are groups of workshop projects. The player will encounter this text when hovering over category buttons in the top right corner of the workshop UI.
+splits: []
+entries:
+  all__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: すべて
+  all__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 加工室で利用可能なプロジェクトをすべて表示。
+  body__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 本体部品
+  body__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: メック本体部品に関するプロジェクトのみ表示。
+  item__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器およびシールド
+  item__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器とシールドに関するプロジェクトのみ表示。
+  utility__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 支援
+  utility__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 新機体または補助サブシステムの製造に関する支援プロジェクトのみ表示。

@@ -1,36 +1,78 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: None
 name: UI (Settings Groups)
 description: Text for settings groups displayed on the left in the settings screen.
-exportMode: LinePerKeySplit
-columns: []
 splits: []
 entries:
+  accessibility__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: アクセシビリティ
+  accessibility__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '...'
   audio__header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: オーディオ
   audio__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: '...'
   display__header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ディスプレイ
   display__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: '...'
   game__header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ゲーム
   game__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: '...'
   graphics__header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: グラフィックス
   graphics__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: '...'
   input__header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 入力
   input__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: '...'

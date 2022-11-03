@@ -1,21 +1,36 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySimple
 name: Overworld (Other)
 description: Other text used by overworld - various tooltips, weather info etc.
-exportMode: LinePerKeySimple
-columns: []
 splits: []
 entries:
   weather_l025_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 晴天
   weather_l050_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 曇天
   weather_l066_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 小雨
   weather_l083_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 雨天
   weather_l100_name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 大雨

@@ -1,6 +1,6 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: None
 name: Info pages
 description: Controls, help, credits and other pages with various info.
-exportMode: LinePerKeySimple
-columns: []
 splits: []
 entries: {}
