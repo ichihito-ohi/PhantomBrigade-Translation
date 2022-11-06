@@ -1,54 +1,102 @@
-name: Base (Stat Groups)
-description: '...'
+timeAtSync: 0001-01-01 00:00:00
 exportMode: LinePerKeySimple
-columns: []
+name: Base (Stat Groups)
+description: Groups combine sets of base stats for easier understanding and convenient navigation. All metrics relating to workshop are combined under workshop stat group etc. This text is encountered in the base upgrade UI.
 splits: []
 entries:
   energy__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: エネルギー
   energy__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 移動基地の動力システム性能。
   mm_fast__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: オーバードライブ
   mm_fast__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 移動基地のオーバードライブ・モード性能。
   mm_normal__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 巡行
   mm_normal__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 移動基地の巡行モード性能。
   mm_stealth__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ステルス
   mm_stealth__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 移動基地のステルス・モード性能。
   sensor__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: センサー
   sensor__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 移動基地のセンサー性能。
   units__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 機体
   units__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 移動基地の整備可能なメック容量性能。
   workshop__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 加工室
   workshop__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 移動基地の加工室システム性能。
   z_other__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: その他
   z_other__text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: ''

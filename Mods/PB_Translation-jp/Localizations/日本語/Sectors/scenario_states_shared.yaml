@@ -1,105 +1,204 @@
+timeAtSync: 2022-10-04 18:09:17.708097-07:00
+exportMode: LinePerKeySimple
 name: Scenarios (Shared States)
 description: States (objectives) shared between scenarios.
-exportMode: LinePerKeySimple
-columns: []
 splits: []
 entries:
   generic_action_move_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 移動計画
+    text: 移動を計画せよ
   generic_breakin_objective_cache_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 貯蔵庫入口
   generic_breakin_objective_cache_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 確保するためにメックを貯蔵庫入口に移動させろ。
   generic_breakin_objective_hostiles_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 警備兵を排除する
   generic_breakin_objective_hostiles_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 敵機をすべて倒せ。
   generic_breakin_turn_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: false
     text: 貯蔵庫入口が敵に確保されている限り、増援が現れる可能性がある。
   generic_enemy_delay_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 敵が再考中
   generic_enemy_delay_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 現地の敵機体をすべて殲滅したことで敵機体は 計画を再考せざるを得なくなりました。これが済むまで敵は出撃しません。この時間を使って脱出させましょう。
+    text: 現地の敵機体をすべて殲滅したことで敵機体は プランを再考せざるを得なくなりました。これが済むまで敵は出撃しません。この時間を使って脱出させましょう。
   generic_enemy_reinforcements_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 増援
   generic_enemy_reinforcements_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: まもなく敵増援が着陸する見込みだ。
   generic_enemy_vip_arriving_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: まもなく敵の重要標的が着陸する見込みだ。
   generic_objective_a_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 目標 A
   generic_objective_b_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 目標 B
   generic_objective_loot_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 物資を盗む
   generic_objective_loot_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 確保するためにマークされた物資の所へメックを移動させましょう。
   generic_retreat_condition_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 撤退条件
   generic_retreat_condition_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: すべての敵を殲滅すると勝利の上で撤退できるようになります。
   generic_unknown_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 目標不明
   generic_unknown_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 情報なし
   liberation_description:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: Avoid destroying this historic building to gain hope.
+    text: 希望を上げるには、この歴史的建造物を破壊されないようにしてください。
   liberation_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: Protect Structure
+    text: 施設を防衛せよ
   reinforcements_friendly_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 友軍が接近中
   reinforcements_friendly_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 救援要請を受けて祖国防衛軍が我々の位置に向かっています。
   reinforcements_hostile_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 追加の増援
   reinforcements_hostile_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: 他の標的がこの戦闘に感づきました。分隊が近くの部隊を離れ、まもなくこちらに離陸する見込みです。
   retreat_incoming_negative_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: まもなく撤退可能
+    text: 撤退状況
   retreat_incoming_negative_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 可能になると、ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。敵は現地を制圧し続けます。
+    text: 撤収は不可能です。
   retreat_incoming_positive_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: まもなく撤収可能
+    text: 撤退状況
   retreat_incoming_positive_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 可能になると、ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。または、さらなる報酬のために留まって敵を殲滅してください。どちらの場合も勝利となります。
+    text: 撤収可能。撤退すれば敗北となります。
   retreat_possible_negative_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 撤退可能
+    text: 撤退状況
   retreat_possible_negative_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。敵は現地を制圧し続けます。
+    text: 撤収可能。撤退すれば敗北となります。
   retreat_possible_positive_header:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: 撤収可能
+    text: 撤退状況
   retreat_possible_positive_text:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
-    text: ハイライトされた場所に移動して『撤退』アクションを使用し戦闘から離脱してください。または、さらなる報酬のために留まって敵を殲滅してください。どちらの場合も勝利となります。
+    text: 撤収可能。撤収して簡単に勝利達成とするか、留まって敵を殲滅しより多くの報酬を手に入れましょう。

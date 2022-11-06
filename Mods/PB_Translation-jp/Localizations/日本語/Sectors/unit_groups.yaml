@@ -1,102 +1,198 @@
-name:
-description:
-exportMode: None
-columns: []
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySimple
+name: Units (Groups)
+description: Names for different types of unit squads. Identical for each faction branch for the time being.
 splits: []
 entries:
   _custom_guerilla_support__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: サポート
   _custom_radio_support__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: サポート
   _custom_spy__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: VIP
   _custom_vip__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: VIP
   army_attacker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: アグレッサー
   army_berserker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: バーサーカー
   "army_charger\uFEFF__name":
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: チャージャー
   army_defender__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ディフェンダー
   army_ranger__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: レンジャー
   experimental_attacker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: アグレッサー
   experimental_berserker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: バーサーカー
   "experimental_charger\uFEFF__name":
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: チャージャー
   experimental_defender__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ディフェンダー
   experimental_ranger__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: レンジャー
   generic_sentry__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: セントリー
   reserves_attacker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: アグレッサー
   reserves_berserker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: バーサーカー
   "reserves_charger\uFEFF__name":
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: チャージャー
   reserves_defender__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ディフェンダー
   reserves_ranger__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: レンジャー
   specops_attacker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: アグレッサー
   specops_berserker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: バーサーカー
   "specops_charger\uFEFF__name":
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: チャージャー
   specops_defender__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ディフェンダー
   specops_ranger__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: レンジャー
   trainingarmy_attacker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: アグレッサー
   trainingarmy_berserker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: バーサーカー
   trainingarmy_charger__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: チャージャー
   trainingarmy_defender__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ディフェンダー
   trainingarmy_ranger__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: レンジャー
   trainingreserves_attacker__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: アグレッサー
   trainingreserves_defender__name:
+    color:
+    noteDev:
+    noteWriter:
     temp: true
     text: ディフェンダー

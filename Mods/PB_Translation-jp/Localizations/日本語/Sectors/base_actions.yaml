@@ -1,0 +1,177 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySplit
+name: Base (Actions)
+description: These are abilities that can be triggered from the hotbar at the bottom of overworld UI. They can involve instantaneous effects (spend a consumable, get something, etc.) or up mechanics without an immediate effect (enter stealth mode where you move slower but are less noticeable, etc.).
+splits: []
+entries:
+  drone_decoy__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: デコイ出撃
+  drone_decoy__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '[aa]条件[ff]
+
+      デコイ・ドローン
+
+
+      [aa]効果[ff]
+
+      周囲をスキャンして敵を引き付けるドローンを送り出す。'
+  mmode_fast__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: オーバードライブ
+  mmode_fast__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '[aa]条件[ff]
+
+      バッテリー電力
+
+
+      [aa]効果[ff]
+
+      基地の移動速度を上げます。電力消費と被視認性増加を代償にして敵より速く移動できるようになります。アップグレードが必要です。
+
+
+      [aa]ホットキー[ff]
+
+      6'
+  mmode_normal__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 巡行
+  mmode_normal__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '[aa]効果[ff]
+
+      通常運転モード。平均的な移動速度、平均的な敵への被視認性で、電力消費はありません。
+
+
+      [aa]ホットキー[ff]
+
+      5'
+  mmode_stealth__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ステルス
+  mmode_stealth__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '[aa]条件[ff]
+
+      バッテリー電力
+
+
+      [aa]効果[ff]
+
+      敵軍から移動基地を隠蔽し、検知される範囲を大幅に縮小させます。移動速度が制限され、蓄えた電力が急速に消費されます。アップグレードが必要です。
+
+
+      [aa]ホットキー[ff]
+
+      4'
+  rain_sensor__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: rain_sensor
+  rain_sensor__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '[aa]条件[ff]
+
+      -
+
+
+      [aa]効果[ff]
+
+      雨天時の視認性向上
+
+
+      [aa]ホットキー[ff]
+
+      -'
+  retreat__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 撤退
+  retreat__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '[aa]条件[ff]
+
+      敵対する州にいて、どこかに利用可能な補給地点がある
+
+
+
+      [aa]効果[ff]
+
+      移動基地を最寄りの補給地点に撤退させます。補給地点までの距離に比例して時間が経過します。到着すると、移動基地は機体、パイロット、資源を補充することが可能になります。
+
+
+      [aa]ホットキー[ff]
+
+      7'
+  retreat__dialog_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 撤退承認
+  retreat__dialog_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 移動基地を最寄りの補給地点に撤退させます。補給地点までの距離に比例して時間が経過します。到着すると、移動基地は機体、パイロット、資源を補充することが可能になります。
+  stop__core_header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 停車
+  stop__core_text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: '[aa]条件[ff]
+
+      基地が移動中のとき。
+
+
+      [aa]効果[ff]
+
+      基地に停車命令を出して現在計画している移動アクションを中止します。時間経過も一時停止されます。
+
+
+      [aa]ホットキー[ff]
+
+      Enter'

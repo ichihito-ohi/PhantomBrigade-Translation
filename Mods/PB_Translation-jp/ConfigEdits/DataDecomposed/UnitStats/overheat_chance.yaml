@@ -1,4 +1,0 @@
-removed: false
-edits:
-- 'textName: オーバーヒート発生率'
-- 'textDesc: 機体が最大熱レベルに達した時にオーバーヒートする確率。'
