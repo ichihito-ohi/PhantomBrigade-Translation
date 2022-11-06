@@ -15,7 +15,8 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Cutscenes']
+    'Configs/DataDecomposed/Cutscenes',
+    'Configs/DataDecomposed/CutscenesVideo']
 
 
 try:
