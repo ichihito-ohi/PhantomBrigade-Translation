@@ -1,5 +1,5 @@
 ## Main Purposes
-This script copy the yaml files and overwrite source texts with the translation texts according to the csv file.
+This script makes the localization files for the official modding system according to the CSV translation sheet.
 
 
 ## How to Use
@@ -37,14 +37,14 @@ Folder|File|Id|Source|Translation
     - This column shows the translation text.
 
 ### Note
-- For each `.py` script, set `root_path` to the folder including the `Configs` folder.
+- Set `csv_path` to the CSV translation sheet.
     ```python
-    # TODO: Set the path to 'Configs' folder
-    root_path = pathlib.Path('C:/Program Files/Epic Games/PhantomBrigade')
+    # TODO: Set the translation sheet
+    csv_path = pathlib.Path('PhantomBrigade-Translation-jp.csv')
     ```
 
-
-## Support Files
-
-### csv_to_yaml-Text.py
-- `Configs/Text`
+- Set language name `<lang>` in `local_path`
+    ```python
+    # TODO: Set the language name
+    local_path = pathlib.Path("PB_Translation-jp/Localizations/<lang>")
+    ```
