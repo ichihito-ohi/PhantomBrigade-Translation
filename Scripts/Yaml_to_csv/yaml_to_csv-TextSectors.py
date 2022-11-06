@@ -15,7 +15,7 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/Text/English/Sectors']
+    'Configs/TextLibrary/Sectors']
 
 
 try:

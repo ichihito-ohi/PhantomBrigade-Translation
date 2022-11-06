@@ -15,7 +15,7 @@ ex = pb.Extractor(root_path)
 
 
 target_list = [
-    'Configs/DataDecomposed/Tutorials']
+    'Configs/TextLibrary/Collections']
 
 
 try:
@@ -37,20 +37,17 @@ try:
                     data = yaml.load(src,yaml.FullLoader)
 
                     # TODO: Custom for yaml pattern
-                    if data['pages'] != None:
+                    if data['entries'] != None:
 
                         i = -1
-                        for key_page in data['pages']:
+                        for key_sub in data['entries']:
                             i += 1
                             
-                            data_page = yaml.safe_load(yaml.safe_dump(key_page))
-                            for key_item in data_page:
-                                if key_item == 'header' or key_item == 'content':
-                                    if data_page[key_item] != None:
-                                        line = ex.formCsvLine(src_path, data_page[key_item], ['pages', i, key_item])
-                                        print(line)
-                                        dst.write(line)
+                            line = ex.formCsvLine(src_path, key_sub, ['entries', i])
+                            print(line)
+                            dst.write(line)
 
 
 except Exception as e:
-    print(e, file = sys.stderr)
+    print(e, file=sys.stderr)
+    # sys.exit(1)
