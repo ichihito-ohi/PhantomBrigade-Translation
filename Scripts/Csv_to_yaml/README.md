@@ -7,6 +7,36 @@ These scripts make the mod files for the official system according to the CSV tr
 *Read the general manual in advance*
 
 ### 1. Make CSV translation sheet
+#### Input Format
+*The csv file has to have the label at the first row.*
+
+Folder|File|Id|Source|Translation
+---|---|---|---|---
+`Configs/***`|`filename`|`Configs/***/filename:key.to.the.text`|"String"|"String"
+
+- **Folder**
+    - This column shows the path to the folder including the file where the data was extracted from.
+
+- **File**
+    - This column shows the file name (without `.yaml` extension) where the data was extracted from.
+
+- **Id**
+    - This column shows the ID of the source text.
+    - The ID is used to the several purposes: management of translation task, targeting of the game data overwriting.
+    - The ID is a combination of `Folder/File` and `key.to.the.text`, joined by `:`.
+    - `key.to.the.text` shows the yaml structure below. The key format is referring to the config edits of the official mod system. [Modding System | BYG Wiki](https://wiki.braceyourselfgames.com/en/PhantomBrigade/Modding/ModSystem#config-edits)
+        ```yaml
+        key:
+            to:
+                the:
+                    text: "String"
+        ```
+
+- **Source**
+    - This column shows the source text to translate.
+
+- **Translation**
+    - This column shows the translation text.
 
 ### 2. Set values in code
 - **csv_to_yaml-TextSectors.py**
@@ -47,38 +77,6 @@ These scripts make the mod files for the official system according to the CSV tr
 
 ### 3. Run the script
 YAML files will be generated in the current directory.
-
-
-## Input Format
-*The csv file has to have the label at the first row.*
-
-Folder|File|Id|Source|Translation
----|---|---|---|---
-`Configs/***`|`filename`|`Configs/***/filename:key.to.the.text`|"String"|"String"
-
-- **Folder**
-    - This column shows the path to the folder including the file where the data was extracted from.
-
-- **File**
-    - This column shows the file name (without `.yaml` extension) where the data was extracted from.
-
-- **Id**
-    - This column shows the ID of the source text.
-    - The ID is used to the several purposes: management of translation task, targeting of the game data overwriting.
-    - The ID is a combination of `Folder/File` and `key.to.the.text`, joined by `:`.
-    - `key.to.the.text` shows the yaml structure below. The key format is referring to the config edits of the official mod system. [Modding System | BYG Wiki](https://wiki.braceyourselfgames.com/en/PhantomBrigade/Modding/ModSystem#config-edits)
-        ```yaml
-        key:
-            to:
-                the:
-                    text: "String"
-        ```
-
-- **Source**
-    - This column shows the source text to translate.
-
-- **Translation**
-    - This column shows the translation text.
 
 
 ## Support Files
