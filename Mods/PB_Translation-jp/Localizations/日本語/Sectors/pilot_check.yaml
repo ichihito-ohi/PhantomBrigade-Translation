@@ -1,0 +1,18 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySplit
+name: Pilots (Checks)
+description: This text is associated with checks used to determine whether a pilot can be used in combat. Checks can range from minor to critical. When a check is failed, the text defined here is displayed to the player, e.g. during briefing before combat.
+splits: []
+entries:
+  warning_high_fatigue__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: このパイロットはひどい怪我を負い、戦闘中に気絶ダメージを非常に受けやすくなっています。出撃させるのはリスクが高いです。
+  warning_high_fatigue__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 怪我

@@ -1,4 +1,0 @@
-removed: false
-edits:
-- 'textName: 重量'
-- 'textDesc: 部品や機体の総重量。移動速度、衝突効果、ロードアウトの利用可能な設定に影響する。'

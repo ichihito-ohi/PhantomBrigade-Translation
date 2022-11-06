@@ -16,7 +16,6 @@ edits:
 - 'modeConfigs.Replay.header: リプレイ'
 - 'modeConfigs.Replay.tooltip: 戦闘の直前5秒を見ることができます。'
 - 'commSources.enemy_generic_intercepted.text: 敵 / 傍受'
-- 'commSources.friendly_hq.text: HQ'
 - 'commSources.friendly_tutorial_commander.text: 司令官'
 - 'commSources.friendly_tutorial_cadet.text: 見習い士官'
 - 'commSources.enemy_elite_intercepted.text: 敵 / 傍受'
@@ -24,3 +23,4 @@ edits:
 - 'commSources.enemy_commander_direct.text: 将軍 / 直通回線'
 - 'commSources.enemy_elite_direct.text: エリート / 直通回線'
 - 'commSources.neutral_event_director.text: 監督'
+- 'commSources.friendly_homeguard.text: 祖国防衛軍司令部'

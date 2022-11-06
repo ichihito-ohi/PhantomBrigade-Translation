@@ -1,0 +1,534 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySplit
+name: Units (Stats)
+description: The text here is connected to stats - metrics attached to unit equipment. The players will encounter this text when hovering over stat bars and numbes in inventory UIs, during mech customization and salvage.
+splits: []
+entries:
+  act_count__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器を使用した時の発射回数。
+  act_count__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 発射回数
+  act_duration__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 射撃（またはその他の関連動作）にかかる時間。
+  act_duration__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 所要時間
+  act_heat__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 部品を使用する際に生じる発熱量。 バリア
+  act_heat__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 発熱量
+  barrier__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 最新の装甲セットに多く見られる再生可能な追加層。一時的にダメージを防御することができる。
+  barrier__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: バリア
+  barrier_regeneration__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: バリア装甲の回復時間に影響するステータス。
+  barrier_regeneration__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: バリア回復
+  comp2_value__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: この装備を分解したときに抽出できるアンコモン・コンポーネントの数。これらには、高性能電子部品、軍用グレードの複合素材、その他の貴重な部品が含まれる。 Tier 2 装備を建造する際に使用できる。
+  comp2_value__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 価値 - アンコモン
+  comp3_value__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: この装備を分解したときに抽出できるレア・コンポーネントの数。これらには、実験段階の材料、プロトタイプ・システム、特異な性質の合金およびポリマーが含まれる。 Tier 3 装備を建造する際に使用できる。
+  comp3_value__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 価値 - レア
+  drv_dash_distance__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 速度と同様に、反応炉の出力が機体質量をどれだけ相殺できるかに依存する。
+  drv_dash_distance__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ダッシュ距離
+  drv_ehp__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 有効ヘルスポイント（EHP）は耐久度とバリアの合計でバリアサイズ増大による影響を考慮した値。
+  drv_ehp__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: EHP
+  drv_pmr__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: この機体が動かすべき質量に対する出力を示す重要なステータス。最大移動速度はこのステータスに直結している。
+  drv_pmr__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 出力 / 質量 差
+  drv_rlp__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 反応炉の出力に定数を乗じて、出力1単位あたりが支えられる重量に変換したもの。
+  drv_rlp__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 反応炉推力
+  drv_speed__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 反応炉の推力に基づいた移動速度。出力が高いほど速度も高くなるが、質量が大きいほど機体は遅くなる。
+  drv_speed__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 速度
+  drv_weight_class__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 重量に基づいた機体の階級。衝突時の挙動を決定する。
+  drv_weight_class__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 重量階級
+  heat_dissipation__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 蓄積した熱の受動的な排出に関係する。値が高いほど早く熱を失い、一部の装備は熱の蓄積速度を上回る可能性もある。
+  heat_dissipation__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 放熱
+  hp__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 従来の複合素材から作られた内部装甲層。かなり弾性があるが、ダメージを受けた場合は修理が必要になる。バリアに保護されていることもあり外層が破壊されるまでダメージに晒されることはない。
+  hp__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 耐久度
+  mass__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 部品や機体の合計質量。移動速度、衝突効果、ロードアウトの利用可能な設定に影響する。
+  mass__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 質量
+  overheat_chance__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 機体が最大熱レベルに達した時にオーバーヒートする確率。
+  overheat_chance__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: オーバーヒート発生率
+  overheat_limit__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 機体に蓄積できる絶対最大熱レベル。しきい値を大幅に超えたオーバーヒートは非常に危険で、機体がすぐ危険域まで熱を貯め込みすぐには戻らなくなる。
+  overheat_limit__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: オーバーヒート限界
+  overheat_threshold__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 機体がオーバーヒートし始める熱の量。オーバーヒートのリスクなく発熱を続けるにはこの値を可能な限り高くすることが望ましい。
+  overheat_threshold__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 熱容量
+  power__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: メックの反応炉とエネルギーシステムの総出力。
+  power__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 出力
+  scrap_value__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: この装備を分解したときに抽出できる物資の数。これらには、金属、標準的なパワーセル、単純な複合素材、および電子機器が含まれる。コモン装備を建造する際に使用できる。
+  scrap_value__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 価値 - 物資
+  thruster_power__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ダッシュアクションの飛距離を増加する。
+  thruster_power__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: スラスター出力
+  wpn_concussion__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: パイロットの体力に与えるダメージ。
+  wpn_concussion__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 体力ダメージ
+  wpn_damage__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器の投射体が与えるダメージ。このステータスは武器レベルによって変化する：上記のヒットダメージを見て変化後の値を確認してください。様々なサブシステムがこの基本値を変化させます。
+  wpn_damage__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 直接ダメージ
+  wpn_damage_buildup__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ダメージが最大限に達するまでにかかる時間。
+  wpn_damage_buildup__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ダメージ蓄積
+  wpn_damage_from_mass__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 質量1トンあたりの追加ダメージ。いくつかの武器は質量が大きい場合に総ダメージを大きく押し上げる。
+  wpn_damage_from_mass__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 重量あたりのダメージボーナス
+  wpn_damage_radius__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器が機体にダメージを与える半径。一般的に爆発武器のパラメータである。
+  wpn_damage_radius__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: ダメージ半径
+  wpn_heat__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器により与えられる熱ダメージ
+  wpn_heat__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 熱ダメージ
+  wpn_impact__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 適切な距離と手段で使用された場合の、武器が環境へ与える衝撃。
+  wpn_impact__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 衝撃
+  wpn_impact_radius__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器が環境に与える衝撃の半径。一般的に爆発武器のパラメータである。
+  wpn_impact_radius__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 衝撃半径
+  wpn_penetration_charges__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: チャージにより投射体が遮蔽や機体を貫通できるようになる。レールガンの投射体が機体や構造物に衝突するたびに損失し、投射体が与えるダメージが低下する。
+  wpn_penetration_charges__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: チャージ
+  wpn_penetration_damagek__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: チャージ損失あたりのダメージ低下率。
+  wpn_penetration_damagek__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: チャージあたりのダメージ
+  wpn_penetration_geomcost__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 遮蔽1枚を貫通する際のチャージ損失量。
+  wpn_penetration_geomcost__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: チャージ損失 - 遮蔽
+  wpn_penetration_unitcost__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 機体ひとつを貫通する際のチャージ損失量。
+  wpn_penetration_unitcost__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: チャージ損失 - 機体
+  wpn_proj_lifetime__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器の投射体が飛翔中に崩壊したり無力化したりするまでの時間。
+  wpn_proj_lifetime__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 投射体寿命
+  wpn_proj_ricochet__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 投射体が掠めて当たったときに跳弾する可能性。
+  wpn_proj_ricochet__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 投射体跳弾特性
+  wpn_range_max__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器の最大有効距離。これを超える位置にある標的に対して武器を使用してもほとんど効果がない。
+  wpn_range_max__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 射程距離（最大）
+  wpn_range_min__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器の最小有効距離。これ未満の位置にある標的に対して武器を使用してもほとんど効果がない。
+  wpn_range_min__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 射程距離（最小）
+  wpn_scatter_angle__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器が投射体を発射する扇状の角度を決定する。狙撃銃のような高精度武器は低い値を取る一方でショットガンのような近距離武器は大きな拡散角を取る場合が多い。
+  wpn_scatter_angle__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 拡散（静止中）
+  wpn_scatter_angle_moving__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器が投射体を発射する扇状の角度を決定する。狙撃銃のような高精度武器は低い値を取る一方でショットガンのような近距離武器は大きな拡散角を取る場合が多い。
+  wpn_scatter_angle_moving__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 拡散（移動中）
+  wpn_scatter_radius__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: この半径はミサイルの精度を左右する。拡散が大きいと目標地点に直接命中せずにその周辺に着弾する可能性が高くなる。
+  wpn_scatter_radius__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 拡散半径
+  wpn_speed__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 投射体が武器から出た時の速度を決定する。
+  wpn_speed__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 投射体速度
+  wpn_stagger__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 武器が与える震動ダメージを決定する
+  wpn_stagger__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 震動ダメージ
+  wpn_turnrate_limit__desc:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 射撃時に武器を旋回可能な速度
+  wpn_turnrate_limit__name:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 限界旋回速度

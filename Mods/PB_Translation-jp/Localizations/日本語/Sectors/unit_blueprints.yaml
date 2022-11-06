@@ -1,0 +1,54 @@
+timeAtSync: 0001-01-01 00:00:00
+exportMode: LinePerKeySplit
+name: Units (Blueprints)
+description: Unit blueprints define the structure of each unit type in the game. The text here specifies how each unit type is called and described in places like combat UI.
+splits: []
+entries:
+  unit_mech__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: メック
+  unit_mech__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 有人メックは現代軍事組織を支える基幹技術であり10年以上前から存在している。標準化されたフレームは幅広い装備を搭載でき、無限の拡張性と専門性を可能としている。
+  unit_sentry__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 砲塔
+  unit_sentry__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 侵略軍が使用する定点防衛システム。重装甲と最新の動体センサーを備えており、旅団の予測エンジンを装備したメックを追跡できる数少ない機体のひとつとなっている。
+  unit_tank_elevated__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: クローラー
+  unit_tank_elevated__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 最近就役した最先端の戦車。素早く車体を持ち上げ遮蔽越しに射撃し、身をかがめて防御姿勢をとることが可能。共通コンポーネントをメックと共有する。
+  unit_tank_modular__header:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: タンク
+  unit_tank_modular__text:
+    color:
+    noteDev:
+    noteWriter:
+    temp: true
+    text: 侵略軍が使用する主力戦車。性能向上した最新の複合装甲と電子装備を備えた設計は時代の転換期をもたらした。最新型はメック用武器を懸架可能な互換砲塔をもつ。
