@@ -16,7 +16,6 @@ ex = pb.Extractor(root_path)
 
 target_list = [
     'Configs/DataDecomposed/Combat/Comms',
-    'Configs/DataDecomposed/Combat/Stats',
     'Configs/DataDecomposed/Combat/UnitGroups']
 
 
