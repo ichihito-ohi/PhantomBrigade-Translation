@@ -1,78 +1,25 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySimple
-name: Workshop (Shared)
-description: Generic text used by workshop projects that don't need unique names or descriptions. Consists of shared names (_header), descriptions (_text) and subtitles (_sub).
-splits: []
 entries:
   body_sub:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 本体部品
   consumable_sub:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 消費アイテム
   generic_body_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: いずれかの装甲セットから本体部品を1つ製造する。
   generic_sub_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 懸架点が開放されているコモンやレアの本体部品のカスタマイズに使用するサブシステムを製造する。
   generic_unknown_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 不明
   generic_unknown_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この加工室プロジェクトの説明はありません。
   generic_wpn_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 武器を製造する。
   item_defensive_sub:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 防御
   item_wpn_primary_sub:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 主兵装
   item_wpn_secondary_sub:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 副兵装
   subsystem_sub:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: サブシステム
   unit_sub:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機体

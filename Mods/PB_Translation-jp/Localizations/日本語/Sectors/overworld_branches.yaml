@@ -1,78 +1,25 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySplit
-name: Overworld (Branches)
-description: This text is used when presenting information about the enemies at overworld sites. Enemy military is split into multiple branches, each with its own focus.
-splits: []
 entries:
   branch_army__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 陸軍
   branch_army__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'あらゆる種類の軍用グレード装備を運用している軍の一般的な軍種。専門性は高くないが、戦車とメックの混合部隊を使用して多くの基地を抑えている。 '
   branch_experimental__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 実験
   branch_experimental__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 様々な戦術の専門家による小規模なメック部隊。実験的でしばしば強力な装備を運用している。
   branch_reserves__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 予備軍
   branch_reserves__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 変わり者のエリートスペシャリストが率いる予備軍の混成部隊。スキル不足と経験不足を、膨大な数で埋め合わせる。
   branch_specops__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 特殊部隊
   branch_specops__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 高度に専門化されたメック部隊。特殊装備を運用する非常に機動力の高い機体であることが多い。
   branch_trainingarmy__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 陸軍
   branch_trainingarmy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: あらゆる種類の軍用グレード装備を運用している軍の一般的な軍種。専門性は高くないが、戦車とメックの混合部隊を使用して多くの基地を抑えている。
   branch_trainingreserves__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 予備軍
   branch_trainingreserves__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 変わり者のエリートスペシャリストが率いる予備軍の混成部隊。スキル不足と経験不足を、膨大な数で埋め合わせる。

@@ -1,150 +1,49 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySplit
-name: Overworld (Resources)
-description: These resources are used in overworld events, workshop, abilities, upgrades and other contexts. Displayed in the top right corner of overworld UI.
-splits: []
 entries:
   battery__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動基地が異なる移動モードを発動できるようにします。移動基地が通常移動モードの間に時間経過で充電します。
   battery__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: バッテリー
   components_r2__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 高性能電子部品や軍用グレードの複合素材、そのほかの貴重な部品。 Tier 2 装備の建造に使用可能。
   components_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: アンコモン・コンポーネント
   components_r3__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 実験段階の材料、プロトタイプから抜き取ったシステム、特異な特性を持つ合金およびポリマー。 Tier 3 装備の建造に使用可能。
   components_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: レア・コンポーネント
   item_block_combat__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: このアイテムは、パトロールが目の前に来たときに、敵を一時的に無力化し戦闘が発生しても中止させ、移動基地に逃げる選択肢を与える。
   item_block_combat__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 発煙弾
   item_block_escalation__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: このアイテムは、高解像度スキャンに干渉する。戦闘前に起動すると、小規模な民間人グループが接近していると敵に思わせ、現在のエスカレーション・レベルに見合った最大戦力を出し渋らせる。高エスカレーション・レベルの州で危険なパトロールに捕まった場合に有用。
   item_block_escalation__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: スキャン妨害装置
   item_block_reinforcements__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: このアイテムは、敵の無線と測位機能に干渉する。戦闘前に起動すると、付近の敵機が戦いに合流することを防ぐ。複数のパトロールに追跡されて、一度にすべてを相手にしたくない場合に有用。
   item_block_reinforcements__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 通信妨害装置
   item_drone_decoy__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: このドローンは、周囲をスキャンし移動基地のセンサー痕跡を模擬しながら、（限られた範囲内で）選択した目的地に移動する。これは、周囲の偵察や経路から敵を遠ざける場合に有用。
   item_drone_decoy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: デコイ・ドローン
   item_rain_sensor__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: この使い捨て装置により雨天でもセンサーが届くようになる。短時間で効果が切れるため、ここぞという時に使うと良い。
   item_rain_sensor__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 雨天スキャナー
   repair_juice__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 戦闘後の機体修理や戦闘中のバリア再生に使用する。
   repair_juice__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 修理ゲル
   supplies__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 標準的な加工材料やコモン・コンポーネント、電子部品。コモン装備の建造に使用可能。
   supplies__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 物資
   visual_hope__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 市民感情を表します。民間の場所を解放しイベントを完了して希望を上げましょう。希望は、州争奪時に祖国防衛軍が持ちこたえられる長さに影響します。
   visual_hope__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 希望
   visual_reputation__desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 祖国防衛軍からの評判を表します。支援を要請する能力に影響します。交戦区域で作戦が成功すると上昇し、戦闘中に味方機を失うと下降します。
   visual_reputation__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 評判

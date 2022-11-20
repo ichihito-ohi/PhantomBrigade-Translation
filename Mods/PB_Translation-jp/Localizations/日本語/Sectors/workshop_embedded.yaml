@@ -1,324 +1,81 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySimple
-name: Workshop (Embedded)
-description: Unique text for workshop projects. Only includes projects that don't reuse text - see separate shared workshop text sector for the rest.
-splits: []
 entries:
-  prt_body_arrow_h_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Arrow Heavy
-  prt_body_arrow_l_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Arrow Light
-  prt_body_arrow_m_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Arrow Medium
-  prt_body_asgard_h_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Asgard Heavy
-  prt_body_bein_m_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Bein Medium
-  prt_body_blackbird_m_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Blackbird Medium
-  prt_body_elbrus_m_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Elbrus Medium
-  prt_body_helge_h_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Helge Heavy
-  prt_body_knox_h_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox Heavy
-  prt_body_knox_l_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox Light
-  prt_body_knox_m_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox Medium
-  prt_body_tsubasa_l_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Tsubasa Light
-  prt_body_vidar_h_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Vidar Heavy
   prt_item_ballistic_assault_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: アサルトライフル
   prt_item_ballistic_marksman_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: マークスマン・ライフル
   prt_item_ballistic_mg_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: マシンガン
   prt_item_ballistic_shotgun_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ショットガン
   prt_item_ballistic_sidearm_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 実弾兵器
   prt_item_ballistic_sniper_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スナイパーライフル
   prt_item_energy_beam_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ビーム兵器
   prt_item_energy_concussion_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 震動系兵器
   prt_item_energy_railgun_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: レールガン
   prt_item_energy_stagger_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 焼夷弾
   prt_item_energy_thermal_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 焼夷弾
   prt_item_heavy_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級
   prt_item_melee_primary_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 近接攻撃
   prt_item_melee_sidearam_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 近接攻撃
   prt_item_missile_primary_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ミサイルランチャー
   prt_item_missile_sidearm_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ミサイルランチャー
   prt_item_shield_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: シールド
   prt_item_shield_any_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: シールドを製造する。
   sub_aux_capacitor_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: キャパシター
   sub_aux_core_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コア
   sub_aux_gyro_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ジャイロ
   sub_aux_heatsink_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ヒートシンク
   sub_aux_hydraulics_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 油圧計
   sub_aux_plating_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 装甲
   sub_aux_reactor_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 反応炉
   sub_aux_regenerator_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 再生装置
   sub_aux_sensor_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: センサー
   sub_aux_thruster_any_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スラスター
   utl_cons_block_combat_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 発煙弾
   utl_cons_block_combat_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 発煙弾により、敵を一時的に無力化して、移動基地がパトロールから逃げられるようになる。
   utl_cons_block_escalation_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スキャン妨害装置
   utl_cons_block_escalation_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スキャン妨害装置は高解像度スキャンに干渉する。妨害により、スキャン上では移動基地が民間車両のように映るため、敵がより小規模な部隊を派遣しやすくなる。
   utl_cons_block_reinforcements_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 通信妨害装置
   utl_cons_block_reinforcements_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 通信妨害装置は敵の無線と測位機能に干渉する。妨害により、周辺の敵機が戦闘に参加することを防ぐ。
   utl_cons_drone_decoy_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: デコイ・ドローン
   utl_cons_drone_decoy_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 一定範囲内の目的地に向けてデコイ・ドローンを出撃させ、スキャン中に移動基地のセンサー痕跡を模擬する。偵察や経路から敵を遠ざける場合に有用。
   utl_cons_rain_sensor_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 雨天センサー
   utl_cons_rain_sensor_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 雨天センサーを1つ製造する。
   utl_unit_frame_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: メック・フレーム
   utl_unit_frame_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ハンガーに新しい空のフレームを追加し、部品を取り付ける準備をする。

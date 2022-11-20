@@ -1,726 +1,241 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: None
-name: UI (Settings)
-description: Text for setting names, descriptions and levels used on the settings screen.
-splits: []
 entries:
   access_overworld_glitch_effect__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 全体マップ　グリッチ効果
   access_overworld_glitch_effect__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 全体マップのグリッチ効果を有効化または無効化します
   audio_mode_compressed__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: コンプレッサー・モード
   audio_mode_compressed__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 動画配信向けに音楽と効果音の低温とダイナミックレンジを抑えます。
   audio_mode_mono__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: モノラル・モード
   audio_mode_mono__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 音声出力をシングル・チャンネルに統合します。
   audio_volume_main__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: マスター・ボリューム
   audio_volume_main__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 全体ボリュームを調整します。他のすべての音量設定に乗算されます。
   audio_volume_music__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 音楽ボリューム
   audio_volume_music__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 音楽の音量を調整します。
   audio_volume_sound__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 効果音ボリューム
   audio_volume_sound__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 効果音の音量を調整します。
   audio_volume_voice__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 音声ボリューム
   audio_volume_voice__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: カットシーンの吹替の音量を調整します。
   display_fps_limit__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: フレームレート上限
   display_fps_limit__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 秒間フレーム数に上限を設けます。特に垂直同期が無効の場合に有用です。
   display_mode__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 全画面表示
   display_mode__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 全画面モードまたはウィンドウモード。
   display_resolution__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 解像度
   display_resolution__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パフォーマンスが許すならば、ディスプレイ固有の解像度の使用をお勧めします。
   display_sync__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 垂直同期
   display_sync__lv_full:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: フル
   display_sync__lv_half:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ハーフ
   display_sync__lv_off:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: オフ
   display_sync__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 垂直同期を調整します。フル・モードはフレーム周期をディスプレイのリフレッシュ・レートに合わせます。ハーフ・モードはフレーム周期を通常の半分に合わせます。オフ・モードはディスプレイのリフレッシュ・レートに関係なく描画され次第すぐに新しいフレームを出力します。これにより、フレームが更新中に切り替わるため、画面が乱れる可能性があります。
   display_ui_scaling__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: UIサイズ
-  display_ui_scaling__lv_1032:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 105% (1032px)
-  display_ui_scaling__lv_1080:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 100% (1080px)
-  display_ui_scaling__lv_1280:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 85% (1280px)
-  display_ui_scaling__lv_1440:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 75% (1440px)
-  display_ui_scaling__lv_2160:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 50% (2160px)
-  display_ui_scaling__lv_900:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 120% (900px)
-  display_ui_scaling__lv_936:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 115% (936px)
-  display_ui_scaling__lv_984:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 110% (984px)
   display_ui_scaling__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザー・インターフェースの解像度で、ディスプレイ解像度とは関係ありません。既定値は垂直方向 1080px です。 UI を拡大する設定は実験段階で、要素が衝突する可能性があります。
   game_analytics__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: アナリティクス
   game_analytics__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 最適なバランスを探し、ゲーム開発を進める上での決定を下すためにアナリティクスを活用しています。アナリティクスではいかなる個人情報も収集しておらず、ゲーム内で起きたことだけを記録しています。例：人気のある画質設定、発生した物語イベント、戦闘データなど
   game_language__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 言語
   game_language__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 公式で対応している言語は現在英語のみですが、インストールした非公式のローカライズはここから利用できます。
   graphics_antialiasing__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: アンチ・エイリアシング
   graphics_antialiasing__lv_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: SMAA（低）
   graphics_antialiasing__lv_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: SMAA（高）
-  graphics_antialiasing__lv_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: TAA
   graphics_antialiasing__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 画像中のジャギー除去を調整します。 TAA はパフォーマンス不可が高いですが、より高品質です。 SMAA はパフォーマンス負荷が低いですが、サブピクセルの細部からエイリアシングを除去できません。
   graphics_filter_brightness__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 明るさ
   graphics_filter_brightness__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 明るさを調整します。
   graphics_filter_contrast__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: コントラスト
   graphics_filter_contrast__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: コントラストを調整します。
   graphics_pps_ao__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: アンビエント・オクルージョン
   graphics_pps_ao__lv_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: オフ
   graphics_pps_ao__lv_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 低
   graphics_pps_ao__lv_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 高
   graphics_pps_ao__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 間接照明によるソフト・シャドウを調整します。
   graphics_pps_bloom__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ブルーム
   graphics_pps_bloom__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆発や投射体に見られるような、非常に明るい部分周辺の発光を調整します。
   graphics_pps_blur__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: モーション・ブラー
   graphics_pps_blur__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 高速で移動する物体の残像を調整します。
   graphics_pps_chromatic__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 色収差
   graphics_pps_chromatic__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 画像端に向けての色の分離を調整します。
   graphics_shadow_quality__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 影の品質
   graphics_shadow_quality__lv_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: オフ
   graphics_shadow_quality__lv_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 超低品質（256px）
   graphics_shadow_quality__lv_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 低品質（512px）
   graphics_shadow_quality__lv_3:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中品質（1024px）
   graphics_shadow_quality__lv_4:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 高品質（2048px）
   graphics_shadow_quality__lv_5:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 超高品質（4096px）
   graphics_shadow_quality__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 影テクスチャーの解像度を調整します。推奨既定値は 2048px です。
   graphics_texture_filtering__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 異方性フィルタ
   graphics_texture_filtering__lv_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: オフ
   graphics_texture_filtering__lv_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: オン
   graphics_texture_filtering__lv_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 強制オン
   graphics_texture_filtering__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 斜めからの視点におけるテクスチャー品質を調整します。ほとんどの GPU においてこの設定によるパフォーマンス負荷はごくわずかであるため、推奨既定値は『強制オン』です。
   graphics_texture_quality__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: テクスチャー解像度
   graphics_texture_quality__lv_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: フル
-  graphics_texture_quality__lv_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 50%
-  graphics_texture_quality__lv_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 25%
-  graphics_texture_quality__lv_3:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 12.5%
   graphics_texture_quality__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザー・インターフェースを除くテクスチャーの解像度を調整します。推奨既定値は『フル』です。
   input_gamepad_look_invert_vertical__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]ゲームパッド[ff]
 
       カメラ操作反転'
   input_gamepad_look_invert_vertical__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 垂直方向のカメラ操作入力を反転します
   input_gamepad_look_sensitivity_horizontal__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]ゲームパッド[ff]
 
       カメラ水平感度'
   input_gamepad_look_sensitivity_horizontal__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
   input_gamepad_look_sensitivity_vertical__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]ゲームパッド[ff]
 
       カメラ垂直感度'
   input_gamepad_look_sensitivity_vertical__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
   input_gamepad_move_sensitivity__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]ゲームパッド[ff]
 
       カメラ移動感度'
   input_gamepad_move_sensitivity__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対するカメラ移動量を調整します
   input_gamepad_scrub_sensitivity__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]ゲームパッド[ff]
 
       タイムライン感度'
   input_gamepad_scrub_sensitivity__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対するタイムラインでの移動量を調整します
   input_gamepad_zoom_sensitivity__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]ゲームパッド[ff]
 
       ズーム感度'
   input_gamepad_zoom_sensitivity__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対するカメラズーム感度を調整します
   input_keyboard_look_invert_vertical__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]キーボード[ff]
 
       カメラ操作反転'
   input_keyboard_look_invert_vertical__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 垂直方向のカメラ操作入力を反転します
   input_keyboard_look_sensitivity_horizontal__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]キーボード[ff]
 
       カメラ水平感度'
   input_keyboard_look_sensitivity_horizontal__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
   input_keyboard_look_sensitivity_vertical__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]キーボード[ff]
 
       カメラ垂直感度'
   input_keyboard_look_sensitivity_vertical__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
   input_keyboard_move_sensitivity__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]キーボード[ff]
 
       カメラ移動感度'
   input_keyboard_move_sensitivity__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対するカメラ移動量を調整します
   input_keyboard_zoom_sensitivity__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]キーボード[ff]
 
       ズーム感度'
   input_keyboard_zoom_sensitivity__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対するカメラズーム感度を調整します
   input_mouse_edge_scrolling__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]マウス[ff]
 
       画面端スクロール'
   input_mouse_edge_scrolling__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: エッジスクロールが有効な場合、カーソルが画面端に近づくとカメラが移動します。
   input_mouse_lock_to_window__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]マウス[ff]
 
       ウィンドウ固定'
   input_mouse_lock_to_window__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ゲームウィンドウにフォーカスが当たっている状態で、マウスをウィンドウの境界を越えて動かせるかどうかを設定します。
   input_mouse_look_invert_vertical__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]マウス[ff]
 
       カメラ操作反転'
   input_mouse_look_invert_vertical__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 垂直方向のカメラ操作入力を反転します
   input_mouse_look_sensitivity_horizontal__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]マウス[ff]
 
       カメラ水平感度'
   input_mouse_look_sensitivity_horizontal__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対する水平方向のカメラ回転量を調整します
   input_mouse_look_sensitivity_vertical__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]マウス[ff]
 
       カメラ垂直感度'
   input_mouse_look_sensitivity_vertical__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対する垂直方向のカメラ回転量を調整します
   input_mouse_move_sensitivity__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]マウス[ff]
 
       カメラ移動感度'
   input_mouse_move_sensitivity__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対するカメラ移動量を調整します
   input_mouse_zoom_sensitivity__header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]マウス[ff]
 
       ズーム感度'
   input_mouse_zoom_sensitivity__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ユーザーの入力に対するカメラズーム感度を調整します
