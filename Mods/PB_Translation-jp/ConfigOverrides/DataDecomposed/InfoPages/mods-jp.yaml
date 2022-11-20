@@ -28,6 +28,9 @@ sections:
   - 'https://discord.gg/braceyourselfgames'
 - textHeader: 更新履歴
   textChanges: 
+  - '[pr=][aa]jp-0220-20221120'
+  - 本体アップデート Patch 0.22.0 に合わせて、 mod ファイルから不要な部分を削除しました。翻訳に影響はありません。
+  - 
   - '[pr=][aa]jp-0220-20221103'
   - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.22.0 に適用しました。未翻訳の部分があります。
   - 
