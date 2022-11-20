@@ -1,918 +1,267 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySplit
-name: Equipment (Groups)
-description: Equipment groups are categories mech equipment can be classified into. Each piece of equipment can qualify for multiple groups.
-splits: []
 entries:
   all__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: すべて
   all__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 所持品の全アイテム
   part_body_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級
   part_body_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 防御力が増加するが、放熱量が減少する。質量が多いほど移動速度が大幅に低下する。タンクビルドに有用。
   part_body_light__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 軽量級
   part_body_light__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 放熱量が増加するが、体力が減少する。スカウトビルドに有用。
   part_body_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中量級
   part_body_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標準的な質量と性能、放熱量。多目的ビルドに有用。
-  part_body_set_arrow__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Arrow
   part_body_set_arrow__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: JNI協議会が生産するArrowシリーズは、整備の簡略化と低コストの大量生産に最適化された多目的シリーズである。
-  part_body_set_asgard__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Asgard
   part_body_set_asgard__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 占領軍が使用する標準的な重量級装甲である。先進複合素材の不足により現代水準から見るとやや扱いづらく、防御性能は平均より劣る。一方、戦地での整備は容易である。
-  part_body_set_bein__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Bein
   part_body_set_bein__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '侵略軍が愛用する試作シリーズ。全体的な性能は市販の中級装甲に匹敵するが、互換性の低い材料が使用されているため現場での修理が複雑化する場合がある。 '
-  part_body_set_blackbird__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Blackbird
   part_body_set_blackbird__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: タイセツ工業が開発した試作シリーズ。特定されているモデルはごく一部であり、全身のセットが存在するかは不明。最新の照準ソフトウェアに対する脆弱性のため、近距離戦闘にはほとんど使用されない。
-  part_body_set_elbrus__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Elbrus
   part_body_set_elbrus__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 産業機械シリーズを源流にもつ。およそ20年前から徐々に数は減っていったが、採掘、伐採、建設のような民間事業では今日でも積極的に使用されている。整備が非常に簡単で、信頼できる機械として評判を得ている。
-  part_body_set_helge__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Helge
   part_body_set_helge__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: JNI協議会が生産するHelgeシリーズは傭兵グループや企業警備部隊で広く使用される重量級装甲である。先進的な複合構造は修理が複雑だが、平均以上の防御性能を実現した。
-  part_body_set_knox__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox
   part_body_set_knox__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: JNI協議会が生産するKnoxシリーズは整備の簡略化と低コストの大量生産に最適化された多目的ウォーカー装甲シリーズである。
-  part_body_set_tsubasa__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Tsubasa
   part_body_set_tsubasa__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: JNI協議会製軽量装甲。特異な構造と先進的複合材により移動の高速化と隠密性向上を実現した。
-  part_body_set_vidar__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Vidar
   part_body_set_vidar__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: タイセツ工業の少数生産シリーズの一部。特異な幾何学形状は対センサー痕跡を抑えつつ投射体を弾くことに優れている。希少材料によって修理が複雑化したため戦闘で目撃されることはほとんどない。
-  part_mnf_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: ARMS
   part_mnf_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戦車から装甲まであらゆるものを製造する国営企業。そのモデルは信頼性が高くコストパフォーマンスも良いが、競合他社と比べて目を惹く要素に欠ける。
-  part_mnf_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Taisetsu
   part_mnf_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 零細航空機メーカーとして生まれたタイセツであったが、その最先端技術と革新的な兵器類で名を馳せてきた。
-  part_mnf_03__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Zuev Kotter
   part_mnf_03__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 軍事装備に加えて、このメーカーは主に産業・農業用メックおよび車両に定評がある。
-  part_mnf_04__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: AIVA
   part_mnf_04__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ステルス装備やエネルギー系の艤装を専門とする独立系海外企業。資金豊富な多くのPMCと深い関係を持つ。
-  part_mnf_05__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Invictis
   part_mnf_05__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 今では数十億規模の企業であるにもかかわらず、 Invictis はどのマーケティングでも「弱小の独立系企業」のイメージが残っている。
-  part_mnf_06__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: JNI
   part_mnf_06__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: JNI はかつての戦争の最中に生まれ、以来その設計美学はまったく変わっておらず、ブロック構造や保守的な設計を好んで用いる。
-  part_mnf_07__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Sorenya
   part_mnf_07__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 侵略軍の武器供給を担う Sorenya の豪華なモデルは、国の持続可能性推進への偏重に対する批判の要となることも多い。
-  part_mnf_08__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Bluebreaker
   part_mnf_08__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 最近、侵略軍に買収されたが、営業面では『 ARMS キラー』としての評判を保っている。
-  part_mnf_09__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Ghostworks
   part_mnf_09__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 軍の極秘開発計画として誕生し、高性能装備へのニーズに応えるため製造業に進出した。
-  part_mnf_10__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Yildejung Thermalworks
   part_mnf_10__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Yildejung はかつて火山現象を研究する企業であり、死に際の恋人を探してデッドランズを焼き払った神話上の人物にちなんで名づけられた。
   part_shield__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: シールド
   part_shield__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: シールドは機体に[48ab51]さらなる耐久力[-]を付与し、特定の方向からのダメージを吸収して機体の他の部分に損傷が及ぶことを防ぐ。
   part_spec_ballistic__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 実弾兵器
   part_spec_ballistic__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高速の投射体を用いる一般的な設計。接近・後退する機体に対して、あるいは標的に視界内を横切らせないために用いると良い。実弾兵器の有効射程は様々であり、最適な距離で標的と交戦すべきである。
   part_spec_barrier__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バリア
   part_spec_barrier__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この装甲には攻撃を受けていない限り時間経過で自己修復する再生層がある。注意深く使用すれば、機体に影響を残さずにリスクを取ることができる。
   part_spec_beam__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ビーム兵器
   part_spec_beam__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 複数の機体を貫通して時間と共にダメージが増加する。シールドで反射できる。
   part_spec_concussion__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 衝撃効果
   part_spec_concussion__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この武器は機体制御システムに直接ダメージを与えてパイロットをノックアウトする。装備を傷つけずに敵機を無力化するのに有用である。
   part_spec_guided__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 誘導兵器
   part_spec_guided__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標的に向かって方向制御が可能な投射体。一部は、遮蔽を避けて上方から標的を攻撃するように事前プログラムされた軌道に沿って動作する。
   part_spec_heat__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 焼夷弾
   part_spec_heat__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この武器は標的をオーバーヒートさせることができる。投射物には衝撃で発火する焼夷剤が充填されており、標的を急速に加熱する。発熱を伴うアクションを実行中の機体に対して特に効果的である。
   part_spec_locking__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 固定装置
   part_spec_locking__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この武器は機体が静止しているときに精度が向上する。移動中に射撃することも可能で、有効な場合もあるが、静止中に射撃するとより良い結果となることが多い。
   part_spec_penetration__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 貫通弾
   part_spec_penetration__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 遮蔽物のある環境で非常に効果的であり、機体を危険に曝すことなく遮蔽越しに標的を攻撃することが可能である。
   part_spec_stagger__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 転倒効果
   part_spec_stagger__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標的のバランスを奪う。命中するたびに衝突への耐性が低下し、軽量な機体がバランスの低下した重い標的にタックルできるようになる。十分に命中させれば敵を完全に転倒させることもできる。
   part_spec_turn__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 旋回速度
   part_spec_turn__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 射撃時の回転が遅くなる。
   part_wpn_beam__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ビーム兵器
   part_wpn_beam__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: エネルギービームは複数の標的を貫通し、射撃中はジャイロスコープに干渉して旋回しにくくなる。ビームが当たる時間が長いほど標的へのダメージが増加する。シールドで反射できる。
   part_wpn_cannon__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: カノン砲
   part_wpn_cannon__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 広い効果範囲をもつ実験的なカノン砲。弾丸は範囲内に標的が入ると爆発して炸裂ダメージを与える。
   part_wpn_handgun__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 拳銃
   part_wpn_handgun__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バックアップ用の小型実弾武器。
   part_wpn_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級
   part_wpn_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 両手での運用が必要な大ダメージ武器。使用中は、副兵装を取り出すことができない。
   part_wpn_launcher_plasma__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: プラズマランチャー
   part_wpn_launcher_plasma__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 誘導エネルギー投射体を発射する実験的武器。直接的なダメージを犠牲に、制御システムに干渉してパイロットを傷つける。
   part_wpn_launcher_primary__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ヘビーランチャー
   part_wpn_launcher_primary__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 遠距離にミサイルを発射する。標的集団や遮蔽裏の機体を殲滅するのに効果的である。通常は誘導機能がある。
   part_wpn_launcher_sidearm__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コンパクトランチャー
   part_wpn_launcher_sidearm__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コンパクトなミサイルランチャー。標的集団や遮蔽裏の機体との交戦に効果的である。通常は誘導機能がある。
   part_wpn_main_vhc_tank_aa__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機関砲
   part_wpn_main_vhc_tank_aa__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 小口径砲は軽装甲や空中の標的との交戦に使用される。
   part_wpn_main_vhc_turret_ml_v01_set01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ミサイルランチャー・タレット
   part_wpn_main_vhc_turret_ml_v01_set01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標的の制圧を目的に設計された短距離ミサイルタレット。
   part_wpn_melee_axe__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: アックス
   part_wpn_melee_axe__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: パイロットに衝撃ダメージを与えることが可能な重量級近接武器。
   part_wpn_melee_blade__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ブレード
   part_wpn_melee_blade__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バランスの取れた近接武器で、通常は個別の部品にダメージを与えることに焦点を当てている。
   part_wpn_melee_cutter__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: カッター
   part_wpn_melee_cutter__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バランスの取れた近接武器。
   part_wpn_melee_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級近接武器
   part_wpn_melee_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 通常、主兵装スロットに割り当てられる大型近接武器。
   part_wpn_melee_light__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 軽量級近接武器
   part_wpn_melee_light__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 副兵装スロットと互換性のある小型近接武器。
   part_wpn_melee_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中量級近接武器
   part_wpn_melee_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 通常、主兵装スロットに割り当てられる中型近接武器。
   part_wpn_melee_saber__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セイバー
   part_wpn_melee_saber__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 電熱ブレードをもつ近接武器。超高温となり複数のパーツに渡って大ダメージを与える。
   part_wpn_mg__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機関銃
   part_wpn_mg__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高い発射速度を長時間維持できるオートマチック武器。中距離での制圧射撃と遮蔽破壊に有用。拡散を制御し理想的なダメージを与えるには、静止中に射撃する必要がある。
   part_wpn_mg_sub__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: サブマシンガン
   part_wpn_mg_sub__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: サブマシンガンは精度よりも発射レートを優先し、ダメージと引き換えに質量を抑えている。アサルトライフルが質量の制約で装備できないロードアウトにおいて、中近距離で有用。
   part_wpn_repeater_incendiary__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 焼夷弾連射砲
   part_wpn_repeater_incendiary__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '衝突時に標的を加熱する焼夷弾を高速に発射する実験的武器。熱を生じるアクションを実行中の敵に攻撃するとオーバーヒートによるダメージを発生させることができる。 '
   part_wpn_repeater_plasma__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 連射型プラズマ砲
   part_wpn_repeater_plasma__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重エネルギー投射体を中距離で発射する実験的武器。命中すると標的の安定性を奪い、軽量な機体でも、相手に転倒の影響を与えやすくなる。継続して発射すると標的を完全に転倒させることができる。
   part_wpn_repeater_railgun__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 連射型レールガン
   part_wpn_repeater_railgun__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 実弾式マークスマン・ライフルに近い実験的な精密武器。構造物や機体を貫通可能なタングステン・ロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
   part_wpn_rifle_assault__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: アサルトライフル
   part_wpn_rifle_assault__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高レートと中距離射程のオールラウンドな主兵装である。
   part_wpn_rifle_marksman__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: マークスマン・ライフル
   part_wpn_rifle_marksman__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: アサルトライフルと狙撃銃の中間的役割を担う精密実弾武器。
   part_wpn_rifle_sniper__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スナイパーライフル
   part_wpn_rifle_sniper__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 射程と一発あたりのダメージを優先した実弾武器。静止中の射撃が最適である。
   part_wpn_seeker_plasma__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 誘導型プラズマ砲
   part_wpn_seeker_plasma__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 誘導エネルギー投射体を長距離で発射する実験的武器。標的の安定性を損ない、軽量な機体でも相手に転倒の影響を与えやすくなる。継続して発射すると、標的を完全に転倒させることができる。
   part_wpn_shotgun__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ショットガン
   part_wpn_shotgun__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 自動ショットガンは近距離で壊滅的なダメージを与えるよう最適化されているが、使用者は重大なリスクに曝される。
   part_wpn_splitter_incendiary__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 焼夷弾拡散砲
   part_wpn_splitter_incendiary__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 衝突時に標的を加熱する焼夷弾を発射する実験的なショットガン。熱を生じるアクションを実行中の敵に攻撃するとオーバーヒートによるダメージを発生させることができる。
   part_wpn_splitter_railgun__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 拡散型レールガン
   part_wpn_splitter_railgun__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ショットガンに似た実験的武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
   part_wpn_tank_cannon__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: カノン砲
   part_wpn_tank_cannon__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 主力戦車の主兵装で大ダメージを与える。
   part_wpn_tank_cannon_railgun__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: カノン砲レールガン
   part_wpn_tank_cannon_railgun__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戦車砲に似た実験的な精密武器。構造物や機体を貫通可能なタングステンロッドを発射する。投射物のダメージは物体を貫通するたびに低下する。
   subsystem_internal_aux_capacitor__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 補助キャパシター
   subsystem_internal_aux_capacitor__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 熱容量を増加させることで、機体のダメージ出力を強化する。
   subsystem_internal_aux_cooling__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助冷却装置
   subsystem_internal_aux_cooling__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機体の放熱を増加させる。
   subsystem_internal_aux_core__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 補助コア
   subsystem_internal_aux_core__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'リング型常温核融合チャンバーを通じてメックに動力を共有する。すべてのメックに不可欠であり、反応炉なしでは出撃することができない。 '
   subsystem_internal_aux_gyro__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助ジャイロ
   subsystem_internal_aux_gyro__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: メックのバランスを向上させ、間接的に、走行速度を上昇させる。
   subsystem_internal_aux_heatsink__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助ヒートシンク
   subsystem_internal_aux_heatsink__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機体の放熱を増加させる。
   subsystem_internal_aux_hydraulics__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助油圧系
   subsystem_internal_aux_hydraulics__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: メック質量の一部を軽減する。
   subsystem_internal_aux_plating__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助装甲
   subsystem_internal_aux_plating__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 使用部分に追加の耐久度を付与する。
   subsystem_internal_aux_reactor__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助反応炉
   subsystem_internal_aux_reactor__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 'リング型常温核融合チャンバーを通じてメックに動力を共有する。すべてのメックに不可欠であり、反応炉なしでは出撃することができない。 '
   subsystem_internal_aux_regenerator__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助再生装置
   subsystem_internal_aux_regenerator__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バリア再生速度を強化する。
   subsystem_internal_aux_resistor__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 補助抵抗器
   subsystem_internal_aux_resistor__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 最大熱容量に達した際にメックがオーバーヒートしにくくする。
   subsystem_internal_aux_sensor__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 補助センサー
   subsystem_internal_aux_sensor__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 武器の精度を向上させる。
   subsystem_internal_aux_thruster__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スラスター
   subsystem_internal_aux_thruster__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダッシュを可能にする―発熱する代わりにメックを短距離だが素早く推進する。

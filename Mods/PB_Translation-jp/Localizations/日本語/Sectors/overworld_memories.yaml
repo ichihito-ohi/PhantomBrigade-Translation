@@ -1,180 +1,53 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySimple
-name: Overworld (Memories)
-description: Text displayed by UI when it needs to present memories of sites, units or pilots. Typically encountered in overworld event UI when a certain memory value is checked or modified.
-splits: []
 entries:
   pilot_auto_combat_defeat__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 敗北
   pilot_auto_combat_encounters__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 出撃
   pilot_auto_combat_kills__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 殺害した敵兵
   pilot_auto_combat_takedowns__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 破壊した機体
   pilot_auto_combat_victory__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 勝利
-  province_liberation_acknowledged__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   world_agent__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 二重スパイ
-  world_armypilot_active__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   world_auto_hope__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 希望
   world_bomb_defused__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆弾
   world_booze__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 酒
   world_box_closed__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 閉じられた箱
   world_box_open__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 箱を開ける
-  world_cache_informed__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   world_captive__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捕虜
   world_cat__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 猫
   world_cat_bond__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 猫との絆
   world_civilians__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 民間人
   world_codes__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 暗号
   world_defector__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 亡命者
   world_dog__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 犬
   world_dog_bond__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 犬との絆
   world_favour_criminal__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 好意
   world_lock_pilot_recruitment__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パイロット採用不可
   world_mail__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 郵便
   world_parts__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 実験部品
   world_reputation_crime__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 犯罪率
   world_reputation_guard__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 祖国防衛軍からの評判
   world_weapon__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 秘密兵器

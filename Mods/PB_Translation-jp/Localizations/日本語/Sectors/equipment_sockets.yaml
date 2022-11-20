@@ -1,78 +1,25 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySplit
-name: Equipment (Sockets)
-description: ソケットは最上位の部品を取り付けるスロットです。メックにはそれぞれ6つのソケットがあります。
-splits: []
 entries:
   core__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 上半身
   core__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 操縦ポッドと反応炉を支える。破壊された場合、機体は動作不能になり、緊急脱出しなければパイロットが死亡する危険性が高い。
   equipment_left__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 左兵装
   equipment_left__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 軽火器およびシールド用の装備スロット。
   equipment_right__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 右兵装
   equipment_right__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 武器用の汎用装備スロット。
   optional_left__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 左腕
   optional_left__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 側面攻撃からコアを守る。装備を把持するが、腕を破壊された場合は装備が使用不能になる。
   optional_right__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 右腕
   optional_right__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 側面攻撃からコアを守る。装備を把持するが、腕を破壊された場合は装備が使用不能になる。
   secondary__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 下半身
   secondary__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 自重を支え移動を司る部分。破壊された場合、機体は移動不能になる。

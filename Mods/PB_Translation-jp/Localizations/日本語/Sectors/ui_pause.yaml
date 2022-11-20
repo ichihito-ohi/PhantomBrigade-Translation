@@ -1,217 +1,72 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: None
-name: UI (Pause)
-description: Variety of text used in pause menu and related screens like splash screen. Load screen text, save system text, submenus etc.
-splits: []
 entries:
   dialog_exit_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 終了します
   dialog_exit_text_desktop:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: デスクトップに戻ってもよろしいですか？セーブされていない進行状況はすべて失われます。
   dialog_exit_text_menu:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: メインメニューに戻ってもよろしいですか？セーブされていない進行状況はすべて失われます。
   dialog_url_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: URLを開きます
   dialog_url_text_changelog:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: リリース・ノートに移動してもよろしいですか？ブラウザ・ウィンドウが開き、ゲームは一時停止します。
   dialog_url_text_chat:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Discord サーバーに移動してもよろしいですか？が開き、ゲームは一時停止します。
   dialog_url_text_forum:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: フォーラムに移動してもよろしいですか？ブラウザ・ウィンドウが開き、ゲームは一時停止します。
   dialog_url_text_privacy:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Unity プライバシー・ページに移動してもよろしいですか？ブラウザ・ウィンドウが開き、ゲームは一時停止します。
   footer_button_changelog:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: リリースノート
-  footer_button_chat:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Discord
-  footer_button_forum:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Reddit
   footer_button_privacy:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: プライバシー
   footer_button_reporter:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: フィードバックを送る
   footer_button_roadmap:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ロードマップ
   info_button_next:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 進む
   info_button_prev:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戻る
   loading_to_base:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 基地を初期化中...
   loading_to_campaign:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: キャンペーンを初期化中...
   loading_to_combat:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戦闘を初期化中...
   loading_to_lowlevel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 低レベルデータを初期化中...
   loading_to_menu:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 終了中...
   loading_to_overworld:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戦闘を初期化中...
   loading_to_test:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: テストを初期化中...
   loading_to_tutorial:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: チュートリアルを初期化中...
   mods_button_apply:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Mod を適用
   mods_button_reset:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 設定をリセット
   mods_button_save:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 設定をセーブ
   mods_dialog_apply_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Mod をロードします
   mods_dialog_apply_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '本ゲームは起動時に mod を適用します。予期しない問題を引き起こす可能性があるため、変更を適用する方法として "load mods" オプションは推奨しません。1セッション中にライブラリ・コード注入型 mod を複数回ロードする処理には対応していないため、既にロードされている場合これらのコンテンツはすべてスキップされます。
 
 
       "Load mods" オプションは config mod の開発において変更内容をすばやく確認する上では最善です。本当に続行しますか？'
   mods_header_all:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: すべて
   mods_header_config:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 設定
   mods_header_details:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 詳細
   mods_hint_unsaved:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '未セーブの変更を検出：
 
       適用するにはセーブをクリックして再起動してください！'
   mods_stats_names:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 'バージョン
 
       識別子
@@ -222,196 +77,66 @@ entries:
 
       最大ゲームバージョン'
   newgame_button_generate:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: シード値を生成
   newgame_button_randomize:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: シード値をランダム化
   newgame_button_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   newgame_button_start_tutorial:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: チュートリアルから開始
   newgame_hint_seed_fixed:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: このモードは固定シード値を使用します。シード値が同じである限り生成されるワールドも変化しません。同じシード値による複数のセッション間で生成される場所や機体、戦利品にばらつきがあった場合は、バグとしてご報告ください。
   newgame_hint_seed_random:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: このモードはランダム生成されたシード値を使用します。毎回異なるワールドが生成されます。個体差が想定されるため、バグ報告にはシード値が自動的に埋め込まれます。
   root_button_back:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戻る
   root_button_info:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 各種情報
   root_button_load:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ロード
-  root_button_mods:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Mods
   root_button_new:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ニューゲーム
   root_button_options:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 設定
   root_button_quit_to_desktop:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: デスクトップに戻る
   root_button_quit_to_menu:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: メニューに戻る
   root_button_save:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セーブ
   save_button_create_new:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セーブを作成
   save_button_create_overwrite:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セーブを上書き
   save_button_load:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セーブをロード
   save_dialog_delete_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 削除します
   save_dialog_delete_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: このセーブファイルを削除してもよろしいですか？
   save_dialog_load_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ロードします
   save_dialog_load_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セーブデータをロードしてよろしいですか？
   save_dialog_overwrite_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 上書きします
   save_dialog_overwrite_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セーブファイルを上書きしてもよろしいですか？
   save_list_experimental_normal:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 実験
   save_list_experimental_warning:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 実験版（ロード非対応）
   save_list_province_unknown:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 州　不明
   save_list_state_base:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 移動基地
   save_list_state_combat:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戦闘
   save_list_state_overworld:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 全体マップ
   save_list_time_unknown:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: システム時間　不明
   save_stats_names:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '解放した州
 
       機体レベル
@@ -422,94 +147,34 @@ entries:
 
       物資'
   save_warning_base:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 基地を初期化せずにセーブはできません。
   save_warning_combat:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戦闘中のセーブは現在対応しておらず、開発中です。
   save_warning_combat_debriefing:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 戦闘結果の報告中にセーブはできません。
   save_warning_combat_execution:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ターン実行中にセーブはできません。
   save_warning_cutscene:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: カットシーン中にセーブはできません。
   save_warning_empty:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: セーブ名は空欄にできません。
   save_warning_empty_folder:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 利用可能なセーブファイルがありません。ゲーム中にセーブメニューを使用して作成してください。
   save_warning_overworld_lock:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 操作ロック中にセーブはできません。
   save_warning_overworld_retreat:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 撤退中にセーブはできません。
   save_warning_overworld_salvage:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: サルベージ中にセーブはできません。
   save_warning_overwrite:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 既存のファイルを上書きしてセーブします。
   save_warning_state:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 通常のゲーム状態以外でセーブはできません。
   splash_button:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 続ける
   splash_ea_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: アーリーアクセス
   splash_ea_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '旅団にようこそ！アーリーアクセス期間中に、皆様が Phantom Brigade を体験して開発を形作るためにあなたの手助けを得られることを楽しみにしています。
 
 
@@ -521,16 +186,8 @@ entries:
 
       この旅路にご参加いただきありがとうございます。あなたの助けを借りて、 Phantom Brigade をどんどん良くしていくことを楽しみにしています！'
   splash_warn_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 光敏感性発作について
   splash_warn_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '点滅する光や模様を含む特定の視覚イメージを見たとき、発作を起こされる方がごくまれにいらっしゃいます。
 
 
