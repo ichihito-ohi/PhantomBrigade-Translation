@@ -2119,10 +2119,25 @@ entries:
     text: 離れる
   ev_festival_interaction_intel__2o_leave_text:
     text: 目前にもっと差し迫った問題がある。
+  ev_firstkill_notification__1s_start_header:
+    text: 解放のトラウマ
+  ev_firstkill_notification__1s_start_text:
+    text: '『あー、どうもボス。』あなたは休憩中のパイロットを捕まえた。パイロットは振り向いて顔を見るのもやっとという様子で、うつろな目で窓の外を見つめている。
+
+
+      『現実は…シミュレーションとは違いますね。』パイロットは愛想笑いを浮かべ、固い空気を打開しようとした。『訓練では、金属が黒焦げになる光景がどんなに酷いか、パイロットが緊急脱出に間に合わないと気づいたときメックが身悶える様がどんなか、絶対わからないです。』
+
+
+      長い、生気の抜けたため息をつくパイロット。永遠にも続くかと思われる沈黙の後、あなたに向き直った。
+
+
+      『何のために戦っているかはわかってるつもりです。今は後悔している場合ではないですね。そのときが来るまで、相談に乗ってもらえるとありがたいです、ボス。』'
   ev_firstkill_notification__2o_acknowledge_header:
     text: 続ける
   ev_firstkill_notification__2o_acknowledge_text:
     text: 出発の時間だ。
+  ev_ftue_interaction_base_combat__1s_main_header:
+    text: 基地戦
   ev_ftue_interaction_base_combat__1s_main_text:
     text: '基地は最も撃破が難しい軍事施設です。攻撃する前に準備ができていることを確認しましょう。場合によっては基地に突撃する前に周辺地域を周ったほうが賢明です。
 
@@ -2130,22 +2145,89 @@ entries:
       あなたはこの基地の機体がまったく新しい技術を使用しているとの情報を得た。再生装甲だ。この装甲は数秒間攻撃されなければ何度でもダメージを受け止めることが可能らしい。これに対策するにはメック一機に同時に火力を集中させるのが有効かもしれない。'
   ev_ftue_interaction_base_combat__2o_continue_header:
     text: 出動準備！
+  ev_ftue_interaction_battlesite_combat__1s_main_header:
+    text: 絶体絶命
+  ev_ftue_interaction_battlesite_combat__1s_main_text:
+    text: 'ぎりぎり間に合った。戦場は猛烈な十字砲火で絶望的な有様だった。
+
+
+      『レールガンでなんとか持ちこたえているが、長くは持たない。』祖国防衛軍の司令官が報告する。
+
+
+      パイロットたちがたまらず立ち上がる。『いつでも行けます、ボス。』ひとりが声を上げる。『この惨状から彼らを救い出そう。』'
   ev_ftue_interaction_battlesite_combat__2o_combat_header:
     text: 出動準備！
+  ev_ftue_interaction_battlesite_combat__2o_combat_text:
+    text: 祖国防衛軍はあなたが頼りだ。
+  ev_ftue_interaction_battlesite_defeat__1s_defeat_header:
+    text: 灰から蘇らん
+  ev_ftue_interaction_battlesite_defeat__1s_defeat_text:
+    text: '祖国防衛軍は甚大な被害を受け、旅団の能力に対する信頼が揺らぎつつあった。あなたは損害を確認して乗組員を招集する。
+
+
+      辺境には、疲弊した祖国防衛軍の戦士が残されていた。何とか緊急脱出が間に合った者たちだ。損害を受けたにも関わらず、彼らは戦いに戻る覚悟ができており、州解放の最後のひと押しの際にはあなたのそばで戦わせてほしいと口にしている。'
   ev_ftue_interaction_battlesite_defeat__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_interaction_battlesite_defeat__2o_acknowledge_text:
+    text: 再挑戦あるのみ。
+  ev_ftue_interaction_battlesite_victory__1s_victory_header:
+    text: 火中の栗を拾うべし
+  ev_ftue_interaction_battlesite_victory__1s_victory_text:
+    text: '呼びかけに応じたことへの感謝を祖国防衛軍の司令官が示す。しかし空気は張り詰めたままだった。
+
+
+      『逃げるのもこれで最後だ。』司令官はそう言うと、あなたの肩を叩く。
+
+
+      あなたは、協力関係の始まりを感じた。この戦争では、旅団も祖国防衛軍も独りではない。あなたがより多くの州を解放することで、軍からの評判が役に立つ日が来るだろう。'
   ev_ftue_interaction_battlesite_victory__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_interaction_battlesite_victory__2o_acknowledge_text:
+    text: この勢いで続けよう。
+  ev_ftue_interaction_camp_combat__1s_main_header:
+    text: 最後の突撃
+  ev_ftue_interaction_camp_combat__1s_main_text:
+    text: '『数秒でも放っておくと、ヤツらは受けたダメージを何事もなかったかのように吸収してしまう。』あなたが敵基地に近づいたとき祖国防衛軍の偵察員から報告があった。『ヤツらを倒すため、我々はひとつの機体へ同時に火力を集中するようにしていた。』
+
+
+      気がかりな知らせではあるが、備えあれば憂いなしだ。パイロットが交える視線だけでも反応がわかるほど、乗組員は訓練を重ねてきたのだ。
+
+
+      あなたは乗組員と共に最終確認を行う。これは、旅団がこれまで直面した中でも最大の試練となるだろう。準備は万端だ。'
   ev_ftue_interaction_camp_combat__2o_combat_header:
     text: 出動準備
+  ev_ftue_interaction_camp_combat__2o_combat_text:
+    text: 戦闘準備を整える。
   ev_ftue_interaction_camp_victory__1s_victory_header:
     text: 解放
+  ev_ftue_interaction_camp_victory__1s_victory_text:
+    text: '勝利の声が喜びを広げていく。一番寡黙な整備員でさえ、あなたが戦闘から戻ると表情を崩して泣き笑いを浮かべていた。
+
+
+      この先、厳しい日々が続くかもしれない。だが今は、この瞬間は、希望がある。'
   ev_ftue_interaction_camp_victory__2o_acknowledge_header:
     text: 勝利
+  ev_ftue_interaction_camp_victory__2o_acknowledge_text:
+    text: この州は自由になった。
+  ev_ftue_interaction_combat_onepilot__1s_start_header:
+    text: 一匹狼は早死にする
+  ev_ftue_interaction_combat_onepilot__1s_start_text:
+    text: 『司令官、あなたのことは信頼していますが、しかし…』孤立したパイロットの声は重く張り詰めている…パイロット一人では―たとえどんなエースであろうと―任務をやり遂げることはできないだろう。
   ev_ftue_interaction_combat_onepilot__2o_fallback_header:
     text: 続ける
+  ev_ftue_interaction_combat_onepilot__2o_fallback_text:
+    text: パイロットをもう一人探す。
+  ev_ftue_interaction_combat_oneunit__1s_start_header:
+    text: 不利な賭け
+  ev_ftue_interaction_combat_oneunit__1s_start_text:
+    text: '作戦室で、下級士官のひとりがホロボードを指さした。『最低でもメック2機です。将来のことを考えるのはその後です。』
+
+
+      副官は地図上で次の目標、その次、さらにその次を指し示した。メックは1機より2機、戦いは数だとよく言うが、どんな戦いであれ火力低下は避けたいものだ。 '
   ev_ftue_interaction_combat_oneunit__2o_fallback_header:
     text: 続ける
+  ev_ftue_interaction_combat_oneunit__2o_fallback_text:
+    text: メックをもう1機入手する。
   ev_ftue_interaction_convoy_combat__1s_main_header:
     text: 立ち往生したコンボイ
   ev_ftue_interaction_convoy_combat__1s_main_text:
@@ -2160,8 +2242,17 @@ entries:
     text: これらの機体は重量級装甲セットを輸送していたようだ。これらは中量級装甲セットよりも高い耐久度を持つが、重量も大きいため、排熱しづらく動きが遅くなる。装甲の強みを活かしたロードアウトを組むことで手ごわい機体を手に入れることができる。
   ev_ftue_interaction_convoy_heavy__2o_continue_header:
     text: 続ける
+  ev_ftue_interaction_edgecase_base__1s_start_header:
+    text: 優先順位の不一致
+  ev_ftue_interaction_edgecase_base__1s_start_text:
+    text: '予測装置があなたに激しく警告する。驚くべき速度でタイムラインが生成され、一見始まりは無数の順列があるようだったが、そのすべてがひとつの結果に収束していた。敗北だ。
+
+
+      現在どのような変数が作用しているかは不明瞭かもしれないが、答えは確かだった。現在の資源ではこれに挑戦すべきではない。'
   ev_ftue_interaction_edgecase_base__2o_acknowledge_header:
     text: 了解
+  ev_ftue_interaction_edgecase_base__2o_acknowledge_text:
+    text: ここに戻る前に他の目標を完了するべきだ。
   ev_ftue_interaction_farmerscache_cachefound__1s_main_header:
     text: 装備改造パーツ
   ev_ftue_interaction_farmerscache_cachefound__1s_main_text:
@@ -2186,16 +2277,73 @@ entries:
     text: 農場技術者のひとりが言うには、戦争前はよくメックの部品をいじっていたらしい。谷の反対側に隠された、彼の工房にはまだ改造した部品が残っているかもしれないとのことだ。見つけるには周囲を偵察すべきだろう。
   ev_ftue_interaction_farmerscache_farmstart__2o_victory_header:
     text: 続ける
+  ev_ftue_interaction_liberation_combat__1s_combat_header:
+    text: 我が家での戦い
+  ev_ftue_interaction_liberation_combat__1s_combat_text:
+    text: '『いつものように銃を撃ちまくって突撃する訳にはいかん。』パイロット同士で話している。『ここは基地でもなければ戦場でもない。人々の家がある。』
+
+
+      対応事項リストを挙げる。民間人を解放したとしても、戦火の後に住む場所が残されていなければ意味はない。
+
+
+      いまこそあなたの戦略と訓練が試されるときだ。'
   ev_ftue_interaction_liberation_combat__2o_combat_header:
     text: 出動準備
   ev_ftue_interaction_liberation_combat__2o_combat_text:
     text: 部隊と戦闘準備に取り掛かる。
+  ev_ftue_interaction_liberation_defeat__1s_defeat_header:
+    text: 躓いただけだ
+  ev_ftue_interaction_liberation_defeat__1s_defeat_text:
+    text: '旅団は敗北してしまったが、無駄な一日だったわけではない。あなたの努力により侵略軍は弱体化し、祖国防衛軍でも残った敵軍を追い出せるだろう。
+
+
+      集まった乗組員から声が上がる。『我々も戻るべきだ。』
+
+
+      彼らはそう簡単に希望を手放しはしない。そうだ。まだまだこれからだ。ひとつひとつ解決し、できる限りの手段で前に進むことを学んでいかなければ。'
   ev_ftue_interaction_liberation_defeat__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_interaction_liberation_defeat__2o_acknowledge_text:
+    text: 解放は終わっていない
+  ev_ftue_interaction_liberation_victory__1s_victory_header:
+    text: 解放者たち
+  ev_ftue_interaction_liberation_victory__1s_victory_text:
+    text: 'メックからパイロットが飛び降りた。その顔は戦闘の熱気と勝利の高揚感から赤く火照っている。『解放者の噂が真実だと証明しよう！』と声を上げ、他の乗組員からも歓声が上がった。
+
+
+      過酷な旅がこの先も続くが、希望のちからを忘れることはない。この長きにわたって、現在の状況下で民間人の支えとなってきた。きっとあなたの支えにもなるはずだ。
+
+
+      この州を確保できたなら、祖国奪還も訳ないだろう。'
   ev_ftue_interaction_liberation_victory__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_interaction_liberation_victory__2o_acknowledge_text:
+    text: 高まる希望とともに、あなたは前進する。
+  ev_ftue_interaction_mobilebase__1s_intro_header:
+    text: 作戦基地
+  ev_ftue_interaction_mobilebase__1s_intro_text:
+    text: '基地で乗組員が巨大な重装備の車両を発見した。内部には、パイロットと乗組員を収容するに十分なスペースがあり、メック用の格納庫が完備されている。使われていなかったため軋みはあったが、それ以外は無傷だ。
+
+
+      あなたがその巨大なタイヤの表面に手をなぞらせると、側では、技術者が畏敬の念を抱いてため息をつく。『実物をこの目で見られるとは思ってもみませんでしたが…なんて[i]見っけもの[/i]だ！』
+
+
+      この移動基地があれば、戦いを道路に持ち込めるようになる―敵が予想していない時に攻撃を仕掛け、屋外でメックに装備を取り付けることすら可能だ。これで長い長い道のりを戦い抜けるだろう。'
   ev_ftue_interaction_mobilebase__2o_exit_header:
     text: 続ける
+  ev_ftue_interaction_mountainbase_combat__1s_main_header:
+    text: 'Felheim に現れた希望 '
+  ev_ftue_interaction_mountainbase_combat__1s_main_text:
+    text: 'Felheim 基地。かつては採掘施設だったが、後に緊急用保管庫として改修された―そして侵略軍が来ると、他と同様、敵の手に落ちてしまった…
+
+
+      『同じこと考えてるでしょ？』ニヤニヤしながらパイロットが聞いてくる。『施設を制圧できたら、必要に応じて、後退できる本拠地が手に入ります。この州の足がかりになりますし、[i]それに、[/i]そこにいればヤツらに大打撃を与えられるはずです！』
+
+
+      逃す訳にはいかないチャンスだ。この先の戦いは試練となり、国の未来を形作ることになるだろう。使える手はすべて使う必要がある。
+
+
+      そして、 Felheim からすべてが始まるのだ。'
   ev_ftue_interaction_mountainbase_combat__2o_combat_header:
     text: 出動準備
   ev_ftue_interaction_mountainbase_combat__2o_combat_text:
@@ -2206,18 +2354,70 @@ entries:
     text: これらの機体は軽量級装甲についての資料を輸送していたようだ。軽量級装甲は中量級装甲より耐久度は低いが、軽く、排熱しやすいため機体も素早くなる。装甲セットを作成するために加工室でこれらの資料を使用しろ。
   ev_ftue_interaction_outpost_light__2o_continue_header:
     text: 続ける
+  ev_ftue_interaction_patrol_combat__1s_main_header:
+    text: 注目を集める
+  ev_ftue_interaction_patrol_combat__1s_main_text:
+    text: '『これ以上近づくと奇襲にはなりません。』あなたが敵司令官の立ち往生したコンボイに向かっていると偵察員から報告が入った。『出発準備をご確認ください、ボス。』
+
+
+      戦闘直前で待機中の各パイロットが準備完了を無線で知らせる。'
   ev_ftue_interaction_patrol_combat__2o_combat_header:
     text: 出動準備
   ev_ftue_interaction_patrol_combat__2o_combat_text:
     text: 部隊と戦闘準備に取り掛かる。
+  ev_ftue_notification_base__1s_start_header:
+    text: 嵐の前の静けさ
+  ev_ftue_notification_base__1s_start_text:
+    text: '沈黙が移動基地を支配し、司令室では偵察員、整備員、パイロットが地図を見下ろしている。州を取り戻す前に、最後の戦いが待っている。
+
+
+      敵基地の場所にマーカーが表示されている―この地域で最大の軍事施設だ。
+
+
+      祖国防衛軍から移動中と一報があった。3人の乗組員は通信ノイズに頭を悩ませている。共に、ひとつの部隊としてあなた達は攻撃することになる。口数も少なく最低限に、みなが持ち場へ走った。移動基地がガクンと動き出し、勝利と解放への希望があなたを後押しする。'
   ev_ftue_notification_base__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_notification_base__2o_acknowledge_text:
+    text: 決戦が待っている。
+  ev_ftue_notification_battlesite__1s_start_header:
+    text: 支援要請
+  ev_ftue_notification_battlesite__1s_start_text:
+    text: 州の反対側における状況は良くなかった。祖国防衛軍の通信は追い詰められていた。[i]待ち伏せ。大損失。孤立無援。[/i]救援が必要だ。それも[i]今すぐ[/i]。
   ev_ftue_notification_battlesite__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_notification_battlesite__2o_acknowledge_text:
+    text: 祖国防衛軍を救援する。
+  ev_ftue_notification_contest__1s_start_header:
+    text: 手の届く所に
+  ev_ftue_notification_contest__1s_start_text:
+    text: 'あなたの最近の尽力により、今のところ民間人は安全だ。しかし、地域を永続的に確保し続けるには味方の数が少なすぎる。人々の永続的な安全確保とは、すなわち侵略軍に再占領されるより前に祖国防衛軍の戦力を呼び戻すということだ。
+
+
+      あなたは州の争奪を始め統制権を取り戻す機運を十分高めてきた。乗組員に状況を伝えると、機体と不安の入り混じったざわめきが広がる。ずっとこれが目標だったのだ。
+
+
+      あなたは小さな反乱部隊かも知れないが、その予測技術があれば、戦争の流れを変えることもできるはずだ。
+
+
+      パイロットのひとりが席に深く座り込む。その様子とは裏腹に、口元はニヤリと笑っている。『いっちょやってやろう。』'
   ev_ftue_notification_contest__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_notification_contest__2o_acknowledge_text:
+    text: もう止まることはない。
+  ev_ftue_notification_edgecase_settlement__1s_start_header:
+    text: 知らぬが仏にあらず
+  ev_ftue_notification_edgecase_settlement__1s_start_text:
+    text: '『ボス、予測装置に何やら問題発生です。』整備員の警告があり、移動基地は速度を落とし停車した。
+
+
+      タイムラインが見られなくなったのだ。通常なら予測タイムラインをどんどん出力して画が変化し動作していたが、装置は黙ったきりだ。コンソールも沈黙している。補佐官のひとりが診断ログを指差して話す。『あの集落から離れたときに装置が停止したようです、ボス。』
+
+
+      『戻りますか？』補佐官は尋ねるが、疑問に思っているのが彼らだけではないことは確かだ。'
   ev_ftue_notification_edgecase_settlement__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_notification_edgecase_settlement__2o_acknowledge_text:
+    text: あの集落はなにやら重要に違いない。
   ev_ftue_notification_facilitygood__1s_main_header:
     text: 生産者表示
   ev_ftue_notification_facilitygood__1s_main_text:
@@ -2236,20 +2436,62 @@ entries:
       待ち伏せするために敵パトロールを見つけ、倒し、より高度な部品を回収してみましょう。'
   ev_ftue_notification_firstprovince__2o_continue_header:
     text: 続ける
+  ev_ftue_notification_liberated__1s_start_header:
+    text: Hedmark 解放
   ev_ftue_notification_liberated__1s_start_text:
-    text: 'In the days following the victory at the base, celebrations erupt across the province. The Brigade is offered a special place in a small village parade, your mechs leading a procession of farm trucks and horses.
+    text: '基地での勝利から数日間、州全体で祝典が繰り広げられた。小さな村のパレードで旅団は特等席に招待され、メックたちが農業用トラックや馬の行列を先導した。
 
 
-      There seems no end to the gifts of farm-fresh, homemade treats. Your sweet-tooth pilot can''t bring themself to turn down a single cobbler or strudel and will almost certainly be contentedly ill by the night''s end.
+      産地直送・手作りおやつの贈り物は止まる気配がない。甘い物好きのパイロットはコブラーやシュトゥルーデルを断りきれず、夜の終わりまでにはほぼ確実に嬉しい悲鳴を上げていることだろう。
 
 
-      The villagers want to know the Brigade''s stories, who your families are and what provinces you call home. Just as they''re not only people to save, you''re more than soldiers.'
+      村人たちは旅団の話を聞きたがった。あなたの家族のことや故郷と呼べる州はどこなのか。彼らが単なる保護対象ではないように、あなたもまた、ただの兵士ではないのだ。'
+  ev_ftue_notification_liberated__2o_continue_header:
+    text: 参加する
+  ev_ftue_notification_liberated__2o_continue_text:
+    text: 自分が戦い守った人々と会おう。
+  ev_ftue_notification_liberation__1s_start_header:
+    text: 必要とされる場所
+  ev_ftue_notification_liberation__1s_start_text:
+    text: '『祖国防衛軍より入電です、ボス。』パイロットがあなたを呼ぶ。知らせを携え、すでに息切れしている。『助けを求める民間人からの連絡を傍受したとのこと。我々なら軍より先に着きます。』
+
+
+      追加情報によると、敵軍が近くの村を略奪し、地域の資源を自らのものとしていることが明らかになった。ひとりの勇敢な村人が無線機を手に入れ、メッセージを送ってきたらしい。敵兵が地域のゲリラ兵について話しているところを耳にし、賭けに出たのだ。
+
+
+      『事態が悪化する前に彼らを救出しなければ。』パイロットが申し出る。'
   ev_ftue_notification_liberation__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_notification_liberation__2o_acknowledge_text:
+    text: パイロットの言うことは正しい。選択肢はひとつしかない。
+  ev_ftue_notification_new__1s_main_header:
+    text: 旅団の皆様、おかえりなさい
+  ev_ftue_notification_new__1s_main_text:
+    text: 'あなたは目の前の広大な土地をじっと見つめる―あなたの故郷は、いまや戦場だ。旧友のように親しみ深いその景色には、一見静かそうな山々と野原が広がっている。後ろで、乗組員が命令を待つ。
+
+
+      あなたには物資と部品、身を潜められる場所が必要だった。
+
+
+      パイロットが地図上で目の前にある場所を指差す。 Felheim 基地だ。戦前、祖国のものだった場所だ。
+
+
+      再びこの手に取り戻そう。'
   ev_ftue_notification_new__2o_acknowledge_header:
     text: 了解
+  ev_ftue_notification_patrol__1s_start_header:
+    text: 立ち往生
+  ev_ftue_notification_patrol__1s_start_text:
+    text: '『ここです―祖国防衛軍が追跡していたあの司令官、配下のパトロールが立ち往生しています。』偵察員が地図上の場所を指差す。『今こそ待ち伏せを仕掛けるべき時です。』
+
+
+      知らせを聞いて、パイロットのひとりが神経質に制御盤を指先で叩き始めた。『いま我々がヤツらをガツンと叩いて司令官を捕縛できれば、軍を村に引き戻せなくなるはずです。』そう言いながら、叩く音は激しくなっていく。『それでようやく人々を解放したことになります。』'
   ev_ftue_notification_patrol__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_notification_patrol__2o_acknowledge_text:
+    text: 待ち伏せの準備をする。
+  ev_ftue_notification_resupply__1s_start_header:
+    text: ゲル、パイロット、決意
   ev_ftue_notification_resupply__1s_start_text:
     text: 'An army cannot march on an empty stomach, let alone with no gel or too few pilots. The Phantom Brigade is no exception.
 
@@ -2257,16 +2499,29 @@ entries:
       Gel hoses latch onto the mobile base with clockwork efficiency. As the experienced pilots are given well earned respite, the rookies are greeted with a sobering mission briefing. Things are oddly calm for now. Will there be similar moments of peace later on?'
   ev_ftue_notification_resupply__2o_intel_header:
     text: 続ける
+  ev_ftue_notification_resupply__2o_intel_text:
+    text: 出発の時間だ。
+  ev_ftue_notification_resupply_gel__1s_start_header:
+    text: 万能薬不足
+  ev_ftue_notification_resupply_gel__1s_start_text:
+    text: '加工室に異様な静寂が訪れる。いつも忙しくしている技術者が暇を持て余しており、欲求不満から工具は投げ捨てられている。需品将校があなたに向かって手を振る。その険しい表情は深刻な問題があることを物語っていた。
+
+
+      『これじゃ仕事ができません、ボス。』ゲル供給機ホースの端を差し出す―メックを達者に保つために不可欠な道具だ。『ゲルが無ければ修理も無し、です。』'
   ev_ftue_notification_resupply_gel__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_notification_resupply_gel__2o_acknowledge_text:
+    text: 補給用の備蓄ゲルを補充する。
+  ev_ftue_notification_resupply_unit__1s_start_header:
+    text: 我々は共にある
   ev_ftue_notification_resupply_unit__1s_start_text:
-    text: 'Your terminal pings, signaling an incoming message from the Home Guard:
+    text: '端末が ping を実行し、祖国防衛軍からの着信メッセージを通知した：
 
 
-      [i]Nice work out there, Commander. We wanted to let you know that if you encounter any bases garrisoned by us, you''re welcome to stop and resupply there. Take care of your mechs if you need to, as well. We''re in this together, after all.[/i]
+      [i]ご苦労だった、司令官。伝えておきたいのだが、もし我々の駐屯する基地を見かけることがあったら、遠慮なく立ち寄って補給に使ってほしい。必要なら、メックの面倒を見てもいい。今や、我々は共にある。[/i]
 
 
-      You send your thanks, and then you get back to work.'
+      あなたは謝意を送り、仕事に戻った。'
   ev_ftue_notification_resupply_unit__2o_acknowledge_header:
     text: 了解
   ev_ftue_notification_workshop__1s_main_header:
@@ -2275,18 +2530,31 @@ entries:
     text: 新しいメックフレームを建造するのに十分な物資を手に入れました。移動基地にある加工室で建造できます。修理する時間がなかったり戦闘中にメックを失ったりした場合に備えて予備のメックフレームやパイロットを常に待機させるよう検討してください。
   ev_ftue_notification_workshop__2o_continue_header:
     text: 続ける
+  ev_ftue_patrol_interaction_defeat__1s_defeat_header:
+    text: 躓いただけだ
   ev_ftue_patrol_interaction_defeat__1s_defeat_text:
-    text: 'Though the Brigade was defeated, the day wasn''t lost. Your efforts weakened the invaders enough for the Home Guard to push out remaining enemy forces.
+    text: '旅団は敗北してしまったが、無駄な一日だったわけではない。あなたの努力により侵略軍は弱体化し、祖国防衛軍でも残った敵軍を追い出せるだろう。
 
 
-      "We have to get back out there." You hear the words among your huddled crew.
+      『我々も戻るべきだ。』集まった乗組員から声が上がる。
 
 
-      It''s good to hear they won''t let go of their hope so easily. The road ahead is long. They must learn to pick up the pieces and move forward in whatever way they can.'
+      彼らがそう簡単に希望を手放しはしないとわかって良かった。まだまだこれからだ。ひとつひとつ解決し、できる限りの手段で前に進むことを学んでいかなければ。'
   ev_ftue_patrol_interaction_defeat__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_patrol_interaction_defeat__2o_acknowledge_text:
+    text: 再編成して現地に戻る。
+  ev_ftue_patrol_interaction_victory__1s_victory_header:
+    text: 一歩近づいた
+  ev_ftue_patrol_interaction_victory__1s_victory_text:
+    text: 'このような勝利を収めた後、あなたは間違いなく侵略軍のレーダーに映っている。良いだろう。願わくば、州内の重要標的を排除することでヤツらの決意が弱まれば良いのだが。幻影旅団ここにあり―ここは譲らないと侵略軍に知らしめるべきだ。
+
+
+      乗組員が、期待に満ちた乗組員たちが、あなたの周りに集まった。あなたは一人一人を目で見て、一呼吸おいた。激励の言葉は準備できている。'
   ev_ftue_patrol_interaction_victory__2o_acknowledge_header:
     text: 続ける
+  ev_ftue_patrol_interaction_victory__2o_acknowledge_text:
+    text: この勢いで続けよう。
   ev_fusion_interaction_combat__1s_combat_header:
     text: 警戒
   ev_fusion_interaction_combat__1s_combat_text:
@@ -2908,6 +3176,8 @@ entries:
     text: 捕虜が情報を持っているかもしれない。
   ev_mine_interaction_start__2o_continue_header:
     text: 続ける
+  ev_mine_interaction_start__2o_continue_text:
+    text: 座標を入手した。
   ev_mine_interaction_start__2o_defector_header:
     text: 亡命者と連絡をとる
   ev_mine_interaction_start__2o_defector_text:
