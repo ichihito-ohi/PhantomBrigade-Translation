@@ -1,48 +1,15 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySimple
-name: Pilots (Personalities)
-description: Text displayed for pilots depending on their personality type.
-splits: []
 entries:
   pilot_personality_aggressive_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 好戦的
   pilot_personality_brave_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 大胆
   pilot_personality_cautious_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 注意深い
   pilot_personality_cocky_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 生意気
   pilot_personality_default_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 冷静
   pilot_personality_menacing_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 威圧的
   pilot_personality_sneaky_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ずる賢い

@@ -1,84 +1,27 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: None
-name:
-description: Text used during tutorial in on-screen hint widgets
-splits: []
 entries:
   demo_intro-01_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 機体を左クリックしてアクションリストを開きます
   demo_intro-01_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動アクション・ボタンをクリックします
   demo_intro-01_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動先をクリックしてアクションプランを作成します
   demo_intro-01_3:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: このボタンをクリックしてプランを実行します
   demo_intro-prediction-boot_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: プロトタイプ・システムを起動します
   demo_intro-prediction-flank_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ここにカーソルを重ねて時系列を確認します
   demo_intro-prediction-flank_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: フィールド上の経路にカーソルを重ねても確認できます
   demo_intro-prediction-flank_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動が長いほど時間もかかります！
   demo_intro-prediction-tank-plans_0:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 攻撃を計画するときは、[b]いつ[/b] 開始するか選択します
   demo_intro-prediction-tank-plans_1:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 攻撃したい標的をクリックします
   demo_intro-prediction-tank-plans_2:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動と攻撃は重複させることができます
   demo_intro-prediction-tank-plans_3:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 常に動き続けることをお勧めします
   demo_intro-prediction-tank-plans_4:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 攻撃予定はいつでも再配置することができます

@@ -1,42 +1,17 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: None
-name: UI (Save System)
-description: Save system UI (load/save window, save file info etc.)
-splits: []
 entries:
   button_load_game:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'ロード
 
       ゲーム'
   button_save_game:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'セーブ
 
       ゲーム'
   header_load:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ロード
   header_save:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: セーブ
   stat_list:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '侵略からの日数
 
 

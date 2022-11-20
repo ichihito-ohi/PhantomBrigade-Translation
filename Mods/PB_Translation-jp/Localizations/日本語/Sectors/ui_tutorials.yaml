@@ -1,150 +1,50 @@
-timeAtSync: 2022-10-12 15:36:13.860580-07:00
-exportMode: LinePerKeySplit
-name: Tutorials
-description: Tutorial popups used by the game to explain various bits of UI and mechanics. The text includes overall name of the tutorial, page header/body and hints (not all pages contain hint popups independent from main body, though).
-splits: []
 entries:
   base_briefing__p00_header:
-    color:
-    noteDev:
-      text: I took the liberty to modify some of the text to fit the subject matter and goals of tutorial steps it is attached to. In any cases where the modified text already had finalized non-placeholder text, I saved the finalized text to "Writer Notes" and marked the line as "Placeholder" again.
-    noteWriter:
-    temp: false
     text: ブリーフィング
   base_briefing__p00_text:
-    color:
-    noteDev:
-      text: I'd like to add "you can" to the second sentence, otherwise this text has potential to confuse players. The briefing this tutorial happens on is at a point where player has no parts to customize their mechs, so a phrasing that can be read as "you must customize" is best avoided.
-    noteWriter:
-      text: The mobile base can scan the site in advance. Customize your squad before battle based on the available intel.
-    temp: true
     text: 移動基地は事前に現地をスキャンできます。入手した情報に基づいて、戦闘前に部隊を編集することができます。
   base_briefing__p01_hint:
-    color:
-    noteDev:
-      text: 'The UI pointed out by this step doesn''t display specific mission objectives and is more general, trying to describe the shape of the mission, common traits in its structure, whether there is a lot of cover, whether you''ll get ability to retreat etc. That''s why "mission objectives" is changed to "key aspects".
-
-
-        "Relative strength" is important and shouldn''t be substituted for just "strength" since the UI pointed out by latter part of that hint is about comparing your squad to the enemy and giving prediction of how well it would do in combat.'
-    noteWriter:
-      text: Carefully inspect the mission objectives, enemy composition, and strength of your squad before deploying.
-    temp: true
     text: 出撃前に、任務の重要な側面である敵構成や自分の部隊の相対的な強さを慎重に調べましょう。
   base_briefing__p02_hint:
-    color:
-    noteDev:
-      text: I rephrased this a bit because "deployment zones" can be misunderstood ("unit positions" is more straightforward) and because not every scenario contains retreat zones.
-    noteWriter:
-      text: The holo-table lets you preview key locations, deployment zones, and the retreat zone.
-    temp: true
     text: ホロ・テーブルで地形や機体位置、主要な場所を事前に確認できます。
   base_briefing__p03_hint:
-    color:
-    noteDev:
-      text: This additional step highlights the squad section of the briefing. It needs to cover the fact that scenarios can vary in the number of units you can deploy and the fact that you decide who goes into available slots. It also needs to prompt the player to continue to the end of the briefing.
-    noteWriter:
-    temp: true
     text: 'ここでは、展開できる機体数を確認し、参加するメックとパイロットを決定できます。
 
 
       準備が完了したら『部隊』をクリックして出撃します。'
   base_introduction__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: メックのカスタマイズが可能になりました。機体画面をクリックしてカスタマイズを始めましょう。
   base_introduction__p01_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機体
   base_introduction__p01_text:
-    color:
-    noteDev:
-      text: I'm not sure this step works without first introducing the place, so I restored the sentence in the beginning. This text pops up as we introduce the base for the very first time, so a sentence that references we're in the mobile base feels important to me before we get to the business of explaining the functions.
-    noteWriter:
-      text: Here, you can inspect every mech in your roster.
-    temp: true
     text: こちらが移動基地の機体画面です。ここでは、メンバー内の各メックを確認することができます。
   base_introduction__p02_hint:
-    color:
-    noteDev:
-      text: 'This text was largely reverted to its previous shape. I''d like to clearly separate text that tells you what to do next (click the highlighted button) from a note about a future interaction you can do on this screen, otherwise it reads like a suggestion that you can proceed with either interaction. Another minor issue is that the double click or long press are for entering editing, not for selecting. '
-    noteWriter:
-      text: Click here to edit the selected unit. You can also select a unit by double clicking or long pressing from the list.
-    temp: true
     text: '選択した機体を編集するにはこのボタンを押しましょう。
 
 
       リスト上で機体をダブル・クリックまたは長押しすることでも可能です。'
   base_introduction__p03_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 編集
   base_introduction__p03_text:
-    color:
-    noteDev:
-      text: Similarly to the unit screen, this text pops up after a big camera movement and it feels a bit off to dive into functionality without a sentence confirming what the place is. Added a short sentence at the start.
-    noteWriter:
-      text: You can inspect and swap out individual parts equipped by a unit.
-    temp: true
     text: こちらが編集画面です。機体が装備する部品ひとつひとつを確認、交換することができます。
   base_introduction__p04_hint:
-    color:
-    noteDev:
-      text: I'd like to be very precise about a difference between selections (you click an object, it becomes highlighted and might have some interactions, but you don't change the context) and navigation (you click and object and are transported into a new context). I'd like to reserve the word "select" for true selections such as clicking parts in customization lists, clicking units on the battlefield, etc.
-    noteWriter:
-      text: We picked up new primary weapons after that fight! Select the right slot to inspect and install one.
-    temp: true
     text: 先程の戦闘で新しい主兵装を手に入れました！右スロットへ移動して確認、取り付けを行いましょう。
   base_introduction__p05_hint:
-    color:
-    noteDev:
-      text: I slightly simplified the language of this section ("is" instead of "indicates", "important" instead of "primary").
-    noteWriter:
-      text: 'This is the currently equipped weapon. The number in the top right corner indicates its level.
-
-
-        Primary stats, such as damage output, are listed first.'
-    temp: true
     text: 'こちらが現在装備している武器です。一番右上の数字がレベルです。
 
 
       上部のセクションには、ダメージ出力などの重要なステータスが載っています。'
   base_introduction__p06_hint:
-    color:
-    noteDev:
-      text: It is important to me to reinforce that you can only see this information by hovering over both UI elements and to separate the two elements into two paragraphs. Not sure how to avoid mentioning hover twice - only leaving it in the second paragraph feels like suggesting that only stat bars have hidden information on hover.
-    noteWriter:
-      text: 'Subsystems and traits are displayed on the left.
-
-
-        Secondary stats are displayed at the bottom. Hover to learn more.'
-    temp: true
     text: '左にはサブシステムと特性が表示されます。詳細を確認するにはカーソルを合わせます。
 
 
       二次的なステータスは下部に表示されます。詳細についてはカーソルを合わせます。'
   base_introduction__p07_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 'ここには所持品のうち現在のソケットと互換性のある部品が表示されます。
 
 
       さらに多くの部品を手に入れた場合は、上部のフィルターと並び替えオプションを活用して、このリストを絞り込むことができます。'
   base_introduction__p08_hint:
-    color:
-    noteDev:
-      text: 'Second paragraph: I used "level" (as in a concrete value) in the first sentence as this tutorial step is specifically highlighting several concrete weapons and not trying to say that any new weapon has a higher level.'
-    noteWriter:
-      text: "Hover over a weapon to view the change in stats. \n\nNew weapons have higher levels. Keep your mechs upgraded, as damage will scale with level.\n\n[b]Equip a new weapon[/b] by double clicking or long pressing it in the list."
-    temp: true
     text: 'ステータス変化を確認するには武器の上にカーソルを合わせましょう。
 
 
@@ -153,34 +53,18 @@ entries:
 
       リスト上でダブル・クリックまたは長押しで[b]武器を装備[/b]しましょう。'
   base_introduction__p09_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '機体のステータスと平均レベルの上昇に注目してください。
 
 
       交換時は機体の全体性能を考慮するようにしましょう。武器の火力は重量や速度とトレードオフになる場合があります。'
   base_introduction__p10_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 移動基地の探索が終わったら、ここをクリックして全体マップに戻りましょう！
   combat_barrier__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '■ この敵メックはバリア装甲を装備しています。体力バーの緑色の部分に注目してください。
 
 
       ■ バリアは先にダメージを吸収し、戦闘中に回復することができます。その奥にある構造物にダメージを与えるにはバリアを削り切る必要があります。'
   combat_barrier__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '■ 回復には、この機体に一定量だけ蓄えられた修理ゲルを消費するため、永遠に回復し続けることはできません。
 
 
@@ -189,73 +73,34 @@ entries:
 
       ■ ひとつの機体に火力を集中させて、回復させない戦法が有効です。'
   combat_base__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: タレット
   combat_base__p00_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: この場所はタレットに守られています。タレットは定期的に周囲をスキャンし、射程内に機体が入るとすぐさま発砲します。スキャン中は攻撃範囲を避けるようにしましょう。
   combat_base__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'このジェネレーターを破壊することでタレットすべてを無効化できます。
 
 
       祖国防衛軍のこのメックはちょうどよい長距離ビームを持っています。'
   combat_base__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '祖国防衛軍のこの機体は強力な近接武器を持っています。
 
 
       近接攻撃はダッシュに似ています。目標地点を選択すると、メックが前方に跳び、進路上の標的を攻撃します。'
   combat_battlesite__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 祖国防衛軍がここで分断されています。再集結するか、二方向から敵を攻撃しましょう。
   combat_battlesite__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'この重装甲機体は動きが遅いですが、[b]ダッシュ[/b]が可能です。強力なスラスターで前方に跳躍します。
 
 
       このアクションを使って攻撃を回避し、敵の裏をかきましょう。'
   combat_battlesite__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'この敵は危険なビーム兵器を使用しています。このビームは標的に当たる時間が長いほど、与えるダメージも大きくなります。
 
 
       しかし、ビームは射撃中に素早く旋回することができません。動き続け、ダッシュでダメージを回避しましょう。'
   combat_intro_01__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-      text: Camera
-    temp: false
     text: 'カメラ '
   combat_intro_01__p00_text:
-    color:
-    noteDev:
-      text: I wasn't satisfied with how abrupt this message was This is the very first piece of text you see during gameplay, and I wanted to at least slightly connect it to the context of commander dialog and the preceding cutscene, adding "before moving out" before going into the dry details of camera controls. The old message also prioritized the least common input (middle mouse button) ahead of most important inputs (such as WASD).
-    noteWriter:
-      text: "The camera can be rotated by holding the [b]middle mouse button[/b].\n\n[b]WASD[/b] to move.\n[b]Q[/b] & [b]E[/b] to rotate. \n[b]R[/b] & [b]F[/b] to tilt."
-    temp: true
     text: '移動する前に、カメラ視点を調整してみましょう。
 
 
@@ -265,195 +110,71 @@ entries:
 
       ■ [b]R[/b] & [b]F[/b] で垂直回転'
   combat_intro_01__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 左クリックでこの機体を選択しましょう。
   combat_intro_01__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 選択した機体の情報はこちらに表示されます。
   combat_intro_02__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 予測システムを起動しましょう。
   combat_intro_02__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: このタイムラインには、次の5秒間にあなたの計画したアクションと各機体の行動予測が表示されます。
   combat_intro_02__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: このホットバーには、選択した機体の実行可能なアクションが表示されます。
   combat_intro_03__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 街を防衛せよ
   combat_intro_03__p00_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 敵軍が街を攻撃しています！命令可能な3機を使って排除してください。
   combat_intro_04__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 戦闘の真っ最中では、すべての動きを把握することが難しい場合があります。こちらをクリックすることで、直前5秒間をリプレイすることができます。
   combat_intro_04__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: タイムライン上にカーソルを合わせて特定の瞬間を見返したり、再生速度を変更してアクションを繰り返すことが可能です。
   combat_intro_04__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: リプレイを見終わったら、こちらをクリックしてプランニングに戻ることができます。
   combat_liberation__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 危険
   combat_liberation__p00_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 敵はここからますます手強くなります。目標を素早く達成し、遮蔽を活用してダメージを避けましょう。
   combat_liberation__p01_hint:
-    color:
-    noteDev:
-      text: We only require this from the player for a very small set of highlighted civilian buildings, so I'd like to phrase it as "important civilian buildings". A total destruction is also not always necessary to fail this condition - I think it fails at a certain damage percentage, so I'd prefer to phrase it as "protect them from damage" rather than mentioning destruction.
-    noteWriter:
-      text: Avoid using civilian buildings as cover, or they might get destroyed.
-    temp: true
     text: 重要な民間建造物を遮蔽に使うことは避け、ダメージから守るようにしましょう。
   combat_liberation__p02_hint:
-    color:
-    noteDev:
-      text: 'Second sentence: the phrasing you have reads better, but I''m not sure it exactly conveys that we are talking specifically about pressing Ctrl during the aiming step of attack configuration. I feel like your second sentence can be read as "hold Ctrl anytime to target the environment.'
-    noteWriter:
-      text: 'Destroy this alarm tower to halt enemy reinforcements.
-
-
-        You can target the environment with your attack by holding [b]Ctrl[/b].'
-    temp: true
     text: 'この警報塔を破壊して敵の増援を止めましょう。
 
 
       攻撃の照準中に [b]Ctrl[/b] を押し続けることで任意の場所を狙うことができます。'
   combat_liberation__p03_hint:
-    color:
-    noteDev:
-      text: 'First sentence: this is not strictly on the tutorial alone, but we do not nod at the Home Guard unit in other contexts such as comms or scenario briefing, so I feel it''s important to acknowledge it''s not just there as a standard part of your squad.'
-    noteWriter:
-      text: 'Use the Home Guard''s long range weapon to strike targets from afar.
-
-
-        They will be awaiting your orders. Try not to get them killed!'
-    temp: true
     text: '祖国防衛軍が戦闘に参加しました。装備している長距離武器を使用して、遠距離から標的を攻撃しましょう。
 
 
       あなたの命令を待っています。彼らが殺されないようにしてください！'
   combat_mountainbase__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 増援
   combat_mountainbase__p00_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: さらに敵が接近中！遮蔽を使ってダメージを避け、素早く敵を排除して制圧を維持しましょう。
   combat_mountainbase__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この部分で、目標、敵増援までの残りターン数、その他任務情報を追跡しましょう。
   combat_mountainbase__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 増援が到着する前に急いで敵機を撃破しましょう！
   combat_patrol__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: VIPがこのメックを操縦しています。包囲して気絶させましょう。
   combat_patrol__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '衝撃ダメージはパイロットの体力を消耗させます。このバーが0まで落ちると、パイロットは気絶します。
 
 
       衝撃ダメージは[b]背後からだと2倍[/b]になります。'
   combat_patrol__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'VIPを排除したら、撤退の準備をしましょう。
 
 
       そのためには、機体をこのエリアに移動させて『撤退』アクションを配置しましょう。'
   overworld_battlesite__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 争奪中の州では[b]戦闘[/b]が勃発するでしょう。祖国防衛軍を支援し、流れを変えましょう。時間がかかりすぎると、祖国防衛軍はダメージを受け、敗北に近づいてしまいます。
   overworld_contest__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-      text: Liberation
-    temp: false
     text: 解放
   overworld_contest__p00_text:
-    color:
-    noteDev:
-      text: I feel like the rewritten first paragraph loses a lot of important nuance. I think it can be shortened, but it should still mention why you can't hold territory (touching on who you're playing as), why the enemy can (touching on who you're playing against), and the fact that the village will revert to the enemy (touching on mechanic where garrisons are sent to recapture liberated sites).
-    noteWriter:
-      text: "You can't hold territory on your own, especially if the enemy has dispatched a new garrison. \n\nTo advance the homeland's liberation, you will need the help of the Home Guard."
-    temp: true
     text: 'あなたはゲリラ部隊であり、一国の軍に相当する敵兵力から領土を守り続けることは不可能です。今日解放した村がずっと自由なままで残るわけではありません。敵はすでに新しい守備隊を派遣しているかもしれません。
 
 
       祖国の解放を進めるためには、祖国防衛軍の助けが必要になるでしょう。'
   overworld_contest__p01_hint:
-    color:
-    noteDev:
-      text: "I'm not sure about the replacement text I copied to the right for a few reasons:\n- The mention of \"securing the site\" doesn't fit the context, the \"contest\" action has a province-wide effect and is unrelated to any particular site. The Home Guard comes out and starts fighting the enemy all over the province, not at the village where we prompted this tutorial.  \n- I'd actually like to cut the mention of escalation from this step entirely. It was in the original text, but in hindsight, it should not be tutorialized here: the first province has the escalation mechanic disabled entirely, and the escalation mechanic is totally orthogonal to the war/contest mechanic.\n- Instead, the second important point I'd like to reinterate in this step is how the contest state will distract the enemy and prevent them from moving back into the village we've just liberated. \n- This step asks for an interaction a player shouldn't miss, and tries to explain what the contest state would entail. I'd like to shorten it to two paragraphs instead of 3, but I'm not sure fitting the interaction prompt and first part of the mechanics into same first paragraph works."
-    noteWriter:
-      text: '[b]Contest[/b] the province to call in the Home Guard. They will engage the enemy and secure the site, giving you opportunities to strike at key objectives.
-
-
-        Be aware that this can increase escalation and make the enemy commit stronger forces to the province.'
-    temp: true
     text: '州の[b]争奪[/b]を開始して祖国防衛軍を召集しましょう。
 
 
@@ -462,34 +183,15 @@ entries:
 
       ■ 敵を惹きつけることで、拠点が奪還されにくくなります。先程あなたが解放した村は最も心配が少ないでしょう。'
   overworld_contest__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '上部で彼我戦力の状況を確認することができます。
 
 
       敵の戦力が尽きると州は解放され、祖国防衛軍の戦力が尽きると州は失われます。'
   overworld_contest__p03_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 紛争中、祖国防衛軍から[b]目標[/b]が指定されます。それらを倒して敵の力を削りましょう！
   overworld_intro__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-      text: Camera
-    temp: false
     text: カメラ
   overworld_intro__p00_text:
-    color:
-    noteDev:
-      text: Similar to first step of the tutorial, I'm not sure this text works without a sentence aknowledging we've just loaded into a totally new context. I'd like to start it by mentioning the world map and only then proceed to the camera controls.
-    noteWriter:
-      text: "Rotate the camera by holding [b]middle mouse button[/b].\n\n[b]WASD[/b] to move.\n[b]Q[/b] & [b]E[/b] to rotate. \n[b]R[/b] & [b]F[/b] to tilt. "
-    temp: true
     text: 'こちらがワールド・マップです。カメラ視点を調整してみましょう。
 
 
@@ -499,16 +201,8 @@ entries:
 
       ■ [b]R[/b] & [b]F[/b] で垂直回転'
   overworld_intro__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 目標と進行中のアクティビティはこちらに表示されます。クリックして詳細情報を確認しましょう。
   overworld_intro__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '全体マップ時間の一時停止と加速。
 
 
@@ -516,131 +210,45 @@ entries:
 
       ■ [b]1/2/3[/b]で速度調整。'
   overworld_intro__p03_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 前方の拠点を[b]右クリック[/b]して、そこまで移動しましょう。見失った場合は、 [b]Tab[/b] を押すと部隊の場所に戻ります。
   overworld_open__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 前へ
   overworld_open__p00_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: Hedmark の安全を確保したら、次の州に進むことができます。敵が私たちの存在に気づいた今、ここから先の戦いはより手強くなるでしょう。慎重に進んでください。
   overworld_open__p01_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パトロール
   overworld_open__p01_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'この先の州はパトロールが巡回しています。発見されると追跡、交戦してきます。
 
 
       その戦力はそれほど手ごわくはありませんが、毎回交戦してもあまり価値はありません。移動基地をアップグレードして、パトロールを回避する、一時的に無力化する、裏をかくなどを検討しましょう。'
   overworld_open__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'もうひとつ考慮すべきリスクは、エスカレーション・レベルです。敵領土内で攻撃を行ったり時間が経過したりするたびにレベルが上昇します。
 
 
       レベルが上昇すると、戦闘がより難しくなります。手に余る場合は、 Hedmark に撤退して身を潜め補給することを検討しましょう。'
   overworld_open__p03_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 前へ
   overworld_open__p03_text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: この州にどう立ち向かうか、それはあなた次第です。資源を投資して、移動基地のアップグレードや追加機体の建造が可能です。すぐに週の争奪を開始することもできますし、さきに加工室のような場所を探索することもできます。勝利への道はいくつもあります！
-  overworld_resupply__p00_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: The option to resupply becomes available as soon as you enter range of a friendly resupply point. Click this button to begin.
   overworld_resupply__p01_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 補給中は移動基地が動けなくなり、完了まで一定時間がかかります。
   overworld_resupply__p02_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 自分の機体、パイロット、資源の状態に注意して、いつ補給に戻るかを考えましょう。
   overworld_salvage__p00_header:
-    color:
-    noteDev:
-    noteWriter:
-      text: Salvage
-    temp: false
     text: サルベージ
   overworld_salvage__p00_text:
-    color:
-    noteDev:
-    noteWriter:
-      text: After combat, the engineering crew has the chance to conduct a salvage operation.
-    temp: false
     text: 戦闘後、技術クルーがサルベージ作業を行う機会があります。
   overworld_salvage__p01_hint:
-    color:
-    noteDev:
-      text: At this tutorial step, I feel like we need to begin mentioning the salvage cost (0, in case of stored items).
-    noteWriter:
-      text: Combat sites can contain equipment and resources.
-    temp: true
     text: 現場には装備や資源が保管されている場合があり、無償で回収することが可能です。
   overworld_salvage__p02_hint:
-    color:
-    noteDev:
-      text: Similarly, this text should mention the salvage cost.
-    noteWriter:
-      text: Enemy units can also yield loot.
-    temp: true
     text: 敵機からも戦利品が得られる場合があります。こちらはサルベージ予算からポイントを払います。
   overworld_salvage__p03_hint:
-    color:
-    noteDev:
-      text: At this stage of the tutorial, the player is focused on a single small interaction (clicking a particular button to confirm recovery). I'd like to really focus on prompting the right interaction and remove the mention of damage based cost penalty or alternate options here to avoid confusion.
-    noteWriter:
-      text: Select parts to be salvaged or scrapped for supplies. Note that destroyed parts are more costly to salvage or scrap.
-    temp: true
     text: この武器を回収すると良さそうです。こちらを左クリックして手に入れましょう。
   overworld_salvage__p04_hint:
-    color:
-    noteDev:
-      text: "I'd like to use more precise terminology here:\n- \"Salvage\" refers to the whole gameplay stage we're in, as a whole\n- \"Recovery\"refers to items we get as-is, into our inventory\n- \"Scrapping\" refers to turning items into resources \n\nSince this step focuses the frame on the salvage budget, I feel like it's a better place for covering the subject of cost and alternate options than prior steps."
-    noteWriter:
-      text: Selecting something to be salvaged or scrapped will use up the salvage budget.
-    temp: true
     text: 'サルベージ予算を使って部品を回収します。破壊された部品の回収には、より多くのコストがかかります。
 
 
       より少ないコストで部品を解体して物資に変える選択肢もあります。必ずしもすべてを回収する必要はありません。'
   overworld_salvage__p05_hint:
-    color:
-    noteDev:
-      text: I think the text for this step should have a clearer call to action (what do you have to complete, what do you need to do once you're done). The suggested text is more of a recommendation and doesn't guide the player to finish the operation.
-    noteWriter:
-      text: You can only do as much as your salvage budget allows, so plan accordingly.
-    temp: true
     text: 予算が割り当てられたら、サルベージ・クルーを出動させます。選択を確認したら、こちらをクリックしましょう。
