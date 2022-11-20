@@ -1,14 +1,5 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: None
-name:
-description: Text in the combat UI
-splits: []
 entries:
   controls_column_left:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '左 [88]クリック[ff]
 
 
@@ -29,10 +20,6 @@ entries:
 
       1 ... 6'
   controls_column_right:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 'フィールド上で機体を選択
 
       フィールド上でアクションの標的を選択
@@ -67,346 +54,122 @@ entries:
 
       リストからアクションを選択'
   controls_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 操作方法
   demo_timer_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 残り時間
   end_continue:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 続ける
   end_detail_defeat_early:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動基地が機体を回収して現地から撤退した。現地は未だ敵の制圧下だ。我々はここから学び、次こそは打ち倒せるはずだ。
   end_detail_defeat_total:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 我々は機体を失ったが、移動基地はなんとか現地から逃げ出すことができた。現地は未だ敵の制圧下だ。我々はここから学び、次こそは打ち倒せるはずだ。
   end_detail_victory_early:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: おめでとう！移動基地の機体回収が完了し、我々はすべての目標を達成した。敵は逃走し、いま現地はあなたの制圧下にある。
   end_detail_victory_total:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: おめでとう！敵は倒され、いま現地はあなたの制圧下にある。
   end_header_defeat_early:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 撤退
   end_header_defeat_total:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 敗北
   end_header_victory_early:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 勝利
   end_header_victory_total:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 勝利
   end_subtitle_defeat_early:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 部隊は目標を達成せずに脱出しました
   end_subtitle_defeat_total:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: すべての機体が失われました
   end_subtitle_victory_early:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 部隊は早期に脱出し、すべての目標が達成されました
   end_subtitle_victory_total:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: すべての敵を排除し、現地は統制下に置かれました
   mode_ai_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 5秒先まで敵の動作を予測中...
   mode_ai_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 予測生成中
   mode_execution_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: フィールド上の全機がプランを実行に移します！
   mode_execution_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 実行開始
   mode_path_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 選択した機体について次の目標地点を選択します
   mode_path_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動
   mode_path_overlay_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動
   mode_path_overlay_subheader:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標地点
   mode_target_pos_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現在のアクションについて目標となる地点を選択します
   mode_target_pos_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]目標 [-][ffbb22][ff]地点'
   mode_target_pos_overlay_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 地点
   mode_target_pos_overlay_subheader:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標
   mode_target_unit_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現在のアクションについて目標となる機体を選択します
   mode_target_unit_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '[aa]目標 [-][ff5555][ff]機体'
   mode_target_unit_overlay_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 機体
   mode_target_unit_overlay_subheader:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標
   mode_time_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 選択したアクションについて時間を選択します
   mode_time_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 時間配分
   mode_time_overlay_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 時間
   mode_time_overlay_subheader:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 配分
   mode_wait_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: （カーソルまでの距離に応じて）待機時間と機体の向く方向を選択します
   mode_wait_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 待機
   mode_wait_overlay_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 待機
   mode_wait_overlay_subheader:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 時間/方向
   timeline_boot_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '予測システム
 
       使用準備完了'
   timeline_boot_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 起動
   timeline_confirm_removal:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '確認
 
       削除'
   timeline_execute:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 実行
   timeline_late_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: タイムライン上のあまりに遅い位置にアクションを配置することはできません。
   timeline_late_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 遅すぎます
   timeline_lock_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '目的遂行
 
       続ける'
   timeline_lock_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ロック
   timeline_overlap_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 攻撃などの二次アクションを重複させることはできません。しかし、機体は攻撃と移動を同時に行うことはできます。
   timeline_overlap_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 重複
   timeline_status_normal_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 予測限界到達
   timeline_status_warning_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 次のターンまで予測中
   timeline_status_warning_header:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '警告: 精度低下'
   unit_info_blueprint_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 耐久度
   unit_info_targeted_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標機体
   weapon_corner_hint:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 項目
   weapon_stats:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '攻撃ごとの発射数
 
       散乱角

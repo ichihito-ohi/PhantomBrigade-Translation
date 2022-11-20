@@ -1,234 +1,77 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: None
-name:
-description:
-splits: []
 entries:
   overworld_mother__sub_00:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: あまりに多くの命が失われた...
   overworld_mother__sub_01:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: あまりに多くが破壊された
   overworld_mother__sub_02:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: こんな世界であなたに育ってほしくない
   overworld_mother__sub_03:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: あなたは平和と繁栄の時代に生まれると思っていたのに
   overworld_mother__sub_04:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 人々の愛に囲まれて
   overworld_mother__sub_05:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: でも、世界は変わってしまった...
   overworld_mother__sub_06:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 戦車が通りを巡回し
   overworld_mother__sub_07:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 隣人同士ピリピリしている
   overworld_mother__sub_08:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 夜のうちに失踪する人もいる
   overworld_mother__sub_09:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: そのたびに彼らは一時的に過ぎないと言う
   overworld_mother__sub_10:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: じきに新たな生活に慣れるだろう、と
   overworld_mother__sub_11:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: でもなぜか...私は信じられない
   overworld_mother__sub_12:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: あなたには、かつての自由をあげたい
   overworld_mother__sub_13:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: でも私たちだけでどうやって？
   overworld_mother__sub_14:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: もうこれ以上希望を持ち続けられない
   overworld_mother__sub_15:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 誰か、そう誰かが応えてくれるのを祈るだけ
   overworld_rebuilding__sub_00:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 私たちが戦いを辞めても彼らは戦った
   overworld_rebuilding__sub_01:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 私たちがすべてを失っても彼らは希望を捨てなかった
   overworld_rebuilding__sub_02:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 元通りにはならないかもしれない
   overworld_rebuilding__sub_03:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: それでも灰の中からきっと素晴らしいものが築けるはず
   start_flyover__sub_00:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 気付いたときには、すでに手遅れだった。すでに戦争は始まっていた。
   start_flyover__sub_01:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 最初に攻撃されたのは国境の街や都市だった。通信が遮断され、住民は家から追い出された。
   start_flyover__sub_02:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 家のあった場所には、軍事前哨基地が建設され、現在まで我々を監視し続けている。
   start_flyover__sub_03:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 我々も反撃し―しばらくは首都で持ちこたえていた。しかし、裏をかかれ、数に圧倒されてしまった。勝ち目はなかった。
   start_flyover__sub_04:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 結局、我々、降伏しなかった者たちは逃げる他なかった。
   start_flyover__sub_05:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: それから数年、亡命政府は活動を続けてきた。
   start_flyover__sub_06:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 我が軍の残党である祖国防衛軍と共に、彼らは勝ち目のない戦いを休むことなく続けている。
   start_flyover__sub_07:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: しかし彼らだけでは不可能だ。
   start_flyover__sub_08:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 我々はこれまで沈黙を貫いてきたが、いまこそ、長年の訓練、準備、忍耐を経て…
   start_flyover__sub_09:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 幻影旅団として祖国を取り戻すときだ。
   start_reveal__sub_00:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: シェルターに、早く！
   start_reveal__sub_01:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: あと5秒しか耐えられない！
   start_reveal__sub_02:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 残り3秒！2秒！1秒！
   start_reveal__sub_03:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 行け！行け！行け！
   start_reveal__sub_04:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: どの予測もここに収束してしまう…ここでできることはもう何もない。
   start_reveal__sub_05:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ついに断念すべき時が来たのか…？
   start_reveal__sub_06:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: いいや…
   start_reveal__sub_07:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: まだその時じゃない。

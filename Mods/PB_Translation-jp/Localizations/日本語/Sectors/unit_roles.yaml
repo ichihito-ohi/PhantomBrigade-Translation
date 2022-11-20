@@ -1,54 +1,17 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySplit
-name: Units (Roles)
-description: Unit roles are a displayed in the bottom left combat UI. They make it easy to identify at a glance whether a unit is carrying more powerful and rare equipment.
-splits: []
 entries:
   generic_r0__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 訓練兵
   generic_r0__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 僻地に展開する機体の大半を構成する経験の浅い新兵。標準仕様の限定的な兵装を装備している。
   generic_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 一般兵
   generic_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 最も一般的なランクの敵機。共通の大量生産部品を装備している。
   generic_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ベテラン
   generic_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 経験豊富な敵機。高度なカスタム装備を搭載している。
   generic_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: エリート
   generic_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 高ランクの敵機。高価なレア装備を搭載している場合が多い。

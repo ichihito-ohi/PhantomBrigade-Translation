@@ -1,330 +1,109 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySimple
-name: Scenarios (Groups)
-description: Text that appears in briefing if a scenario satisfies certain conditions. These groups are akin to verbs that are detected in scenarios and surfaced to the player. That allows us to mix and match elements and avoid writing long bespoke text per scenario type.
-splits: []
 entries:
   trait_alarm__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 警報
   trait_alarm__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 警報が発せられますが、マップ上の警戒されている地点を破壊することで敵の援軍が検知・出撃することを防げます。
   trait_entrenched__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 塹壕
   trait_entrenched__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダニの巣のように張り巡らされています！敵を遮蔽からおびき出すか、間接射撃武器を使いましょう。
   trait_escape__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 撤退
   trait_escape__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 時には、更地にしてしまうより手加減する方が良い場合もあります。目標を達成したら、出撃したメックを早期に撤退させることができます。
   trait_hidden_block_escalation__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: スキャン妨害
   trait_hidden_block_escalation__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 敵は我々の機体をスキャンできなくなります。現在のエスカレーション・レベルに関わらず、敵は少ない戦力しか送ってこないでしょう。
   trait_hidden_block_reinforcements__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 通信妨害
   trait_hidden_block_reinforcements__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 敵は外部に連絡したり我々の正確な位置を送信したりできなくなります。近くのパトロールが戦闘に参加できなくなるでしょう。
   trait_hidden_retreat__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 撤退
   trait_hidden_retreat__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 私たちがついている―戦闘中に移動基地が距離を詰めるので、必要ならば撤退することもできます。
   trait_hidden_units_delayed__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 接敵間近
   trait_hidden_units_delayed__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ヤツらのバックアップが来ました！増援が接近しており戦闘中に展開してくる可能性があります。
   trait_hidden_units_delayed_external__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 遠方からの接触
   trait_hidden_units_delayed_external__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 追加の機体が長距離スキャンで検知されました。我々の位置に気づいた付近のパトロールから来ています。
   trait_hidden_units_delayed_friendly__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 友軍との接触
   trait_hidden_units_delayed_friendly__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現在地に接近中の祖国防衛軍所属の機体を検知しました。救援要請に応えてくれたようです！
   trait_hidden_units_start__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 現地にて接敵
   trait_hidden_units_start__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ヤツらが既にいます！敵は即時交戦可能な状態なので気を引き締めて臨みましょう。
   trait_marathon__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: マラソン
   trait_marathon__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: これは訓練です。マップ上に目標と敵が配置されています。速度重視のメックを使いましょう。
   trait_monuments__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: モニュメント
   trait_monuments__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この場所には貴重な歴史的建造物があります。修繕できないほどのダメージを部隊が与えないよう気をつけましょう！
   trait_objectives__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 目的
   trait_objectives__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 警備兵に戦いで勝ち、厳重に守られた地点を自軍の機体で占領しましょう。
   trait_team__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: タッグ・チーム
   trait_team__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 私たちには援軍がいます！義勇軍の部隊が指揮下にあります。祖国をひとつにまとめられるということを示しましょう。
   trait_turrets__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: タレット
   trait_turrets__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 気をつけて！現地で危険な自律砲塔が検知されました。無効化するために敵機を殲滅しましょう。
   type_assassination__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 暗殺
   type_assassination__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 敵のVIPを待ち伏せします。目標を排除して増援が到着する前に撤退してください。気をつけてください。あなたは数で劣り、勝ち目はありません。
   type_assault__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 突撃
   type_assault__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 厳重に要塞化された軍事拠点を攻撃し、敵をすべて排除してください。3-4機で達成してください。ですが用心しましょう。
   type_assisted__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 支援あり
   type_assisted__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 同盟軍と協力して敵をすべて排除してください。部隊は大きくなりますが、柔軟性に欠けるので、いかなる場合にも備えてください。
   type_blitz__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 急襲
   type_blitz__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 移動基地からは引き剥がされ、敵の増援も要請されています。時間が何より重要です！
   type_breakin__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 突入
   type_breakin__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 警備された施設で待ち伏せして増援が呼ばれる前に確保してください。より良い報酬のため、優位を奪わせず試練を乗り越えましょう！
   type_capture__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捕まえる
   type_capture__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 死亡または緊急脱出させずに目標パイロットを気絶させろ。
   type_destruction__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 破壊工作
   type_destruction__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 敵拠点を攻撃して重要施設を破壊してください。戦術的アプローチと慎重に検討されたロードアウトが成功に導くでしょう。
   type_elimination__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 殲滅
   type_elimination__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 支援なしで敵集団と交戦し排除してください。2-3機で達成してください。
   type_hidden_unknown__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 不明
   type_hidden_unknown__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 情報がありません。いかなる場合にも備えてください。
   type_liberation__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 解放
   type_liberation__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 占領された民間の前哨基地を攻略してください。犠牲が大きくなり過ぎないように注意しつつ、バランスを取った部隊で敵をすべて排除しましょう。
   type_raid__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 襲撃
   type_raid__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 敵のコンボイを待ち伏せしてください。できるだけ多くの貨物を奪い、予想されている増援が到着する前に撤退しましょう。1-2機で達成してください。
   type_rescue__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 救出
   type_rescue__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 敵施設を攻撃し目標を取り戻し、予想される増援が到着する前に撤退してください。2機で達成してください。

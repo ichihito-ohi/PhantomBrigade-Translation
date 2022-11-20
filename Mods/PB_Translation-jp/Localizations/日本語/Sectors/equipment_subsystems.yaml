@@ -1,780 +1,241 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySplit
-name: Equipment (Subsystems)
-description: Names and descriptions of individual subsystems. Presented by UI when you hover over subsystem slot (hardpoint) or when you inspect individual subsystem in an inventory list. Since subsystem database is a tree where each config can inherit from another config, this sector can contain names and descriptions associated not just with bottom-most configs in the chain, but with higher level configs as well (Vidar or Arm etc.). When a part preset matches multiple pieces of text, they get joined and presented together.
-splits: []
 entries:
-  armor_halvard_h__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: Halvard
   armor_halvard_h__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: JNIが生産する先進的な重量級装甲。『角』の内部に追加のセンサー装置を搭載したことで珍しい形状となった最新のオールラウンド設計が採用されている。整備の複雑さと限られた専門用途のため戦地で用いられることはほとんどない。
   internal_aux_capacitor_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: キャパシター - 標準型
   internal_aux_capacitor_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 熱容量を増加させることでオーバーヒートまでの時間を延長する。
   internal_aux_capacitor_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: キャパシター - 改良型
   internal_aux_capacitor_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 熱容量を増加させることでオーバーヒートまでの時間をさらに延長する。
   internal_aux_capacitor_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: キャパシター - 最高級
   internal_aux_capacitor_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 熱容量を増加させることでオーバーヒートまでの時間を大幅に延長する。
   internal_aux_core_charge__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コア - チャージ
   internal_aux_core_charge__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 熱容量を増加させることでダメージ出力を向上する。
   internal_aux_core_heat__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コア - ヒート
   internal_aux_core_heat__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 排熱量を増加させることでダメージ出力を向上する。
   internal_aux_core_launch__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コア - ローンチ
   internal_aux_core_launch__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 出力を増加させるが排熱量が減少する。
   internal_aux_core_overdrive__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コア - オーバードライブ
   internal_aux_core_overdrive__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 熱容量を犠牲にして機動力を増加させる。
   internal_aux_core_regen__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コア - リジェネ
   internal_aux_core_regen__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バリア再生速度を増加させる。
   internal_aux_core_standard__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コア - スタンダード
   internal_aux_core_standard__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 平均的な性能の標準コア。
   internal_aux_gyro_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 'ジャイロ - 標準型 '
   internal_aux_gyro_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量を削減して間接的に速度を上昇させる。
   internal_aux_gyro_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ジャイロ - 改良型
   internal_aux_gyro_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: さらに質量を削減して間接的に速度を上昇させる。
   internal_aux_gyro_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ジャイロ - 最高級
   internal_aux_gyro_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 大幅に質量を削減して間接的に速度を上昇させる。
   internal_aux_heatsink_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ヒートシンク - パッシブ型
   internal_aux_heatsink_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 排熱量をわずかに増加させる。
   internal_aux_heatsink_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ヒートシンク - アクティブ型
   internal_aux_heatsink_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 出力と速度を犠牲にして排熱量を大幅に増加させる。
   internal_aux_heatsink_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ヒートシンク - 改良型
   internal_aux_heatsink_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 出力と速度を犠牲にして排熱量を極めて大幅に増加させる。
   internal_aux_hydraulics_1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '油圧系 - 標準型 '
   internal_aux_hydraulics_1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 排熱を犠牲にして質量を削減する。
   internal_aux_hydraulics_2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 油圧系 - 改良型
   internal_aux_hydraulics_2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 排熱を犠牲にしてさらに質量を削減する。
   internal_aux_hydraulics_3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 油圧系 - 最高級
   internal_aux_hydraulics_3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 排熱を犠牲にして大幅に質量を削減する。
   internal_aux_plating_basic__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '装甲 - 標準型 '
   internal_aux_plating_basic__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量と耐久度を増加させる。
   internal_aux_plating_composite__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '装甲 - 複合型 '
   internal_aux_plating_composite__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量を増加させて耐久度とバリアをわずかに増加させる。
   internal_aux_plating_empty__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '装甲 - 空 '
   internal_aux_plating_empty__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 大幅に質量を削減するが、耐久度とバリアが減少する。
   internal_aux_plating_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '装甲 - 重量級 '
   internal_aux_plating_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量とともに耐久度とバリアを大幅に増加させる。
   internal_aux_plating_hollowed__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '装甲 - 中空型 '
   internal_aux_plating_hollowed__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量を削減するが耐久度とバリアがわずかに減少する。
   internal_aux_plating_regenerative__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '装甲 - 再生型 '
   internal_aux_plating_regenerative__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量が増加するが、バリア再生がわずかに上昇する。
   internal_aux_reactor_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 反応炉 - 標準型
   internal_aux_reactor_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 追加出力を供給して、速度を上昇させる。
   internal_aux_reactor_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 反応炉 - 改良型
   internal_aux_reactor_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: さらに追加出力を供給して、速度を上昇させる。
   internal_aux_reactor_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '反応炉 - 最高級 '
   internal_aux_reactor_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 大幅に追加出力を供給して、速度を上昇させる。
   internal_aux_regenerator_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 再生装置 - 標準型
   internal_aux_regenerator_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バリア再生速度を強化する。
   internal_aux_regenerator_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 再生装置 - 改良型
   internal_aux_regenerator_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: さらにバリア再生速度を強化する。
   internal_aux_regenerator_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 再生装置 - 最高級
   internal_aux_regenerator_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 大幅にバリア再生速度を強化する。
   internal_aux_sensor_left_hybrid__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 照準センサー - 左
   internal_aux_sensor_left_hybrid__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 左の武器の射程距離を延長し、拡散を抑制する。
   internal_aux_sensor_left_range__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 測距センサー - 左
   internal_aux_sensor_left_range__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 左の武器の射程距離を延長する。
   internal_aux_sensor_left_scatter__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 姿勢センサー - 左
   internal_aux_sensor_left_scatter__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 左の武器の拡散を抑制する。
   internal_aux_sensor_right_hybrid__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 照準センサー - 右
   internal_aux_sensor_right_hybrid__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 右の武器の射程距離を延長し、拡散を抑制する。
   internal_aux_sensor_right_range__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 測距センサー - 右
   internal_aux_sensor_right_range__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 右の武器の射程距離を延長する。
   internal_aux_sensor_right_scatter__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 姿勢センサー - 右
   internal_aux_sensor_right_scatter__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 右の武器の拡散を抑制する。
-  internal_aux_thruster_distance__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: DST Reach
   internal_aux_thruster_distance__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 長距離ダッシュに最適化されているが、オーバーヒートしやすい。
-  internal_aux_thruster_endurance__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: EDT Endurance
   internal_aux_thruster_endurance__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 発熱量と出力を抑えて調整されており、総合的な移動性能の向上のために距離を抑えている。
-  internal_aux_thruster_evasion__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: EVT Flashpoint
   internal_aux_thruster_evasion__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 軽量だが、結果的に、他のスラスターと比べて性能は低い。
-  internal_aux_thruster_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: HVT Atlas
   internal_aux_thruster_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 性能重視で調整されているが、大半のスラスターより重い。
-  internal_aux_thruster_hotrod__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: PVT Hotrod
   internal_aux_thruster_hotrod__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 性能重視で調整されているが、結果的に発熱量が大きい。
-  internal_aux_thruster_sidestep__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: LEV Sidestep
   internal_aux_thruster_sidestep__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 連続的な短距離移動に最適化されているが、長距離移動には適していない。
-  internal_aux_thruster_standard__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: STV Logi
   internal_aux_thruster_standard__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バランスの取れた性能に調整されている。
-  internal_utl_destruction__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SDS
   internal_utl_destruction__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 自爆サブシステムは、機体が戦闘中に行動不能になった場合に部品を内部まで抹消して修理不能にする。
   perk_barrier_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バリア追加 I
   perk_barrier_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バリア追加 II
   perk_barrier_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: バリア追加 III
   perk_damage_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高品質弾薬 I
   perk_damage_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高品質弾薬 II
   perk_damage_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高品質弾薬 III
   perk_dissipation_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 冷却強化 I
   perk_dissipation_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 冷却強化 II
   perk_dissipation_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 冷却強化 III
   perk_dps_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スーパーチャージ I
   perk_dps_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スーパーチャージ II
   perk_dps_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スーパーチャージ III
   perk_duration_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高速装填装置 I
   perk_duration_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高速装填装置 II
   perk_duration_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 高速装填装置 III
   perk_heat_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 放熱 I
   perk_heat_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 放熱 II
   perk_heat_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 放熱 III
   perk_integrity_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 増加装甲 I
   perk_integrity_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 増加装甲 II
   perk_integrity_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 増加装甲 III
   perk_mass_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 複合装甲 I
   perk_mass_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 複合装甲 II
   perk_mass_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 複合装甲 III
   perk_power_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ブースト I
   perk_power_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ブースト II
   perk_power_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ブースト III
   perk_range_distance_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 射程延長 I
   perk_range_distance_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 射程延長 II
   perk_range_distance_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 射程延長 III
   perk_range_effective_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 可変照準 I
   perk_range_effective_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 可変照準 II
   perk_range_effective_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 可変照準 III
   perk_scatter_idle_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 精密射撃 I
   perk_scatter_idle_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 精密射撃 II
   perk_scatter_idle_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 精密射撃 III
   perk_scatter_pos_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 安定化 I
   perk_scatter_pos_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 安定化 II
   perk_scatter_pos_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 安定化 II

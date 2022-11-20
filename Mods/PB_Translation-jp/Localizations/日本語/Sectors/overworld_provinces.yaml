@@ -1,414 +1,69 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySimple
-name: Overworld (Provinces)
-description: 'This sector contains text displayed when you zoom out on overworld map: names and description of provinces.'
-splits: []
 entries:
-  empty_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  empty_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   province_00_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 山の中にひっそりと佇む、この忘れられがちな地域は主に農業を扱っている。離れた場所にあるため常設基地として素晴らしい。
-  province_00_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Hedmark
   province_01_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この地域で大量に栽培されているテンサイに因んで、この州の住民は『ビートニクス』の愛称で呼ばれている。
-  province_01_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Ostbager-Wiel
   province_02_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Fyrland の市長は農業補助金の交渉が特に熟練しており、その結果、ここは驚くほど裕福な州となっている。
-  province_02_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Fyrland
   province_03_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 人よりも羊のほうが多く住んでいることで有名な地域。
-  province_03_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Logge
   province_04_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 観光客には有名な休日の市場でよく知られているが、主に農業を扱っている地域。
-  province_04_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Mæpple
   province_05_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 初めて近代農業技術が取り入れられた地域のひとつで、農業が盛んな州である。
-  province_05_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Hosfred
   province_06_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '陸軍のほとんどで使用されている標準的な短距離通信技術、マッサー・レーダー発祥の地。 '
-  province_06_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Vremmel
   province_07_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 祖国でもっとも甘美な森のいくつかが広がる Balekin は風光明媚なハイキングコースがたくさんあることで観光客に人気である。
-  province_07_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Balekin
   province_08_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 森には妖精の民がたくさんいるという御伽ばなしがあるため祖国の子供たちはみな Brostland に住めたらいいのにと夢見ている。
-  province_08_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Brostland
   province_09_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: かつては趣のある農業地域だったが、鉱物が豊富な鉱脈の発見により、過去10年間で採掘事業が爆発的に増加した。
-  province_09_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Isadgotte
   province_10_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ストライクサーキットで最も古い採掘事業の1つが本拠地を置く Malmland は、国の原材料輸出の40％を担っている。
-  province_10_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Malmland
   province_11_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 主に農業で知られる人口の少ない地域、 Bjørrin は第三次産業がほとんどなく通勤ハブでもある。
-  province_11_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Bjørrin
   province_12_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 主に鉱業の州であるにもかかわらず、皮肉にも Kongensland の名で呼ばれること地は、何世紀も前に我が国の君主制解体へとつながった、国王の処刑された地で最も有名である。
-  province_12_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Kongensland
   province_13_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この地域では、核融合と超伝導に関する画期的な研究から始まり、今日に至るまで、科学開発が長い間盛んである。 この地域では多数の実験ユニットが稼働しており、注意してアプローチする必要がある。
-  province_13_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Kruss
   province_14_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 国境から遠く西海岸で守られており防御に適した位置にある恩恵を受け、首都は侵略中も難攻不落であることを証明した。
   province_14_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 首都地区
   province_15_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 侵略軍は、その戦略的重要性のため、Styggut を接収することに特別な関心を持っていた。 ここには多くの採掘作業と発電所がある。
-  province_15_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Styggut
   province_16_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 著名な作家 Mikael Nilsson 生誕の地である Midtbolle は、飢えた作家を描いた彼の作品 [i]食欲[/i] において37回言及されている。
-  province_16_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Midtbolle
   province_17_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Stillested は、我が国の中で群を抜いて人口の少ない地域で、森林に支配されており、祖国の他の地域で見られたような森林破壊の多くを禁じる古くからの掟がある。
-  province_17_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Stillested
   province_18_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Lykkedig は長い間、数多くの資金調達プログラムや企業の敷地用に安く売却された広大な未使用地で、テクノロジー企業を誘致してきた。
-  province_18_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Lykkedig
   province_19_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: アサクラサンショウクイはかつて我が国の国鳥であったが、工業化によって自然の生息地が破壊された後、今では Ungtträ でのみ見ることができる。
-  province_19_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Ungtträ
   province_20_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 2年前に季節はずれの乾燥した夏が原因の山火事で深刻な被害を被ったが、その後ほとんどの産業が復興した。
-  province_20_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Regattal
   province_21_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Lykkedig のような我が国のテクノロジーハブにほとんどが移り廃れたことで、ここ Sjefunnet の工業はこの5年間で衰退してきた。
-  province_21_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Sjefunnet
   province_22_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 寛大な税控除のおかげで、多くの製造業者は Huvudsyster に本社を置いている。
-  province_22_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Huvudsyster
   province_23_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この鉱業地域が我が国全てでもっとも初期の集落のひとつであったことを化石が証明している。侵略軍はすでに主要な史跡のいくつかを破壊し始めている。
-  province_23_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Båkfist
   province_24_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Nordtre は、州内に他の産業がほとんどないため、財源の多くが木材の輸出に依存している。 毎年秋には人気の木彫りまつりも開催！
-  province_24_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Nordtre
   province_25_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 10年前、この地域では当時の農務長官が多くの採掘事業を停止させたが、侵略直前の新長官は Oxbrut に産業を呼び戻す政策に取り組んでいた。
-  province_25_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Oxbrut
   province_26_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Røban は我が国で最も裕福な州のひとつであり、今でも若いスタートアップ企業に人気の場所である。
-  province_26_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Røban
   province_27_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: この人口が少ない地域は、土地のほとんどが林業で占められている。
-  province_27_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Cottelbrum
   province_28_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 研究所の本拠地である Hollis は過去30年間で多くの科学的進歩を担ってきた。この地域では多数の実験ユニットが稼働しており、注意してアプローチする必要がある。
-  province_28_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Hollis
   province_29_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 我が国の現代産業の中心地の1つであるこの地域は、レアアース金属の加工と半導体製造を専門としている。
-  province_29_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Lætes
   province_30_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 遠く離れた集落や村から国勢調査情報を収集することが難しいため、 Trom の人口は確かではない。
-  province_30_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Trom
   province_31_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: かつては石炭国として知られていた Lyngsted であるが、20年前に鉱山が閉鎖されたことで製造業が州内で一番の産業となった。また、多くの温泉がある。
-  province_31_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Lyngsted
   province_32_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 山の中にひっそりと佇む、 Billesker はプラスチック製造業に関心のない人には忘れられがちである。
-  province_32_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Billesker

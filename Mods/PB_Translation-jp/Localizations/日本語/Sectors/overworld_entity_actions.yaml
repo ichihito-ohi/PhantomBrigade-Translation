@@ -1,3318 +1,1039 @@
-timeAtSync: 2022-10-06 09:53:01.660411-07:00
-exportMode: LinePerKeySplit
-name: Overworld (Actions)
-description: Text in the actions that pop up during overworld events in the top left of the screen.
-splits: []
 entries:
   alarm__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 警報
   alarm__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 貯蔵庫
   alarm__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   alarm__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   alarm__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   alarm__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 侵略軍が調査にパトロールを派遣中。
   armypilot_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パイロット位置
   armypilot_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 採用
   armypilot_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   armypilot_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   armypilot_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   armypilot_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パイロットの現在位置
   assassination_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標的
   assassination_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 暗殺
   assassination_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   assassination_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   assassination_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   assassination_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 追跡された標的を暗殺しましょう。
   bomb_timer_base__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆弾だ！
   bomb_timer_base__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆発物
   bomb_timer_base__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   bomb_timer_base__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   bomb_timer_base__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   bomb_timer_base__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆弾のタイマーが進行中
   bomb_timer_location__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆弾だ！
   bomb_timer_location__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆発物
   bomb_timer_location__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   bomb_timer_location__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   bomb_timer_location__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   bomb_timer_location__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 爆弾のタイマーが進行中
   breakin__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 押し入り
   breakin__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 貯蔵庫
   breakin__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   breakin__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   breakin__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   breakin__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現場チームが戦場で回収可能な装備を捜索しています。
   broadcast__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ブロードキャスト
   broadcast__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 貯蔵庫
   broadcast__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   broadcast__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   broadcast__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   broadcast__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 敵が秘密情報を発信中
   build_part_pack_starter__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 部品製造
   build_part_pack_starter__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標準仕様部品
   build_part_pack_starter__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   build_part_pack_starter__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   build_part_pack_starter__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 終了
   build_part_pack_starter__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パーツ一式が基地で製造中です。プロセスが完了し次第使用可能になります。
   build_unit_frame__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機体建造
   build_unit_frame__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 素体フレーム
   build_unit_frame__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   build_unit_frame__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   build_unit_frame__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 終了
   build_unit_frame__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 機体が基地で製造中です。プロセスが完了し次第使用可能になります。
   build_unit_starter__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機体建造
   build_unit_starter__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: フレーム + 標準仕様部品
   build_unit_starter__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   build_unit_starter__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   build_unit_starter__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 終了
   build_unit_starter__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 機体が基地で製造中です。プロセスが完了し次第使用可能になります。
   cache_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 発見された場所
   cache_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 貯蔵庫
   cache_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   cache_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   cache_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   cache_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 隠された貯蔵庫の場所を見つけます。
   cache_target_combat__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 標的
   cache_target_combat__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 鉱山
   cache_target_combat__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   cache_target_combat__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   cache_target_combat__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   cache_target_combat__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 貯蔵庫から資源を手に入れましょう
   cache_target_return__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 帰還
   cache_target_return__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 鉱山
   cache_target_return__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   cache_target_return__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   cache_target_return__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   cache_target_return__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 物品を返しに鉱山へ戻りましょう。
   captive_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捕虜を移送中
   captive_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捕虜
   captive_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   captive_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   captive_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   captive_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捕虜を基地に移送しましょう。
   cat_play__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 猫と遊ぶ
   cat_play__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ペット
   cat_play__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   cat_play__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   cat_play__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
-  cat_play__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   celebrate__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 祝典
   celebrate__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 解放
   celebrate__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   celebrate__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   celebrate__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   celebrate__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現地のお祭りでクルーとお祝いをしてリラックスしましょう。
   core_base_eliminate__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 基地攻撃
   core_base_eliminate__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 本編
   core_base_eliminate__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   core_base_eliminate__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   core_base_eliminate__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   core_base_eliminate__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 基地は重要拠点として機能しており、殲滅すれば他の州における解放運動の助けになるでしょう。しかし、適切な準備なしに優位を取ることは難しいため、この地域で他の地点を制圧して増強するか、基地に挑戦する前に Fyrland 州でより簡単な標的を狙うことを検討しましょう。
   core_base_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 基地攻撃
   core_base_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 基地
   core_base_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   core_base_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   core_base_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   core_base_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: この州から侵略軍を追い出す時が来た。ヤツらの作戦基地を攻撃して守備隊を倒し、祖国防衛軍のために制圧する。
   core_battlesite_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 祖国防衛軍を支援せよ
   core_battlesite_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 交戦区域
   core_battlesite_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   core_battlesite_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   core_battlesite_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   core_battlesite_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 敵に足止めされている祖国防衛軍を支援せよ。彼らの時間は限られており、もう長くは持たない。
   core_capital_liberate__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 首都解放
   core_capital_liberate__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 本編
   core_capital_liberate__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   core_capital_liberate__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   core_capital_liberate__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   core_capital_liberate__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 首都解放を一朝一夕に容易く成し遂げることはできないので、首都とそれを警備する精鋭部隊を攻撃する前に準備をしましょう。首都に向かう中で、民間人を助け国内に存在する敵をかく乱し、道中の各州を解放しましょう。
   core_farm_discovery__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 農場捜索
   core_farm_discovery__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 改造パーツ
   core_farm_discovery__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   core_farm_discovery__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   core_farm_discovery__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   core_farm_discovery__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 農場の位置を特定します。
   core_mountainbase_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 最初の標的
   core_mountainbase_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: Felheim 基地
   core_mountainbase_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   core_mountainbase_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   core_mountainbase_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   core_mountainbase_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 敵守備隊を排除して Felheim に作戦基地を確保せよ。
   core_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 重要標的
   core_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パトロール
   core_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   core_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   core_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   core_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 付近で発見された高ランクの敵機を排除せよ。
   core_province1_liberate__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Hedmark 解放
   core_province1_liberate__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 本編
   core_province1_liberate__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   core_province1_liberate__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   core_province1_liberate__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   core_province1_liberate__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 地域に存在する敵支配下の防衛施設を殲滅することで Hedmark を解放しましょう。準備が整っていない状態では困難な戦闘を強いられる可能性があるため、軍事施設に挑戦する前に、より簡単な標的を狙うことを検討しましょう。
   core_province2_liberate__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Ostbager-Weil 解放
   core_province2_liberate__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 本編
   core_province2_liberate__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   core_province2_liberate__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   core_province2_liberate__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   core_province2_liberate__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: Ostbager-Weil の解放には、地域に存在する敵支配下の防衛施設を殲滅する必要があります。武装が強化された軍事施設に挑戦する前に、まずはより簡単な標的を狙うことを検討しましょう。
   core_settlement_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 救援
   core_settlement_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 村
   core_settlement_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   core_settlement_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   core_settlement_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   core_settlement_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: この場所から侵略軍の守備隊を一掃しましょう。
   core_workshop_discovery__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 工房捜索
   core_workshop_discovery__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 改造パーツ
   core_workshop_discovery__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   core_workshop_discovery__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   core_workshop_discovery__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   core_workshop_discovery__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 農場技術者の工房の位置を特定しましょう。
   defector_objective_decode__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 解読
   defector_objective_decode__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 亡命者
   defector_objective_decode__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   defector_objective_decode__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   defector_objective_decode__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   defector_objective_decode__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 断片化した暗号化情報を解読しています。
   defector_objective_investigate__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 地点調査
   defector_objective_investigate__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 亡命者
   defector_objective_investigate__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   defector_objective_investigate__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   defector_objective_investigate__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   defector_objective_investigate__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 信号の発信源を調査しましょう。
   director_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標的
   director_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ディレクターズ・カット
   director_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   director_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   director_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   director_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 前哨基地を狙いましょう。
   dog_play__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: イッヌとの遊び
   dog_play__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ペット
   dog_play__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   dog_play__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   dog_play__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
-  dog_play__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   draft_deliver__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 合流地点への輸送
   draft_deliver__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 採用
   draft_deliver__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   draft_deliver__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   draft_deliver__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   draft_deliver__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 救出した民間人を指定された合流地点へ移送しましょう。
   draft_point__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 合流地点に到達
   draft_point__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 採用
   draft_point__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   draft_point__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   draft_point__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   draft_point__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 指定された合流地点でゲリラの情報提供者と会いましょう。
   draft_report__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 合流地点に報告
   draft_report__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 採用
   draft_report__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   draft_report__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   draft_report__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   draft_report__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 指定された合流地点に報告しましょう。
   draft_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 民間人救出
   draft_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 採用
   draft_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   draft_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   draft_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   draft_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捕らえられた民間人の場所。
   electrical_restore__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 電力回復
   electrical_restore__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 電気
   electrical_restore__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   electrical_restore__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   electrical_restore__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   electrical_restore__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動基地の電力を回復中。
   farm_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 標的
   farm_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 農場
   farm_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   farm_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   farm_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   farm_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 農場を解放する
   festival_outcome_feed__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 祝典
   festival_outcome_feed__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 祝典
   festival_outcome_feed__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   festival_outcome_feed__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   festival_outcome_feed__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   festival_outcome_feed__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現地のお祭りでクルーとお祝いをしてリラックスしましょう。
   festival_outcome_help__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 手伝い
   festival_outcome_help__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 祝典
   festival_outcome_help__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   festival_outcome_help__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   festival_outcome_help__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   festival_outcome_help__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: お祭りの手伝いをして焚き火に火をつけましょう。
   fusion_defusing__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 解除中
   fusion_defusing__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 核融合
   fusion_defusing__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   fusion_defusing__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   fusion_defusing__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   fusion_defusing__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 融合炉を解体している。
   fusion_melt__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: メルトダウン
   fusion_melt__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 核融合
   fusion_melt__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   fusion_melt__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   fusion_melt__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   fusion_melt__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 融合炉はいまにも爆発しそうだ
   fusion_timer__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 融合炉が限界
   fusion_timer__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 核融合
   fusion_timer__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   fusion_timer__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   fusion_timer__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   fusion_timer__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 融合炉が爆発する。
-  grieve_timer__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  grieve_timer__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  grieve_timer__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  grieve_timer__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  grieve_timer__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  grieve_timer__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   infiltration_inprogress__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 潜入
   infiltration_inprogress__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 軍事施設
   infiltration_inprogress__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   infiltration_inprogress__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   infiltration_inprogress__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   infiltration_inprogress__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 亡命者が装備の設計図を盗むため軍事施設に潜入している。
   investigate__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 調査
   investigate__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 貯蔵庫
   investigate__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   investigate__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   investigate__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   investigate__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現場チームが戦場で貴重な情報を捜索しています。
-  lastrites_timer__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  lastrites_timer__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  lastrites_timer__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  lastrites_timer__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  lastrites_timer__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  lastrites_timer__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   lightsout_fixing__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 送電線の修復
   lightsout_fixing__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 停電
   lightsout_fixing__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   lightsout_fixing__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   lightsout_fixing__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   lightsout_fixing__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 戦闘で破壊された送電線を修理します。
   mail_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 郵便を配達中
   mail_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 郵便
   mail_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   mail_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   mail_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   mail_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 集落に郵便を届ける。
   market_objective__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 地点
   market_objective__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 市場
   market_objective__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 追跡
   market_objective__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 削除
   market_objective__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 削除
   market_objective__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 良い部品を購入できる市場の場所。
   memorial_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 目的
   memorial_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 記念館
   memorial_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   memorial_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   memorial_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   memorial_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: かつての戦争記念館を調査しょう。
   observing_2h__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 観察
   observing_2h__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 流星群
   observing_2h__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   observing_2h__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   observing_2h__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   observing_2h__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 腰を下ろして流星群を眺めましょう。
   observing_4h__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 観察
   observing_4h__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 流星群
   observing_4h__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   observing_4h__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   observing_4h__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   observing_4h__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 腰を下ろして流星群を眺めましょう。
   observing_6h__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 観察
   observing_6h__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 流星群
   observing_6h__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   observing_6h__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   observing_6h__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   observing_6h__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 腰を下ろして流星群を眺めましょう。
   parade__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: パレード
   parade__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 解放
   parade__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   parade__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   parade__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   parade__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パレードに参加して祝典に参加しましょう。
   parts_delivery__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標を輸送
   parts_delivery__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 採用
   parts_delivery__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   parts_delivery__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   parts_delivery__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   parts_delivery__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標地点に部品を輸送している。
   parts_deliveryfactory__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標を輸送
   parts_deliveryfactory__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 採用
   parts_deliveryfactory__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   parts_deliveryfactory__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   parts_deliveryfactory__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   parts_deliveryfactory__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標地点に部品を輸送している。
   parts_homeguard_delivery__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 回収を待機中
   parts_homeguard_delivery__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 部品
   parts_homeguard_delivery__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   parts_homeguard_delivery__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   parts_homeguard_delivery__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   parts_homeguard_delivery__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 祖国防衛軍による移動基地からの部品回収を待機している
   parts_working__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 作成中
   parts_working__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 工場
   parts_working__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   parts_working__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   parts_working__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   parts_working__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 秘密兵器を作成している
   party__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: パーティー
   party__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 誕生日
   party__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   party__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   party__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   party__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 誕生日パーティーを開きましょう。
   pharma_objective_delivery_final__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 治療薬を配達中
   pharma_objective_delivery_final__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 幻影製薬
   pharma_objective_delivery_final__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   pharma_objective_delivery_final__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   pharma_objective_delivery_final__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   pharma_objective_delivery_final__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 集落に治療薬を輸送しましょう。
   pharma_objective_delivery_long__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 治療薬を配達中
   pharma_objective_delivery_long__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 幻影製薬
   pharma_objective_delivery_long__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   pharma_objective_delivery_long__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   pharma_objective_delivery_long__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   pharma_objective_delivery_long__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 集落に治療薬を輸送しましょう。
   pharma_objective_delivery_short__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 治療薬を配達中
   pharma_objective_delivery_short__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 幻影製薬
   pharma_objective_delivery_short__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   pharma_objective_delivery_short__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   pharma_objective_delivery_short__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   pharma_objective_delivery_short__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 集落に治療薬を輸送しましょう。
   pilot_rescue__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 救出
   pilot_rescue__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: パイロット救出
   pilot_rescue__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   pilot_rescue__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   pilot_rescue__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   pilot_rescue__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捜索救出活動が進行中で程なく成功する見込みです。
   purranormal_investigating__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 調査中
   purranormal_investigating__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: スーパー・ニャチュラル
   purranormal_investigating__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   purranormal_investigating__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   purranormal_investigating__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   purranormal_investigating__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 現象の発生場所を調査している。
   purranormal_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 幽霊の出現位置
   purranormal_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: スーパー・ニャチュラル
   purranormal_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   purranormal_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   purranormal_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   purranormal_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 心霊現象の発生場所。
   quest_tutorial_01__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ゲーム開始 (1/3)
   quest_tutorial_01__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: チュートリアル
   quest_tutorial_01__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   quest_tutorial_01__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: スキップ
   quest_tutorial_01__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   quest_tutorial_01__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 我が祖国を取り戻す時が来ました。幻影旅団に所属していた最後の前哨基地である Felheim から始めましょう。我々の再起を助ける予備の物資と部品がまだあるはずです。
   radio_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 標的
   radio_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ラジオ塔
   radio_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   radio_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   radio_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   radio_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ラジオ塔を破壊しましょう
   radio_triangulating__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 三角測量地点
   radio_triangulating__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ラジオ塔
   radio_triangulating__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   radio_triangulating__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   radio_triangulating__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   radio_triangulating__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: ラジオ塔の位置を三角測量で推定中。
   raid_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標的
   raid_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 襲撃
   raid_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   raid_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   raid_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   raid_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 襲撃された村に向かいましょう。
   raise_hope_timelimit__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 希望高揚
   raise_hope_timelimit__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 志願兵
   raise_hope_timelimit__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   raise_hope_timelimit__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   raise_hope_timelimit__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   raise_hope_timelimit__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 制限時間内に希望を高揚しましょう
   ranks_training__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 新兵訓練
   ranks_training__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 貯蔵庫
   ranks_training__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   ranks_training__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   ranks_training__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
-  ranks_training__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   recovery_help__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 回収作業
   recovery_help__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 泥濘
   recovery_help__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   recovery_help__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   recovery_help__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   recovery_help__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: トラクターを救出しています。
   recovery_manual_01__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 回収作業
   recovery_manual_01__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 泥濘
   recovery_manual_01__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   recovery_manual_01__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   recovery_manual_01__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   recovery_manual_01__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: トラクターを救出しています。
   recovery_manual_02__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 回収作業
   recovery_manual_02__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 泥濘
   recovery_manual_02__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   recovery_manual_02__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   recovery_manual_02__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   recovery_manual_02__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: トラクターを救出しています。
   rescuecivilians_objective_deliver__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 集落への輸送
   rescuecivilians_objective_deliver__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 民間人救出
   rescuecivilians_objective_deliver__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   rescuecivilians_objective_deliver__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   rescuecivilians_objective_deliver__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   rescuecivilians_objective_deliver__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 救出した民間人を集落に還します。
   rescuecivilians_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 民間人救出
   rescuecivilians_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 民間人救出
   rescuecivilians_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   rescuecivilians_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   rescuecivilians_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   rescuecivilians_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 捕らえられた民間人の場所。
   rescuesupplies_objective_deliver__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 施設への輸送
   rescuesupplies_objective_deliver__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 奪われた物資
   rescuesupplies_objective_deliver__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   rescuesupplies_objective_deliver__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   rescuesupplies_objective_deliver__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   rescuesupplies_objective_deliver__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 奪われた物資を施設に輸送します。
   rescuesupplies_objective_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 物資奪還
   rescuesupplies_objective_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 奪われた物資
   rescuesupplies_objective_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   rescuesupplies_objective_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   rescuesupplies_objective_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   rescuesupplies_objective_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 奪われた物資の場所。
   research__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 研究
-  research__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   research__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   research__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   research__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   research__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動基地で新しい技術を研究しています。
   resupply_destination__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 補給
   resupply_destination__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 基地
   resupply_destination__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 開始
   resupply_destination__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   resupply_destination__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   resupply_destination__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 最寄りの補給地点まで到達しましょう。移動基地はこれ以上戦う余裕がありません。
   resupply_pilot__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: パイロットを採用する
-  resupply_pilot__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  resupply_pilot__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  resupply_pilot__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  resupply_pilot__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   resupply_pilot__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動基地は新しいパイロットの受け入れ中で、いまは補給地点から移動できません。あなたの名声が上がり、人々がパイロットの活躍ぶりを耳にするにつれて、あなたの兵士に志願する人が増えてきた。その一部はかつての戦争で戦った者たちだった。それ以外も、実戦経験はないものの敵が家を滅ぼす様を目の当たりにして情熱に満ちていた。
   resupply_repair__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 休憩・補給中
-  resupply_repair__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  resupply_repair__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  resupply_repair__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  resupply_repair__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   resupply_repair__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動基地は補給作業中で、パイロットは十分な休息をとっています。ダメージを受けた機体はすべて修理され、修理ゲルとエネルギーが最大値まで補充され、パイロット疲労度はリセットされます。移動基地に最低2機の戦闘可能な機体とパイロットがいない場合、この補給地点に配置された予備から追加の機体とパイロットが譲渡されます。
-  salvage_timer__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  salvage_timer__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  salvage_timer__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  salvage_timer__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  salvage_timer__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
-  salvage_timer__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   satellite_objective__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 墜落現場
   satellite_objective__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 流星群
   satellite_objective__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 受諾
   satellite_objective__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   satellite_objective__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   satellite_objective__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 墜落現場を調査します。
   satelliteshower__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 流星群
-  satelliteshower__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   satelliteshower__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   satelliteshower__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   satelliteshower__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   satelliteshower__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 腰を下ろして流星群を眺めましょう。
   secret_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 標的
   secret_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 秘密
   secret_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 判明
   secret_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   secret_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   secret_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: '侵略軍の秘密施設 '
   spies_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 標的
   spies_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: スパイ
   spies_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   spies_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   spies_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   spies_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 侵略軍スパイの位置
   tinkering_action__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 試行錯誤
   tinkering_action__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 作業進行中
   tinkering_action__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   tinkering_action__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   tinkering_action__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   tinkering_action__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 新しいメックの部品を作成するためパイロットが物資をいじっている
   unit_repair__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 機体修理
-  unit_repair__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   unit_repair__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   unit_repair__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止
   unit_repair__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   unit_repair__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 移動基地で機体のひとつを修理しています。
   weapon_delivery__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 目標を輸送
   weapon_delivery__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 兵器
   weapon_delivery__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   weapon_delivery__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   weapon_delivery__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   weapon_delivery__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 秘密兵器を最寄りの祖国防衛軍基地に輸送する。
   weapon_target__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 回収を待機中
   weapon_target__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 兵器
   weapon_target__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 受諾
   weapon_target__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 中止
   weapon_target__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 完了
   weapon_target__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 工場から秘密兵器を回収する。
   workshop_build__1_name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 加工室プロジェクト
-  workshop_build__2_context:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ''
   workshop_build__3_start:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 開始
   workshop_build__4_cancel:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中止・資源返却
   workshop_build__5_finish:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 完了
   workshop_build__6_desc:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
     text: 我々の加工室が指定されたプロジェクトに取り組んでいます。このアクションを中止すると投入した資源は返却されます。

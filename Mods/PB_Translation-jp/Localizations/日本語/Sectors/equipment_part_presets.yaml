@@ -1,1104 +1,159 @@
-timeAtSync: 0001-01-01 00:00:00
-exportMode: LinePerKeySplit
-name: Equipment (Presets)
-description: Sector containing names and descriptions of part presets (instructions for putting together a part). Since part preset database is a tree where each config can inherit from multiple other configs, this sector can contain names and descriptions associated not just with bottom-most configs in the chain (like Vidar Arm R3), but with higher level configs as well (Vidar or Arm etc.). When a part preset matches multiple pieces of text, they get joined and presented together.
-splits: []
 entries:
   body_arm__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 腕
   body_arm__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 側面の攻撃からコアを防ぎ、装備を把持する。腕を失うと、取り付けた装備がすべて使用できなくなる。
   body_bottom__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 下半身
   body_bottom__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 自重を支え移動を司る [ffde5d]機体推進[-] パーツ。破壊されると移動能力を大きく失う。
-  body_set_arrow__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: 'Arrow '
   body_set_arrow__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 信頼性の高い予備機である Arrow ウォーカー装甲は容易な学習曲線と低コストで生産できる装備として知られている。
-  body_set_arrow_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Arrow 3H
-  body_set_arrow_light__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Arrow 1L
-  body_set_arrow_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Arrow 2M
-  body_set_asgard_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Asgard
   body_set_asgard_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 占領軍が標準装備として未だ使用する旧式の重量級装甲。防御性能は低水準だが、戦地での整備が非常に容易である。
-  body_set_bein_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Bein
   body_set_bein_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 占領軍が好んで使用する実験的装甲。複数の素材を使用しており修理の複雑さが増している。性能は市販の中量級装甲に匹敵する。
-  body_set_blackbird_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Blackbird
   body_set_blackbird_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 傾斜面形状により平均以上の防御性能を持つ実験的装甲。近距離戦闘では最新の照準ソフトウェア相手に不利となる。全身のセットが存在するかは不明であり、ごく一部のモデルだけが確認されている。
-  body_set_elbrus_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Elbrus
   body_set_elbrus_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 20年前に生産終了した頑丈だが旧式の産業機械。採掘などの民間事業では現役である。整備が非常に簡単。
-  body_set_helge_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Helge
   body_set_helge_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 傭兵グループや企業警備部隊が好んで使用する重量級装甲。防御性能は平均より高い。先進的な複合構造により修理が複雑化している。
-  body_set_knox__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox
   body_set_knox__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: Knox ウォーカー装甲は整備の簡略化と低コスト大量生産に最適化されている。
-  body_set_knox_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox 3H
-  body_set_knox_light__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox 1L
-  body_set_knox_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Knox 2M
-  body_set_tsubasa_light__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Tsubasa
   body_set_tsubasa_light__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 移動速度と隠密性を向上した軽量装甲。特異な構造のため、戦地での運用が複雑化している。
-  body_set_vidar_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: Vidar
   body_set_vidar_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 特異な幾何学形状の珍しい装甲で、投射物を弾き対センサー痕跡を抑えている。希少材料のために整備が難しい。
   body_top__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 胴体上部
   body_top__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: パイロット・ポッドと反応炉を支える [ff4c4c]重要な[-] 部分。上半身が破壊されると、メックと脱出できなかったパイロットが失われる。
-  wpn_beam_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: BM1 Sunswarm
-  wpn_beam_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: BM2 Glorydog
-  wpn_beam_03__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: BM3 Alpenglow
-  wpn_cannon_demolition_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: C-D1 Impact
-  wpn_handgun_auto_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: HG-01 Spark
-  wpn_handgun_heavy_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: HG-02 Granite
-  wpn_handgun_heavy_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
-    text: HG-04 Firestarter
-  wpn_handgun_semi_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: HG-05 Stand
   wpn_handgun_semi_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 占領軍が標準バックアップ武器として正式採用する拳銃。
-  wpn_heat_repeater_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: RTE-01 Tracer
   wpn_heat_repeater_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 誘導焼夷弾速射砲。移動標的を追跡するときに高い精度を発揮する。
-  wpn_heat_splitter_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SGE-05 Dragon
-  wpn_melee_primary_axe_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MA-XL
   wpn_melee_primary_axe_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級アックス。
-  wpn_melee_primary_axe_heavy_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 1 Blunt
   wpn_melee_primary_axe_heavy_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量が抑えられ、その結果、わずかに性能が低下したバリエーション。
-  wpn_melee_primary_axe_heavy_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 2 Spike
   wpn_melee_primary_axe_heavy_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 衝撃ダメージが増加したバリエーション。
-  wpn_melee_primary_axe_heavy_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 3 Plasma
   wpn_melee_primary_axe_heavy_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 発熱量と質量が増加したバリエーション。
-  wpn_melee_primary_axe_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MA-M
   wpn_melee_primary_axe_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中量級アックス。
-  wpn_melee_primary_axe_medium_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 1 Blunt
   wpn_melee_primary_axe_medium_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量が抑えられ、その結果、わずかに性能が低下したバリエーション。
-  wpn_melee_primary_axe_medium_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 2 Spike
   wpn_melee_primary_axe_medium_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 衝撃ダメージが増加したバリエーション。
-  wpn_melee_primary_axe_medium_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 3 Plasma
   wpn_melee_primary_axe_medium_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 発熱量と質量が増加したバリエーション。
-  wpn_melee_primary_blade_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MB-XL
   wpn_melee_primary_blade_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級ブレード。
-  wpn_melee_primary_blade_heavy_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 1 Clipper
-  wpn_melee_primary_blade_heavy_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 2 Tear
   wpn_melee_primary_blade_heavy_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダメージと発熱量が増加したバリエーション。
-  wpn_melee_primary_blade_heavy_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 3 Razor
   wpn_melee_primary_blade_heavy_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 優れたダメージのバリエーション。
-  wpn_melee_primary_blade_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MB-M
   wpn_melee_primary_blade_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中量級ブレード。
-  wpn_melee_primary_blade_medium_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 1 Clipper
-  wpn_melee_primary_blade_medium_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 2 Tear
   wpn_melee_primary_blade_medium_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダメージと発熱量が増加したバリエーション。
-  wpn_melee_primary_blade_medium_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 3 Razor
   wpn_melee_primary_blade_medium_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 優れたダメージのバリエーション。
-  wpn_melee_primary_cutter_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MC-XL Line
   wpn_melee_primary_cutter_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級カッター。本来は製造コストの低い補助兵装。
-  wpn_melee_primary_cutter_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MC-M Base
   wpn_melee_primary_cutter_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中量級カッター。本来は製造コストの低い補助兵装。
-  wpn_melee_primary_saber_heavy__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MS-XL Antares
   wpn_melee_primary_saber_heavy__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級セイバー
-  wpn_melee_primary_saber_heavy_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK1'
-  wpn_melee_primary_saber_heavy_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK2'
   wpn_melee_primary_saber_heavy_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダメージと発熱が増加したバリエーション。
-  wpn_melee_primary_saber_heavy_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK3'
   wpn_melee_primary_saber_heavy_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 非常に高いダメージと発熱量のバリエーション。
-  wpn_melee_primary_saber_medium__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MS-M Arcturus
   wpn_melee_primary_saber_medium__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 中量級セイバー
-  wpn_melee_primary_saber_medium_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK1'
   wpn_melee_primary_saber_medium_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: タイミングを狙えば大ダメージを与えるバリエーション。
-  wpn_melee_primary_saber_medium_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK2'
   wpn_melee_primary_saber_medium_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダメージと発熱量が増加したバリエーション。
-  wpn_melee_primary_saber_medium_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK3'
   wpn_melee_primary_saber_medium_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 非常に高いダメージと発熱量のバリエーション。
-  wpn_melee_secondary_axe__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MA-S
   wpn_melee_secondary_axe__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コンパクトな設計。
-  wpn_melee_secondary_axe_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 1 Blunt
   wpn_melee_secondary_axe_r1__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 質量を抑え、わずかに性能が低下したバリエーション。
-  wpn_melee_secondary_axe_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 2 Spike
   wpn_melee_secondary_axe_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 衝撃ダメージが増加したバリエーション。
-  wpn_melee_secondary_axe_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 3 Plasma
   wpn_melee_secondary_axe_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 発熱量と質量が増加したバリエーション。
-  wpn_melee_secondary_blade__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MB-S
   wpn_melee_secondary_blade__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コンパクトな設計。
-  wpn_melee_secondary_blade_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 1 Clipper
-  wpn_melee_secondary_blade_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 2 Tear
   wpn_melee_secondary_blade_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダメージと発熱量が増加したバリエーション。
-  wpn_melee_secondary_blade_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: 3 Razor
   wpn_melee_secondary_blade_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 優れたダメージのバリエーション。
-  wpn_melee_secondary_cutter__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MC-S Slicer
   wpn_melee_secondary_cutter__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 主に補助兵装として使用される軽量モデル。
-  wpn_melee_secondary_saber__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MS-S Alnair
   wpn_melee_secondary_saber__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コンパクトな設計。
-  wpn_melee_secondary_saber_r1__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK1'
-  wpn_melee_secondary_saber_r2__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK2'
   wpn_melee_secondary_saber_r2__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: ダメージと発熱量が増加したバリエーション。
-  wpn_melee_secondary_saber_r3__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ' MK3'
   wpn_melee_secondary_saber_r3__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 驚異的なダメージと発熱量のバリエーション。
-  wpn_mg_heavy_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: HMG-01 Hurricane
-  wpn_mg_light_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: LMG-01 Typhoon
-  wpn_mg_medium_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MMG-01 Torrent
-  wpn_mg_sub_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SMG-01 Tactical
-  wpn_mg_sub_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SMG-02 Mobile
-  wpn_ml_primary_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: PML-10 Starburst
   wpn_ml_primary_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 拡散範囲が中程度の短距離・無誘導ミサイルを10発撃つ。
-  wpn_ml_primary_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: PML-1 Slug
   wpn_ml_primary_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 拡散範囲が広い中距離・無誘導ミサイルを1発撃つ。低速だが、直撃で大ダメージを与える。
-  wpn_ml_primary_03__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: PML-6 Hornet
   wpn_ml_primary_03__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 拡散範囲が中程度の長距離・誘導ミサイルを6発撃つ。威力は低いが、平均的な速度。
-  wpn_ml_primary_04__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: PML-3 Snail
   wpn_ml_primary_04__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 拡散範囲の狭い長距離・誘導ミサイルを3発撃つ。低速だが、強力。
-  wpn_ml_sidearm_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SML-5 Direct
   wpn_ml_sidearm_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 直進する高速・誘導ミサイルを1発撃つ。
-  wpn_ml_sidearm_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SML-1 Oneshot
   wpn_ml_sidearm_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 障害物を飛び越える長距離・誘導ミサイルを1発撃つ。機体や障害物に大きな範囲ダメージを与える。
-  wpn_ml_sidearm_03__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SML-8 Cluster
   wpn_ml_sidearm_03__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 小型の誘導クラスター・ミサイルを撃つ。低速だが、数で圧倒する。
-  wpn_ml_sidearm_04__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SML-5 Rapid
   wpn_ml_sidearm_04__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 障害物を飛び越える長距離・誘導ミサイルを1発撃つ。
-  wpn_plasma_launcher_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: CE-1 Charge
   wpn_plasma_launcher_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標的付近で爆発する誘導エネルギー弾を発射する。低速だが、強力。動きの遅い敵集団全体に衝撃ダメージを与えることもできる。
-  wpn_plasma_repeater_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: ARE-02 Pulse
-  wpn_plasma_seeker_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SRE-02 Curve
-  wpn_railgun_repeater_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MRE-01 Thermite
-  wpn_railgun_repeater_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MRE-02 Lancer
-  wpn_railgun_repeater_03__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MRE-03 Striker
-  wpn_railgun_smg_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SMGRE-01 Barrage
-  wpn_railgun_splitter_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SGE-06 Flux
-  wpn_rifle_assault_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: AR-01 Astra
   wpn_rifle_assault_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 侵略軍のエリート機体が使用するハイエンド・ライフル。ダメージと発射レートが高く、発熱量のバランスが取れている。
-  wpn_rifle_assault_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: AR-03 Burst
   wpn_rifle_assault_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: PMCに人気の先進的ライフル。一斉射ごとの発射数と引き換えに低発熱かつ高精度である。
-  wpn_rifle_marksman_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MR Baseline
   wpn_rifle_marksman_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標準仕様長距離マークスマン・ライフル。
-  wpn_rifle_marksman_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: MR-02 Sharp
   wpn_rifle_marksman_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: オートマチック長距離マークスマン・ライフル。高火力で知られる。
-  wpn_rifle_sniper_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SR-01 Midway
   wpn_rifle_sniper_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標準仕様長距離狙撃銃。単発射撃。
-  wpn_rifle_sniper_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SR-03 Lock
   wpn_rifle_sniper_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: '強力なオートマチック長距離狙撃銃。 '
-  wpn_rifle_sniper_03__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SR-04 Dice
   wpn_rifle_sniper_03__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 単発式・長距離狙撃銃。
-  wpn_shield_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: S1 Svalinn
   wpn_shield_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 複合材料シールド。使用時に四方の二方面へ遮蔽を用意する。
-  wpn_shield_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: S2 Stance
   wpn_shield_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 重量級複合装甲シールド。使用中は四方のうち二方面を遮蔽できる。
-  wpn_shield_03__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: S3 Ajax
   wpn_shield_03__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 複合材料シールド。使用時に四方の二方面へ遮蔽を用意する。
-  wpn_shield_04__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: S4 Tower
   wpn_shield_04__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 軽量シールド。高機動機体に緊急用の遮蔽を提供する。
-  wpn_shield_05__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: S5 Firewall
   wpn_shield_05__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 複合材料シールド。使用時に四方の二方面へ遮蔽を用意する。
-  wpn_shotgun_auto_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SG-01 Auto
   wpn_shotgun_auto_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標準仕様のオートマチックショットガン。超高温のペレットを発射する。軽量級装甲に対して最も有効。精度は低いが、近距離では致命的。
-  wpn_shotgun_heavy_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SG-02 Shred
   wpn_shotgun_heavy_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 標準仕様の榴散弾カノン砲。超高温のペレットを発射する。精度は低いが、近距離では致命的。
-  wpn_shotgun_heavy_02__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SG-03 Heavy
   wpn_shotgun_heavy_02__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 大口径ショットガン。低いレートで超高温のペレットを発射する。精度は低いが、近距離では致命的。
-  wpn_shotgun_secondary_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: HG-03 Blast
   wpn_shotgun_secondary_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: コンパクト・ショットガン。重量制限のあるロードアウトで、バックアップ武器として有用。
-  wpn_shotgun_semi_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: SG-04 Semi
   wpn_shotgun_semi_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 'セミ・オートマチック・ショットガン。中程度のレートで小口径のシェルを撃つ。精度は低いが、近距離では致命的。 '
-  wpn_ultraheavy_beam_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: UHB Solarburst
   wpn_ultraheavy_beam_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 建造物を一刀両断するほどの強力なビームを5秒間照射する。射撃中は旋回が非常に困難になるため、標的に当て続けるにはメックを移動させる必要がある。
-  wpn_ultraheavy_mg_01__name:
-    color:
-    noteDev:
-    noteWriter:
-    temp: true
-    text: UHMG Vulcan
   wpn_ultraheavy_mg_01__text:
-    color:
-    noteDev:
-    noteWriter:
-    temp: false
     text: 大口径回転カノン砲。常軌を逸した重量だが、制圧射撃と遮蔽破壊に有用。移動中は精度が低下する。
