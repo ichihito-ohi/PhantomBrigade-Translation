@@ -1,0 +1,151 @@
+entries:
+  combat_action1_name:
+    text: アクション1を選択
+  combat_action2_name:
+    text: アクション2を選択
+  combat_action3_name:
+    text: アクション3を選択
+  combat_action4_name:
+    text: アクション4を選択
+  combat_action5_name:
+    text: アクション5を選択
+  combat_action6_name:
+    text: アクション6を選択
+  combat_next_unit_name:
+    text: 次の機体を選択
+  combat_tab_unit1_name:
+    text: 機体1を選択
+  combat_tab_unit2_name:
+    text: 機体2を選択
+  combat_tab_unit3_name:
+    text: 機体3を選択
+  combat_tab_unit4_name:
+    text: 機体4を選択
+  combat_tab_unit5_name:
+    text: 機体5を選択
+  combat_tab_unit6_name:
+    text: 機体6を選択
+  combat_time_full_name:
+    text: 再生速度：等速
+  combat_time_half_name:
+    text: 再生速度：1/2
+  combat_time_pause_name:
+    text: 再生速度：一時停止
+  combat_time_slow_name:
+    text: 再生速度：低速
+  combat_time_toggle_name:
+    text: スローモーションの切替
+  combat_toggle_overlay_name:
+    text: すべての機体を表示
+  combat_toggle_replay_name:
+    text: リプレイ・モードを開く
+  combat_toggle_targeting_name:
+    text: 第二照準モード
+  global_camera_horizontal_name:
+    text: カメラ/水平
+  global_camera_horizontal_neg_name:
+    text: カメラ/左
+  global_camera_horizontal_pos_name:
+    text: カメラ/右
+  global_camera_vertical_name:
+    text: カメラ/垂直
+  global_camera_vertical_neg_name:
+    text: カメラ/下
+  global_camera_vertical_pos_name:
+    text: カメラ/上
+  global_camera_zoom_name:
+    text: カメラ/ズーム
+  global_camera_zoom_neg_name:
+    text: カメラ/ズームアウト
+  global_camera_zoom_pos_name:
+    text: カメラ/ズームイン
+  global_cancel_name:
+    text: キャンセル
+  global_confirm_name:
+    text: 確認
+  global_direction_down_name:
+    text: 移動/下
+  global_direction_left_name:
+    text: 移動/左
+  global_direction_right_name:
+    text: 移動/右
+  global_direction_up_name:
+    text: 移動/上
+  global_gamepad_left_stick_name:
+    text: 第一スティック押込み
+  global_gamepad_right_stick_name:
+    text: 第二スティック押込み
+  global_gamepad_x_name:
+    text: 第二決定ボタン
+  global_gamepad_y_name:
+    text: 第三決定ボタン
+  global_mouse_horizontal_name:
+    text: マウス/水平
+  global_mouse_middle_name:
+    text: マウス/中央ボタン
+  global_mouse_primary_name:
+    text: マウス/第一
+  global_mouse_secondary_name:
+    text: マウス/第二
+  global_mouse_vertical_name:
+    text: マウス/垂直
+  global_move_horizontal_name:
+    text: 移動/水平
+  global_move_horizontal_neg_name:
+    text: 移動/左
+  global_move_horizontal_pos_name:
+    text: 移動/右
+  global_move_vertical_name:
+    text: 移動/垂直
+  global_move_vertical_neg_name:
+    text: 移動/下
+  global_move_vertical_pos_name:
+    text: 移動/上
+  overworld_action1_stop_name:
+    text: 移動停止
+  overworld_action2_stealth_name:
+    text: ステルス移動
+  overworld_action3_normal_name:
+    text: 通常移動
+  overworld_action4_overdrive_name:
+    text: オーバードライブ移動
+  overworld_event_option1_name:
+    text: イベント選択肢1
+  overworld_event_option2_name:
+    text: イベント選択肢2
+  overworld_event_option3_name:
+    text: イベント選択肢3
+  overworld_event_option4_name:
+    text: イベント選択肢4
+  overworld_inventory_multiselect_name:
+    text: 複数選択
+  overworld_selection_reset_name:
+    text: 移動基地を選択
+  overworld_tab_move_next_name:
+    text: 次のタブを開く
+  overworld_tab_move_prev_name:
+    text: 前のタブを開く
+  overworld_tab_nav1_overworld_name:
+    text: 全体マップを開く
+  overworld_tab_nav2_pilots_name:
+    text: パイロット画面を開く
+  overworld_tab_nav3_units_name:
+    text: 機体画面を開く
+  overworld_tab_nav4_inventory_name:
+    text: 所持品画面を開く
+  overworld_tab_nav5_workshop_name:
+    text: 加工室画面を開く
+  overworld_tab_nav6_upgrades_name:
+    text: アップグレード画面を開く
+  overworld_tab_nav7_briefing_name:
+    text: 作戦会議画面を開く
+  overworld_time_1x_name:
+    text: 時間経過：1x
+  overworld_time_2x_name:
+    text: 時間経過：2x
+  overworld_time_3x_name:
+    text: 時間経過：3x
+  overworld_time_pause_name:
+    text: メニュー
+  overworld_time_toggle_name:
+    text: 一時停止の切替

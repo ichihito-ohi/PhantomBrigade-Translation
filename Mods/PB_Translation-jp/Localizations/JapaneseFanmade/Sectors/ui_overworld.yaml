@@ -1,0 +1,434 @@
+entries:
+  actions_button_cancel_tooltip_header:
+    text: キャンセル
+  actions_button_cancel_tooltip_text:
+    text: リストからこのアクションを破棄する。
+  actions_button_locate_tooltip_header:
+    text: 移動
+  actions_button_locate_tooltip_text:
+    text: このアクションに関連付けられた場所に移動する。
+  actions_description_duration:
+    text: 残り時間：
+  actions_description_unknown_project:
+    text: プロジェクトの説明なし
+  actions_description_variant:
+    text: バリエーション：
+  actions_header:
+    text: アクション
+  actions_name_unknown:
+    text: 未知の場所
+  actions_name_workshop:
+    text: 加工室
+  actions_time_paused:
+    text: 一時停止
+  description_effects_available:
+    text: この施設付近で利用可能な効果
+  description_effects_battery_replenish:
+    text: バッテリー充電が時間経過とともに回復する
+  description_effects_repair_cost:
+    text: 修理時の修復液消費量が減少する
+  description_effects_repair_replenish:
+    text: 修復液が時間経過とともに回復する
+  description_effects_repair_speed:
+    text: 修理が早く進行する
+  description_effects_unlock:
+    text: この施設を解放して局地効果を解除しろ
+  description_effects_workshop_speed:
+    text: 加工室の速度が増加する
+  description_recovering:
+    text: 回収作業
+  dialog_enter_combat_fail_desc:
+    text: 戦闘開始に必要なリソースの読み込みに失敗しました。これはファイルが見つからないことが原因の可能性があります： Alt+B を押してバグ・レポートを送信し、インストールの整合性を確認してください。
+  dialog_enter_combat_fail_header:
+    text: 戦闘の開始に失敗
+  dialog_resupply_desc:
+    text: 今すぐ補給を開始してもよろしいですか？作業には時間がかかり、移動基地は移動できなくなります。
+  dialog_resupply_header:
+    text: 補給地点に到着
+  event_added:
+    text: 追加
+  event_all_pilots_injured:
+    text: パイロット全員が負傷
+  event_all_pilots_recover:
+    text: パイロット全員が回復
+  event_current_escalation:
+    text: 現在のエスカレーション・レベル
+  event_depleted:
+    text: 枯渇
+  event_duration:
+    text: 所要時間
+  event_faction_enemy:
+    text: 敵
+  event_faction_home_guard:
+    text: 祖国防衛軍
+  event_friendly_province_bonus:
+    text: 友好州ボーナス
+  event_hope:
+    text: 希望
+  event_hostiles_approaching:
+    text: 敵接近中
+  event_insufficient:
+    text: 不足
+  event_our_reputation:
+    text: 我々の評判
+  event_pilot_deceased:
+    text: パイロット離脱
+  event_pilot_deceased_desc:
+    text: 最近の情勢を鑑みて、パイロットは移動基地を去った。
+  event_pilot_injured:
+    text: パイロット負傷
+  event_pilot_recovers:
+    text: パイロット回復
+  event_postfix_hour:
+    text: 時間
+  event_removed:
+    text: 削除
+  event_threat_jamming:
+    text: 妨害下での脅威度
+  event_tooltip_blocked_desc:
+    text: この選択肢は現在利用できません。選択するための条件について説明を確認しましょう。
+  event_tooltip_blocked_header:
+    text: 選択不可
+  event_unit:
+    text: 機体
+  event_war_score:
+    text: 戦争スコア
+  hotbar_power_tooltip_header:
+    text: 出力
+  hotbar_power_tooltip_text:
+    text: 移動基地が使用できるバッテリー電力の量。移動速度を増加させたり移動基地を敵軍から隠蔽したりすると消費する。移動基地が能動的に電力を消費していない、１か所に留まっている、または通常速度で移動中に充電される。
+  log_ability_drone_stun:
+    text: ドローンが命中し、一時的に行動不能！
+  log_ability_hidden_spotted:
+    text: 隠された拠点を発見！
+  log_ai_command_loss_controlled:
+    text: 制圧領土内で部隊の位置をロスト。パトロールを調査に派遣する。
+  log_ai_command_loss_liberated:
+    text: 反乱軍領土内で部隊の位置をロスト。
+  log_ai_command_prefix:
+    text: 最高司令部
+  log_ai_investigation:
+    text: 敵の調査部隊が出動！
+  log_ai_recapture_end:
+    text: 敵が拠点の再制圧を完了
+  log_ai_recapture_start:
+    text: 敵が拠点の再制圧を開始
+  log_combat_contacts_friendly:
+    text: 現地で新たな同盟軍と接触： {0}
+  log_combat_contacts_hostile:
+    text: 現地で新たな敵と接触： {0}
+  log_combat_contacts_mixed:
+    text: 現地で新たに接触：味方 {0} 、敵 {1}
+  log_combat_retreat_failed:
+    text: 機体が撤収に失敗、有効な撤退ゾーンの範囲外
+  log_combat_retreat_success:
+    text: 機体が撤収
+  log_header:
+    text: アップデート
+  log_id_site:
+    text: 拠点
+  log_id_squad:
+    text: 部隊
+  log_id_unknown:
+    text: 不明
+  log_inventory_part_received:
+    text: 部品を入手
+  log_inventory_resource_changed:
+    text: 備蓄資源を変換
+  log_inventory_resource_received:
+    text: 資源を入手
+  log_inventory_resource_spent:
+    text: 資源を消費
+  log_inventory_subsystem_received:
+    text: サブシステムを入手
+  log_inventory_unit_received:
+    text: メック・フレームを入手
+  log_inventory_workshop_received:
+    text: 加工室資料を入手
+  log_inventory_workshop_spent:
+    text: 加工室資料を使用
+  log_outcome_ejection_detected:
+    text: 緊急脱出したパイロットの着地地点を発見
+  log_outcome_site_capture:
+    text: 制圧
+  log_outcome_site_defeat:
+    text: 敗北
+  log_power_depleted:
+    text: 移動基地の電力が枯渇！
+  log_power_recharged:
+    text: 移動基地の充電完了
+  log_war_battlesite_defeat:
+    text: 交戦区域で敵の妨害に失敗；祖国防衛軍が撤退中。
+  log_war_battlesite_loss:
+    text: 交戦区域で敗退；祖国防衛軍が戦力を喪失。
+  log_war_battlesite_spawn:
+    text: 新たな交戦区域の報告あり！
+  log_war_battlesite_victory:
+    text: 敵が交戦区域から逃走；祖国防衛軍は戦力を維持。
+  log_war_escalation_down:
+    text: エスカレーション・レベルが下降
+  log_war_escalation_up:
+    text: エスカレーション・レベルが上昇！
+  log_war_fob_added:
+    text: 敵が全拠点を喪失したため臨時基地を設置
+  log_war_fob_removal:
+    text: 敵が臨時基地を撤収
+  log_war_hope_decrease:
+    text: 希望が低下
+  log_war_hope_increase:
+    text: 希望が増加
+  log_war_lost:
+    text: 週の解放に失敗！
+  log_war_objective_new:
+    text: 新たな指定目標！
+  log_war_objective_victory:
+    text: 軍事目標を無力化；敵の戦力が低下
+  log_war_start:
+    text: 祖国防衛軍により州が争奪中！
+  log_war_takeover_friendly:
+    text: 州を解放
+  log_war_takeover_hostile:
+    text: 州を喪失
+  log_war_victory:
+    text: 州の解放を達成！
+  nav_button_base:
+    text: 基地
+  nav_button_briefing:
+    text: 作戦会議
+  nav_button_inventory:
+    text: 所持品
+  nav_button_pause_menu:
+    text: メニュー
+  nav_button_pilots:
+    text: パイロット
+  nav_button_units:
+    text: 機体
+  nav_button_upgrades:
+    text: アップグレード
+  nav_button_workshop:
+    text: 加工室
+  nav_button_world:
+    text: 全体マップ
+  overlay_name_resupply_point:
+    text: 補給地点
+  province_hover_suggested_level:
+    text: 推奨レベル
+  province_liberated_header:
+    text: 州を解放
+  province_liberated_text:
+    text: あなたの努力のおかげで、争奪した州から敵は追放されました。これからは反乱軍が防衛します。
+  province_lost_header:
+    text: 州を喪失
+  province_lost_text:
+    text: あなたの努力にも関わらず、争奪した州は敵が支配し続ける結果となりました。反乱軍は別の手を準備しています。
+  province_state_battle_site_header:
+    text: 交戦区域
+  province_state_battle_site_text:
+    text: この場所で祖国防衛軍と侵略軍が衝突しています。戦闘に参加して、あなたの力を貸しましょう。交戦区域が時間切れになると祖国防衛軍のスコアが減少し、敗北に近づきます。
+  province_state_contested:
+    text: —  州争奪中  —
+  province_state_neutral_war_score_header:
+    text: 祖国防衛軍　戦闘力
+  province_state_neutral_war_score_text:
+    text: 'かつてこの国を守っていた防衛軍最後の生き残りの戦闘力。幻影旅団の部隊だけでは州を確保するには規模が小さ過ぎ、祖国防衛軍も戦力は限られていますが、共に協力すれば、領土を取り戻すことも可能です。
+
+
+      戦闘力が100%に達すると、エスカレーション中の州の争奪を始めることができます。争奪中の州に出現する主要目標の攻撃や交戦区域での援護を通じて祖国防衛軍を支援することにより、勝利に繋がります。'
+  province_state_objective_header:
+    text: 目標
+  province_state_objective_text:
+    text: 目標とは、祖国防衛軍により指定された優先標的です。これを倒すことで敵が弱体化していきます。
+  province_state_recovering:
+    text: 祖国防衛軍が再起中…
+  province_state_war_score_enemy_header:
+    text: 敵軍　戦闘力
+  province_state_war_score_enemy_text:
+    text: 争奪中のこの州内にいる侵略軍の戦闘力です。主要目標を攻撃してこの値を下げましょう。この値が0に達すると、敵が撤退して州が解放されます。
+  province_state_war_score_player_header:
+    text: 祖国防衛軍　戦闘力
+  province_state_war_score_player_text:
+    text: 争奪中のこの州全域で敵と交戦している、かつての防衛軍の生き残り、祖国防衛軍の戦闘力です。主要目標に対する攻撃で祖国防衛軍を支援し、交戦区域で援護することにより、勝利に繋がります。この値が0になってしまうと、撤退せざるを得なくなり、敵がこの州を確保したままになってしまいます。
+  retreat_header:
+    text: 撤退中…
+  retreat_text:
+    text: 最寄りの補給地点に戻っています
+  root_button_contest_province:
+    text: 州争奪
+  root_button_contest_province_tooltip_text:
+    text: この州のエスカレーション・レベルが必要なしきい値に達すると、この州で戦うよう祖国防衛軍に要請できるようになります。あなたの旅団だけで州全体を確保することはできませんが、主要目標を攻撃して交戦区域の戦況を変えることで、祖国防衛軍の州確保を支援できます。
+  root_button_contested_province_tooltip_header:
+    text: 州争奪中
+  root_button_contested_province_tooltip_text:
+    text: 祖国防衛軍がこの州の奪還を試みています。主要目標の攻撃や主な交戦区域での援護により、勝利を導きましょう！
+  root_province_friendly_tooltip_header:
+    text: 自軍側の州
+  root_province_friendly_tooltip_text:
+    text: 自軍側の州は祖国防衛軍によって守られています。これらの州内では、基地で移動基地の補給が可能です。
+  root_province_hostile:
+    text: 敵軍側
+  root_province_hostile_tooltip_header:
+    text: 敵軍側の州
+  root_province_hostile_tooltip_text:
+    text: 敵軍側の州における敵の活動レベルは変動します。これをエスカレーションと呼びます。エスカレーション・レベルは、州内に移動基地が存在すると上昇し、離れると下降します。エスカレーション・レベルが上がるごとに戦闘は激しくなります。州を解放する場合、エスカレーション・レベルが1以上かつ全体で最もレベルが高い州は祖国防衛軍による攻撃が可能です。
+  root_province_liberated:
+    text: 解放済
+  root_province_status_liberated:
+    text: 解放済
+  root_province_status_prefix:
+    text: ステータス：
+  root_province_status_protected:
+    text: 堅固
+  root_province_status_surrounded:
+    text: 包囲中
+  root_province_status_vulnerable:
+    text: 脆弱
+  roster_button_recruit_pilot:
+    text: 'パイロット
+
+      採用'
+  roster_button_resupply:
+    text: 休憩・補給
+  roster_dialog_resupply_main_header:
+    text: 補給開始
+  roster_dialog_resupply_main_text:
+    text: 補給中は移動基地を動かせません。続行しますか？
+  roster_dialog_resupply_recruit_header:
+    text: 採用開始
+  roster_dialog_resupply_recruit_text:
+    text: 採用活動中は移動基地を動かせません。続行しますか？
+  roster_label_no_pilots:
+    text: パイロットなし
+  roster_label_no_squad_header:
+    text: 部隊なし
+  roster_label_no_squad_text:
+    text: 補給地点への撤退を検討してください
+  roster_label_unit_level:
+    text: レベル
+  roster_label_unit_threat:
+    text: 脅威度
+  roster_pilot_stats_header:
+    text: パイロット数
+  roster_pilot_stats_text:
+    text: 現在出撃可能なパイロットと移動基地が収容可能なパイロットの最大人数。
+  roster_repair_bar_header:
+    text: 修復液
+  roster_repair_bar_text:
+    text: 修理用資源で、全体マップで使用したり、バリア装甲をもつ機体が戦闘に持ち込んだりします。
+  roster_resupply_main_header:
+    text: 無償
+  roster_resupply_main_text:
+    text: '補給のために移動基地が停車している間、乗組員は十分な休息を取ります。
+
+
+      - 移動基地は10時間移動できなくなります
+
+      - 移動基地は他のタスクを実行できなくなります
+
+      - 修復液と予備エネルギーが完全に補充されます
+
+      - パイロットの疲労がリセットされます
+
+      - 損傷した機体はすべて修理されます
+
+      - 移動基地にメック2機とパイロット2名がいない場合、予備から派遣されます'
+  roster_resupply_options:
+    text: 補給オプション
+  roster_resupply_recruit_header:
+    text: -200 物資
+  roster_resupply_recruit_text:
+    text: '新しいパイロットを採用します。あなたの評判が広まるほど、より多くの新兵が部隊入りを志願するようになります。中には、かつての戦争で戦った者もいます。それ以外の者も、実戦経験はありませんが侵略により立ち上がりました。
+
+
+      - 移動基地は5時間停車します
+
+      - 一度に採用できるパイロットは一名までです
+
+      - 同時に移動基地を補給することはできません'
+  roster_unit_stats_header:
+    text: メンバー・ステータス
+  roster_unit_stats_text:
+    text: 上位4機の平均レベルおよび脅威度と、敵守備隊のレベルおよび脅威度を、戦闘前に十分に比較してから判断しましょう。
+  roster_unit_tooltip1_level:
+    text: 平均レベル
+  roster_unit_tooltip2_threat:
+    text: 脅威度
+  roster_unit_tooltip3_ready:
+    text: 戦闘準備
+  roster_unit_tooltip3_ready_no:
+    text: 戦闘不可
+  roster_unit_tooltip3_ready_yes:
+    text: 戦闘可能
+  roster_unit_tooltip4_issues_critical:
+    text: 致命的な問題
+  roster_unit_tooltip4_issues_warning:
+    text: 警告
+  roster_unit_tooltip5_equipment:
+    text: 装備
+  selection_branch_tooltip_prefix:
+    text: 侵略軍の所属先。所属が異なれば装備や機体構成も異なります。
+  selection_branch_unknown_description:
+    text: この派閥に関する情報なし
+  selection_branch_unknown_name:
+    text: 所属不明
+  selection_contact_count_prefix:
+    text: 付近で接触：
+  selection_description_fallback:
+    text: この標的に関する情報なし
+  selection_description_objective:
+    text: 目標
+  selection_description_recaptured:
+    text: 制圧済
+  selection_difficulty_tooltip_text:
+    text: 敵のおおよその難易度。
+  selection_early_description:
+    text: 旅団から派遣された偵察部隊。長期遠征で疲弊し、整備を必要としています。
+  selection_early_mech_count:
+    text: メック2機　活動中
+  selection_early_squad:
+    text: 部隊
+  selection_garrison_combat_capable:
+    text: 戦闘可能
+  selection_garrison_description_empty:
+    text: 軍事活動なし
+  selection_garrison_description_occupied:
+    text: 現地に敵機あり
+  selection_garrison_description_protected:
+    text: 現地に同盟軍あり
+  selection_garrison_status_empty:
+    text: 無人
+  selection_garrison_status_occupied:
+    text: 占領中
+  selection_garrison_status_protected:
+    text: 堅固
+  selection_header_hovered:
+    text: カーソル位置
+  selection_header_selected:
+    text: 選択中
+  selection_inspect:
+    text: 調査
+  selection_location_unknown_description:
+    text: 不明な接触
+  selection_outdated:
+    text: 時間切れ
+  selection_resupply_header:
+    text: 本部基地
+  selection_resupply_hint:
+    text: 補給可能
+  selection_threat_prefix_level:
+    text: レベル：
+  selection_threat_prefix_rating:
+    text: 脅威度
+  text_description_scan:
+    text: 詳細にスキャンできるまで、しばらくの間対象を範囲内に維持しましょう。
+  tutorial_button_continue:
+    text: 続ける
+  weather_l025_name:
+    text: 晴天
+  weather_l050_name:
+    text: 曇天
+  weather_l066_name:
+    text: 小雨
+  weather_l083_name:
+    text: 雨天
+  weather_l100_name:
+    text: 大雨
