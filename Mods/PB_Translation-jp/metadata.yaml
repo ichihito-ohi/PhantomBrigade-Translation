@@ -1,6 +1,6 @@
 id: PB_Translation-jp
 ver: 0900-20230127
-includesConfigOverrides: true
+includesConfigOverrides: false
 includesConfigEdits: true
 includesLibraries: false
 includesTextures: false
@@ -8,4 +8,32 @@ includesLocalizations: true
 gameVersionMin: 0.90.0
 gameVersionMax: 
 name: PB_Translation-jp
-desc: Phantom Brigade Translation Mod for Japanese
+desc: 'Phantom Brigade Translation Mod for Japanese
+
+  
+  # 日本語化 Mod について
+
+  Copyrigit (c) 2020, Ichihito Ohi
+
+  https://github.com/ichihito-ohi/PhantomBrigade-Translation
+    
+  
+  # 謝辞（敬称略）
+  
+  ## Discord - Brace Yourself Games サーバー
+  
+  Artyom Zuev (Core Development Team of Phantom Brigade, Technical Artist)
+  
+  Miketan
+  
+
+  ## Steamグループ 日本語化作業者互助会
+  
+  Guzuo
+
+  AgeBdeR
+  
+  
+  ## OmegaT プロジェクト
+
+  OmegaT Official Twitter アカウント（@OmegaTOfficial）'
