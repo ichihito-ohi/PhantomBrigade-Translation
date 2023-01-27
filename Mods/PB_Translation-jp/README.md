@@ -3,11 +3,6 @@
 Copyright (c) 2020, Ichihito Ohi
 
 
-## 既知の問題
-### ゲームを再起動すると一部が英語表記に戻る
-応急措置：設定画面のゲームタブで、 "English" を選択し "Apply" をクリックして一度英語に戻し、再び "日本語" を選択し "Apply" をクリックしてください。
-
-
 ## 必ず守ってください
 ### ゲーム本体のバージョンを確認して、対応するバージョンのModを使用してください。
 ゲーム本体のバージョンは、ゲームランチャーの設定メニュー、ゲーム画面左上、または `Configs\buildinfo.yaml` で確認できます。
@@ -21,38 +16,45 @@ Mod ファイルを含むフォルダを上書き保存すると、アップデ�
 日本語化 Mod は、本体 Mod System に対応しています。ゲーム内で Mod の有効化・無効化を切り替えることができます。
 
 ### 本体 Mod System の有効化
-参考
-- [Modシステム @Phantom Brigade 日本語 Wiki](https://wiki.braceyourselfgames.com/ja/PhantomBrigade/Modding/ModSystem)
+参考： [Modシステム @Phantom Brigade 日本語 Wiki](https://wiki.braceyourselfgames.com/ja/PhantomBrigade/Modding/ModSystem)
 
 ゲームのインストール時、本体 Mod System は無効化された状態です。
-ダウンロードした `Settings/mods.yaml` ファイルを、ユーザーフォルダの `Documents/My Games/Phantom Brigade/Settings` にコピーしてください。
-ゲームを起動して、メインメニューに "Mods" ボタンが追加されていれば成功です。
-この作業は、一度だけおこなえば十分です。 `Settings.yaml` ファイルを上書きすると Mod の設定が初期化されます。
+ダウンロードした `Settings` フォルダ内の全ファイルを、以下のフォルダ内にコピーしてください。
+```
+C:\Users\[username]\AppData\Local\PhantomBrigade\Settings
+```
+**注意： 0.23.1 からユーザーファイルの保存場所が大きく変更されました**
+
+この作業は、一度だけおこなえば十分です。
+`Settings` フォルダ内のファイルを上書きするとゲームの設定が初期化されます。
 
 ### 日本語化 Mod の有効化
-[解説動画 @YouTube](https://youtu.be/wSLrug7lZqs)
+~~[解説動画 @YouTube](https://youtu.be/wSLrug7lZqs)~~
 
-1. Mod System フォルダを確認する
-    - ユーザーフォルダの `Documents/My Games/Phantom Brigade/Mods` に、各種 Mod を保存できます。
+ダウンロードした `Mods\PB_Translation-jp` フォルダを、以下のフォルダ内にコピーしてください。
+```
+C:\Users\[username]\AppData\Local\PhantomBrigade\Mods
+```
+にコピーしてください。
+ゲームを起動して、日本語で表示されたら成功です。
 
-2. Mod ファイルを配置する
-    - ダウンロードした `Mods/PB_Translation-jp` フォルダを、上記フォルダにコピーしてください。
+### 上記手順で有効化されない場合
 
-3. ゲームを起動する
-    - この時点では日本語化 Mod は有効化されていません。
+1. メインメニューを開く
+    - 初回起動時は、 Esc キーまたは画面左上のボタンを押してポーズメニューが開けるようになる段階まで進め、 ポーズメニュー内の "Quit to Main Menu" を押してください。
 
-4. Mod を有効化する
+2. Mod を有効化する
     - メインメニューの "Mods" ボタンをクリックしてください。
-    - 左列にある "PB_Translation-jp" の矢印（->）をクリックして、本 Mod を右列の優先度リストに移動してください。
-    - 右列の優先度リストで、 "PB_Translation-jp" のチェックボックスをクリックして有効化してください。
+    - "PB_Translation-jp" が右側のリストにあり、チェックボックスが有効化（■）されていることを確認してください。
+        - "PB_Translation-jp" が左側のリストにある場合は、矢印（->）をクリックして右側のリストに移動し、チェックボックスをクリックして有効化（■）してください。
     - "SAVE CONFIG" をクリックしてください。
 
-5. ゲームを再起動する
+3. ゲームを再起動する
     - 変更を反映させるため、ゲームを再起動してください。
 
-6. 言語設定を切り替える
+4. 言語設定を切り替える
     - メインメニューの "Option" ボタンをクリックしてください。
-    - "Game" タブで、 "Language" の矢印（<- English ->）をクリックして "日本語" を選択してください。
+    - "Game" タブで、 "Language" の矢印（<- English ->）をクリックして "日本語（有志）" を選択してください。
     - メニュー右下の "Apply" をクリックしてください。
     - しばらく待って、画面表示が日本語に切り替われば成功です。
 
@@ -70,6 +72,9 @@ https://github.com/ichihito-ohi/PhantomBrigade-Translation
 
 
 ## 更新履歴
+### jp-0900-20230127
+- 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.90.0 に適用しました。未翻訳の部分があります。
+- 本体アップデートにより、ゲームを再起動すると英語に戻る問題は修正されました。
 ### jp-0222-20221120
 - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.22.2 に適用しました。未翻訳の部分があります。
 ### jp-0220-20221120
