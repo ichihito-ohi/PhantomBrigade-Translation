@@ -15,27 +15,30 @@ Mod ファイルを含むフォルダを上書き保存すると、アップデ�
 ## 適用方法
 日本語化 Mod は、本体 Mod System に対応しています。ゲーム内で Mod の有効化・無効化を切り替えることができます。
 
-### 本体 Mod System の有効化
-参考： [Modシステム @Phantom Brigade 日本語 Wiki](https://wiki.braceyourselfgames.com/ja/PhantomBrigade/Modding/ModSystem)
-
+### 本体 Mod システムの有効化
 ゲームのインストール時、本体 Mod System は無効化された状態です。
-ダウンロードした `Settings` フォルダ内の全ファイルを、以下のフォルダ内にコピーしてください。
+
+ダウンロードした `Settings` フォルダ内の全ファイルを、以下のフォルダ内に追加・上書きしてください。
 ```
 C:\Users\[username]\AppData\Local\PhantomBrigade\Settings
 ```
-**注意： 0.23.1 からユーザーファイルの保存場所が大きく変更されました**
+- **注意： 0.23.1 からユーザーファイルの保存場所が大きく変更されました**
 
 この作業は、一度だけおこなえば十分です。
-`Settings` フォルダ内のファイルを上書きするとゲームの設定が初期化されます。
+
+`Settings` フォルダ内のファイルを上書きすると、解像度やボタン配置などの設定がすべて初期化されます。設定を残したまま Mod システムだけ有効化したい場合は、 `Settings/mods.yaml` のみ追加してください。
+
+- （参考） [Modシステム @Phantom Brigade 日本語 Wiki](https://wiki.braceyourselfgames.com/ja/PhantomBrigade/Modding/ModSystem)
+    - 追記：一部古い情報が含まれます。
 
 ### 日本語化 Mod の有効化
-~~[解説動画 @YouTube](https://youtu.be/wSLrug7lZqs)~~
+- [解説動画 @YouTube](https://youtu.be/wSLrug7lZqs)
+    - 追記：一部古い情報が含まれます。
 
-ダウンロードした `Mods\PB_Translation-jp` フォルダを、以下のフォルダ内にコピーしてください。
+ダウンロードした `Mods/PB_Translation-jp` フォルダを、以下のフォルダ内に追加してください。
 ```
 C:\Users\[username]\AppData\Local\PhantomBrigade\Mods
 ```
-にコピーしてください。
 ゲームを起動して、日本語で表示されたら成功です。
 
 ### 上記手順で有効化されない場合
@@ -55,6 +58,7 @@ C:\Users\[username]\AppData\Local\PhantomBrigade\Mods
 4. 言語設定を切り替える
     - メインメニューの "Option" ボタンをクリックしてください。
     - "Game" タブで、 "Language" の矢印（<- English ->）をクリックして "日本語（有志）" を選択してください。
+        - 言語名が "日本語" から "日本語（有志）" に変更されました。
     - メニュー右下の "Apply" をクリックしてください。
     - しばらく待って、画面表示が日本語に切り替われば成功です。
 
@@ -74,6 +78,9 @@ https://github.com/ichihito-ohi/PhantomBrigade-Translation
 ## 更新履歴
 ### jp-0900-20230127
 - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.90.0 に適用しました。未翻訳の部分があります。
+- 既定で日本語化 mod が有効化されるよう、設定ファイルのテンプレートを追加・変更しました。
+- 公式日本語と区別するため、言語名を "日本語（有志）" に変更しました。
+- 本体アップデートにより、日本語フォントが実装されました。
 - 本体アップデートにより、ゲームを再起動すると英語に戻る問題は修正されました。
 ### jp-0222-20221120
 - 新規翻訳を含む翻訳済みの内容を本体アップデート Patch 0.22.2 に適用しました。未翻訳の部分があります。
