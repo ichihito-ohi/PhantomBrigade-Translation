@@ -1,0 +1,157 @@
+entries:
+  ability_block_combat__name:
+    text: 発煙弾
+  ability_block_combat__text:
+    text: 発煙弾発射装置を移動基地に配備する。これにより敵パトロールを一時的に無力化して逃げることができる。弾は加工室で製造する。
+  ability_block_escalation__name:
+    text: スキャン妨害
+  ability_block_escalation__text:
+    text: 高解像度スキャンに接続することで、移動基地を小規模な民間人グループだと敵に思わせる。敵の派遣する戦力が小さくなる可能性がある。消耗品は加工室で製造する。高スカレーションの州で危険なパトロールに捕まった場合に有用。
+  ability_block_reinforcements__name:
+    text: 通信妨害
+  ability_block_reinforcements__text:
+    text: 敵の無線と測位機能に対して干渉する装置を移動基地に配備する。戦闘前に起動することで敵機の戦闘参加を防ぐ。消耗品は加工室で製造する。複数のパトロールに追跡されている場合に有効。
+  ability_call_homeguard__name:
+    text: 無線通信回線
+  ability_call_homeguard__text:
+    text: 祖国防衛軍と連絡可能な通信システムを移動基地に設置し、あなたの評判が十分な場合に増援を要請できる。評判が高いほど、より多くの戦力が派遣される。戦闘中にこれらの機体を失うと評判が下降するが、勝利することで上昇する。
+  ability_drone_decoy__name:
+    text: デコイドローン
+  ability_drone_decoy__text:
+    text: 移動基地にデコイドローン発着場を配置する。ドローンは移動基地のセンサー痕跡を模擬して敵を撹乱する。ドローンは加工室で製造する。エリアの偵察や敵を進路から引き剥がす場合に有用。
+  ability_sensor_rain__name:
+    text: 雨天センサー
+  ability_sensor_rain__text:
+    text: 雨天センサー機能を移動基地に配備する。
+  group_mm_core__name:
+    text: 移動
+  group_reactor__name:
+    text: 反応炉
+  group_unit_bay__name:
+    text: 機体格納庫
+  group_workshop__name:
+    text: 加工室
+  mm_core__name:
+    text: 速度制限解除
+  mm_core__text:
+    text: 駆動系から民生向け速度制限を解除し、移動基地の速度を増加させる。
+  mm_cruise__name:
+    text: 巡行モード
+  mm_cruise__text:
+    text: 通常移動モード。動力コアに合わせて最適化して、余剰エネルギーを生み出し備蓄電力を補充する。平均的な速度、中程度の隠密性。
+  mm_cruise_regen__name:
+    text: 発電量強化
+  mm_cruise_regen__text:
+    text: 反応炉を覆う熱交換器を追加し、より多くの熱を取り込んで発電を高速化する。この拡張機能により最大3つの熱交換機を追加することができる。
+  mm_cruise_speed__name:
+    text: 巡航/速度
+  mm_cruise_speed__text:
+    text: 動力伝達系を強化し、より高速な巡航速度に対応するが、騒音も増えるため、移動基地が検出される距離が伸びる。
+  mm_cruise_vision_own__name:
+    text: 巡行/観測
+  mm_cruise_vision_own__text:
+    text: センサーアレイ設備を交換して、より遠くの敵を検知できるようになる。
+  mm_overdrive__name:
+    text: オーバードライブモード
+  mm_overdrive__text:
+    text: 反応炉の排出ガスをターボチャージャーに再流入させて、移動基地の速度を劇的に上昇させる。反応炉の出力を絞るためバッテリーの消耗が早くなる。瞬間的な使用が有用。
+  mm_overdrive_vision_enemy__name:
+    text: オーバードライブ/断熱
+  mm_overdrive_vision_enemy__text:
+    text: 反応炉に断熱シールドを追加し、全体マップ・モード中の熱源反応を抑える。発熱を抑えることで、遠距離から発見されにくくなる。騒音が増えるため、近距離では移動基地が補足されやすくなる。
+  mm_overdrive_vision_own__name:
+    text: オーバードライブ/観測
+  mm_overdrive_vision_own__text:
+    text: オーバードライブモード中の移動基地の視界を改善する。画像スタビライザーを導入することで高速移動時の振動を打ち消している。
+  mm_stealth__name:
+    text: ステルスモード
+  mm_stealth__text:
+    text: 敵軍から移動基地を隠蔽し、検知される範囲を大幅に縮小させます。移動速度が制限され、蓄えた電力が急速に消費されます。
+  mm_stealth_drain__name:
+    text: ステルス/効率
+  mm_stealth_drain__text:
+    text: 熱交換器の効率化と光学迷彩の最適化により、ステルスモードのエネルギー消費を抑える。
+  mm_stealth_vision_own__name:
+    text: ステルス/観測
+  mm_stealth_vision_own__text:
+    text: 移動基地のステルスモードを邪魔しない低放射センサーで視界を改善する。
+  mobilebase__name:
+    text: 移動基地
+  mobilebase__text:
+    text: 山岳基地から産業用整備車両を入手する。
+  reactor__name:
+    text: 反応炉解禁
+  reactor__text:
+    text: 民生向け反応炉の安全装置を無効にすることで、動力コアにより多くのエネルギーを蓄えられるようにし、さらなる改造を可能にする。
+  reactor_charge_delay__name:
+    text: 急速点火
+  reactor_charge_delay__text:
+    text: エネルギー消費後の発電再開までの遅延を抑える。
+  reactor_expanded__name:
+    text: 反応炉機能拡張
+  reactor_expanded__text:
+    text: 反応炉の隠蔽率が低下する代わりに、高度な機能を解禁する。
+  reactor_storage_limit__name:
+    text: 補助キャパシター
+  reactor_storage_limit__text:
+    text: エネルギー貯蔵容量を拡張する。最大3つの補助キャパシターを追加できる。
+  sensor__name:
+    text: 軍用グレードセンサー
+  sensor__text:
+    text: メックから回収したモジュールを使用して、視界を改善し強力なアップグレードを解禁する。
+  sensor_rain__name:
+    text: 雨天最適化
+  sensor_rain__text:
+    text: 敵メックから回収した雨天対応センサーを使用して、どんなに激しい雨でも移動基地の視界が妨げられなくなる。全国のドライバーにとって羨望の的。
+  sensor_scan_speed__name:
+    text: 高速分析
+  sensor_scan_speed__text:
+    text: センサーシステムの処理ユニットをオーバークロックすることで敵目標の特定が早くなる。
+  sensor_scan_speedhostile__name:
+    text: スキャン妨害
+  sensor_scan_speedhostile__text:
+    text: 軍用グレードの ECM を導入して、敵のセンサーを撹乱する。反射波を欺瞞することで移動基地の識別を遅らせる。
+  unit_bay__name:
+    text: 格納庫解禁
+  unit_bay__text:
+    text: 移動基地の産業機器区画を整理することで、新しく格納庫を確保し移動中のメック修理を可能にする。
+  unit_bay_repair_lines__name:
+    text: 平行修理
+  unit_bay_repair_lines__text:
+    text: メックから得たレア・モジュールを使用してメック格納庫のマニピュレーターをアップグレードし、複数の機体を並行して修理できるようにする。
+  unit_bay_repair_speed__name:
+    text: 修理加速
+  unit_bay_repair_speed__text:
+    text: 修理場から産業的な制約を取り除く。
+  unit_storage_l1__name:
+    text: 格納庫最適化
+  unit_storage_l1__text:
+    text: 移動基地の内壁を整理して、機体枠を追加する。
+  unit_storage_l2__name:
+    text: 格納庫拡張
+  unit_storage_l2__text:
+    text: 内部システムの一部を移動することで、新しい機体用の空間を移動基地に確保する。再配置した機器の補強で移動基地の重量が増え、速度がわずかに低下する。
+  unit_storage_l3__name:
+    text: 格納庫立体化
+  unit_storage_l3__text:
+    text: それぞれのメックを積み重ねることで、より多くの空間を確保する。追加の構造用支持部材とリフトで移動基地の質量が増加し、速度が低下する。
+  unit_storage_l4__name:
+    text: 格納庫最大化
+  unit_storage_l4__text:
+    text: 隙間を開けずにメックを積み重ねることで、移動基地が多数の機体に対応できるようになるが、速度が大きく犠牲になる。
+  workshop__name:
+    text: 加工室解禁
+  workshop__text:
+    text: 複合プリンターと組立マニピュレーターを修復する。十分な資源があれば移動基地で装備や新しい機体を製造できるようになる。
+  workshop_lines__name:
+    text: 並行プリント
+  workshop_lines__text:
+    text: 民生グレードのシステムを拡張してマルチスレッド・プリントに対応することで、複数のプロジェクトを並行して製造できるようになる。
+  workshop_tech_r2__name:
+    text: 先進的組立設備
+  workshop_tech_r2__text:
+    text: 加工室の設備を拡張して軍用グレードの材料に対応することで、組み立てを高速化し、アンコモン装備を解禁する。
+  workshop_tech_r3__name:
+    text: 実験的組立設備
+  workshop_tech_r3__text:
+    text: 回収した希少なモジュールを使用して加工室の性能を大幅に向上させ、最高レア部品の複製を解禁し、加工室が機体修理に協力できるようになる。

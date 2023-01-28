@@ -1,0 +1,55 @@
+entries:
+  external_arm_lower_name:
+    text: 前腕
+  external_arm_upper_name:
+    text: 上腕
+  external_bottom_left_lower_name:
+    text: 左脚下腿
+  external_bottom_left_upper_name:
+    text: 左脚大腿
+  external_bottom_right_lower_name:
+    text: 右脚下腿
+  external_bottom_right_upper_name:
+    text: 右脚大腿
+  external_top_head_name:
+    text: 頭部
+  external_top_pelvis_name:
+    text: 胴体下部
+  external_top_torso_name:
+    text: 胴体上部
+  internal_aux_defense_name:
+    text: 防御モジュール
+  internal_aux_defense_text:
+    text: 機体の装甲を強化する。防御モジュールごとに様々な方法で耐久度やバリアに影響を与える。
+  internal_aux_mobility_name:
+    text: 機動モジュール
+  internal_aux_mobility_text:
+    text: 様々なトレードオフを通じて機体の移動速度に影響を与える。
+  internal_aux_offense_name:
+    text: 攻撃モジュール
+  internal_aux_offense_text:
+    text: 武器の有効性を向上させる。攻撃モジュールは武器射程や拡散に直接影響し、機体のオーバーヒートしきい値を上げることで間接的により長時間の攻撃などを可能にする。
+  internal_aux_top_core_name:
+    text: 反応炉
+  internal_aux_top_core_text:
+    text: すべてのメックのコアであり、これ無しでは機能しない。反応炉はモデルごとに異なるトレードオフを持ち、目指す機体の役割と合致したモデルを選ぶことが重要である。
+  internal_aux_top_thrusters_name:
+    text: スラスター
+  internal_aux_top_thrusters_text:
+    text: メック背部のエンジンが推力を発生させることで、跳躍してかなりの距離をカバーできるようになる。
+  internal_aux_weapon_name:
+    text: 武器モジュール
+  internal_aux_weapon_text:
+    text: 様々なトレードオフを通じて武器の性能に影響を与える。
+  perk_1_name:
+    text: パーク
+  perk_1_text:
+    text: 様々なバリエーションがあるランダムな改造パーツ。
+  perk_2_name:
+    text: パーク
+  perk_2_text:
+    text: 様々なバリエーションがあるランダムな改造パーツ。
+  perk_3_name:
+    text: パーク
+  perk_3_text:
+    text: 様々なバリエーションがあるランダムな改造パーツ。

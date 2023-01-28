@@ -1,0 +1,313 @@
+entries:
+  internal_aux_accuracy_r1__name:
+    text: 強化銃床
+  internal_aux_accuracy_r2__name:
+    text: 強化銃床
+  internal_aux_accuracy_r3__name:
+    text: 強化銃床
+  internal_aux_aoe_r1__name:
+    text: 大型弾頭
+  internal_aux_aoe_r2__name:
+    text: 大型弾頭
+  internal_aux_aoe_r3__name:
+    text: 大型弾頭
+  internal_aux_buildup_r1__name:
+    text: 結晶マトリクス
+  internal_aux_buildup_r2__name:
+    text: 結晶マトリクス
+  internal_aux_buildup_r3__name:
+    text: 結晶マトリクス
+  internal_aux_capacitor_r1__name:
+    text: キャパシター MK1
+  internal_aux_capacitor_r1__text:
+    text: 熱容量をわずかに増加させる。機体がオーバーヒートする前により多くの熱を蓄えられる。
+  internal_aux_capacitor_r2__name:
+    text: キャパシター MK2
+  internal_aux_capacitor_r2__text:
+    text: 熱容量を増加させる。機体がオーバーヒートする前により多くの熱を蓄えられる。
+  internal_aux_capacitor_r3__name:
+    text: キャパシター MK3
+  internal_aux_capacitor_r3__text:
+    text: 熱容量を大幅に増加させる。機体がオーバーヒートする前により多くの熱を蓄えられる。
+  internal_aux_charge_r1__name:
+    text: チャージ弾頭
+  internal_aux_charge_r2__name:
+    text: スーパーチャージ弾頭
+  internal_aux_charge_r3__name:
+    text: スーパーチャージ弾頭
+  internal_aux_concussion_r1__name:
+    text: 衝撃波弾頭
+  internal_aux_concussion_r2__name:
+    text: 衝撃波弾頭
+  internal_aux_concussion_r3__name:
+    text: 衝撃波弾頭
+  internal_aux_cooler_r1__name:
+    text: 液体冷却
+  internal_aux_cooler_r2__name:
+    text: 液体冷却
+  internal_aux_cooler_r3__name:
+    text: 液体冷却
+  internal_aux_core_charge__text:
+    text: 熱容量を増加させる。より長く攻撃できるようになることで、間接的にダメージ出力を向上させる。
+  internal_aux_core_heat__text:
+    text: 放熱を増加させる。より頻繁に攻撃できるようになることで、間接的にダメージを向上させる。
+  internal_aux_core_launch__text:
+    text: 放熱を代償に出力を増加させる。攻撃頻度と引き換えに速度を取る。
+  internal_aux_core_overdrive__text:
+    text: 熱容量を代償に出力を増加させる。耐熱性と引き換えに速度を取る。
+  internal_aux_core_regen__text:
+    text: 放熱を代償にバリア再生速度を増加させる。
+  internal_aux_core_standard__text:
+    text: 平均的な性能の標準反応炉。
+  internal_aux_count_r1__name:
+    text: 拡張弾倉
+  internal_aux_count_r2__name:
+    text: 拡張弾倉
+  internal_aux_count_r3__name:
+    text: 拡張弾倉
+  internal_aux_gyro_r1__name:
+    text: ジャイロ MK1
+  internal_aux_gyro_r1__text:
+    text: 機体質量をわずかに削減する。間接的に移動速度を上昇させる。
+  internal_aux_gyro_r2__name:
+    text: ジャイロ MK2
+  internal_aux_gyro_r2__text:
+    text: 機体質量を削減する。間接的に移動速度を上昇させる。
+  internal_aux_gyro_r3__name:
+    text: ジャイロ MK3
+  internal_aux_gyro_r3__text:
+    text: 機体質量を大幅に削減する。間接的に移動速度を上昇させる。
+  internal_aux_heatsink_r1__name:
+    text: ヒートシンク MK1
+  internal_aux_heatsink_r1__text:
+    text: 放熱をわずかに増加させる。
+  internal_aux_heatsink_r2__name:
+    text: ヒートシンク MK2
+  internal_aux_heatsink_r2__text:
+    text: 出力と速度を犠牲に放熱を増加させる。
+  internal_aux_heatsink_r3__name:
+    text: ヒートシンク MK3
+  internal_aux_heatsink_r3__text:
+    text: 出力と速度を犠牲にして放熱を大幅に増加させる。
+  internal_aux_hydraulics_1__name:
+    text: 油圧系 MK1
+  internal_aux_hydraulics_1__text:
+    text: 放熱を代償に質量をわずかに削減する。
+  internal_aux_hydraulics_2__name:
+    text: 油圧系 MK2
+  internal_aux_hydraulics_2__text:
+    text: 放熱を代償に質量を削減する。
+  internal_aux_hydraulics_3__name:
+    text: 油圧系 MK3
+  internal_aux_hydraulics_3__text:
+    text: 放熱を代償に質量を大幅に削減する。
+  internal_aux_impact_r1__name:
+    text: 炸裂弾頭
+  internal_aux_impact_r2__name:
+    text: 炸裂弾頭
+  internal_aux_impact_r3__name:
+    text: 炸裂弾頭
+  internal_aux_plating_basic__name:
+    text: 標準型装甲
+  internal_aux_plating_basic__text:
+    text: 質量と耐久度を増加させる。
+  internal_aux_plating_composite__name:
+    text: 複合装甲
+  internal_aux_plating_composite__text:
+    text: 質量を増加させて耐久度とバリアをわずかに増加させる。
+  internal_aux_plating_empty__name:
+    text: 軽量級装甲
+  internal_aux_plating_empty__text:
+    text: 大幅に質量を削減するが、耐久度とバリアが減少する。
+  internal_aux_plating_heavy__name:
+    text: 重量級装甲
+  internal_aux_plating_heavy__text:
+    text: 質量とともに耐久度とバリアを大幅に増加させる。
+  internal_aux_plating_hollowed__name:
+    text: 中空装甲
+  internal_aux_plating_hollowed__text:
+    text: 質量を削減するが耐久度とバリアがわずかに減少する。
+  internal_aux_plating_regenerative__name:
+    text: バリア装甲
+  internal_aux_plating_regenerative__text:
+    text: 質量が増加するが、バリア再生がわずかに上昇する。
+  internal_aux_plating_reinforced__name:
+    text: 強化装甲
+  internal_aux_plating_reinforced__text:
+    text: 質量とともに耐久度とバリアを大幅に増加させる。
+  internal_aux_projectile_r1__name:
+    text: 磁気ピン
+  internal_aux_projectile_r2__name:
+    text: 磁気ピン
+  internal_aux_projectile_r3__name:
+    text: 磁気ピン
+  internal_aux_range_r1__name:
+    text: スコープ
+  internal_aux_range_r2__name:
+    text: スコープ
+  internal_aux_range_r3__name:
+    text: スコープ
+  internal_aux_reactor_r1__name:
+    text: ジェネレーター MK1
+  internal_aux_reactor_r1__text:
+    text: 少量の動力を発生させ、第一反応炉を補う。機体速度を上昇させる。
+  internal_aux_reactor_r2__name:
+    text: ジェネレーター MK2
+  internal_aux_reactor_r2__text:
+    text: 動力を発生させ、第一反応炉を補う。機体速度を上昇させる。
+  internal_aux_reactor_r3__name:
+    text: ジェネレーター MK3
+  internal_aux_reactor_r3__text:
+    text: 大量の動力を発生させ、第一反応炉を補う。機体速度を上昇させる。
+  internal_aux_regenerator_r1__name:
+    text: 再生装置 MK1
+  internal_aux_regenerator_r1__text:
+    text: バリアの再生速度をわずかに強化する。
+  internal_aux_regenerator_r2__name:
+    text: 再生装置 MK2
+  internal_aux_regenerator_r2__text:
+    text: バリアの再生速度を強化する。
+  internal_aux_regenerator_r3__name:
+    text: 再生装置 MK3
+  internal_aux_regenerator_r3__text:
+    text: バリアの再生速度を大幅に強化する。
+  internal_aux_sensor_left_hybrid__name:
+    text: 複合センサー (L)
+  internal_aux_sensor_left_hybrid__text:
+    text: 副兵装の射程距離を延長し、拡散を抑制する。
+  internal_aux_sensor_left_range__name:
+    text: 測距センサー (L)
+  internal_aux_sensor_left_range__text:
+    text: 副兵装の射程距離を延長する。
+  internal_aux_sensor_left_scatter__name:
+    text: 精密センサー (L)
+  internal_aux_sensor_left_scatter__text:
+    text: 副兵装の拡散を抑制する。
+  internal_aux_sensor_right_hybrid__name:
+    text: 複合センサー (R)
+  internal_aux_sensor_right_hybrid__text:
+    text: 主兵装の射程距離を延長し、拡散を抑制する。
+  internal_aux_sensor_right_range__name:
+    text: 測距センサー (R)
+  internal_aux_sensor_right_range__text:
+    text: 主兵装の射程距離を延長する。
+  internal_aux_sensor_right_scatter__name:
+    text: 精密センサー (R)
+  internal_aux_sensor_right_scatter__text:
+    text: 主兵装の拡散を抑制する。
+  internal_aux_stagger_r1__name:
+    text: ショック弾頭
+  internal_aux_stagger_r2__name:
+    text: ショック弾頭
+  internal_aux_stagger_r3__name:
+    text: ショック弾頭
+  internal_aux_thermal_r1__name:
+    text: 熱弾頭
+  internal_aux_thermal_r2__name:
+    text: 熱弾頭
+  internal_aux_thermal_r3__name:
+    text: 熱弾頭
+  internal_aux_thrust_r1__name:
+    text: ブースター
+  internal_aux_thrust_r2__name:
+    text: ブースター
+  internal_aux_thrust_r3__name:
+    text: ブースター
+  internal_aux_thruster_distance__text:
+    text: 長距離ダッシュに最適化されているが、オーバーヒートしやすい。
+  internal_aux_thruster_endurance__text:
+    text: 発熱量と出力を抑えて調整されており、総合的な移動性能の向上のために距離を抑えている。
+  internal_aux_thruster_evasion__text:
+    text: 軽量だが、結果的に、他のスラスターと比べて性能は低い。
+  internal_aux_thruster_heavy__text:
+    text: 性能重視で調整されているが、大半のスラスターより重い。
+  internal_aux_thruster_hotrod__text:
+    text: 性能重視で調整されているが、結果的に発熱量が大きい。
+  internal_aux_thruster_sidestep__text:
+    text: 連続的な短距離移動に最適化されているが、長距離移動には適していない。
+  internal_aux_thruster_standard__text:
+    text: バランスの取れた性能に調整されている。
+  internal_aux_turnrate_right_r1__name:
+    text: 磁気軸受 R
+  internal_aux_turnrate_right_r2__name:
+    text: 磁気軸受 R
+  internal_aux_turnrate_right_r3__name:
+    text: 磁気軸受 R
+  perk_barrier_pos_r1__name:
+    text: バリア追加 I
+  perk_barrier_pos_r2__name:
+    text: バリア追加 II
+  perk_barrier_pos_r3__name:
+    text: バリア追加 III
+  perk_damage_pos_r1__name:
+    text: 攻撃力強化 I
+  perk_damage_pos_r2__name:
+    text: 攻撃力強化 II
+  perk_damage_pos_r3__name:
+    text: 攻撃力強化 III
+  perk_dissipation_pos_r1__name:
+    text: 冷却強化 I
+  perk_dissipation_pos_r2__name:
+    text: 冷却強化 II
+  perk_dissipation_pos_r3__name:
+    text: 冷却強化 III
+  perk_dps_pos_r1__name:
+    text: スーパーチャージ I
+  perk_dps_pos_r2__name:
+    text: スーパーチャージ II
+  perk_dps_pos_r3__name:
+    text: スーパーチャージ III
+  perk_duration_pos_r1__name:
+    text: 高速装填装置 I
+  perk_duration_pos_r2__name:
+    text: 高速装填装置 II
+  perk_duration_pos_r3__name:
+    text: 高速装填装置 III
+  perk_heat_pos_r1__name:
+    text: 放熱 I
+  perk_heat_pos_r2__name:
+    text: 放熱 II
+  perk_heat_pos_r3__name:
+    text: 放熱 III
+  perk_integrity_pos_r1__name:
+    text: 増加装甲 I
+  perk_integrity_pos_r2__name:
+    text: 増加装甲 II
+  perk_integrity_pos_r3__name:
+    text: 増加装甲 III
+  perk_mass_pos_r1__name:
+    text: 複合装甲 I
+  perk_mass_pos_r2__name:
+    text: 複合装甲 II
+  perk_mass_pos_r3__name:
+    text: 複合装甲 III
+  perk_power_pos_r1__name:
+    text: ブースト I
+  perk_power_pos_r2__name:
+    text: ブースト II
+  perk_power_pos_r3__name:
+    text: ブースト III
+  perk_range_distance_pos_r1__name:
+    text: 射程延長 I
+  perk_range_distance_pos_r2__name:
+    text: 射程延長 II
+  perk_range_distance_pos_r3__name:
+    text: 射程延長 III
+  perk_range_effective_pos_r1__name:
+    text: 可変照準 I
+  perk_range_effective_pos_r2__name:
+    text: 可変照準 II
+  perk_range_effective_pos_r3__name:
+    text: 可変照準 III
+  perk_scatter_idle_pos_r1__name:
+    text: 精密射撃 I
+  perk_scatter_idle_pos_r2__name:
+    text: 精密射撃 II
+  perk_scatter_idle_pos_r3__name:
+    text: 精密射撃 III
+  perk_scatter_pos_r1__name:
+    text: 安定化 I
+  perk_scatter_pos_r2__name:
+    text: 安定化 II
+  perk_scatter_pos_r3__name:
+    text: 安定化 II

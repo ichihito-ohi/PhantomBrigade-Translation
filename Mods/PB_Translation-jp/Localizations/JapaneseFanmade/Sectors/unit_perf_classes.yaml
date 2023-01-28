@@ -1,0 +1,35 @@
+entries:
+  dash_01_name:
+    text: 超短距離
+  dash_02_name:
+    text: 短距離
+  dash_03_name:
+    text: 中距離
+  dash_04_name:
+    text: 長距離
+  dash_05_name:
+    text: 超長距離
+  speed_01_name:
+    text: 超低速
+  speed_02_name:
+    text: 低速
+  speed_03_name:
+    text: 中速
+  speed_04_name:
+    text: 高速
+  weight_01_desc:
+    text: 軽量級の機体はどのメックと衝突しても転倒してしまう。
+  weight_01_name:
+    text: 軽量級
+  weight_02_desc:
+    text: 中量級の機体は同じ中量級や重量級のメックと衝突すると転倒してしまうが、軽量級機体と衝突しても転倒しない。
+  weight_02_name:
+    text: 中量級
+  weight_03_desc:
+    text: 重量級の機体は同じ重量級のメックと衝突すると転倒してしまうが、軽量級および中量級の機体と衝突しても転倒しない。
+  weight_03_name:
+    text: 重量級
+  weight_04_desc:
+    text: 超重量級の機体はどんな機体と衝突しても動じず転倒しない。
+  weight_04_name:
+    text: 超重量級

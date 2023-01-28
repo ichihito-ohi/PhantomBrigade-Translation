@@ -1,0 +1,61 @@
+entries:
+  unit_mech__header:
+    text: メック
+  unit_mech__text:
+    text: 有人メックは現代軍事組織を支えてきた基幹技術であり10年以上前から存在している。標準フレームは幅広い装備を搭載でき、無限の拡張性と専門性を可能としている。
+  unit_mech__vs_equipment_left_header:
+    text: シールド
+  unit_mech__vs_equipment_left_text:
+    text: 特定の方向からのダメージを受け止め、機体の一部を遮蔽することで、追加の保護を提供する。
+  unit_sentry__header:
+    text: 砲塔
+  unit_sentry__text:
+    text: 侵略軍が使用する定点防衛システム。重装甲と最新の動体センサーを備えており、旅団の予測エンジンを装備したメックを追跡できる数少ない機体のひとつとなっている。
+  unit_sentry__vs_core_header:
+    text: 土台
+  unit_sentry__vs_core_text:
+    text: 装甲化された土台。この部分に致命的なダメージを受けると砲塔が破壊される。
+  unit_sentry__vs_secondary_header:
+    text: 砲塔
+  unit_sentry__vs_secondary_text:
+    text: 周囲をスキャンしている。武器と弾薬を搭載している。この部分に致命的なダメージを受けると砲塔が破壊される。
+  unit_tank_elevated__header:
+    text: クローラー
+  unit_tank_elevated__text:
+    text: 最近就役した最先端の戦車。素早く車体を持ち上げ遮蔽越しに射撃し、身をかがめて防御姿勢をとることが可能。メックと共通のコンポーネントが使用されている。
+  unit_tank_elevated__vs_core_header:
+    text: 本体
+  unit_tank_elevated__vs_core_text:
+    text: 厳重に装甲化された戦車の中心部で、パイロットと反応炉を格納している。致命的なダメージを受けると、機体は破壊される。
+  unit_tank_elevated__vs_optional_left_header:
+    text: 左側面
+  unit_tank_elevated__vs_optional_left_text:
+    text: 車体を持ち上げて地面から浮かせることが可能な多関節履帯。この部分に致命的なダメージを受けると、機体が転倒する。
+  unit_tank_elevated__vs_optional_right_header:
+    text: 右側面
+  unit_tank_elevated__vs_optional_right_text:
+    text: 車体を持ち上げて地面から浮かせることが可能な多関節履帯。致命的なダメージを受けると、機体が転倒する。
+  unit_tank_elevated__vs_secondary_header:
+    text: 砲塔
+  unit_tank_elevated__vs_secondary_text:
+    text: 武器と弾薬を搭載している。致命的なダメージを受けると、機体が破壊される。
+  unit_tank_modular__header:
+    text: タンク
+  unit_tank_modular__text:
+    text: 侵略軍が使用する主力戦車。性能向上した最新の複合装甲と電子装備を備えた設計は時代の転換期をもたらした。最新型はメック用武器を懸架可能な互換砲塔をもつ。
+  unit_tank_modular__vs_core_header:
+    text: 本体
+  unit_tank_modular__vs_core_text:
+    text: 厳重に装甲化された戦車の中心部で、パイロットと反応炉を格納している。致命的なダメージを受けると、機体は破壊される。
+  unit_tank_modular__vs_optional_left_header:
+    text: 左側面
+  unit_tank_modular__vs_optional_left_text:
+    text: 側面装甲と履帯。致命的なダメージを受けると、機体が転倒する。
+  unit_tank_modular__vs_optional_right_header:
+    text: 右側面
+  unit_tank_modular__vs_optional_right_text:
+    text: 側面装甲と履帯。致命的なダメージを受けると、機体が転倒する。
+  unit_tank_modular__vs_secondary_header:
+    text: 砲塔
+  unit_tank_modular__vs_secondary_text:
+    text: 武器と弾薬を搭載している。致命的なダメージを受けると、機体が破壊される。

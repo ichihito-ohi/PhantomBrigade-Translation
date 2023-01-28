@@ -1,0 +1,45 @@
+entries:
+  battery__desc:
+    text: 移動基地が異なる移動モードを発動できるようにします。移動基地が通常移動モードの間に時間経過で充電します。
+  battery__name:
+    text: バッテリー
+  components_r2__desc:
+    text: 高性能電子部品や軍用グレードの複合素材、そのほかの貴重な部品。 Tier 2 装備の建造に使用可能。
+  components_r2__name:
+    text: アンコモン・モジュール
+  components_r3__desc:
+    text: 実験段階の材料、プロトタイプから抜き取ったシステム、特異な特性を持つ合金およびポリマー。 Tier 3 装備の建造に使用可能。
+  components_r3__name:
+    text: レア・モジュール
+  item_block_combat__desc:
+    text: 移動基地がパトロールと遭遇したときに逃げる選択肢が増える。起動すると、敵を一時的に無力化して戦闘を中止させる。
+  item_block_combat__name:
+    text: 発煙弾
+  item_block_escalation__desc:
+    text: 敵のスキャナーに干渉する。戦闘前に起動すると、レーダー上では移動基地が民間人のように映り、敵が最大戦力を送ってこなくなる。高エスカレーション・レベルの州で危険なパトロールに捕まった場合に有用。
+  item_block_escalation__name:
+    text: スキャン妨害装置
+  item_block_reinforcements__desc:
+    text: 敵の無線と測位機能に干渉する。戦闘前に起動すると、付近の適期が戦闘に合流しなくなる。一度に複数のパトロールと交戦したくない場合に有用。。
+  item_block_reinforcements__name:
+    text: 通信妨害装置
+  item_drone_decoy__desc:
+    text: 周囲をスキャンして移動基地の痕跡に擬態しながら、限られた範囲内で指定した目的地に移動する。周囲の偵察や経路から敵を遠ざける場合に有用。
+  item_drone_decoy__name:
+    text: デコイドローン
+  item_rain_sensor__desc:
+    text: 雨天でもセンサーが遠くまで届くようになる使い捨ての装置。短時間で効果が切れるため、ここぞという時に使うと良い。
+  item_rain_sensor__name:
+    text: 雨天スキャナー
+  repair_juice__desc:
+    text: 戦闘後の機体修理や戦闘中のバリア再生に使用するポリマー混合液。
+  repair_juice__name:
+    text: 修復液
+  supplies__desc:
+    text: 標準的な加工材料および一般的な複合素材や電子部品。コモン装備の建造に使用可能。
+  supplies__name:
+    text: 物資
+  visual_hope__name:
+    text: 希望
+  visual_reputation__name:
+    text: 評判

@@ -1,0 +1,67 @@
+entries:
+  generic_action_move_header:
+    text: 移動を計画せよ
+  generic_breakin_objective_cache_header:
+    text: 貯蔵庫入口
+  generic_breakin_objective_cache_text:
+    text: 確保するためにメックを貯蔵庫入口に移動させろ。
+  generic_breakin_objective_hostiles_header:
+    text: 警備兵を排除する
+  generic_breakin_objective_hostiles_text:
+    text: 敵機をすべて倒せ。
+  generic_breakin_turn_text:
+    text: 貯蔵庫入口が敵に確保されている限り、増援が現れる可能性がある。
+  generic_enemy_delay_header:
+    text: 敵が再考中
+  generic_enemy_delay_text:
+    text: 現地の敵機体をすべて殲滅したことで敵機体は プランを再考せざるを得なくなりました。これが済むまで敵は出撃しません。この時間を使って脱出させましょう。
+  generic_enemy_reinforcements_header:
+    text: 増援
+  generic_enemy_reinforcements_text:
+    text: まもなく敵増援が着陸する見込みだ。
+  generic_enemy_vip_arriving_text:
+    text: まもなく敵の重要標的が着陸する見込みだ。
+  generic_objective_a_header:
+    text: 目標 A
+  generic_objective_b_header:
+    text: 目標 B
+  generic_objective_loot_header:
+    text: 物資を盗む
+  generic_objective_loot_text:
+    text: 確保するためにマークされた物資の所へメックを移動させましょう。
+  generic_retreat_condition_header:
+    text: 撤退条件
+  generic_retreat_condition_text:
+    text: すべての敵を殲滅すると勝利の上で撤退できるようになります。
+  generic_unknown_header:
+    text: 目標不明
+  generic_unknown_text:
+    text: 情報なし
+  liberation_description:
+    text: 希望を上げるには、この歴史的建造物を破壊されないようにしてください。
+  liberation_header:
+    text: 施設を防衛せよ
+  reinforcements_friendly_header:
+    text: 友軍が接近中
+  reinforcements_friendly_text:
+    text: 救援要請を受けて祖国防衛軍が我々の位置に向かっています。
+  reinforcements_hostile_header:
+    text: 追加の増援
+  reinforcements_hostile_text:
+    text: 他の標的がこの戦闘に感づきました。分隊が近くの部隊を離れ、まもなくこちらに離陸する見込みです。
+  retreat_incoming_negative_header:
+    text: 撤退状況
+  retreat_incoming_negative_text:
+    text: 撤収は不可能です。
+  retreat_incoming_positive_header:
+    text: 撤退状況
+  retreat_incoming_positive_text:
+    text: 撤収可能。撤退すれば敗北となります。
+  retreat_possible_negative_header:
+    text: 撤退状況
+  retreat_possible_negative_text:
+    text: 撤収可能。撤退すれば敗北となります。
+  retreat_possible_positive_header:
+    text: 撤退状況
+  retreat_possible_positive_text:
+    text: 撤収可能。撤収して簡単に勝利達成とするか、留まって敵を殲滅しより多くの報酬を手に入れましょう。
