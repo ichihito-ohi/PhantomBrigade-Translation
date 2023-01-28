@@ -32,14 +32,14 @@ C:\Users\[username]\AppData\Local\PhantomBrigade\Settings
     - 追記：一部古い情報が含まれます。
 
 ### 日本語化 Mod の有効化
-- [解説動画 @YouTube](https://youtu.be/wSLrug7lZqs)
-    - 追記：一部古い情報が含まれます。
-
 ダウンロードした `Mods/PB_Translation-jp` フォルダを、以下のフォルダ内に追加してください。
 ```
 C:\Users\[username]\AppData\Local\PhantomBrigade\Mods
 ```
 ゲームを起動して、日本語で表示されたら成功です。
+
+- [解説動画 @YouTube](https://youtu.be/wSLrug7lZqs)
+    - 追記：一部古い情報が含まれます。
 
 ### 上記手順で有効化されない場合
 
