@@ -1,0 +1,117 @@
+entries:
+  attack_primary_name:
+    text: 攻撃（主）
+  attack_primary_text:
+    text: 指定した標的に主兵装を発射します。
+  attack_secondary_name:
+    text: 攻撃（副）
+  attack_secondary_text:
+    text: 指定した標的に副兵装を発射します。
+  attack_vehicle_name:
+    text: 攻撃
+  attack_vehicle_text:
+    text: 指定した標的に射撃します。
+  crash_name:
+    text: 衝突
+  crash_text:
+    text: 衝突または部位破壊の結果、計画されていたアクションはすべて中断されます。タイムラインに復帰までの所要時間が示されます。
+  dash_name:
+    text: ダッシュ
+  dash_text:
+    text: 'スラスターを起動して、指定した地点に向けて跳躍します。攻撃の回避や有利な地点への移動に役立ちます。ミサイルのロックを外し、直撃を防ぎます。 '
+  default_mode_path_drawing_header:
+    text: 目標地点を設定
+  default_mode_path_drawing_tooltip:
+    text: 連続して複数の移動を設定して、機体の経路を細かく制御することが可能です。
+  default_mode_replay_header:
+    text: リプレイ
+  default_mode_replay_tooltip:
+    text: 直前の5秒間の戦闘を見ます。
+  default_mode_simulating_header:
+    text: 実行開始
+  default_mode_simulating_tooltip:
+    text: フィールド上の全機がプランを実行に移します！
+  default_mode_targeting_locations_header:
+    text: 標的位置を設定
+  default_mode_targeting_locations_tooltip:
+    text: 標的位置を選択して、本アクションを確定します。
+  default_mode_targeting_units_header:
+    text: 標的機体を設定
+  default_mode_targeting_units_tooltip:
+    text: 標的機体を選択して、本アクションを確定します。
+  default_mode_time_placement_header:
+    text: タイミングを設定
+  default_mode_time_placement_tooltip:
+    text: 選択したアクションについてタイミングを選択します。
+  default_mode_wait_drawing_header:
+    text: 時間/方向を設定
+  default_mode_wait_drawing_tooltip:
+    text: 待機時間と機体の向く方向を設定します。カーソルまでの距離で待機時間を決めます。
+  eject_name:
+    text: 緊急脱出
+  eject_text:
+    text: 脱出ポッドを発動させ、パイロットを戦場から救出します。残りの戦闘で機体は操作不能になります。
+  melee_fallback_mode_targeting_locations_header:
+    text: 目標地点を設定
+  melee_fallback_mode_targeting_locations_tooltip:
+    text: ダッシュ先を選択します。機体は経路上のすべてにダメージを与えます。
+  melee_fallback_name:
+    text: 近接攻撃
+  melee_fallback_text:
+    text: 専用武器無しで咄嗟に近接攻撃を実行します。ダメージは犠牲になります。
+  melee_primary_mode_targeting_locations_header:
+    text: 目標地点を設定
+  melee_primary_mode_targeting_locations_tooltip:
+    text: ダッシュ先を選択します。機体は経路上のすべてにダメージを与えます。 Ctrl 長押しでどちら側に攻撃を当てるか選択します。
+  melee_primary_name:
+    text: 近接攻撃（主）
+  melee_primary_text:
+    text: 主兵装で近距離攻撃を実行します。
+  melee_secondary_mode_targeting_locations_header:
+    text: 目標地点を設定
+  melee_secondary_mode_targeting_locations_tooltip:
+    text: ダッシュ先を選択します。機体は経路上のすべてにダメージを与えます。 Ctrl 長押しでどちら側に攻撃を当てるか選択します。
+  melee_secondary_name:
+    text: 近接攻撃（副）
+  melee_secondary_text:
+    text: 副兵装で近距離攻撃を実行します。
+  move_limp_name:
+    text: 足を引きずる
+  move_limp_text:
+    text: 推進システムが損傷したまま機体を移動します。速度はより遅くなります。
+  move_run_name:
+    text: 走る
+  move_run_text:
+    text: 目標地点まで全速力で移動します。下半身が完全に無傷な機体だけが可能です。
+  move_vehicle_name:
+    text: 走る
+  move_vehicle_text:
+    text: 目標地点まで全速力で移動します。下半身が完全に無傷な機体だけが可能です。
+  reaction_attack_primary_name:
+    text: 攻撃スキャン（主）
+  reaction_attack_primary_text:
+    text: 敵が範囲内に侵入したら反応して主兵装で攻撃します。
+  reaction_attack_secondary_name:
+    text: 攻撃スキャン（副）
+  reaction_attack_secondary_text:
+    text: 敵が範囲内に侵入したら反応して副兵装で攻撃します。
+  reaction_attack_vehicle_name:
+    text: 攻撃スキャン
+  reaction_attack_vehicle_text:
+    text: 敵が範囲内に侵入したら反応して攻撃します。
+  reaction_shield_name:
+    text: シールドスキャン
+  reaction_shield_text:
+    text: 敵が範囲内に侵入するとシールドで反応します。
+  retreat_name:
+    text: 撤退
+  retreat_text:
+    text: 戦闘から撤退します。有効な撤退ゾーン内にいる場合にのみ実行可能です。
+  shield_name:
+    text: シールド
+  shield_text:
+    text: シールドを構えて、特定方向の攻撃を弾きます。機体の重量階級を上昇させます。
+  wait_name:
+    text: 待機
+  wait_text:
+    text: 指定した方向を向いて機体を待機させます。使用上の注意―被弾中に一瞬でも足を止めると損害につながります！

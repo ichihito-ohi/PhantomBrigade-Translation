@@ -1,0 +1,25 @@
+entries:
+  core__name:
+    text: 上半身
+  core__text:
+    text: パイロットと反応炉を支える。上半身が破壊されると、機体は不可逆的なダメージを受け、パイロットは死亡する。この部品が致命的なダメージを受けている場合は緊急脱出せよ。
+  equipment_left__name:
+    text: 副兵装
+  equipment_left__text:
+    text: 軽火器およびシールド用の装備スロット。
+  equipment_right__name:
+    text: 主兵装
+  equipment_right__text:
+    text: 武器用の汎用装備スロット。
+  optional_left__name:
+    text: 左腕
+  optional_left__text:
+    text: 左上半身を防御する。致命的なダメージを受けると副兵装を失う。
+  optional_right__name:
+    text: 右腕
+  optional_right__text:
+    text: 右上半身を防御する。致命的なダメージを受けると主兵装を失う。
+  secondary__name:
+    text: 下半身
+  secondary__text:
+    text: 機体を支え移動を司る。致命的なダメージで移動速度が制限される。

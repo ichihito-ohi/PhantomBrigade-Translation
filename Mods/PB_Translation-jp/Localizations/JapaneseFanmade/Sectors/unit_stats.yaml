@@ -1,0 +1,178 @@
+entries:
+  act_count__desc:
+    text: 武器を使用した時の発射回数。
+  act_count__name:
+    text: 発射回数
+  act_duration__desc:
+    text: 射撃（またはその他の関連動作）にかかる時間。
+  act_duration__name:
+    text: 所要時間
+  act_heat__desc:
+    text: 部品を使用する際に生じる発熱量。 バリア
+  act_heat__name:
+    text: 発熱量
+  barrier__desc:
+    text: '回復する外部装甲。先にダメージを吸収し、部品の耐久度を保護する。
+
+
+      機体が被弾していない間、時間経過で回復する。回復には修復液を消費する。'
+  barrier__name:
+    text: バリア
+  barrier_regeneration__desc:
+    text: 1秒あたりに回復できるバリアの割合。例えば、値が0.1の場合はメックが1秒あたり10%のバリア層を回復できることを示す。
+  barrier_regeneration__name:
+    text: バリア回復
+  comp2_value__desc:
+    text: この装備を分解したときに抽出できるアンコモン・モジュールの数。
+  comp2_value__name:
+    text: 価値 - アンコモン
+  comp3_value__desc:
+    text: この装備を分解したときに抽出できるレア・モジュールの数。
+  comp3_value__name:
+    text: 価値 - レア
+  drv_dash_distance__desc:
+    text: 機体が跳躍可能な距離。機体質量に相殺されたスラスター出力に依存する―高出力または低質量なほど、この距離は伸びる。
+  drv_dash_distance__name:
+    text: ダッシュ距離
+  drv_ehp__desc:
+    text: 有効ヘルスポイント（EHP）は耐久度とバリアの合計でバリアサイズ増大による影響を考慮した値。
+  drv_pmr__desc:
+    text: この機体の質量と出力の比較。
+  drv_pmr__name:
+    text: 出力 / 質量 差
+  drv_rlp__desc:
+    text: 反応炉が支えられる質量。
+  drv_rlp__name:
+    text: 反応炉推力
+  drv_speed__desc:
+    text: 機体の走行速度。機体質量に相殺された反応炉出力に依存する―高出力または低質量なほど、この速度は向上する。
+  drv_speed__name:
+    text: 速度
+  drv_weight_class__desc:
+    text: 質量に依存し、衝突耐性を決定する。より軽い重量階級との衝突は無視できる。
+  drv_weight_class__name:
+    text: 重量階級
+  heat_dissipation__desc:
+    text: 機体が1秒あたりに放出できる熱の量。この値が高いほど、機体が継続可能な射撃頻度も高くなる。
+  heat_dissipation__name:
+    text: 放熱
+  hp__desc:
+    text: '従来の複合素材から作られた内部装甲層。かなり耐性はあるが、ダメージを受けた場合は修理が必要になる。 '
+  hp__name:
+    text: 耐久度
+  mass__desc:
+    text: 重量階級、移動速度、ダッシュ距離に影響する。
+  mass__name:
+    text: 質量
+  overheat_chance__desc:
+    text: 機体が最大熱レベルに達した時にオーバーヒートする確率。
+  overheat_chance__name:
+    text: オーバーヒート発生率
+  overheat_limit__desc:
+    text: 機体に蓄積できる最大熱量。しきい値を大きく超えたオーバーヒートは危険で、通常の動作にすぐに戻ることができなくなる。
+  overheat_limit__name:
+    text: オーバーヒート限界
+  overheat_threshold__desc:
+    text: 機体がオーバーヒートせずに蓄えられる熱の量。値が高いほど、放熱のために一時停止することなく、機体がより長く射撃できるようになる。
+  overheat_threshold__name:
+    text: 熱容量
+  power__desc:
+    text: 反応炉コア・サブシステムの出力。質量を相殺し、移動速度を決定する。
+  power__name:
+    text: 出力
+  scrap_value__desc:
+    text: この装備を分解したときに抽出できる物資の数。
+  scrap_value__name:
+    text: 価値 - 物資
+  thruster_power__desc:
+    text: スラスター・サブシステムの出力。質量を相殺し、ダッシュ距離を決定する。
+  thruster_power__name:
+    text: 推力
+  wpn_concussion__desc:
+    text: パイロットが受けるダメージ。あまりに多くの衝撃ダメージを受けるとパイロットが気絶する。敵機を無傷で確実にサルベージするのに有用。
+  wpn_concussion__name:
+    text: 衝撃
+  wpn_damage__desc:
+    text: 機体耐久度とバリアへの直接ダメージ。
+  wpn_damage__name:
+    text: 物理
+  wpn_damage_buildup__desc:
+    text: ダメージが最大限に達するまでにかかる時間。
+  wpn_damage_buildup__name:
+    text: ダメージ蓄積
+  wpn_damage_from_mass__desc:
+    text: 本機の質量1トンあたりの追加ダメージ。
+  wpn_damage_from_mass__name:
+    text: 質量比例ダメージ
+  wpn_damage_radius__desc:
+    text: 爆発時の炸裂ダメージが届く距離。
+  wpn_damage_radius__name:
+    text: ダメージ半径
+  wpn_heat__desc:
+    text: 標的の温度を上昇させ、オーバーヒートさせることが可能。標的が熱を発生させるアクションを実行している間が最も有効。
+  wpn_heat__name:
+    text: 熱
+  wpn_impact__desc:
+    text: 建造物へのダメージ。遮蔽の破壊に有用。
+  wpn_impact__name:
+    text: 衝撃
+  wpn_impact_radius__desc:
+    text: 爆発時に建造物へダメージが届く距離。
+  wpn_impact_radius__name:
+    text: 衝撃半径
+  wpn_penetration_charges__desc:
+    text: 投射体が遮蔽や機体を貫通できるようになる。投射体が機体や構造物に衝突すると消耗する。チャージを消耗するたびにダメージは低下する。
+  wpn_penetration_charges__name:
+    text: 貫通チャージ
+  wpn_penetration_damagek__desc:
+    text: チャージ損失あたりのダメージ低下率。
+  wpn_penetration_damagek__name:
+    text: 貫通ペナルティ
+  wpn_penetration_geomcost__desc:
+    text: 遮蔽1タイルを貫通する際に消費する貫通チャージの数。
+  wpn_penetration_geomcost__name:
+    text: 建造物貫通コスト
+  wpn_penetration_unitcost__desc:
+    text: 機体1機を貫通する際に消費する貫通チャージの数。
+  wpn_penetration_unitcost__name:
+    text: 機体貫通コスト
+  wpn_proj_lifetime__desc:
+    text: 投射体が飛翔中に崩壊したり無力化したりするまでの時間。
+  wpn_proj_lifetime__name:
+    text: 投射体寿命
+  wpn_proj_ricochet__desc:
+    text: 投射体が掠めて当たったときに跳弾する可能性。
+  wpn_proj_ricochet__name:
+    text: 跳弾確率
+  wpn_range_max__desc:
+    text: 最大推奨距離。
+  wpn_range_max__name:
+    text: 射程距離（最大）
+  wpn_range_min__desc:
+    text: 最小推奨距離。
+  wpn_range_min__name:
+    text: 射程距離（最小）
+  wpn_scatter_angle__desc:
+    text: 投射体が拡散する円錐の角度。拡散が小さいほど、より遠くでの精密射撃が可能。
+  wpn_scatter_angle__name:
+    text: 拡散（静止中）
+  wpn_scatter_angle_moving__desc:
+    text: 投射体が拡散する円錐の角度。拡散が小さいほど、より遠くでの精密射撃が可能。
+  wpn_scatter_angle_moving__name:
+    text: 拡散（移動中）
+  wpn_scatter_radius__desc:
+    text: 誘導投射体の最大偏差。
+  wpn_scatter_radius__name:
+    text: 誘導拡散
+  wpn_speed__desc:
+    text: 投射体が武器から出るときの速度
+  wpn_speed__name:
+    text: 投射体速度
+  wpn_stagger__desc:
+    text: 機体を一時的に不安定化させ、衝突や転倒に対して無防備にすることが可能。震動ポイントごとに重量クラスが一段階下がる。
+  wpn_stagger__name:
+    text: 震動
+  wpn_turnrate_limit__desc:
+    text: 射撃中の機体旋回速度を制限する。この値が大きいと、速く旋回しても制限を受けない。
+  wpn_turnrate_limit__name:
+    text: 限界旋回速度

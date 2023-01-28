@@ -1,0 +1,17 @@
+entries:
+  all__header:
+    text: すべて
+  all__text:
+    text: 利用可能な加工室プロジェクトをすべて表示する。
+  body__header:
+    text: 本体部品
+  body__text:
+    text: メック本体部品のプロジェクトを表示する。
+  item__header:
+    text: 武器およびシールド
+  item__text:
+    text: 武器とシールドのプロジェクトを表示する。
+  utility__header:
+    text: 支援
+  utility__text:
+    text: 新規機体や補助サブシステムのプロジェクトを表示する。

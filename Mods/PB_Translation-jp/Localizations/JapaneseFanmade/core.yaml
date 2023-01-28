@@ -1,0 +1,15 @@
+hidden: false
+group: 2
+name: 日本語（有志）
+flag: icon_flag_japanese
+font: jp
+subtitleBuffer: 
+subtitleFadeoutTime: 2
+insertNewLines: false
+widthSubtitle: 360
+sizeSubtitle: 20
+sizeHint: 20
+sizeTooltipHeader: 20
+sizeTooltipContent: 16
+spacingTooltipHeader: 2
+pseudolocMode: false

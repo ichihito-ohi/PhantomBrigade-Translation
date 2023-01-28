@@ -1,0 +1,9 @@
+entries:
+  diff_incoming_damage__header:
+    text: 被ダメージ
+  diff_incoming_damage__text:
+    text: 被ダメージ倍率
+  diff_outgoing_damage__header:
+    text: 与ダメージ
+  diff_outgoing_damage__text:
+    text: 与ダメージ倍率

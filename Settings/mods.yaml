@@ -1,3 +1,5 @@
 enabled: true
 loadFromApplicationPath: false
-list: 
+list:
+- directory: PB_Translation-jp
+  enabled: true

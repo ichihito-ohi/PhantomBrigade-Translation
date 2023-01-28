@@ -1,0 +1,29 @@
+entries:
+  prt_item_melee_primary_any_header:
+    text: 近接武器
+  prt_item_melee_sidearam_any_header:
+    text: 近接武器
+  utl_cons_block_combat_header:
+    text: 発煙弾
+  utl_cons_block_combat_text:
+    text: 発煙弾により、敵を一時的に無力化して、移動基地がパトロールから逃げられるようになる。
+  utl_cons_block_escalation_header:
+    text: スキャン妨害装置
+  utl_cons_block_escalation_text:
+    text: スキャン妨害装置は高解像度スキャンに干渉する。妨害により、スキャン上では移動基地が民間車両のように映るため、敵がより小規模な部隊を派遣しやすくなる。
+  utl_cons_block_reinforcements_header:
+    text: 通信妨害装置
+  utl_cons_block_reinforcements_text:
+    text: 通信妨害装置は敵の無線と測位機能に干渉する。妨害により、周辺の敵機が戦闘に参加することを防ぐ。
+  utl_cons_drone_decoy_header:
+    text: デコイドローン
+  utl_cons_drone_decoy_text:
+    text: 一定範囲内の目的地に向けてデコイドローンを出撃させ、スキャン中に移動基地のセンサー痕跡を模擬する。偵察や経路から敵を遠ざける場合に有用。
+  utl_cons_rain_sensor_header:
+    text: 雨天センサー
+  utl_cons_rain_sensor_text:
+    text: 雨天センサーを1つ製造する。
+  utl_unit_frame_header:
+    text: メック・フレーム
+  utl_unit_frame_text:
+    text: ハンガーに新しい空のフレームを追加し、部品を取り付ける準備をする。

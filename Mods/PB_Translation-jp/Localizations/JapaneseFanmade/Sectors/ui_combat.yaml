@@ -1,0 +1,313 @@
+entries:
+  action_tooltip_heat_header:
+    text: 発熱
+  action_tooltip_heat_text:
+    text: このアクションは機体を加熱します。タイムライン上でアクションの間隔を空けることでオーバーヒートを回避しましょう。
+  action_tooltip_irreversible_header:
+    text: 不可逆
+  action_tooltip_irreversible_text:
+    text: このアクションを行うと機体が戦闘から除外されます。一度実行すると元に戻すことはできません。
+  action_tooltip_offensive_header:
+    text: 攻撃
+  action_tooltip_offensive_text:
+    text: これは攻撃アクションで、取り付けられた武器を使用します。武器情報は画面右下で確認できます。
+  dialog_no_orders_desc:
+    text: 命令を受けていない機体がいます。続行してよろしいですか？
+  dialog_no_orders_header:
+    text: 命令のない機体
+  end_continue:
+    text: 続ける
+  end_detail_defeat_early:
+    text: 移動基地は機体を回収して現地から撤退したが、現地は未だ敵の制圧下だ。次こそは倒せるはずだ！
+  end_detail_defeat_total:
+    text: 機体は失ったが、移動基地はなんとか脱出した。現地は未だ敵の制圧下だ。次こそは倒せるはずだ！
+  end_detail_victory_early:
+    text: おめでとう！移動基地は我々の機体を確保し、目標はすべて達成された。敵が去ったことで、現地はあなたが制圧した。
+  end_detail_victory_total:
+    text: おめでとう！敵は倒され、現地はあなたが制圧した。
+  end_header_defeat_early:
+    text: 撤退
+  end_header_defeat_total:
+    text: 敗北
+  end_header_victory_early:
+    text: 勝利
+  end_header_victory_total:
+    text: 勝利
+  end_subtitle_defeat_early:
+    text: 部隊は目標を達成せずに脱出した。
+  end_subtitle_defeat_total:
+    text: すべての機体が失われた
+  end_subtitle_victory_early:
+    text: 部隊は早期に脱出したが、目標はすべて達成された。
+  end_subtitle_victory_total:
+    text: 敵がすべて排除された。現地を制圧した。
+  mode_context_both:
+    text: タイムライン・フィールド上
+  mode_context_timeline:
+    text: タイムライン上
+  mode_context_world:
+    text: フィールド上
+  mode_tooltip_contact_header:
+    text: 接触
+  overlay_flag_concussed:
+    text: 気絶
+  overlay_flag_crash:
+    text: 転倒
+  overlay_flag_destroyed:
+    text: 破壊済み
+  overlay_flag_ejected:
+    text: 脱出済
+  overlay_flag_overheat:
+    text: オーバーヒート
+  overlay_flag_reaction_fired:
+    text: 反応
+  overlay_flag_reaction_triggered:
+    text: 検知
+  pilot_health_damage_concussion:
+    text: 気絶までのダメージ
+  pilot_health_damage_death:
+    text: 死亡までのダメージ
+  pilot_health_deployment:
+    text: 出撃時の体力
+  pilot_health_desc_enemy:
+    text: この敵パイロットが気絶するまでの残り体力。衝撃武器を使ってパイロット・ヘルスにダメージを与えましょう。
+  pilot_health_desc_friendly:
+    text: パイロットが気絶するまでの残り体力。衝撃武器のダメージを避けて気絶を防ぎましょう。
+  pilot_health_max:
+    text: 体力最大
+  pilot_health_tooltip_header:
+    text: パイロット体力
+  pilot_risk_death:
+    text: 死亡の危険性あり！
+  pilot_risk_death_desc_enemy:
+    text: この敵パイロットが致命傷を負うまでの残り体力。衝撃武器を使ってパイロット・ヘルスにダメージを与えましょう。
+  pilot_risk_death_desc_friendly:
+    text: パイロットが致命傷を負うまでの残り体力。衝撃武器のダメージを避けましょう―死んだパイロットはもう戻ってきません！
+  pilot_status_concussion_desc_enemy:
+    text: 敵パイロットは衝撃武器で気絶しました。その機体は無傷―サルベージの絶好の機会です！
+  pilot_status_concussion_desc_friendly:
+    text: パイロットは衝撃武器が当たって気絶しました。戦いに勝って彼らを生還させましょう！負ければ蘇生できなくなります。
+  pilot_status_concussion_header:
+    text: 気絶
+  pilot_status_concussion_subheader:
+    text: 'パイロット
+
+      気絶'
+  pilot_status_crashed_desc:
+    text: この機体は衝突または部品が破壊されたことで制御不能状態です。事前に計画されていたアクションはすべて中断されました。
+  pilot_status_crashed_header:
+    text: 転倒
+  pilot_status_crashed_subheader:
+    text: '機体
+
+      衝突'
+  pilot_status_deceased_concussion_desc_enemy:
+    text: 敵のパイロットは衝撃武器のダメージにより死亡しました。その機体から装備をサルベージできるかもしれません。
+  pilot_status_deceased_concussion_desc_friendly:
+    text: パイロットは衝撃武器のダメージにより死亡しました。体力があり、怪我をしていないパイロットを送り込むことを忘れないでください。そのほうが生き残る可能性が高くなります。
+  pilot_status_deceased_core_desc_enemy:
+    text: この敵パイロットは機体の反応炉コアが爆発して死亡しました。
+  pilot_status_deceased_core_desc_friendly:
+    text: パイロットは機体の反応炉コアが爆発して死亡しました。緊急脱出が間に合えば確実に生還できたかもしれません。
+  pilot_status_deceased_header:
+    text: 死亡
+  pilot_status_deceased_subheader:
+    text: 'パイロット
+
+      死亡'
+  pilot_status_ejected_desc_enemy:
+    text: 敵パイロットは緊急脱出ました。機体は無傷のまま―サルベージの絶好の機会です！
+  pilot_status_ejected_desc_friendly:
+    text: パイロットは本機から緊急脱出しました。交戦区域の近くに着地する見込みです。速やかに救出して生存を確認してください。
+  pilot_status_ejected_header:
+    text: 脱出済
+  pilot_status_ejected_subheader:
+    text: 'パイロット
+
+      脱出済'
+  scenario_imminent:
+    text: 切迫
+  scenario_incoming_units:
+    text: 機体接近
+  scenario_pings_left:
+    text: Ping 回数
+  scenario_turns_left:
+    text: 残りターン数
+  startup_hint_skip:
+    text: '[b]Esc[/b] または [b]Space[/b] を押してスキップ。'
+  startup_unknown_region:
+    text: 地域不明
+  targeting_barrier_damage:
+    text: 'バリア
+
+      ダメージ'
+  targeting_blocked:
+    text: 遮蔽物あり
+  targeting_coverage:
+    text: 範囲
+  targeting_damage:
+    text: ダメージ
+  targeting_damage_at_range:
+    text: 減衰後ダメージ
+  targeting_environment_hint:
+    text: '機体をクリックして標的ロック。
+
+      任意地点を狙うには、 [ffcc77]Ctrl[-] 長押し。'
+  targeting_heat:
+    text: 熱
+  targeting_integrity_damage:
+    text: '耐久度
+
+      ダメージ'
+  targeting_left_weapon:
+    text: 左兵装
+  targeting_low_hit_chance:
+    text: 命中率低下
+  targeting_optimal_range:
+    text: 適正距離
+  targeting_out_of_range:
+    text: 範囲外
+  targeting_pilot_hp:
+    text: パイロット HP
+  targeting_pilot_knocked_out:
+    text: パイロット気絶
+  targeting_scatter:
+    text: 拡散
+  targeting_stagger:
+    text: 震動
+  targeting_too_close:
+    text: 距離不足
+  targeting_triggered_reaction:
+    text: '反撃発動 '
+  time_button_full:
+    text: 等速
+  time_button_half:
+    text: 1/2
+  time_button_slow:
+    text: 低速
+  time_mirror:
+    text: 反復
+  time_once:
+    text: 単発
+  time_pause:
+    text: 一時停止
+  time_paused:
+    text: 一時停止
+  time_playing:
+    text: 再生中
+  time_repeat:
+    text: リピート
+  time_speed_full:
+    text: 等速再生
+  time_speed_half:
+    text: 1/2 再生
+  time_speed_slow:
+    text: スローモーション
+  timeline_boot_desc:
+    text: '予測システム
+
+      使用準備完了'
+  timeline_boot_header:
+    text: 起動
+  timeline_button_plan:
+    text: プラン
+  timeline_button_replay:
+    text: リプレイ
+  timeline_confirm_removal:
+    text: '削除
+
+      しますか'
+  timeline_execute:
+    text: 実行
+  timeline_execution_total_time:
+    text: 合計時間
+  timeline_execution_turn:
+    text: ターン
+  timeline_finalize_order:
+    text: '命令を確定して
+
+      続行'
+  timeline_heat_warning:
+    text: 'オーバーヒート：
+
+      機体にダメージ発生'
+  timeline_late_desc:
+    text: ここから先にアクションを配置することはできません。
+  timeline_late_header:
+    text: 範囲外
+  timeline_lock_desc:
+    text: '目標を遂行して
+
+      続行'
+  timeline_lock_header:
+    text: ロック中
+  timeline_overlap_desc:
+    text: 攻撃などの二次アクションを重複させることはできません。しかし、機体は攻撃と移動を同時に行うことはできます。
+  timeline_overlap_header:
+    text: 重複
+  timeline_status_normal_desc:
+    text: 予測限界到達
+  timeline_status_paused_desc:
+    text: カーソルを合わせて移動
+  timeline_status_paused_header:
+    text: 一時停止
+  timeline_status_playing_desc:
+    text: カーソルを合わせて中断
+  timeline_status_playing_header:
+    text: 再生中
+  timeline_status_warning_desc:
+    text: 次のターンまで予測中
+  timeline_status_warning_header:
+    text: 警告: 精度低下
+  timeline_tooltip_heat_header:
+    text: 熱
+  timeline_tooltip_heat_text:
+    text: 温度が高いと時間とともに機体がダメージを受ける可能性があります。攻撃やその他の発熱するアクションの間隔を空けて、機体にクールダウンの時間を設けましょう。機体がオーバーヒートすると、パイロットが自動的に緊急脱出します。
+  turn_header:
+    text: ターン
+  unit_barrier:
+    text: バリア
+  unit_health_full:
+    text: フル
+  unit_health_none:
+    text: なし
+  unit_info_blueprint_hint:
+    text: 耐久度
+  unit_info_targeted_hint:
+    text: 目標機体
+  unit_integrity:
+    text: 耐久度
+  unit_prefix_allied:
+    text: 同盟軍
+  unit_prefix_hostile:
+    text: 敵軍側
+  unit_prefix_squad:
+    text: 部隊
+  unit_tooltip_crashing:
+    text: 衝突
+  unit_tooltip_crashing_desc:
+    text: この機体は衝突して計画したアクションがすべて中断されました。次のターンに回復します。
+  unit_tooltip_ejecting:
+    text: 緊急脱出中
+  unit_tooltip_ejecting_desc:
+    text: 本機のパイロットは緊急脱出して戦闘から離脱する計画です。
+  unit_tooltip_focus_camera_header:
+    text: カメラ・フォーカス
+  unit_tooltip_focus_camera_text:
+    text: カメラを機体位置に移動します。ダブル・クリックするとカメラが機体に固定されます。
+  unit_tooltip_landing:
+    text: 着陸中
+  unit_tooltip_landing_desc:
+    text: この機体は降下中です。次のターンに戦闘へ参加します。
+  unit_tooltip_no_actions:
+    text: アクションなし
+  unit_tooltip_no_actions_desc:
+    text: この機体はタイムラインにアクションがありません。次のターンへ進む前に命令を検討しましょう。
+  unit_tooltip_repair_gel_header:
+    text: 修復液
+  unit_tooltip_repair_gel_text:
+    text: 機体が攻撃を受けていなければ、バリア装甲は回復することができます。修復液の供給が尽きると、回復は止まります。
+  unit_tooltip_retreating:
+    text: 撤退中
+  unit_tooltip_retreating_desc:
+    text: この機体は戦闘から撤退する計画です。

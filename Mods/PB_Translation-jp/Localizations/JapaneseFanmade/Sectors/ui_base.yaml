@@ -1,0 +1,645 @@
+entries:
+  briefing_deploy_blocked:
+    text: 出撃不可
+  briefing_deploy_incomplete:
+    text: パイロットのみ、またはメックのみのスロットがあります。すべて揃った機体だけが出撃できます。
+  briefing_deploy_issues_critical:
+    text: 部隊に致命的な問題を検知しました。解消されるまで出撃はできません。
+  briefing_deploy_issues_note:
+    text: 部隊に関するヒントがあります。出撃自体は可能です。
+  briefing_deploy_issues_warning:
+    text: この部隊に関する警告があります。出撃自体は可能ですが、解消を強く推奨します。
+  briefing_deploy_no_pilots:
+    text: 出撃するパイロットが選択されていません。続行するには、最低1スロットにパイロットを追加してください。
+  briefing_deploy_no_units:
+    text: 出撃する機体が選択されていません。続行するには、最低1スロットに機体を追加してください。
+  briefing_deploy_ready:
+    text: 出撃可能
+  briefing_deploy_slot_critical:
+    text: 出撃前に解消が必要な致命的問題があります。
+  briefing_deploy_slots_ready:
+    text: 出撃を妨げる致命的問題はありません。
+  briefing_deploy_squad_status:
+    text: 部隊状況
+  briefing_dialog_deploy_desc:
+    text: ここから先は後戻りできません。続行すると戦闘が開始します。
+  briefing_dialog_deploy_header:
+    text: 戦闘開始
+  briefing_dialog_exit_desc:
+    text: この戦闘区域から離脱してよろしいですか？
+  briefing_dialog_exit_header:
+    text: 離脱します
+  briefing_dialog_exit_smoke_desc:
+    text: 逃げるために発煙弾を使用してよろしいですか？
+  briefing_exit_leave_desc:
+    text: ここの敵が移動基地を追撃しなくなります。出撃をキャンセルすることが可能です。
+  briefing_exit_leave_header:
+    text: 離れる
+  briefing_exit_no_smoke_desc:
+    text: 発煙弾が残っていないため、戦う以外に選択肢はありません！
+  briefing_exit_no_smoke_header:
+    text: 発煙弾なし
+  briefing_exit_smoke_desc:
+    text: 敵を一時的に無力化し、移動する敵から逃げられるようになります。消耗品をひとつ消費します。
+  briefing_info_enemy:
+    text: 敵
+  briefing_info_incoming_header:
+    text: 与えられる任務
+  briefing_info_prediction:
+    text: 部隊に関する予測
+  briefing_info_threat_prefix:
+    text: 脅威度
+  briefing_nav_button_cant_deploy:
+    text: 出撃不可
+  briefing_nav_button_deploy:
+    text: 出撃
+  briefing_nav_button_mission:
+    text: 任務
+  briefing_nav_button_squad:
+    text: 部隊
+  briefing_pilots_header:
+    text: パイロット
+  briefing_squad_add_pilot:
+    text: パイロット追加
+  briefing_squad_add_unit:
+    text: 機体追加
+  briefing_squad_autofill_header:
+    text: 自動割当
+  briefing_squad_autofill_text:
+    text: 出撃可能なパイロットと装備レベルが最も高い機体を部隊に割り当てます。
+  briefing_squad_edit_cant_desc:
+    text: この機体は損傷しています。変更を行う前に修理が必要です。
+  briefing_squad_edit_cant_header:
+    text: 機体編集不可
+  briefing_squad_edit_desc:
+    text: 機体カスタマイズ画面に移動して、選択した機体を編集します。長押しまたはダブル・クリックで確定します。
+  briefing_squad_edit_header:
+    text: 機体編集
+  briefing_squad_issues_critical_desc:
+    text: 機体を出撃させる前に、以下の致命的な問題を解消する必要があります。
+  briefing_squad_issues_critical_desc_pilot:
+    text: このパイロットは、以下の致命的な問題のため戦闘に参加できません
+  briefing_squad_issues_critical_header:
+    text: 致命的な問題
+  briefing_squad_issues_notes_desc:
+    text: この機体は戦闘可能です。低優先度の注意事項
+  briefing_squad_issues_notes_desc_pilot:
+    text: このパイロットは戦闘可能です。低優先度の注意事項
+  briefing_squad_issues_notes_header:
+    text: 注意事項
+  briefing_squad_issues_warning_desc:
+    text: この機体は戦闘可能ですが、考慮すべき警告事項があります
+  briefing_squad_issues_warning_desc_pilot:
+    text: このパイロットは戦闘可能ですが、考慮すべき警告事項があります
+  briefing_squad_issues_warning_header:
+    text: 警告
+  briefing_squad_pilot:
+    text: パイロット
+  briefing_squad_remove_pilot_header:
+    text: パイロット削除
+  briefing_squad_remove_pilot_text:
+    text: 現在選択しているスロットからパイロットを削除します。長押しまたはダブル・クリックで確定します。
+  briefing_squad_unit:
+    text: 機体
+  briefing_units_empty_desc:
+    text: 移動基地に使用可能な機体がないか、または既に全機が部隊へ追加されています
+  briefing_units_empty_header:
+    text: 機体なし
+  briefing_units_header:
+    text: 機体
+  brieing_squad_remove_unit_header:
+    text: 機体削除
+  brieing_squad_remove_unit_text:
+    text: 現在選択しているスロットから機体を削除します。長押しまたはダブル・クリックで確定します。
+  debriefing_group_desc_intact:
+    text: 戦闘中にドローンがいくつかの装備を無傷で回収しました。これらは既定で回収対象として選択され、サルベージ・コストはかかりません。
+  debriefing_group_destroyed:
+    text: 破壊済み
+  debriefing_group_intact:
+    text: 無傷
+  debriefing_group_label_intact:
+    text: 無傷
+  debriefing_group_label_packaged:
+    text: パッケージ・アイテム
+  debriefing_group_label_quality:
+    text: レベル / 装備品質
+  debriefing_group_salvageable_equipment:
+    text: サルベージ可能な装備
+  debriefing_item_damaged_desc:
+    text: このサブシステムはダメージを受けたため、サルベージ・コストが上昇しました。
+  debriefing_item_damaged_name:
+    text: 損傷
+  debriefing_item_intact_desc:
+    text: このアイテムは戦闘中にダメージを受けなかったため、サルベージ・コストが減少しました。
+  debriefing_item_intact_name:
+    text: 無傷
+  debriefing_item_lost_desc:
+    text: このアイテムはあなたのメックが装備していましたが、戦闘中に脱落しました。回収しない場合は失われます！
+  debriefing_item_lost_name:
+    text: 損失
+  debriefing_outcome_allies_lost_desc:
+    text: 敵部隊の排除に失敗しました。我々が撤退したことで、祖国防衛軍は圧倒されました。争奪中の州における均衡が敵側へ有利に移ります。
+  debriefing_outcome_allies_lost_header:
+    text: 同盟軍　喪失
+  debriefing_outcome_allies_saved_desc:
+    text: 交戦区域から敵を排除することに成功し、祖国防衛軍の部隊を救出しました。これにより州争奪を継続できるようになりました。
+  debriefing_outcome_allies_saved_header:
+    text: 同盟軍　救出
+  debriefing_outcome_escalation_drop_desc:
+    text: 敵があなたを脅威とみなさなくなり、この州におけるエスカレーション・レベルが下がります。撤退および補給を行い、パトロールが減少した隙を突くことが可能です。
+  debriefing_outcome_escalation_drop_desc_defeat:
+    text: あなたは完全に敗北したため、敵はあなたを脅威とみなさなくなり、この州のエスカレーション・レベルが最低まで下がります。補給地点に撤退して、追加の機体とパイロットを入手しましょう。
+  debriefing_outcome_escalation_drop_desc_losses:
+    text: 敵はあなたの脅威は低いとみなし、この州のエスカレーション・レベルが1段階下がります。撤退および補給を行い、パトロールが減少した隙を突くことが可能です。
+  debriefing_outcome_escalation_drop_header:
+    text: エスカレーション・レベル　下降
+  debriefing_outcome_escalation_gain_desc:
+    text: 敵は今回の攻撃で警戒を強め、この州におけるエスカレーション・レベルが上がります。エスカレーション・レベルが一定のしきい値に達すると、この州に動員される機体が増え、戦闘はより激しくなります。州を離れることで、エスカレーション・レベルを下げることが可能です。
+  debriefing_outcome_escalation_gain_header:
+    text: エスカレーション・レベル　上昇
+  debriefing_outcome_homeguard_improve:
+    text: この戦闘区域における勝利は祖国防衛軍にとって重要なものだった。
+  debriefing_outcome_homeguard_intact:
+    text: 祖国防衛軍の機体はすべて無傷で戦闘から生還した。
+  debriefing_outcome_reputation_gain_desc:
+    text: 評判が上昇しました。無線通信回線アップグレードを取得すると、追加の機体を要請できるようになります。
+  debriefing_outcome_reputation_gain_header:
+    text: 評判　上昇
+  debriefing_outcome_weakened_desc:
+    text: 争奪中の州で敵を倒し、戦力をわずかに弱体化させました。進行を加速して州の解放を早めたい場合は、重要目標を攻撃することをお勧めします。
+  debriefing_outcome_weakened_desc_objective:
+    text: 敵目標を倒すことに成功し、州における敵の支配を大幅に弱体化させました。目標の攻撃を続け、州を解放しましょう！
+  debriefing_outcome_weakened_header:
+    text: 敵　弱体化
+  debriefing_salvage_budget_header:
+    text: 予算内訳
+  debriefing_salvage_button_abandon_header:
+    text: 放棄
+  debriefing_salvage_button_abandon_text:
+    text: 装備を戦場に捨てます
+  debriefing_salvage_button_confirm:
+    text: 確認
+  debriefing_salvage_button_continue:
+    text: 続ける
+  debriefing_salvage_button_dismantle_header:
+    text: 分解
+  debriefing_salvage_button_dismantle_text:
+    text: アイテムを物資に変換します。完全な状態で回収するよりサルベージ・コストは少ないです。
+  debriefing_salvage_button_take_header:
+    text: 回収
+  debriefing_salvage_button_take_text:
+    text: メックに使用できるように、装備を回収します。回収した装備は所持品で確認できます。
+  debriefing_salvage_dialog_start_desc:
+    text: 選択したアイテムのサルベージを実行してよろしいですか？
+  debriefing_salvage_dialog_start_header:
+    text: サルベージ開始
+  debriefing_salvage_frame_content:
+    text: 機体のフレームを入手し、移動基地にカスタマイズ可能な機体が新たに加わります。フレームの抽出には多くのコストがかかり、個別にサルベージ可能だった部品もすべて失われます。
+  debriefing_salvage_frame_header:
+    text: メック・フレームのサルベージ
+  debriefing_salvage_header:
+    text: サルベージ
+  debriefing_salvage_header_no_salvage:
+    text: サルベージなし
+  debriefing_salvage_hint:
+    text: 戦場で発見した戦利品の中から、回収、分解、または見送るものを決めましょう。予算は限られておりアイテムによってコストは異なるため、賢く選択しましょう。
+  debriefing_salvage_hint_budget:
+    text: コスト & 予算
+  debriefing_salvage_hint_dismantled:
+    text: 分解
+  debriefing_salvage_hint_enemy_no_loss:
+    text: 敵軍がパトロール中なので、ここで危険を冒してサルベージを行うことはできません。友軍機は装備を失いませんでした。
+  debriefing_salvage_hint_enemy_present:
+    text: 敵軍がパトロール中なので、ここで危険を冒してサルベージを行うことはできません。できることと言えば、自分たちの機体が失った部品の一部を回収することくらいです。
+  debriefing_salvage_hint_no_items:
+    text: 今回、スキャナーはサルベージ可能なアイテムや失った装備を発見できませんでした。
+  debriefing_salvage_hint_recovered:
+    text: 回収
+  debriefing_salvage_hint_skipped:
+    text: スキップ
+  debriefing_salvage_label_base:
+    text: 基地
+  debriefing_salvage_label_emergency:
+    text: 緊急
+  debriefing_salvage_list_category_unknown:
+    text: 不明なカテゴリ
+  debriefing_salvage_list_header_nocost:
+    text: コストなし
+  debriefing_salvage_list_header_rewards:
+    text: 報酬 & 保管アイテム
+  debriefing_salvage_list_header_unit:
+    text: 機体
+  debriefing_salvage_list_header_unit_tooltip:
+    text: この機体からサルベージ可能な装備があります。こちらのヘッダーをクリックしてこれらすべてを一括して設定するか、下記のアイテムについて個別にクリックすることができます。
+  debriefing_salvage_list_part_unknown:
+    text: 不明な部品
+  debriefing_salvage_list_resource:
+    text: 資源
+  debriefing_salvage_list_status_destroyed:
+    text: 破壊済み
+  debriefing_salvage_list_status_intact:
+    text: 無傷
+  debriefing_salvage_list_subsystem_unknown:
+    text: 不明なサブシステム
+  debriefing_salvage_list_tooltip_salvage:
+    text: この拠点にはいくつかの装備が運び出せる状態で保管されていました。選択すれば、この装備はサルベージ・コストなしで回収可能です。
+  debriefing_salvage_list_workshop_charge:
+    text: 加工室消耗品
+  inventory_button_deselect_header:
+    text: 選択解除
+  inventory_button_deselect_text:
+    text: 全アイテムについて選択解除
+  inventory_button_detach_header:
+    text: 取り外し
+  inventory_button_detach_text:
+    text: 選択した部品からカスタマイズ可能なサブシステムをすべて取り外します。例えば、上半身部品から反応炉コアを取り外します。
+  inventory_button_invert_header:
+    text: 選択反転
+  inventory_button_invert_text:
+    text: 全アイテムについて選択反転
+  inventory_button_scrap_detach_header:
+    text: スクラップ & 取り外し
+  inventory_button_scrap_detach_text:
+    text: 選択した部品からカスタマイズ可能なサブシステムをすべて取り外したあとで、物資に分解します。警告：この操作は元に戻すことはできません！
+  inventory_button_scrap_fully_header:
+    text: 完全にスクラップ
+  inventory_button_scrap_fully_text:
+    text: 選択した装備を物資に分解します。現在取り付けられているカスタマイズ可能なサブシステムもすべて含まれます。警告：この操舵は元に戻すことはできません！
+  inventory_button_select_all_header:
+    text: すべて選択
+  inventory_button_select_all_text:
+    text: すべてのアイテムを選択
+  inventory_category_all:
+    text: すべての部品
+  inventory_category_all_subsystems:
+    text: すべてのサブシステム
+  inventory_category_all_subsystems_tooltip_text:
+    text: 移動基地の所持品にあるすべてのサブシステムを表示します。さらに下にある特定のソケットを選択し、その下にある特定のサブシステムを選択することでリストを部位ごとに絞り込むことができます。
+  inventory_category_all_tooltip_text:
+    text: 移動基地の所持品にあるすべての部品を表示します。その下にある特定のソケットを選択することで、部品を部位ごとに絞り込むことができます。
+  inventory_group_all:
+    text: すべて
+  inventory_hardpoint_armor:
+    text: 装甲
+  inventory_hardpoint_internal:
+    text: 内部
+  inventory_hint_filter:
+    text: フィルター
+  inventory_hint_sort:
+    text: 並び替え
+  inventory_info_action_cooldown:
+    text: 機体が実行可能なアクションには、それぞれ所要時間と最適な間隔（クールダウン）があります。最適な間隔は必ずしも守る必要はありませんが、従うことで熱の蓄積を防ぐことができます。
+  inventory_info_action_peak_heat:
+    text: 瞬間最大発熱
+  inventory_info_barrier:
+    text: バリア
+  inventory_info_beam_width_desc:
+    text: ビーム兵器は拡散しません。この兵器から照射されるエネルギーは一直線に集中しています。
+  inventory_info_beam_width_name:
+    text: ビーム幅
+  inventory_info_column_action:
+    text: アクション
+  inventory_info_column_hit:
+    text: ヒット
+  inventory_info_column_second:
+    text: 秒
+  inventory_info_hint_classification_text:
+    text: 'このテキストは、部品タイプ（この部品が含まれる一般的なクラス）とモデル（タイプ内の特定の設計）を示しています。
+
+
+      色はレアリティ、すなわち部品がどの程度珍しく完成度が高いかを示しています。装備のレアリティが高いほど高品質のパークが多く含まれており、サブシステム・スロットが開放されているのでより深くカスタマイズが可能です。'
+  inventory_info_hint_damage_type:
+    text: ダメージタイプ
+  inventory_info_hint_level_header:
+    text: レベル
+  inventory_info_hint_level_text:
+    text: 'レベルによって部品の強さが決定します。耐久度、バリア、ダメージはレベルに応じて変化します。他のすべてが同じならば、ほとんどの場合レベルが高い部品のほうが強いです。
+
+
+      常にレベルが高い部品に注意して、機体がより手強い敵に立ち向かえるようにしましょう。'
+  inventory_info_hint_range_header:
+    text: 射程
+  inventory_info_hint_range_text:
+    text: 'この武器が効果的な範囲です。推奨範囲全体で効果を発揮する武器もあれば、距離と拡散に応じて効果が変化する武器もあります。これはグラフに反映されています。
+
+
+      ほとんどの戦闘は300メートル四方の領域で行われます。'
+  inventory_info_hint_serial_header:
+    text: シリアル・ナンバー
+  inventory_info_hint_serial_text:
+    text: 同じモデルの部品内でそれぞれを特定する一意の番号です。部品ごとに異なり、異なるパークとサブシステムを持ちます。
+  inventory_info_hit_width_desc:
+    text: これは近接武器であり、投射体の拡散はありません。直接接触した際にダメージを与えます。近接武器には異なるサイズが有り、標的への当てやすさに影響します。
+  inventory_info_hit_width_name:
+    text: 命中幅
+  inventory_info_integrity:
+    text: 耐久度
+  inventory_info_no_description:
+    text: 説明なし
+  inventory_info_part_category:
+    text: カテゴリ
+  inventory_info_part_feature:
+    text: 特徴
+  inventory_info_part_manufacturer:
+    text: 生産
+  inventory_info_part_trait:
+    text: 特性
+  inventory_info_scatter_desc:
+    text: この表示は武器の拡散角度を示しています。角度が大きいほど投射体が広がる円錐の角度が大きくなり、標的に当たりにくくなります。
+  inventory_info_scatter_name:
+    text: 拡散
+  inventory_info_scatter_stat_hint:
+    text: 拡散（静止中―移動中）
+  inventory_info_scatter_wide_desc:
+    text: この武器は、機体が移動している間は不安定になります。拡散角度が大きくなることに注意してください。
+  inventory_info_stat_action_duration:
+    text: アクション所要時間
+  inventory_info_stat_optimal_frequency:
+    text: 適正周期
+  inventory_info_stat_optimal_range:
+    text: 適正距離
+  inventory_info_stat_shots_desc:
+    text: 一度の攻撃アクションでこの武器から発射される投射物の数。
+  inventory_info_stat_shots_fragments_desc:
+    text: 一度の攻撃アクションでこの武器から発射される投射物の数。各投射体がそれぞれ複数の破片に分裂します。
+  inventory_info_stat_shots_fragments_name:
+    text: 射撃数 & 破片数
+  inventory_info_stat_shots_name:
+    text: 射撃数
+  inventory_info_subsystem_customizable_desc:
+    text: この懸架点にサブシステムは取り付けられていません。
+  inventory_info_subsystem_customizable_name:
+    text: カスタマイズ可能
+  inventory_info_subsystem_fused_desc:
+    text: このサブシステムは部品に溶接されており交換は不可能です。
+  inventory_info_subsystem_fused_name:
+    text: 分離不可
+  inventory_info_subsystem_missing_desc:
+    text: この懸架点にサブシステムは取り付けられていません。
+  inventory_info_subsystem_missing_name:
+    text: 未装着
+  inventory_info_timeline_hint_header:
+    text: タイムライン
+  inventory_info_timeline_hint_text:
+    text: 'このセクションでは、戦闘タイムライン上で武器を使用する方法について説明します。主な指標は次のふたつです：
+
+
+      - アクション所要時間：武器の発射にかかる時間です。ショットガンのように短いチャンスで当てる武器の場合はアクション所要時間も短いほうが役に立ちますが、瞬間的に熱が上昇します。
+
+
+      - 適正間隔：この武器を持続的に使用可能な周期です。攻撃は重複できないため、アクション所要時間が下限となりますが、熱の蓄積を実質ゼロとするためには通常より長い間隔となります。アクション所要時間と、武器の発熱とメックの反応炉コアにおける放熱の相殺に基づいて変化します。'
+  inventory_info_trajectory_desc:
+    text: 'これは誘導兵器であり、拡散はありません。投射体は標的に収束していきます。
+
+
+      軌道によって武器の使用方法が決まります。直射軌道では標的への経路が開けている必要がありますが、曲射軌道ならば遮蔽越しに発射して、投射体を上空から降下させることが可能です。'
+  inventory_info_trajectory_text:
+    text: 軌道
+  inventory_info_unknown:
+    text: 不明
+  inventory_socket_suffix_arm:
+    text: 腕
+  inventory_socket_suffix_legs:
+    text: 脚
+  inventory_socket_suffix_torso:
+    text: 胴体
+  inventory_sort_group:
+    text: グループ
+  inventory_sort_items:
+    text: アイテム
+  inventory_sort_level:
+    text: レベル
+  inventory_sort_no_selections:
+    text: 選択なし
+  inventory_sort_quality:
+    text: 品質
+  item_info_rating_0:
+    text: ベーシック
+  item_info_rating_1:
+    text: コモン
+  item_info_rating_2:
+    text: アンコモン
+  item_info_rating_3:
+    text: レア
+  item_info_rating_4:
+    text: レジェンダリ
+  item_info_rating_5:
+    text: 試作兵器
+  item_info_rating_missing:
+    text: 未鑑定
+  pilot_edit_button_cancel:
+    text: キャンセル
+  pilot_edit_button_save:
+    text: セーブ
+  pilot_edit_label_body:
+    text: 身体
+  pilot_edit_label_build:
+    text: 体格
+  pilot_edit_label_eye_color:
+    text: 瞳の色
+  pilot_edit_label_eyebrows:
+    text: 眉毛
+  pilot_edit_label_face_preset:
+    text: 顔プリセット
+  pilot_edit_label_facial_hair:
+    text: 顔 / 毛
+  pilot_edit_label_facial_hair_color:
+    text: 顔 / 毛 / 色
+  pilot_edit_label_glasses:
+    text: アイウェア
+  pilot_edit_label_glasses_variant:
+    text: アイウェア / バリエーション
+  pilot_edit_label_hair:
+    text: 髪
+  pilot_edit_label_hair_color:
+    text: 髪 / 色
+  pilot_edit_label_headgear:
+    text: ヘッドギア
+  pilot_edit_label_headgear_variant:
+    text: ヘッドギア / バリエーション
+  pilot_edit_label_lower_face:
+    text: 顔 / 下部 / バリエーション
+  pilot_edit_label_skin:
+    text: 肌 / タイプ
+  pilot_edit_label_skin_tone:
+    text: 肌 / 質感
+  pilot_edit_label_upper_face:
+    text: 顔 / 上部 / バリエーション
+  pilot_edit_reset_callsign_text:
+    text: コールサインをランダム生成
+  pilot_edit_reset_name_text:
+    text: 名前をランダム生成
+  pilot_edit_tooltip_randomize_header:
+    text: ランダム生成
+  pilot_edit_tooltip_randomize_text:
+    text: すべてのパラメータがランダムに選択されます。
+  pilot_health_descriptor_0:
+    text: 瀕死
+  pilot_health_descriptor_1:
+    text: 重傷
+  pilot_health_descriptor_2:
+    text: 負傷
+  pilot_health_descriptor_3:
+    text: 軽傷
+  pilot_health_descriptor_4:
+    text: 動揺
+  pilot_health_descriptor_5:
+    text: 好調
+  pilot_info_button_edit:
+    text: 編集
+  pilot_info_header_selected:
+    text: 選択パイロット
+  pilot_info_header_squad:
+    text: 出撃パイロット
+  pilot_info_missing:
+    text: パイロットを選択して情報を表示
+  pilot_info_stats_home:
+    text: 故郷：
+  pilot_info_stats_personality:
+    text: '個性： '
+  pilot_list_empty_desc:
+    text: '移動基地に活動可能なパイロットがいません。解放した集落での採用を検討してください。
+
+      '
+  pilot_list_empty_header:
+    text: 活動可能なパイロットなし
+  pilot_no_bio:
+    text: 経歴不明
+  pilot_tooltip_health_concussion:
+    text: 気絶限界
+  pilot_tooltip_health_description:
+    text: パイロットの最大体力と気絶耐性値はそれぞれ異なります。耐性値によって、戦闘中にパイロットが体力にどれだけのダメージを受けると気絶してしまうかが決まります。体力が気絶耐性値を下回った状態で戦闘に参加したパイロットは死亡する危険性があります。
+  pilot_tooltip_health_header:
+    text: パイロット体力
+  pilot_tooltip_health_low1:
+    text: 死亡の危険性あり！
+  pilot_tooltip_health_low2:
+    text: 体力不足
+  pilot_tooltip_health_max:
+    text: 体力最大
+  pilot_tooltip_health_resistance:
+    text: 気絶耐性値
+  pilot_tooltip_issue_blocked_desc:
+    text: このパイロットは、以下の致命的な問題のため戦闘に参加できません：
+  pilot_tooltip_issue_note_desc:
+    text: このパイロットは戦闘可能です。低優先度の注意事項：
+  pilot_tooltip_issue_note_header:
+    text: 注意事項
+  pilot_tooltip_issue_warning_desc:
+    text: このパイロットは戦闘可能ですが、考慮すべき警告事項があります：
+  pilot_tooltip_issue_warning_header:
+    text: 警告
+  stats_desc:
+    text: 移動基地の機能と性能に関するデータです。搭載した装備により変化します。
+  stats_header:
+    text: ステータス
+  unit_info_header_selected:
+    text: 選択機体
+  unit_info_header_squad:
+    text: 出撃機体
+  unit_list_button_damaged:
+    text: 損傷
+  unit_list_button_edit:
+    text: 編集
+  unit_list_empty_desc:
+    text: 移動基地の危機です。新機体の製造を検討してください。
+  unit_list_empty_header:
+    text: 活動可能な機体なし
+  unit_list_issues_blocked_header:
+    text: 出撃不可
+  unit_list_tooltip_capacity_header:
+    text: 機体/最大所持
+  unit_list_tooltip_capacity_text:
+    text: 移動基地が収容、整備できる機体数。アップグレード画面で最大数を増やしましょう。
+  unit_list_tooltip_damaged_text:
+    text: この期待は戦闘で受けたダメージが残っているためカスタマイズが不可能です。移動基地に十分な資源があれば、時間とともに修理されます。全体マップに切り替えて修理を進めましょう。
+  unit_list_tooltip_edit_text:
+    text: 機体カスタマイズ画面に入りましょう。ここから、機体の部品、サブシステム、塗装が変更可能です。
+  unit_list_tooltip_hp_header:
+    text: 総 HP
+  unit_list_tooltip_hp_text:
+    text: これは機体体力の合計値です。機体に取り付けられた各部品のバリアと耐久度が含まれています。
+  unit_loadout_hint_action_cooldown:
+    text: アクション・クールダウン
+  unit_loadout_hint_action_dissipation:
+    text: 放熱
+  unit_loadout_hint_barrier:
+    text: バリア
+  unit_loadout_hint_dash:
+    text: ダッシュ
+  unit_loadout_hint_integrity:
+    text: 耐久度
+  unit_loadout_hint_level:
+    text: レベル
+  unit_loadout_hint_mass:
+    text: 質量
+  unit_loadout_hint_name:
+    text: 機体名
+  unit_loadout_hint_power:
+    text: 出力
+  unit_loadout_hint_role:
+    text: 役割
+  unit_loadout_hint_select:
+    text: 左のスロットを選択して機体をカスタマイズしましょう
+  unit_loadout_hint_select_unit:
+    text: 左のスロットを選択して機体をカスタマイズしましょう
+  unit_loadout_hint_speed:
+    text: 速度
+  unit_loadout_hint_thrust:
+    text: 推力
+  unit_loadout_hint_weight:
+    text: 階級
+  units_livery_full_body:
+    text: 全身
+  upgrades_desc_blocking:
+    text: 条件未達成
+  upgrades_desc_buildable:
+    text: 建設可能
+  upgrades_desc_cost:
+    text: コスト
+  upgrades_desc_effect:
+    text: 効果
+  upgrades_desc_installed:
+    text: 導入済
+  upgrades_desc_installed_fully:
+    text: 完全導入済
+  upgrades_desc_installed_partially:
+    text: 一部導入済
+  upgrades_desc_locked:
+    text: ロック中
+  upgrades_desc_needed:
+    text: 必要条件
+  upgrades_desc_no_cost:
+    text: 導入コストなし
+  upgrades_desc_not_buildable:
+    text: 建設不可
+  upgrades_desc_unlock_requirements:
+    text: 解放条件
+  upgrades_hint_navigation1:
+    text: 画面移動：
+  upgrades_hint_navigation2:
+    text: WASD、マウス・スクロールを使うか、画面をドラッグしてください
+  workshop_button_build:
+    text: 体格
+  workshop_cost:
+    text: コスト
+  workshop_cost_charges:
+    text: チャージ
+  workshop_cost_duration:
+    text: 所要時間
+  workshop_desc_requires_slot:
+    text: このプロジェクトには機体の空きスロットが必要です。収容した機体や建造中の機体がスロットを使用しています。利用可能なスロットを増やすには、アップグレード画面を確認してください。
+  workshop_desc_stats_required:
+    text: 移動基地のステータスが必要
+  workshop_desc_upgrades_required:
+    text: 移動基地のアップグレードが必要
+  workshop_empty_desc:
+    text: 現在、加工室で可能なプロジェクトはありません。またお越しください。
+  workshop_empty_header:
+    text: プロジェクトなし
+  workshop_header:
+    text: プロジェクト
+  workshop_label_level:
+    text: レベル
+  workshop_tooltip_level_text:
+    text: 解放した州が多いほど、加工室で製造可能な装備のレベルも高くなります。

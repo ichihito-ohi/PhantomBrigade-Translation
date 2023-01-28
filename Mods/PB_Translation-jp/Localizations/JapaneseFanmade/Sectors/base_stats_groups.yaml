@@ -1,0 +1,31 @@
+entries:
+  energy__name:
+    text: エネルギー
+  energy__text:
+    text: 移動基地の動力システム性能。
+  mm_fast__name:
+    text: オーバードライブ
+  mm_fast__text:
+    text: 移動基地のオーバードライブモード性能。
+  mm_normal__name:
+    text: 巡行
+  mm_normal__text:
+    text: 移動基地の巡行モード性能。
+  mm_stealth__name:
+    text: ステルス
+  mm_stealth__text:
+    text: 移動基地のステルスモード性能。
+  sensor__name:
+    text: センサー
+  sensor__text:
+    text: 移動基地のセンサー性能。
+  units__name:
+    text: 機体
+  units__text:
+    text: 移動基地の整備可能なメック容量性能。
+  workshop__name:
+    text: 加工室
+  workshop__text:
+    text: 移動基地の加工室システム性能。
+  z_other__name:
+    text: その他
