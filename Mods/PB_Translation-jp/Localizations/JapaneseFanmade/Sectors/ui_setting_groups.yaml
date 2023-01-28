@@ -1,0 +1,17 @@
+entries:
+  accessibility__header:
+    text: アクセシビリティ
+  audio__header:
+    text: オーディオ
+  controls_gamepad__header:
+    text: ゲームパッド
+  controls_mkb__header:
+    text: キーボード & マウス
+  display__header:
+    text: ディスプレイ
+  game__header:
+    text: ゲーム
+  graphics__header:
+    text: グラフィックス
+  input__header:
+    text: 入力

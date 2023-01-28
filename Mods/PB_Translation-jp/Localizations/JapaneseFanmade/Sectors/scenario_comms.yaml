@@ -1,0 +1,875 @@
+entries:
+  cm_assassination_all_scouts_eliminated_post_kill_text_00:
+    text: 向こうが偵察員の相手をしてくれる...
+  cm_assassination_all_scouts_eliminated_post_vip_text_00:
+    text: 向こうが偵察員の相手をしてくれる、こっちは将軍の相手をしに行こう。
+  cm_assassination_all_scouts_eliminated_previp_text_00:
+    text: 全偵察員ダウン...将軍が途に就く前にまだ時間があります、ボス。着陸地点の周囲に配置して、将軍が感づく前に連れ去りましょう。
+  cm_assassination_barely_text_00:
+    text: 近すぎてヒヤヒヤしました...あと少しでも長引いていたら、援軍に潰されていたかもしれません！
+  cm_assassination_base_east_text_00:
+    text: 現場東端で避難準備中、必要ならどうぞ。待機しています！
+  cm_assassination_base_north_text_00:
+    text: 地上班、現場北端で避難準備ができているが、敵軍が接近中です！早く来てください！
+  cm_assassination_base_retreat_text_00:
+    text: 激しすぎる！避難を断念します！パイロット、そこから抜け出すならポッドを射出してください！
+  cm_assassination_busted_text_00:
+    text: くそ、偵察員がいる！将軍に警告される前に倒さなければ、我々の手ではるかに大きな戦いをする羽目になる。
+  cm_assassination_cutoff_text_00:
+    text: 助けは来ない、そうだろ？旅団よ。貴様たちの迷惑な逃避行も、ここで終わりだ！
+  cm_assassination_eject1_text_00:
+    text: ヤツら、ポッドを射出しようとしています！将軍が逃げる前に倒さなければ！
+  cm_assassination_eject2_text_00:
+    text: まるで素人だな、旅団よ！
+  cm_assassination_justintime_text_00:
+    text: 残りの偵察員を倒して将軍を待ち伏せする準備をしましょう！着陸地点の座標はわかっています。
+  cm_assassination_killviparrive1_text_00:
+    text: キル・チームが向かっている。これが旅団の終着点となるのだ。
+  cm_assassination_killviparrive2_text_00:
+    text: ようやく来たか、キル・チーム！遅かったじゃないか？！
+  cm_assassination_killviparrive3_text_00:
+    text: あなたに集るハエを叩く義理があるとでも？情けないですぞ、将軍。
+  cm_assassination_killviparrive4vipejected_text_00:
+    text: 将軍は逃げたか。チッ。いいだろう、あの臆病者の後始末が我らの仕事のようだな。
+  cm_assassination_run_text_00:
+    text: 逃げるなら今だぞ、旅団。
+  cm_assassination_solo_text_00:
+    text: 案ずるな、すぐに哀れな仲間の元へ送ってやろう。
+  cm_assassination_surprise_text_00:
+    text: いったい何が？！何も聞いてないぞ...偵察員はどこへ行った...？キル・チームを早くよこせ、大至急だ！
+  cm_assassination_toolate_text_00:
+    text: チッ。それで貴様らは哀れにも命乞いをする将軍を殺したって訳だ。そうだろ？無駄な抵抗はするなよ、うじ虫め、貴様らはちょっとやり過ぎたのさ。
+  cm_assassination_vipdeadafter_text_00:
+    text: ふむ、思っていたよりは持ちこたえていたようだな...だが今度は我らが相手だ、旅団―そして貴様らは完膚なきまでに圧倒されるのだ！
+  cm_assassination_vipdeadafter_text_01:
+    text: 農民どもに敗れるとは。なんて恥だ。もうこのような過ちは犯すまい。
+  cm_assassination_vipdown_text_00:
+    text: 将軍ダウン！繰り返す、将軍ダウン！HQ、キル・チームの姿が見えない―いったいどこにいるんだ？！
+  cm_breakin_entrance_text_00:
+    text: お見事です、司令官。この貯蔵庫にあるものを探しに回収要員が出動します。
+  cm_capital_center_hg_arrive_header:
+    text: 傍受 / パトロール
+  cm_capital_center_hg_arrive_text_00:
+    text: 最高司令部から0.5キロの位置に驚異の高い兆候を検知しています。
+  cm_capital_center_inv_elite_m1_header:
+    text: 直通回線 / 大将
+  cm_capital_center_inv_heavy_header:
+    text: 傍受 / 即応部隊
+  cm_capital_center_inv_long_header:
+    text: 傍受 / リーダー（支援部隊）
+  cm_capital_center_pb_arrive_hg_header:
+    text: 傍受 / パトロール
+  cm_director_crew_enemydown1_text_00:
+    text: 俯瞰の画は撮れたか？良いぞ、素晴らしい！
+  cm_director_crew_enemydown1_text_01:
+    text: 爆発全体をしっかり捉えて、カメラもしっかり押さえておいてくれ、頼むぞ！
+  cm_director_crew_enemydown1_text_02:
+    text: 今のはオープニング・クレジットで使わねば、実に良い。
+  cm_director_crew_enemydown1_text_03:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_04:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_05:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_06:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_07:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_08:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_09:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_10:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_11:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_12:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_13:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_14:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_15:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_16:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_17:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_18:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_19:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_20:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_21:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_22:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_23:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_24:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_25:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_26:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_27:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_28:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_29:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_30:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_31:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_32:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_33:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_34:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_35:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_36:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_37:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_38:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_39:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_40:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_41:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_42:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_43:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_44:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_45:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_46:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1_text_47:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1_text_48:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown1loss_text_00:
+    text: ヒュー...キタキタキタ。カメラをしっかり押さえておけよ、旅団が流れを変える様を捉えたいんだ！
+  cm_director_crew_enemydown1loss_text_01:
+    text: こりゃツいてる。司令官どの、ヤツらをガツンと追い払ってやってください！
+  cm_director_crew_enemydown3_text_00:
+    text: ご覧なさい、周りの景色との対比を...あの造形！あの色彩！
+  cm_director_crew_enemydown3_text_01:
+    text: 敵のまわりで何もない場所も押さえておけ！旅団がヤツらの数を減らしていることを観客に示さねばならんのだ。エンシュツだよ、お前たち。最近は映画学校で何を教えてるんだ？
+  cm_director_crew_enemydown3_text_02:
+    text: あなたはまさに戦場のマエストロだ、司令官。このヒーロービジネスが上手くいかなくなったら、ぜひ私に連絡をください。
+  cm_director_crew_enemydown3_text_03:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_04:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_05:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_06:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_07:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_08:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_09:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_10:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_11:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_12:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_13:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_14:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_15:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_16:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_17:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_18:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_19:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_20:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_21:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_22:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_23:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_24:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_25:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_26:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_27:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_28:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_29:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_30:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_31:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_32:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_33:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_34:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_35:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_36:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_37:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_38:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_39:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_40:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_41:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_42:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_43:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_44:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_45:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_46:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_47:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_48:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_49:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_50:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_51:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_52:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_53:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_54:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_55:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_56:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_57:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_58:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_59:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_60:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_61:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_62:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_63:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_64:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_65:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_66:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_67:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_68:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3_text_69:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3_text_70:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3_text_71:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown3loss_text_00:
+    text: よし...！流れを変えろ、流れを変えるんだ！カメラA、旅団を追え。カメラB、敵から目を逸らすんじゃないぞ。
+  cm_director_crew_enemydown3loss_text_01:
+    text: 旅団が闘いを好転させているぞ。頼むぞ、ほら、しっかりカメラを構えるんだ...！
+  cm_director_crew_enemydown3loss_text_02:
+    text: まだ止めるなよ、まだだ。旅団が圧力をかけている、この画を逃したくはない…
+  cm_director_crew_enemydown6_text_00:
+    text: 旅団の背後ど真ん中にカメラをセットするんだ、トレーラー用の素材が要る！
+  cm_director_crew_enemydown6_text_01:
+    text: あれが見えるか...これだけでも作品になるくらいだ...なんて素晴らしい！
+  cm_director_crew_enemydown6_text_02:
+    text: まさにいま、映画史に名を残したのだ、友よ。不朽の名作として私たちの死後も生き続けるだろう。
+  cm_director_crew_enemydown6_text_03:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_04:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_05:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_06:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_07:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_08:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_09:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_10:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_11:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_12:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_13:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_14:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_15:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_16:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_17:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_18:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_19:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_20:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_21:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_22:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_23:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_24:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_25:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_26:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_27:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_28:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_29:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_30:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_31:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_32:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_33:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_34:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_35:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_36:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_37:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_38:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_39:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_40:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_41:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_42:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_43:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_44:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_45:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_46:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_47:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_48:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_49:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_50:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_51:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_52:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_53:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_54:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_55:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_56:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_57:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_58:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_59:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_60:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_61:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_62:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_63:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_64:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_65:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_66:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_67:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_68:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6_text_69:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6_text_70:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6_text_71:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemydown6loss_text_00:
+    text: 今の画は撮れたか？よおし...人々はこの瞬間の価値を思い知らされるだろう。
+  cm_director_crew_enemydown6loss_text_01:
+    text: 素材はしっかりと保管するんだ...フィルムに傷ひとつ付けるなよ、あとはどうなっても良い！
+  cm_director_crew_enemydown6loss_text_02:
+    text: '...勝っちゃった...？そうか、それは...それは良かった。もう帰っても良いか？'
+  cm_director_crew_enemyejected1_text_00:
+    text: 射出をローアングルで！今だ！トレーラーで使えるぞ、友よ！
+  cm_director_crew_enemyejected1_text_01:
+    text: すごい、あれも計画のうちですか、司令官？あのショットは儲けものでしたよ！
+  cm_director_crew_enemyejected1_text_02:
+    text: 急げ、パイロット射出を望遠で！よくやった、よくやった。あの空との対比を見てみろ！
+  cm_director_crew_enemyejected1_text_03:
+    text: パイロット射出のトラッキングショットは撮れたか？
+  cm_director_crew_pbejected1_text_00:
+    text: だ...大丈夫ですか彼らは、司令官？
+  cm_director_crew_pbejected1_text_01:
+    text: パイロットにフォーカスしろ...きっと...きっと着地する所を押さえられるはずだ。
+  cm_director_crew_pbejected1_text_02:
+    text: あんなことが...起きるとわかっていたことですか？
+  cm_director_crew_pbelimintated1_text_00:
+    text: カ、カメラを背けるんじゃない。人々にこれを見せねば…
+  cm_director_crew_pbelimintated1_text_02:
+    text: …お悔み申し上げます、司令官。なんと申し上げたものか…
+  cm_draft_frontal_enemy_1ejected_text_00:
+    text: 敵がポッドを射出した。隊形を維持せよ、全隊、ヤツらの防御は弱まっているぞ！
+  cm_draft_frontal_enemy_1uniteliminated_text_00:
+    text: ヤツらの目的は貨物か？警備部隊、絶対に守りを破らせるな。
+  cm_draft_frontal_enemy_1uniteliminated_text_01:
+    text: 1機失った。これ以上は許されない！もう絶対に犠牲者を出すな、さもなくば司令部の耳に入ってしまうぞ。
+  cm_draft_frontal_enemy_3unitseliminated_text_00:
+    text: 激しい攻撃に曝されている...！複数機体を失ったと司令部に伝えろ！
+  cm_draft_frontal_enemy_3unitseliminated_text_01:
+    text: '...司令部に知らせねば...警備が破られた...パイロットたちが危険だ...！被害甚大！'
+  cm_draft_frontal_enemy_battlestart_text_00:
+    text: 警備隊、敵接近中！防御陣形を取り、脅威を排除しろ！
+  cm_draft_frontal_enemy_battlestart_text_01:
+    text: あれは...？警備隊、幻影旅団を付近に確認、急速に接近中！繰り返す、幻影旅団が接近中！
+  cm_draft_frontal_enemy_guerrilladown_text_00:
+    text: 敵支援機ダウン！圧力をかけ続けろ、警備隊。再集結させるな！
+  cm_draft_frontal_enemy_guerrilladown_text_01:
+    text: ヤツらの支援機のうち1機を倒したぞ。これで足止めできるはずだ。
+  cm_draft_frontal_enemy_pbpilotdown_text_00:
+    text: よくやった。全隊、火力を残る敵に集中させろ！
+  cm_draft_frontal_enemy_pbpilotdown_text_01:
+    text: 調子に乗るからこうなるのさ。生きてここから出られると思うなよ。
+  cm_draft_frontal_guerrillas_1tankdown_text_00:
+    text: 地上機1機がダウン。繰り返す、地上機ダウン。
+  cm_draft_frontal_guerrillas_1tankdown_text_01:
+    text: 司令官、背後を取られた。このまま攻撃されたら準備ができていない。
+  cm_draft_frontal_guerrillas_2tanksdown_text_00:
+    text: くそったれ...必ず思い知らせてやるんだ、そしてあの村人の相手をする、司令官...
+  cm_draft_frontal_guerrillas_2tanksdown_text_01:
+    text: 我々戦闘員はリスクを承知していた、司令官...あの村人を捕まえねばならぬ、何としても！
+  cm_draft_frontal_guerrillas_2tanksdown_text_02:
+    text: '...2機ダウン...司令官、これ以上戦車はありません。ご決断を。'
+  cm_draft_frontal_pb_2enemyeliminated_text_00:
+    text: ヤツらを追い詰めてます！あと少しです、ボス、あと少しで民間人の下にたどり着けます...
+  cm_draft_frontal_pb_pilotdown_text_00:
+    text: どうして...？司令官、こんな...こんな風に誰かを失うのはもう耐えられません。押し返しましょう！
+  cm_draft_frontal_pb_pilotejected_text_00:
+    text: パイロットは無事にホットゾーンから離れました、ボス！この後、至急パイロットと合流しなくては...
+  cm_draft_frontal_pb_tankdown_text_00:
+    text: ボス、ご存じのようにどんなときでも戦いが平行線をたどる場合はありますが、やはり祖国防衛軍に過度な負担をかけるべきではありません！
+  cm_draft_retry_enemy_1pilotdown_text_00:
+    text: ヤツらを復活させるんじゃないぞ、地上班！旅団を永遠に動けないようにしてやる、まさに今、ここで！
+  cm_draft_retry_enemy_battlestart_text_00:
+    text: ぬけぬけと戻ってきたのか？お前たちがそんなに物好きな働き者だってんなら、旅団、俺たちが喜んで残業させてやるよ！
+  cm_draft_retry_guerrillas_1allytankdown_text_00:
+    text: ここで死ぬわけにはいかない、こんな所で。何とか事態を好転させて村人の下にたどり着きましょう！
+  cm_draft_retry_guerrillas_3enemieseliminated_text_00:
+    text: 押し続けてください、司令官！もう近くです―村人たちを家族の下に還しましょう！
+  cm_draft_retry_guerrillas_battlestart_text_00:
+    text: 今回はアドバンテージがありません、司令官...厳しい戦いが予想されます。
+  cm_draft_stealth_enemy_1enemydown_text_00:
+    text: 偵察部隊はもう戻っているはずなのに！一体どこへ行った？
+  cm_draft_stealth_enemy_1enemydown_text_01:
+    text: クソ。少し驚いたが、今度は流れを変えねば！
+  cm_draft_stealth_enemy_3enemydown_text_00:
+    text: 偵察部隊は一体どこへ行った？！激しい攻撃を受けている！
+  cm_draft_stealth_enemy_3enemydown_text_01:
+    text: 報告します...偵察部隊が交戦しています...援軍は来ません！
+  cm_draft_stealth_enemy_battlestart_text_00:
+    text: なに、旅団はどこからやって来た？この地域は誰もいないとパトロールは言っていたぞ。
+  cm_draft_stealth_enemy_pilotdown_text_00:
+    text: 全隊、今日ここに現れたことを後悔させてやれ。部隊全員を出せ！
+  cm_draft_stealth_enemy_pilotdown_text_01:
+    text: 隠密攻撃かあれは...チッ。全隊いいか、残るメックに火力を集中させろ！
+  cm_draft_stealth_enemy_pilotejected_text_00:
+    text: よくやった、今や旅団は崖っぷちだぞ。
+  cm_draft_stealth_guerrillas_1enemyeliminated_text_00:
+    text: ヤツらはまだ我らを追っています、旅団。陽動は計画通りに進行中。
+  cm_draft_stealth_guerrillas_1enemyeliminated_text_01:
+    text: 旅団、陽動部隊がヤツらを釘付けにした。離脱の合図が来るまでここで引きつける！
+  cm_draft_stealth_guerrillas_1pilotdown_text_00:
+    text: 状況報告...なに？パイロットのひとりが？くそったれ...まだここで引きつけておくが、あまり時間は残っていないぞ！
+  cm_draft_stealth_guerrillas_1pilotdown_text_01:
+    text: そちらのパイロットが...？くそったれ。陽動部隊、圧力をかけ続けろ！旅団の部隊は形勢不利だ！
+  cm_draft_stealth_guerrillas_1pilotejected_text_00:
+    text: '...射出を...通信が...干渉を...旅団、もう時間がない...早く片付けてくれ！'
+  cm_draft_stealth_guerrillas_2enemieseliminated_text_00:
+    text: ヤツらは何が起きたかまだ気づいていないようだ、旅団。だが、私だったらそこには長居しないな。
+  cm_draft_stealth_guerrillas_2enemieseliminated_text_01:
+    text: 陽動部隊はまだ交戦を続けているが、圧力を受けている。これ以上は耐えられないぞ、旅団！
+  cm_draft_stealth_guerrillas_2enemieseliminated_text_02:
+    text: 陽動部隊が釘付けにしているが、すぐ村人救出に旅団が必要になる。
+  cm_draft_stealth_pb_2enemyeliminated_text_00:
+    text: ヤツらを警戒させてしまったようです、ボス！素早く始末して人々をあそこから救い出しましょう！
+  cm_draft_stealth_pb_pilotdown_text_00:
+    text: ボス、これ以上損害を被るわけにはいきません...ここには祖国防衛軍の支援もないですよ...！
+  cm_draft_stealth_pb_pilotejected_text_00:
+    text: あのパイロットのことは注視しています、司令官。彼らは無事に脱出したようです！
+  cm_exit_reinforcement_hold_text_00:
+    text: 掃討完了の信号を受信。降下部隊の発進が遅れている、現場の機体は、敵状況を確認せよ。
+  cm_exit_reinforcement_hold_text_01:
+    text: 活動が確認されなくなった。現場の機体は、敵状況を報告せよ。
+  cm_exit_reinforcement_hold_text_02:
+    text: 状況更新が必要、スキャンには活動が見られなくなった、降下部隊は待機中。やったか？
+  cm_exit_reinforcement_hold_text_03:
+    text: 降下部隊が大気中、スキャンには活動が見られなくなった。現場の機体は、反乱軍機の状況を報告せよ。
+  cm_ftue_base_hq_generatordestroyed_01_text_00:
+    text: ジェネレーターの破壊に成功しました、司令官。タレットは無力化したはずです。
+  cm_ftue_base_hq_intro_00_text_00:
+    text: 祖国防衛軍から優先情報：敵要塞には周辺タレットに給電する発電機あり。有利に戦うためこれを無力化されたし。
+  cm_ftue_base_hq_intro_00_text_01:
+    text: 設備 Echo-Whiskey が敵通信を妨害中です。増援到着前に掃討することをお勧めします。
+  cm_ftue_base_hq_intro_00_text_02:
+    text: こちら Magistrate 隊長、感度確認どうぞ。誰か、さっきのが聞こえたらコールサインを！至急、応援を求む。ウォーカー部隊と遭遇した。
+  cm_ftue_base_inv_intro_02_text_00:
+    text: こちら Magistrate 隊長、感度確認どうぞ。誰か、さっきのが聞こえたらコールサインを！至急、応援を求む。ウォーカー部隊と遭遇した。
+  cm_ftue_base_inv_reinforcement2turnsaway_00_text_00:
+    text: Magistrate 隊長、こちら Guardian-1、接触した座標をもう一度言ってください。感度は良好ですがズレてしまっているようです、どうぞ。
+  cm_ftue_base_inv_reinforcement2turnsaway_01_text_00:
+    text: Guardian-1、基地にヤツらがいるんだ！至急応援を求む、どうぞ！
+  cm_ftue_base_inv_reinforcement2turnsaway_02_text_00:
+    text: そんな報告は受けていません、 Magistrate 隊長。信号を介してあなたの座標を三角測量します、待機してください。
+  cm_ftue_base_inv_reinforcements_00_text_00:
+    text: Guardian-1 到着、反乱分子と交戦中。
+  cm_ftue_base_inv_reinforcements_01_text_00:
+    text: 感謝する Guardian-1！そちらと射線を調整する、終わり。
+  cm_ftue_base_pb_intro_01_text_00:
+    text: 設備 Echo-Whiskey が敵通信を妨害中です。増援到着前に掃討することをお勧めします。
+  cm_ftue_base_pb_retreatpossible_text_00:
+    text: ボス！撤退が必要な場合のために退却位置を確保してあります。座標を中継します、終わり。
+  cm_ftue_battlesite_hg_intro_01_text_00:
+    text: 旅団がいるぞ、お前ら。気合い入れて、良く狙え。俺たちでここから追い出すぞ。
+  cm_ftue_battlesite_inv_beamunitkilled_00_text_00:
+    text: おい、誰かビーム機に何が起きたか確認してくれ！
+  cm_ftue_battlesite_inv_beamunitkilled_01_text_00:
+    text: …誰か？誰か！？
+  cm_ftue_battlesite_pb_intro_00_text_00:
+    text: よしみんな、祖国防衛軍を支援してヤツらをここから追い出そう！
+  cm_ftue_battlesite_pb_unitlost_pb_text_00:
+    text: そんなふうに機体を失っていたら、祖国防衛軍を救えませんよ、司令官！
+  cm_ftue_patrol_inv_intro_01_text_00:
+    text: いずれにしても、機体の通信はそのまま続けてください。
+  cm_ftue_patrol_inv_vipdiesfirst_00_text_00:
+    text: 司令官、こちらは VIP を喪失。撤退許可願います、どうぞ。
+  cm_ftue_patrol_inv_vipdiesfirst_01_text_00:
+    text: …おい、通信がダメになったか！？
+  cm_ftue_patrol_inv_vipejected_text_00:
+    text: VIP が緊急脱出、通信がダウンした！バックアップ要請のため現地を確保せよ！
+  cm_ftue_patrol_pb_unitlost_pb_text_00:
+    text: 1機やられました！ボス、これ以上損失を出さぬよう脱出することをお勧めします。これ以上やっても無意味です…
+  cm_ftue_patrol_vip_escortejectsfirst_text_00:
+    text: 貴様、何をしている？[i]緊急脱出[/i]なぞするな、自分の司令官を守らんか！
+  cm_ftue_patrol_vip_escortsdiefirst_text_00:
+    text: 我が護衛を倒したくらいで良い気になるなよ、旅団！
+  cm_ftue_patrol_vip_intro_00_text_00:
+    text: 反乱軍は幻影旅団の噂にしがみついているのか、ああん？おとぎ話を信じていいのは子供だけだってことを教えてやろう。
+  cm_generic_hg_unitlost_hg_text_00:
+    text: 1機やられました、旅団！ヤツらを遠ざけてください！
+  cm_generic_hg_unitlost_hg_text_01:
+    text: 祖国防衛軍にとっても、状況はあまり良くないようです、司令官。1機やられています！
+  cm_generic_hg_unitlost_hg_text_02:
+    text: 司令官、祖国防衛軍機を喪失しています。応援を求む！
+  cm_generic_hg_unitlost_hg_text_03:
+    text: 一人やられた！エリア確保でき次第、負傷者後送を急いでくれ！
+  cm_generic_inv_alarm_destroyed_text_00:
+    text: ヤツら、警報を止めやがった。増援は来ない。いまは手を緩めるときじゃないぞ！
+  cm_generic_inv_generatordestroyed_text_00:
+    text: 防衛設備ダウン！？ちくしょう、発電機を狙われた！
+  cm_generic_inv_piloteject_inv_text_00:
+    text: 緊急脱出？どうしてそんなことに…？ヤツらは我々が来るとは思ってもみなかったはずだ！
+  cm_generic_inv_piloteject_inv_text_01:
+    text: 緊急脱出？貴様何を…弱点を見せるんじゃない！
+  cm_generic_inv_piloteject_inv_text_02:
+    text: プレッシャーをかけ続けろ、聞いてるか？緊急脱出なんて考えは[i]頭から捨てろ[/i]！
+  cm_generic_inv_piloteject_inv_text_03:
+    text: パイロット緊急脱出開始。くそったれ、そこで何が起きてるんだ？！
+  cm_generic_inv_piloteject_pb_text_00:
+    text: 緊急脱出開始。残った皆、[i]決して[/i]あの百姓どもに言いくるめられるなよ！
+  cm_generic_inv_piloteject_pb_text_01:
+    text: 緊急脱出警報を受信しました、候補生。各位、そこは早く片付けて、味方の支援に回ってください！
+  cm_generic_inv_piloteject_pb_text_02:
+    text: 敵パイロット1名が緊急脱出しました。そこにプレッシャーをかけ続けてください！
+  cm_generic_inv_unitlost_inv_text_00:
+    text: 皆、1機やられたと報告があった。[i]いますぐ[/i]旅団をここから追い出せ！
+  cm_generic_inv_unitlost_inv_text_01:
+    text: 1機やられたと報告が来ているぞ！しっかりしろ、さもなくば司令部から処罰が下るぞ。
+  cm_generic_inv_unitlost_inv_text_02:
+    text: ユニット・ダウン、ユニット・ダウン！残る全機、警戒されたし。
+  cm_generic_inv_unitlost_inv_text_03:
+    text: 敷地内でこれ以上やられるなんてことは[i]ない[/i]！残った全機、プレッシャーをかけるんだ！
+  cm_generic_pb_alarm_delay_text_00:
+    text: あの塔が見えるところへ！祖国防衛軍機の武器なら、数発であれを無力化できるはずです。
+  cm_generic_pb_alarm_firsthit_text_00:
+    text: あの塔にプレッシャーをかけ続けてください！あと少し、あと少しで無力化できます。
+  cm_generic_pb_alarm_target_text_00:
+    text: 警報塔に注目してください！あれを無力化しないと、敵増援が来てしまいます―それもすぐに。
+  cm_generic_pb_friendlystructure_destroyed_text_00:
+    text: そんなに熱くならないでください！民間の建物へのダメージは極力避けるようにしましょう、司令官。
+  cm_generic_pb_friendlystructure_destroyed_text_01:
+    text: そこ、気をつけてください！攻撃は民間の建物から離れたところにしてください！
+  cm_generic_pb_friendlystructure_destroyed_text_02:
+    text: 司令官、民間の建物へのダメージは最小限に抑えなくては。
+  cm_generic_pb_piloteject_pb_text_00:
+    text: メック、ダウン！メックが1機やられた！この次のひと押しに賭けよう。
+  cm_generic_pb_piloteject_pb_text_01:
+    text: 緊急脱出開始。だが、私たちはまだ負けてはいない！動けるみんな、これを乗り切ろう。
+  cm_generic_pb_piloteject_pb_text_02:
+    text: パイロット緊急脱出！だが、戦いはまだ続いている。ここは大切に行こう！
+  cm_generic_pb_piloteject_pb_text_03:
+    text: パイロット緊急脱出！力を合わせて、みんな！私達ならやれる！
+  cm_generic_pb_piloteject_pb_text_04:
+    text: パイロット緊急脱出しました、司令官。残っているみんな―まだ戦いは終わっていないぞ！
+  cm_generic_pb_unitlost_hg_text_00:
+    text: 祖国防衛軍機、喪失。だが集中しろ！味方をやらせるわけにはいかない。
+  cm_generic_pb_unitlost_hg_text_01:
+    text: 味方がダウン！気をつけるんだ、司令官！
+  cm_generic_pb_unitlost_hg_text_02:
+    text: 祖国防衛軍の損失を許す訳にはいかない！敵メックよりうまく立ち回るんだ！
+  cm_generic_pb_unitlost_hg_text_03:
+    text: 祖国防衛軍の機体がやられていく。味方のバックアップを、司令官！
+  cm_generic_pb_unitlost_pb_text_00:
+    text: 1機喪失。私たちは前進し続けなくちゃいけません、司令官。ここいる人々は私たちを頼りにしているんです。
+  cm_generic_pb_unitlost_pb_text_01:
+    text: 1機やられました！旅団各員へ、流れを変えましょう。
+  cm_generic_pb_unitlost_pb_text_02:
+    text: 1機やられたと報告があった！お互い気をつけるんだ、みんな！
+  cm_generic_pb_unitlost_pb_text_03:
+    text: くそ、1機やられました、司令官。絶対これで最後にしましょう！
+  cm_liberation_destroyed_text_00:
+    text: 歴史的建造物のひとつが修復できないほど破壊されてしまいました。民間人は嫌がるでしょうね。
+  cm_liberation_warning_text_00:
+    text: 気をつけて、民間の主要地点を傷つけないようにしてください。そこを守るために来たことをお忘れなく。
+  cm_looting_increment_end_text_00:
+    text: これで、クレートがロックオンされました。ドローンのセットが完了したのですぐに降下するはずです。
+  cm_looting_increment_start_text_00:
+    text: ドローンはクレートの場所を大まかに把握していますが、確実にピックアップするために再度ピンを打つ必要があります。これが完了するまでその場所に留まってください。
+  cm_meteorite_secured_text_00:
+    text: お見事です、司令官。この隕石にあるものを探しに回収要員が出動します。
+  cm_mid_reinforcement_first_text_00:
+    text: ブラボー1、後退して再集結せよ、ここから主導権を掴む。ヤツらは数的優位にあるが、手短に終わらせよう。まもなく別グループが到達するに違いない。
+  cm_mid_reinforcement_first_text_01:
+    text: 部隊が減速中、到着予定時間まであと3秒。レーダーに敵影が残っている場合はすぐに別部隊が降下する、すぐに取り掛かろう。
+  cm_mid_reinforcement_first_text_02:
+    text: 着陸地点に接近中、あと少しだけ耐えてくれ。もし我々がすぐにこれを撃退できない場合は別部隊も準備に入る。
+  cm_mid_reinforcement_first_text_03:
+    text: 反乱軍を視認、着陸予定時間まであと3秒。別グループもまもなく着陸するはずだ。
+  cm_mid_reinforcement_last_text_00:
+    text: シエラ2到着。こんな所で何に手こずっている？ヤツらを囲んでとどめを刺せ。
+  cm_mid_reinforcement_last_text_01:
+    text: 減速中。側面を突いてとどめを刺そう。
+  cm_mid_reinforcement_last_text_02:
+    text: なんてしつこい奴らだ。司令部はこれ以上現地に降下部隊を割かないから何とかこれを乗り越えよう。
+  cm_mid_reinforcement_last_text_03:
+    text: 降下する。司令部が焦り始めている、これを乗り越えてやり遂げよう。
+  cm_mid_replanning_camp_text_00:
+    text: '反乱軍が守備隊を壊滅させた、もっと良い進入角度に戦略的再配置が必要だ。 '
+  cm_mid_replanning_camp_text_01:
+    text: 反乱軍が守備隊を壊滅させた、戦術プランを更新する必要がある。
+  cm_mid_replanning_squad_text_00:
+    text: '反乱軍機が現地の軍を壊滅させた、もっと良い進入角度に戦略的再配置が必要だ。 '
+  cm_mid_replanning_squad_text_01:
+    text: 反乱軍機が現地の軍を壊滅させた、戦術プランを更新する必要がある。
+  cm_radio_home_guard_active_text_00:
+    text: 着陸地点に接近中、5秒後に着陸する！共に闘えて嬉しい、司令官！
+  cm_retreat_end_text_00:
+    text: 司令官、基地を撤退させる必要があったため、しばらく部隊を回収することができません。
+  cm_retreat_possible_negative_text_00:
+    text: 司令官、基地が周囲を巡回しました。必要なら部隊を回収する準備はできています。しかしその場合、現地は敵に掌握されます。
+  cm_retreat_possible_positive_text_00:
+    text: 司令官、基地は部隊を回収する準備ができました。こちらで敵守備隊の通信を傍受していますが、彼らは現在防衛対象を失い、エリアからの逃走を計画しているようです。
+  cm_start_reinforcement_request_text_00:
+    text: 司令部、反乱軍機が有視界に侵入。こちらは数的不利だ、できるだけ早く即応チームを要請する！
+  cm_start_reinforcement_request_text_01:
+    text: 敵味方識別装置の反応はネガティブ、敵として扱う。ただちに増援を要請する！
+  cm_start_reinforcement_request_text_02:
+    text: 識別信号なし、標的はなおも接近中。増援が必要だ！
+  cm_start_reinforcement_request_text_03:
+    text: 反乱軍機を視認、ただちに増援を要請。これは早くしよう。
+  cm_start_reinforcement_request_text_04:
+    text: 射程内に反乱軍機、交戦する。バックアップを要請する。
+  cm_start_reinforcement_request_text_05:
+    text: コード・レッド、敵機と接触。全機、最適な距離を保ち増援を待て。
+  cm_start_reinforcement_request_text_06:
+    text: 敵味方識別装置はネガティブ、射程内に敵が侵入！各個交戦せよ、増援がすぐに来るはずだ。
+  cm_start_reinforcement_request_text_07:
+    text: ほら見ろ。絶好のタイミングだ、大型機がもう一度通過しようとしている。我々の進路をバックアップしてくれるだろうから狼狽えずにもうしばらく待て。
+  cm_unique_capital_01_standingarmy_c0_header:
+    text: 傍受 / パトロール
+  cm_unique_capital_01_standingarmy_c0_text_00:
+    text: 最高司令部から0.5キロの位置に驚異の高い兆候を検知しています。すでに増援が進行中のはずですから、境界線警報に引っかかったに違いありません。他の皆が到着する前に、急いでこれに対処しましょう。
+  cm_unique_capital_02_support_c0_header:
+    text: 傍受 / 即応部隊
+  cm_unique_capital_02_support_c0_text_00:
+    text: 応援が到着。早くこれを済ませて、お偉方に出て来る必要はないと教えてやろう。
+  cm_unique_capital_03_specops_c0_header:
+    text: 傍受 / リーダー（支援部隊）
+  cm_unique_capital_03_specops_c0_text_00:
+    text: 出撃、全機始末しろ。誰も生きて帰すな、ここに来たことが間違いだと教えねばならん。
+  cm_unique_capital_04_experimental_c0_header:
+    text: 直通回線 / リーダー（実験部隊）
+  cm_unique_capital_04_experimental_c0_text_00:
+    text: 嗚呼、かの有名な旅団じゃないか。あなたたちのウォーカーを解剖できる日を楽しみにしていたよ。そのパイロットを一掃しなくてはならばいが、なに心配はいらない、時間はかからないさ。
+  cm_unique_capital_05_recruits_c0_header:
+    text: 傍受 / リーダー（予備軍）
+  cm_unique_capital_05_recruits_c0_text_00:
+    text: 増援はどこなんだ？現地の守備隊はほとんど出払っているが、いつになったら我々の部隊を助けに来るんだ？
+  cm_unique_capital_06_boss_c0_header:
+    text: 直通回線 / 大将
+  cm_unique_capital_06_boss_c0_text_00:
+    text: もう沢山だ。お前がこの街にしたことをその目に焼き付けて、祈るんだな。
+  cm_unique_mountainbase_wave_00_commander_text_00:
+    text: アドバイスしてもよろしいですか。敵は有利な位置にいます。遮蔽物を活かして距離を詰め、増援が来る前に弱い機体へ火力を集中、ただし同士討ちには気をつけてくださいね。
+  cm_unique_mountainbase_wave_00_guard_c0_text_00:
+    text: ブラボー1、西から接近するメック2機を視認。ただちに支援を要請。こちらの敵味方識別装置の反応はネガティブ、これらのウォーカーを敵として扱う。
+  cm_unique_mountainbase_wave_00_guard_c1_text_00:
+    text: ラジャー、出撃する。少しかかりそうだ、この場所は崩落していてエレベーターもチンタラしている。
+  cm_unique_mountainbase_wave_00_intro_text_00:
+    text: 無傷のクローラーがあんな所に！？お宝発見ってヤツじゃないか―ついに、錆びついたメックを修理、換装する良い手が見つかったな。試しにひとっ走りさせたいぜ。
+  cm_unique_mountainbase_wave_01_advantage_text_00:
+    text: 敵は混乱しています。メック背部に露出したポッドを撃ってください。敵パイロットが気絶しやすくなります。炎上大破していないほうが、技術クルーの回収作業も早くなります。
+  cm_unique_mountainbase_wave_01_alarm_c0_text_00:
+    text: 交戦中。相手をしつつ司令部に報告しよう―ここではしばらくの間何の活動も無かったはずだ、このウォーカーが何者かまったくわからん。
+  cm_unique_sky_stronghold_00_start_c0_text_00:
+    text: ブラボー1、デッキに着陸する未確認のメックを視認。何が起きている？滑走路を塞がれて友軍機が着陸できん、ただちに対処するんだ。
+  cm_unique_sky_stronghold_00_start_c1_text_00:
+    text: 'ラジャー、交戦する。ゴミは元来た場所に戻してやろう。 '
+  cm_unique_sky_stronghold_01_wave_c0_text_00:
+    text: 交戦中。相手をしつつ司令部に報告しよう―ここではしばらくの間何の活動も無かったはずだ、このウォーカーが何者かまったくわからん。
+  cm_unique_tutorial_intro_01_greeting_c0_text_00:
+    text: 昨夜、町の通信が失われたためここから0.5キロ北にある電波塔の様子を見に行ってもらいたい。
+  cm_unique_tutorial_intro_01_greeting_c1_text_00:
+    text: 今日は早くから引き留めてすまない中尉、だが確認は手短に済ませたい。
+  cm_unique_tutorial_intro_03_move2_c0_text_00:
+    text: そうだ、これは新装備試験ほど楽しいものではないが、我々は期待を背負っている。さぁ移動するぞ！
+  cm_unique_tutorial_intro_03_move2_c1_text_00:
+    text: なぁ中尉、私の装備はまだプロトタイプのインストール中だから、追いつくまで先走らないでほしい！
+  cm_unique_tutorial_intro_04_discovery_c0_text_00:
+    text: ヤツらは何に手こずっているんだ？よし、もう少し偵察できないか試してみよう。お前の装備にインストールされたその新ピカ装置を起動して、あれが何でできているか見てみよう。
+  cm_unique_tutorial_intro_04_discovery_c1_text_00:
+    text: こちらHQ。できません、司令官。追って連絡があるまで修理部隊は手が離せません。待機してください...
+  cm_unique_tutorial_intro_04_discovery_c2_text_00:
+    text: 'うわぁ！ここで何があったんだ？[00]....................[ff]
+
+      くそ、おそらく暴徒の仕業だ[00]..........[ff]
+
+      HQ、こちら特殊作戦ブラボー部隊、応急修理部隊を求む、どうぞ'
+  cm_unique_tutorial_intro_06_prediction_explainer_c0_text_00:
+    text: 理論上、このプロトタイプは少し先の未来を予測することができるが、これは戦場で計り知れないアドバンテージとなる。これは戦争を永遠に変え得るが、我々が握っている限り市民は安全だ。
+  cm_unique_tutorial_intro_07_prediction_flank_c0_text_00:
+    text: 私が電波塔の側面を偵察しに行く。そいつの暖機が済んだら、私の移動先が確認できるはずだから反対側に周ってくれ。
+  cm_unique_tutorial_intro_08_tank_appears_c0_text_00:
+    text: 'HQ、地点2-SBR-1-5で未確認の非協力的な戦車と遭遇。 [00].........................................[ff]
+
+      確認を求む、どうぞ。
+
+      [aa]*無線ノイズ*[ff][00]......................[ff]
+
+      HQ、確認を、どうぞ。'
+  cm_unique_tutorial_intro_08_tank_appears_c1_text_00:
+    text: 未確認の戦車だと... それに中継器が無い？これは一体？抜き打ち演習か？
+  cm_unique_tutorial_intro_09_tank_plans_c0_text_00:
+    text: 中尉！戦車の動力炉から熱源反応を検知した！プロトタイプを確認しろ...戦車が少しでも動いたら、無力化しろ。
+  cm_unique_tutorial_intro_10_skirmish_reaction_c0_text_00:
+    text: いい読みだ。くらったが、ただのすり傷だ。
+  cm_unique_tutorial_intro_11_skirmish_cover_c0_text_00:
+    text: 何？北から複数の目標を確認。なんてこった、そんなはずが。隠れろ。隠れるんだ！
+  cm_unique_tutorial_intro_12_skirmish_final_c0_text_00:
+    text: 'HQ、応答してくれ！
+
+      HQ、聞こえるか？'
+  cm_unique_tutorial_intro_12_skirmish_final_c1_text_00:
+    text: ラジャー！出撃する！
+  cm_unique_tutorial_intro_12_skirmish_final_c2_text_00:
+    text: 敵対勢力と認定、これは演習ではない！迎撃しろ、町を守れ、いま向かっている！
+  cm_unique_tutorial_intro_12_skirmish_final_c3_text_00:
+    text: 司令官！前方斜面に複数目標が出現、武装準備完了！
+  cm_unique_tutorial_intro_12_skirmish_final_c4_text_00:
+    text: これは戦争ゲームではない...
+  cm_unique_tutorial_intro_14_siege_hints_c0_text_00:
+    text: 'ウォーカー1機と車両複数が接近中！
+
+      覚えておけ、最悪の場合は試作機を回収されないように自爆装置をセットして完全に破壊するんだ！
+
+      何があっても、脱出地点R09で合流しよう！'
+  src_enemy_commander_direct_header:
+    text: 将軍[aa]【直通】
+  src_enemy_commander_intercepted_header:
+    text: 将軍[aa]【傍受】
+  src_enemy_dropship_header:
+    text: ドロップシップ[aa]【傍受】
+  src_enemy_elite_direct_header:
+    text: 敵[aa]【直通】
+  src_enemy_elite_intercepted_header:
+    text: 敵[aa]【傍受】
+  src_enemy_generic_intercepted_header:
+    text: 敵[aa]【傍受】
+  src_friendly_mobilebase_header:
+    text: 移動基地
+  src_friendly_tutorial_cadet_header:
+    text: 候補生
+  src_friendly_tutorial_commander_header:
+    text: 司令官
+  src_neutral_event_director_header:
+    text: 監督

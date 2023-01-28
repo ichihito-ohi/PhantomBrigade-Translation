@@ -1,0 +1,9 @@
+entries:
+  block_escalation__header:
+    text: スキャン阻止
+  block_escalation__text:
+    text: 敵のセンサーに干渉し、敵が現在のエスカレーション・レベルに適した戦力を出撃させることを防ぎます。高エスカレーション・レベルの州で敵と遭遇したときに有用です。
+  block_reinforcements__header:
+    text: 増援阻止
+  call_home_guard__header:
+    text: 救難信号

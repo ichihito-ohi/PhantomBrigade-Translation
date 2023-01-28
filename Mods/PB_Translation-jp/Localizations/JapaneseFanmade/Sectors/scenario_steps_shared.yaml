@@ -1,0 +1,41 @@
+entries:
+  generic_breakin_clenup_text:
+    text: 貯蔵庫が確保され敵はすべて排除された。続行しろ。
+  generic_breakin_objective_text:
+    text: 増援が到着する前に貯蔵庫入口を確保して敵を排除しろ。
+  generic_eliminate_before_reinforcements_text:
+    text: 増援が到着する前に敵をすべて殲滅しろ。
+  generic_eliminate_isolated_generic_text:
+    text: すべての敵を殲滅しろ。
+  generic_eliminate_isolated_site_text:
+    text: すべての敵を殲滅してこの拠点を制圧しろ。
+  generic_eliminate_nonspecific_text:
+    text: すべての敵を殲滅しろ。
+  generic_hitandrun_earlyexit_text:
+    text: 敵が増援を呼ぶ前に撤退して手堅く勝利しろ。
+  generic_hitandrun_late_text:
+    text: 敵の増援が到着した。すべての敵を排除しない限り、この拠点は敵が掌握したままになる。
+  generic_looting_cleanup_text:
+    text: 物資をすべて奪取しました。現在、現地を掌握しています。機体を撤収させるか、より多くの装備を得るチャンスのために残りの敵と交戦しましょう。
+  generic_looting_intro_text:
+    text: 確保のために機体をマークされたエリアに移動しろ。
+  generic_objective_header:
+    text: 任務状況
+  generic_unknown_header:
+    text: 情報なし
+  generic_unknown_text:
+    text: HQとのアップリンク確立に失敗：現在、任務情報は使用不能。
+  unique_capital_header:
+    text: 首都解放
+  unique_defector_eliminate_text:
+    text: すべての敵を殲滅してこの拠点を制圧し、亡命者を救出しろ。
+  unique_stronghold_text:
+    text: すべての敵を殲滅してこの要塞を制圧しろ。細心の注意を払え。
+  unique_tutorial_contact_text:
+    text: 未確認車両に対処しろ
+  unique_tutorial_heading_header:
+    text: 出動
+  unique_tutorial_investigate_header:
+    text: 調査
+  unique_tutorial_outage_text:
+    text: 国境の前線基地からの通信が途絶えた。問題を調査しろ。
